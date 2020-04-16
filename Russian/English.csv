@@ -30,188 +30,188 @@
 # For this reason I suggest to keep names of Brace Stone and Nicholas Merryland 
 # unchanged. Anonymous racer only appears in introduction cutscene.
 
-char.brace.name,Brace Stone
-char.brace.job,Vice President of Diversity
-char.brace.job_short,VP of Diversity
+char.brace.name,Брэйс Стоун
+char.brace.job,Вице-призедент Культурного Разнообразия
+char.brace.job_short,ВП разнообразия
 
-char.nic.name,Nicholas Merryland
-char.nic.job,Director of Bloody Rally Show
-char.nic.job_short,Director
+char.nic.name,Николас Меррилэнд
+char.nic.job,Директор Bloody Rally Show
+char.nic.job_short,Директор
 
-char.anon.name,Anonymous Racer
-char.anon.job,Racer
-char.anon.job_short,Racer
+char.anon.name,Анонимный гонщик
+char.anon.job,Гонщик
+char.anon.job_short,Гонщик
 
 # Generic Terms (keep short)
 
-term.car,Car
-term.track,Trac
-term.lap,Lap
-term.lap_percent,Lap%
-term.laps,Laps
-# Abbreviate to max 5 characters, or keep "Best"
-term.best,Best
+term.car,Машина
+term.track,Трэк
+term.lap,Круг
+term.lap_percent,%круга
+term.laps,Круги
+"# Abbreviate to max 5 characters, or keep ""Best"""
+term.best,Луч-й
 # Max 10 characters
-term.best_lap,Best Lap
+term.best_lap,Луч-й круг
 # As in person name
-term.name,Name
-term.human,Human
-# Just keep "AI" if your language does not have a very popular abbreviation for Artificial Intelligence
-term.ai,AI
-term.week,Week
-term.stage,Stage
-term.season,Season
-term.special,Special
-term.pending,Pending
-term.points,Points
-term.drifts,Drifts
-term.mode,Mode
-term.battle,Battle
-term.car_battle,Car Battle
-term.time_attack,Time Attack
-term.race,Race
-term.time_limit,Time Limit
-term.time_scale,Time Scale
-term.distance,Distance
-term.weapons,Weapons
-term.time,Time
-term.mission,Mission
-# If word "fee" is long in your language, just keep both entry_fee and retry_fee as "fee"
-term.entry_fee,Entry Fee
-term.retry_fee,Retry Fee
-term.generating,Generating
-term.available,Available
-term.locked,Locked
-term.owned,Owned
-term.lost,Lost
+term.name,Имя
+term.human,Человек
+"# Just keep ""AI"" if your language does not have a very popular abbreviation for Artificial Intelligence"
+term.ai,ИИ
+term.week,Неделя
+term.stage,Стадия
+term.season,Сезон
+term.special,Специальный
+term.pending,Ожидается
+term.points,Очки
+term.drifts,Дрифты
+term.mode,Режим
+term.battle,Бой
+term.car_battle,Бой Машин
+term.time_attack,Гонка на Время
+term.race,Гонка
+term.time_limit,Лимит Времени
+term.time_scale,Шкала Времени
+term.distance,Дистанция
+term.weapons,Оружия
+term.time,Время
+term.mission,Задание
+"# If word ""fee"" is long in your language, just keep both entry_fee and retry_fee as ""fee"""
+term.entry_fee,Цена Входа
+term.retry_fee,Цена Повтора
+term.generating,Идёт генерация
+term.available,Открыто
+term.locked,Заблокированно
+term.owned,Имеется
+term.lost,Потерянно
 # This has to be super short!
-term.lvl_to_go,{0} Lvl to go
-term.required_level,Req Lvl
-# Short for Points (max 3 chars or keep "pts")
-term.pts,pts
-term.cash,Cash
-# Short for Experience Points. If your language does not have a well know acronym for this, keep "XP"
+term.lvl_to_go,Ёщё {0} ур-ней
+term.required_level,Нужный ур-ень
+"# Short for Points (max 3 chars or keep ""pts"")"
+term.pts,очк
+term.cash,Деньги
+"# Short for Experience Points. If your language does not have a well know acronym for this, keep ""XP"""
 term.xp,XP
-# Short for position. Keep "Pos" if you can't find a good alternative
-term.pos,Pos
+"# Short for position. Keep ""Pos"" if you can't find a good alternative"
+term.pos,Место
 # Noun - number of people killed (keep short, abbreviate if necessary)
-term.kills,Kills
-# Noun - number of cars fragged (reference to Quake). Keep as "Frags" in your alphabet. Max 5 characters.
-term.frags,Frags
-term.damage,Damage
-# Short from "damage", Keep "dmg" if you cannot get this to less than 6 characters.
-term.dmg,Dmg
-term.racer,Racer
-term.ped,Pedestrian
-term.he,he
-term.she,she
-term.mr,Mr.
+term.kills,Убийств
+"# Noun - number of cars fragged (reference to Quake). Keep as ""Frags"" in your alphabet. Max 5 characters."
+term.frags,Фраги
+term.damage,Урон
+"# Short from ""damage"", Keep ""dmg"" if you cannot get this to less than 6 characters."
+term.dmg,Урон
+term.racer,Гонщик
+term.ped,Пешеход
+term.he,он
+term.she,она
+term.mr,Мр.
 # Ms is between Miss and Mrs 
-term.ms,Ms.
-term.resurrect,Resurrect
-term.progress,Progress
-term.attempt,Attempt
-term.tips,Tips
-term.difficulty,Difficulty
+term.ms,Мс.
+term.resurrect,Возродиться
+term.progress,Прогресс
+term.attempt,Попытка
+term.tips,Подсказки
+term.difficulty,Сложность
 
 # Generic buttons (keep short)
 
-btn.back,Back
-btn.continue,Continue
-btn.apply,Apply
-btn.close,Close
-btn.refresh,Refresh
-btn.random,Random
-btn.randomize,Randomize
-btn.main_menu,Main Menu
-btn.save,Save
-btn.cancel,Cancel
-btn.delete,Delete
-btn.edit,Edit
-btn.garage,Garage
-btn.generate,Generate
-btn.regenerate,Regenerate
-btn.buy,Buy
-btn.select,Select
-btn.paint,Paint
-btn.switch,Switch
-btn.confirm,Confirm
-btn.change,Change
-btn.skip,Skip
-btn.next_page,Next Page
-btn.prev_page,Previous Page
-btn.disable_tips,Disable Tips
+btn.back,Назад
+btn.continue,Продолжить
+btn.apply,Применить
+btn.close,Закрыть
+btn.refresh,Обновить
+btn.random,Случайно
+btn.randomize,Случайное
+btn.main_menu,Главное Меню
+btn.save,Сохранить
+btn.cancel,Отменить
+btn.delete,Удалить
+btn.edit,Изменить
+btn.garage,Гараж
+btn.generate,Сгенерировать
+btn.regenerate,Регенерировать
+btn.buy,Купить
+btn.select,Выбрать
+btn.paint,Покрасить
+btn.switch,Переключиться
+btn.confirm,Подтвердить
+btn.change,Изменить
+btn.skip,Пропустить
+btn.next_page,След. Страница
+btn.prev_page,Пред. Страница
+btn.disable_tips,Отключить 
 
 # Keep these very short. On / off can be translated same as yes / no to keep them shorter
 
-btn.on,On
-btn.off,Off
-btn.yes,Yes
-btn.no,No
-btn.ok,OK
-btn.all,All
+btn.on,Вкл
+btn.off,Выкл
+btn.yes,Да
+btn.no,Нет
+btn.ok,ОК
+btn.all,Все
 
 # Main Menu 
 
-main_menu.btn.campaign,Campaign
-main_menu.btn.custom_race,Custom Race
-main_menu.btn.editors_mods,Editors & Mods
-main_menu.btn.daily_challenge,Daily Challenge
-main_menu.btn.leaderboards,Leaderboards
-main_menu.btn.achievements,Achievements
-main_menu.btn.settings,Settings
-main_menu.btn.about,About
-main_menu.btn.quit,Quit
-main_menu.label.whats_new,What's New
+main_menu.btn.campaign,Кампания
+main_menu.btn.custom_race,Своя Гонка
+main_menu.btn.editors_mods,Редакторы и Моды
+main_menu.btn.daily_challenge,Ежедневное Испытание
+main_menu.btn.leaderboards,Таблицы Лидеров
+main_menu.btn.achievements,Достижения
+main_menu.btn.settings,Настройки
+main_menu.btn.about,Об игре
+main_menu.btn.quit,Выйти
+main_menu.label.whats_new,Новости
 
 # Main Menu => Campaign
 
-campaign.btn.continue,Continue
-campaign.btn.new,New
-campaign.btn.load,Load
-campaign.saves,Saves
-campaign.no_saves,No Saves
-campaign.btn.tips,Tips
-campaign.dialogue.cannot_continue,You cannot continue this campaign, it is already finished!
+campaign.btn.continue,Продолжить
+campaign.btn.new,Новая
+campaign.btn.load,Загрузить
+campaign.saves,Сохранения
+campaign.no_saves,Нет сохранений
+campaign.btn.tips,Подсказки
+campaign.dialogue.cannot_continue,Нелья продолжить кампанию, после того как её завершили!
 
-campaign.difficulty,Difficulty
-campaign.difficulty.easy,Easy
-campaign.difficulty.normal,Normal
-campaign.difficulty.hard,Hard
-campaign.difficulty.hardcore,Hardcore
-campaign.difficulty.locked.tip,Required racer level: {0}
-campaign.difficulty.dialogue.locked,The level of difficulty you have selected is locked. Reach racer level {0} in easier difficulty to unlock it.
+campaign.difficulty,Сложность
+campaign.difficulty.easy,Просто
+campaign.difficulty.normal,Средне
+campaign.difficulty.hard,Сложно
+campaign.difficulty.hardcore,Хардкор
+campaign.difficulty.locked.tip,Нужен уровень чтобы разблокировать: {0}
+campaign.difficulty.dialogue.locked,Уровень сложности который ты выбрал пока ещё закрыт. Достигни {0} уровня на более простых сложностях чтобы разблокировать.
 
 campaign.name,Campaign Name
 
-campaign.missions_challenges,Missions & Challenges
-campaign.missions_challenges.tip,Some stages would have random missions or challenges
-campaign.races_with_weapons,Races With Weapons
-campaign.races_with_weapons.tip,Some race tracks will have zones that give weapons or powerups
-campaign.directors_car,Director's Car
-campaign.directors_car.tip,Director Nicholas would be driving in his limo causing mayhem. Adds difficulty.
-campaign.helicopter_weapons,Helicopter Weapons
-campaign.helicopter_weapons.tip,Brace's helicopter would sometimes have weapons and shoot racers. Adds difficulty.
-campaign.adaptive_ai,Adaptive AI
-campaign.adaptive_ai.tip,AI Racers would get better or worse over time depending on how well you are doing
-campaign.weekly_rebalance,Weekly Rebalance
-campaign.weekly_rebalance.tip,Once a week AI racers may get extra XP and Cash. Adds difficulty.
-campaign.custom_content,Custom Tracks and Cars
-campaign.custom_content.tip,Will include tracks and cars built by you
-campaign.workshop_content,Workshop Tracks and Cars
-campaign.workshop_content.tip,Include tracks and cars you have subscribed on Steam Workshop
-campaign.allow_heavy_tracks,Allow Object-Heavy Tracks
-campaign.allow_heavy_tracks.tip,Include Custom / Workshop tracks that have high object density that could negatively impact performance
+campaign.missions_challenges,Задания и Испытания
+campaign.missions_challenges.tip,У некоторых стадий есть случайные миссии или испытания
+campaign.races_with_weapons,Гонки с Оружием
+campaign.races_with_weapons.tip,У некоторых трэков будут зоны, выдающие оружие или улучшения
+campaign.directors_car,Машина Директора
+campaign.directors_car.tip,Директор Николай будет кататься на своём лимузине, создавая хаос. Делает игру сложнее.
+campaign.helicopter_weapons,Пушки у вертолёта
+campaign.helicopter_weapons.tip,У вертолёта Брэйса иногда будет оружие, и он будет стрелять им в гонщиков. Добавляет сложность.
+campaign.adaptive_ai,Адаптивный ИИ
+campaign.adaptive_ai.tip,Гонщики под контролем ИИ будут становиться лучше или хуже, в зависимости от того, насколько хорошо вы справляетесь.
+campaign.weekly_rebalance,Недельный Ребаланс
+campaign.weekly_rebalance.tip,Раз в неделю, гонщики под управлением ИИ будут получать XP или деньги. Добавляет сложность.
+campaign.custom_content,Пользовательские трэки
+campaign.custom_content.tip,Кампания будет включать треки которые вы построили
+campaign.workshop_content,Машины и Трэки из Мастерской
+campaign.workshop_content.tip,Кампания будет включать трэки из Мастерской Стима
+campaign.allow_heavy_tracks,Позволять Трэки с большим количеством объектов
+campaign.allow_heavy_tracks.tip,Кампания будет включать трэки из Мастерской и трэки пользователя, в которых имеется большое количество объектов. Негативно влияет на производительность
 
-campaign.btn.start_new,Start New Campaign
+campaign.btn.start_new,Начать новую кампанию
 
 # Main Menu => Custom Race
 
-custom_race.btn.continue_session,Continue Session
-custom_race.btn.new_session,New Session
-custom_race.btn.random_time_attack,Quick Time Attack
-custom_race.btn.random_race,Quick Race
-custom_race.btn.random_battle,Quick Battle
+custom_race.btn.continue_session,Продолжить Игру
+custom_race.btn.new_session,Новая Игра
+custom_race.btn.random_time_attack,Случайная Гонка на Время
+custom_race.btn.random_race,Случайная Гонка
+custom_race.btn.random_battle,Быстрая Битва
 
 # Main Menu => Editors & Mods
 
@@ -251,7 +251,7 @@ leaderboard.btn.race_now.tip,Race to set your lap time with selected track and c
 leaderboard.no_score.race_now,You haven't set a score yet. Race now to set it!
 leaderboard.no_steam_connection,Steam connection is not available<br><br>Leaderboards will not work
 leaderboard.btn.time_attack,Time Attack
-leaderboard.time_attack.tip,Track lap time leaderboards. Use "Custom Race" with "Time Attack" mode to set yours.
+"leaderboard.time_attack.tip,Track lap time leaderboards. Use ""Custom Race"" with ""Time Attack"" mode to set yours."
 leaderboard.refresh.tip,Reload scores directly from Steam
 
 # Leaderboard Names
@@ -339,7 +339,7 @@ settings.visuals.minimap_pos.right,Right
 # Settings -> Gameplay
 
 settings.gameplay.show_tips,Show Tips
-# FOR TRANSLATORS: Please translate as "Show Cutscenes (English Only)"
+"# FOR TRANSLATORS: Please translate as ""Show Cutscenes (English Only)"""
 settings.gameplay.show_cutscenes,Show Cutscenes
 settings.gameplay.show_speech_bubbles,Show Speech Bubbles
 settings.gameplay.enable_censorship,Censor Insulting Words
@@ -511,7 +511,7 @@ dash.next_season,Next Season
 dash.game_over,Game Over
 dash.buy_freedom,Buy Freedom<br><size=75%>${0}</size>
 dash.players,Players
-# It will be in a button, so could be just "All"
+"# It will be in a button, so could be just ""All"""
 dash.all_racers,All Racers
 
 dash.maxed_out,Maxed Out
@@ -558,7 +558,7 @@ dash.set_for_everyone,Set For Everyone
 dash.car,Car
 dash.racers,Racers
 dash.search_for_track,Search for Track
-dash.randomize_prompt,Click "Generate"<br>To randomize some tracks
+"dash.randomize_prompt,Click ""Generate""<br>To randomize some tracks"
 dash.race_options,Race Options
 dash.race_mode,Race Mode
 dash.demo_mode,Demo Mode
@@ -1071,11 +1071,11 @@ ced.exhaust_pos,Exhaust Position
 cut.lore.1,Hey! Aren't you that famous racer who got into a major accident {0} years ago? I know you've been in cryo-sleep since {1}, so let me bring you up to speed.
 # {0} is a date
 cut.lore.2,There was this highly successful technology corporation, one you should know about, I just canвЂ™t remember its original name right now. It eliminated its competition and took control of the global economy back in {0}.
-# You should probably keep "Social Frontier of Activism" and SOFACT unchanged in your translation, for authenticity (company was not local after all)
-cut.lore.3,Instead of seeking scientific discoveries, the corporation had been strangling itself with increasingly complex internal policies. At some point they renamed it to "Social Frontier of Activism", or SOFACT.
+"# You should probably keep ""Social Frontier of Activism"" and SOFACT unchanged in your translation, for authenticity (company was not local after all)"
+"cut.lore.3,Instead of seeking scientific discoveries, the corporation had been strangling itself with increasingly complex internal policies. At some point they renamed it to ""Social Frontier of Activism"", or SOFACT."
 cut.lore.4,But eventually human nature took over. Activists were eliminated by force during an unexpected hostile takeover, and SOFACT, while still appearing as a friendly organization, now belongs to old school knuckleheaded thugs.
-# Please do not translate "Bloody Rally Show", or included it into parentheses next to translation. Example: "Kruvinojo Ralio Е ou" (Bloody Rally Show)
-cut.lore.5,New leaders focused on profits. They kept investing into entertainment to maximize ad revenue, and "Bloody Rally Show" happens to be the entertainment of choice for most people these days.
+"# Please do not translate ""Bloody Rally Show"", or included it into parentheses next to translation. Example: ""Kruvinojo Ralio Е ou"" (Bloody Rally Show)"
+"cut.lore.5,New leaders focused on profits. They kept investing into entertainment to maximize ad revenue, and ""Bloody Rally Show"" happens to be the entertainment of choice for most people these days."
 cut.lore.6,In Bloody Rally Show they are trying to recreate the golden age of rallying by using technologies of 1980s, ones from the infamous Group B. The amount of accidents is sky high, but social media influencers keep trying to get those hot action close-up photos.
 cut.lore.7,Don't lose your car my friend, or you may have to join the crowd. Now good luck, and godspeed! Oh, by the way, I didn't catch your name.
 
@@ -1097,10 +1097,10 @@ cut.intro.9,Happy you're back! Now follow me, there are some papers you need to 
 
 ### Racer died cutscene
 
-# {0} will be racer's name, {1} will be a "he" or "she"
+"# {0} will be racer's name, {1} will be a ""he"" or ""she"""
 cut.died.1,{0} didn't make it. But {1} will always remain in our leaderboards.
 cut.died.2,*Presses F on the keyboard*
-# {0} will be a plural insult, like "clowns"
+"# {0} will be a plural insult, like ""clowns"""
 cut.died.3,Stop messing with my keyboard you {0}!
 
 ### Mission cutscene (shared) <-- important to get right too, will be shared across dozen of missions!
@@ -1110,7 +1110,7 @@ cut.racer.mid_comment.1,Mother of God!
 cut.racer.mid_comment.2,{0}, not this again.
 # {0} will be a curse word
 cut.racer.mid_comment.3,I hope this {0} pays well.
-# {0} will be a curse adjective (like "friggin")
+"# {0} will be a curse adjective (like ""friggin"")"
 cut.racer.mid_comment.4,Yeah, I got it. Now talk {0} cash.
 # {0} will be a curse word (crap)
 cut.racer.mid_comment.5,{0}, here we go again.
@@ -1336,7 +1336,7 @@ cut.punish.racer.cash.2,you will have to pay me ${0}
 cut.punish.racer.cash.3,you will have to give me either ${0}, or that cool Casio watch you're wearing
 cut.punish.racer.cash.4,I will drain ${0} worth of fuel from your car
 cut.punish.racer.cash.5,you will have to buy me 500 gems in this new mobile game I've just downloaded. With 75% discount that will cost you just ${0}
-# "Lionard 125" should not be translated, it's a model name of cheapest car in the game
+"# ""Lionard 125"" should not be translated, it's a model name of cheapest car in the game"
 cut.punish.racer.car,we will have to exchange cars. I'm currently driving a beat up Lionard 125, local junk yard keeps asking about it
 cut.punish.racer.pts,I've got a hacker friend who will wipe {0} points off your score
 cut.punish.racer.rnd,I will spin a wheel of misfortune and pick a random nasty thing to do to either you or your car
@@ -1492,7 +1492,7 @@ cut.ass.did.1,messed with
 cut.ass.did.2,played with
 cut.ass.did.3,screwed with
 cut.ass.did.4,took selfies with
-# If in your language "messed with me" and "stole from me" have different ways of saying, 
+"# If in your language ""messed with me"" and ""stole from me"" have different ways of saying, "
 # just create something that will look like ones above instead!
 cut.ass.did.5,stole something from
 
@@ -1520,7 +1520,7 @@ cut.ass.andwhat1.4,and never even appologized!
 cut.ass.andwhat1.5,and thought nobody would notice.
 cut.ass.andwhat1.6,like there's no tomorrow.
 # {0} - insult singular (clown)
-cut.ass.andwhat1.7,and then said "How do you like that, {0}?"...
+"cut.ass.andwhat1.7,and then said ""How do you like that, {0}?""..."
 
 # Additional circumstance for plural target. Will be attached to the end of sentence.
 cut.ass.andwhat2.1,and thought they could get away with it.
@@ -1559,14 +1559,14 @@ cut.hitobj.req.positive,Hit {0} {1}
 # I.e. Porta Potties Hit, or John Smith hit
 cur.hitobj.req.progress,{0} Hit
 
-# Will be used in "Hit 1 cone", or "Do not hit a single cone"
+"# Will be used in ""Hit 1 cone"", or ""Do not hit a single cone"""
 cut.hitobj.o.traffic_cone,Traffic Cone
 cut.hitobj.o.porta_potty,Porta Potty
 cut.hitobj.o.bush,Bush
 cut.hitobj.o.pedestrian,Pedestrian
 cut.hitobj.o.snowman,Snowman
 
-# Will be used in "Hit 2 cones", or "Do not hit more than 2 cones"
+"# Will be used in ""Hit 2 cones"", or ""Do not hit more than 2 cones"""
 cut.hitobj.o.traffic_cones,Traffic Cones
 cut.hitobj.o.porta_potties,Porta Potties
 cut.hitobj.o.bushes,Bushes
@@ -1596,7 +1596,7 @@ cut.pun.short.gears,Gears -1
 cut.pun.short.turbo,Turbo -1
 cut.pun.short.grip,Grip -1
 
-# Will be used in mid sentence, like: "Hit 4 cones while driting"
+"# Will be used in mid sentence, like: ""Hit 4 cones while driting"""
 cut.while_drifting,while drifting
 
 cut.short.full_throttle,Challenge: Full Throttle
@@ -1606,11 +1606,11 @@ cut.short.inv_steer,Challenge: Inverted Steering
 cut.short.shield,Challenge: Force Field
 cut.short.weaponize,Challenge: Weaponized Race
 
-# Will be used in sentence like "Assasinate John Smith"
+"# Will be used in sentence like ""Assasinate John Smith"""
 cut.assassinate.1,Assassinate {0} 
-# Will be used in sentence like "Assasinate 3 Hipsters"
+"# Will be used in sentence like ""Assasinate 3 Hipsters"""
 cut.assassinate.2,Assassinate {0} {1}
-# Will be used in end of sentence like "Hipsters assasinated", or "John Smith assasinated"
+"# Will be used in end of sentence like ""Hipsters assasinated"", or ""John Smith assasinated"""
 cut.assassinated,{0} assassinated
 
 ### Car Prank mission cutscene
@@ -1650,7 +1650,7 @@ cut.prank.player.react2.8,{0}, {1}.
 cut.prank.player.react2.9,Bring it on!
 # {0} - car model
 cut.prank.player.react2.10,And I just repainted my {0}...
-# When player has no car, he will say "And I just repainted my sneakers"
+"# When player has no car, he will say ""And I just repainted my sneakers"""
 cut.prank.player.react2.10_2,sneakers
 
 # {0} - curse word (crap)
@@ -1720,7 +1720,7 @@ cut.dmg.req,Take at least {0} damage to your car.
 cut.dmg.racer.intro.1,I know it was you who punctured my tires last night! I am going to let it slide if you accept my challenge. I might even throw in something nice if you won't fail.
 
 # {0} - friggin
-cut.dmg.gov.intro.1,Just the person I wanted to see! We've got to make a new poster for Bloody Rally Show, and your car seems to be perfect for this! But there is just one catch, it has to look like "right from the {0} action", if you know what I mean.
+"cut.dmg.gov.intro.1,Just the person I wanted to see! We've got to make a new poster for Bloody Rally Show, and your car seems to be perfect for this! But there is just one catch, it has to look like ""right from the {0} action"", if you know what I mean."
 cut.dmg.gov.intro.2,I see you have a brand new shiny paint job. Nice, nice. Now, your next challenge... *Chuckles*
 # {0} - player name or title
 cut.dmg.gov.intro.3,I never liked you, {0}. That's why I have thought of this nasty challenge.
@@ -1790,7 +1790,7 @@ cut.stolen.tip,Better start saving money for a new car
 
 ### Locked camera
 
-# {0} - "do not change camera settings!"
+"# {0} - ""do not change camera settings!"""
 cut.cam.req.1,Whatever you do, {0}.
 cut.cam.req.2,Come hell or high water, {0}.
 cut.cam.req.3,Whatever happens, {0}.
@@ -1905,7 +1905,7 @@ cut.fail.3,OK, Enough drama! {0}, security will escort you to the freezer! And f
 ### Dialogs and in-game messages
 
 # Please check that you are using same terms as main_menu.btn.settings / settings.gameplay, etc
-dial.discord_post_permission,Can we post your scores in Bloody Rally Show Discord?<br>Steam nickname, track time and attempt count will be shown.<br>Change your choice any time in "Settings" > "Gameplay" > "Post to Discord"
+"dial.discord_post_permission,Can we post your scores in Bloody Rally Show Discord?<br>Steam nickname, track time and attempt count will be shown.<br>Change your choice any time in ""Settings"" > ""Gameplay"" > ""Post to Discord"""
 dial.time_attack_car_locked,The selected car is locked, please unlock it by leveling up your racer in Campaign first!
 dial.camp.corrupted_save_files,Found corrupted campaign save files: {0}
 dial.camp.load_fail,Failed to load save state: {0}<br>{1}
@@ -1937,7 +1937,7 @@ dial.camp.lucky2.7,{0}... I don't like you, but hey, take this ${1}. In return I
 
 # {0} - name, ${1} - cash amount
 dial.camp.resurrected,Racer {0} was brought back to life by field medics for ${1}
-dial.camp.resurrect_no_cash,Racer {0} didn't have enough cash to cover medical expenses. R.I.P."
+"dial.camp.resurrect_no_cash,Racer {0} didn't have enough cash to cover medical expenses. R.I.P."""
 # {0} - clowns
 dial.camp.all_broke,How did you {0} manage to go broke all at once. Show must go on, SOFACT will give each of you losers $20000. Go buy something nice.
 # {0} - name, {1} - clown
@@ -1948,8 +1948,8 @@ dial.camp.freedom_not_enough_cash,I'm sorry, you're short on cash! Go to next se
 dial.camp.exit_confirm,Are you sure you want to exit this Campaign? Progress will be saved.
 dial.camp.card.no_regen,You cannot regenerate a stage that is already completed!
 # {0} - some track name. keep the quotes 
-dial.camp.card.saved_already,Track "{0}" already exists in your collection. Do you want to replace it?
-dial.camp.card.saved,Track "{0}" was added to your collection!
+"dial.camp.card.saved_already,Track ""{0}"" already exists in your collection. Do you want to replace it?"
+"dial.camp.card.saved,Track ""{0}"" was added to your collection!"
 dial.camp.card.no_walk_completed,You cannot walk on foot in a completed stage!
 dial.camp.card.no_walk_special,You cannot walk on foot in the special stage!
 # {0} - name
@@ -2001,8 +2001,8 @@ dial.ed.car_name,Car Name
 
 dial.ed.car_sprites_missing,Some required sprites are missing! Please refer to Car Modding Guide and create these files: {0}.
 dial.ed.car_sprites_deleted,You cannot just delete car sprite files! Missing required files were replaced by transparent 1x1 pixel: {0}.
-dial.ed.remove_car_name_colon,Please remove ":" from car model name!
-dial.ed.car_name_taken,Model name "{0}" is already taken!
+"dial.ed.remove_car_name_colon,Please remove "":"" from car model name!"
+"dial.ed.car_name_taken,Model name ""{0}"" is already taken!"
 dial.ed.car_too_fast,SOFACT Regulations do not allow cars to exceed Speed Index of {0} prior to tuning! This car has Speed Index of {1}. Reduce something in Parameters first!
 dial.ed.car_close_confirm,Are you sure you want to close the car? Any unsaved changes will be lost
 dial.ed.car_delete_confirm,Are you sure you want to delete this car: {0}?
@@ -2026,14 +2026,14 @@ dial.factory_reset.confirm,Are you sure you want to reset?
 dial.leaderboard.ghost_confirm,Would you like to race against the ghost of {0}?
 dial.leaderboard.ghost_confirm_daily_stale,It's not today's entry, so Daily Challenge Leaderboard will not be updated, but Track Leaderboard will.
 
-dial.input_reset,Game input structure was changed by developer, and your input mappings were reset to defaults. You can change them in "Settings" > "Input". Sorry for the inconvenience!
+"dial.input_reset,Game input structure was changed by developer, and your input mappings were reset to defaults. You can change them in ""Settings"" > ""Input"". Sorry for the inconvenience!"
 dial.settings_reset,Game configuration structure was changed by developer, your settings were reset to defaults. Sorry for the inconvenience!
 dial.stat_reset_dev,Developer has triggered a full stat reset. Sorry for inconvenience.
 dial.are_you_sure,Are you sure?
 
 dial.race.racers_over_limit,You cannot have more than {0} cars in a single race!
 dial.race.player_remove_confirm,Are you sure you want to remove Player {0}: {1}?
-dial.race.race_alone,You shouldn't drive alone, unless you are in "Time Attack" mode. Add some opponents using "Add Player", "+1" or "+10" buttons!
+"dial.race.race_alone,You shouldn't drive alone, unless you are in ""Time Attack"" mode. Add some opponents using ""Add Player"", ""+1"" or ""+10"" buttons!"
 dial.race.no_track,Please select some track first!
 
 dial.race.restart_hardcore,It's Hardcore Mode, rememeber? No restarting for you!
@@ -2052,14 +2052,14 @@ dial.ed.fix_errors_first,Please fix validation errors before saving the track!
 dial.ed.share_track_no_steam,There is no connection to Steam. Cannot share the track!
 dial.ed.track_invalid_share,Check that red banner on top of the screen. Drag your mouse over it to see what's wrong.
 dial.ed.lap_before_upload,Hold your horses! You have to set a lap record before uploading it.
-dial.ed.track_remove_colon,Please remove ":" from track name!
+"dial.ed.track_remove_colon,Please remove "":"" from track name!"
 dial.ed.track_name_clash_builtin,Sorry, pick another name, you cannot overwrite a built-in track!
-dial.ed.track_overwrite_confirm,Track "{0}" already exists. Do you want to overwrite it?
+"dial.ed.track_overwrite_confirm,Track ""{0}"" already exists. Do you want to overwrite it?"
 dial.ed.track_alien_files,Please remove extra files from mod directory: {0}
 dial.ed.track_delete_no_undo,Are you sure you want to delete this track? There is no way to undo it!
 dial.ed.track_quit_confirm,Are you sure you want to quit the Track Editor? Unsaved changes will be lost!
 dial.ed.track_last_2_points,Cannot delete last two path points!
-dial.ed.loop_autoclose,Looks like you are trying to close the loop. You can use "Open / Close" tool, but I closed it for you this time.
+"dial.ed.loop_autoclose,Looks like you are trying to close the loop. You can use ""Open / Close"" tool, but I closed it for you this time."
 
 dial.on_success, On Success: {0}
 dial.on_fail, On Failure: {0}
@@ -2072,7 +2072,7 @@ dial.reset_tutorials.confirm,Are you sure you want to mark all tips as unseen?
 
 dial.confirm_exit_to_desktop,Are you sure you want to exit to Desktop?
 
-dial.car_model_unavailable,Hey, the car model "{0}" is no longer available! Would you like to continue loading the campaign? Unavailable cars will be gone without refund!
+"dial.car_model_unavailable,Hey, the car model ""{0}"" is no longer available! Would you like to continue loading the campaign? Unavailable cars will be gone without refund!"
 
 msg.track_high_obj_density,This track has high object density ({0:0} / 100m).\nIt will not get included in custom Campaign generation by default!
 msg.track_high_crowd_density,This track has high crowd density ({0:0} / 100m).\nIt will not get included in custom Campaign generation by default!
@@ -2179,7 +2179,7 @@ msg.tip_available,Press {Action.ShowTutorial} for a tip
 
 msg.uploading_ghost,Uploading Ghost Replay
 msg.score_not_improved,Your existing leaderboard score was not improved
-msg.score_ghost_missing,Your existing leaderboard score was not improved, but ghost data was missing. Uploading current ghost.";
+"msg.score_ghost_missing,Your existing leaderboard score was not improved, but ghost data was missing. Uploading current ghost."""
 msg.score_rejected,Steam rejected your score for this leaderboard
 msg.uploading_score,Updating leaderboard score ({0}/10 API calls / 10 min)<br>{1}
 msg.uploaded_score,Successfully updated leaderboard ({0}/10 API calls / 10 min)<br>{1}
@@ -2253,7 +2253,7 @@ tut.camera.1,- There are multiple camera zoom and rotation modes to choose from<
 tut.camera.2,- Near camera zoom will give you a close-up view of your car<br>- It may be challenging to drive as you won't see much of the road ahead<br>- You can use minimap to anticipate corners
 tut.camera.3,- Click {Action.Camera} to cycle through camera rotation modes<br>- Fixed Road camera will not rotate at all
 tut.camera.4,- Fixed Car camera will keep the same rotation as your car<br>- Floating camera is in between Fixed Car and Fixed Road<br>- Find one you like the most
-tut.camera.5,- You can go to "Settings" > "Gameplay" to change the camera setting defaults<br>- Change "Camera Shake" if you want to reduce screen shaking
+"tut.camera.5,- You can go to ""Settings"" > ""Gameplay"" to change the camera setting defaults<br>- Change ""Camera Shake"" if you want to reduce screen shaking"
 
 tut.camp.add_racer.head,Add Or Edit A Racer
 tut.camp.add_racer.1,- You can choose who will control this racer, Human or AI<br>- You can have up to 4 people playing in split screen<br>- You can change the avatar, or set a custom one using an image from your computer
@@ -2266,7 +2266,7 @@ tut.camp.car_unlock.1,- You have unlocked a better car that you can afford!<br>-
 tut.camp.car_unlock.2,- Choose the best available car you can buy<br>- Click the BUY button to purchase it<br><br>- Consider to PAINT your new car before purchase
 
 tut.camp.first_car.head,Your First Car
-tut.camp.first_car.1,- You don't have a car, but you have a little bit of cash<br>- Click "BUY A CAR" to visit the Garage
+"tut.camp.first_car.1,- You don't have a car, but you have a little bit of cash<br>- Click ""BUY A CAR"" to visit the Garage"
 
 tut.camp.first_race.head,First Race
 tut.camp.first_race.1,- Time to have your first race!<br>- Click the stage card to begin<br>- If you see a generation notice, a group of highly trained monkeys are working to prepare your race tracks. Please wait for that notice to go away before attempting to start a race.
@@ -2301,15 +2301,15 @@ tut.corner_cut.1,- Looks like you've just cut a corner!<br>- Depending on the mo
 
 tut.custom_race_dash.head,Custom Race Dashboard
 tut.custom_race_dash.1,- Welcome to Custom Race dashboard. It may look overwhelming at first, so here is some help<br>- If you want to play with your friends, use ADD PLAYER button<br>- You can also add AI racers this way
-tut.custom_race_dash.2,- To add random AI opponents quickly, use the "+1" and "+10" buttons<br>- You can race against a ton of AI opponents at once!<br>- To remove all other racers click "0"
+"tut.custom_race_dash.2,- To add random AI opponents quickly, use the ""+1"" and ""+10"" buttons<br>- You can race against a ton of AI opponents at once!<br>- To remove all other racers click ""0"""
 tut.custom_race_dash.3,- Unlike in Campaign mode, here you can just choose the upgrades you want<br>- Click on part icons to cycle through the upgrade levels<br>- You can configure individual upgrades for each racer
-tut.custom_race_dash.4,- There are some game modes you can choose from<br> - "Race" is a regular race against other cars<br>- "Time Attack" is for setting best lap times in global leaderboards<br>- In "Car Battle" you have a time limit and weapons. You don't have to drive on track.
+"tut.custom_race_dash.4,- There are some game modes you can choose from<br> - ""Race"" is a regular race against other cars<br>- ""Time Attack"" is for setting best lap times in global leaderboards<br>- In ""Car Battle"" you have a time limit and weapons. You don't have to drive on track."
 tut.custom_race_dash.5,- Select a track you want to race in<br>- You can also generate a unique track<br>- Download more tracks from Steam Workshop or create your own tracks in Track Editor
 tut.custom_race_dash.6,- After you configured your Custom Race, click the red button in bottom left corner to begin the race
 
 tut.time_attack.head,Custom Race: Time Attack
-tut.time_attack.1,- In "Time Attack" mode car upgrades are locked at level 1
-tut.time_attack.2,- To view the leaderboards click "LEADERBOARDS" button in top bar<br>- AI racers are not available in "Time Attack" mode<br>- You can have split screen sessions with human players though
+"tut.time_attack.1,- In ""Time Attack"" mode car upgrades are locked at level 1"
+"tut.time_attack.2,- To view the leaderboards click ""LEADERBOARDS"" button in top bar<br>- AI racers are not available in ""Time Attack"" mode<br>- You can have split screen sessions with human players though"
 
 tut.drift.head,Drifting
 tut.drift.1,- You have just performed a clean Drift<br>- Drifting is the art of going sideways<br>- Controlled drifting is rewarded with Nitro boost and Cash in campaigns<br>- Drift doesn't count if you go off-track
@@ -2338,7 +2338,7 @@ tut.wrench.1,- You just received a Wrench!<br>- Wrench is a powerup that repairs
 tut.wrench.2,- Copper Wrench repairs low amount of damage<br>- Silver Wrench repairs medium amount of damage<br>- Golden Wrench repairs big amount of damage
 
 tut.race_end.head,Ending The Race
-tut.race_end.1,- Good job, looks like you weren't the last one!<br>- Other racers are now given 30 seconds to reach the finish line<br>- Click "Speed Up" a few times to increase race speed to up to 5x
+"tut.race_end.1,- Good job, looks like you weren't the last one!<br>- Other racers are now given 30 seconds to reach the finish line<br>- Click ""Speed Up"" a few times to increase race speed to up to 5x"
 tut.race_end.2,- After 30 seconds have passed, END RACE button will unlock<br>- It is up to you if you want to exit the race before all other racers have finished
 
 tut.car_battle.head,Car Battle
