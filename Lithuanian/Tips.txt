@@ -21,7 +21,7 @@ Priklausomai nuo aplinkybių, kampų kirtimo bausmės gali būti tiek itin sugri
 Pėstieji kartais gali padaryti tavo lenktynių nuotrauką, jei įjungsi tai nustatymuose
 Vienu metu gali žaisti iki 4 žaidėjų, tiek Kampanijoje, tiek paprastose Lenktynėse
 Kampanijos kur kas linksmesnės padalintame ekrane
-Negali užsikrėsti COVID-19 žaistamas Bloody Rally Show (galioja tik naudojant stacionarius prietaisus, esančius tavo namuose)
+Negali užsikrėsti COVID-19 žaisdamas Bloody Rally Show (galioja tik naudojant stacionarius prietaisus, esančius tavo namuose)
 Paspausk "F2" kad pasileistum Bloody Rally Show Operacinę Sistemą
 Naudok rodykles (arrow keys), kad pasukti objektus prieš padėdamas juos Trasų Redaktoriuje
 Spausk Shift sukdamas objektą Trasų Redaktoriuje, kad gautum daugiau tikslumo
