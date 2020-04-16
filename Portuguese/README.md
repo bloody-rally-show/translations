@@ -1,0 +1,1 @@
+Portuguese translation is reserved by Luyc Spiegel (contact@luyc.me)
