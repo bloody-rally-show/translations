@@ -1,0 +1,59 @@
+Jei gali, nereiškia, kad turėtum
+Išbandyk skirtingus kameros režimus
+Akseleruok + stabdyk vienu metu, kad padeginti padangas
+Mašinos valdosi maloniau su pulteliu
+Nori žaisti su šeima? Nustatymuose gali išjungti kraują, siužetą ir keiksmus.
+Nuo kameros sukasi galva? Išmėgink skirtingus kameros režimus, bei purtymo parametrus nustatymuose.
+Žaidimas važiuoja lėčiau nei 60FPS? Pamėgink sumažinti recoliuciją, kokybę ar vizualinių efektų kiekį nustatymuose.
+Varikliai per garsūs? Pasireguliuok garsą nustatymuose.
+Nori paplepėti su kitais lenktynininkais? Užeik į mūsų Discord.
+Norit driftinti kaip profas? Tą reikia pajusti! Praktikuokis.
+Steam Workshop'e gali rasti daugiau mašinų
+Apdaužyta mašina važiuoja kiek lėčiau
+Daug smagiau žaisti su draugais
+Kartais galima nukirsti kampą, bet jei nukirsi per daug, gali būti nubaustas
+Užstrigai? Gali sugrąžinti savo automobilį ant trasos bet kuriuo metu.
+Gali keisti kameros režimus, atstatyti automobilį, naudotis rankiniu stabdžiu. Eik į Nustatymai > Valdymas ir sužinosi kaip.
+Kas daro <b>pliūkšt</b> ir duoda greičio bonusą? Pėstysis!
+Spausk F12 kad padaryti nuotrauką
+Jokių mikrotranzakcijų
+Priklausomai nuo aplinkybių, kampų kirtimo bausmės gali būti tiek itin sugriežtintos, tiek visiškai atleistos
+Pėstieji kartais gali padaryti tavo lenktynių nuotrauką, jei įjungsi tai nustatymuose
+Vienu metu gali žaisti iki 4 žaidėjų, tiek Kampanijoje, tiek paprastose Lenktynėse
+Kampanijos kur kas linksmesnės padalintame ekrane
+Negali užsikrėsti COVID-19 žaistamas Bloody Rally Show (galioja tik naudojant stacionarius prietaisus, esančius tavo namuose)
+Paspausk "F2" kad pasileistum Bloody Rally Show Operacinę Sistemą
+Naudok rodykles (arrow keys), kad pasukti objektus prieš padėdamas juos Trasų Redaktoriuje
+Spausk Shift sukdamas objektą Trasų Redaktoriuje, kad gautum daugiau tikslumo
+Trasų Redaktoriuje galima padaryti persikertančias trasas
+Etapų korteles Kampanijoje galima apversti į kitą pusę, ten rasi daugiau veiksmų
+Pirmas ir vienintėlis lenktynių žaidimas, kuriame gali būti pėstysis!
+Steam Workshop rasi daug įdomių trasų
+Pasidalink savo sukurtom trasom ir automobiliais Steam Workshop
+Apsilankyk Steam Workshop, ten rasi naujų automobilių ir trasų
+Steam Workshop trasos turi savo topus ir vaiduoklius Laiko Atakos režime
+Dabar 2084 metai
+SOFACT, arba Social Frontier of Activism, kažkada buvo didžiulė technologijų kompanija, kuri viską monopolizavo
+Viskas vyksta "Kruvinojo Ralio Šou" realybės TV laidoje, organizuojamoje SOFACT
+Už iš arti nufotografuotas veiksmo nuotraukas pėstieji užsidirba gražaus pinigėlio
+Jei pėstysis susitaupo pinigų automobiliui, jis gali tapti lenktynininku
+Jei prarasi savo automobilį, arba nebeturėsi pinigų dalyvio mokesčiui, teks dalyvauti pėsčiomis
+Kruvinojo Ralio Šou sezono laimėtojai būna gausiai apdovanojami
+Sezono pabaigoje turi pakliūti į Top 3, kad praeitum kvalifikaciją į kitą sezoną
+Nitro pasipildo kai mašinos partrenkia pėsčiuosius. Kruvinojo Ralio Šou organizatoriai tą neigia.
+Yra daugybė populiarių realybės TV laidų, tačiau nei viena nėra tokia žiauri, kaip Kruvinojo Ralio Šou. Žiūrovai tą dievina!
+Sveiki atvykę į Kruvinojo Ralio Šou, realybės TV laidą, kurioje jūsų tikslas - išlikti gyvam
+Valstybės nebeegzistuoja, SOFACT viską suvienijo
+Kruvinojo Ralio Šou remiasi Group B ralio čempionatu, kuris vyko praėjusiame amžiuje, tol, kol jo neuždraudė už didelį avaringumą
+Visi Kruvinojo Ralio Šou automobiliai pagaminti naudojant 1980-ųjų metų technologijas. Žiūrovams nepatinka modernių elektromobilių variklių garsai.
+Sklinda gandai, kad Brace Stone gali šaudyti lazeriais iš savo bioninės akies
+Nuėjęs į "Apie" > "Kaip Žaisti", galėsi įjungti, išjungti bei peržiūrėti visus žaidimo patarimus
+Jei nekreipsi dėmėsio į katinuką, jis nueis sau
+Brace Stone mėgsta veganišką maistą
+Šis žaidimas visiškai neteisingas
+Nori padaryti tobulą nuotrauką geru kampu? Užeik į Foto Režimą kai lenktynės sustabdytos.
+Ar išbandei Foto Režimą? Jis nuraus tau smegenis.
+Gali naudoti savo asmeninius paveikslėlius lenktynininkų nuotraukoms, automobilių dažų sluoksniams, bei savo pačio kurtų automobilių dizainui
+Šis žaidimas neturi DRM apsaugos. Brace Stone tuo visiškai nepatenkintas.
+Niekada nebandykite pakartoti nieko, kas čia vyksta
+Radai klaidų vertime? Gali padėti jas pataisyti! Ieškok instrukcijų StreamingAssets/Translations kataloge, ten kur instaliuotas žaidimas.
