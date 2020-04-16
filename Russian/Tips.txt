@@ -1,0 +1,59 @@
+If you can, it doesn't mean you should
+Try out different camera modes
+Accelerate + brake simultaneously to do a burnout
+Cars handle best with a controller
+Want to play with your family? You can turn off blood, cursing and cutscenes in settings.
+Camera makes you dizzy? Try out different modes and adjust camera shake in settings.
+Game runs at less than 60 FPS? You can reduce resolution, quality and amount of visual effects in settings.
+Engines too loud? Adjust volume in settings.
+Want to chat with other racers? Hop on to our Discord.
+Want to drift like a pro? You just have to feel it! Practice makes perfect.
+You can find more cars in Steam Workshop
+Car damage degrades speed
+It's way more fun to play with friends
+You can cut some corners, but if you cut too much, you can get punished
+Got stuck? You can reset your car anytime.
+You can change camera modes, reset your car and use handbrake. Check out Settings > Input to see how.
+What goes <b>splat</b> and gives you speed boost? A pedestrian!
+Hit F12 to take a screenshot
+No microtransactions, ever
+Depending on circumstances, corner cutting penalties can be anythign from extra harsh to completely forgiven by the judge
+Pedestrians can occasionally take screenshots for you, if you turn that on in settings
+Up to 4 people can play at once, in both Campaign and Custom Race
+Campaigns are more fun in split screen
+You cannot get COVID-19 while playing Bloody Rally Show (applies to non-portable devices located at home only)
+Use "F2" to access Bloody Rally Show Operating System
+Use arrow keys to rotate objects before placing them in Track Editor
+Hold shift while rotating an object in Track Editor to get more precision
+You can make roads overlap in Track Editor
+Stage cards in Campaign can be flipped over to reveal extra actions
+The first and only racing game where you can be a pedestrian!
+You can download custom tracks from Steam Workshop
+Share your custom tracks and cars in Steam Workshop
+Visit Steam Workshop to find new tracks and cars
+Steam Workshop Tracks have their own Leaderboards with Ghost Replays in Time Attack mode
+The year is 2084
+SOFACT, or Social Frontier of Activism, was once a huge tech company, that monopolized everything
+This is all a part of Bloody Rally Show reality TV, organized by SOFACT
+Pedestrians earn cash for taking close-up photos of the race
+Pedestrians can become racers if they have enough cash to buy a car
+If you lose your car or have no more money to participate in races, you will be demoted to a pedestrian
+Winners of Bloody Rally Show season are greatly rewarded
+You have to be in Top 3 at the end of the Season in order to qualify for the next one
+Nitro boost refills when cars hit pedestrians. Organizers of Bloody Rally Show deny this.
+There are many popular reality shows, but nothing gets as cruel as Bloody Rally Show. Viewers love it!
+Welcome to Bloody Rally Show, a reality TV show where your goal is to survive
+There are no countries left anymore, SOFACT has unified them all
+Bloody Rally Show is based on Group B rally championships that were happening a century ago, before they were banned for high accident rates
+All cars in Bloody Rally Show are built using old technologies of 1980s. Viewers do not like the sound of modern electric vehicles.
+Some say Brace Stone can shoot lasers from his bionic eye
+Tips can be toggled, reset and reviewed in "About" > "How To Play"
+If you ignore the cat, it will usually go away
+Brace Stone prefers vegan food options
+This game is absolutely unfair
+Want to take a perfect screenshot at a nice angle? Access Photo Mode when race is paused.
+Have you tried Photo Mode? It will blow your mind.
+You can use your own images for Avatars, Paint Jobs, and even whole Custom Car models
+This game is DRM free. Brace Stone was not too happy about this.
+Don't try to do any of this, anywhere, ever
+You can help translate this game into your language! Find the instructions in StreamingAssets/Translations under game installation folder.
