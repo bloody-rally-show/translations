@@ -3,6 +3,9 @@
 Want to contribute a translation for your own language, or maybe fix an issue?
 Make a Pull Request on GitHub: https://github.com/bloody-rally-show/translations
 
+Before considering contributing a translation, please check for open pull requests
+and if there is no folder already reserved to a language!
+
 ## Generic structure
 
 Root Translations folder contains subfolders with specific languages. Those
