@@ -1,14 +1,14 @@
-If you can, it doesn't mean you should
-Try out different camera modes
-Accelerate + brake simultaneously to do a burnout
-Cars handle best with a controller
-Want to play with your family? You can turn off blood, cursing and cutscenes in settings.
-Camera makes you dizzy? Try out different modes and adjust camera shake in settings.
-Game runs at less than 60 FPS? You can reduce resolution, quality and amount of visual effects in settings.
-Engines too loud? Adjust volume in settings.
-Want to chat with other racers? Hop on to our Discord.
-Want to drift like a pro? You just have to feel it! Practice makes perfect.
-You can find more cars in Steam Workshop
+﻿Если можно, это не значит, что нужно
+Попробуй разные режимы камеры
+Разгоняйся и тормози, чтобы жечь резину
+Управлять лучше с геймпадом
+Хочешь поиграть с семьёй? Можно отключить кровь, ругательство и катсцены в настройках.
+Тошнит от камеры? Попробуй разные режимы и настрой тряску в настройках.
+У игры меньше 60 ФПС? Можно понизить разрешение, качество и количество визуальных эффектов в настройках.
+Движки слишком громкие? Измени громкость в настройках.
+Хочешь поболтать с другими гонщиками? Залетай к нам в дискорд.
+Хочешь дрифтить как про? Тебе нужно привыкнуть к управлению! Практика делает всё лучше.
+Ты можешь найти больше машин в Мастерской Стима
 Car damage degrades speed
 It's way more fun to play with friends
 You can cut some corners, but if you cut too much, you can get punished

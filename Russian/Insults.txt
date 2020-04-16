@@ -1,4 +1,4 @@
-dummy
+﻿dummy
 fool
 goof
 sod
