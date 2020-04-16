@@ -17,7 +17,7 @@ You can change camera modes, reset your car and use handbrake. Check out Setting
 What goes <b>splat</b> and gives you speed boost? A pedestrian!
 Hit F12 to take a screenshot
 No microtransactions, ever
-Depending on circumstances, corner cutting penalties can be anythign from extra harsh to completely forgiven by the judge
+Depending on circumstances, corner cutting penalties can be anything from extra harsh to completely forgiven by the judge
 Pedestrians can occasionally take screenshots for you, if you turn that on in settings
 Up to 4 people can play at once, in both Campaign and Custom Race
 Campaigns are more fun in split screen
