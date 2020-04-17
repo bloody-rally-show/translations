@@ -59,7 +59,7 @@ term.human,Человек
 # Just keep "AI" if your language does not have a very popular abbreviation for Artificial Intelligence
 term.ai,ИИ
 term.week,Неделя
-term.stage,Стадия
+term.stage,Этап
 term.season,Сезон
 term.special,Специальный
 term.pending,Ожидается
@@ -186,7 +186,7 @@ campaign.name,Campaign Name
 campaign.name,Campaign Name
 
 campaign.missions_challenges,Задания и Испытания
-campaign.missions_challenges.tip,У некоторых стадий есть случайные миссии или испытания
+campaign.missions_challenges.tip,У некоторых этапов есть случайные миссии или испытания
 campaign.races_with_weapons,Гонки с Оружием
 campaign.races_with_weapons.tip,У некоторых трэков будут зоны, выдающие оружие или улучшения
 campaign.directors_car,Машина Директора
@@ -277,12 +277,12 @@ leaderboard.seconds_drifted,Секунд в Дрифте
 # DO NOT TRANSLATE THIS ONE! JUST COPY IT BUT KEEP ENGLISH!
 settings.btn.language,Language
 
-settings.btn.video,Video
-settings.btn.visuals,Visuals
-settings.btn.gameplay,Gameplay
-settings.btn.audio,Audio
-settings.btn.input,Input
-settings.btn.reset,Reset
+settings.btn.video,Видео
+settings.btn.visuals,Графика
+settings.btn.gameplay,Геймплэй
+settings.btn.audio,Аудио
+settings.btn.input,Управление
+settings.btn.reset,Сбросы
 
 # Settings -> Video
 
@@ -293,20 +293,20 @@ settings.video.quality,Качество
 settings.video.quality.performance,Производительность
 settings.video.quality.quality,Качество
 settings.video.resolution,Разрешение
-settings.video.window_mode,Окно
+settings.video.window_mode,Режим Окна
 settings.video.window_mode.full_screen_exclusive,Полный эран
 settings.video.window_mode.full_screen_window,Окно в полный экран
 settings.video.window_mode.windowed,Оконный
 # Don't translate this one, just copy
-settings.video.vsync,VSync
-settings.video.vsync.off,Off
-settings.video.vsync.on,On (Every Frame)
-settings.video.vsync.on_every_2,On (Every 2nd Frame)
-settings.video.fps_limit,FPS Limit
-settings.video.particle_density,Particle Density
-settings.video.particle_density_tip,Will affect thickness of drift smoke, road and snow dust
-settings.video.btn.set_optimal,Set Optimal
-settings.video.btn.set_optimal_tip,Will set recommended Resolution and Quality level for your hardware
+settings.video.vsync,Вертикальная синхронизация
+settings.video.vsync.off,Выкл
+settings.video.vsync.on,Вкл (Каждый кадр)
+settings.video.vsync.on_every_2,Вкл (Каждый второй кадр)
+settings.video.fps_limit,Лимит ФПС
+settings.video.particle_density,Насыщенность частиц
+settings.video.particle_density_tip,Меняет толщину частиц и пыли, влияет на производительность
+settings.video.btn.set_optimal,Установить оптимальные настройки
+settings.video.btn.set_optimal_tip,Установит рекомендуемое качество и разрешение для твоей системы
 
 # Settings -> Visuals
 
@@ -341,11 +341,11 @@ settings.visuals.minimap_pos.right,Снизу
 
 settings.gameplay.show_tips,Показывать Подсказки
 # FOR TRANSLATORS: Please translate as "Show Cutscenes (English Only)"
-settings.gameplay.show_cutscenes,Покказывать Катсцены (Только Английский)
+settings.gameplay.show_cutscenes,Показывать Катсцены
 settings.gameplay.show_speech_bubbles,Показывать Текстовые Пузыри
 settings.gameplay.enable_censorship,Скрывать Ругательства
 settings.gameplay.peds_take_screenshots,Пешеходы Делают Скриншоты
-settings.gameplay.post_to_discord,Загружать в Дискорд
+settings.gameplay.post_to_discord,Загружать Рекорды
 settings.gameplay.camera_type,Камера
 settings.gameplay.camera_type.fixed_road,Прикрепленно к Дороге
 settings.gameplay.camera_type.fixed_car,Прикрепленно к Машине
@@ -355,7 +355,7 @@ settings.gameplay.camera_zoom,Отдаление Камеры
 settings.gameplay.camera_zoom.near,Близко
 settings.gameplay.camera_zoom.medium,Средне
 settings.gameplay.camera_zoom.far,Далеко
-settings.gameplay.speed_autozoom,Автоматическая
+settings.gameplay.speed_autozoom,Автодальность
 settings.gameplay.speed_autozoom_tip,Дальность автоматически подстраивается в зависимости от скорости
 settings.gameplay.camera_shake,Тряска камеры
 settings.gameplay.camera_shake.full,Полная
@@ -394,136 +394,136 @@ main_menu.btn.tooltip.newsletter,Новости разработчика
 main_menu.btn.tooltip.dev_msg,Сообщение от разработчика
 main_menu.btn.tooltip.campaign,Режим истории со случайно сгенерированными трэками. Играй чтобы разблокировать новые машины!
 main_menu.btn.tooltip.race,Поучаствуй в быстрой гонке, Битве Автомобилей, или побей рекорды других игроков в Гонке на Время
-main_menu.btn.tooltip.editors,Download tracks and cars made by other players, or make and share your own
-main_menu.btn.tooltip.daily_challenge,Compete with other players for best daily lap times
-main_menu.btn.tooltip.leaderboards,Glory awaits those who get to Top 100
-main_menu.btn.tooltip.achievements,Got to get them all
-main_menu.btn.tooltip.quit.0,Nooo! Don't click this one yet! It's the last option in the list for a reason!
-main_menu.btn.tooltip.quit.1,Please, wait, we can discuss this!
-main_menu.btn.tooltip.quit.2,Maybe 1 more race?
-main_menu.btn.tooltip.quit.3,Are you sure? Other things can wait...
-main_menu.btn.tooltip.quit.4,Every time you click this button, a gnome cuts one random wire in your car. We're not kidding!
-main_menu.btn.tooltip.quit.5,If you click this, SOFACT will forgive. But they will never forget.
-main_menu.btn.tooltip.quit.6,Click this to self-destruct your computer in 5 seconds.
-main_menu.btn.tooltip.quit.7,Why do you have this button selected? There are so many other buttons!
-main_menu.btn.tooltip.quit.8,We are holding your cat hostage. If you click this button, we will feed him your lasagna!
-main_menu.btn.tooltip.quit.9,Are you serious? You have a life?
+main_menu.btn.tooltip.editors,Загрузи трэки и машины сделанные другими игроками, или же создай свои собственные
+main_menu.btn.tooltip.daily_challenge,Соревнуйся с другими игроками, и установи лучший рекорд в Ежедневном Испытании
+main_menu.btn.tooltip.leaderboards,Слава ждёт всех тех, кто попадёт в Топ 100
+main_menu.btn.tooltip.achievements,Собери их всех
+main_menu.btn.tooltip.quit.0,Неее! Погоди, не нажимай! Это не просто так последняя кнопка в списке!
+main_menu.btn.tooltip.quit.1,Прошу, подожди, я могу тебе объяснить!
+main_menu.btn.tooltip.quit.2,Может ещё одну гоночку?
+main_menu.btn.tooltip.quit.3,Уверен? Другие вещи могут и подождать...
+main_menu.btn.tooltip.quit.4,Каждый раз когда ты нажмаешь на эту кнопку, гном перерезает один провод в твоей машине. Я не шучу!
+main_menu.btn.tooltip.quit.5,Если нажмёшь сюда, SOFACT простит. Но никогда не забудет.
+main_menu.btn.tooltip.quit.6,Нажми сюда чтобы запустить самоуничтожение компьютера.
+main_menu.btn.tooltip.quit.7,Почему ты выбрал эту кнопку? Тут много других кнопок!
+main_menu.btn.tooltip.quit.8,Мы держим твоего кота в заложниках. Нажми на эту кнопку, и мы скормим ему лазанью!
+main_menu.btn.tooltip.quit.9,Серьёзно? У тебя есть жизнь?
 
 # About
 
-about.btn.credits,Credits
-about.btn.how_to_play,How To Play
-about.btn.newsletter,Newsletter
-about.btn.version,Version
-about.btn.privacy,Privacy
+about.btn.credits,Титры
+about.btn.how_to_play,Как играть
+about.btn.newsletter,Новости
+about.btn.version,Версия
+about.btn.privacy,Конфиденциальность
 
 # Version Check
 
-version.updates_available,Updates Available
-version.loading_now,Trying to load changelog from URL:<br>{0}
-version.up_to_date,Up To Date
+version.updates_available,Доступны обновления
+version.loading_now,Пытаемся загрузить новости обновлений с сайта:<br>{0}
+version.up_to_date,Последняя версия
 version.latest,Latest Version: {0}
 version.current,This Version: {0}
-version.check_failed,Could not check for updates
-version.check_failed_details,Could not get version information or changelog.<br><br>There is no network connection, application is firewalled, or server is down.<br><br>URL:<br>{0}<br><br>Error details:<br>{1}
-version.changelog_download_fail,There is a newer version.<br><br>However downloading changelog has failed.<br><br>URL:<br>{0}<br><br>Error details:<br>{1}
+version.check_failed,Невозможно проверить обновления
+version.check_failed_details,Невозможно проверить новости информацию об новых обновлениях.<br><br>У вас может отсутвовать интернет, брандмауэр может блокировать соединение, или же сервер недоступен.<br><br>URL:<br>{0}<br><br>Детали ошибки:<br>{1}
+version.changelog_download_fail,Найденна новая версия.<br><br>Однако загрузка не удалась.<br><br>URL:<br>{0}<br><br>Детали ошибки:<br>{1}
 version.no_changes,No new changes or changelog not updated:
 version.new_changes,New Changes: {0}
 
 ################################################################################
 
 # Campaign
-campaign.play_time,Play Time: {0}
+campaign.play_time,Время игры: {0}
 
 # Add Racer Menu
 
-new_racer.title,Register New Racer
-new_racer.edit_title,Edit Racer Profile
-new_racer.racer_name,Racer Name
-new_racer.your_name,Your Name
-new_racer.voice_pitch,Voice Pitch
-new_racer.controlled_by,Controlled By
-new_racer.ai_skill,AI Skill
-new_racer.choose_avatar,Choose Avatar
-new_racer.voice.low,{0:0}% Low
-new_racer.voice.high,{0:0}% High
-new_racer.voice.mid,Mid
-new_racer.register,Register
-new_racer.dialogue.name_required,Name is required!
-new_racer.dialogue.name_taken,The name {0} is already taken by another racer!
-new_racer.dialogue.confirm_remove,Are you sure you want to remove {0}?
+new_racer.title,Регистрация Нового Гонщика
+new_racer.edit_title,Изменить профиль гонщика
+new_racer.racer_name,Имя Гонщика
+new_racer.your_name,Твоё имя
+new_racer.voice_pitch,Уровень голоса
+new_racer.controlled_by,Контролируется:
+new_racer.ai_skill,Сложность ИИ
+new_racer.choose_avatar,Выбрать аватар
+new_racer.voice.low,{0:0}% Низкий
+new_racer.voice.high,{0:0}% Высокий
+new_racer.voice.mid,Средний
+new_racer.register,Зарегистрироваться
+new_racer.dialogue.name_required,Имя обязательно!
+new_racer.dialogue.name_taken,Имя {0} уже занято другим гонщиком!
+new_racer.dialogue.confirm_remove,Ты точно хочешь убрать {0}?
 
 # Select Avatar Menu
 
-select_avatar.title,Select Avatar
+select_avatar.title,Выбери Аватар
 
 # Racer List Menu
 
-season_lineup.title,Season Lineup
-season_lineup.begin_season,Begin Season
+season_lineup.title,Список Гонщиков
+season_lineup.begin_season,Начать Сезон
 
 # Generation Notice
 
-gen.generating,Hold On...<br>Generating
-gen.loading,Hold On...<br>Loading
+gen.generating,Подожди...<br>Идёт генерация
+gen.loading,Подожди...<br>Загрузка
 
 # Campaign Dashboard
 
-dash.garage,Garage
-dash.no_car_warning,You don't have a car!
-dash.btn.buy_car,Buy A Car
-dash.end_campaign,End Campaign
-dash.end_season,End Season
-dash.end_season.tip,Advance to next Season
-dash.advance_week,Advance
-dash.advance_week.tip,Advance to next Week
-dash.view_season,View Season
-dash.view_season.tip,Toggle season / week results
-dash.press_x_to_select,Press {0} to select
-dash.flip_track_card.tip,Flip the track card
-dash.btn.walk_on_foot,Walk on Foot
-dash.btn.walk_on_foot.tip,Participate in the race as a pedestrian (dangerous!)
-dash.btn.save_track.tip,Save the track for use in Custom Races or Track Editor
-dash.btn.regenerate.tip,Will regenerate the track, if you don't like current one
+dash.garage,Гараж
+dash.no_car_warning,У тебя нет машины!
+dash.btn.buy_car,Купить машину
+dash.end_campaign,Закончить Кампанию
+dash.end_season,Закончить Сезон
+dash.end_season.tip,Продвинуться в Следующий сезон
+dash.advance_week,Продолжить
+dash.advance_week.tip,Продолжить в следующей неделе
+dash.view_season,Детали Сезона
+dash.view_season.tip,Включить или отключить результаты сезоны / недели
+dash.press_x_to_select,Нажми {0} чтобы выбрать
+dash.flip_track_card.tip,Перевернуть карточку трэка
+dash.btn.walk_on_foot,Участвовать Пешком
+dash.btn.walk_on_foot.tip,Начни гонку за пешехода (опасно!)
+dash.btn.save_track.tip,Сохранить трэк в Редакторе трэков или в Пользовательских Треках
+dash.btn.regenerate.tip,Пересоздаст текущий трэк, если он тебе не нравится
 # Verb
-dash.btn.do_race,Race
-dash.btn.do_retry,Retry
-dash.give_5k,Give $5000
+dash.btn.do_race,Начать
+dash.btn.do_retry,Заного
+dash.give_5k,Дать $5000
 
 # Keep short - abbreviate if necessary
-dash.stage01,Stage 01
-dash.stage02,Stage 02
-dash.stage03,Stage 03
-dash.stage04,Stage 04
-dash.stage05,Stage 05
+dash.stage01,Этап 01
+dash.stage02,Этап 02
+dash.stage03,Этап 03
+dash.stage04,Этап 04
+dash.stage05,Этап 05
 
 # Keep short - abbreviate if necessary
-dash.week1,Week 1
-dash.week2,Week 2
-dash.week3,Week 3
-dash.week4,Week 4
-dash.week5,Week 5
-dash.week6,Week 6
-dash.week7,Week 7
+dash.week1,Неделя 1
+dash.week2,Неделя 2
+dash.week3,Неделя 3
+dash.week4,Неделя 4
+dash.week5,Неделя 5
+dash.week6,Неделя 6
+dash.week7,Неделя 7
 
-dash.stage_rewards,Stage Rewards
-dash.season_rewards,Season Rewards
-dash.next_season,Next Season
-dash.game_over,Game Over
-dash.buy_freedom,Buy Freedom<br><size=75%>${0}</size>
-dash.players,Players
+dash.stage_rewards,Награды за Этап
+dash.season_rewards,Награды за Сезон
+dash.next_season,Следующий сезон
+dash.game_over,Игра Оконченна
+dash.buy_freedom,Купить Свободу<br><size=75%>${0}</size>
+dash.players,Игроки
 # It will be in a button, so could be just "All"
-dash.all_racers,All Racers
+dash.all_racers,Все гонщики
 
-dash.maxed_out,Maxed Out
-dash.req_lvl_short,Req lvl: {0}
+dash.maxed_out,Максимальный уровень
+dash.req_lvl_short,Нужн. ур-нь: {0}
 
-dash.tip.add_1_lap,Add 1 lap
-dash.tip.add_5_laps,Add 5 laps
-dash.tip.reduce_1_lap,Reduce by 1 lap
-dash.tip.reduce_5_laps,Reduce by 5 laps
+dash.tip.add_1_lap,Добавить 1 круг
+dash.tip.add_5_laps,Добавить 5 кругов
+dash.tip.reduce_1_lap,Обрать 1 круг
+dash.tip.reduce_5_laps,Убрать 5 кругов
 
-dash.tip.workshop_item,Workshop Item
+dash.tip.workshop_item,Предмет из Мастерской
 dash.tip.rand_time_attack,Random Time Attack session
 dash.tip.rand_race,Random quick race in unique procedurally generated location
 dash.tip.rand_battle,Random Car Battle with AI opponents in procedurally generated location
