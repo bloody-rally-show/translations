@@ -45,7 +45,7 @@ char.anon.job_short,Racer
 # Generic Terms (keep short)
 
 term.car,Car
-term.track,Trac
+term.track,Track
 term.lap,Lap
 term.lap_percent,Lap%
 term.laps,Laps
@@ -339,7 +339,7 @@ settings.visuals.minimap_pos.right,Right
 # Settings -> Gameplay
 
 settings.gameplay.show_tips,Show Tips
-# FOR TRANSLATORS: Please translate as "Show Cutscenes (English Only)"
+
 settings.gameplay.show_cutscenes,Show Cutscenes
 settings.gameplay.show_speech_bubbles,Show Speech Bubbles
 settings.gameplay.enable_censorship,Censor Insulting Words
