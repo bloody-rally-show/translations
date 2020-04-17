@@ -1,4 +1,4 @@
-######################################
+﻿######################################
 # Bloody Rally Show translations file 
 # Locale: English
 # Author: Tomas Varaneckas
@@ -38,7 +38,7 @@ char.nic.name,Николас Меррилэнд
 char.nic.job,Директор Bloody Rally Show
 char.nic.job_short,Директор
 
-char.anon.name,Анонимный гонщик
+char.anon.name,Неизвестный гонщик
 char.anon.job,Гонщик
 char.anon.job_short,Гонщик
 
@@ -95,7 +95,7 @@ term.xp,XP
 # Short for position. Keep "Pos" if you can't find a good alternative
 term.pos,Место
 # Noun - number of people killed (keep short, abbreviate if necessary)
-tterm.kills,Убийств
+term.kills,Убийств
 # Noun - number of cars fragged (reference to Quake). Keep as "Frags" in your alphabet. Max 5 characters.
 term.frags,Фраги
 term.damage,Урон
@@ -162,7 +162,7 @@ main_menu.btn.achievements,Достижения
 main_menu.btn.settings,Настройки
 main_menu.btn.about,Об игре
 main_menu.btn.quit,Выйти
-main_menu.label.whats_new,Новости
+main_menu.label.whats_new,Чего нового
 
 # Main Menu => Campaign
 
@@ -216,61 +216,61 @@ custom_race.btn.random_battle,Быстрая Битва
 
 # Main Menu => Editors & Mods
 
-editors_mods.btn.track_editor,Track Editor
-editors_mods.btn.car_editor,Car Editor
-editors_mods.btn.mod_manager,Mod Manager
+editors_mods.btn.track_editor,Редактор Треков
+editors_mods.btn.car_editor,Редактор Машин
+editors_mods.btn.mod_manager,Менеджер Модов
 
 # Main Menu => Mod Manager
 
-mods.section.tracks,Subscribed Tracks
-mods.section.cars,Subscribed Cars
-mods.btn.open_workshop,Browse Workshop
-mods.btn.manage_tracks,Tracks
-mods.btn.manage_cars,Cars
-mods.btn.reload,Reload Mods
-mods.btn.unsubscribe.tip,Remove
-mods.btn.view_online.tip,View Online
+mods.section.tracks,Трэки из Мастерской
+mods.section.cars,Машины из Мастерской
+mods.btn.open_workshop,Открыть Мастерскую
+mods.btn.manage_tracks,Трэка
+mods.btn.manage_cars,Машины
+mods.btn.reload,Перезагрузить Моды
+mods.btn.unsubscribe.tip,Удалить
+mods.btn.view_online.tip,Посмотреть в Мастерской
 
 # Leaderboards
 
-leaderboard.time_attack.title,Time Attack<br>Leaderboard
-leaderboard.type,Leaderboard Type
-leaderboard.type.friends,Friends
-leaderboard.type.global,Global
-leaderboard.top100,Top 100
-leaderboard.daily_challenge,Daily Challenge<br>Leaderboard
-leaderboard.daily_challenge.time_out,Time Out!
-leaderboard.daily_challenge.lap_attempts,Lap Attempts
-leaderboard.daily_challenge.ends_in,Ends In
-leaderboard.daily_challenge.grace_period,Grace Period
-leaderboard.daily_challenge.ended_minutes_ago, Ended {0:0} Minutes Ago
-leaderboard.daily_challenge.ended_hours_ago, Ended {0:0} Hours Ago
-leaderboard.daily_challenge.ended_days_ago, Ended {0:0} Days Ago
-leaderboard.day,Day
-leaderboard.btn.race_now,Race Now
-leaderboard.btn.race_now.tip,Race to set your lap time with selected track and car
-leaderboard.no_score.race_now,You haven't set a score yet. Race now to set it!
-leaderboard.no_steam_connection,Steam connection is not available<br><br>Leaderboards will not work
-leaderboard.btn.time_attack,Time Attack
-leaderboard.time_attack.tip,Track lap time leaderboards. Use "Custom Race" with "Time Attack" mode to set yours.
-leaderboard.refresh.tip,Reload scores directly from Steam
+leaderboard.time_attack.title,Гонка на Время<br>Таблица лидеров
+leaderboard.type,Вид Таблицы
+leaderboard.type.friends,Друзья
+leaderboard.type.global,Мировая
+leaderboard.top100,Топ 100
+leaderboard.daily_challenge,Ежедневное Испытание<br>Таблица лидеров
+leaderboard.daily_challenge.time_out,Время вышло!
+leaderboard.daily_challenge.lap_attempts,Попыток круга
+leaderboard.daily_challenge.ends_in,Кончается через
+leaderboard.daily_challenge.grace_period,Период Подготовки
+leaderboard.daily_challenge.ended_minutes_ago, Закончилось {0:0} Минут Назад
+leaderboard.daily_challenge.ended_hours_ago, Закончилось {0:0} Часов Назад
+leaderboard.daily_challenge.ended_days_ago, Закончилось {0:0} Дней Назад
+leaderboard.day,День
+leaderboard.btn.race_now,Начать Гонку
+leaderboard.btn.race_now.tip,Начни гонку чтобы установить твой рекорд времени с выбранныи трэком и машиной
+leaderboard.no_score.race_now,Ты пока не поставил рекорд. Начни сейчас чтобы исправить это!
+leaderboard.no_steam_connection,Соединение к сервисам Стима недоступно<br><br>Таблицы лидеров не работают
+leaderboard.btn.time_attack,Гонка на Время
+leaderboard.time_attack.tip,Таблицы лидеров этого трэка. Создай "Свою Гонку" с режимом "Гонка на Время" чтобы поставить свой собственный рекорд.
+leaderboard.refresh.tip,Обновить Таблицы напрямую из Стима
 
 # Leaderboard Names
 
-leaderboard.max_season,Max Season
-leaderboard.max_racer_level,Max Racer Level
-leaderboard.people_hit,People Hit
-leaderboard.km_driven,KM Driven
-leaderboard.cash_earned,Cash Earned
-leaderboard.xp_gained,XP Gained
-leaderboard.podium_finishes,Podium Finishes
-leaderboard.podium_gold,Podium Gold
-leaderboard.seasons_won,Seasons Won
-leaderboard.cars_fragged,Cars Fragged
-leaderboard.tracks_created,Tracks Created
-leaderboard.longest_jump,Longest Jump
-leaderboard.meters_jumped,Meters Jumped
-leaderboard.seconds_drifted,Seconds Drifted
+leaderboard.max_season,Длиннейший Сезон
+leaderboard.max_racer_level,Высочайший Уровень
+leaderboard.people_hit,Пешеходов Сбито
+leaderboard.km_driven,КМ проедено
+leaderboard.cash_earned,Денег Заработано
+leaderboard.xp_gained,XP Полученно
+leaderboard.podium_finishes,Побед на Подиуме
+leaderboard.podium_gold,Золотых Побед
+leaderboard.seasons_won,Сезонов Выйгранно
+leaderboard.cars_fragged,Машин Фрагнуто
+leaderboard.tracks_created,Трэков Созданно
+leaderboard.longest_jump,Длиннейший прыжок
+leaderboard.meters_jumped,Метров в Воздухе
+leaderboard.seconds_drifted,Секунд в Дрифте
 
 # Settings 
 
@@ -286,17 +286,17 @@ settings.btn.reset,Reset
 
 # Settings -> Video
 
-settings.video.quality_warning,This quality level may not be optimal for your hardware!
-settings.video.resolution_warning,This resolution may not be optimal for your hardware!
-settings.video.vsync_tip,If you have frame sutter, disabling VSYNC and setting high FPS limit could help
-settings.video.quality,Quality
-settings.video.quality.performance,Performance
-settings.video.quality.quality,Quality
-settings.video.resolution,Resolution
-settings.video.window_mode,Window Mode
-settings.video.window_mode.full_screen_exclusive,Full Screen (Exclusive)
-settings.video.window_mode.full_screen_window,Full Screen (Window)
-settings.video.window_mode.windowed,Windowed
+settings.video.quality_warning,Эти настройки качества могут быть неоптимальными для твоей системы!
+settings.video.resolution_warning,Это разрешение может быть неоптимальным для твоей системы!
+settings.video.vsync_tip,Если у тебя проблемы с зависанием кадров, отключение вертикальной синхронизации и установка высокого лимита ФПС может помочь
+settings.video.quality,Качество
+settings.video.quality.performance,Производительность
+settings.video.quality.quality,Качество
+settings.video.resolution,Разрешение
+settings.video.window_mode,Окно
+settings.video.window_mode.full_screen_exclusive,Полный эран
+settings.video.window_mode.full_screen_window,Окно в полный экран
+settings.video.window_mode.windowed,Оконный
 # Don't translate this one, just copy
 settings.video.vsync,VSync
 settings.video.vsync.off,Off
@@ -310,90 +310,90 @@ settings.video.btn.set_optimal_tip,Will set recommended Resolution and Quality l
 
 # Settings -> Visuals
 
-settings.visuals.ui_scale,UI Scale
-settings.visuals.ui_scale_tip,Will rescale the UI
-settings.visuals.speed_units,Speed Units
-settings.visuals.show_blood,Show Blood
-settings.visuals.show_racer_names,Show Racer Names
-settings.visuals.show_tire_trails,Show Tire Trails
-settings.visuals.show_brake_lights,Show Brake Lights
-settings.visuals.show_clouds,Show Clouds
-settings.visuals.show_weather_effects,Show Weather Effects
-settings.visuals.show_car_smoke,Show Car Smoke
-settings.visuals.show_controls,Show Controls
-settings.visuals.show_in_race_rankings,Show In-Race Rankings
-settings.visuals.dynamic_backgrounds,Dynamic Backgrounds
-settings.visuals.dynamic_backgrounds.tip,For Campaign and Custom Race
-settings.visuals.reduce_particles,Reduce Particles For Visibility
-settings.visuals.post_processing,Post Processing
-settings.visuals.minimap_size,Minimap Size
-settings.visuals.minimap_size.off,Off
-settings.visuals.minimap_size.regular,Regular
-settings.visuals.minimap_size.large,Large
-settings.visuals.minimap_size.enormous,Enormous
-settings.visuals.minimap_pos,Minimap Position
-settings.visuals.minimap_pos.top_left,Top Left
-settings.visuals.minimap_pos.bottom_right,Bottom Right
-settings.visuals.minimap_pos.top,Top
-settings.visuals.minimap_pos.right,Right
+settings.visuals.ui_scale,Размер Интерфейса
+settings.visuals.ui_scale_tip,Изменит размер Интерфэйса
+settings.visuals.speed_units,Измерение Скорости
+settings.visuals.show_blood,Показывать кровь
+settings.visuals.show_racer_names,Показывать Имена Гонщиков
+settings.visuals.show_tire_trails,Показывать Отметки Покрышек
+settings.visuals.show_brake_lights,Показывать Задние Огни
+settings.visuals.show_clouds,Показывать Облака
+settings.visuals.show_weather_effects,Показывать эффекты погоды
+settings.visuals.show_car_smoke,Показывать Дым из Машин
+settings.visuals.show_controls,Показывать Управление
+settings.visuals.show_in_race_rankings,Показывать Места в Гонке
+settings.visuals.dynamic_backgrounds,Динамические Задники
+settings.visuals.dynamic_backgrounds.tip,Для Кампании и Своей Гонки
+settings.visuals.reduce_particles,Уменщить количество частиц
+settings.visuals.post_processing,Пост-Процессинг
+settings.visuals.minimap_size,Размер Миникарты
+settings.visuals.minimap_size.off,Вкл
+settings.visuals.minimap_size.regular,Обычная
+settings.visuals.minimap_size.large,Большая
+settings.visuals.minimap_size.enormous,Гигантская
+settings.visuals.minimap_pos,Положение Миникарты
+settings.visuals.minimap_pos.top_left,Слево Сверху
+settings.visuals.minimap_pos.bottom_right,Снизу Справа
+settings.visuals.minimap_pos.top,Сверху
+settings.visuals.minimap_pos.right,Снизу
 
 # Settings -> Gameplay
 
-settings.gameplay.show_tips,Show Tips
+settings.gameplay.show_tips,Показывать Подсказки
 # FOR TRANSLATORS: Please translate as "Show Cutscenes (English Only)"
-settings.gameplay.show_cutscenes,Show Cutscenes
-settings.gameplay.show_speech_bubbles,Show Speech Bubbles
-settings.gameplay.enable_censorship,Censor Insulting Words
-settings.gameplay.peds_take_screenshots,Pedestrians Take Screenshots
-settings.gameplay.post_to_discord,Post To Discord
-settings.gameplay.camera_type,Camera
-settings.gameplay.camera_type.fixed_road,Fixed Road
-settings.gameplay.camera_type.fixed_car,Fixed Car
-settings.gameplay.camera_type.fixed_person,Fixed Person
-settings.gameplay.camera_type.floating,Floating
-settings.gameplay.camera_zoom,Camera Zoom
-settings.gameplay.camera_zoom.near,Near
-settings.gameplay.camera_zoom.medium,Medium
-settings.gameplay.camera_zoom.far,Far
-settings.gameplay.speed_autozoom,Speed Autozoom
-settings.gameplay.speed_autozoom_tip,Zoom automatically depending on your car speed
-settings.gameplay.camera_shake,Camera Shake
-settings.gameplay.camera_shake.full,Full
-settings.gameplay.camera_shake.light,Light
-settings.gameplay.camera_shake.off,Off
-settings.gameplay.vibration,Vibration
-settings.gameplay.run_in_background,Run In Background
+settings.gameplay.show_cutscenes,Покказывать Катсцены (Только Английский)
+settings.gameplay.show_speech_bubbles,Показывать Текстовые Пузыри
+settings.gameplay.enable_censorship,Скрывать Ругательства
+settings.gameplay.peds_take_screenshots,Пешеходы Делают Скриншоты
+settings.gameplay.post_to_discord,Загружать в Дискорд
+settings.gameplay.camera_type,Камера
+settings.gameplay.camera_type.fixed_road,Прикрепленно к Дороге
+settings.gameplay.camera_type.fixed_car,Прикрепленно к Машине
+settings.gameplay.camera_type.fixed_person,Прикрепленно к Человеку
+settings.gameplay.camera_type.floating,Парящая
+settings.gameplay.camera_zoom,Отдаление Камеры
+settings.gameplay.camera_zoom.near,Близко
+settings.gameplay.camera_zoom.medium,Средне
+settings.gameplay.camera_zoom.far,Далеко
+settings.gameplay.speed_autozoom,Автоматическая
+settings.gameplay.speed_autozoom_tip,Дальность автоматически подстраивается в зависимости от скорости
+settings.gameplay.camera_shake,Тряска камеры
+settings.gameplay.camera_shake.full,Полная
+settings.gameplay.camera_shake.light,Лёгкая
+settings.gameplay.camera_shake.off,Вкл
+settings.gameplay.vibration,Вибрация
+settings.gameplay.run_in_background,Работать в Фоновом Режиме
 settings.gameplay.auto_lock_mouse,Auto Lock Mouse
 settings.gameplay.auto_lock_mouse_tip,If you have multi-monitor setup and like to multitask, you may want to disable mouse locking. Chaing this requires restart.
 
 # Settings -> Audio
 
-settings.audio.master_volume,Master Volume
-settings.audio.menu_sounds,Menu Sounds
-settings.audio.menu_music,Menu Music
-settings.audio.editor_music,Editor Music
-settings.audio.race_music,Race Music
-settings.audio.car_engine,Car Engine
-settings.audio.tire_skid,Tire Skid
-settings.audio.crowd_noise,Crowd Noise
-settings.audio.sound_fx,Sound FX
-settings.audio.btn.reset_to_defaults,Reset To Defaults
+settings.audio.master_volume,Общая Громкость
+settings.audio.menu_sounds,Меню
+settings.audio.menu_music,Музыка в Меню
+settings.audio.editor_music,Редакторы
+settings.audio.race_music,Гонка
+settings.audio.car_engine,Двигатели
+settings.audio.tire_skid,Скольжение Шин
+settings.audio.crowd_noise,Шум Толпы
+settings.audio.sound_fx,Звуковые Эффекты
+settings.audio.btn.reset_to_defaults,Сбросить Громкость
 
 # Settings -> Reset
 
-settings.reset.btn.full_reset,Full Reset
-settings.reset.btn.reset_tips,Reset Tips
+settings.reset.btn.full_reset,Полный Сброс
+settings.reset.btn.reset_tips,Сбросить Подсказки
 
 # FOR TRASLATORS: Be very careful to not change text inside brackets (<br>, <size=50%> and such). It is one long line
-settings.reset.about,Full Reset will:<br><indent=10%><size=70%><br> - Delete all campaigns<br> - Lock all cars<br> - Exit the game right away<br> <indent=0%><size=100%><br> Full Reset will not delete:<br> <indent=10%><size=70%><br> - Achievements<br> - Leaderboard entries <br> - Custom Cars and Tracks
+settings.reset.about,Полный Сброс:<br><indent=10%><size=70%><br> - Удалит все кампании<br> - Заблокирует все машины<br> - Сразу выйдет из игры<br> <indent=0%><size=100%><br> Полный Сброс не сбросит:<br> <indent=10%><size=70%><br> - Достижения<br> - Записи в Таблицах Рекордов <br> - Пользовательские машины и трэки
 
 # Main Menu button tooltips
 
-main_menu.btn.tooltip.homepage,Kodo Linija Homepage
-main_menu.btn.tooltip.newsletter,Developer Newsletter
-main_menu.btn.tooltip.dev_msg,A message from the developer
-main_menu.btn.tooltip.campaign,Story mode with randomly generated tracks. Play to unlock new cars!
-main_menu.btn.tooltip.race,Have a quick Race, Car Battle, or beat other racer's lap times in Time Attack mode
+main_menu.btn.tooltip.homepage,Сайт Kodo Linija
+main_menu.btn.tooltip.newsletter,Новости разработчика
+main_menu.btn.tooltip.dev_msg,Сообщение от разработчика
+main_menu.btn.tooltip.campaign,Режим истории со случайно сгенерированными трэками. Играй чтобы разблокировать новые машины!
+main_menu.btn.tooltip.race,Поучаствуй в быстрой гонке, Битве Автомобилей, или побей рекорды других игроков в Гонке на Время
 main_menu.btn.tooltip.editors,Download tracks and cars made by other players, or make and share your own
 main_menu.btn.tooltip.daily_challenge,Compete with other players for best daily lap times
 main_menu.btn.tooltip.leaderboards,Glory awaits those who get to Top 100
