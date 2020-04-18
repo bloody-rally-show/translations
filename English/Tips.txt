@@ -27,7 +27,7 @@ Use arrow keys to rotate objects before placing them in Track Editor
 Hold shift while rotating an object in Track Editor to get more precision
 You can make roads overlap in Track Editor
 Stage cards in Campaign can be flipped over to reveal extra actions
-The first and only racing game where you can be a pedestrian!
+The first and only racing game where you can be a pedestrian! (GTA doesn't count)
 You can download custom tracks from Steam Workshop
 Share your custom tracks and cars in Steam Workshop
 Visit Steam Workshop to find new tracks and cars
