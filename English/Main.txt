@@ -45,7 +45,7 @@ char.anon.job_short,Racer
 # Generic Terms (keep short)
 
 term.car,Car
-term.track,Track
+term.track,Trac
 term.lap,Lap
 term.lap_percent,Lap%
 term.laps,Laps
@@ -339,7 +339,7 @@ settings.visuals.minimap_pos.right,Right
 # Settings -> Gameplay
 
 settings.gameplay.show_tips,Show Tips
-
+# FOR TRANSLATORS: Please translate as "Show Cutscenes (English Only)"
 settings.gameplay.show_cutscenes,Show Cutscenes
 settings.gameplay.show_speech_bubbles,Show Speech Bubbles
 settings.gameplay.enable_censorship,Censor Insulting Words
@@ -544,7 +544,7 @@ dash.tip.speed_index,Benchmark for relative quickness
 dash.tip.leaderboard_eligible,This track is eligible to have Leaderboards
 dash.tip.ghost_replay_available,Ghost Replay is available
 dash.tip.add_racer_btn,Add new racer (Human or AI)
-dash.tip.show_track_leaderboards,SHow Track Leaderboards
+dash.tip.show_track_leaderboards,Show Track Leaderboards
 dash.tip.new_race_session,Start a new race session
 dash.tip.race_weapons,Will add weapon zones along the track
 dash.tip.0_racers,Remove all recers except for the Player
