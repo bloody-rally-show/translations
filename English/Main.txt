@@ -1541,7 +1541,7 @@ cut.hitobj.intro.racer.6,Help me out, I can't do this alone.
 cut.hitobj.intro.gov.pos.1,Our viewers love it when stuff is knocked over, so this is what you have to do.
 cut.hitobj.intro.gov.pos.2,I made a bet with someone who said you couldn't do it. Prove him wrong.
 cut.hitobj.intro.gov.pos.3,I'm in a bad mood, and nothing would make me feel better than seeing some stuff flying around.
-cut.hitobj.intro.gov.pos.4,Our janitors became too lazy, so I have a plan how to make them work harder.
+cut.hitobj.intro.gov.pos.4,Our street cleaning service is billing us for nothing, so I have a plan how to make them work harder.
 cut.hitobj.intro.gov.pos.5,I've got a fun challenge for you, my friend.
 
 # {0} insult plural (clowns), {1} - curse adverb (friggin time)
