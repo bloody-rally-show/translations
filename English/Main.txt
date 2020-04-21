@@ -45,7 +45,7 @@ char.anon.job_short,Racer
 # Generic Terms (keep short)
 
 term.car,Car
-term.track,Trac
+term.track,Track
 term.lap,Lap
 term.lap_percent,Lap%
 term.laps,Laps
@@ -547,7 +547,7 @@ dash.tip.add_racer_btn,Add new racer (Human or AI)
 dash.tip.show_track_leaderboards,Show Track Leaderboards
 dash.tip.new_race_session,Start a new race session
 dash.tip.race_weapons,Will add weapon zones along the track
-dash.tip.0_racers,Remove all recers except for the Player
+dash.tip.0_racers,Remove all racers except for the Player
 dash.tip.add_1_rnd_racer,Add 1 random racer
 dash.tip.add_10_rnd_racers,Add 10 random racers
 dash.tip.rnd_gen_btn,Will generate a random race track
@@ -921,7 +921,7 @@ tr.add_obj.building,Building
 tr.add_obj.grass_square,Grass Square
 tr.add_obj.grass_square.tip,For planting trees and flowers on top of tarmac
 tr.add_obj.bush,Bush
-tr.add_obj.bush.tip,Destructable decorative bush
+tr.add_obj.bush.tip,Destroyable decorative bush
 tr.add_obj.green_tree,Green Tree
 tr.add_obj.branch_tree,Branch Tree
 tr.add_obj.snow_tree,Snow Tree
@@ -1203,7 +1203,7 @@ cut.end.player2racer.8,Sure, whatever.
 cut.end.player2racer.9,Whatever, {0}.
 
 cut.end.racer2player.1,Peace out.
-cut.end.racer2player.2,Allright, see you soon.
+cut.end.racer2player.2,All right, see you soon.
 cut.end.racer2player.3,I'll be watching you.
 cut.end.racer2player.4,Watch your six.
 # {0} will be an noun insult (clown)
@@ -1322,7 +1322,7 @@ cut.punish.gov.cash.4,I will take ${0} from your bank account
 cut.punish.gov.cash.5,you will have to pay ${0} for 100 diamonds in this new mobile game I've just downloaded
 cut.punish.gov.car,I will personally blow your car to tiny pieces with a Pedestrian Cannon. No mechanic will manage to put it back together
 cut.punish.gov.pts,I will run this database query that will make you lose {0} points
-cut.punish.gov.rnd,I will do something so nasty, that they will have to cover it as breaking news, and belive me, your photo will be there
+cut.punish.gov.rnd,I will do something so nasty, that they will have to cover it as breaking news, and believe me, your photo will be there
 cut.punish.gov.aero,I will ask mechanics to stick {0} in your grill to downgrade your AERO
 cut.punish.gov.turbo,I will personally stick {0} in your TURBO
 cut.punish.gov.engine,we will remove a couple of random parts from your ENGINE
@@ -1414,7 +1414,7 @@ cut.ass.end2.2,Get rid of those two {0} for me, will ya?
 cut.ass.end2.3,Make them check your undercarriage.
 cut.ass.end2.4,Make them go *splat*, ok?
 cut.ass.end2.5,Send them flying.
-# {0} - curse adjective (i.e. friggin strecher)
+# {0} - curse adjective (i.e. friggin stretcher)
 cut.ass.end2.6,I want them both carried away on a {0} stretcher.
 cut.ass.end2.7,Give them a free ride on your hood.
 
@@ -1427,7 +1427,7 @@ cut.ass.end3.3,Find them all, and make those {0} check your undercarriage.
 # {0} - plural insult (i.e. clowns)
 cut.ass.end3.4,Make all those {0} go *splat*, ok?
 # end3.5 is used as end2.5
-# {0} - plural insult (clowns) {1} - curse adjective (i.e. friggin strecher)
+# {0} - plural insult (clowns) {1} - curse adjective (i.e. friggin stretcher)
 cut.ass.end3.6,I want all those {0} carried away on a {1} stretcher.
 # {0} - plural insult (i.e. clowns)
 cut.ass.end3.7,Give all those {0} a free ride on your hood.
@@ -1516,7 +1516,7 @@ cut.ass.harmed.13,our affiliate social media influencer
 cut.ass.andwhat1.1,and thought he could get away with it.
 cut.ass.andwhat1.2,and you wouldn't believe what he did in the shower afterwards!
 cut.ass.andwhat1.3,and leaked some, ehm... Sensitive information.
-cut.ass.andwhat1.4,and never even appologized!
+cut.ass.andwhat1.4,and never even apologized!
 cut.ass.andwhat1.5,and thought nobody would notice.
 cut.ass.andwhat1.6,like there's no tomorrow.
 # {0} - insult singular (clown)
@@ -1596,7 +1596,7 @@ cut.pun.short.gears,Gears -1
 cut.pun.short.turbo,Turbo -1
 cut.pun.short.grip,Grip -1
 
-# Will be used in mid sentence, like: "Hit 4 cones while driting"
+# Will be used in mid sentence, like: "Hit 4 cones while drifting"
 cut.while_drifting,while drifting
 
 cut.short.full_throttle,Challenge: Full Throttle
@@ -1606,11 +1606,11 @@ cut.short.inv_steer,Challenge: Inverted Steering
 cut.short.shield,Challenge: Force Field
 cut.short.weaponize,Challenge: Weaponized Race
 
-# Will be used in sentence like "Assasinate John Smith"
+# Will be used in sentence like "Assassinate John Smith"
 cut.assassinate.1,Assassinate {0} 
-# Will be used in sentence like "Assasinate 3 Hipsters"
+# Will be used in sentence like "Assassinate 3 Hipsters"
 cut.assassinate.2,Assassinate {0} {1}
-# Will be used in end of sentence like "Hipsters assasinated", or "John Smith assasinated"
+# Will be used in end of sentence like "Hipsters assassinated", or "John Smith assassinated"
 cut.assassinated,{0} assassinated
 
 ### Car Prank mission cutscene
@@ -1624,7 +1624,7 @@ cut.prank.gov.laugh.4,*Chuckles*
 cut.prank.gov.laugh.5,*Tries to hold laughter*
 cut.prank.gov.laugh.6,*Giggles*
 
-cut.prank.player.react.1,I have to admit, this laughter is contageous.
+cut.prank.player.react.1,I have to admit, this laughter is contagious.
 # {0} - curse adverb (friggin)
 cut.prank.player.react.2,What's so {0} funny?
 # {0} will be a government agent name
@@ -1687,7 +1687,7 @@ cut.prank.full_throttle.descr,Complete the race with your throttle stuck at 100%
 cut.prank.full_throttle.tip,Focus on steering and avoid any obstacles
 
 # {0} - crap
-cut.prank.inv_steer.1,You'll never believe what happened! Your car! {0}! They have inversed the steering. Hahah, I'll be personally watching you drive that thing!
+cut.prank.inv_steer.1,You'll never believe what happened! Your car! {0}! They have inverted the steering. Hahah, I'll be personally watching you drive that thing!
 cut.prank.inv_steer.2,We had a trainee mechanic working on your car, and he might have switched some wrong wires. Controls could feel a little odd. *Tries to hold laughter*
 
 cut.prank.inv_steer.descr,Complete the race with your steering inverted
