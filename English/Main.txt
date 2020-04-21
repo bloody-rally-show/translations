@@ -1664,7 +1664,7 @@ cut.prank.tiny_car.descr,Complete the race with tiny car
 cut.prank.tiny_car.tip,You can fit through smaller gaps you normally would
 
 # {0} - curse word (crap)
-cut.prank.huge_car.1,You'll never believe what happened! Your car! {0}! They enlarged it. Let's hope you'll find an oversized android to control it.
+cut.prank.huge_car.1,You'll never believe what happened! Your car! {0}! They enlarged it. OK {0}, now it's your turn! Ah, we know, it's going to be tricky to drive on those tiny lanes. Hilarious!
 # {0} - random laughter from above
 cut.prank.huge_car.2,Someone in the lab tested the matter density adjustment ray on your car. Don't worry, you can still control it remotely. {0}
 cut.prank.huge_car.3,Have you seen those old Godzilla movies? Of course you should have, you're from those ancient times. Anyway, your car got enlarged. Take care now.
