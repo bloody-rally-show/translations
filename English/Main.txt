@@ -1676,9 +1676,9 @@ cut.prank.huge_car.tip,Bigger size means more damage to other cars!
 # {0} - crap, {1} - some item (bacon burger)
 cut.prank.full_throttle.1,You'll never believe what happened! Your car! {0}! They have put {1} inside your throttle valve. I'll be laughing my ass off watching you drive that thing!
 # {0} - crap, {1} - some item (bacon burger)
-cut.prank.full_throttle.2,{0}! Those idiots messed with your car again! This time they have put {1} inside your throttle valve. I'll be laughing my ass off watching you drive that thing!
+cut.prank.full_throttle.2,{0}! Those idiots messed with your car again! This time they have put {1} inside your throttle valve. You've heard that story about the hare and the turtle, haven't you? Ha ha.
 # {0} - clowns, {1} - bacon burger
-cut.prank.full_throttle.3,You'll never believe what happened! Those {0} have put {1} inside your throttle valve. I'll be laughing my ass off watching you drive that thing!
+cut.prank.full_throttle.3,You'll never believe what happened! Those {0} have put {1} inside your throttle valve. I have no idea how you'll manage to pull this off. Good luck!
 # {0} - clowns, {1} - bacon burger
 cut.prank.full_throttle.4,This is unbelievable! {0}! They have put {1} inside your throttle valve. I'll be laughing my ass off watching you drive that thing!
 cut.prank.full_throttle.5,Don't get mad, but we had a trainee mechanic working on your car, and he might have switched some wrong wires. Test your brakes. *Tries to hold laughter*
