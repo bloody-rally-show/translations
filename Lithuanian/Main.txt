@@ -1219,7 +1219,7 @@ cut.end.racer2player.10,Man dzin, tu vis tiek {0}.
 cut.end.gov.1,Dabar nešdinkis, arba iškviesiu apsaugą.
 # {0} - insult singular (clown)
 cut.end.gov.2,Valink iš čia, {0}.
-# {0} - curse adverb (friggin leave)
+
 cut.end.gov.3,Prašau, dink, ir negrįžk kol to nepadarysi.
 # {0} - insult singular (clown)
 cut.end.gov.4,Viso gero, {0}.
@@ -1625,8 +1625,8 @@ cut.prank.gov.laugh.5,*Mėgina nesijuokti*
 cut.prank.gov.laugh.6,*Krizena*
 
 cut.prank.player.react.1,Turiu pripažinti, juokas užkrečiamas
-# {0} - curse adverb (friggin)
-cut.prank.player.react.2,Kas čia taip {0} juokinga?
+
+cut.prank.player.react.2,Kas čia taip blin juokinga?
 # {0} will be a government agent name
 cut.prank.player.react.3,Turiu nuojautą, kad man bus visiškai nejuokinga, ar ne, {0}?
 # {0} will be a government agent name
@@ -1634,7 +1634,7 @@ cut.prank.player.react.4,Gerai, pasakyk ir man tą bajerį, {0}.
 cut.prank.player.react.5,Praeitą kartą, kai girdėjau šį juoką, man buvo visiškai nejuokinga.
 cut.prank.player.react.6,Kodėl mane apėmė bloga nuojauta?
 
-# {0} - curse adverb (friggin)
+
 cut.prank.player.react2.1,Tu tikriausiai juokauji
 cut.prank.player.react2.2,KĄ?!
 # {0} - plural insult (clowns)
@@ -1807,8 +1807,8 @@ cut.cam.racer.intro.3,Pažaiskime žaidimą! Aš pareguliavau mūsų filmavimo d
 
 # {0} - clown
 cut.cam.gov.intro.1,Ei, {0}, palauk biškį. Mūsų žiūrovai skundžiasi tavo filmavimo drono nustatymais. Aš juos pakeičiau taip, kad jiems patiktų, aišku?
-# {0} - friggin (adverb), {2} - clowns
-cut.cam.gov.intro.2,Aš {0} susinervinęs dėl to, kad tu pastoviai keitalioji savo filmavimo drono nustatymus. Ar galėtum jų nejudinti, kaip visi kiti {1}?
+# {0} - damn, {2} - clowns
+cut.cam.gov.intro.2,{0}! Aš susinervinęs, nes tu pastoviai keitalioji savo filmavimo drono nustatymus. Ar galėtum jų nejudinti, kaip visi kiti {1}?
 cut.cam.gov.intro.3,Ponai ir ponios, pasiruoškit maišelius vėmalams. Sugedo filmavimo dronas, ir kol jo nesutaisys, mechanikai maldavo nieko nereguliuoti.
 
 cut.cam.descr,Užbaik šias lenktynes nekeisdamas kameros nustatymų

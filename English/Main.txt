@@ -1219,8 +1219,8 @@ cut.end.racer2player.10,Whatever, {0}.
 cut.end.gov.1,Now go, or I'll call {0} security.
 # {0} - insult singular (clown)
 cut.end.gov.2,Beat it, {0}.
-# {0} - curse adverb (friggin leave)
-cut.end.gov.3,Please, {0} leave, and don't come back until you do it.
+
+cut.end.gov.3,Please leave, and don't come back until you do it.
 # {0} - insult singular (clown)
 cut.end.gov.4,Good bye, {0}.
 cut.end.gov.5,Good bye.
@@ -1625,8 +1625,8 @@ cut.prank.gov.laugh.5,*Tries to hold laughter*
 cut.prank.gov.laugh.6,*Giggles*
 
 cut.prank.player.react.1,I have to admit, this laughter is contagious.
-# {0} - curse adverb (friggin)
-cut.prank.player.react.2,What's so {0} funny?
+
+cut.prank.player.react.2,What's so damn funny?
 # {0} will be a government agent name
 cut.prank.player.react.3,I have a feeling this is not going to be that funny for me, am I right, {0}?
 # {0} will be a government agent name
@@ -1634,8 +1634,8 @@ cut.prank.player.react.4,Ok, now tell me the joke please, {0}.
 cut.prank.player.react.5,Last time I've heard this laughter it wasn't funny for me at all
 cut.prank.player.react.6,Why do I have a bad feeling about this?
 
-# {0} - curse adverb (friggin)
-cut.prank.player.react2.1,You got to be {0} kidding me.
+
+cut.prank.player.react2.1,You got to be freaking kidding me.
 cut.prank.player.react2.2,WHAT?!
 # {0} - plural insult (clowns)
 cut.prank.player.react2.3,Who were they? I want names! {0} will pay!
@@ -1807,8 +1807,8 @@ cut.cam.racer.intro.3,I want to challenge you to play a game with me! I tweaked 
 
 # {0} - clown
 cut.cam.gov.intro.1,Wait a moment, you {0}. Our viewers are complaining about your vision drone settings. I have adjusted them the way they want it, ok?
-# {0} - friggin (adverb), {2} - clowns
-cut.cam.gov.intro.2,I am {0} irritated because you keep changing that vision drone settings. Can't you just keep them steady, like all the other {1} do?
+# {0} - damn, {1} - clowns
+cut.cam.gov.intro.2,{0}! I am so irritated because you keep changing that vision drone settings. Can't you just keep them steady, like all the other {1} do?
 cut.cam.gov.intro.3,Ladies and gentlemen, prepare your barf bags. Vision drone broke down, and until it's fixed, our technicians begged to stay away from changing any of it's settings.
 
 cut.cam.descr,Complete the race without changing camera settings
