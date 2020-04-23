@@ -1544,8 +1544,8 @@ cut.hitobj.intro.gov.pos.3,I'm in a bad mood, and nothing would make me feel bet
 cut.hitobj.intro.gov.pos.4,Our street cleaning service is billing us for nothing, so I have a plan how to make them work harder.
 cut.hitobj.intro.gov.pos.5,I've got a fun challenge for you, my friend.
 
-# {0} insult plural (clowns), {1} - curse adverb (friggin time)
-cut.hitobj.intro.gov.neg.1,Listen, I'm fed up with you {0} driving carelessly all the {1} time.
+# {0} insult plural (clowns)
+cut.hitobj.intro.gov.neg.1,Listen, I'm fed up with you {0} driving carelessly all the damn time.
 cut.hitobj.intro.gov.neg.2,There has been a shortage of resources lately, so I want to ask you nicely.
 # {0} insult plural (clowns)
 cut.hitobj.intro.gov.neg.3,I'm in a mood for order today. Everything should remain in place. You {0} better drive carefully!

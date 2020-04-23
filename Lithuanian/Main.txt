@@ -1544,7 +1544,7 @@ cut.hitobj.intro.gov.pos.3,Šiandien neturiu nuotaikos, ir niekas manęs taip ne
 cut.hitobj.intro.gov.pos.4,Mūsų valytojai paskutiniu metu visiškai aptingo, ir aš turiu planą, kaip priverst juos gerai paprakaituoti.
 cut.hitobj.intro.gov.pos.5,Drauge, aš tau turiu labai linksmą užduotį.
 
-# {0} insult plural (clowns), {1} - curse adverb (friggin time)
+# {0} insult plural (clowns)
 cut.hitobj.intro.gov.neg.1,Klausyk. Jūs {0} bet kaip vairuodami visą laiką viską išvartot. Mane tai jau užkniso.
 cut.hitobj.intro.gov.neg.2,Čia paskutiniu metu pas mus labai trūksta resursų. Tai paprašysiu gražiai.
 # {0} insult plural (clowns)
