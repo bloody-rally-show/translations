@@ -20,12 +20,25 @@ files with Notepad, you may see all the words go in one line.
 
 All files have to be in UTF-8 encoding.
 
-# Tips
+## Tips
 
   * When translating, it is useful to enable debugging in the in-game console. 
     Hit F2 to open the console and type `/debug on`. Then when you open the console
     any time, you will see logs in there. Look for red lines, they will show issues
     with translations if there are any.
+
+  * Use `/translations` command to open translations folder
+
+  * Use `/translations reload` to reload translations from disk
+
+  * Use `/translations test_cutscene` in Campaign dashboard to test the cutscenes
+
+## Store Page
+
+Store page texts are here: https://gist.github.com/spajus/a3ce10fe32f3a4587736968371831297
+
+You can add a couple of files to your translation and translate those as well, 
+It would be appreciated!
 
 ## Files
 
@@ -43,9 +56,6 @@ All files have to be in UTF-8 encoding.
     when generating procedural dialogues. Can often be combined with something from the list of 
     insults (i.e. "damn hipsters"). Can have different amount of words for different languages.
     One word per line.
-  * CurseAdverbs.txt - same as curse adjectives, but goes before a verb. Rarely used.
-    Example "You are going to *friggin* die". Can have different amount of words for 
-    different languages. One word per line.
   * Curses.txt - list of generic curses, that can show up in speech bubbles for racers
     and pedestrians, also used in some dialogues. Can have different amount of words
     for different languages, and can be very national and local. One curse per line.
