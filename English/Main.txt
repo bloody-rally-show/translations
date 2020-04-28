@@ -884,8 +884,8 @@ tr.add_obj.tire,Tire
 tr.add_obj.tire.tip,Hold a button and drag to place a row
 tr.add_obj.porta_potty,Porta Potty
 tr.add_obj.porta_potty.tip,Tipping a Porta Potty over gives some Nitro
-td.add_obj.barrel,Barrel
-td.add_obj.barrel.tip,Barrels have a chance to explode when hit at higher speeds
+tr.add_obj.barrel,Barrel
+tr.add_obj.barrel.tip,Barrels have a chance to explode when hit at higher speeds
 tr.add_obj.snowman,Snowman
 tr.add_obj.snowman.tip,Destroying a Snowman gives some Nitro
 tr.add_obj.street_lamp,Street Lamp

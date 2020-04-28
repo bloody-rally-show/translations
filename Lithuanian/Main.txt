@@ -884,8 +884,8 @@ tr.add_obj.tire,Padanga
 tr.add_obj.tire.tip,Laikyk mygtuką ir tempk kad pridėti eilę
 tr.add_obj.porta_potty,Lauko Tualetas
 tr.add_obj.porta_potty.tip,Apvertus lauko tualetą gausi Nitro
-td.add_obj.barrel,Bačka
-td.add_obj.barrel.tip,Bačka gali sprogti jei į ją įvažiuosi didesniu greičiu
+tr.add_obj.barrel,Bačka
+tr.add_obj.barrel.tip,Bačka gali sprogti jei į ją įvažiuosi didesniu greičiu
 tr.add_obj.snowman,Sniego Senis
 tr.add_obj.snowman.tip,Sunaikinant sniego senį gaunama šiek tiek Nitro
 tr.add_obj.street_lamp,Gatvės Žibintas
