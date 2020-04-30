@@ -33,13 +33,6 @@ All files have to be in UTF-8 encoding.
 
   * Use `/translations test_cutscene` in Campaign dashboard to test the cutscenes
 
-## Store Page
-
-Store page texts are here: https://gist.github.com/spajus/a3ce10fe32f3a4587736968371831297
-
-You can add a couple of files to your translation and translate those as well, 
-It would be appreciated!
-
 ## Files
 
   * Main.txt - This is the meat of the game, containing almost everything. Format is similar to CSV,

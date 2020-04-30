@@ -392,7 +392,7 @@ main_menu.btn.tooltip.homepage,Kodo Linija Homepage
 main_menu.btn.tooltip.newsletter,Developer Newsletter
 main_menu.btn.tooltip.dev_msg,A message from the developer
 main_menu.btn.tooltip.campaign,Story mode with randomly generated tracks. Play to unlock new cars!
-main_menu.btn.tooltip.race,Have a quick Race, Car Battle, or beat other racer's lap times in Time Attack mode
+main_menu.btn.tooltip.race,Have a quick Race, Car Battle, or beat other racers lap times in Time Attack mode
 main_menu.btn.tooltip.editors,Download tracks and cars made by other players, or make and share your own
 main_menu.btn.tooltip.daily_challenge,Compete with other players for best daily lap times
 main_menu.btn.tooltip.leaderboards,Glory awaits those who get to Top 100
@@ -2046,7 +2046,7 @@ dial.race.restart_time_attack_confirm,Are you sure? Current lap times will be di
 dial.ed.track_exit_confirm,Are you sure you want to exit? Any unsaved changes will be lost!
 dial.ed.track_new_confirm,Are you sure? Any unsaved changes will be lost.
 dial.ed.invalid_objects,There are {0} objects too close to the road. Please move or remove them and go for a Test Drive before trying to save again.
-dial.ed.enter_track_name,Enter track name
+dial.ed.enter_track_name,Enter Track Name
 dial.ed.track_name,Track Name
 dial.ed.fix_errors_first,Please fix validation errors before saving the track!
 dial.ed.share_track_no_steam,There is no connection to Steam. Cannot share the track!
