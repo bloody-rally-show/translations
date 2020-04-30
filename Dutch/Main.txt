@@ -1,0 +1,2425 @@
+######################################
+# Bloody Rally Show translations file 
+# Locale: Dutch
+# Translator: Danny Houtworm
+# Contact: Translations@Houtworm.net
+######################################
+
+######################################
+# What should not be modified:
+# 1. Anything inside < > brackets - these are special text formatting tags
+# 2. Anything inside { } brackets - these are variables that will be replaced
+#
+# Do not remove {0} and similar variables - it can cause in-game errors!
+#
+# There is one exception to the rule above. When {0} is a curse adjective or adverb (friggin, etc)
+# And it is stated so in the example, if your language cannot combine them well, you can try ommitting {0}
+# In this case, but if there is more than one variable ({0}, {1}), you cannot remove {0} and leave {1}!
+# You can remove the last variable ({1}) in this case, to keep the variable sequence running from {0}
+# (only if {1} is a curse adjective / adverb)
+#
+# <br> is a line break
+#
+# It is highly recommended to keep every single key in same exact line as English - copy all the comments and blank lines
+######################################
+
+# Characters
+
+# If you change any character names, you have to consistently keep using them
+# Across all the translations where they are mentioned. Also in Tips.txt
+# For this reason I suggest to keep names of Brace Stone and Nicolas Merryland 
+# unchanged. Anonymous racer only appears in introduction cutscene.
+
+char.brace.name,Bert Bruut
+char.brace.job,Vice President van Diversiteit
+char.brace.job_short,VP Diversiteit
+
+char.nic.name,Nicolas Mooiland
+char.nic.job,Directeur van Bloody Rally Show
+char.nic.job_short,Directeur
+
+char.anon.name,Anonieme Racer
+char.anon.job,Racer
+char.anon.job_short,Racer
+
+# Generic Terms (keep short)
+
+term.car,Auto
+term.track,Circuit
+term.lap,Ronde
+term.lap_percent,Ronde%
+term.laps,Rondes
+# Abbreviate to max 5 characters, or keep "Best"
+term.best,Beste
+# Max 10 characters
+term.best_lap,Topronde
+# As in person name
+term.name,Naam
+term.human,Mens
+# Just keep "AI" if your language does not have a very popular abbreviation for Artificial Intelligence
+term.ai,AI
+term.week,Week
+term.stage,Stage
+term.season,Seizoen
+term.special,Speciaal
+term.pending,Wachtend
+term.points,Punten
+term.drifts,Drifts
+term.mode,Modus
+term.battle,Gevecjt
+term.car_battle,Auto Gevecht
+term.time_attack,Tijdsaanval
+term.race,Race
+term.time_limit,Tijdslimiet
+term.time_scale,Tijdschaal
+term.distance,Afstand
+term.weapons,Wapens
+term.time,Tijd
+term.mission,Missie
+# If word "fee" is long in your language, just keep both entry_fee and retry_fee as "fee" ///I can remove the kosten suffix if needed, I don't have an image in my head, But I think it will fit.
+term.entry_fee,Toegangskosten
+term.retry_fee,Herstartkosten
+term.generating,Genereren
+term.available,Beschikbaar
+term.locked,Op slot
+term.owned,In bezit
+term.lost,Verloren
+# This has to be super short!
+term.lvl_to_go,{0} Lvl rest
+term.required_level,Niveau
+# Short for Points (max 3 chars or keep "pts")
+term.pts,ptn
+term.cash,Geld
+# Short for Experience Points. If your language does not have a well know acronym for this, keep "XP"
+term.xp,XP
+# Short for position. Keep "Pos" if you can't find a good alternative
+term.pos,Pos
+# Noun - number of people killed (keep short, abbreviate if necessary)
+term.kills,Doden
+# Noun - number of cars fragged (reference to Quake). Keep as "Frags" in your alphabet. Max 5 characters.
+term.frags,Frags
+term.damage,Schade
+# Short from "damage", Keep "dmg" if you cannot get this to less than 6 characters.
+term.dmg,dmg
+term.racer,Racer
+term.ped,Voetganger
+term.he,hij
+term.she,zij
+term.mr,Hr.
+# Ms is between Miss and Mrs 
+term.ms,Mv.
+term.resurrect,Herrijs
+term.progress,Vooruitgang
+term.attempt,Poging
+term.tips,Hints
+term.difficulty,Moeilijkheidsgraad
+
+# Generic buttons (keep short)
+
+btn.back,Terug
+btn.continue,Bevestig
+btn.apply,Pas toe
+btn.close,Sluit
+btn.refresh,Verniew
+btn.random,Willekeurig
+btn.randomize,Willekeurig maken
+btn.main_menu,Hoofd Menu
+btn.save,Opslaan
+btn.cancel,Annuleer
+btn.delete,Verwijder
+btn.edit,Pas aan
+btn.garage,Garage
+btn.generate,Genereer
+btn.regenerate,Hergenereer
+btn.buy,Koop
+btn.select,Selecteer
+btn.paint,Lak
+btn.switch,Schakel
+btn.confirm,Bevestig
+btn.change,Wissel
+btn.skip,Sla over
+btn.next_page,Volgende
+btn.prev_page,Vorige
+btn.disable_tips,Schakel hints uit
+
+# Keep these very short. On / off can be translated same as yes / no to keep them shorter
+
+btn.on,Aan
+btn.off,Uit
+btn.yes,Ja
+btn.no,Nee
+btn.ok,Oke
+btn.all,Alle
+
+# Main Menu 
+
+main_menu.btn.campaign,Campagne
+main_menu.btn.custom_race,Aangepaste Race
+main_menu.btn.editors_mods,Editors & Mods
+main_menu.btn.daily_challenge,Dag Uitdaging
+main_menu.btn.leaderboards,Ranglijsten
+main_menu.btn.achievements,Prestaties
+main_menu.btn.settings,Instellingen
+main_menu.btn.about,Over BRS
+main_menu.btn.quit,Afsluiten
+main_menu.label.whats_new,Nieuws
+
+# Main Menu => Campaign
+
+campaign.btn.continue,Ga verder
+campaign.btn.new,Nieuw
+campaign.btn.load,Laden
+campaign.saves,Saves
+campaign.no_saves,Geen Saves
+campaign.btn.tips,Hints
+campaign.dialogue.cannot_continue,Je kan niet verder in deze Campagne, Deze is beeindigd.
+
+campaign.difficulty,Moeilijkheidsgraad
+campaign.difficulty.easy,Makkelijk
+campaign.difficulty.normal,Normaal
+campaign.difficulty.hard,Moeilijk
+campaign.difficulty.hardcore,Hardcore
+campaign.difficulty.locked.tip,Benodigd Niveau: {0}
+campaign.difficulty.dialogue.locked,De moeilijkheidsgraad die je hebt gekozen staat nog op slot, haal racer niveau {0} in een andere moeilijkheidsgraad om hem vrij te spelen.
+
+campaign.name,Naam Campagne
+
+campaign.missions_challenges,Missies & Uitdagingen
+campaign.missions_challenges.tip, Sommige evenementen zullen random missies of uitdagingen hebben.
+campaign.races_with_weapons,Evenementen met wapens
+campaign.races_with_weapons.tip,Sommige evenementen zullen wapens en andere powerups gebruikt kunnen worden.
+campaign.directors_car,Directeur
+campaign.directors_car.tip,De Directeur Nicolas doet mee om wat chaos te veroorzaken, Maakt het spel moeilijker.
+campaign.helicopter_weapons,Helicopter Wapens
+campaign.helicopter_weapons.tip,Bert zijn helicopter heeft soms wapens en jaagt op de deelnemers met zijn helicopter, Maakt het spel moeilijker.
+campaign.adaptive_ai,Adaptieve AI
+campaign.adaptive_ai.tip,AI Racers presteren beter of slechter afhankelijk van jouw prestaties.
+campaign.weekly_rebalance,Wekelijkse Herbalans
+campaign.weekly_rebalance.tip,Elke week krijgen de AI racers extra XP en geld om mee te komen, Maakt het spel moeilijker.
+campaign.custom_content,Aangepaste Autos en Circuits
+campaign.custom_content.tip,Maakt het mogelijk om met je zelfgemaakte autos te racen en op je zelfgemaakte circuits te rijden.
+campaign.workshop_content,Workshop Autos en Circuits
+campaign.workshop_content.tip,Voegt geabboneerde Steam Workshop Autos en Circuits toe.
+campaign.allow_heavy_tracks,Sta veeleisende circuits toe
+campaign.allow_heavy_tracks.tip,Voegt eigen en Workshop circuits toe met een hoge object dichthoud, Dit kan slechte invloed hebben op je prestaties.
+
+campaign.btn.start_new,Start Niewe Campagne
+
+# Main Menu => Custom Race
+
+custom_race.btn.continue_session,Ga verder
+custom_race.btn.new_session,Nieuwe sessie
+custom_race.btn.random_time_attack,Snelle Tijdsaanval
+custom_race.btn.random_race,Snelle Race
+custom_race.btn.random_battle,Snel Gevecht
+
+# Main Menu => Editors & Mods
+
+editors_mods.btn.track_editor,Circuit Editor
+editors_mods.btn.car_editor,Auto Editor
+editors_mods.btn.mod_manager,Mods Beheren
+
+# Main Menu => Mod Manager
+
+mods.section.tracks,Geabboneerde Circuits
+mods.section.cars,Geabboneerde Autos
+mods.btn.open_workshop,Blader Workshop
+mods.btn.manage_tracks,Circuits
+mods.btn.manage_cars,Autos
+mods.btn.reload,Herlaad Mods
+mods.btn.unsubscribe.tip,Verwijder
+mods.btn.view_online.tip,Bekijk Online
+
+# Leaderboards
+
+leaderboard.time_attack.title,Tijdsaanval<br>Ranglijst
+leaderboard.type,Ranglijst Type
+leaderboard.type.friends,Vrienden
+leaderboard.type.global,Globaal
+leaderboard.top100,Top 100
+leaderboard.daily_challenge,Dag Uitdaging<br>Ranglijst
+leaderboard.daily_challenge.time_out,Time out!
+leaderboard.daily_challenge.lap_attempts,Ronde Pogingen
+leaderboard.daily_challenge.ends_in,Eindigt in
+leaderboard.daily_challenge.grace_period,Gratie Periode
+leaderboard.daily_challenge.ended_minutes_ago, Einde {0:0} Minuten Geleden
+leaderboard.daily_challenge.ended_hours_ago, Einde {0:0} Uren Geleden
+leaderboard.daily_challenge.ended_days_ago, Einde {0:0} Dagen Geleden
+leaderboard.day,Dag
+leaderboard.btn.race_now,Race Nu
+leaderboard.btn.race_now.tip,Race om een tijd neer te zetten op de geselecteerde track met de geselecteerde auto.
+leaderboard.no_score.race_now,Je hebt nog geen tijd op dit circuit. Race nu om een tijd neer te zetten!
+leaderboard.no_steam_connection,Steam verbinding is niet beschikbaar<br><br>Ranglijsten zullen niet werken.
+leaderboard.btn.time_attack,Tijdsaanval
+leaderboard.time_attack.tip,Circuit Ronde tijd ranglijsten. Speel Aangepaste Race met Tijdsaanval om een tijd neer te zetten.
+leaderboard.refresh.tip,Herlaad de ranglijsten direct van Steam.
+
+# Leaderboard Names
+
+leaderboard.max_season,Hoogste Seizoen
+leaderboard.max_racer_level,Hoogste Racer Niveau
+leaderboard.people_hit,Mensen Geraakt
+leaderboard.km_driven,KM Gereden
+leaderboard.cash_earned,Geld Verdient
+leaderboard.xp_gained,XP Behaald
+leaderboard.podium_finishes,Podium Plaatsing
+leaderboard.podium_gold,Podium Goud
+leaderboard.seasons_won,Seizoenen Gewonnen
+leaderboard.cars_fragged,Autos uitgeschakeld
+leaderboard.tracks_created,Circuits Gemaakt
+leaderboard.longest_jump,Verste Sprong
+leaderboard.meters_jumped,Meters Gesprongen
+leaderboard.seconds_drifted,Secondes Gedrift
+
+# Settings 
+
+# DO NOT TRANSLATE THIS ONE! JUST COPY IT BUT KEEP ENGLISH!
+settings.btn.language,Language
+
+settings.btn.video,Beeld
+settings.btn.visuals,Effecten
+settings.btn.gameplay,Spel
+settings.btn.audio,Geluid
+settings.btn.input,Invoer
+settings.btn.reset,Resetten
+
+# Settings -> Video
+
+settings.video.quality_warning,Deze grafische instellingen zijn misschien not optimaal voor jouw computer.
+settings.video.resolution_warning,Deze resolutie is misschien niet optimaal voor jouw computer.
+settings.video.vsync_tip,Als je beeld stottert kan je proberen om Vsync uit te zetten en een FPS limiet in te stellen.
+settings.video.quality,Kwaliteit
+settings.video.quality.performance,Prestaties
+settings.video.quality.quality,Kwaliteit
+settings.video.resolution,Resolutie
+settings.video.window_mode,Beeldmodus
+settings.video.window_mode.full_screen_exclusive,Volledig Scherm (Exclusief)
+settings.video.window_mode.full_screen_window,Volledig Scherm (Venster)
+settings.video.window_mode.windowed,Venster
+# Don't translate this one, just copy
+settings.video.vsync,VSync
+settings.video.vsync.off,Uit
+settings.video.vsync.on,Aan (Elk Frame)
+settings.video.vsync.on_every_2,Aan (Elk 2de Frame)
+settings.video.fps_limit,FPS Limiet
+settings.video.particle_density,Dichtheid Deeltjes
+settings.video.particle_density_tip,Past de dichtheid van rook en stof aan.
+settings.video.btn.set_optimal,Stel Optimale waardes in
+settings.video.btn.set_optimal_tip,Dit zal de aanbevolen resolutie en kwaliteit voor jouw computer instellen.
+
+# Settings -> Visuals
+
+settings.visuals.ui_scale,Interface schaal
+settings.visuals.ui_scale_tip,Dit schaalt alle zichtbare elementen
+settings.visuals.speed_units,Eenheid
+settings.visuals.show_blood,Bloed
+settings.visuals.show_racer_names,Racer namen
+settings.visuals.show_tire_trails,Bandensporen
+settings.visuals.show_brake_lights,Remlichten
+settings.visuals.show_clouds,Wolken
+settings.visuals.show_weather_effects,Weer Effecten
+settings.visuals.show_car_smoke,Auto Rook
+settings.visuals.show_controls,Weergeef Besturing
+settings.visuals.show_in_race_rankings,Ranglijst tijdens de race
+settings.visuals.dynamic_backgrounds,Dynamische Achtergrond
+settings.visuals.dynamic_backgrounds.tip,Voor Campagne en Aangepaste Race
+settings.visuals.reduce_particles,Verminder deeltjes voor meer zicht
+settings.visuals.post_processing,Naverwerking
+settings.visuals.minimap_size,Mini Kaart Grootte
+settings.visuals.minimap_size.off,Uit
+settings.visuals.minimap_size.regular,Normaal
+settings.visuals.minimap_size.large,Groot
+settings.visuals.minimap_size.enormous,Gigantisch
+settings.visuals.minimap_pos,Mini Kaart Positie
+settings.visuals.minimap_pos.top_left,Linksboven
+settings.visuals.minimap_pos.bottom_right,Rechtsonder
+settings.visuals.minimap_pos.top,Boven
+settings.visuals.minimap_pos.right,Rechts
+
+# Settings -> Gameplay
+
+settings.gameplay.show_tips,Hints
+# FOR TRANSLATORS: Please translate as "Show Cutscenes (English Only)"
+settings.gameplay.show_cutscenes,Filmpjes
+settings.gameplay.show_speech_bubbles,Tekstwolkjes
+settings.gameplay.enable_censorship,Censuur scheldwoorden
+settings.gameplay.peds_take_screenshots,Voetgangers nemen schermafdrukken
+settings.gameplay.post_to_discord,Deel op Discord
+settings.gameplay.camera_type,Camera
+settings.gameplay.camera_type.fixed_road,Fixeer Weg
+settings.gameplay.camera_type.fixed_car,Fixeer Auto
+settings.gameplay.camera_type.fixed_person,Fixeer Persoon
+settings.gameplay.camera_type.floating,Zwevend
+settings.gameplay.camera_zoom,Camera Afstand
+settings.gameplay.camera_zoom.near,Dichtbij
+settings.gameplay.camera_zoom.medium,Normaal
+settings.gameplay.camera_zoom.far,Ver
+settings.gameplay.speed_autozoom,Dynamische Camera Afstand
+settings.gameplay.speed_autozoom_tip,Past de Camera Afstand automatisch aan op basis van je snelheid
+settings.gameplay.camera_shake,Beeldschudden
+settings.gameplay.camera_shake.full,Volledig
+settings.gameplay.camera_shake.light,Licht
+settings.gameplay.camera_shake.off,Uit
+settings.gameplay.vibration,Vibratie
+settings.gameplay.run_in_background,Houd actief in de achtergrond
+settings.gameplay.auto_lock_mouse,Automatisch muis grijpen
+settings.gameplay.auto_lock_mouse_tip,Als je meerdere monitors hebt en graag wil multitasken dan moet je muis grijpen uitschaakelen, Een herstart is nodig om de wijziging door te voeren.
+
+# Settings -> Audio
+
+settings.audio.master_volume,Hoofdvolume
+settings.audio.menu_sounds,Menu Geluiden
+settings.audio.menu_music,Menu Muziek
+settings.audio.editor_music,Editor Muziek
+settings.audio.race_music,Race Muziek
+settings.audio.car_engine,Motorgeluiden
+settings.audio.tire_skid,Piepende Banden
+settings.audio.crowd_noise,Publiek Geluiden
+settings.audio.sound_fx,Geluidseffecten
+settings.audio.btn.reset_to_defaults,Resetten naar staandaard
+
+# Settings -> Reset
+
+settings.reset.btn.full_reset,Volledig Resetten
+settings.reset.btn.reset_tips,Hints Resetten
+
+# FOR TRASLATORS: Be very careful to not change text inside brackets (<br>, <size=50%> and such). It is one long line
+settings.reset.about,Een volledige reset zal:<br><indent=10%><size=70%><br> - Alle Campagnes verwijderen<br> - Alle autos op slot zetten<br> - Het spel direct sluiten<br> <indent=0%><size=100%><br> Een volledige reset behoud wel alle:<br> <indent=10%><size=70%><br> - Prestaties<br> - Ranglijsten <br> - Eigen Autos en Circuits
+
+# Main Menu button tooltips
+
+main_menu.btn.tooltip.homepage,Kodo Linija Website
+main_menu.btn.tooltip.newsletter,Ontwikkelaars Nieuwsbrief
+main_menu.btn.tooltip.dev_msg,Een bericht van de ontwikkelaar
+main_menu.btn.tooltip.campaign,Verhaal modes met procedureel gegenereerde circuits, speel om nieuwe autos vrij te spelen!
+main_menu.btn.tooltip.race,Een snelle Race, Gevecht of klim in de ranglijsten met Tijdsaanval modus
+main_menu.btn.tooltip.editors,Download Autos en Circuits gemaakt door andere spelers of maak en deel je eigen
+main_menu.btn.tooltip.daily_challenge,Ga de strijd aan met andere spelers voor de beste dagelijkse rondetijden
+main_menu.btn.tooltip.leaderboards,Glorie wacht op degene die in de top 100 terecht komen
+main_menu.btn.tooltip.achievements,Verzamel ze allemaal
+main_menu.btn.tooltip.quit.0,Neee! Nog niet hier klikken! Het is de laatste optie voor een reden!
+main_menu.btn.tooltip.quit.1,Wacht, Alsjeblieft, We kunnen dit bespreken!
+main_menu.btn.tooltip.quit.2,Misschien nog 1 race?
+main_menu.btn.tooltip.quit.3,Weet je het zeker? Andere dingen wachten wel...
+main_menu.btn.tooltip.quit.4,Elke keer als je op deze knop klikt knipt een kabouter een draadje door in je auto, We maken geen grapje!
+main_menu.btn.tooltip.quit.5,Als je hier klikt zal SOFACT je wel vergeven, Maar vergeten doen ze niet.
+main_menu.btn.tooltip.quit.6,Klik hier om de zelfvernietigingsprocedure van je computer te starten.
+main_menu.btn.tooltip.quit.7,Waarom heb je deze knop geselecteerd? Er zijn zoveel andere knoppen!
+main_menu.btn.tooltip.quit.8,We houden je kat gegijzeld, Als je op deze knop klikt dan voeren we hem jouw lasagne!
+main_menu.btn.tooltip.quit.9,Meen je dat serieus? Heb je een leven?
+
+# About
+
+about.btn.credits,Dank Aan
+about.btn.how_to_play,Hoe te Spelen
+about.btn.newsletter,Nieuwsbrief
+about.btn.version,Versie
+about.btn.privacy,Privacy
+
+# Version Check
+
+version.updates_available,Updates Beschikbaar
+version.loading_now,Laden van uitgavenotities:<br>{0}
+version.up_to_date,Reeds Nieuwste Versie
+version.latest,Laatste Versie: {0}
+version.current,Deze Versie: {0}
+version.check_failed,Kon niet controleren op updates
+version.check_failed_details,Kon geen versieinformatie of uitgavenotities verkrijgen.<br><br>Er is geen netwerk verbinding, zit achter een firewall of de server is offline.<br><br>link:<br>{0}<br><br>Fout Details:<br>{1}
+version.changelog_download_fail,Er is een nieuwe versie beschikbaar.<br><br>Het downloaden van de uitgavenotities is alleen niet gelukt.<br><br>Link:<br>{0}<br><br>Fout Details:<br>{1}
+version.no_changes,Geen veranderingen of uitgavenotities niet bijgewerkt.
+version.new_changes,Nieuwe Aanpassingen: {0}
+
+################################################################################
+
+# Campaign
+campaign.play_time,Speeltijd: {0}
+
+# Add Racer Menu
+
+new_racer.title,Registreer Nieuwe Racer
+new_racer.edit_title,Pas Profiel Aan
+new_racer.racer_name,Naam Racer
+new_racer.your_name,Jouw Naam
+new_racer.voice_pitch,Stem Toon
+new_racer.controlled_by,Bestuurd Door
+new_racer.ai_skill,AI Moeilijkheidsgraad
+new_racer.choose_avatar,Kies Foto
+new_racer.voice.low,{0:0}% Laag
+new_racer.voice.high,{0:0}% Hoog
+new_racer.voice.mid,Gemiddeld
+new_racer.register,Registreer
+new_racer.dialogue.name_required,Naam is niet optioneel!
+new_racer.dialogue.name_taken,De naam {0} is al in gebruik door een andere racer!
+new_racer.dialogue.confirm_remove,Weet je zeker dat je wil verwijderen? {0}?
+
+# Select Avatar Menu
+
+select_avatar.title,Selecteer Foto
+
+# Racer List Menu
+
+season_lineup.title,Seizoen Opstelling
+season_lineup.begin_season,Begin Seizoen
+
+# Generation Notice
+
+gen.generating,Geduld aub...<br>Genereren
+gen.loading,Geduld aub...<br>Laden
+
+# Campaign Dashboard
+
+dash.garage,Garage
+dash.no_car_warning,Je hebt nog geen auto!
+dash.btn.buy_car,Koop een auto
+dash.end_campaign,Beeindig Campagne 
+dash.end_season,Beeindig Seizoen
+dash.end_season.tip,Ga door naar het volgende seizoen
+dash.advance_week,Volgende
+dash.advance_week.tip,Ga verder naar de volgende week
+dash.view_season,Bekijk Seizoen
+dash.view_season.tip,Wissel tussen de Week en Seizoen ranglijsten
+dash.press_x_to_select,Druk op {0} om te selecteren
+dash.flip_track_card.tip,Draai de kaart om
+dash.btn.walk_on_foot,Speel als Voetganger
+dash.btn.walk_on_foot.tip,Speel dit evenement als een voetganger (gevaarlijk!)
+dash.btn.save_track.tip,Sla het circuit op voor later gebruik
+dash.btn.regenerate.tip,Hergenereerd het circuit als het je niks lijkt
+# Verb
+dash.btn.do_race,Race
+dash.btn.do_retry,Herstart
+dash.give_5k,Geef $5000
+
+# Keep short - abbreviate if necessary
+dash.stage01,Stage 01
+dash.stage02,Stage 02
+dash.stage03,Stage 03
+dash.stage04,Stage 04
+dash.stage05,Stage 05
+
+# Keep short - abbreviate if necessary
+dash.week1,Week 1
+dash.week2,Week 2
+dash.week3,Week 3
+dash.week4,Week 4
+dash.week5,Week 5
+dash.week6,Week 6
+dash.week7,Week 7
+
+dash.stage_rewards,Stage Beloning
+dash.season_rewards,Seizoen Beloning
+dash.next_season,Volgende Seizoen
+dash.game_over,Geef Op
+dash.buy_freedom,Koop je vrijheid<br><size=75%>${0}</size>
+dash.players,Spelers
+# It will be in a button, so could be just "All"
+dash.all_racers,Alle Racers
+
+dash.maxed_out,Ultiem
+dash.req_lvl_short,Bnd lvl: {0}
+
+dash.tip.add_1_lap,plus 1 ronde
+dash.tip.add_5_laps,plus 5 rondes
+dash.tip.reduce_1_lap,min 1 ronde
+dash.tip.reduce_5_laps,min 5 rondes
+
+dash.tip.workshop_item,Workshop Item
+dash.tip.rand_time_attack,Willekeurige Tijdsaanval
+dash.tip.rand_race,Willekeurige snelle race op een uniek proceduraal gegenereerd circuit
+dash.tip.rand_battle,Willekeurig Auto Gevecht met computergestuurde tegenstanders in een procedurael gegenereerde locatie
+dash.tip.mark_tips_unseen,Zal alle hints als ongelezen markeren
+dash.tip.campaign_name_entry,Gebruik je toetsenbord of klik op de willekeurig maken knop
+dash.tip.cloud_shadows_visible,Wolk schaduwen zullen nog steeds zichtbaar zijn
+dash.tip.not_affect_split_minimap,Deze instelling verandert niks aan de split scherm mini kaart
+dash.tip.censorship,Laat #%$! in plaats van schuttingstaal.
+dash.tip.discord_post,Deel je ranglijst posities en geuploade mods naar de officiele BRS Discord
+dash.tip.upgrade_available,Verbetering beschikbaar
+dash.tip.voice_pitch_slider,Past de stemtoon aan in filmpjes
+dash.tip.file_on_computer,Kies een bestand op je computer
+dash.tip.player_num,Speler {0}
+dash.tip.ai_skill,Vaardigheid: {0:0}%
+dash.tip.car_sprites_white,Wanneer je sprites aanpast, Houd de autokleur wit. Lak is niet afhankelijk van de auto.
+dash.tip.upload_car,Uploaden naar de Steam Workshop. Wees zeker dat je de correcte maximale snelheid hebt ingesteld voor het uploaden!
+dash.tip.reload_car,Klik hier als nadat je de sprites hebt aangepast in een ander programma.
+dash.tip.speed_index,Test voor een prestatie rapport
+dash.tip.leaderboard_eligible,Dit circuit is geschikt voor de ranglijsten
+dash.tip.ghost_replay_available,Spook herhaling beschikbaar
+dash.tip.add_racer_btn,Voeg RacerToe (Mens of CPU)
+dash.tip.show_track_leaderboards,Weergeef Ranglijsten
+dash.tip.new_race_session,Start een nieuwe race sessie
+dash.tip.race_weapons,Voeg wapen zones toe aan het circuit
+dash.tip.0_racers,Verwijder alle racers behalve de speler
+dash.tip.add_1_rnd_racer,Voeg 1 willekeurige racer toe
+dash.tip.add_10_rnd_racers,Voeg 10 willekeurige racers toe
+dash.tip.rnd_gen_btn,Zal een circuit genereren
+
+# Custom Race Dash
+
+dash.set_for_everyone,Zet voor iedereen
+dash.car,Auto
+dash.racers,Racers
+dash.search_for_track,Zoek naar circuit
+dash.randomize_prompt,Klik "Genereer"<br>Om wat circuits te genereren
+dash.race_options,Race Opties
+dash.race_mode,Race Modus
+dash.demo_mode,Demo Modus
+dash.demo_mode.tip,Een AI zal racen voor de speler
+dash.opponent_skill,Computergestuurde Racer Vaardigheid
+dash.start_race,Start Race
+dash.race_in_x,Race in {0}
+dash.battle_in_x,Gevecht in {0}
+dash.time_attack_in_x,Tijdsaanval in {0}
+dash.x_to_select,{0} Om te kiezen
+dash.add_player,Voeg Speler Toe
+dash.tracks_full_screen.tip,Schakel Volledig Scherm in en uit
+
+# Rewards
+
+rew.car_unlock,Auto Vrijgespeeld: {0}
+rew.total_pts,Totaal Punten
+rew.dmg_taken,Schade Geleden
+rew.dmg_given,Schade Gegeven
+rew.unused_nitro,Ongebruikte Lachgas
+rew.corner_cut,Bochten Afsnijden
+rew.good_photos,Kwaliteitsfotos Gemaak
+rew.close_calls,Bijna Raak
+rew.survival_bonus,Overlevingsbonus
+rew.place,{0} Plaats
+rew.dnf,Niet Gefinished
+rew.pts,{0} Punten
+rew.ch.unknown,Onbekende Uitdaging
+rew.ch.success,SUCCES: {0}
+rew.ch.fail,FAAL: {0}
+rew.lethal,Dodelijke Ongelukken
+rew.most_lethal,Meeste Dodelijke Ongelukken
+rew.frags,Autos Uitgeschakeld
+rew.jumps,Schans Sprongen
+rew.longest_jump,Verste Sprong
+rew.drifts,Aantal Drifts
+# Personal
+rew.longest_drift,Langste Drift
+rew.most_drifts,Meeste Drifts
+# Among everyone
+rew.most_longest_drift,Langste Drift
+rew.level_up,Niveau Omhoog
+rew.aero_up,Aerodynamica Verbetering Vrijgespeeld
+rew.engine_up,Motor Verbetering Vrijgespeeld
+rew.turbo_up,Turbo Verbetering Vrijgespeeld
+rew.gears_up,Versnellingsbak Verbetering Vrijgespeeld
+rew.grip_up,Banden Verbetering Vrijgespeeld
+rew.level_x,Niveau {0}
+rew.paint_jobs,Nieuw Lakwerk
+
+# Car Stats
+
+# Keep these very short! Max 10 characters!
+car.stat.speed_idx,Index
+car.stat.top_speed,Snelheid
+car.stat.power,Kracht
+car.stat.mass,Gewicht
+car.stat.health,Durabel
+car.stat.steering,Sturen
+car.stat.grip,Grip
+car.stat.shift_time,Schakelen
+
+# Car Upgrades
+
+# Short version
+car.upgrade.engine,Motor
+car.upgrade.turbo,Turbo
+car.upgrade.gears,Bak
+car.upgrade.aero,Aero
+car.upgrade.grip,Banden
+
+car.upgrade.engine.title,Motor Verbetering
+car.upgrade.turbo.title,Turbolader Verbetering
+car.upgrade.gears.title,Schakelbak Verbetering
+car.upgrade.aero.title,Aerodynamica Verbetering
+car.upgrade.grip.title,Grip & Controle Verbetering
+
+car.upgrade.engine.tip,Voegt Rauwe kracht toe aan je Motor
+car.upgrade.turbo.tip,Laat de auto sneller accellereren
+car.upgrade.gears.tip,Vermindert de tijd nodig om te schakelen
+car.upgrade.aero.tip,Verhoogt de Topsnelheid en Grip
+car.upgrade.grip.tip,Verbetert de Grip en Wegligging
+
+# Racer Profile
+
+racer.last_races,Laatste Races
+racer.no_data,Geen Informatie
+racer.level,Racer Niveau
+racer.races_attempted,Races Gespeeld
+racer.races_won,Races Gewonnen
+racer.peds_hit,Voetgangers Geraakt
+racer.times_drifted,Aantal Drifts
+
+racer.title.rookie,Beginner
+racer.title.semi_pro,Amateur
+racer.title.pro,Professioneel
+racer.title.veteran,Veteraan
+racer.title.master,Meester
+racer.title.grand_master,Grootmeester
+racer.title.legend,Legendarisch
+racer.title.epic,Fenomenaal
+
+# Car Paint
+
+paint.main_color,Basiskleur
+paint.layer1,Verflaag 1
+paint.layer2,Verflaag 2
+paint.select_pattern,Selecteer Patroon
+paint.change_color,Verander Kleur
+paint.rotate_left,Roteer Links
+paint.rotate_right,Roteer Rechts
+paint.zoom_out,Zoom Uit
+paint.zoom_in,Zoom In
+paint.reduce_opacity,Verminder Transparantie
+paint.increase_opacity,Verhoog Transparantie
+paint.move,Verplaats
+paint.remove_paint_layer,Verwijder Verflaag
+paint.open_custom_folder,Blader je computer voor je eigen Lakwerk
+
+# Pedestrian Mode
+
+ped.close_calls,Bijna Raak
+ped.photos,Foto's
+ped.good_photos,Goede Foto's
+ped.earned_cash,Geld Verdiend
+
+# Race mode
+
+race.paused.by,{0} Heeft op Pauze gedrukt
+race.you_have_a_challenge,Je hebt een Uitdaging
+race.btn.exit,Verlaat Race
+race.btn.exit_desktop,Sluit het Spel af
+race.btn.restart,Herstart
+race.btn.photo_mode,Foto Modus
+race.btn.speed_up,Versnel
+race.btn.end,Beeindig Race
+race.finished,Eindstreep Bereikt
+race.waiting,Wachten ({0:0}s)
+
+# Battle mode
+
+battle.finished,Gevecht Afgelopen
+
+# Input Actions
+
+act.UIHorizontal,Horizontale Navigatie
+act.UIVertical,Verticale Navigatie
+act.UISubmit,Bevestig
+act.UICancel,Annuleer
+act.ShowTutorial,Vergeef Hint
+act.UICycleNext,Volgende Knop
+act.UICyclePrev,Vorige Knop
+act.UIPlayerNext,Volgende Speler
+act.UIPlayerPrev,Vorige Speler
+
+act.Steer,Sturen
+act.Accelerate,Accelereren
+act.Brake,Remmen
+act.Pause,Pauze
+act.Camera,Wissel Camera
+act.Handbrake,Handrem
+act.ResetCar,Herplaats Auto
+act.Zoom,Wissel Camera Afstand
+act.Nitro,Lachgas
+act.Fire,Vuur Wapon Af
+act.DropWeapon,Laat Weapon Vallen
+
+act.EditorZoom,Zoom
+act.RotateObject,Roteer Object
+act.HorizontalPan,Horizontale Pan
+act.VerticalPan,Verticale Pan
+act.PlaceObject,Plaats Object
+act.CancelAction,Annuleer Actie
+act.Undo,Ongedaan Maken
+act.Redo,Opnieuw Uitvoeren
+act.CopyModifier,Kopieer Wijziger
+act.DeleteModifier,Verwijder Wijziger
+
+act.Walk,Loop
+act.Turn,Draai
+act.Take Photo,Neem Foto
+act.Wave,Zwaai
+act.FastForward,Tijd Versnellen
+act.PedZoom,Zoom
+act.PedPause,Pauze
+
+act.MoveHorizontal,Verplaats Horizontaal
+act.MoveVertical,Verplaats Verticaal
+act.PhotoZoom,Zoom
+act.Rotate,Roteer
+act.PhotoModePhoto,Neem Foto
+act.ToggleTime,Laat Tijden Zien
+act.ControlTimeScale,Tijdschaal
+act.ToggleUI,Laat Interface Zien
+act.ExitPhotoMode,Verlaat Foto Modus
+act.AdjustMotionSpeed,Beweeg Snelheid
+
+# Track editor
+
+tr.file,Bestand
+tr.file.new,Nieuw
+tr.file.new.tip,Begin aan een nieuw Circuit
+tr.file.open,Openen
+tr.file.open.tip,Open een Opgeslagen Circuit
+tr.file.save,Opslaan
+tr.file.save.tip,Sla huidig Circuit op
+tr.file.undo,Ongedaan Maken
+tr.file.redo,Opnieuw Doen
+tr.file.share,Delen
+tr.file.share.tip,Deel huidig Circuit naar de Steam Workshop
+tr.file.delete,Verwijder
+tr.file.delete.tip,Verwijderd een Circuit (Je moet nog kiezen welke)
+tr.file.exit,Sluit Af
+tr.file.exit.tip,Ga terug naar het Hoofdmenu
+
+tr.grid,Raster
+tr.grid.toggle,Wissel
+tr.grid.toggle.tip,Laat Raster wel of niet zien
+tr.grid.light,Licht
+tr.grid.light.tip,Maakt het Raster lichter (handig op donkere circuits)
+tr.grid.dark,Donker
+tr.grid.dark.tip,Maakt het Raster donker (handig op felle circuits)
+
+tr.gen,Genereer
+tr.gen.full_circuit,Compleet Gesloten Circuit
+tr.gen.full_circuit.tip,Genereer een Gesloten Circuit met bochten en objecten, zal huidig circuit overschrijven.
+tr.gen.full_open,Compleet Open Circuit
+tr.gen.full_open.tip,Genereeer een Open Circuit met bochten en objecten, zal huidige weg overschijven.
+tr.gen.circuit,Gesloten Circuit
+tr.gen.circuit.tip,Genereer een Gesloten Circuit zonder objecten, Zal de huidige track en alle objecten overschrijven.
+tr.gen.open,Open Circuit
+tr.gen.open.tip,Genereer een Open Circuit zonder objecten, Zal de huidige track en alle objecten overschrijven.
+tr.gen.all_objects,Objecten
+tr.gen.all_objects.tip,Genereer objecten, Dit zal alle huidige objecten verwijderen, Maar niet het Circuit.
+tr.gen.object_groups,Objectengroep
+tr.gen.object_groups.tip,Genereer objecten, Dit zal alle huidige objecten verwijderen, Maar niet het Circuit.
+tr.gen.crowd,Publiek
+tr.gen.crowd.tip,Genereer een Publiek, Verwijderd al het huidige Publiek.
+tr.gen.forests,Bossen
+tr.gen.forests.tip,Genereert Bossen, dit verwijdert alle huidige bossen maar ook alle groene vlakken in Stad Circuits.
+tr.gen.flowers,Bloemen
+tr.gen.flowers.tip,Genereert Bloemen, dit verwijdert alle huidige Bloemen en doet niks in Stad Circuits.
+tr.gen.bushes,Bosjes
+tr.gen.bushes.tip,Genereert Bosjes, dit verwijdert alle huidige Bosjes en doet niks in Stad Circuits.
+tr.gen.rocks,Rocks
+tr.gen.rocks.tip,Genereert Stenen, dit verwijdert alle huidige Stenen.
+tr.gen.tires,Banden
+tr.gen.tires.tip,Genereert Banden, dit verwijdert alle huidige Banden.
+tr.gen.cones,Pionnen
+tr.gen.cones.tip,Genereert Pionnen, dit verwijdert alle huidige Pionnen.
+tr.gen.walls,Muren
+tr.gen.walls.tip,Genereert Muren, dit verwijdert alle huidige Muren.
+tr.gen.lamps,Lantaarnpalen
+tr.gen.lamps.tip,Genereert Lantaarnpalen, dit verwijdert alle huidige Lantaarnpalen.
+tr.gen.buildings,Gebouwen
+tr.gen.buildings.tip,Genereert Gebouwen, dit verwijdert alle huidige Gebouwen.
+tr.gen.puddles,Plassen
+tr.gen.puddles.tip,Genereert Waterplassen, dit verwijdert alle huidige Waterplassen.
+tr.gen.ramps,Schansen
+tr.gen.ramps.tip,Genereert Schansen, dit verwijdert alle huidige Schansen.
+
+tr.ground_type,Grond Type
+tr.ground_type.grass,Gras
+tr.ground_type.tarmac,Asfalt
+tr.ground_type.dirt,Modder
+tr.ground_type.sand,Zand
+tr.ground_type.snow,Sneeuw
+
+tr.ground_detail,Grond Detail
+tr.ground_detail.none,Geen
+tr.ground_detail.none.tip,Zal alle grond details verwijderen.
+tr.ground_detail.shared_tip,Zal grond details toevoegen, Klik meerdere keren om verschillende patronen te mixen.
+
+tr.track_type,Circuit Type
+tr.track_type.asphalt,Asfalt
+tr.track_type.gravel,Modder
+tr.track_type.snow,Sneeuw
+
+tr.ed_track,Pas Circuit Aan
+tr.ed_track.add,Voeg Toe
+tr.ed_track.add.tip,Klik op de grond om nieuwe circuit elementen toe te voegen aan het einde van het circuit, Als het circuit al gesloten is worden start en finish tijdelijk losgekoppelt.
+tr.ed_track.split,Splits
+tr.ed_track.split.tip,Klik op de grond vlak naast de baan het circuit in verschillende segmenten te splitsen.
+tr.ed_track.edit,Pas Aan
+tr.ed_track.edit.tip,Klik en Sleep de punten om het circuit een andere vorm te geven
+tr.ed_track.delete,Verwijder
+tr.ed_track.delete.tip,Klik op een deel van het circuit om dat deel te verwijderen.
+tr.ed_track.open_close,Open/Sluit
+tr.ed_track.open_close.tip,Klik op te wisselen tussen een Open en een Gesloten Circuit.
+tr.ed_track.auto_smooth,Milder maken
+tr.ed_track.auto_smooth.tip,Maakt bochten wat milder.
+tr.ed_track.randomize,Willekeurig
+tr.ed_track.randomize.tip,Voegt een willekeurige bocht toe aan je huidige circuit.
+tr.ed_track.sharpen,Scherper maken
+tr.ed_track.sharpen.tip,Maakt bochten wat Scherper
+tr.ed_track.wider,Wijder
+tr.ed_track.wider.tip,Maakt het Circuit wijder
+tr.ed_track.narrower,Smaller
+tr.ed_track.narrower.tip,Maakt het Circuit smaller
+tr.ed_track.grow,Groei
+tr.ed_track.grow.tip,Vergroot de schaal van het circuit
+tr.ed_track.shrink,Krimp
+tr.ed_track.shrink.tip,WVerkleint de schaal van het circuit
+tr.ed_track.move_start,Verplaats Start
+tr.ed_track.move_start.tip,Verplaatst Start naar het volgende controle punt, Werkt alleen in Gesloten Circuits.
+tr.ed_track.recenter,Centreren
+tr.ed_track.recenter.tip,Centreert het Circuit en alle Objecten.
+tr.ed_track.rotate,Roteer
+tr.ed_track.rotate.tip,Roteert het hele Circuit en alle Objecten 45 graden met de klok mee.
+
+tr.add_obj,Voeg Objecten Toe
+tr.add_obj.group,Objecten Groep
+tr.add_obj.group.tip,Voegt een object groep toe, klik nogmaals om willekeurig te maken.
+tr.add_obj.forest,Bos
+tr.add_obj.forest.tip,Plaatst een boel willekeurige bomen.
+tr.add_obj.flowers,Bloemen
+tr.add_obj.flowers.tip,Plaatst een boel willekeurige bloemen.
+tr.add_obj.crowd,Publiek
+tr.add_obj.crowd.tip,Publiek Cirkel die voetgangers zal plaatsen als je klikt, Kan ook dixies en sneeuwpoppen plaatsen.
+tr.add_obj.cone,Pion
+tr.add_obj.cone.tip,Houd ingedrukt om rijen te plaatsen.
+tr.add_obj.tire,Band
+tr.add_obj.tire.tip,Houd ingeedrukt om rijen te plaatsen.
+tr.add_obj.porta_potty,Dixie
+tr.add_obj.porta_potty.tip,Dixies omrijden geeft je wat extra lachgas.
+tr.add_obj.barrel,Ton
+tr.add_obj.barrel.tip,Tonnen kunnen exploderen als ze worden aangereden op hoge snelheid.
+tr.add_obj.snowman,Sneeuwpoppen
+tr.add_obj.snowman.tip,Sneeuwpoppen omrijden geeft je wat extra lachgas.
+tr.add_obj.street_lamp,Lantaarnpaal
+tr.add_obj.junk_car,Autowrak
+tr.add_obj.hot_dog_truck,Hot Dog Wagen
+tr.add_obj.hot_dog_cart,Hot Dog Kraam
+tr.add_obj.bench,Bankje
+tr.add_obj.water_puddle,Waterplas
+tr.add_obj.water_puddle.tip,Een beetje glad
+tr.add_obj.water_pond,Vijvertje
+tr.add_obj.water_pond.tip,Een beetje glad
+tr.add_obj.ice_patch,Ijsvlak
+tr.add_obj.ice_patch.tip,Best wel glad
+tr.add_obj.oil_spill,Olie Vlek
+tr.add_obj.oil_spill.tip,Heel erg glad
+tr.add_obj.ramp,Schans
+tr.add_obj.ramp.tip,Schans waar autos overheen kunnen springen, geeft een kleine boost.
+tr.add_obj.power_ramp,Super Schans
+tr.add_obj.power_ramp.tip,Super Schans waar autos overheen kunnen springen, geeft een grote boost.
+tr.add_obj.crop_field,Maaifeld
+tr.add_obj.rock,Steen
+tr.add_obj.desert_rock,Woestijnsteen
+tr.add_obj.wall,Muur
+tr.add_obj.pipe,Pijp
+tr.add_obj.solar_panels,Zonnepanelen
+tr.add_obj.silo,Silo
+# Thing for retrieving water from the ground
+tr.add_obj.well,Put
+tr.add_obj.old_hut,Oud hokje
+tr.add_obj.vault,Kluis
+tr.add_obj.house,Huis
+tr.add_obj.building,Gebouw
+tr.add_obj.grass_square,Gras Vierkant
+tr.add_obj.grass_square.tip,Om planten of bosjes op asfalt te plaatsen.
+tr.add_obj.bush,Bosje
+tr.add_obj.bush.tip,Verwoestbare decoratieve bosjes
+tr.add_obj.green_tree,Groene Boom
+tr.add_obj.branch_tree,Kale Boom
+tr.add_obj.snow_tree,Sneeuw Boom
+tr.add_obj.flowers_single,Bloem
+
+tr.ed_obj,Bewerk Objecten
+tr.ed_obj.move,Verplaats
+tr.ed_obj.move.tip,Klik en sleep om een object te verplaatsen
+tr.ed_obj.rotate,Roteer
+tr.ed_obj.rotate.tip,Klik en sleep om een object te roteren, Houd Shift ingedrukt voor meer precisie.
+tr.ed_obj.delete,Verwijder
+tr.ed_obj.delete.tip,Klik op een object om deze te verwijderen
+tr.ed_obj.clear_all,Verwijder alle objecten
+tr.ed_obj.clear_all.tip,Verwijderd alle objecten van dit circuit
+tr.ed_obj.clear_groups,Verwijder Groepen 
+tr.ed_obj.clear_groups.tip,Verwijder alle zelfgemaakte objectgroepen
+tr.ed_obj.clear_crowd,Verwijder Publiek
+tr.ed_obj.clear_crowd.tip,Verwijdert al het publiek.
+tr.ed_obj.clear_forests,Verwijder Bossen
+tr.ed_obj.clear_forests.tip,Verwijdert alle bossen, Ook alle groene vierkanten in stadscircuits maar laat individueel geplaatste bomen staan.
+tr.ed_obj.clear_flowers,Verwijder Bloemen
+tr.ed_obj.clear_flowers.tip,Verwijdert alle bloemen, Doet niks in Stadscircuits en laat individueel geplaatste bomen staan.
+tr.ed_obj.clear_bushes,Verwijder Bosjes
+tr.ed_obj.clear_bushes.tip,Verwijdert alle bosjes, Doet niks in Stadscircuits.
+tr.ed_obj.clear_rocks,Verwijder Stenen
+tr.ed_obj.clear_rocks.tip,Verwijdert alle Stenen.
+tr.ed_obj.clear_tires,Verwijder Banden
+tr.ed_obj.clear_tires.tip,Verwijdert alle Banden.
+tr.ed_obj.clear_cones,Verwijder Pionnen
+tr.ed_obj.clear_cones.tip,Verwijdert alle Pionnen.
+tr.ed_obj.clear_walls,Verwijder Muren
+tr.ed_obj.clear_walls.tip,Verwijder alle muren.
+tr.ed_obj.clear_lamps,Verwijder Lantaarnpalen
+tr.ed_obj.clear_lamps.tip,Verwijdert alle Lantaarnpalen.
+tr.ed_obj.clear_buildings,Verwijder Gebouwen
+tr.ed_obj.clear_buildings.tip,Verwijdert alle huizen en gebouwen.
+tr.ed_obj.clear_puddles,Verwijder Plasjes
+tr.ed_obj.clear_puddles.tip,Verwijdert alle, Waterplassen, Ijsvlakken en Olievlekken.
+tr.ed_obj.clear_ramps,Verwijder Schansen
+tr.ed_obj.clear_ramps.tip,Verwijdert alle schansen
+
+tr.test_drive,Testrit
+tr.test_drive_ai,CPU Testrit
+tr.help,Help
+
+# Car Editor
+
+ced.select_base_car,Selecteer Basis Auto
+ced.select_car,Selecteer Auto
+
+ced.new_car,Nieuwe Auto
+ced.open_car,Open Auto
+ced.download_cars,Download Autos
+ced.exit,Verlaat
+ced.save_car,Auto Opslaan
+ced.delete_car,Verwijder
+ced.parameters,Parameters
+ced.edit_sprites,Bewerk Sprites
+ced.description,Beschrijving
+ced.part_positions,Onderdeel Positie
+ced.sounds,Geluiden
+ced.modding_guide,Modificatie Gids
+ced.share,Delen
+ced.reload_sprites,Herlaad Sprites
+ced.close,Sluit
+ced.test_drive,Testrit
+ced.end_test_drive,Beindig Testrit
+
+ced.speed_idx,Snelheid Index
+ced.price,Prijs
+ced.price.tip,Prijs is automatisch gebaseert op de snelheidsindex
+ced.req_level,Benodigd Niveau
+ced.req_level.tip,Benodigd Niveau is automatisch gebaseert op de snelheidsindex
+ced.label.general,Algemeen
+ced.max_speed_kmh,Topsnelheid (kmh)
+ced.max_speed_kmh.tip,Nodig om de versnellingsbak goed te laten werken, Doe een testrit op een rechte weg om de topsnelheid te ontdekken.
+ced.mass_kg,Gewicht (kg)
+ced.mass_kg.tip,Lichte auto + Veel PK = niet te doen. Vind de juiste balans.
+ced.max_health,Duurzaamheid
+ced.label.engine,Motor
+ced.engine_power,Paardenkracht
+ced.engine_power.tip,Bestuurbaarheid houd op rond de 500 PK, Als je er overheen kan betekend het niet dat dit moet, Pas de topsnelheid aan na deze instelling!
+ced.label.handling,Wegligging
+ced.steering_sensitivity,Stuurgevoeligheid
+ced.steering_sensitivity.tip,Hoe scherp en gevoelig het sturen is, Dit is ook afhankelijk van het gewicht.
+ced.label.grip,Grip
+ced.drift_factor,Driftgevoeligheid met grip
+ced.drift_factor.tip,Hoe makkelijk je in een drift beland wanneer je grip hebt, Aanbevolen waarde is tussen 0.8 en 0.9.
+ced.slip_factor,Driftgevoeligheid zonder grip
+ced.slip_factor.tip,Hoe makkelijk je in een drift beland wanneer je geen grip hebt, Aanbevolen waarde is tussen 0.95 en 0.9999
+ced.max_sticky_vel,Driftweerstand
+ced.max_sticky_vel.tip,Hoe snel je een bocht kunt nemen zonder automatisch in de drift te gaan, Aanbevolen waarde is tussen 1 en 1.5.
+ced.label.gearbox,Versnellingsbak
+ced.max_rpm,Max Touren
+ced.max_rpm.tip,Dit past het motorgeluid nog niet aan, wees zeker dat je een geschikt motorgeluid kiest.
+ced.idle_rpm,Stationair Touren
+ced.shift_time,Schakeltijd
+ced.shift_time.tip,Hoe lang het duurt om te schakelen.
+
+ced.label.sounds,Geluiden
+ced.sound.engine,Motor
+ced.sound.muffler,Uitlaat
+ced.sound.turbo,Turbo
+ced.sound.turbo.tip,Je hoort de Turbo alleen bij een opgevoerde Auto.
+ced.sound.charger,Compressor
+ced.sound.charger.tip,Je hoort de Compressor alleen bij een opgevoerde Auto.
+
+ced.label.model,Model Naam
+ced.model_name,Auto Model Naam
+ced.label.description,Beschrijving
+ced.car_description_placeholder,Vertel iets speciaals over je creatie.
+
+ced.label.lights,Lichten
+ced.front_lights_width,Koplamp Breedte
+ced.front_lights_pos,Koplamp Positie
+ced.rear_lights_width,Remlicht Breedte
+ced.rear_lights_pos,Remlicht Positie
+
+ced.label.wheels,Wielen
+ced.front_axle_width,Voor As Breedte
+ced.front_axle_pos,Voor As Positie
+ced.rear_axle_width,Achter As Breedte
+ced.rear_axle_pos,Achter As Positie
+
+ced.label.interior,Interieur
+ced.interior_off_x,Interieur verplaatsen X
+ced.interior_off_y,Interieur verplaatsen Y
+
+ced.label.collider,Bots Model
+ced.collider_width,Auto Breedte
+ced.collider_height,Auto Lengte
+ced.center_of_mass,Massamiddelpunt
+ced.center_of_mass.tip,Beinvloed gedrag met sturen, in de bochten, en met het driften.
+
+ced.label.exhausts,Uitlaat
+ced.exhaust_count,Uitlaat Aantal
+ced.exhaust_width,Uitlaat Breedte
+ced.exhaust_pos,Uitlaat Positie
+
+################################################################################
+
+# Cutscenes
+
+### Lore Cutscene ### <-- please get this one very well, it's something people usually see within first 2 minutes of the game
+
+# In here {0} is the number of years and {1} is a date
+cut.lore.1,Hey! Ben jij niet die beroemde racer die in een ongeluk is beland {0} jaar geleden? Ik weet dat je een een cryo slaap hebt gezeten sinds {1}, Dus laat me je op de hoogte brengen.
+# {0} is a date
+cut.lore.2,Er was een Gigantisch Tech Bedrijf die je wel zou moeten kennen uit jouw tijd, Ik kan momenteel alleen niet op de orginele naam komen. Het elimineerde alle competitie en nam controle over de wereldwijde economie in {0}.
+# You should probably keep "Social Frontier of Activism" and SOFACT unchanged in your translation, for authenticity (company was not local after all)
+cut.lore.3,In plaats van vooruitgang in de wetenschap ging het bedrijf zich bezig houden met onzinnige politieke discussies. Op een bepaald punt hebben ze de naam verandert naar het "Sociale Frontier voor Activisme" of SOFACT.
+cut.lore.4,Maar uiteindelijk nam de menselijke natuur over. Activisten werden uitgeroeid met geweld tijdens een vijandige overname, en SOFACT, Terwijl het nog steeds oogt als een vriendelijk bedrijf, wordt het nu gerund door knokkelhoofd criminelen van de oude garde.
+# Please do not translate "Bloody Rally Show", or included it into parentheses next to translation. Example: "Kruvinojo Ralio Šou" (Bloody Rally Show)
+cut.lore.5,Nieuwe leiders richtte zich op winst. Ze bleven maar investeren in entertainment om zoveel mogelijk advertentie inkomsten te genereren. Zo is "Bloody Rally Show" de populairste vorm van entertainment geworden.
+cut.lore.6,In Bloody Rally Show proberen ze de gouden eeuw van de rally te recreeren, Zo gebruiken ze technologie uit 1980, specifiek uit de beruchte Groep B Klasse. Het aantal ongelukken is torenhoog maar Sociale Media Beinvloeders blijven maar komen voor de beste fotos die ze vervolgens weer kunnen delen.
+cut.lore.7,Verlies je auto niet mijn vriend, anders mag je meedoen als toeschouwer. success en veel geluk! Oh, Trouwens, Ik had je naam niet meegekregen.
+
+### Season Intro ### <-- please get this one very well too, it's part 2 of the main introduction
+
+cut.intro.1,He, Nieuwe, Je bent te laat! Ik ben de directeur van Bloody Rally Show. Er is hier iemand anders die je moet ontmoeten.
+# {0} will be a random insult word
+cut.intro.2,Daar ben je, {0}.We hebben je ontwaakt omdat men zegt dat jij goed weet hoe je deze klassieke autos moet besturen. Maak er een goede show van!
+cut.intro.2_2,Oh, af en toe zullen we je ook om een gunst vragen, Maar niks absurds, Maak je geen zorgen!
+cut.intro.3,Wacht eens. Waarom moet ik dit doen voor jouw?
+# {0} will be an insult, ${1} - sum of money, like $500000
+cut.intro.4,Omdat je ons schuldig bent voor de kosten van de cryo slaap, {0}! Je bent ons ${1} schuldig, Als je dit betaalt ben je vrij om te staan en gaan waar je wilt. Tot die tijd ben je eigendom van SOFACT.
+cut.intro.5,Ziet er naar uit dat ik geen keuze heb... Wanneer moet ik beginnen?
+cut.intro.6,Volg mij nieuwe, Ik zal je alles laten zien. Laten we de andere racers eerst ontmoeten.
+# {0} will be a plural insult (addressing all racers)
+cut.intro.7,Oke, {0}, Jullie zijn terug voor meer? Ik ben onder de indruk!
+cut.intro.8,Ik heb nog steeds het gevoel dat er meer is voor mij, snap je?
+cut.intro.9,Blij dat je terug bent! Volg mij, Ik heb wat papieren die je moet tekenen.
+
+### Racer died cutscene
+
+# {0} will be racer's name, {1} will be a "he" or "she"
+cut.died.1,Helaas heeft {0} het niet gehaald. Maar {1} zal altijd in onze ranglijsten blijven staan.
+cut.died.2,*Drukt F op het toetsenbord*
+# {0} will be a plural insult, like "clowns"
+cut.died.3,Blijf eens van mijn toetsenbord af stelletje {0}!
+
+### Mission cutscene (shared) <-- important to get right too, will be shared across dozen of missions!
+
+cut.racer.mid_comment.1,God allemachtig!
+# {0} will be a curse word
+cut.racer.mid_comment.2,{0}, Niet weer.
+# {0} will be a curse word
+cut.racer.mid_comment.3,Ik hoop dat deze {0} goed betaald.
+# {0} will be a curse adjective (like "friggin")
+cut.racer.mid_comment.4,Ja, Ik snap het. Laten we over {0} bedragen praten.
+# {0} will be a curse word (crap)
+cut.racer.mid_comment.5,{0}, Hier gaan we weer.
+
+# {0} will be some name or title
+cut.racer2gov.greet.1,{0}, Ik hoorde dat je me wou zien?
+cut.racer2gov.greet.2,{0}, Heb je een minuutje?
+cut.racer2gov.greet.3,Hey, {0}, Mag ik je wat vragen?
+cut.racer2gov.greet.4,*Klop klop klop*
+cut.racer2gov.greet.5,{0}, Ik wil je de hele week al wat vragen.
+cut.racer2gov.greet.6,Mag ik binnenkomen?
+cut.racer2gov.greet.7,Hey {0}, Heb je nog wat extra werk wat ik zou kunnen doen? Ik kom een beetje geld tekort.
+
+# {0} will be a name or a title
+cut.racer2racer.greet.1,Hey {0}! Hoe gaat het met je?
+cut.racer2racer.greet.2,{0}! Net de persoon naar wie ik op zoek was!
+cut.racer2racer.greet.3,Hey, Vriendelijke Collega!
+cut.racer2racer.greet.4,Oh Hallo {0}, Ik had je niet gezien!
+
+cut.racer2racer.resp.1,Hey {0}, Hoe hangt je turbo eronder?
+cut.racer2racer.resp.2,Natuurlijk, laat me raden, Je wil me iets vragen?
+# {0} will be a curse adjective (friggin face)
+cut.racer2racer.resp.3,Niet jij weer, Ik houd niet van jouw {0} kop, racer.
+cut.racer2racer.resp.4,Oh nee, Ik was niet degene die vannacht je banden heeft lekgestoken!
+# {0} will be an insult (like clown)
+cut.racer2racer.resp.5,Wat moet je {0}?
+
+cut.gov2racer.greet_resp.1,{0}, Natuurlijk, Kom binnen!
+cut.gov2racer.greet_resp.2,{0}, Ik verwachtte je al.
+cut.gov2racer.greet_resp.3,Ga zitten en luister goed.
+# {0} Curse adjective - friggin cash
+cut.gov2racer.greet_resp.4,Jij wil vast wel wat extra {0} munten verdienen, Of niet?
+# {0} Curse adjective - friggin cash
+cut.gov2racer.greet_resp.5,Laat me raden, Jij wil zeker wat extra {0} munten verdienen, Of niet?
+
+# {0} - insult singular
+cut.call.1,Hey, jij! {0}! Kom hier
+# {0} - insult singular
+cut.call.2,Hey! {0}!
+# {0} - name or title
+cut.call.3,{0}. Ik was naar jouw op zoek!
+cut.call.4,{0}, Wacht even, waarom heb je zo'n haast?
+cut.call.5,Dus, we ontmoeten weer.
+# {0} - insult singular
+cut.call.6,Oh, Hoor ik daar een {0} Praten?
+# {0} - racer name
+cut.call.7,Dat is lang geleden, {0}.
+cut.call.8,Gegroet, {0}.
+cut.call.9,Welkom, {0}.
+# {0} - insult singular
+cut.call.10,Niet jij weer, {0}, Wat moet je deze keer? Maar omdat je hier toch bent, Ik heb wat voor je.
+
+cut.call.resp.1,Wat moet je?
+cut.call.resp.2,...
+# {0} - curse adjective (friggin point)
+cut.call.resp.3,Bla bla, wat is daarmee jouw {0} punt.
+# {0} - name or title
+cut.call.resp.4,Oh, Het was aangenaam om je te zien, {0}.
+cut.call.resp.5,Gegroet, {0}.
+cut.call.resp.6,Ik heb eigenlijks wat extra geld nodig, heb je misschien een klusje voor mij?
+cut.call.resp.7,Sommige racers maken me het niet makkelijk, Denk je dat je me zou kunnen helpen?
+cut.call.resp.8,Heb je misschien speciale evenementen waar ik aan mee kan doen? Iets wat de kijkcijfers kan opkrikken?
+
+# {0} below is always government official name or title
+cut.end.player2gov.1,Ik zal zien wat ik kan doen.
+cut.end.player2gov.2,Alles voor jouw, Geachte {0}.
+cut.end.player2gov.3,Heb ik een keuze?
+cut.end.player2gov.4,Niet weer...
+cut.end.player2gov.5,Zal dit ooit stoppen?
+cut.end.player2gov.6,Oke oke, Ik regel het.
+cut.end.player2gov.7,Dat is prima.
+cut.end.player2gov.8,Ja, tuurlijk, wat maakt het uit.
+cut.end.player2gov.9,Ik zal het proberen...
+cut.end.player2gov.10,Ik wil naar huis!
+cut.end.player2gov.11,Gedag, {0}.
+cut.end.player2gov.12,Ontzettend bedankt voor de kans!
+
+cut.end.player2racer.1,Natuurlijk, het zal leuk worden.
+# {0} - name or title
+cut.end.player2racer.2,Alles voor jouw, Lieve {0}.
+# {0} - insult singular (i.e. clown)
+cut.end.player2racer.3,Dan is het geregeld, {0}!
+cut.end.player2racer.4,Ja, Eindelijk iets wat het waard is.
+cut.end.player2racer.5,Oh, Met plezier!
+cut.end.player2racer.6,Ik zal er over nadenken.
+# {0} - racer name, {1} - curse word (i.e. crap)
+cut.end.player2racer.7,Ik vind je niet aardig {0}, maar, {1}, waarom niet.
+cut.end.player2racer.8,Ach, Waarom ook niet.
+# {0} - singular insult
+cut.end.player2racer.9,Natuurlijk, {0}.
+
+cut.end.racer2player.1,Later.
+cut.end.racer2player.2,Oke, Ik zie je snel.
+cut.end.racer2player.3,Ik houd je in de gaten.
+cut.end.racer2player.4,Ik zou maar over mijn schouder blijven kijken.
+# {0} will be an noun insult (clown)
+cut.end.racer2player.5,Laten we gaan, Tijd voor jouw om mijn stof te happen, {0}.
+cut.end.racer2player.6,Laten we in de auto duiken.
+cut.end.racer2player.7,Minder praten, meer doen.
+cut.end.racer2player.8,Gedag.
+cut.end.racer2player.9,Tuurlijk.
+# {0} will be an noun insult (clown)
+cut.end.racer2player.10,Tuurlijk, {0}.
+
+# {0} - curse adjective (goddamn security)
+cut.end.gov.1,Nu weg, anders bel ik de {0} beveiliging.
+# {0} - insult singular (clown)
+cut.end.gov.2,Oprotten, {0}.
+# {0} - curse adverb (friggin leave)
+cut.end.gov.3,Ga alstublieft, Ga en kom niet meer terug tot je hebt gedaan wat ik je vroeg.
+# {0} - insult singular (clown)
+cut.end.gov.4,Later, {0}.
+cut.end.gov.5,Later.
+
+cut.req.drift.1,Bijna vergeten. Je moet wel zijwaards gaan!
+cut.req.drift.2,Oh, en doe het terwijl je drift, de toeschouwers houden ervan.
+cut.req.drift.3,En, je bent beter aan het driften terwijl je het doet.
+cut.req.drift.4,Wacht, vergeten te vertellen, ddoe het in een drift, het publiek houd ervan.
+cut.req.drift.5,En ze vertelde me dat je kon racen, dus bewijs het, doe het in een drift.
+
+cut.resp.drift.1,Niet weer, Het is onmogelijk om zo te winnen!
+# {0} - curse word (crap)
+cut.resp.drift.2,Oh, {0}...
+# {0} - curse word (crap)
+cut.resp.drift.3,{0}, Dit gaat moeilijk worden.
+cut.resp.drift.4,Oke, Ik kan dit.
+cut.resp.drift.5,Positief.
+# {0} - name of character (i.e. Brace)
+cut.resp.drift.6,Mijn plezier, {0}.
+cut.resp.drift.7,Meneer Ja Meneer
+cut.resp.drift.8,Dan zijwaards zal het wezen.
+cut.resp.drift.9,Ik doe het zijwaards zonder dat je het zou vragen!
+cut.resp.drift.10,Genoeg gezegd!
+# {0} - insult singular (clown)
+cut.resp.drift.11,Komt voor elkaar, {0}!
+
+# In block blow, {0} will be second part of the sentence, generated somewhere 
+# (i.e. for your trouble, you will receive $1000)
+cut.reward.part.1,Voor je moeite {0}.
+cut.reward.part.2,Als je successvol bent {0}.
+cut.reward.part.3_us,Als je me niet in de steek laat {0}.
+cut.reward.part.3_me,Als je me niet teleurstelt {0}.
+cut.reward.part.4,Als dit gebeurt {0}.
+cut.reward.part.5,Als je niet faalt {0}.
+cut.reward.part.6,Als je slaagt {0}.
+
+# Same here, {0} will be second part of sentence generated somewhere
+# (i.e. if you fail me like you always do, I will think of some punishment)
+cut.punish.part.1,als je faalt {0}!
+cut.punish.part.2,als je niet successvol bent {0}.
+cut.punish.part.3,als je meer zoals gewoonlijk weer in de steek laat {0}!
+cut.punish.part.4,als je het verprutst {0}!
+cut.punish.part.4_1,als je het verpest {0}!
+cut.punish.part.4_2,als je het verkloot {0}!
+cut.punish.part.5,Als je op wondere wijze faalt {0}!
+cut.punish.part.6,Als je het niet doet {0}.
+
+# In block below {0} will be generated sentence with reward part, {1} with punishment
+# (i.e: If you succeed, you will get $1000, otherwise I will puncture your tires)
+cut.rew.pun.part.1,Doe dit en {0}, maar als je faalt {1}!
+cut.rew.pun.part.2,Als een beloning {0}, Maar als je te laf bent {1}!
+cut.rew.pun.part.3,Als dit gebeurt dan {0}, anders {1}!
+cut.rew.pun.part.4,Doe dit en {0}, Maar er is ook een straf als je faalt. in dat geval {1}!
+cut.rew.pun.part.5,Als dit doet {0}. Maar denk niet dat ik je vergeef als je faalt dan {1}!
+cut.rew.pun.part.6,{0}. Maar laat me niet in de steek anders {1}!
+cut.rew.pun.part.7,Voor je moeite {0}. Maar als je faalt {1}!
+cut.rew.pun.part.8,Voor dit, {0}, Maar als je het niet doet {1}.
+cut.rew.pun.part.9,Bij success {0}, Maar als je me weer teleurstelt dan {1}!
+
+# Rewards told by government agent. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+# {0} will be a number
+cut.rew.gov.cash.1,krijg je ${0}
+cut.rew.gov.cash.2,zul je ${0} krijgen
+cut.rew.gov.cash.3,geven we jou ${0}
+cut.rew.gov.cash.4,betalen we jouw ${0}
+cut.rew.gov.cash.5,geef ik ${0} aan jouw
+cut.rew.gov.car,zal ik persoonlijk een nieuwe auto voor je kopen
+cut.rew.gov.pts,zal ik met de statistieken prutsen en krijg je {0} extra punten voor deze race
+cut.rew.gov.rnd,zal er een leuke verassing voor je wezen
+cut.rew.gov.aero,zullen mijn monteurs jouw aerodynamica opwaarderen
+cut.rew.gov.turbo,zullen mijn monteurs jouw turbo vervangen met een grotere
+cut.rew.gov.engine,zullen mijn monteurs jouw motor opvoeren voor wat extra paardenkracht
+cut.rew.gov.gears,zullen mijn monteurs jouw versnellingsbak verbeteren
+cut.rew.gov.grip,zullen mijn monteurs jouw banden vervangen voor meer grip
+cut.rew.gov.none,absoluut helemaal niks, hahahahaha!
+
+# Rewards told by other racer. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+# {0} will be a number
+cut.rew.racer.cash.1,mijn appeltje voor de dorst van ${0} voor jouw wezen
+cut.rew.racer.cash.2,geef ik jouw voedselbonnen ter waarde van ${0}
+cut.rew.racer.cash.3,geef ik jouw de inhoud van mijn broekzak, en dat is zo'n ${0}
+cut.rew.racer.cash.4,leen ik ${0} van de bank jouw aan jou te geven
+cut.rew.racer.cash.5,geef ik je ${0}
+cut.rew.racer.car,mag je van mij mijn splik splinter nieuwe auto hebben
+cut.rew.racer.pts,heb ik een vriend die met het scorebord kan knoeien en krijg je {0} extra punten voor deze race
+cut.rew.racer.rnd,maak ik het je tijd waard
+cut.rew.racer.aero,ik heb een idee hoe je de aerodynamica kan verbeteren met wat duct tape en WD-40
+cut.rew.racer.turbo,zal ik je turbo polijsten
+cut.rew.racer.engine,vervang ik je motor met een betere motor
+cut.rew.racer.gears,installeer ik een betere versnellingsbak voor je
+cut.rew.racer.grip,wissel ik je banden voor je zodat je betere grip krijgt
+cut.rew.racer.none,krijg je lekker helemaal niks
+
+# Punishments told by government agent. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+cut.punish.gov.cash.1,verlies je ${0}
+cut.punish.gov.cash.2,moet je ons ${0} betalen
+cut.punish.gov.cash.3,gaat je autoverzekering omhoog met ${0}
+cut.punish.gov.cash.4,pak ik ${0} van je bankrekening
+cut.punish.gov.cash.5,moet je ${0} betalen voor 100 diamantjes in dit nieuwe telefoonspelletje dat ik net heb gedownload
+cut.punish.gov.car,Blaas ik je autos in duizenden stukjes met mijn voetgangerkannon tot geen monteur er ooit weer een auto van kan maken
+cut.punish.gov.pts,draai ik dit database script dat je {0} punten laat verliezen
+cut.punish.gov.rnd,doe ik iets zo naars dat het voorpagina nieuws wordt, en geloof me, jouw foto zal daar staan
+cut.punish.gov.aero,vraag ik mijn monteurs om {0} in de grill van je auto te stoppen, dit zal de aerodynamica zeker slechter maken
+cut.punish.gov.turbo,stop ik persoonlijk {0} in je turbo
+cut.punish.gov.engine,sleutel ik een paar willekeurige onderdelen van je motor
+cut.punish.gov.gears,vervangen we je versnellingsbakvloeistof met {0} om je schakelen moeilijker te maken
+cut.punish.gov.grip,zal ik de monteur vragen om {0} op je banden te smeren zodat je grip verliest
+cut.punish.gov.none,zal er niks slechts gebeuren
+
+# Punishments told by other racer. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+cut.punish.racer.cash.1,zal je ${0} aan riskante TSLA aandelen moeten shorten
+cut.punish.racer.cash.2,zul je me ${0} moeten betalen
+cut.punish.racer.cash.3,Moet je me of ${0} geven of dat mooie horloge dat je om hebt
+cut.punish.racer.cash.4,zal ik brandstof uit je tank stelen ter waarde van ${0}
+cut.punish.racer.cash.5,moet je 100 diamantjes voor mij kopen in dit nieuwe telefoonspelletje dat ik net heb gedownload, het kost je slechts ${0}
+# "Lionard 125" should not be translated, it's a model name of cheapest car in the game
+cut.punish.racer.car,zul je met mij moeten ruilen van auto. ik heb momenteel een oude afgeragde Lionard 125, de lokale sloop blijft er maar naar vragen
+cut.punish.racer.pts,heb ik een hacker vriend die {0} punten van je score zal laten verdwijnen
+cut.punish.racer.rnd,zal ik het wiel van onfortuin draaien en het resultaat uitvoeren op jouw of je auto
+cut.punish.racer.aero,zal ik {0} in je grill steken om je aerodynamica te degraderen
+cut.punish.racer.turbo,stop ik {0} in je turbo
+cut.punish.racer.engine,vul ik je motor af met {0}
+cut.punish.racer.gears,vervang ik je versnellingsbak olie met {0} om je versnellingsbak te laten plakken
+cut.punish.racer.grip,ga ik je banden laten weken in {0} Dat zal er zeker voor zorgen dat je grip verliest
+cut.punish.racer.none,dan zal er niks slechts gebeuren
+
+### Shield mission cutscene
+
+cut.shield.req,Hier heb je een krachtveld, en wat extra batterijen er voor. Je mag me later wel bedanken.
+cut.shield.intro.1,Ik zie dat het niet zo goed met je gaat dit seizoen. Ik zal je wel een beetje helpen in de volgende race.
+# {0} will be a plural insult
+cut.shield.intro.2,Ziet er naar uit dat de andere {0} je de hele tijd aan het pesten zijn, hier heb je iets om het wat eerlijker te maken.
+
+cut.shield.descr,Voltooi de race met je krachtveld
+cut.shield.tip,Onthoud Newtons derde wet
+
+### Make car come last 
+
+# {0} - clown
+cut.finlast.req,Ik ga je een wapen geven en een doelwit markeren op je scherm, laat zien wat een {0} het is!
+# {0} - player name, {1} - vegan burger
+cut.finlast.racer.intro.1,Hey, {0}! Ik moet je om een gunst vragen. Een van de racers heeft een {1} in mijn uitlaat gestopt vannacht, en ik wil wraak!
+# {0} - player name, {1} - vegan olive oil
+cut.finlast.racer.intro.2,{0}, wacht. Ik heb wat hulp nodig, een van onze racers heeft {1} over mijn stuur gesmeert, en ik wil wraak!
+
+# {0} - vegan olive oil
+cut.finlast.gov.intro.1,Je gaat het niet geloven. Een van die clown vriendjes van jouw is in mijn kantoor geglipt en heeft mijn complete toetsenbord ingesmeerd met {0}! Ik wil dat je hem laat zien wat er gebeurt als je met SOFACT grapt.
+# {0} - clown
+cut.finlast.gov.intro.2,Luister, Er is een {0} die ik echt niet mag. Laten we zijn leven een hel maken.
+
+cut.finlast.tip,Doelwit zal worden gemarkeerd.
+
+# {0} - name, {1} - position number
+cut.finlast.descr,Wees zeker dat {0} laatste eindigt, of tenminste onder positie {1} 
+
+### Assassinate mission cutscene (the most complex one)
+
+# {0} is a singular noun defining a person
+# {1} is part of sentence telling what the person did
+# {2} is the second part telling what the person did
+# {3} is the third part with circumstances
+cut.ass.beg1.1,Je hebt die {0} die {1} {2}, {3}
+cut.ass.beg1.2,Hoe leg ik dit uit, een {0} {1} {2}, {3}
+cut.ass.beg1.3,Laat me het uitleggen. {0} {1} {2}, {3}
+
+# Same as beg1, but for 2 people
+cut.ass.beg2.1,een paar genaamd {0} {1} {2}, {3}
+cut.ass.beg2.2,Hoe leg ik dit netjes uit. twee genaamd {0} {1} {2}, {3}
+
+# Same as beg1 & beg2, but for 3+ people
+cut.ass.beg3.1,Er zijn deze {0} {1} {2}, {3}
+cut.ass.beg3.2,Hoe leg ik dit netjes uit. Het stelletje {0} {1} {2}, {3}
+
+# Endings for singular target
+cut.ass.end1.1,Je zal details vinden over zijn locatie in je boordcomputer wanneer je de rast start.
+# {0} - singular insult (i.e. clown)
+cut.ass.end1.2,schakel dat excuus van een {0} voor me uit, oke?
+cut.ass.end1.3,Zorg ervoor dat die de onderkant van je auto even goed inspecteerd.
+cut.ass.end1.4,Zorg ervoor dat die *splet* doet, oke?
+cut.ass.end1.5,Rem niet als die voor je auto komt.
+# {0} - singular insult (i.e. clown)
+cut.ass.end1.6,Ik wil een {0} op een stretcher zien.
+cut.ass.end1.7,Geef diegene een gratis ritje op je moterkap.
+cut.ass.end1.8,Je begrijpt wat ik bedoel, toch?
+
+# Endings for two targets
+cut.ass.end2.1,Je zult details vinden over hun locaties in je boordcomputer wanneer je de race start.
+# {0} - plural insult (i.e. clowns)
+cut.ass.end2.2,Schakel een stelletje {0} voor me uit, oke?
+cut.ass.end2.3,Zorg ervoor dat ze de onderkant van je auto inspecteren.
+cut.ass.end2.4,Zorg ervoor dat ze *splet* zeggen, oke?
+cut.ass.end2.5,Laat ze vliegen.
+# {0} - curse adjective (i.e. friggin strecher)
+cut.ass.end2.6,Ik wil dat ze beide worden weggedragen op een {0} stretcher.
+cut.ass.end2.7,Geef ze een gratis ritje op je motorkap.
+
+# Endings for three+ targets
+# end3.1 is used as end2.1
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.2,Schakel al die {0} voor me uit, oke?
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.3,Vind ze allemaal, en laat die {0} de onderkant van je auto inspecteren.
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.4,Zorg dat al die {0} *splat* zeggen, oke?
+# end3.5 is used as end2.5
+# {0} - plural insult (clowns) {1} - curse adjective (i.e. friggin strecher)
+cut.ass.end3.6,Ik wil dat al die {0} weggedragen worden op een {1} stretcher.
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.7,Geef al die {0} een gratis ritje op je motorkap.
+
+# Mid sentences for 1 target
+# {0} is some randomized person name
+cut.ass.mid1.1,Zijn naam is {0}.
+# {0} is some randomized person name (repeated twice in this sentence), {1} - curse adjective
+# Example: John Smith. Friggin John Smith.
+cut.ass.mid1.2,{0}.{1} {0}.
+cut.ass.mid1.3,Hij is {0}.
+# {1} will be insult singular, i.e. clown
+cut.ass.mid1.4,Ik heb een {1} gevonden, het is {0}.
+# {1} will be insult singular, i.e. clown
+cut.ass.mid1.5,{0}. Ik haat het {1}tje zo erg.
+
+# Mid sentences for 2+ targets
+# {0} will be plural insult (clowns), {1} will be a curse adjective (friggin)
+cut.ass.mid2.1,Ik weet wie die {1} {0} zijn.
+# {0} will be plural insult (clowns), {1} will be a curse adjective (friggin)
+cut.ass.mid2.2,Die {1} {0}.
+cut.ass.mid2.3,{0}!
+# {0} will be plural insult (clowns)
+cut.ass.mid2.4,Schakel die {0} voor me uit!
+# {1} will be insult plural, i.e. clowns
+cut.ass.mid2.5,{0}. Ik haat die {1} zo erg.
+
+# These cannot be deleted, if you can't come up with something unique, just repeat some 
+# Singular forms
+cut.ass.target1.1,Hipster
+cut.ass.target1.2,Dombo
+cut.ass.target1.3,Clown
+cut.ass.target1.4,Streamer
+cut.ass.target1.5,Facebooker
+cut.ass.target1.6,YouTuber
+cut.ass.target1.7,Activist
+cut.ass.target1.8,Advocaat
+cut.ass.target1.9,Leugenaar
+cut.ass.target1.10,Vijand van SOFACT
+cut.ass.target1.11,Journalist
+cut.ass.target1.12,Rebel
+cut.ass.target1.13,Misgunneer
+
+# These cannot be deleted, if you can't come up with something unique, just repeat some 
+# Plural forms
+cut.ass.target2.1,Hipsters
+cut.ass.target2.2,Dombos
+cut.ass.target2.3,Clowns
+cut.ass.target2.4,Streamers
+cut.ass.target2.5,Facebookers
+cut.ass.target2.6,YouTubers
+cut.ass.target2.7,Activisten
+cut.ass.target2.8,Advocaten
+cut.ass.target2.9,Leugenaars
+cut.ass.target2.10,Vijanden van SOFACT
+cut.ass.target2.11,Journalisten
+cut.ass.target2.12,Rebellen
+cut.ass.target2.13,Misgunners
+
+# Full sentence will look like: Somebody [messed with] somebody
+cut.ass.did.1,was aan het prutsen met
+cut.ass.did.2,was aan het worstelen met
+cut.ass.did.3,was aan het kloten met
+cut.ass.did.4,nam selfies met
+# If in your language "messed with me" and "stole from me" have different ways of saying, 
+# just create something that will look like ones above instead!
+cut.ass.did.5,steelde iets van
+
+# Full sentence will look like: Somebody did something with [me]
+# part from above will be used, try to make them compatible
+cut.ass.harmed.1,mij
+cut.ass.harmed.2,Iemand die jij niet hoeft te kennen
+cut.ass.harmed.3,een belangrijk persoon
+cut.ass.harmed.4,President van SOFACT
+cut.ass.harmed.5,De Raad van Bestuur
+cut.ass.harmed.6,SOFACT
+cut.ass.harmed.7,Met Vriendelijke Groet
+cut.ass.harmed.8,een vriend van mij
+cut.ass.harmed.9,een goede vriend
+cut.ass.harmed.10,een familielid
+cut.ass.harmed.11,de verkeerde persoon
+cut.ass.harmed.12,de foute groeperingen
+cut.ass.harmed.13,onze affiliatie social media beinvloeder
+
+# Additional circumstance for singular target. Will be attached to the end of sentence.
+cut.ass.andwhat1.1,en dacht dat die er mee weg kon komen.
+cut.ass.andwhat1.2,en je gelooft niet wat die daarna onder de douche deed!
+cut.ass.andwhat1.3,en heeft wat, euhm, gevoelige informatie gelekt.
+cut.ass.andwhat1.4,en heeft zelfs nooit excuses gemaakt!
+cut.ass.andwhat1.5,en dacht dat niemand het door zou hebben.
+cut.ass.andwhat1.6,alsof er geen morgen was.
+# {0} - insult singular (clown)
+cut.ass.andwhat1.7,En toen zei die "wat zeg je daarvan, {0}?"...
+
+# Additional circumstance for plural target. Will be attached to the end of sentence.
+cut.ass.andwhat2.1,en dachten dat ze er mee weg konden komen.
+cut.ass.andwhat2.2,en je wil niet geloven wat ze daarna onder de douche deden!
+# the rest of andwhat2 is used directly from andwhat1
+
+cut.ass.tip,Je kan foto modus gebruiken om je doelwitten to lokaliseren en je aanslagen te plennen.
+
+### Hit Objects Cutscene
+
+cut.hitobj.intro.racer.1,Ik weet dat je goed kan rijden, dus ik ga een kleine weddenschap aan.
+cut.hitobj.intro.racer.2,De VP van Diversiteit vroeg om een gunst, En ik ga de beloning met je delen als je me helpt, oke?
+cut.hitobj.intro.racer.3,Ik ben onder de indruk van je rijvaardigheid, Ik wil je graag een uitdaging voorstellen.
+cut.hitobj.intro.racer.4,Alleen racen is saai, dus laten we een weddenschap afsluiten.
+cut.hitobj.intro.racer.5,Ben je klaar voor een extra uitdaging?
+cut.hitobj.intro.racer.6,Help me aub, Ik kan dit niet alleen.
+
+cut.hitobj.intro.gov.pos.1,Onze kijkers houden ervan wanneer spul wordt overgereden, dus dit is wat je moet doen.
+cut.hitobj.intro.gov.pos.2,Ik heb een weddenschap afgesloten met iemand die zei dat je het niet kon doen, dus bewijs dat die er naast zit.
+cut.hitobj.intro.gov.pos.3,Ik ben vandaag in een slecht humeur, en niks zou me meer opvrolijken dan wat vliegende voorwerpen.
+cut.hitobj.intro.gov.pos.4,De schoonmaakploeg voert hun werk niet goed uit, dus ik heb een plan om ze harder te laten werken.
+cut.hitobj.intro.gov.pos.5,Ik heb een leuke uitdaging voor jouw mijn vriend.
+
+# {0} insult plural (clowns), {1} - curse adverb (friggin time)
+cut.hitobj.intro.gov.neg.1,Luister, Ik ben klaar met jullie {0} en jullie {1} roekeloze rijgedrag.
+cut.hitobj.intro.gov.neg.2,Er is een tekort aan voorraad de laatste tijd, Dus ik wil het je vriendelijk vragen.
+# {0} insult plural (clowns)
+cut.hitobj.intro.gov.neg.3,Ik ben in de stemming voor orde vandaag, Alles moet op zijn plaats blijven staan. Dus je gaat maar eens fatsoenlijk rijden, {0}!
+
+# {0} will be a noun (i.e: cone)
+cut.hitobj.req.negative.1,raak geen enkele {0}
+# {0} is a number and {1} is a plural noun (cones)
+cut.hitobj.req.negative.2,raak niet meer dan {0} {1}
+# {0} is a number and {1} is a plural noun (cones)
+cut.hitobj.req.positive,raak {0} {1}
+# I.e. Porta Potties Hit, or John Smith hit
+cur.hitobj.req.progress,{0} Geraakt
+
+# Will be used in "Hit 1 cone", or "Do not hit a single cone"
+cut.hitobj.o.traffic_cone,Verkeers Pion
+cut.hitobj.o.porta_potty,Dixie
+cut.hitobj.o.bush,Bosje
+cut.hitobj.o.pedestrian,Voetganger
+cut.hitobj.o.snowman,Sneewpop
+
+# Will be used in "Hit 2 cones", or "Do not hit more than 2 cones"
+cut.hitobj.o.traffic_cones,Verkeers Pionnen
+cut.hitobj.o.porta_potties,Dixies
+cut.hitobj.o.bushes,Bosjes
+cut.hitobj.o.pedestrians,Voetgangers
+cut.hitobj.o.snowmen,Sneeuwpoppen
+
+cut.hitobj.tip.neg,Vermijn het aanrijden van gemarkeerde objecten ten koste van alles.
+cut.hitobj.tip.pos,Kijk uit voor gemarkeerde objecten.
+
+# Reward short names
+# 12 PTS (short for points, use same as in terms)
+cut.rew.short.pts,{0} Ptn
+cut.rew.short.next_car,Volgende Auto
+cut.rew.short.aero,Aero +1
+cut.rew.short.engine,Motor +1
+cut.rew.short.gears,Bak +1
+cut.rew.short.turbo,Turbo +1
+cut.rew.short.grip,Grip +1
+
+# Punishment short names
+# -12 PTS (short for points, use same as in terms)
+cut.pun.short.pts,-{0} Ptn
+cut.pun.short.lose_car,Verlies Auto
+cut.pun.short.aero,Aero -1
+cut.pun.short.engine,Motor -1
+cut.pun.short.gears,Bak -1
+cut.pun.short.turbo,Turbo -1
+cut.pun.short.grip,Grip -1
+
+# Will be used in mid sentence, like: "Hit 4 cones while driting"
+cut.while_drifting,in een drift
+
+cut.short.full_throttle,Uitdaging: Vol Gas
+cut.short.tiny_car,Uitdaging: Kleine Auto
+cut.short.huge_car,Uitdaging: Grote Auto
+cut.short.inv_steer,Uitdaging: Omgekeerd Stuur
+cut.short.shield,Uitdaging: Krachtveld
+cut.short.weaponize,Uitdaging: Wapens Toegestaan
+
+# Will be used in sentence like "Assasinate John Smith"
+cut.assassinate.1,Vermoord {0} 
+# Will be used in sentence like "Assasinate 3 Hipsters"
+cut.assassinate.2,Vermoord {0} {1}
+# Will be used in end of sentence like "Hipsters assasinated", or "John Smith assasinated"
+cut.assassinated,{0} Vermoord
+
+### Car Prank mission cutscene
+
+cut.prank.gov.laugh.1,*Komt niet meer bij van het lachen*
+# {0} - curse word (crap)
+cut.prank.gov.laugh.2,Ha ha! {0}
+# {0} - curse word (crap)
+cut.prank.gov.laugh.3,{0}, wat doen ze me aan!
+cut.prank.gov.laugh.4,*giegelt*
+cut.prank.gov.laugh.5,*probeert lach in te houden*
+cut.prank.gov.laugh.6,*grijnst*
+
+cut.prank.player.react.1,Ik moet toegeven, dit gelach is aanstekelijk.
+# {0} - curse adverb (friggin)
+cut.prank.player.react.2,Wat is er zo {0} grappig?
+# {0} will be a government agent name
+cut.prank.player.react.3,Ik heb een gevoel dat dit niet zo grappig zal wezen voor mij, heb ik gelijk, {0}?
+# {0} will be a government agent name
+cut.prank.player.react.4,Oke {0}. Maar wat is de grap dan?
+cut.prank.player.react.5,Laatste keer dat ik dit gelach hoorde was het helemaal niet zo grappig voor mij
+cut.prank.player.react.6,Waarom heb ik hier een slecht gevoel bij?
+
+# {0} - curse adverb (friggin)
+cut.prank.player.react2.1,Je moet me wel voor de gek houden.
+cut.prank.player.react2.2,WAT?!
+# {0} - plural insult (clowns)
+cut.prank.player.react2.3,Wie waren het? Ik wil namen! Die {0} zullen boeten!
+# {0} - curse word (crap)
+cut.prank.player.react2.4,Oh {0}...
+# {0} - curse word (crap)
+cut.prank.player.react2.5,{0}...
+cut.prank.player.react2.6,{0}!
+# {0} and {1} - curse word (crap)
+cut.prank.player.react2.7,{0}...
+cut.prank.player.react2.8,{0}, {1}.
+cut.prank.player.react2.9,Kom maar op!
+# {0} - car model
+cut.prank.player.react2.10,En ik heb mijn {0} net opnieuw in de lak laten zetten...
+# When player has no car, he will say "And I just repainted my sneakers"
+cut.prank.player.react2.10_2,sneakers
+
+# {0} - curse word (crap)
+cut.prank.tiny_car.1,Je gelooft nooit wat er is gebeurt! Je auto! {0}! Ze hebben een grap uitgehaald en nu is die gekrompen. Je zult hem met een joystick moeten besturen want ik denk niet dat je er nog in past, Hilarisch!
+# {0} - random laughter from above
+cut.prank.tiny_car.2,Iemand in het lab heeft de krimpstraal op je auto uitgeprobeert. Geen zorgen, hier heb je een controller, Je kunt hem nog steeds besturen, Maar het zal niet makkelijk zijn. {0}.
+cut.prank.tiny_car.3,Heb je Een Luizenleven ook gezien? Nu zul je het moeten ervaren!
+cut.prank.tiny_car.4,Ik snap dat het niet erg logisch is, Maar er is een ongeluk gebeurt in de garage, Een krimpstraal vuurde in de verkeerde righting en heeft je auto geraakt, Hier heb je een controller, om je auto te besturen.
+
+cut.prank.tiny_car.descr,Voltooi de race met een verkleinde auto
+cut.prank.tiny_car.tip,Je past nu tussen kieren waar je normaal niet tussen zou passen
+
+# {0} - curse word (crap)
+cut.prank.huge_car.1,Je gaat me nooit geloven! Je auto! {0}! Ze hebben hem vergroot. Laten we maar hopen dat je een overmaatse robot kan vinden die je kan besturen.
+# {0} - random laughter from above
+cut.prank.huge_car.2,Iemand in het lab teste de materie dichtheid aanpassings straal op jouw auto, Maar geen zorgen, je kunt hem nog steeds op afstand besturen. {0}
+cut.prank.huge_car.3,Heb je die oude Godzilla films gezien? Natuurlijk, Jij komt uit die oude tijd. In ieder geval, Je auto is nu gigantisch. Ik zie je later wel.
+cut.prank.huge_car.4,Ik snap dat het niet erg logisch is, maar er is een ongeluk gebeurt in de garage, Een materie dichtheids aanpasser straal heeft je auto geraakt, je hebt geluk dat het niet je gezicht was, Hier heb je een afstandsbediening, zodat je hem kunt besturen.
+
+cut.prank.huge_car.descr,Voltooi de race met een gigantische auto
+cut.prank.huge_car.tip,Meer Massa betekent meer schade aan andere autos
+
+# {0} - crap, {1} - some item (bacon burger)
+cut.prank.full_throttle.1,Je gaat nooit geloven wat er is gebeurt! Je auto! {0}! Ze hebben een {1} in je gashendel gestopt. Ik ga me doodlachen om jouw die auto te zien besturen!
+# {0} - crap, {1} - some item (bacon burger)
+cut.prank.full_throttle.2,{0}! Deze idioten hebben weer met je auto lopen prutsen! Deze keer hebben ze een {1} in je gashendel gestopt. Ik ga me doodlachen om jouw die auto te zien besturen!
+# {0} - clowns, {1} - bacon burger
+cut.prank.full_throttle.3,Je gelooft nooit wat er is gebeurt, deze {0} hebben een {1} in je gashendel gestopt. Ik ga me doodlachen om jouw die auto te zien besturen!
+# {0} - clowns, {1} - bacon burger
+cut.prank.full_throttle.4,Dit is ongelofelijk! {0}! Ze hebben een {1} in je gashendel gestopt. Ik ga me doodlachen om jouw die auto te zien besturen!
+cut.prank.full_throttle.5,Niet boos worden, maar we hadden een stagiere die wat aan je auto heeft lopen prutsen, er kunnen wat draadjes verkeerd aangesloten zijn. Test je remmen. *Probeert lach in te houden*
+
+cut.prank.full_throttle.descr,Voltooi de race terwijl je gas vast zit op 100%
+cut.prank.full_throttle.tip,Concentreer op het sturen en vermijd objecten
+
+# {0} - crap
+cut.prank.inv_steer.1,Je gelooft nooit wat er is gebeurt! Je auto! {0}! Ze hebben de stuurrichting omgedraaid. Hahah, Ik ga persoonlijk kijken hoe je het doet!
+cut.prank.inv_steer.2,We hebben een stagiere aan je auto laten werken, en hij heeft misschien wat draden verkeerd aangesloten, de besturing kan wat raar aanvoelen. *Probeert lach in te houden*
+
+cut.prank.inv_steer.descr,Voltooi de race met een omgekeerde stuurrichting
+cut.prank.inv_steer.tip,Als je enkel de controller op de kop beet kon houden
+
+### Finish Xth 
+
+cut.fin_x.req.top,Je moet eindigen in de top {0}.
+cut.fin_x.req.bottom,Je moet eindigen op plaats {0} of lager.
+
+# {0} - player name or title
+cut.fin_x.racer.intro.1,Hey {0}! Een machtige vriend van mij heeft wat duistere weddenschappen afgelegd, om een lang verhaal kort te maken, ze bedreigen ons om met de race te knoeien.
+# {0} - player name or title
+cut.fin_x.racer.intro.2,{0}, wacht. De VP van Diversiteit bedreigt ons allemaal om in specifieke posities te eindigen. Niks persoonlijks, ik wou het gewoon laten weten.
+
+cut.fin_x.gov.intro.1,Ik heb wat weddenschappen afgesloten op de volgende race, en ik wil graag dat jij me gaat helpen.
+cut.fin_x.gov.intro.2,Wil je graag nog wat langer in leven blijven? Dan zou ik dit niet verprutsen als ik jouw was.
+cut.fin_x.gov.intro.3,Ik heb niet veel tijd. De volgende race is opgetuigd, vraag niet waarom. Doe gewoon wat je moet doen.
+
+cut.fin_x.tip,Houd een oogje op je positie in de rechterbovenhoek
+
+cut.fin_x.descr1,Eindig in de top {0}
+cut.fin_x.descr2,Eindig {0} of lager
+
+### Take Damage 
+
+# {0} - a number
+cut.dmg.req,Ontvang tenminste {0} schade aan je auto.
+
+cut.dmg.racer.intro.1,Ik weet dat jij degene was die mijn banden heeft lekgestoken vannacht! Ik kijk het door de vingers als je mijn uitdaging accepteert. Misschien krijg je er ook nog wel wat voor als je niet faalt.
+
+# {0} - friggin
+cut.dmg.gov.intro.1,Precies de persoon naar wie ik op zoek was! We moeten een nieuwe poster maken voor Bloody Rally Show, en jouw auto lijkt me perfect voor dit! Maar er is wel een voorwaarde, Het moet wel een goede {0} actiefoto wezen.
+cut.dmg.gov.intro.2,Ik zie dat je een gloednieuwe laklaag op je auto hebt, Netjes, netjes, Nu, je volgende uitdaging... *grijnst*
+# {0} - player name or title
+cut.dmg.gov.intro.3,Ik heb je nooit gemogen {0}. Daarom heb ik deze uitdaging voor je bedacht.
+
+cut.dmg.stay_alive.1,En probeer in leven te blijven
+# {0} - clown
+cut.dmg.stay_alive.2,En probeer niet dood te gaan, {0}
+
+cut.dmg.tip,Het aanrijden van obstakels of explosieven is de snelste manier om schade te ontvangen
+
+cut.dmg.descr,Neem {0} schade
+cut.dmg.progress,Schade ontvangen
+
+### Stay on track
+
+# {0} - brace stone character's name
+cut.on_track.racer.intro.1,Ik heb een weddenschap met {0}, Hij zei dat er geen mogelijkheid is dat je de race kunt voltooien zonder van het circuit af te gaan. Ik zal veel geld verliezen als je dit toch doet, dus rijd voorzichtig!
+
+# {0} - some racer name
+cut.on_track.gov.intro.1,Ik heb een weddenschap afgesloten met {0}, er wordt gezegd dat je niet op het circuit kunt blijven, Ik ben het wel eens, Maar ik heb geluk vandaag, Dus ik heb een half miljoen ingezet op je reet. Laat me niet in de steek!
+# {0} - Clowns
+cut.on_track.gov.intro.2,Onze hoveniers zijn de hele dag hard bezig geweest met bloemen planten en jij blijft ze {0} maar verpesten! Blijf op het circuit deze keer!
+
+cut.on_track.descr,Ga niet van het circuit af voor meer dan {0} seconden per keer
+cut.on_track.tip,Doe rustig aan in de bochten, en alles zal goedkomen!
+
+### Be a pedestrian 
+
+cut.ped.req.1,Oh, terwijl je rustig wat rondloopt, neem wat mooie close up actie fotos voor mij.
+# {0} - a number
+cut.ped.req.2,Oh, terwijl je rustig wat rondloopt, neem {0} mooie close up actie fotos voor mij.
+
+# {0} - clown, {1} - vegan olive oil, {2} - fool
+cut.ped.racer.intro.1,Raad eens {0}. Ik ben er eindelijk achter wie er door mijn dakraam heeft gescheten, En nu is het tijd voor wraak. Ik heb {1} in je tank gegoten, Dus alles moet doorgespoelt worden. Jammer dat het niet in tijd kan voor de volgende race, {2}!
+
+# {0} - vegan olive oil
+cut.ped.gov.intro.1,Niet boos op mij worden voor dit, maar de situatie is als volgt. We hebben een film voor volwassenen opgenomen in je auto want deze had precies genoeg ruimte voor 5 mensen en een cameraman, Ze hebben ook een rommel gemaakt met {0}, Maar geen zorgen we zullen het voor je schoonmaken na de race!
+cut.ped.gov.intro.2,Dus, je dacht dat je de grote man aan kon pakken, heh? Denk nogmaals. Jij zal een voetganger wezen voor de komende dagen, want we nemen je auto in beslag, Je onthoud dit maar voor de volgende keer!
+# {0} - clown
+cut.ped.gov.intro.3,Dacht je dat je weg kon komen met die stunt van je, achterlijke {0}? Je auto blijft bij ons voor de volgende paar races. Doe het nogmaals en je krijgt er echt spijt van!
+# {0} - clown
+cut.ped.stay_alive.1,En probeer in leven te blijven, {0}.
+# {0} - clown
+cut.ped.stay_alive.2,En probeer niet te sterven, {0}.
+
+cut.ped.descr,Doe mee in de race als een voetganger
+cut.ped.tip,Sta niet te dicht op het circuit!
+
+# {0} - a number
+cut.ped.descr1,Neem een close up foto van een auto
+cut.ped.descr2,Neem {0} close up fotos van autos
+cut.ped.progress1,Fotos gemaakt
+# {0} - a number
+cut.ped.progress2,{0} Auto Fotos gemaakt
+
+### Your car stolen 
+
+cut.stolen.racer.intro.1,Luister, man, Ik heb slecht nieuws voor je. Een of andere clown heeft je auto gestolen, Ik zag hem wegrijden. Ik hoop dat je verzekerd was. Je zult dus moeten lopen de volgende race.
+
+cut.stolen.gov.intro.1,Heb je ooit dat eeuwoude spel gespeeld; Grand Theft Auto? Nou, iemand heeft dat letterlijk net gespeeld met jouw auto, dus het lijkt erop dat je zult moeten lopen. Lijkt me extra erg als je geen verzekering hebt.
+
+cut.stolen.stay_alive.1,En probeer in leven te blijven
+cut.stolen.stay_alive.2,En probeer niet te sterven
+
+cut.stolen.descr,Je auto is gestolen
+cut.stolen.tip,Beter begin je alvast met sparen voor een nieuwe auto
+
+### Locked camera
+
+# {0} - "do not change camera settings!"
+cut.cam.req.1,Wat je ook doet, {0}.
+cut.cam.req.2,In storm en vloed, {0}.
+cut.cam.req.3,Wat er ook gebeurt, {0}.
+cut.cam.req.4,Als je de ballen hebt, {0}.
+cut.cam.req.5,Hier heb je een kotszakje, {0}.
+cut.cam.req.6,Open je raam als je moet kotsen, maar {0}.
+cut.cam.req.end,Verander je camera instellingen niet!
+
+cut.cam.racer.intro.1,Hier is een leuke nieuwe uitdaging voor je. Ik pas je camera drone aan op een manier die je niet leuk gaat vinden.
+# {0} - clown
+cut.cam.racer.intro.2,Ik kon vannacht niet slapen, dus ik ben maar aan het knoeien geweest met je camera drone. Waarom? Omdat je een {0} bent, Daarom!
+# {0} - clown
+cut.cam.racer.intro.3,Ik wil je uitdagen voor een spelletje! Ik heb onze camera drones aangepast om in een vervelende positie te hangen. De eerste die opgeeft is een {0}!
+
+# {0} - clown
+cut.cam.gov.intro.1,Even wachten {0}. Onze kijkers klagen over jouw camera drone, Ik heb hem aangepast naar hoe de kijkers het graag zien, oke?
+# {0} - friggin (adverb), {1} - clowns
+cut.cam.gov.intro.2,Ik ben zwaar geirriteerd omdat je steeds die camera drone instellingen aanpast. Kan je hem niet gewoon stabiel houden zoals alle andere {1} doen?
+cut.cam.gov.intro.3,Dames en Heren, pak je kotszakjes vast, De camera drone is kapot, Onze monteurs vroegen om geen camera drone instellingen aan te passen tot die weer is gerepareerd is.
+
+cut.cam.descr,Voltooi de race zonder de camera instellingen aan te passen
+cut.cam.tip,Als de straf minder pijnlijk is dat rijden met de huidige camera instellingen, Verander hem dan gewoon!
+
+cut.cam.shortdescr,Verander de camera instellingen niet
+
+### Distribute Spam
+
+# {0} - a number
+cut.spam.req,Pint ten minste {0} pakken met flyers uit
+
+cut.spam.racer.intro.1,Psssst... Luister, Ik heb een gunst nodig, we organiseren een geheime opstand tegen SOFACT. We willen zo veel mogelijk mensen vergaren voor ons verzet. Als je kunt helpen het woord te verspreiden, dat zou de wereld voor ons betekenen.
+
+# {0} - vegan olive oil
+cut.spam.gov.intro.1,We willen wat propaganda verspreiden over gezondheidsvoordelen van {0}. We hebben alvast een printer op je dak gemonteerd. Maak er ook gebruik van.
+# {0} - bacon burgers
+cut.spam.gov.intro.2,We hebben de resultaten van een wetenschappelijk onderzoek over {0} in een andere context gezet en we willen dat iedereen het leest. We hebben een printer op je dak gelast, Wees zeker dat je hem blijft gebruiken in de volgende race.
+
+# Do not modify {Action.Fire}
+cut.spam.tip,Blijf op {Action.Fire} drukken om flyers te verspreiden
+
+cut.spam.descr,Verspreid {0} stapels van flyers
+cut.spam.prog,Stapels flyers geprint
+
+### Weaponize
+
+cut.weaponize.req,We hebben iedereen een wapen gegeven. Dit gaat een gekkenhuis worden, daar houd ik van!
+
+cut.weaponize.gov.intro.1,Kijkers van Bloody Rally Show zijn niet meer onder de indruk, Dus we gaan het wat spannender maken.
+# {0} - clowns
+cut.weaponize.gov.intro.2,Ik zie dat de meeste van jullie {0} een nieuwe laag lak geeft. Laten we hopen dat ze zo blijven in de volgende race.
+
+cut.weaponize.descr,Voltooi de race met bewapende autos
+cut.weaponize.tip,Wees dankbaar dat je geen voetganger bent op dit moment!
+
+### Campaign Win (Freedom)
+
+# {0} - racer name
+cut.freedom.1,Hey {0}, Gefeliciteerd met je vrijheid! Ik vind het jammer om je te zien gaan, Weet je zeker dat je niet wilt blijven voor nog 1 seizoentje?
+# {0} - car model name
+cut.freedom.2,Bedankt, maar ik ben uitgeput, en ik moet het bloed ook nog van mijn {0} wassen.
+# {0} - he or she, depending on player gender (see term.he / term.she)
+cut.freedom.3,*Loopt weg in de zonsondergang, wetend dat {0} toch weer terug zal komen voor deze hell...*
+# When player has no car, he will say he has to clean the blood off his shoes
+cut.freedom.shoes,schoenen
+
+### Campaign Season Finished
+
+# {0} - player name
+cut.season.alive1.1,{0}, hoe heb je dit ooit gedaan? We moesten het seizoen zelfs vroeg beeindigen vanwege jouw!
+# {0} - clowns
+cut.season.alive1.2,Wat kan ik zeggen, het waren een stelletje {0}.
+cut.season.alive1.3,Ik moet toegeven Ik mocht je altijd graag. We hebben mensen zoals jouw nodig hier bij SOFACT. Wanneer je klaar bent met je race carriere zou ik je nog wel eens een baan aan kunnen bieden.
+cut.season.alive1.4,Dat stel ik op prijs, maar ik wil gewoon wat rubber oproken. Tot de volgende keer! En regel wat echte competitie volgende keer, wil je?
+
+cut.season.1,Seizoen is over iedereen! Tijd om naar huis te gaan.
+cut.season.cheer.1,Eindelijk!
+cut.season.cheer.2,Woo-hoo!
+cut.season.cheer.3,Ongelofelijk!
+cut.season.cheer.4,Echt, dan toch!
+cut.season.cheer.5,Beste dag van mijn leven!
+cut.season.cheer.6,Ik ben zo gelukkig!
+cut.season.cheer.7,Hoera!
+cut.season.cheer.8,JAAAAAA!
+cut.season.cheer.9,Yippie!
+# {0} clowns {1} - fools
+cut.season.2,Huis? Huis! Jullie {0} komen hier niet levend vandaan! Volgende seizoen start morgen al, I verwacht dat jullie morgen allemaal met jullie roestbakken gepolijst en al opgesteld voor de race. Huis... Hahaha. {1}...
+
+### Campaign Fail 
+
+cut.fail.boo.1,Boe
+cut.fail.boo.2,Kneus!
+cut.fail.boo.3,Wie is het?
+cut.fail.boo.4,Jammer
+cut.fail.boo.5,Boeee!
+cut.fail.boo.6,Kneuter!
+cut.fail.boo.7,Wie kan dat wezen?
+
+cut.fail.cry.1,Neeeeee!
+cut.fail.cry.2,Waarom!
+cut.fail.cry.3,De pijn...
+cut.fail.cry.4,Ik vond je zo aardig...
+cut.fail.cry.5,We zullen je missen!
+cut.fail.cry.6,Wat een schande.
+cut.fail.cry.7,Ik kan het niet geloven...
+
+cut.fail.1,Seizoen is voorbij mensen! En we hebben een beroemdheid hier, Iemand die niet eens in de top 3 is gekomen. Dus we vriezen dat excuus voor een {0} weer terug in cryo slaap!
+cut.fail.2,Het is mij. Het spijt me zo...
+# {0} - racer name, {1} - clowns, {2} - bacon burger {3} - vegan olive oil
+cut.fail.3,Oke, Genoeg drama! {0}, Beveiliging zal je naar de vriezer escorteren! En de rest van jullie stelletje {1}, ga wat nuttigs doen, voordat ik jullie helmen volprop met {2} en jullie viziers insmeer met {3}!
+
+#######################################
+### Dialogs and in-game messages
+
+# Please check that you are using same terms as main_menu.btn.settings / settings.gameplay, etc
+dial.discord_post_permission,Mogen we jouw Bloody Rally Show scores naar Discord plaatsen?<br>Steam naam, circuit tijd en poging aantal worden weergeven.<br>Verander je keuze ten alle tijden in "Instellingen" > "Spel" > "Deel via Discord"
+dial.time_attack_car_locked,De geselecteerde auto staat nog op slot, Speel deze vrij door vaardigheidspunten te verdienen in de Campagne!
+dial.camp.corrupted_save_files,Corrupte Campagne Opslaggegevens gevonden: {0}
+dial.camp.load_fail,Gefaald om de opslaggegevens te laden: {0}<br>{1}
+dial.camp.not_enough_cash,Je hebt niet genoeg geld!
+
+# {0} - clowns
+dial.camp.lucky1.1,Hallo {0}, Ik voel me gul vandaag!
+# {0} - clowns
+dial.camp.lucky1.2,Ik zie dat sommige van jullie zo arm zijn als die {0} die hun leven riskeren om wat fotos te maken.
+# {0} - clowns
+dial.camp.lucky1.3,Hey jullie, {0}, Ga in een rij staan! Iene Miene Mutte...
+# {0} - friggin (adjective)
+dial.camp.lucky1.4,Wat een mooie dag! Dankzij een van jullie, is een {0} journalist die onzin aan het schrijven was over SOFACT net weggedragen op een stretcher!
+# {0} - clowns
+dial.camp.lucky1.5,Verdomde zakken zitten voll met geld, Ik heb nergens om het neer te leggen. Kan net zo goed wat aan jullie {0} geven...
+# {0} - beef bacon burger, {1} - clowns
+dial.camp.lucky1.6,Wisten jullie dat ik een {0} bedrijf heb, 1 van jullie {1} heeft net de baas van mijn grootste rivaal uitgeschakeld in de laatste race!
+# {0} - clowns, {1} - vegan olive oil
+dial.camp.lucky1.7,Ik heb een grap uitgehaald met 1 van jullie {0}. Ik heb een boell {1} over je stoel uitgesmeert, en je had het niet eens door! Haha, hilarisch! Ik ga het wel goedmaken.
+
+# in this block {0} is always racer name ${1} is cash amount
+dial.camp.lucky2.1,De gelukkige winnaar is... {0}! Gefeliciteerd, je krijgt ${1}!
+dial.camp.lucky2.2,{0}, kom hier maar heen! Ik geef je ${1}. Denk niet dat het gratis is, het is in ruil voor toekomstige gunsten.
+dial.camp.lucky2.3,{0}! Hier is ${1}! Koop er wat leuks van.
+dial.camp.lucky2.4,{0}! Hier is ${1}! Nou opzouten.
+dial.camp.lucky2.5,{0}, neem ${1}. Bedankt voor je service!
+dial.camp.lucky2.6,Ik kies {0} als winnaar van deze glorieuze ${1} geldprijs. Geef het niet allemaal op dezelfde plaats uit!
+dial.camp.lucky2.7,{0}... Ik mag je niet, maar he, neem dit ${1}. In ruil vraag ik om wat gunsten. Niks duisters, Zo ben ik niet!
+
+# {0} - name, ${1} - cash amount
+dial.camp.resurrected,{0} was terug tot leven gebracht door de medische dienst voor ${1}
+dial.camp.resurrect_no_cash,{0} Had niet genoeg geld om de ziekenhuisrekening te betalen. Rust in vrede."
+# {0} - clowns
+dial.camp.all_broke,Hoe hebben jullie {0} het voor elkaar gekregen om allemaal tegelijkertijd geen geld meer te hebben. De voorstelling moet duur, SOFACT geeft jullie allemaal $20000. Koop er wat moois van.
+# {0} - name, {1} - clown
+dial.camp.early_win,Wauw, {0}, Je hebt iedereen uitgeschakeld! We moeten dit seizoen wel vroeg beeindigen. Gefeliciteerd, Jij {1}, Je hebt gewonnen!
+dial.camp.on_camp_fail,Het spijt me om mee te delen, Maar je moet in de top 3 eindigen om door te gaan. En omddat je geen ${0} hebt om je schuld af te betalen, Is het afgelopen voor jouw mijn vriend.
+dial.camp.congrats_free_man,Gefeliciteerd! Je bent nu een vrij man!
+dial.camp.freedom_not_enough_cash,Het spijt me, maar je hebt niet genoeg geld! Ga naar het volgende seizoen en verdien wat meer!
+dial.camp.exit_confirm,Weet je zeker dat je deze Campagne wil afsluiten? Alle vooruitgang wordt opgeslagen.
+dial.camp.card.no_regen,Je kan een voltooid evenement niet opnieuw genereren.
+# {0} - some track name. keep the quotes 
+dial.camp.card.saved_already,Circuit "{0}" Bestaat al in je collectie. Wil je hem vervangen?
+dial.camp.card.saved,Circuit "{0}" is aan je collectie toegevoegd!
+dial.camp.card.no_walk_completed,Je kunt niet als voetganger meedoen in een voltooid evenement!
+dial.camp.card.no_walk_special,Je kan geen voetganger wezen in het speciale evenement!
+# {0} - name
+dial.camp.card.go_ped_confirm,Even zonder grapjes, {0}, je hebt geen auto! weet je zeker dat je als voetganger mee wil doen?
+# {0} - list of names (john, smith, peter)
+dial.camp.card.some_peds_confirm,Sommige deelnemers hebben geen auto! ({0}). Ze zullen meedoen als voetganger. Is dit oke?
+dial.camp.card.some_peds,Sommige deelnemers kunnen de evenementskosten niet betalen. Ze zullen meedoen als voetganger: {0}
+
+dial.paint.no_1k,Je hebt geen $1000!
+
+dial.upgrade.not_in_time_attack,Je kan je auto niet opvoeren in Tijdsaanval modus
+dial.upgrade.week_over,Je kan je auto nu niet opvoeren, de week is voorbij! Monteurs zijn er al vandoor.
+dial.upgrade.already_done,Je monteurs werken nog aan je vorige aanpassing! Kom terug na het volgende evenement.
+dial.upgrade.no_cash,Je kan je dit niet veroorloven!
+
+dial.camp.load_finished,Weet je zeker dat je verder wil met deze Campagne? Hij is al beeindigd!
+dial.camp.delete_confirm,Weet je zeker dat je deze Campagne wil verwijderen?
+dial.camp.name_required,Je moet een Campagne naam invoeren!
+dial.camp.name_taken,Er is al een Campagne met deze naam!
+
+dial.camp.gratitudes.1,Dankjewel!
+dial.camp.gratitudes.2,Wauw! Jij bent echt de beste!
+dial.camp.gratitudes.3,Wow! Bedankt!
+dial.camp.gratitudes.4,Dank je!!
+dial.camp.gratitudes.5,Ik sta bij je in het krijt!
+dial.camp.gratitudes.6,Jij bent de allerbeste!
+dial.camp.gratitudes.7,Ik zal dit niet vergeten.
+dial.camp.gratitudes.8,Waar heb ik dit aan verdient?
+dial.camp.gratitudes.9,Ik sta voor eeuwing bij jouw in het krijt!
+dial.camp.gratitudes.10,topper! Dat waardeer ik echt!
+dial.camp.gratitudes.11,Dat vind ik echt tof!
+
+dial.camp.no_cash.1,Gast, je zakken zijn leeg!
+dial.camp.no_cash.2,Goed geprobeert, maar je kunt het niet betalen!
+dial.camp.no_cash.3,Houd je me voor de gek? Kijk naar je portomonnee!
+dial.camp.no_cash.4,uhh, Je hebt niet genoeg geld!
+dial.camp.no_cash.5,Je hebt niet eens genoeg...
+dial.camp.no_cash.6,Ik wil je niet in het rood stoppen, sorry.
+dial.camp.no_cash.7,Je hebt niet genoeg!
+
+dial.race.missing_bindings,Hey, Ziet er naar uit dat speler {0} ({1}) Een paar belangrijke knoppen mist! Ga naar Instellingen > Invoer en kijk alles even na om dit op te lossen!
+dial.race.missing_bindings_ped,Hey, Ziet er naar uit dat speler {0} ({1}) Een paar belangrijke knoppen mist! Ga naar Instellingen > Invoer en kijk Voetganger even na om dit op te lossen!
+# {0} - clown
+dial.race.ped_death,We hebben de medische dienst nodig! een of andere {0} is aangereden! Laten we hopen dat die genoeg geld heeft voor de rekening!
+
+dial.ed.no_cars,Je hebt nog geen autos! Maak een nieuwe auto en sla hem eerst op.
+dial.ed.name_the_car,Naam voor de nieuwe auto
+dial.ed.car_name,Auto naam
+
+dial.ed.car_sprites_missing,Sommige benodigde sprites zijn niet gevonden! Neem een kijkje in de gids en zorg dat deze bestanden bestaan: {0}.
+dial.ed.car_sprites_deleted,Je kunt niet gewoon auto sprite bestanden verwijderen! Missende benodigde bestanden zijn vervangen door een transparante pixel: {0}.
+dial.ed.remove_car_name_colon,Verwijder ":" Van je auto naam aub!
+dial.ed.car_name_taken,Model naam "{0}" is al in gebruik!
+dial.ed.car_too_fast,SOFACT Regulatie staat niet toe dat autos hun snelheidsindex niet boven de {0} zit voor het opvoeren! Deze auto heeft een snelheidsindex van {1}. Verminder wat parameters om dit op te lossen!
+dial.ed.car_close_confirm,Weet je zeker dat je de auto wil sluiten? Alle onopgeslagen data zal verloren gaan!
+dial.ed.car_delete_confirm,Weet je zeker dat je deze auto wil verwijderen: {0}?
+dial.ed.delete_error_no_dir,Kan deze auto niet verwijderen, pad niet gevonden:<br>{0}
+dial.ed.delete_error_file_open,Kan deze auto niet verwijderen. Sluit alle open bestanden en probeer hem handmatig te verwijderen.<br>{0}
+dial.ed.save_car_once,Sla de auto aub 1 keer op voordat je sprites gaat bewerken.
+dial.ed.save_before_reload,Je kunt de auto alleen herladen nadat je hebt opgeslagen!
+dial.ed.no_steam_share_car_err,Er is geen connectie met Steam. Kan de auto niet delen!
+dial.ed.car_share_no_desc,Vul een mooie beschrijving in voordat je de auto deelt naar de Steam Workshop!
+dial.ed.car_save_first,Sla de auto eerst op aub!
+dial.ed.car_share_err_sprites_missing,Auto kan niet worden gedeelt, Benodigde sprites zijn niet gevonden:<br>{0}
+dial.ed.car_share_err_sprites_recovered,Je kunt niet simpelweg de auto sprite bestanden verwijderen! Missende benodigde bestanden zijn vervangen door een transparante pixel: {0}. Je zult de auto nu moeten kunnen delen.
+dial.ed.car_save_alien_files,Verwijder alle bestanden die niet in de mod map horen. Alleen *.png, *.txt en item.car zijn toegestaan! Illegale bestanden: {0}
+dial.ed.car_share_sprite_warning,Waarschuwing: Als je de sprites niet hebt aangepast wordt de auto afgewezen!<br>Weet je zeker dat je de auto wil delen?
+dial.ed.car_name_not_available,Auto naam is niet beschikbaar: {0}. Verander hem en probeer nogmaals op te slaan.
+
+dial.ed.path_start_open,Je kan de start positie niet aanpassen op een open circuit!
+
+dial.factory_reset.confirm,Weet je zeker dat je wil resetten?
+
+dial.leaderboard.ghost_confirm,Wil je tegen de spook van {0} racen?
+dial.leaderboard.ghost_confirm_daily_stale,Het is niet de uitdaging van vandaag, Dus de Ranglijst voor de dag uitdaging wordt niet bijgewerkt, Maar de Circuit Ranglijst wel.
+
+dial.input_reset,Spel invoer structuur is aangepast door de ontwikkelaar, Je invoer toewijzing is teruggezet naar de standaard. Je kunt ze opnieuw aanpassen in "Instellingen" > "Invoer". Excuses voor het ongemak!
+dial.settings_reset,Spel configuratie structuur is aangepast door de ontwikkelaar, Je installingen zijn teruggezet naar de standaard. Excuses voor het ongemak!
+dial.stat_reset_dev,Ontwikkelaar heeft een volledige statistieken reset uitgevoert. Excuses voor het ongemak.
+dial.are_you_sure,Weet je het zeker?
+
+dial.race.racers_over_limit,Je kunt niet meer dan {0} autos hebben in een race!
+dial.race.player_remove_confirm,Weet je zeker dat je deze speler wil verwijderen {0}: {1}?
+dial.race.race_alone,Je moet niet alleen willen racen, tenzij je in Tijdsaanval modus zitt. Voeg wat tegenstanders toe met de Verschillende knoppen boven de deelnemerlijst!
+dial.race.no_track,Selecteer eerst een circuit!
+
+dial.race.restart_hardcore,Je speelt Hardcore, weet je nog? Dat betekent dus geen herstart voor jouw!
+dial.race.restart_dead,Sorry, we kunnen de race niet herstarten nadat er iemand is dood gegaan. Wacht aub tot de race is beeindigd en de medische dienst zal hun best doen.
+dial.race.restart_ped,Sorry, Voetgangers hebben niet het recht om de race te herstarten!
+dial.race.restart_confirm,Weet je het zeker? Een herstart zal je ${0} kosten. Je hebt nu nog ${1}
+dial.race.restart_no_cash,Sorry, Je hebt niet genoeg geld om de race te herstarten. Even doorbikkelen.
+dial.race.restart_time_attack_confirm,Weet je het zeker? Huidige rondetijden zullen verloren gaan!
+
+dial.ed.track_exit_confirm,Wet je zeker dat je wil afsluiten?? Alle niet opgeslagen aanpassingen zullen verloren gaan!
+dial.ed.track_new_confirm,Weet je het zeker? alle onopgeslagen veranderingen zullen verloren gaan.
+dial.ed.invalid_objects,Er staan {0} objecten te dicht bij de weg. Verwijder of Verplaats ze en ga voor een testrit voordat je op probeert te slaan.
+dial.ed.enter_track_name,Voer naam Circuit in
+dial.ed.track_name,Naam Circuit
+dial.ed.fix_errors_first,Zorg ervoor dat het Circuit door de validatie komt voordat je probeert op te slaan!
+dial.ed.share_track_no_steam,Er is geen verbinding met Steam. Kan het Circuit niet opslaan!
+dial.ed.track_invalid_share,Kijk naar die rode strook boven in je scherm, sleep met je muis op die balk om te zien wat er mis is.
+dial.ed.lap_before_upload,Even serieus! Je moet een rondetijd neerzetten om het Circuit te delen.
+dial.ed.track_remove_colon,Verwijder ":" uit de naam van het Circuit aub!
+dial.ed.track_name_clash_builtin,Sorry, kies een andere naam, je kan geen ingebouwd circuit overschrijven!
+dial.ed.track_overwrite_confirm,Circuit "{0}" bestaan al. Wil je deze overschrijven?
+dial.ed.track_alien_files,Verwijder extra bestanden uit de mod map aub: {0}
+dial.ed.track_delete_no_undo,Weet je zeker dat je dit circuit wil verwijderen? Dit kan je niet ongedaan maken!
+dial.ed.track_quit_confirm,Weet je zeker dat je de Circuiteditor wil verlaten? Niet opgeslagen aanpassingen gaan verloren!
+dial.ed.track_last_2_points,Kan de laatste 2 circuit punten niet verwijderen!
+dial.ed.loop_autoclose,Ziet er naar uit dat het Circuit probeert te sluiten.. Je kunt het "Open/sluit" gereedschap gebruiken, Maar ik hem deze keer voor je gesloten.
+
+dial.on_success, Bij success: {0}
+dial.on_fail, Bij falen: {0}
+dial.tip,Hint: {0}
+dial.confirm,Bevestig
+dial.confirm_in,Bevestig ({0:0})
+dial.must_do_in_drift,Moet in een drift
+
+dial.reset_tutorials.confirm,Weet je zeker dat je alle hints als ongelezen wil markeren?
+
+dial.confirm_exit_to_desktop,Weet je zeker dat je wilt afsluiten naar je bureaublad?
+
+dial.car_model_unavailable,Hey, het auto model "{0}" is niet langer beschikbaar! Wil je doorgaan met het laden van de Campagne? Niet beschikbare autos zullen verdwijnen zonder vergoeding!
+
+msg.track_high_obj_density,Dit circuit een te hoge object dichtheid van ({0:0} / 100m).\nHij zal niet automatisch meegenomen worden in aangepaste campagnes!
+msg.track_high_crowd_density,Dit circuit heeft een te hoge publiek dichtheid van ({0:0} / 100m).\nHij zal niet automatisch meegenomen worden in aangepaste campagnes!
+msg.cheats_leaderboards,Ranglijsten niet beschikbaar! Je hebt met de console lopen prutsen en waardes in het spel aaangepast. Herstart de game om weer toegang te krijgen tot de Ranglijsten.
+msg.track_load_failed,Circuit is niet correct geladen, hij is echter corrupt of onbeschikbaar! Probeer het opnieuw of hergenereer hem.
+msg.race_input_restart_warning,Waarschuwing: Het aanpassen van de invoer toewijzing vereist dat je het evenement opnieuw start!
+msg.failed_deleting_folder,Niet gelukt om de map te verwijderen. Wees zeker dat je geen open bestanden hebt<br>{0}
+msg.missing_car_model,Een Auto model is niet beschikbaar. ID: {0}.<br>Waarschijnlijk ben je niet meer geabboneerd of heb je een aangepaste auto verwijdert.
+msg.missing_controls,Invoer toewijzing niet correct
+msg.gen.analyzing_road,Analyseren van bochten in het circuit
+msg.gen.calculating_lines,Calculeren van race lijnen
+msg.gen.checkpoints,Scherpzetten van sensors
+msg.gen.paving_road,De weg asfalteren
+msg.gen.deunionizing_workers,Wegwerkers scheiden van de unie
+msg.gen.firing_workers,Wegwerkers ontslaan
+msg.gen.bribing_inspectors,Weg Inspecteurs omkopen
+msg.gen.looking_location,Zoeken naar locatie
+msg.gen.evicting_residents,Uitzetten van bewoners
+msg.gen.planting_forests,Bomen planten
+msg.gen.planting_bushes,Bosjes planten
+msg.gen.growing_parks,Perkjes groeien
+msg.gen.placing_lamps,Plaatsen van lantaarnpalen
+msg.gen.planting_flowers,Bloemen planten
+msg.gen.cloning_peds,Voetgangers klonen
+msg.gen.cloning_more_peds,Meer voetgangers klonen
+msg.gen.building_walls,Muren bouwen
+msg.gen.building_more_walls,meer muren bouwen
+msg.gen.rocks,Organische stenen vergaren
+msg.gen.ramps,Schansen plaatsen
+msg.gen.barrels,Explosieve tonnen plaatsen
+msg.gen.puddles,Plassen morsen
+msg.gen.cones_tires,Banden en Pionnen bestellen
+msg.gen.buildings,Huizen bouwen
+msg.gen.special_locs,Geheime locaties bouwen
+msg.gen.road_marks,Weg verfen
+msg.gen.test_driving,Circuit testen
+msg.gen.screenshot,Nemen van drone fotos
+msg.gen.cones_left,Uitlijnen van pionnen aan de linkerkant
+msg.gen.cones_right,Uitlijnen van pionnen aan de rechterkant
+msg.gen.tires_left,Plaatsen van banden aan de linkerkant
+msg.gen.tires_right,Plaatsen van banden aan de rechterkant
+msg.gen.end.1,Plaatsen van vallen
+msg.gen.end.2,Reclame maken voor het opkomende evenement
+msg.gen.end.3,Ontslaan van uitgeputte weg werkers
+msg.gen.end.4,Afleveren van publiek
+msg.gen.end.5,Sprenkelen van ambachtelijke weg stof
+msg.gen.end.6,Opladen camera drones
+msg.gen.end.7,Wapens van de helicopter herladen
+msg.gen.end.8,Auto van de directeur polijsten
+msg.gen.end.9,Explosieve tonnen op scherp zetten
+msg.gen.end.10,Plaatsen van de dixies
+msg.gen.end.11,Pionnen polijsten
+msg.gen.end.12,Olie morsen
+msg.gen.end.13,Helicopter bijtanken
+msg.gen.end.14,Meer publiek afleveren
+msg.gen.end.15,Gaten vullen
+msg.gen.end.16,Hot Dogs afleveren
+
+msg.longest_drift,Langste Drift
+msg.cant_fire_flyers,Kan niet vuren wanneer je voorruit onder de flyers zit!
+msg.cant_fire_no_gun,Kan wapen niet vuren, Niet gemonteert!
+msg.cant_drop_no_gun,Kan wapen niet laten vallen, Niet gemonteert!
+msg.close_call,Bijna raak!
+msg.photo_reward,Beloning voor Foto: ${0}
+msg.inflicted_dmg,Schade Gemaakt
+msg.dmg_warning,Schade Kritiek
+msg.over_50_pct,Over 50%
+msg.over_75_pct,Over 75%
+msg.jump_completed,Sprong Voltooid
+msg.nitro_boost,Lachgas gebruik
+msg.hit_combo,Raak combi
+msg.final_lap,Laatste Ronde!
+msg.lap_did_not_count,Ronde telde niet
+msg.wrong_way,Verkeerde Richting!
+msg.no_reset_start_line,Kan niet herstarten, Nog niet voorbij de startlijn!
+msg.no_reset_too_often,Je kan je auto niet zo vaak herplaatsen!
+msg.camera_mode,Camera Modus
+msg.camera_zoom,Camera Afstand
+msg.ped_cannon_tip,Rijd over een voetganger of wacht tot het kannon herlaad!
+msg.corner_cut,Maatregel Afsnijden
+msg.get_on_track,Ga terug de baan op!
+msg.reset_in,Herplaatsing in {0:0.00}s
+msg.offroad_pen,Maatregel van Circuit af
+msg.car_reset,Auto Herplaatsing
+msg.cheating_detected,Valsspelen gededecteerd
+msg.corner_cut_forgiven.1,Afsnijden is je vergeven. Doe het niet weer!
+msg.corner_cut_forgiven.2,Afsnijden is je vergeven. De scheids keek net weg.
+msg.ped_sucked_in_cannon,JE BENT IN EEN VOETGANGER KANNON GEZOGEN.
+msg.x_invalid_obj,Er zijn {0} ongeldige objecten
+msg.wasted,AFGEMAAKT
+
+msg.hard_congrats,Gefeliciteerd, je hebt moeilijk vrijgespeeld
+msg.hardcore_congrats,Gefeliciteerd, je hebt hardcore vrijgespeeld
+msg.no_steam_leaderboard_warn,Geen verbinding met Steam! Ranglijst toevoeging wordt niet opgeslagen. Herstart het spel of Steam zelf om dit op te lossen.
+msg.motion_speed_adj,Bewegings snelheid aanpasser: {0:0.00}x
+msg.time_scale_adj,Tijdschaal: {0:0.00}x
+msg.steam_client_photo,Start het spel met Steam om een foto te nemen. Je kan schermafdruk software van je computer gebruiken als je geen Steam gebruikt.
+msg.entering_photo_mode,Betreden van Foto modus
+msg.exiting_photo_mode,Afsluiten van Foto modus
+msg.just_upgraded,{0} heeft net zijn {1} opgevoert!
+msg.just_bought,{0} heeft net een {1} gekocht!
+# Keep this as short as possible, it will be displayed for 5 seconds in a small speech bubble
+msg.tip_available,Druk op {Action.ShowTutorial} voor een hint
+
+msg.uploading_ghost,Toevoegen van Spook aan de Ranglijsten
+msg.score_not_improved,Je huidige Ranglijst positie is niet verbroken! Huidige prestatie niet geupload.
+msg.score_ghost_missing,Je huidige Ranglijst positie is niet verbroken, maar spook gegevens zijn niet aanwezig. Toevoegen van Spook aan de Ranglijsten.";
+msg.score_rejected,Steam heeft je prestatie voor deze Ranglijst geweigerd
+msg.uploading_score,Bijwerken van Ranglijst prestatie ({0}/10 API roepingen / 10 min)<br>{1}
+msg.uploaded_score,Ranglijst successvol bijgewerkt ({0}/10 API roepingen / 10 min)<br>{1}
+msg.upload_fail,Kon de Ranglijsten niet bijwerken, probeert opnieuw in {2}s ({0}/10 API roepingen / 10 min)<br>{1}
+
+load.downloading_score,Ophalen van de volgende beste prestatie
+load.downloading_ghost_car,ophalen van Spook gegevens
+load.launching_battle,Auto Gevecht wordt gestart
+load.launching_race,Race wordt gestart
+load.starting_race,Motors Starten
+load.checking_mods,Geabboneerde mods nakijken
+load.downloading_mod,Downloaden Mod: {0} ({1}/{2} bytes)
+load.loaded_mod,Mod ingeladen: {0}
+load.screenshotting,Nemen van Foto Circuit
+load.gen_rand,Genereren Willekeurig Circuit
+load.track,Circuit Laden
+load.flushing_stats,Statistieken herladen
+load.flushing_stats_progress,Statistieken herladen ({0} resterend)
+load.exiting,Afsluitende
+load.insults,Laden van willekeurige scheldwoorden
+load.avatars,Laden van profielfotos
+load.avatar_custom,Laden aangepaste profielfotos: {0}
+load.cars,Laden Autos
+load.workshop_car_tex,Laden van Workshop Autos Textuur: {0}/{1}
+load.car_tex,Laden Auto Textuur: {0}/{1}
+load.paint_job,Laden Lakwerk: {0}
+load.track_campaign,Laden Campagne Circuits: {0}
+load.custom_tracks,Laden Aangepaste Circuit Bestanden
+load.workshop_track,Laden Workshop Circuit: {0}
+load.workshop_track_missing,Workshop Circuit {0} is misende, Deabboneren
+load.workshop_car,Laden Workshop auto: {0}
+load.custom_track,Laden aangepast Circuit: {0}
+load.track_x,Laden Circuit: {0}
+load.steam_avatar,Laden Steam Profielfoto: {0}
+load.scene,Laden {0}
+
+scene.race_setup,Race Instellingen
+scene.race,Race
+scene.main_menu,Hoofdmenu
+scene.track_editor,Circuit Editor
+scene.car_editor,Auto Editor
+scene.campaign,Campagne
+scene.kickstart,Initiele
+
+weapon.ped_cannon,Voetganger Kannon
+weapon.m2,M2
+weapon.saw,Zaag
+weapon.nitro_refill,Bijvullen Lachgas
+weapon.shield,Krachtveld
+# Tribute to Mad Max, maybe it's possible to keep the reference?
+weapon.mad_fax,Gekke Printer
+# It is a robotic steel hedgehog that is rigged with explosives
+weapon.homing_hedgehog,Robotegel
+weapon.wrench,Moersleutel
+weapon.nailgun,Nietpistool
+# Tribute to Quake
+weapon.railgun,Railgun
+weapon.wrecking_ball,Sloopkogel
+weapon.grappling_hook,Grijphaak
+
+# TUTORIALS 
+# Watch out for the <br>, these are new lines. They must not be removed!
+
+tut.basic_driving.head,Rijden met een auto
+tut.basic_driving.1,- Houd {Action.Accelerate} ingedrukt om te accelereren<br>- Gebruik {Action.Steer} om te sturen<br>- Als je een controller gebruikt kan je gas en sturen doseren.<br>- Besturen is een stuk makkelijker met een controller!
+tut.basic_driving.2,- Anticipeer de bochten zo vroeg mogelijk<br>- Start met remmen voor scherpe bochten<br>- Gebruik {Action.Brake} om te remmen<br>- Het loslaten van {Action.Accelerate} zal je snelheid ook verminderen
+tut.basic_driving.3,- Als je ziet dat je gaat overschieten, gebruik dan de handrem<br>- Druk op {Action.Handbrake} om de handrem te gebruiken
+
+tut.camera.head,Camera Controls
+tut.camera.1,- Er zijn verschillende camera afstanden en rotatie modussen beschikbaar om uit te kiezen<br>- Druk op {Action.Zoom} Om door de afstand niveaus te bladeren<br>- Met ver zie je je auto altij van heel hoog, maar wolken kunnen je zicht verminderen
+tut.camera.2,- Dichtbij geeft je een close up zicht van je auto<br>- Het kan heel uitdagend zijn om te rijden omdat je niet veel van de weg voor je ziet<br>- Je kan de mini kaart gebruiken om bochten te anticiperen
+tut.camera.3,- Druk op {Action.Camera} om de camera rotatie modi te wisselen<br>- Fixeer Weg camera zal helemaal niet roteren
+tut.camera.4,- Fixeer Auto camera zal de rotatie vastzetten aan je auto<br>- Zwevende camera zit tussen Fixeer Auto en Fixeer Weg in <br>- Vind de camera stand die jij het prettigst vindt
+tut.camera.5,- Je kan naar "Instellingen" > "Spel" om de standaard camera instellingen aan te passen<br>- Pas "Camera Schudden" aan als je dit wil verminderen
+
+tut.camp.add_racer.head,Racers Beheren
+tut.camp.add_racer.1,- Je kan kiezen wie deze racer bestuurt, Mens of CPU<br>- Je kunt tot 4 spelers spelen in splitscherm<br>- Je kan de profielfoto aanpassen en zelfs eigen afbeeldingen inladen van je computer
+
+tut.camp.advance.head,Campagne voortzetten
+tut.camp.advance.1,- Gefeliciteerd, je hebt je eerste week overleefdk<br>- Wanneer je klaar bent om verder te gaan klik je op de Volgende Week knop<br>- Een nieuwe week zal worden gegenereerd
+
+tut.camp.car_unlock.head,Nieuwe Auto beschikbaar
+tut.camp.car_unlock.1,- Je hebt een betere auto vrijgespeeld die je kan betalen!<br>- Ga naar de garage om hem te vinden
+tut.camp.car_unlock.2,- Kies de best beschikbare auto die je kan kopen<br>- Druk op de Koop knop om hem te kopen<br><br>- Je kan de auto ook nog gratis verfen voor je aankoop
+
+tut.camp.first_car.head,Je Eerste Auto
+tut.camp.first_car.1,- Je hebt geen auto, maar je hebt wel wat geld<br>- druk op "Koop een Auto" om de garage te bezoeken
+
+tut.camp.first_race.head,Eerste Race
+tut.camp.first_race.1,- Tijd voor je eerste race!<br>- Druk op de evenementskaart om te beginnen<br>- Als je een Genereren melding ziet dan is er een groep hoog getrainde apen bezig om circuits voor je te maken. Wacht tot je ziet dat de melding weg is voordat je een race probeert te starten.
+
+tut.camp.garage.head,Garage
+tut.camp.garage.1,- De enige auto die je je momenteel kan veroorloven is de Lionard 125<br>- Nieuwe autos zullen vrijspelen naarmate je hogere Niveaus bereikt
+tut.camp.garage.2,- Je kunt de auto gratis verfen voordat je hem koopt<br>- Na de aankoop kost een nieuwe laklaag wat geld
+
+tut.camp.racer_setup.head,Maak je Racer
+tut.camp.racer_setup.1,- Kies een profielfoto voor je racer. Je kan een aangepaste foto gebruiken van je computer.<br>- Voer je naam in of klik op Willekeurig om 1 te genereren<br>- Kies de toon van je stem (Heeft invloed om stemmetjes in de filmpjes)<br>- Daarna klik je op Registreer
+
+tut.camp.season_lineup.head,Seizoensopstelling
+tut.camp.season_lineup.1,- Hier kan je de seizoensopstelling aanpassen en een splitscherm Campagne opzetten<br>- Druk op Bewerk om racers hun naam, foto, moeilijkheidsgraad en meer aan te passen<br>- Druk op het kruisje om een racer te verwijderen. Racer aantal is voorbedacht, dus verwijderde racers worden vervangen met nieuwe!
+
+tut.camp.stage_rewards.head,Evenement Beloning
+tut.camp.stage_rewards.1,- Na de race ga je wat prijsgeld winnen voor je acties<br>- Gekleurde beloningen hebben extra waarde
+tut.camp.stage_rewards.2,- Standaard worden alleen speler beloningen weergeven<br>- Druk op Alle Racers om te zien wat alle individuele racers hebben gekregen
+
+tut.camp.car_upgrades.head,Auto Opvoeren
+tut.camp.car_upgrades.1,- Je hebt een verbetering voor je auto vrijgespeelt<br>- Klik op het onderdeel icoon om het opvoer menu te openen<br>- Opvoerbare onderdelen hebben een klein pijltje omhoog naast het icoon
+tut.camp.car_upgrades.2,- Klik op de prijs knop om de auto op te voeren<br>- Meer verbeteringen zullen vrijspelen naarmate je hogere niveaus behaalt
+
+tut.car_damage.head,Auto Schade
+tut.car_damage.1,- Ziet er naar uit dat je wat serieuze schade hebt opgelopen<br>- Houd een oogje op de Schadebalk rechtsboven in het scherm<br>- Je kan de schade repareren met een Moersleutel powerup in races met wapens of Auto Gevecht
+tut.car_damage.2,- Beschadigde autos verliezen topsnelheid<br>- Beschadigde autos lekken ook olie
+
+tut.car_reset.head,Je Auto Herplaatsen
+tut.car_reset.1,- Ben je vast komen te zitten? We hebben het voor je geregeld!<br>- Houd {Action.Brake} ingedrukt, Op deze manier ga je achteruit<br>- Druk op {Action.ResetCar} om je auto terug op het circuit te plaatsen
+
+tut.corner_cut.head,Afsnijdmaatregels
+tut.corner_cut.1,- Ziet eruit dat je net hebt afgesneden!<br>- Afhankelijk hoe de scheids zich voelt kun je vergeven worden, Maar ook gestraft worden<br>- Lichte overtreding is een tijdelijke vertraging<br>- Bij zware overtredingen wordt de auto terug geplaatst<br>- Hoe veel afsnijden wordt toegestaan is afhankelijk van de spelmodus en de moeilijkheidsgraad
+
+tut.custom_race_dash.head,Aangepaste Race Menu
+tut.custom_race_dash.1,- Welkom bij Aangepaste Race. Het lijkt misschien wat ontmoedigend, dus hier is wat hulp<br>- Als je met je vrienden wil spelen, druk op de speler toevoegen knop<br>- Je kan ook CPU racers toevoegen op deze manier
+tut.custom_race_dash.2,- Om snel willekeurige CPU tegenstanders toe te voegen, gebruik de "+1" en "+10" knoppen<br>- Je kan een race tegen een hele hoop mensen doen!<br>- Om alle racers behalve jezelf te verwijderen druk dan op "0"
+tut.custom_race_dash.3,- Anders dan Campagne modus, hier kan je gewoon kiezen welke verbeteringen je wil op je auto<br>- Druk op het onderdeel om door de verbetering niveaus te bladeren<br>- Je kan individuele verbeteringen aanpassen voor elke racer
+tut.custom_race_dash.4,- Er zijn sommige spel modi waar je tussen kunt kiezen<br> - "Race" is een normale race tegen andere spelers<br>- "Tijdsaanval" is om goede tijden neer te zetten in de Ranglijsten<br>- In "Auto Gevecht" heb je een tijdslimiet en wapens, je moeft niet op een circuit te rijden.
+tut.custom_race_dash.5,- Selecteer een circuit waar je op wil racen<br>- Je kan ook een uniek circuit genereren<br>- Verkrijg meer circuits in de Steam Workshop of maak je eigen in de Circuiteditor
+tut.custom_race_dash.6,- Nadat je de aangepaste race helemaal hebt ingesteld klik je op de rode knop in de linkeronderhoek om het evenement te beginnen
+
+tut.time_attack.head,Aangepaste Race: Tijdsaanval
+tut.time_attack.1,- In "Tijdsaanval" modus  zijn alle auto verbeteringen vastgezet op niveau 1
+tut.time_attack.2,- Om de Ranglijsten te zien klik je op "Ranglijst" in de bovenste balk<br>- CPU deelnemers zijn niet beschikbaar in "Tijdsaanval" modus<br>- Je kan wel splitscherm spelen met andere mensen
+
+tut.drift.head,Driften
+tut.drift.1,- Je hebt zojuist een mooie drift gemaakt<br>- Driften is de kunst van zijwaards gaan met je auto<br>- gecontroleerd driften is beloont met Lachgas en geld in Campagnes<br>- Driften telt niet als je naast de baan rijd
+tut.drift.2,- Verschillende autos driften ook heel anders<br>- Verschillende oppervlaktes en weersomstandigheden hebben allemaal invloed op de drift eigenschappen<br>- Het opvoeren van je auto heeft effect op het driften
+
+tut.paint.head,Autos Lakken
+tut.paint.1,- Verander de hoofdkleur van je auto met Basisleur<br>- Je kan 2 verflagen instellen<br>- Druk op verflaag om een ander patroon te kiezen<br>- Je kan zelf gemaakte verflaag afbeeldingen gebruiken
+
+tut.nitro.head,Lachgas
+tut.nitro.1,- De rode Lachgas balk laat je resterende Lachgas zien<br>- Druk op en houd {Action.Nitro} ingedrukt om de lachgas in je motor te spuiten en sneller te gaan<br>- Hoe langer het brand hoe efficienter het wordt
+tut.nitro.2,- Lachgas vult aan wanneer je voetgangers, dixies of sneeuwpoppen aanrijd<br>- Lachgas vult ook bij wanneer je drift<br>- Je zult ook geld krijgen voor lachgas wat je niet hebt gebruikt
+
+tut.oil.head,Olie Vlekken
+tut.oil.1,- Je reed net over een Olie Vlek<br>- Olie maakt je banden extreem glad<br>- Geen zorgen, Ze zijn zo weer schoon
+
+tut.ped.head,Voetganger Modus
+tut.ped.1,- Je bent ongelukkig genoeg om als voetganger mee te doen aan dit evenement<br>- Gebruik {Action.Walk} om te lopen<br>- Draai met {Action.Turn}
+tut.ped.2,- Wanneer je dicht bij autos bent druk dan op {Action.Take Photo} om een foto te maken<br>- Fotos worden beloond met geld<br>- Beloning hangt af van aantal autos in het schot en hun afstand van jouw
+tut.ped.3,- Wees voorzichtig, of je kan geraakt worden door een auto<br>- Medische kosten zijn torenhoog en als je niet genoeg geld hebt dan is het afgelopen voor jouw
+
+tut.nitro_refill.head,Powerup: Lachgas Bijvuller
+tut.nitro_refill.1,- Je hebt zojuist een Lachgas Bijvuller gekregen!<br>- Het is een powerup die heel snel je lachgas bijvult terwijl je aan het rijden bent<br>- Wanneer je deze powerup krijgt is het wijs om {Action.Nitro} ingedrukt te houden om de lachgas te verbranden terwijl die blijft bijvullen
+
+tut.wrench.head,Powerup: Moersleutel
+tut.wrench.1,- Je hebt zojuist een Moersleutel gekregen!<br>- De Moersleutel powerup repareert je auto terwijl je rijd<br>- Er zijn 3 verschillende moersleutels die je kan krijgen
+tut.wrench.2,- Koperen sleutels repareren een klein beetje schade<br>- Zilveren sleutels repareren een redelijke hoeveelheid schade<br>- Gouden sleutels repareren heel veel schade
+
+tut.race_end.head,De Race Eindigen
+tut.race_end.1,- Goed gedaan, Het ziet er naar uit dat je niet laatste was!<br>- Andere racers hebben nu nog 30 seconden om de eindstreep te bereiken<br>- Druk een paar keer op "Versnellen" om de tijd tot 5 keer sneller te laten gaan
+tut.race_end.2,- Nadat de 30 seconden voorbij zijn zal de Einde Race knop verschijnen<br>- Het is aan jouw of je terug wil naar het week overzicht voordat alle racers de eindstreep hebben gehaald
+
+tut.car_battle.head,Auto Gevecht
+tut.car_battle.1,- Welkom bij Auto Gevecht<br>- Jouw doel is om zoveel mogelijk tegenstanders te doden<br>- Ram anderen om schade te veroorzaken<br>- Gebruik wapens om nog veel meer schade te veroorzaken
+tut.car_battle.2,- Verkrijg Wapens en Powerups in de verschillende Wapen Zones<br>- Je kunt ze zien op je mini kaart
+tut.car_battle.3,- Nadat een wapen of powerup is opgepakt zal deze zone niks meer geven tot de timer is afgelopen<br>- Zodra de timer is afgelopen is er weer een ander wapen of powerup beschikbaar
+tut.car_battle.4,- Auto Gevechten eindigen wanneer de tijd is afgelopen<br>- De winnaar is degene die de meeste autos heeft vernietigd en de meeste schaded heeft aangericht
+
+tut.regular_race.head,Normale Race
+tut.regular_race.1,- In normale races is het doel om als eerste over de eindstreep te komen<br>- Houd {Action.Nitro} ingedrukt om Lachgas te verbranden voor wat extra snelheid<br>- Raak voetgangers om lachgas bij te vullen<br>- Wees zeker dat je geen bochten afsnijd om straffen te voorkomen
+
+tut.time_attack2.head,Tijdsaanval
+tut.time_attack2.1,- In Tijdsaanval modus kan je proberen om de beste rondetijden neer te zetten<br>- Als andere spelers Ranglijst toevoegingen hebben voor deze baan kan je tegen hun spook proberen te racen<br>- Jouw eigen spook wordt ook opgenomen en gedeeld met je Ranglijst positie
+
+tut.race_weap.head,Race Met Wapens
+tut.race_weap.1,- Je staat op het punt om een race met wapens en powerups te starten<br>- Deze races kunnen echt krankzinnig worden!<br>- Wanneer je een nieuwe campagne start kun je er voor kiezen om deze uit te schakelen
+tut.race_weap.2,- Wanneer je een wapen of een powerup krijgt verschijnt er een balk, Dit laat zien hoelang je wapen of powerup nog effect heeft<br>- Wanneer je een wapen krijgt die je nog niet eerder hebt gehad kan er een hintscherm tevoorschijn komen
+tut.race_weap.3,- Er zijn verschillende Wapen controlepunten verspreid over het circuit<br>- Deze controlepunten verandert van kleur over tijd<br>- Rode controlepunten geven je een wapen
+tut.race_weap.4,- Groene controlepunten geven je een powerup<br>- Als je over een wapen zone rijd terwijl je een wapen of powerup beet hebt gebeurt er niks<br>- Druk op {Action.DropWeapon} om je huidige wapen of powerup te laten vallen
+
+tut.ramps.head,Schansen en Sprongen
+tut.ramps.1,- Je bent zojuist gelanceerd door een Schans!<br>- Normale houden schansen laten je springen
+tut.ramps.2,- Superschansen laten je ook springen, maar deze geven je ook nog een zetje mee!<br>- Schansen garanderen geen schone landing<br>- Je kan schansen verplatsen door ze te drukken en draaien en ze extra vervelend neer te zetten voor je tegenstanders<br>- Sprongen worden bijgehouden in de Ranglijsten, Maar alleen in Campagne modus!
+
+tut.track_ed.obj_place.head,Circuiteditor: Objecten Plaatsen
+tut.track_ed.obj_place.1,- Klik eenmal op {Action.PlaceObject} om een object te plaatsen<br>- Houd {Action.PlaceObject} ingedrukt en sleep om een rij met objecten te plaatsen<br>- Gebruik {Action.RotateObject} om objecten te roteren voor het plaatsen
+
+tut.m2.head,Weapon: M2
+tut.m2.1,- Je hebt zojuist een M2 gekregen!<br>- De M2 is een krachtig projectiel gebaseert wapen<br>- Houd {Action.Fire} ingedrukt om te vuren naar je tegenstanders<br>- Als je het wapen niet leuk vind kan je hem altijd laten vallen met {Action.DropWeapon}
+
+tut.mad_fax.head,Weapon: Gekke Printer
+tut.mad_fax.1,- Je hebt zojuist een Gekke printer gekregen<br>- Druk op {Action.Fire} om een stapel flyers te printen in het pad van je tegenstanders<br>- De flyers zullen aan de voorruiten blijven plakken wat hun zicht beperkt<br>- Autos met meer flyers op de voorruit worden moeilijker en moeilijker om te besturen<br>- Als je een wapen niet prettig vind kan je hem altijd laten vallen met {Action.DropWeapon}
+
+tut.nailgun.head,Weapon: Nietpistool
+tut.nailgun.1,- Je hebt zojuist een nietpistool gekregen!<br>- Een Nietpistool is een gemiddeld projectiel gebaseert wapen met een goede zet<br>- Druk op {Action.Fire} om de tegenstanders voor je te beschieten<br>- Als je een wapen niet prettig vind kan je deze altijd laten vallen met {Action.DropWeapon}
+
+tut.ped_cannon.head,Weapon: Voetganger Kannon
+tut.ped_cannon.1,- Je hebt zojuist een voetganger kannon gekregen!<br>- Het kannon is al voorgeladen met een exploderende voetganger<br>- Druk op {Action.Fire} om de voetganger naar je tegenstanders te schieten
+tut.ped_cannon.2,- Rijd over een voetganger (dood of levend) om het kannon te herladen<br>- Of wacht 10 secondedn tot een voetganger kogel wordt gekloont en het kannon zichzelf herlaad<br>- Als je een wapen niet prettig vind kan je deze altijd laten vallen met {Action.DropWeapon}
+
+tut.railgun.head,Weapon: Railgun
+tut.railgun.1,- Je hebt zojuist een Railgun gekregen!<br>- De Railgun is een langzaam maar extreem krachtig projectiel wapen<br>- Druk op {Action.Fire} om de tegenstanders voor je te raken<br>- Als je een wapen niet prettig vind kan je deze altijd laten vallen met {Action.DropWeapon}
+
+tut.saw.head,Weapon: Zaag
+tut.saw.1,- Je hebt zojuist een zaag gekregen!<br>- Het is een contact wapen, Probeer je tegenstanders aan te raken met het zaagblad<br>- De zaag kan op dee voor of achterkant van je auto verschijnen<br>- Kijk uit, Het extra gewichtt heeft invloed op het rijgedrag <br>- Als je een wapen niet prettig vind kan je deze altijd laten vallen met {Action.DropWeapon}
+
+tut.shield.head,Weapon: Krachtveld
+tut.shield.1,- Je hebt zojuist een Krachtveld gekregen!<br>- Het drukt alles om je heen uit de weg<br>- Het weerkaatst zelfs kogels<br>- Als je een wapen niet prettig vind kan je deze altijd laten vallen met {Action.DropWeapon}
+
+tut.spikes.head,Weapon: Robotegel
+tut.spikes.1,- Je hebt zojuist een Robotegel gekregen!<br>- Het is een Doelzoekende Exploderende Robotegel die chaos veroorzaakt<br>- Druk op {Action.Fire} Om de Robotegel los te laten
+tut.spikes.2,- Wanneer losgelaten zal de Doelzoekende Bom de dichtsbijzijnde tegenstander als een doelwit kiezen<br>- Het zal de tegenstander jagen en rammen tot de Robotegel geen energie meer heeft<br>- De Robotegel zal exploderen wanneer deze in contact komt met een object of tegenstander
+
+tut.wreck_ball.head,Wapon: Sloopkogel
+tut.wreck_ball.1,- Je hebt zojuist een Sloopkogel gekregen!<br>- Laten we zeggen dat het niet het beste wapen is dat je kunt krijgen<br>- Hij is erg handig in een Auto Gevecht, maar niet zo in een race 
+tut.wreck_ball.2,- Als je een Sloopkogel aan je auto vast hebt zitten heeft dat extreme effecten op het rijgedrag<br>- Als je niet zo van je wapen houd kan je hem altijd laten vallen met {Action.DropWeapon}
+
+msg.director_warning.1,Directeur Nicolas Mooiland doet ook mee blijkbaar...
+msg.director_warning.2,Er is een psychopaat op het circuit, en hij is niet aan het racen!
+msg.director_warning.3,Kijk uit voor de Directeur, hij heeft een wapen!
+msg.director_warning.4,Oh Oh, De Directeur zit weer in zijn auto!
+msg.director_warning.5,Directeur Nicolas Zichzelf doet mee aan de race!
+
+msg.chopper_warning.1,Bert Bruut is in een slecht humeur. Kijk uit voor de helicopter!
+msg.chopper_warning.2,Mensen kijken naar die helicopter met angst in hun ogen...
+msg.chopper_warning.3,Vermijd de helicopter, blijkbaar heeft die en wapen!
+msg.chopper_warning.4,Bert Bruut verveelt zich vandaag, kijk uit voor de helicopter!
+msg.chopper_warning.5,Erg oneerlijk, maar Bert Bruut vliegt rond met een wapen!
+msg.chopper_warning.6,Wees voorzichtig, Bert Bruut is heeft een woedeaanval!
+msg.chopper_warning.7,Bert Bruut lijkt wel graag te schieten vandaag!
+msg.chopper_warning.8,Kijk uit voor die kwaadaardige psychopaat in de lucht!
+
+msg.tip.ped.ff,Hint: Houd {Action.FastForward} ingedrukt om de tijd te versnellen
+msg.tip.ped.photo,Hint: Drop op {Action.Take Photo} om een foto te maken
+msg.tips.disabled,Je kan hints vinden onder Over > Hoe te spelen
+
+msg.tips.finished_campaign,Campagne afgerond
+msg.tips.free_man,Vrij mens
+msg.tips.incompatible_save,Deze save werkt niet met deze versie van BRS
+
+# {0} - date
+msg.achieved_on,Gehaald op {0}
+# {0:0.0}% will become 15.3%
+msg.achieved_by,Gehaald door {0:0.0}%
+msg.hidden_achievement,Geheime Prestatie
