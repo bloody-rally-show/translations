@@ -1,0 +1,63 @@
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamRace.gif[/img]
+
+Bloody Rally Show est mélange unique de courses, de combats de voitures et de roguelite offrant une variété infinie de pistes, une campagnes avec une histoire dystopique, des missions, des défis et des dialogues générés de manière procédurale.
+
+Pilotez des bolides maniables et techniques, sur une variété infinie de pistes générées de manière aléatoire et ou faites à la main par le développeur, ainsi que par la communauté, grâce à l'éditeur de circuit intégré.
+Concourez pour la gloire contre les autres pilotes du Classement Steam.
+
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamFight1.gif[/img]
+
+Utilisez des armes et l'inertie de votre voiture pour combattre les autres pilotes dans des combats intenses.
+Ajoutez des armes sur les circuits pour pimenter les choses et intensifier l'action.
+
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamDrift.gif[/img]
+
+Soigneusement réglée, la manipulation des voitures, basée sur la physique, se situe entre l'arcade et la simulation; facile à manipuler, difficile à maîtriser. Apprenez à manipuler et à drifter avec votre voitures sur différentes surfaces. Ressentez quand votre voiture perd ou reprend de l'adhérence et maitrisez-là! Devenez un expert et hissez vous au top du classement steam!
+
+Le mode Défi quotidien et Contre-la-montre vous permettra de vous mesurer contre d'autres joueurs (mode ghost car). Votre technique est la seule chose qui vous amènera au sommet des classements.
+
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamCreate.gif[/img]
+
+Créez vos propres voitures et circuits de course avec l'éditeur avancé (inclu dans le jeu) qui a servit pour créer tout le contenu du jeu lui-même. 
+Les outils de développement complets sont à portée de main et sont aussi faciles à utiliser que possible.
+Patagez vos créations avec les autres pilotes sur Steam Workshop.
+
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamCustomize.gif[/img]
+
+Utilisez vos propres images d'avatar, ou peinture de voiture. Changez les noms de vos opposants en mode campagne, ou course custom pour personaliser votre expérience. 
+Personnalisez les peintures des voitures en ajoutant différentes couches de détails. Faites de ce jeu, votre jeu!
+
+[img]{STEAM_APP_IMAGE}/extras/BRSConsole.gif[/img]
+
+Utilisez un système d'exploitation intégré (OK, OK, c'est juste une console), où vous pouvez exécuter des commandes qui ajustent la physique du jeu, modifient la logique du jeu et font d'autres trucs sympas!
+
+
+Principales caractéristiques:
+[list]
+[*] Physique automobile de style arcade / simulateur (maniement, drift, vitesse).
+[*] Une quantité infinie de pistes de course générées aléatoirement.
+[*] Mode campagne avec missions, défis procéduraux (et une histoire avec facteurs aléatoires gérée par l'IA).
+[*] Combats de bolides armés dans un mode au style Battle Royal (zone se rétrécissant).
+[*] Mode Piéton, jamais vu auparavant dans d'autres jeux de course! 
+[*] Utilisez votre boost nitro stratégiquement!
+[*] Pilotez avec des armes et des powerups!
+[*] Jouez la campagne en solo, en coopération local, ou .......Play campaigns in single player, local couch co-op, or Steam Remote Play Together.
+[*] Partagez vos créations de circuits et voitures avec les autres pilotes grâce au Steam Workshop.
+[*] Pilote XP et level up! Votre pilote gagne de l'expérience et des niveaux.
+[*] Tuning et améliorations de votre bolide!
+[*] Concurents IA Adaptatifs qui disposent de la même physique et maniabilitée que le joueur, de même que des émotions et un charactère qui leurs feront faire des choses stupides de temps en temps. 
+[*] Près de 50 succès Steam.
+[*] Une multitude de différents classements.
+[*] Les noms des meilleurs (vrais) joueurs des classements apparaissent dans les campagnes des joueurs en tant que pilotes IA.
+[*] Défi quotidien avec une combinaison différente de pistes / voitures pour rivaliser avec d'autres joueurs.
+[*] Multijoueur en ligne asynchrone via Ghost Replays dans les classements Steam - faites la course contre d'autres personnes en mode Défi quotidien et Contre la montre!
+[*] Peintures personnalisés et avatars de course!
+[*] Écran partagé Multijoueur local jusqu'à 4 joueurs!
+[*] Paramètre de configuration pour désactiver le sang (pour les sessions de course en écran partagé adaptées aux familles)
+[*] Courses avec 100 adversaires!
+[*] Rampes et sauts, flaques d'eau ou d'huile, plaques de glace, barils explosifs et autres dangers!
+[*] Accessoires destructibles et mobiles basés sur la physique.
+[*] Bande son originale de haute qualité avec une douzaine de morceaux complets.
+[*] Références au pain spelta sans gluten et autres mauvaises blagues!
+[*] DRM-free! (GDN-libre!)
+[/list]

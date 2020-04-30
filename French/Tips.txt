@@ -1,0 +1,60 @@
+Si tu peux, cela ne signifie pas que tu dois.
+Essayez différents modes caméra.
+Accélérez et freinez pour faire un burnout.
+La voiture se conduit mieux avec un pad.
+Vous voulez jouer avec les enfants? Vous pouvez désactiver le sang, les insultes, et les cinématiques dans les options.
+La caméra vous rend nauséeux? Essayez différent mode caméra et désactivez les vibrations dans les options.
+Le jeu tourne à moins de 60 FPS? Réduisez la résolution, la qualité, et le nombre d'effet dans les options.
+Le son moteur est trop fort? Réduisez le dans les options.
+Vous voulez parler avec d'autres pilotes? Rejoignez-nous sur Discord! https://discordapp.com/invite/89amEwP
+Vous voulez Drifter comme un pro? C'est une questions de sensations! L'entrainement est la seule règle...
+Vous pouvez trouver plus de voitures sur Steam workshop!
+Les dégâts sur l'auto réduisent la vitesse.
+C'est plus fun de jouer avec des amis.
+Vous pouvez couper certains virages. Mais si vous coupez trop, vous serez punis.
+Voiture bloquée? Vous pouvez la rétablir avec le raccourcis clavier! (voir les options, attribution des touches)
+Vous pouvez changer le mode caméra, rétablir une voiture bloquée, utiliser le frein à main... (voir les options, attribution des touches)
+Qu'est ce qui fait <b>*splash*</b> et vous donne un boost de vitesse?  ......Un piéton :-)
+Appuyez sur F12 pour faire une capture d'écran
+Pas de microtransactions. Jamais!
+Selon les circonstances, couper un virage peut-être fortement puni, ou complétement pardonné par le juge.
+Les piétons peuvent occasionnellement prendre des captures d'écran pour vous. Vous pouvez désactiver cela dans les options.
+Jusqu'à 4 joueurs peuvent jouer en même temps au mode campagne et course custom.
+Les campagnes sont plus amusantes en mode écran partagé.
+Vous ne pouvez pas attraper le COVID-19 en jouant à Blody Rally Show à la maison!
+Utilisez F2 pour accéder à la console.
+Utilisez les touches directionnelles pour orienter les objets avant de les placer dans l'éditeur de circuit.
+Maintenez la touche MAJ pendant la rotation d'un objet pour être plus précis en mode éditeur de circuit.
+Vous pouvez faire des croisements de route dans l'éditeur de circuit :-)
+Les cartes d'étapes (circuit proposé) peuvent être modifiées dans le mode campagne
+En mode campagne, les cartes d'étapes (circuit) peuvent être retournées pour voir plus d'options.
+Bloody Rally Show! Le SEUL et UNIQUE jeu où vous pouvez être un piéton! (Et non, GTA ça compte pas...) :-)
+Vous pouvez télécharger des circuits fait par la communauté sur Steam Workshop!
+Partagez vos créations (circuit et auto) sur Steam Workshop!
+Visitez le Steam Workshop pour y trouver de nombreuses autos et circuits!
+Les circuits Steam Workshop ont leurs propres classements and "ghost replay" dans le mode contre la montre.
+Cette année, nous sommes en 2084.
+SOFACT, ou Social Frontier of Activism, était une immense entreprise de technologie, qui monopolisait le marché.
+Bloody Rally Show est un vaste programme télévisé organisé par SOFACT.
+Les piétons gagnent de l'argent en prenant des photos de (très) près...
+Les piétons peuvent devenir des pilotes s'ils gagnent assez d'argent pour acheter une auto.
+Si vous perdez votre auto, ou n'avez pas assez d'argent pour participer à une course, vous serez rétrograder comme piéton.
+Les gagnant de saisons Bloody Rally Show, sont fortement récompensés.
+Vous devez être dans le TOP 3 à la fin d'une saison pour être qualifié pour la prochaine.
+Les boost nitro se rechargent lorsque votre bolide heurte un piéton. Les organisateurs de Bloody Rally Show, démentent en bloque!
+Il y a plein de programme de télé-réalité populaire... Mais aucun aussi cruel que Bloody Rally Show! L'audience ADORE!
+Bienvenu sur Bloody Rally Show, un programme de télé-réalité où le but est de survivre.
+Il ny a plus de pays, SOFACT les a tous unis.
+Bloody Rally Show est basé sur le Groupe "B" du championnat de rally qui se produisait il y a un siècle, avant qu’ils soient annulé pour cause d'accident trop fréquent.
+Toutes les autos de Bloody Rally Show ont été construite sur la base de vieilles technologies des années 1980. L'audience n'aime pas le bruit des voitures électriques...
+Certains disent que Brace Stone peut tirer des lasers avec ses yeux bionique.
+Les astuces peuvent être désactivé, réinitialisé, ou consultés dans "à propos" > "Comment jouer"
+Si vous ignorez le chat, il partira éventuellement...
+Brace Stone préfère la nourriture vegan.
+Qu'est-ce que vous dites? ...N'importe quoi! Ce jeu est parfaitement fair-play.
+Vous voulez faire une capture d'écran parfaite, avec un bel angle? Accéder au mode photo en mettant le jeu sur "Pause"
+Avez-vous essayer le mode photo? Cela vous en mettre plein la vue!
+Vous pouvez utiliser vos propres images pour vos Avatars, peintures et même refaire complètement vos autos!
+N'essayez jamais de refaire ça chez vous. Nulle-part, JAMAIS!
+Vous pouvez nous aider à traduire ce jeu dans votre langage! Les instructions sont ici: StreamingAssets/Translations
+Ce jeu est libre de GDN. Et Brace Stone en est très satisfait!
