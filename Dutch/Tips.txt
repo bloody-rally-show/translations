@@ -25,7 +25,7 @@ Je kunt geen COVID-19 krijgen terwijl je Bloody Rally Show speelt (Alleen geldig
 Gebruik "F2" om toegang te krijgen tot het onderliggende besturingsysteem van Bloody Rally Show.
 Gebruik de pijltjes toetsen om objecten te roteren voor het plaatsen in de Circuit Editor.
 Houd "shift" ingedrukt terwijl je aan het roteren bent om meer precisie te krijgen in de Circuit Editor.
-Je kunt wegen laten kruizen in de Cercuit Editor.
+Je kunt wegen laten kruizen in de Circuit Editor.
 De Circuit kaarten kunnen omgedraaid worden voor extra acties.
 De allereerste race game waar je een voetganger kunt wezen! (GTA telt niet)
 Je kan extra circuits vinden in de Steam Workshop!
