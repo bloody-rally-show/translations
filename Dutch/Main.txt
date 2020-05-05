@@ -190,8 +190,8 @@ campaign.races_with_weapons,Evenementen met wapens
 campaign.races_with_weapons.tip,Sommige evenementen zullen wapens en andere powerups gebruikt kunnen worden.
 campaign.directors_car,Directeur
 campaign.directors_car.tip,De Directeur Nicolas doet mee om wat chaos te veroorzaken, Maakt het spel moeilijker.
-campaign.helicopter_weapons,Helicopter Wapens
-campaign.helicopter_weapons.tip,Bert zijn helicopter heeft soms wapens en jaagt op de deelnemers met zijn helicopter, Maakt het spel moeilijker.
+campaign.helicopter_weapons,Helikopterwapens 
+campaign.helicopter_weapons.tip,Bert zijn helikopter heeft soms wapens en jaagt op de deelnemers met zijn helikopter, Maakt het spel moeilijker.
 campaign.adaptive_ai,Adaptieve AI
 campaign.adaptive_ai.tip,AI Racers presteren beter of slechter afhankelijk van jouw prestaties.
 campaign.weekly_rebalance,Wekelijkse Herbalans
@@ -2042,7 +2042,7 @@ dial.race.restart_confirm,Weet je het zeker? Een herstart zal je ${0} kosten. Je
 dial.race.restart_no_cash,Sorry, Je hebt niet genoeg geld om de race te herstarten. Even doorbikkelen.
 dial.race.restart_time_attack_confirm,Weet je het zeker? Huidige rondetijden zullen verloren gaan!
 
-dial.ed.track_exit_confirm,Wet je zeker dat je wil afsluiten?? Alle niet opgeslagen aanpassingen zullen verloren gaan!
+dial.ed.track_exit_confirm,Wet je zeker dat je wil afsluiten? Alle niet opgeslagen aanpassingen zullen verloren gaan!
 dial.ed.track_new_confirm,Weet je het zeker? alle onopgeslagen veranderingen zullen verloren gaan.
 dial.ed.invalid_objects,Er staan {0} objecten te dicht bij de weg. Verwijder of Verplaats ze en ga voor een testrit voordat je op probeert te slaan.
 dial.ed.enter_track_name,Voer naam Circuit in
@@ -2119,13 +2119,13 @@ msg.gen.end.3,Ontslaan van uitgeputte weg werkers
 msg.gen.end.4,Afleveren van publiek
 msg.gen.end.5,Sprenkelen van ambachtelijke weg stof
 msg.gen.end.6,Opladen camera drones
-msg.gen.end.7,Wapens van de helicopter herladen
+msg.gen.end.7,Wapens van de helikopter herladen
 msg.gen.end.8,Auto van de directeur polijsten
 msg.gen.end.9,Explosieve tonnen op scherp zetten
 msg.gen.end.10,Plaatsen van de dixies
 msg.gen.end.11,Pionnen polijsten
 msg.gen.end.12,Olie morsen
-msg.gen.end.13,Helicopter bijtanken
+msg.gen.end.13,Helikopter bijtanken
 msg.gen.end.14,Meer publiek afleveren
 msg.gen.end.15,Gaten vullen
 msg.gen.end.16,Hot Dogs afleveren
@@ -2401,10 +2401,10 @@ msg.director_warning.3,Kijk uit voor de Directeur, hij heeft een wapen!
 msg.director_warning.4,Oh Oh, De Directeur zit weer in zijn auto!
 msg.director_warning.5,Directeur Nicolas Zichzelf doet mee aan de race!
 
-msg.chopper_warning.1,Bert Bruut is in een slecht humeur. Kijk uit voor de helicopter!
-msg.chopper_warning.2,Mensen kijken naar die helicopter met angst in hun ogen...
-msg.chopper_warning.3,Vermijd de helicopter, blijkbaar heeft die en wapen!
-msg.chopper_warning.4,Bert Bruut verveelt zich vandaag, kijk uit voor de helicopter!
+msg.chopper_warning.1,Bert Bruut is in een slecht humeur. Kijk uit voor de helikopter!
+msg.chopper_warning.2,Mensen kijken naar die helikopter met angst in hun ogen...
+msg.chopper_warning.3,Vermijd de helikopter, blijkbaar heeft die en wapen!
+msg.chopper_warning.4,Bert Bruut verveelt zich vandaag, kijk uit voor de helikopter!
 msg.chopper_warning.5,Erg oneerlijk, maar Bert Bruut vliegt rond met een wapen!
 msg.chopper_warning.6,Wees voorzichtig, Bert Bruut is heeft een woedeaanval!
 msg.chopper_warning.7,Bert Bruut lijkt wel graag te schieten vandaag!
@@ -2423,3 +2423,30 @@ msg.achieved_on,Gehaald op {0}
 # {0:0.0}% will become 15.3%
 msg.achieved_by,Gehaald door {0:0.0}%
 msg.hidden_achievement,Geheime Prestatie
+
+# New translations since v1.5.0
+term.none,Geen
+btn.extra,Extra
+race.modifiers,Race modificaties
+race.select_challenge,Selecteer Uitdaging
+race.challenges,Uitdagingen
+race.challenge_target,Uitdagingsdoel
+race.challenge_target.players,Alleen spelers
+race.challenge_target.everyone,Iedereen
+mission.type.none,Geen
+mission.type.assassinate,Vermoorden
+mission.type.hit_obj,Raak objecten
+mission.type.make_sure_car_x_comes_last,Voorkom dat iemand wint
+mission.type.stay_on_track,Blijf op het circuit
+mission.type.locked_camera,Vergrendelde camera
+mission.type.take_dmg,Schade oplopen
+mission.type.finish_xth,Eindig in positie
+mission.type.be_a_ped,Wees een voetganger
+mission.type.tiny_car,Kleine auto
+mission.type.huge_car,Grote auto
+mission.type.inverse_steering,Omgekeerde besturing
+mission.type.full_throttle,Vol gas
+mission.type.shield,Krachtveld
+mission.type.distribute_spam,Verspreid spam
+mission.type.weaponize,Gewapende auto
+mission.type.your_car_stolen,Je auto is gestolen

@@ -2424,3 +2424,30 @@ msg.achieved_on,Achieved on {0}
 # {0:0.0}% will become 15.3%
 msg.achieved_by,Achieved by {0:0.0}%
 msg.hidden_achievement,Hidden Achievement
+
+# New translations since v1.5.0
+term.none,None
+btn.extra,Extra
+race.modifiers,Race Modifiers
+race.select_challenge,Select Challenge
+race.challenges,Challenges
+race.challenge_target,Challenge Target
+race.challenge_target.players,Players Only
+race.challenge_target.everyone,Everyone
+mission.type.none,None
+mission.type.assassinate,Assassinate
+mission.type.hit_obj,Hit Objects
+mission.type.make_sure_car_x_comes_last,Prevent Someone From Winning
+mission.type.stay_on_track,Stay On Track
+mission.type.locked_camera,Locked Camera
+mission.type.take_dmg,Take Damage
+mission.type.finish_xth,Finish In Position Range
+mission.type.be_a_ped,Be a Pedestrian
+mission.type.tiny_car,Tiny Car
+mission.type.huge_car,Huge Car
+mission.type.inverse_steering,Inverse Steering
+mission.type.full_throttle,Full Throttle
+mission.type.shield,Force Field
+mission.type.distribute_spam,Distribute Spam
+mission.type.weaponize,Weaponized Car
+mission.type.your_car_stolen,Your Car Was Stolen

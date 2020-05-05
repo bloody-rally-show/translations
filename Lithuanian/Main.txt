@@ -2424,3 +2424,30 @@ msg.achieved_on,Pasiekta {0}
 # {0:0.0}% will become 15.3%
 msg.achieved_by,Pasiekė {0:0.0}%
 msg.hidden_achievement,Slaptas Pasiekimas
+
+# New translations since v1.5.0
+term.none,Nieko
+btn.extra,Extra
+race.modifiers,Lenktynių modifikatoriai
+race.select_challenge,Pasirinkite Iššūkį
+race.challenges,Iššūkiai
+race.challenge_target,Iššūkio gavėjai
+race.challenge_target.players,Tik žaidėjai
+race.challenge_target.everyone,Visi
+mission.type.none,Jokios
+mission.type.assassinate,Nužudyti
+mission.type.hit_obj,Numušti objektus
+mission.type.make_sure_car_x_comes_last,Neleiskite kažkam laimėti
+mission.type.stay_on_track,Likite trasoje
+mission.type.locked_camera,Užrakinta kamera
+mission.type.take_dmg,Gauti žalos
+mission.type.finish_xth,Atvažiuok tam tikroje vietoje
+mission.type.be_a_ped,Būk pėstysis
+mission.type.tiny_car,Mažas automobilis
+mission.type.huge_car,Didžiulis automobilis
+mission.type.inverse_steering,Atvirkščias vairas
+mission.type.full_throttle,Gazas dugnas
+mission.type.shield,Jėgos laukas
+mission.type.distribute_spam,Platinti šlamštą
+mission.type.weaponize,Ginkluotas automobilis
+mission.type.your_car_stolen,Jūsų automobilis buvo pavogtas

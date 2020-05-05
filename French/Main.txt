@@ -2424,3 +2424,30 @@ msg.achieved_on,Terminée le {0}
 # {0:0.0}% will become 15.3%
 msg.achieved_by,Terminée par {0:0.0}%
 msg.hidden_achievement,Succès caché
+
+# New translations since v1.5.0
+term.none,Aucun
+btn.extra,Supplémentaire
+race.modifiers,Modificateurs de course
+race.select_challenge,Sélectionnez Challenge
+race.challenges,Défis
+race.challenge_target,Objectif du défi
+race.challenge_target.players,Joueurs uniquement
+race.challenge_target.everyone,Toutes les personnes
+mission.type.none,Aucun
+mission.type.assassinate,Assassiner
+mission.type.hit_obj,Hit Objects
+mission.type.make_sure_car_x_comes_last,Empêcher quelqu&#39;un de gagner
+mission.type.stay_on_track,Rester sur la bonne voie
+mission.type.locked_camera,Caméra verrouillée
+mission.type.take_dmg,Prendre des dégâts
+mission.type.finish_xth,Terminer dans la plage de position
+mission.type.be_a_ped,Soyez un piéton
+mission.type.tiny_car,Petite voiture
+mission.type.huge_car,Énorme voiture
+mission.type.inverse_steering,Direction inversée
+mission.type.full_throttle,Plein gaz
+mission.type.shield,Champ de force
+mission.type.distribute_spam,Distribuer le spam
+mission.type.weaponize,Voiture armée
+mission.type.your_car_stolen,Votre voiture a été volée

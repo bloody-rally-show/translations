@@ -2424,3 +2424,30 @@ msg.achieved_on,完成于 {0}
 # {0:0.0}% 会成为 15.3%
 msg.achieved_by,达成者 {0:0.0}%
 msg.hidden_achievement,隐藏的成就
+
+# New translations since v1.5.0
+term.none,没有
+btn.extra,额外
+race.modifiers,种族修饰符
+race.select_challenge,选择挑战
+race.challenges,挑战性
+race.challenge_target,挑战目标
+race.challenge_target.players,仅限玩家
+race.challenge_target.everyone,大家
+mission.type.none,没有
+mission.type.assassinate,暗杀
+mission.type.hit_obj,命中对象
+mission.type.make_sure_car_x_comes_last,阻止某人获胜
+mission.type.stay_on_track,保持进度
+mission.type.locked_camera,锁定相机
+mission.type.take_dmg,受到伤害
+mission.type.finish_xth,在位置范围内完成
+mission.type.be_a_ped,成为行人
+mission.type.tiny_car,小车
+mission.type.huge_car,巨大的车
+mission.type.inverse_steering,反向转向
+mission.type.full_throttle,全油门
+mission.type.shield,力场
+mission.type.distribute_spam,散布垃圾邮件
+mission.type.weaponize,武器车
+mission.type.your_car_stolen,您的汽车被盗
