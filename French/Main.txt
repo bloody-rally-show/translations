@@ -1,4 +1,4 @@
-######################################
+﻿######################################
 # Bloody Rally Show translations file 
 # Locale: French
 # Author: Twolinks
@@ -1630,9 +1630,9 @@ cut.prank.player.react.2,Qu'est-ce qu'il y a de si drôle, {0}?
 # {0} will be a government agent name
 cut.prank.player.react.3,J'ai le sentiment que ça ne va pas être si drôle pour moi, j'ai pas raison, {0}?
 # {0} will be a government agent name
-cut.prank.player.react.4,Ok, maintenant raconte moi la blague s'il te plait, {0}.
+cut.prank.player.react.4,Ok, maintenant racontes-moi la blague s'il te plait, {0}.
 cut.prank.player.react.5,La dernière fois que j'ai entendu ce rire, ce n'était pas drôle du tout pour moi.
-cut.prank.player.react.6,Pourquoi ai-je un mauvais pressentiment à ce sujet?
+cut.prank.player.react.6,Pourquoi ai-je un mauvais présentiment à ce sujet?
 
 # {0} - curse adverb (friggin)
 cut.prank.player.react2.1,T'es en train de te moquer de moi.
@@ -1647,7 +1647,7 @@ cut.prank.player.react2.6,{0}!
 # {0} and {1} - curse word (crap)
 cut.prank.player.react2.7,{0}...
 cut.prank.player.react2.8,{0}, {1}.
-cut.prank.player.react2.9,Amène toi!
+cut.prank.player.react2.9,Amènes-toi!
 # {0} - car model
 cut.prank.player.react2.10,Et je viens de repeindre ma {0}...
 # When player has no car, he will say "And I just repainted my sneakers"
@@ -1660,7 +1660,7 @@ cut.prank.tiny_car.2,Quelqu'un au labo a testé un rayon rétractable sur ta bag
 cut.prank.tiny_car.3,T'as déjà vu ce vieux film "les fourmis"? Bon hé bien, tu va le vivre de l'intérieur! *en désignant la voiture miniature*
 cut.prank.tiny_car.4,Je sais que ça n'a aucun sens, mais il y a eu un accident dans le garage. Notre laser a tiré dans la mauvaise direction et ta bagnole a été touchée.<br>Bon mais du coup, va falloir qu'on te réduise aussi. Du calme, ça fait pas mal! *fait signe à la sécurité pour vous attraper*
 
-cut.prank.tiny_car.descr,Terminez une course avec un auto miniature
+cut.prank.tiny_car.descr,Terminez une course avec une auto miniature
 cut.prank.tiny_car.tip,Vous pouvez passer à travers des espaces plus petits que vous le feriez normalement
 
 # {0} - curse word (crap)
@@ -1668,7 +1668,7 @@ cut.prank.huge_car.1,Tu ne croiras jamais ce qui s'est passé! Ta bagnole {0}! A
 # {0} - random laughter from above
 cut.prank.huge_car.2,Quelqu'un au labo a testé le rayon d'ajustement de la densité de la matière sur ta bagnole.<br>Mais ne t'inquiète pas, tu peux toujours la conduire avec une télécommande! Tiens d'ailleurs, la voilà. *en vous tendant un gamepad*
 cut.prank.huge_car.3,T'as déjà vu ces vieux films avec Godzilla?<br>Ah certainement que tu les as vu, t'es de cette époque...<br>Enfin, tout ça pour dire que ta bagnole a été grossie avec notre laser expérimental.<br>alors, t'as le choix, soit tu glisses des dictionnaires sous ton cul pour atteindre le volant, soit tu passes au laser aussi.<br>Le laser? Ok comme tu veux!
-cut.prank.huge_car.4,Je sais que ça n'a aucun sens, mais il y a eu un accident dans le garage.<br>Le rayon d'ajustement de la densité de la matière a tiré dans la mauvaise direction et ta bagnole a été touchée. Une chance que tu n'étais pas dedans!<br>Bon maintenant, qu'est ce qu'on va faire de toi? *en regardant malicieusement le laser"
+cut.prank.huge_car.4,Je sais que ça n'a aucun sens, mais il y a eu un accident dans le garage.<br>Le rayon d'ajustement de la densité de la matière a tiré dans la mauvaise direction et ta bagnole a été touchée. Une chance que tu n'étais pas dedans!<br>Bon maintenant, qu'est-ce qu'on va faire de toi? *en regardant malicieusement le laser"
 
 cut.prank.huge_car.descr,Terminez une course avec une auto agrandi
 cut.prank.huge_car.tip,Une plus grande taille signifie plus de dommages aux autres voitures!
@@ -1676,7 +1676,7 @@ cut.prank.huge_car.tip,Une plus grande taille signifie plus de dommages aux autr
 # {0} - crap, {1} - some item (bacon burger)
 cut.prank.full_throttle.1,Tu ne vas jamais croire ce qu'il s'est passé! Ta voiture, {0}! Ils ont mis un {1} dans l'admission d'air!<br>J'vais bien me marrer à te voir conduire cette fusée!
 # {0} - crap, {1} - some item (bacon burger)
-cut.prank.full_throttle.2,{0}! Ces ordures t'on encore fait une méchante blague!<br>Cette fois ils ont mis un {1} dans l'admission d'air. L'histoire du lièvre et de la tortue, tu connais? Mouahaha!
+cut.prank.full_throttle.2,{0}! Ces ordures t'ont encore fait une méchante blague!<br>Cette fois ils ont mis un {1} dans l'admission d'air. L'histoire du lièvre et de la tortue, tu connais? Mouahaha!
 # {0} - clowns, {1} - bacon burger
 cut.prank.full_throttle.3,Oh non! Encore une vilaine farce! Quelle bande de {0}!<br>Quelqu'un a mis un {1} dans l'admission d'air de ta bagnole...<br>Franchement, cette fois, je ne sais pas comment tu vas t'en sortir... Aller, courage!
 # {0} - clowns, {1} - bacon burger
@@ -1688,7 +1688,7 @@ cut.prank.full_throttle.tip,Maitrisez votre vitesse avec des virages forts et é
 
 # {0} - crap
 cut.prank.inv_steer.1,Bon, j'ai une mauvaise nouvelle... Notre stagiaire mécano s'est occupé de ta bagnole. Bah oui, on manque de personnel, {0}!<br>Il semblerait que ta direction ait quelques soucis. Oh ça va hein, c'est juste un mauvais moment à passer.<br>Aller file en piste! *soupir*
-cut.prank.inv_steer.2,Vite, a course va commencer! Pas le temps de t'expliquer en détail!<br>Dès que tu arrives, tu testes ta direction. C'est le stagiaire qui s'est occupé de ta voiture, alors je serais toi, je ferais gaffe! *se retient de rire*
+cut.prank.inv_steer.2,Vite, la course va commencer! Pas le temps de t'expliquer en détail!<br>Dès que tu arrives, tu testes ta direction. C'est le stagiaire qui s'est occupé de ta voiture, alors je serais toi, je ferais gaffe! *se retient de rire*
 
 cut.prank.inv_steer.descr,Terminez la course avec la direction inversée
 cut.prank.inv_steer.tip,Les plus futés trouveront rapidement comment remédier à ce problème :-)
@@ -1725,11 +1725,11 @@ cut.dmg.gov.intro.2,Je vois que tu as une nouvelle peinture toute clinquante. Jo
 # {0} - player name or title
 cut.dmg.gov.intro.3,Tu sais, je ne t'ai jamais vraiment apprécié, {0}... Et c'est pourquoi j'ai pensé à ce nouveau défi tout droit sorti des méandres les plus fourbes de ma mémoire!<br>C'est du "moi" tout craché! Je m'adore... *rire sadique*
 
-cut.dmg.stay_alive.1,Et essai de rester en vie
+cut.dmg.stay_alive.1,Et essaye de rester en vie
 # {0} - clown
-cut.dmg.stay_alive.2,Ett essai de ne pas te faire tuer, {0}
+cut.dmg.stay_alive.2,Et essaye de ne pas te faire tuer, {0}
 
-cut.dmg.tip,Heurtez des objets, obstacles et surtout barils explosif, et la meilleure façon de subir des dégâts importants.
+cut.dmg.tip,Heurtez des objets, obstacles et surtout barils explosifs, et la meilleure façon de subir des dégâts importants.
 
 cut.dmg.descr,Subir {0} dégâts
 cut.dmg.progress,Dégâts subit
@@ -1740,12 +1740,12 @@ cut.dmg.progress,Dégâts subit
 cut.on_track.racer.intro.1,J'ai fait un pari avec {0}. Il a dit que tu ne pourras pas finir la course sans jamais sortir du circuit.<br>J'vais perdre une belle somme si tu foires ce coup. Alors sois sympa et conduis prudemment.
 
 # {0} - some racer name
-cut.on_track.gov.intro.1,J'ai encore fait un pari avec {0}. Il parait que tu n'es pas fichu de rester sur la piste pendant toute une course, et je dois dire qu'il n'a pas complétement tord.<br>Mais bon, j'aime vivre dangereusement, et je sens que c'est mon jour de chance. J'ai parié une petite somme sur toi, alors ne me laisse pas tombé!
+cut.on_track.gov.intro.1,J'ai encore fait un pari avec {0}. Il parait que tu n'es pas fichu de rester sur la piste pendant toute une course, et je dois dire qu'il n'a pas complétement tort.<br>Mais bon, j'aime vivre dangereusement, et je sens que c'est mon jour de chance. J'ai parié une petite somme sur toi, alors ne me laisse pas tombé!
 # {0} - Clowns
 cut.on_track.gov.intro.2,Nos jardiniers travaillent sans relâche pour entretenir les circuits et planter des fleurs. Et toi {0}, tu n'a de cesse de ruiner tout ce beau travail!<br>Reste sur la PISTE, cette fois. C'est pas compliqué!
 
 cut.on_track.descr,Si vous quittez la piste, assurez-vous que ce ne soit pas plus de {0} secondes à chaque fois.
-cut.on_track.tip,Prenez les virages plus lentement, et les choses devraient bien se passer.
+cut.on_track.tip,Prenez les virages plus lentement et les choses devraient bien se passer.
 
 ### Be a pedestrian 
 
@@ -1754,17 +1754,17 @@ cut.ped.req.1,Oh, et pendant que tu te promènes tranquillement pendant la cours
 cut.ped.req.2,Oh, et pendant que tu joues au piéton touriste, fais-moi {0} photos en gros plan des voitures.
 
 # {0} - clown, {1} - vegan olive oil, {2} - fool
-cut.ped.racer.intro.1,Devine quoi {0}. Je sais enfin qui a prit mon toit ouvrant pour une poubelle, et il est temps de payer!<br>J'ai remplis ton réservoir avec de {1}. Je sais, c'est vilain tout plein. *rire mesquin*<br>Bah, pleure pas, tu prendre une belle photo de moi, {2}! *rire sadique, cette fois*
+cut.ped.racer.intro.1,Devine quoi {0}. Je sais enfin qui a pris mon toit ouvrant pour une poubelle, et il est temps de payer!<br>J'ai remplis ton réservoir avec de {1}. Je sais, c'est vilain tout plein. *rire mesquin*<br>Bah, pleure pas, tu prendras une belle photo de moi, {2}! *rire sadique, cette fois*
 
 # {0} - vegan olive oil
 cut.ped.gov.intro.1,Hum, écoute, ne te fâche pas contre moi, je n'y suis pour rien.<br>Nous étions en train de tourner un film pour adulte et ta voiture avait juste assez de place pour 5 personnes dont le cameraman.<br>Le souci c'est que ces idiots ont renversé de {0} partout. Mais ne t'inquiète pas, ils vont tous nettoyer!
 cut.ped.gov.intro.2,Alors, tu pensais pouvoir te mesurer aux Grands, c'est ça? Pour cette course tu vas jouer les touristes avec les autres piétons. Un bon bain de foule te fera du bien.<br>En fait, on prend aussi ta voiture. Penses-y la prochaine fois!
 # {0} - clown
-cut.ped.gov.intro.3,Tu pensais t'en tirer avec une cabriole, {0}? On garde ta bagnole pour quelques courses.<br>Promène-toi bien et respire le grand air! Recommence, et tu le regrettera!
+cut.ped.gov.intro.3,Tu pensais t'en tirer avec une cabriole, {0}? On garde ta bagnole pour quelques courses.<br>Promène-toi bien et respire le grand air! Recommence, et tu le regretteras!
 # {0} - clown
-cut.ped.stay_alive.1,Et essai de rester en vie, {0}
+cut.ped.stay_alive.1,Et essaye de rester en vie, {0}
 # {0} - clown
-cut.ped.stay_alive.2,Et essai de ne pas te faire tuer, {0}
+cut.ped.stay_alive.2,Et essaye de ne pas te faire tuer, {0}
 
 cut.ped.descr,Participez à la course comme piéton
 cut.ped.tip,Evitez de rester trop très de la piste...
@@ -1780,10 +1780,10 @@ cut.ped.progress2,{0} photo(s) prise(s)
 
 cut.stolen.racer.intro.1,Ecoute mec, j'ai une mauvaise nouvelle pour toi. Un clown a volé ta bagnole. Oui, oui, un clown. Je l'ai vu comme je te vois! Il a sauté dedans, et s'est tiré! J'espère que t'as une assurance...<br>Du coup, tu vas devoir jouer les touristes en bord de piste pour cette course, c'est idiot. Tu prendras une photo de moi quand je passerai?
 
-cut.stolen.gov.intro.1,T'as déjà joué à ce vieux jeu centenaire appelé Grand Theft Auto? Bah, il semblerait que quelqu'un vienne de te piqué ta caisse. Fallait pas la laisser ouverte!<br>Bon la course va commencer. Va m'acheter un hot dog s'il te plait. Mon vendeur préféré est dans le 3ème virage après les stands.
+cut.stolen.gov.intro.1,T'as déjà joué à ce vieux jeu centenaire appelé Grand Theft Auto? Bah, il semblerait que quelqu'un vienne de te piquer ta caisse. Fallait pas la laisser ouverte!<br>Bon la course va commencer. Va m'acheter un hot dog s'il te plait. Mon vendeur préféré est dans le 3ème virage après les stands.
 
-cut.stolen.stay_alive.1,Et essai de rester en vie
-cut.stolen.stay_alive.2,Et essai de ne pas te faire tuer
+cut.stolen.stay_alive.1,Et essaye de rester en vie
+cut.stolen.stay_alive.2,Et essaye de ne pas te faire tuer
 
 cut.stolen.descr,Votre auto a été volée
 cut.stolen.tip,Vous devriez commencer à économiser pour acheter une nouvelle auto.
@@ -1797,7 +1797,7 @@ cut.cam.req.3,Quoiqu'il arrive, {0}.
 cut.cam.req.4,Si tu as assez de tripes, {0}.
 cut.cam.req.5,Tiens, voilà un sac de vomis, mais {0}.
 cut.cam.req.6,Ouvre la fenêtre si tu veux vomir, mais {0}.
-cut.cam.req.end,ne change pas les options camera!
+cut.cam.req.end,ne change pas les options caméra!
 
 cut.cam.racer.intro.1,Voilà un nouveau défi amusant pour toi. J'ai reconfiguré le mode de vision du drone d'une manière que tu ne risque pas d'apprécier. *rire électrique*
 # {0} - clown
@@ -1806,10 +1806,10 @@ cut.cam.racer.intro.2,Je n'arrivais pas à dormir la nuit dernière, alors j'ai 
 cut.cam.racer.intro.3,Je voudrais te proposer un défi contre moi. J'ai modifié le mode de vision du drone. Le dernier qui vomit a gagné, ok? Quoi, tu te dégonfles, {0}? *rire moqueur*
 
 # {0} - clown
-cut.cam.gov.intro.1,Prepare-toi pour la course, et assure un bon spectacle cette fois, {0}. Nous allons tester de nouveaux modes camera pour cette course. Nos télespectateurs veulent plus "d'immersion". Hmmmm,... J'adore mon job! *rire grossier*
+cut.cam.gov.intro.1,Prépare-toi pour la course, et assure un bon spectacle cette fois, {0}. Nous allons tester de nouveaux modes caméra pour cette course. Nos téléspectateurs veulent plus "d'immersion". Hmmmm,... J'adore mon job! *rire grossier*
 # {0} - friggin (adverb), {1} - clowns
-cut.cam.gov.intro.2,Quels {1} ces cameramans. Je n'en peux plus de tous ces changements d'angle de camera. Moi ça me donne la gerbe. Mais bon, que faire après tout, l'audience aime profiter de tous les angles possibles.<br>...Et après c'est moi qui passe pour un sadique assoiffé de sang? Quelle blague! 
-cut.cam.gov.intro.3,Mesdames et messieurs, préparez vos sacs à vomis. Les cameras sont hors-service, et nos techniciens ne contrôlent plus rien.<br>Nous vous déconseillons fortement de modifier les angles de vue en "live", ceci risquerait de fortement nuire à votre expérience, et remplir vos sacs plus tôt que prévu.<br>Cordiallement, l'Administration.
+cut.cam.gov.intro.2,Quels {1} ces cameramans. Je n'en peux plus de tous ces changements d'angle de caméra. Moi ça me donne la gerbe. Mais bon, que faire après tout, l'audience aime profiter de tous les angles possibles.<br>...Et après c'est moi qui passe pour un sadique assoiffé de sang? Quelle blague! 
+cut.cam.gov.intro.3,Mesdames et messieurs, préparez vos sacs à vomi. Les caméras sont hors-service, et nos techniciens ne contrôlent plus rien.<br>Nous vous déconseillons fortement de modifier les angles de vue en "live", ceci risquerait de fortement nuire à votre expérience, et remplir vos sacs plus tôt que prévu.<br>Cordialement, l'Administration.
 
 cut.cam.descr,Terminez la course sans modifier la vue caméra
 cut.cam.tip,Si la pénalité semble plus supportable que le mode de vu imposé, vous pouvez la modifier. Cependant, soyez certain que cela ne vous pénalise pas trop après la course. 
@@ -1826,7 +1826,7 @@ cut.spam.racer.intro.1,Psssst... J'ai une petite faveur à te demander.<br>Nous 
 # {0} - vegan olive oil
 cut.spam.gov.intro.1,Nous avons une nouvelle campagne publicitaire pour vanter les mérites pour la santé de {0}! Ta voiture est équipée avec un lance-flyers sur le toit, fais-en bon usage!<br>Ne nous remercie pas, nous savons que c'est une joie de travailler pour nous! *rire* 
 # {0} - bacon burgers
-cut.spam.gov.intro.2,Nous avons falsifié les résultats concernant les biens faits de {0}. Il est temps de renouveler la campagne publicitaire et passer le message.<br>Le nouveau slogan est dans le distributeur de flyers accroché sur le toit de ta bagnole. Je veux que chaque piéton autour du circuit en ai un entre les mains à la fin de la course.<br>Tu vois, travailler pour nous, c'est chaque jour une nouvelle aventure. De quoi te plains-tu ? *rire moqueur*
+cut.spam.gov.intro.2,Nous avons falsifié les résultats concernant les bienfaits de {0}. Il est temps de renouveler la campagne publicitaire et passer le message.<br>Le nouveau slogan est dans le distributeur de flyers accroché sur le toit de ta bagnole. Je veux que chaque piéton autour du circuit en ai un entre les mains à la fin de la course.<br>Tu vois, travailler pour nous, c'est chaque jour une nouvelle aventure. De quoi te plains-tu ? *rire moqueur*
 
 # Do not modify {Action.Fire}
 cut.spam.tip,Appuyez sans cesse sur {Action.Fire} pour distribuer les flyers
@@ -1838,9 +1838,9 @@ cut.spam.prog,Lots de flyers distribué(s)
 
 cut.weaponize.req,Nous avons donné une arme à tout le monde, et là, ça va être de la FOLIE! ON ADORE!
 
-cut.weaponize.gov.intro.1,Les téléspectateurs de Bloody Rally Show semblent s'ennuyer ces derniers temps. C'est tout de même un comble compte tenu de tout le sang ver**... De tous nos efforts.<br>Mais bon, nous allons tout ajouter du piment à la sauce. *soupir hypocrite*
+cut.weaponize.gov.intro.1,Les téléspectateurs de Bloody Rally Show semblent s'ennuyer ces derniers temps. C'est tout de même un comble compte tenu de tout le sang ver**... De tous nos efforts.<br>Mais bon, nous allons tous ajouter du piment à la sauce. *soupir hypocrite*
 # {0} - clowns
-cut.weaponize.gov.intro.2,Je vois que la plupart d'entre vous, {0}, ont de nouvelles peintures de carrosserie. C'est merveilleux! Je pari que vous vous faites la manucure aussi?<br>Espérons que vos bagnoles restent aussi propres et clinquantes après la prochaine course! *Rire sadique* 
+cut.weaponize.gov.intro.2,Je vois que la plupart d'entre vous, {0}, ont de nouvelles peintures de carrosserie. C'est merveilleux! Je parie que vous vous faites la manucure aussi?<br>Espérons que vos bagnoles restent aussi propres et clinquantes après la prochaine course! *Rire sadique* 
 
 cut.weaponize.descr,Terminez la course avec une auto armée
 cut.weaponize.tip,Soyez reconnaissant de ne pas être un piéton à cet instant
@@ -1859,7 +1859,7 @@ cut.freedom.shoes,vie
 ### Campaign Season Finished
 
 # {0} - player name
-cut.season.alive1.1,{0}, comment diable as-tu réussis a te tirer des griffes de SOFACT? A cause de toi maintenant, nous devons terminer la saison plus tôt!
+cut.season.alive1.1,{0}, comment diable as-tu réussis à te tirer des griffes de SOFACT? A cause de toi maintenant, nous devons terminer la saison plus tôt!
 # {0} - clowns
 cut.season.alive1.2,Qu'est-ce que je peux dire à part que c'est une belle bande de {0}.
 cut.season.alive1.3,Je dois admettre que je t'ai toujours apprécié. Nous avons besoin de personne comme toi chez SOFACT. Lorsque tu auras terminé ta carrière, je pourrais même t'offrir un job chez nous.
@@ -1876,7 +1876,7 @@ cut.season.cheer.7,Hourrah! Chérie, je rentre à la maison! *espère ne pas y t
 cut.season.cheer.8,YEEEEAH! Je vais pouvoir reprendre mes cours d'anglais!
 cut.season.cheer.9,Youpie! Tralalala, trop trop sympa! Je suis une chipolata! *a subit un choc cérébral*
 # {0} clowns {1} - fools
-cut.season.2,Maison... MAISON!?! Bande de {0}, qui donne les ordres!? J'veux voir tous vous voir dès demain sur la ligne de départ! Voitures polies, moteurs réglés et près à commencer la nouvelle saison!<br>Maison... Quelle bande de {1}... Aahahaa.
+cut.season.2,Maison... MAISON!?! Bande de {0}, qui donne les ordres!? J'veux tous vous voir dès demain sur la ligne de départ! Voitures polies, moteurs réglés et prêts à commencer la nouvelle saison!<br>Maison... Quelle bande de {1}... Aahahaa.
 
 ### Campaign Fail 
 
@@ -1896,10 +1896,10 @@ cut.fail.cry.5,Tu nous manqueras! (comment ça tu nous crois pas?)
 cut.fail.cry.6,Quelle honte, mais quelle honte. (ça va, n'en rajoutez pas!)
 cut.fail.cry.7,Je ne peux pas le croire... (Et pourtant il va falloir vous y faire)
 
-cut.fail.1,La saison est terminée les gars! Et nous avons une "célébrité", qui n'a même pas été capable de se hisser dans le TOP 3. Aaaaaloooors... Nous allons le recongeler! Aller, {0}, suis-nou. Retour au cryo-sommeil! 
+cut.fail.1,La saison est terminée les gars! Et nous avons une "célébrité", qui n'a même pas été capable de se hisser dans le TOP 3. Aaaaaloooors... Nous allons le recongeler! Aller, {0}, suis-nous. Retour au cryo-sommeil! 
 cut.fail.2,C'est ma faute, c'est vrai, j'suis vraiment désolé...
 # {0} - racer name, {1} - clowns, {2} - bacon burger {3} - vegan olive oil
-cut.fail.3,Oh la, assez de drame! {0}, la sécurité va t'escoter à ton caisson. L'air frais te fera le plus grand bien! *hausse les épaules*<br> Vous autres, bande de {1}! Pointez-vous ici, avant que je ne fourre de {2} dans vos casques, et verse de {3} sur vos visières!
+cut.fail.3,Oh la, assez de drame! {0}, la sécurité va t'escorter à ton caisson. L'air frais te fera le plus grand bien! *hausse les épaules*<br> Vous autres, bande de {1}! Pointez-vous ici, avant que je ne fourre de {2} dans vos casques, et verse de {3} sur vos visières!
 
 #######################################
 ### Dialogs and in-game messages
@@ -1914,7 +1914,7 @@ dial.camp.not_enough_cash,Vous n'avez pas assez d'argent!
 # {0} - clowns
 dial.camp.lucky1.1,Hé {0}, Je me sens généreux aujourd'hui!
 # {0} - clowns
-dial.camp.lucky1.2,Je vois que certains d'entre vous êtes aussi fauchés que ces {0} qui risquent leurs vies en prennant des photos toujours plus près...
+dial.camp.lucky1.2,Je vois que certains d'entre vous sont aussi fauchés que ces {0} qui risquent leurs vies en prennant des photos toujours plus près...
 # {0} - clowns
 dial.camp.lucky1.3,Hé toi, {0}, reste en ligne! Eenie meenie miney mo...
 # {0} - friggin (adjective)
@@ -1922,33 +1922,33 @@ dial.camp.lucky1.4,Quelle belle journée!<br>Je dois remercier l'un d'entre vous
 # {0} - clowns
 dial.camp.lucky1.5,Bon sang, mes poches sont pleines de frics, et je sais même pas où le ranger...<br>Bah, je pourrais bien t'en donner un peu, genre {0}...
 # {0} - beef bacon burger, {1} - clowns
-dial.camp.lucky1.6,Vous savez, je dirigie une affaire de {0}...<br>Et l'un d'entre vous a dégommé le PDG de mon cocurrent principal lors de la dernière course! Et ça, bah c'est vraiment bien. Très bien même! Continuez comme ça! *rire joyeux, mais non moins sadique*
+dial.camp.lucky1.6,Vous savez, je dirigie une affaire de {0}...<br>Et l'un d'entre vous a dégommé le PDG de mon concurrent principal lors de la dernière course! Et ça, bah c'est vraiment bien. Très bien même! Continuez comme ça! *rire joyeux, mais non moins sadique*
 # {0} - clowns, {1} - vegan olive oil
 dial.camp.lucky1.7,Je vous ai joué un petit tour, bande de {0}. Vous piloterez avec les excellentes odeurs de {1}. Ahaha, j'suis hilarant, je sais! Quelqu'un oserait-il dire le contraire? *observe en silence le moindre signe de rebellions*
 
 # in this block {0} is always racer name ${1} is cash amount
 dial.camp.lucky2.1,L'heureux gagnant est... {0}! Félicitations, vous remportez {1}$!
-dial.camp.lucky2.2,{0}, vient par là! Je vais te donner {1}$...<br>Mais ne pense pas que c'est gratuit... Tu rembourseras lors d'une prochaine course.
+dial.camp.lucky2.2,{0}, viens par là! Je vais te donner {1}$...<br>Mais ne pense pas que c'est gratuit... Tu rembourseras lors d'une prochaine course.
 dial.camp.lucky2.3,{0}! tiens, prend ces {1}$! Va t'acheter quelques améliorations utiles,... tu te traines un peu... *rit*
-dial.camp.lucky2.4,{0}! Mes affaires se portent bien, alors voici {1}$ pour toi!<br>Et fait moi plaisir, tu déchires tout à la prochaine course!
+dial.camp.lucky2.4,{0}! Mes affaires se portent bien, alors voici {1}$ pour toi!<br>Et fais moi plaisir, tu déchires tout à la prochaine course!
 dial.camp.lucky2.5,{0}, je dois te livrer ces {1}$. Merci pour les services rendus... *s'en va aussitôt sans donner plus de détails*
 dial.camp.lucky2.6,Je décide que se sera {0} qui gagnera ces glorieux {1}$, en cash et tout de suite!<br>Hé, dépense pas tout au même endroit! Hein, petit coquin! *rire fort et désagréable pour les oreilles*
 dial.camp.lucky2.7,{0}... On m'a donné ce petit paquet de {1}$ à te remettre. Quelqu'un te demandera une petite faveur bientôt. Rien de terrible,... bien entendu. *s'en va sans donner de détails*
 
 # {0} - name, ${1} - cash amount
-dial.camp.resurrected,Le pilote {0} a été ramenné à la vie par les médecins de terrain pour {1}$
+dial.camp.resurrected,Le pilote {0} a été ramené à la vie par les médecins de terrain pour {1}$
 dial.camp.resurrect_no_cash,Le pilote {0} n'avait pas assez de fonds pour couvrir les frais médicaux. *Paix à son âme*
 # {0} - clowns
-dial.camp.all_broke,Bande de {0}, Comment vous êtes-vous arranger pour faire faillite!?!<br>Vous tenez encore debout, alors le SHOW continue! SOFACT vous a versé 20'000$.<br>Allez acheter ce qu'il vous faut, et EN PISTE!
+dial.camp.all_broke,Bande de {0}, Comment vous êtes-vous arrangé pour faire faillite!?!<br>Vous tenez encore debout, alors le SHOW continue! SOFACT vous a versé 20'000$.<br>Allez acheter ce qu'il vous faut, et EN PISTE!
 # {0} - name, {1} - clown
-dial.camp.early_win,Wow, {0},tu as éliminés tout le monde! Nous allons devoir écourter la saison. Félicitations, t'as assuré, {1}! *applaudit vigoureusement*
-dial.camp.on_camp_fail,Je suis désolé de devoir te l'annoncé, mais tu dois te hisser dans le TOP 3 pour continuer la campagne.<br>Et comme tu ne disposes pas de {0}$ pour repayer ta dette, la partie est finie pour toi, mon pote!<br>*On dit aussi GAME OVER, en générale, mais là, vous êtes sur la traduction française* :-)
+dial.camp.early_win,Wow, {0},tu as éliminé tout le monde! Nous allons devoir écourter la saison. Félicitations, t'as assuré, {1}! *applaudit vigoureusement*
+dial.camp.on_camp_fail,Je suis désolé de devoir te l'annoncer, mais tu dois te hisser dans le TOP 3 pour continuer la campagne.<br>Et comme tu ne disposes pas de {0}$ pour repayer ta dette, la partie est finie pour toi, mon pote!<br>*On dit aussi GAME OVER, en général, mais là, vous êtes sur la traduction française* :-)
 dial.camp.congrats_free_man,Félicitations! Vous êtes maintenant un homme libre!
 dial.camp.freedom_not_enough_cash,Désolé, vous ne disposez pas d'assez d'argent! Participez à la prochaine saison pour en gagner plus!
 dial.camp.exit_confirm,Etes-vous certain de vouloir quitter cette campagne? (la progression sera sauvée)
-dial.camp.card.no_regen,Vous ne pouvez pas regénéré une étapes qui a été déjà terminée.
+dial.camp.card.no_regen,Vous ne pouvez pas regénérer une étape qui a été déjà terminée.
 # {0} - some track name. keep the quotes 
-dial.camp.card.saved_already,Le circuit "{0}" existe déjà dans votre collection. Voulez-vous le remplacé?
+dial.camp.card.saved_already,Le circuit "{0}" existe déjà dans votre collection. Voulez-vous le remplacer?
 dial.camp.card.saved,Le circuit "{0}" a été ajouté à votre collection!
 dial.camp.card.no_walk_completed,Vous ne pouvez pas être piéton sur un(e) circuit(étape) terminé(e)!
 dial.camp.card.no_walk_special,Vous ne pouvez pas être piéton sur une étape spéciale!
@@ -1968,7 +1968,7 @@ dial.upgrade.no_cash,Vous ne pouvez pas acheter cette amélioration!
 dial.camp.load_finished,Etes-vous sûr de vouloir continuer cette campagne? Elle est déjà terminée!
 dial.camp.delete_confirm,Etes-vous sûr de vouloir effacer cette campagne?
 dial.camp.name_required,Vous devez saisir le nom de la campagne!
-dial.camp.name_taken,Le nom de camgagne existe déjà!
+dial.camp.name_taken,Le nom de campagne existe déjà!
 
 dial.camp.gratitudes.1,Merci! 
 dial.camp.gratitudes.2,Whoa! t'es le meilleur!
@@ -1985,7 +1985,7 @@ dial.camp.gratitudes.11,Super!
 dial.camp.no_cash.1,Mec, tes poches sont vides!
 dial.camp.no_cash.2,Bel essai, mais tu ne peux pas l'acheter!
 dial.camp.no_cash.3,Tu te moques de moi? Ton portefeuille est vide!
-dial.camp.no_cash.4,Blah. T'es a cours de pognons!
+dial.camp.no_cash.4,Blah. T'es à court de pognons!
 dial.camp.no_cash.5,Tu n'as pas assez d'argent...
 dial.camp.no_cash.6,J'veux pas te ruiner, désolé...
 dial.camp.no_cash.7,Tu n'as pas assez!
@@ -1999,7 +1999,7 @@ dial.ed.no_cars,Vous n'avez pas encore de voiture! Créez-en une nouvelle et sau
 dial.ed.name_the_car,Nommez la nouvelle auto
 dial.ed.car_name,Nom de l'auto
 
-dial.ed.car_sprites_missing,Certains sprites requis sont manquants. SVP, veuillez vous référer au guide de modding d'auto afin de recréée ces fichiers: {0}.
+dial.ed.car_sprites_missing,Certains sprites requis sont manquants. SVP, veuillez vous référer au guide de modding d'auto afin de recréer ces fichiers: {0}.
 dial.ed.car_sprites_deleted,Vous ne pouvez pas simplement supprimer des fichiers sprite de voiture! Les fichiers requis manquants ont été remplacés par un pixel 1x1 transparent: {0}.
 dial.ed.remove_car_name_colon,Veuillez supprimer ":" du nom du modèle de voiture!
 dial.ed.car_name_taken,Le nom de modèle "{0}" est déjà pris!
@@ -2024,7 +2024,7 @@ dial.ed.path_start_open,Impossible de déplacer la position de départ pour une 
 dial.factory_reset.confirm,Voulez-vous vraiment réinitialiser?
 
 dial.leaderboard.ghost_confirm,Souhaitez-vous courir contre le fantôme de {0}?
-dial.leaderboard.ghost_confirm_daily_stale,Ce n'est pas le classement d'aujourd'hui, le classement des défis quotidien ne sera pas mis-à-jour. Le classement circuit sera mis-à-jour.
+dial.leaderboard.ghost_confirm_daily_stale,Ce n'est pas le classement d'aujourd'hui, le classement des défis quotidiens ne sera pas mis-à-jour. Le classement circuit sera mis-à-jour.
 
 dial.input_reset,La structure d'entrée du jeu a été modifiée par le développeur et vos mappages d'entrée ont été réinitialisés à leurs valeurs par défaut. Vous pouvez les modifier dans "Paramètres > input". Désolé pour le dérangement!
 dial.settings_reset,La structure de configuration du jeu a été modifiée par le développeur, vos paramètres ont été réinitialisés par défaut. Désolé pour le dérangement!
@@ -2099,24 +2099,24 @@ msg.gen.planting_flowers,Plantation de fleurs
 msg.gen.cloning_peds,Clonage de piétons
 msg.gen.cloning_more_peds,Clonage d'encore plus de piétons
 msg.gen.building_walls,Construction de murs
-msg.gen.building_more_walls,construction d'encorep lus de murs
+msg.gen.building_more_walls,construction d'encore plus de murs
 msg.gen.rocks,Placement de rochers
 msg.gen.ramps,Placement de rampes
 msg.gen.barrels,Placement de barils explosifs
 msg.gen.puddles,Flaques d'eau
 msg.gen.cones_tires,Commande de cônes et de pneus
 msg.gen.buildings,Construction de bâtiments
-msg.gen.special_locs,Construire d'emplacements secrets
+msg.gen.special_locs,Construction d'emplacements secrets
 msg.gen.road_marks,Peinture des marquages ​​routiers
 msg.gen.test_driving,Test de conduite sur circuit
 msg.gen.screenshot,Prendre des photos de drone
 msg.gen.cones_left,Alignement des cônes sur la gauche
 msg.gen.cones_right,Alignement des cônes à droite
 msg.gen.tires_left,Placer des pneus à gauche
-msg.gen.tires_right,Placer les pneus à droite
+msg.gen.tires_right,Placer des pneus à droite
 msg.gen.end.1,Placer des pièges
-msg.gen.end.2,Publicité des événement à venir
-msg.gen.end.3,Licenciement de travailleurs de la route épuisés
+msg.gen.end.2,Publicité des événements à venir
+msg.gen.end.3,Licenciement de travailleurs de la route épuisé
 msg.gen.end.4,Livraison des spectateurs
 msg.gen.end.5,Saupoudrer la poussière sur la route
 msg.gen.end.6,Rechargement des drones de visionage
@@ -2197,7 +2197,7 @@ load.screenshotting,Prend une capture d'écran
 load.gen_rand,Génération d'un circuit aléatoire
 load.track,Chargement circuit
 load.flushing_stats,Mélange de statistique
-load.flushing_stats_progress,Mélange de statistique restants ({0})
+load.flushing_stats_progress,Mélange de statistique restant ({0})
 load.exiting,Quitte
 load.insults,Chargement d'insultes aléatoires
 load.avatars,Chargement des avatars
@@ -2273,13 +2273,13 @@ tut.camp.first_race.1,- Il est temps de faire votre première course! <br> - Cli
 
 tut.camp.garage.head,Garage
 tut.camp.garage.1,- La seule voiture que vous pouvez vous permettre en ce moment est la Lionard 125 <br> - De nouvelles voitures se débloqueront à mesure que vous monterez
-tut.camp.garage.2,- Vous pouvez repeindre votre voiture gratuitement avant de l'acheter <br> - Après avoir acheté la voiture, la peinture coûte en de l'argent
+tut.camp.garage.2,- Vous pouvez repeindre votre voiture gratuitement avant de l'acheter <br> - Après avoir acheté la voiture, la peinture coûte de l'argent
 
 tut.camp.racer_setup.head,Créez votre pilote
 tut.camp.racer_setup.1,- Choisissez un avatar pour votre pilote. Vous pouvez utiliser une image personnalisée à partir d'une image sur votre ordinateur. <br> - Entrez votre nom de pilote, ou cliquez sur ALEATOIRE pour en générer un <br> - Choisissez votre ton de voix (affectera les sons de dialogue) <br> - Ensuite, cliquez sur ENREGISTRER
 
 tut.camp.season_lineup.head,Composition (formation) de la saison
-tut.camp.season_lineup.1,- Ici, vous pouvez personnaliser la programmation de la saison et configurer une campagne multijoueur en écran partagé <br> - Cliquez sur l'icône MODIFIER sur les pilotes pour modifier les noms, les avatars, les niveaux de compétence <br> - Cliquez sur l'icône X sur un pilote pour supprimer. Le nombre de pilotes est fixe, donc le pilote supprimé sera remplacé par un nouveau!
+tut.camp.season_lineup.1,- Ici, vous pouvez personnaliser la programmation de la saison et configurer une campagne multijoueurs en écran partagé <br> - Cliquez sur l'icône MODIFIER sur les pilotes pour modifier les noms, les avatars, les niveaux de compétence <br> - Cliquez sur l'icône X sur un pilote pour supprimer. Le nombre de pilotes est fixe, donc le pilote supprimé sera remplacé par un nouveau!
 
 tut.camp.stage_rewards.head,Récompenses d'étape
 tut.camp.stage_rewards.1,- Après la course, vous obtiendrez des récompenses pour vos actions <br> - Les objets de récompense colorés sont plus précieux
@@ -2289,7 +2289,7 @@ tut.camp.car_upgrades.head,Améliorations d'auto
 tut.camp.car_upgrades.1,- Vous avez déverrouillé une nouvelle amélioration de voiture <br> - Cliquez sur l'icône de pièce pour ouvrir la vue des améliorations <br> - Les pièces pouvant être mises à niveau ont des icônes de flèche vers le haut qui les survolent
 tut.camp.car_upgrades.2,- Cliquez sur le bouton de prix pour acheter la mise à niveau <br> - Plus d'améliorations seront débloquées à mesure que vous monterez de niveau
 
-tut.car_damage.head,Dégât sur voiture
+tut.car_damage.head,Dégâts sur voiture
 tut.car_damage.1,- On dirait que votre voiture a subi de graves dommages <br> - Gardez un œil sur votre barre de santé en haut à droite <br> - Vous pouvez réparer les dégâts en utilisant la clé (icone/powerup) dans les courses avec des armes ou dans Car Battle
 tut.car_damage.2,- Les voitures endommagées perdent une certaine vitesse de pointe <br> - Les voitures endommagées laissent échaper des flaques d'huile glissantes
 
@@ -2302,7 +2302,7 @@ tut.corner_cut.1,- On dirait que vous venez de couper un virage! <br> - Selon l'
 tut.custom_race_dash.head,Tableau de bord de course personnalisé
 tut.custom_race_dash.1,- Bienvenue dans le tableau de bord Course Custom. Cela peut sembler écrasant au début, alors voici de l'aide <br> - Si vous voulez jouer avec vos amis, utilisez le bouton AJOUTER UN JOUEUR <br> - Vous pouvez également ajouter des pilotes IA de cette façon
 tut.custom_race_dash.2,- Pour ajouter rapidement des adversaires IA aléatoires, utilisez les boutons "+1" et "+10" <br> - Vous pouvez affronter une tonne d'adversaires AI à la fois! <br> - Pour supprimer tous les autres pilotes, cliquez sur "0"
-tut.custom_race_dash.3,- Contrairement au mode Campagne, ici vous pouvez simplement choisir les améliorations que vous souhaitez <br> - Cliquez sur les icônes des pièces pour parcourir les niveaux d'améliorations <br> - Vous pouvez configurer des améliorations à niveau individuelles pour chaque coureur
+tut.custom_race_dash.3,- Contrairement au mode Campagne, ici vous pouvez simplement choisir les améliorations que vous souhaitez <br> - Cliquez sur les icônes des pièces pour parcourir les niveaux d'améliorations <br> - Vous pouvez configurer des améliorations à niveau individuels pour chaque coureur
 tut.custom_race_dash.4,- Il y a quelques modes de jeu parmi lesquels vous pouvez choisir <br> - "Course" est une course régulière contre d'autres voitures <br> - "Contre la montre" est pour établir les meilleurs temps au tour dans les classements mondiaux <br> - Dans "Combat d'auto" vous combattez avec des armes (à la manière d'un battle-royal), sans vous soucier de suivre un parcours.
 tut.custom_race_dash.5,- Sélectionnez un circuit dans lequel vous voulez courir <br> <br> - Vous pouvez également générer un circuit unique <br> - Téléchargez plus de circuits depuis Steam Workshop ou créez vos propres circuits dans l'éditeur de circuit
 tut.custom_race_dash.6,- Après avoir configuré votre course personnalisée, cliquez sur le bouton rouge dans le coin inférieur gauche pour commencer la course
@@ -2312,7 +2312,7 @@ tut.time_attack.1,- En mode "Contre la montre" les améliorations des autos sont
 tut.time_attack.2,- Pour afficher les classements, cliquez sur le bouton "CLASSEMENTS" dans la barre supérieure <br> - Les pilotes IA ne sont pas disponibles en mode "Contre la montre" <br> - Vous pouvez cependant avoir des sessions d'écran partagé avec des joueurs humains
 
 tut.drift.head,Le "Drift" (dérapage contrôlé)
-tut.drift.1,- Vous venez de réaliser un drift propre <br> - Le drift est l'art de glisser, déraper, en gardant le contrôle de la voiture<br> - Le drift est récompensée dans les campagnes en Nitro boost et argent<br> - Le drift ne compte PAS si vous sortez de la piste
+tut.drift.1,- Vous venez de réaliser un drift propre <br> - Le drift est l'art de glisser, déraper, en gardant le contrôle de la voiture<br> - Le drift est récompensé dans les campagnes en Nitro boost et argent<br> - Le drift ne compte PAS si vous sortez de la piste
 tut.drift.2,- Les voitures ont des propriétés de drift variables <br> - Différents types de surfaces et conditions météorologiques ont des propriétés de drift variables <br> - Le réglage de la voiture affecte le drift
 
 tut.paint.head,Peintures des autos
@@ -2327,14 +2327,14 @@ tut.oil.1,- Vous venez de traverser une flaque d'hydrocarbures <br> - L'huile re
 
 tut.ped.head,Mode piétons
 tut.ped.1,- Vous avez la malchance de participer à une course en tant que piéton <br> - Utilisez {Action.Walk} pour marcher <br> - Tournez avec {Action.Turn}
-tut.ped.2,- Lorsque vous êtes à proximité de voitures, utilisez {Action.Take Photo} pour prendre des photos <br> - Les photos sont récompensées en espèces <br> - La récompense dépend du nombre de voitures dans la prise de vue et de leur distance par rapport à vous
+tut.ped.2,- Lorsque vous êtes à proximité des voitures, utilisez {Action.Take Photo} pour prendre des photos <br> - Les photos sont récompensées en espèces <br> - La récompense dépend du nombre de voitures dans la prise de vue et de leur distance par rapport à vous
 tut.ped.3,- Soyez prudent, sinon vous risquez de vous faire renverser par une voiture <br> - Les frais médicaux sont élevés, donc si vous n'avez pas assez d'argent, c'est la fin du jeu! (Game Over! Oui oui, c'est bien ça :-))
 
 tut.nitro_refill.head,Powerup: Recharge nitro
 tut.nitro_refill.1,- Vous venez de recevoir une recharge Nitro! <br> - C'est une mise sous tension qui recharge rapidement votre barre Nitro pendant que vous conduisez <br> - Lorsque vous obtenez cette recharge, il est sage de maintenir {Action.Nitro} pour brûler le Nitro pendant qu'il continue de se remplir
 
 tut.wrench.head,Powerup: clé
-tut.wrench.1,- Vous venez de recevoir une clé! <br> - La clé est une recharge qui répare votre voiture pendant que vous conduisez <br> - Il existe trois types de clés différentes que vous pouvez obtenir
+tut.wrench.1,- Vous venez de recevoir une clé! <br> - La clé est une recharge qui répare votre voiture pendant que vous conduisez <br> - Il existe trois types de clés différents que vous pouvez obtenir
 tut.wrench.2,- La Clé en cuivre répare peu de dommages <br> - La Clé en argent répare des dommages moyens <br> - La clé en or répare de gros dégâts
 
 tut.race_end.head,Terminer la course
@@ -2360,7 +2360,7 @@ tut.race_weap.3,- Il y a plusieurs points de contrôle d'armes et bonus placés 
 tut.race_weap.4,- Un point de contrôle vert vous donne un bonus <br> - Si vous conduisez au-dessus d'une zone d'arme tout en disposant déjà d'une arme ou d'un bonus, rien ne se passera <br> - Appuyez sur {Action.DropWeapon} pour larguer votre arme ou votre bonus actuel
 
 tut.ramps.head,Rampes et sauts
-tut.ramps.1,- Vous venez de lancer votre voiture en les air! (heuu, un saut, oui :-)) <br> - Une rampe en bois non motorisée vous fait sauter
+tut.ramps.1,- Vous venez de lancer votre voiture dans les air! (heuu, un saut, oui :-)) <br> - Une rampe en bois non motorisée vous fait sauter
 tut.ramps.2,- Une rampe motorisée vous fait sauter et vous donne un coup de pouce! <br> - Les rampes ne garantissent pas un atterrissage propre <br> - Vous pouvez pousser les rampes et les faire pivoter pour créer des pièges pour vos adversaires <br> - Les sauts sont enregistrés dans les classements, mais uniquement en mode Campagne!
 
 tut.track_ed.obj_place.head,Editeur de circuit: Placer des objets
@@ -2375,12 +2375,12 @@ tut.mad_fax.1,- Vous venez de recevoir un Mad Fax <br> - Appuyez sur {Action.Fir
 tut.nailgun.head,Arme: Cloueuse
 tut.nailgun.1,- Vous venez de recevoir une cloueuse! <br> - La Cloueuse est une arme à projectile de puissance moyenne qui donne un bon coup de pied <br> - Appuyez sur {Action.Fire} pour tirer sur les adversaires devant vous <br> - Si vous n'aimez pas un arme, vous pouvez toujours la déposer avec {Action.DropWeapon}
 
-tut.ped_cannon.head,Arme: Cannon à piétons
+tut.ped_cannon.head,Arme: Canon à piétons
 tut.ped_cannon.1,- Vous venez de recevoir un canon à piétons! <br> - Il est préchargé avec un piéton qui explose <br> - Appuyez sur {Action.Fire} pour lancer le piéton sur vos adversaires
 tut.ped_cannon.2,- Conduisez sur un piéton (mort ou vivant) pour recharger le canon <br> - Ou attendez 10 secondes jusqu'à ce que la recharge clone un nouveau piéton automatiquement <br> <br> - Si vous n'aimez pas une arme, vous pouvez toujours la laisser tomber avec {Action.DropWeapon}
 
 tut.railgun.head,Arme: Railgun
-tut.railgun.1,- Vous venez de recevoir un Railgun! <br> - Le Railgun est une arme à projectile lente mais puissante <br> - Appuyez sur {Action.Fire} pour tirer sur les adversaires devant vous <br> - Si vous n'aimez pas une arme, vous peut toujours le déposer avec {Action.DropWeapon}
+tut.railgun.1,- Vous venez de recevoir un Railgun! <br> - Le Railgun est une arme à projectile lente mais puissante <br> - Appuyez sur {Action.Fire} pour tirer sur les adversaires devant vous <br> - Si vous n'aimez pas une arme, vous pouvez toujours la déposer avec {Action.DropWeapon}
 
 tut.saw.head,Arme: Scie
 tut.saw.1,- Vous venez de recevoir une scie! <br> - C'est une arme de corps-à-corps, essayez de toucher vos adversaires avec elle <br> - La scie peut aller aux deux extrémités de votre voiture <br> - Attention, le poids supplémentaire affecte la maniabilité <br> - Si vous n'aimez pas une arme, vous pouvez toujours la déposer avec {Action.DropWeapon}
@@ -2394,13 +2394,13 @@ tut.spikes.2,- Une fois libéré, Homing Hedge choisira votre adversaire le plus
 
 tut.wreck_ball.head,Arme: boulet de démolition
 tut.wreck_ball.1,- Vous venez de recevoir un boulet de démolition! <br> - Disons simplement que ce n'est pas la meilleure arme que vous pouvez obtenir <br> - Se révèle être très utile dans les combats d'autos, mais pas tellement dans une course régulière
-tut.wreck_ball.2,- Avoir un boulet de démolition attachée à votre voiture affecte considérablement la maniabilité <br> - Si vous n'aimez pas une arme, vous pouvez toujours la déposer avec {Action.DropWeapon}
+tut.wreck_ball.2,- Avoir un boulet de démolition attaché à votre voiture affecte considérablement la maniabilité <br> - Si vous n'aimez pas une arme, vous pouvez toujours la déposer avec {Action.DropWeapon}
 
 msg.director_warning.1,Le Directeur Nicolas Merryland participe également ...
 msg.director_warning.2,Il y a un psychopathe sur la piste, et ce n'est pas un pilote!
 msg.director_warning.3,Attention au directeur, il a une arme!
 msg.director_warning.4,Uh oh, Le directeur est encore là!
-msg.director_warning.5,Director Nicolas lui-même est sur la piste!
+msg.director_warning.5,Directeur Nicolas lui-même est sur la piste!
 
 msg.chopper_warning.1,Brace Stone est de mauvaise humeur. Attention à l'hélico!
 msg.chopper_warning.2,Les gens regardent l'hélico avec peur dans les yeux...
@@ -2433,14 +2433,14 @@ race.select_challenge,Sélectionnez Challenge
 race.challenges,Défis
 race.challenge_target,Objectif du défi
 race.challenge_target.players,Joueurs uniquement
-race.challenge_target.everyone,Toutes les personnes
+race.challenge_target.everyone,Toutes les joueurs
 mission.type.none,Aucun
 mission.type.assassinate,Assassiner
 mission.type.hit_obj,Hit Objects
 mission.type.make_sure_car_x_comes_last,Empêcher quelqu&#39;un de gagner
 mission.type.stay_on_track,Rester sur la bonne voie
 mission.type.locked_camera,Caméra verrouillée
-mission.type.take_dmg,Prendre des dégâts
+mission.type.take_dmg,Subir des dégâts
 mission.type.finish_xth,Terminer dans la plage de position
 mission.type.be_a_ped,Soyez un piéton
 mission.type.tiny_car,Petite voiture
