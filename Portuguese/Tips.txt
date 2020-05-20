@@ -56,4 +56,4 @@ Você já experimentou o Modo Foto? Isso vai explodir sua mente.
 Você pode usar suas próprias imagens para Avatares, Trabalhos de pintura e até modelos completos de carros personalizados
 Este jogo é livre de DRM. Brace Stone não estava muito feliz com isso.
 Não tente fazer nada disso, em qualquer lugar, nunca
-Você pode ajudar a traduzir este jogo para o seu idioma! Encontre as instruções em StreamingAssets / Traduções na pasta de instalação do jogo.
+Você pode ajudar a traduzir este jogo para o seu idioma! Encontre as instruções em StreamingAssets/Traduções na pasta de instalação do jogo.

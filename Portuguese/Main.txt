@@ -35,12 +35,12 @@ char.brace.job,Vice-Presidente de Diversidade
 char.brace.job_short,VP de Diversidade
 
 char.nic.name,Nicholas Merryland
-char.nic.job,Diretor do Bloody Rally Show
+char.nic.job,Diretor Bloody Rally Show
 char.nic.job_short,Diretor
 
 char.anon.name,Corredor Anônimo
-char.anon.job,Racer
-char.anon.job_short,Racer
+char.anon.job,Corredor
+char.anon.job_short,Corredor
 
 # Generic Terms (keep short)
 
@@ -77,7 +77,7 @@ term.weapons,Armas
 term.time,Tempo
 term.mission,Missão
 # If word "fee" is long in your language, just keep both entry_fee and retry_fee as "fee"
-term.entry_fee,Taxa de entrada
+term.entry_fee,Taxa de Entrada
 term.retry_fee,Taxa de Repetição
 term.generating,Gerando
 term.available,acessível
@@ -95,19 +95,19 @@ term.xp,XP
 # Short for position. Keep "Pos" if you can't find a good alternative
 term.pos,Postar
 # Noun - number of people killed (keep short, abbreviate if necessary)
-term.kills,Kills
+term.kills,Mortes
 # Noun - number of cars fragged (reference to Quake). Keep as "Frags" in your alphabet. Max 5 characters.
 term.frags,Frags
-term.damage,Danificar
+term.damage,Dano
 # Short from "damage", Keep "dmg" if you cannot get this to less than 6 characters.
 term.dmg,Dmg
-term.racer,Racer
+term.racer,Corredor
 term.ped,Pedestre
 term.he,ele
 term.she,ela
 term.mr,senhor.
 # Ms is between Miss and Mrs
-term.ms,Em.
+term.ms,senhora.
 term.resurrect,Ressuscitar
 term.progress,Progresso
 term.attempt,Tentativa
@@ -118,7 +118,7 @@ term.difficulty,Dificuldade
 
 btn.back,De volta
 btn.continue,Continuar
-btn.apply,Aplique
+btn.apply,Aplicar
 btn.close,Fechar
 btn.refresh,Atualizar
 btn.random,Aleatória
@@ -186,14 +186,14 @@ campaign.name,Nome da campanha
 
 campaign.missions_challenges,Missões e Desafios
 campaign.missions_challenges.tip,Algumas etapas teriam missões ou desafios aleatórios
-campaign.races_with_weapons,Raças Com Armas
-campaign.races_with_weapons.tip,Algumas pistas de corrida terão zonas que dão armas ou upgrades
+campaign.races_with_weapons,Corridas Com Armas
+campaign.races_with_weapons.tip,Algumas pistas de corrida terão zonas que haverão armas ou upgrades
 campaign.directors_car,Carro do diretor
 campaign.directors_car.tip,O diretor Nicholas estaria dirigindo em sua limusine, causando caos. Adiciona dificuldade.
 campaign.helicopter_weapons,Armas de helicóptero
-campaign.helicopter_weapons.tip,O helicóptero de Brace às vezes tinha armas e atirava em pilotos. Adiciona dificuldade.
+campaign.helicopter_weapons.tip,O helicóptero de Brace às vezes tem armas e atira em pilotos. Adiciona dificuldade.
 campaign.adaptive_ai,IA adaptativa
-campaign.adaptive_ai.tip,Os IA Racers melhorariam ou piorariam com o tempo, dependendo de como você está indo
+campaign.adaptive_ai.tip,Os Corredores da IA melhorariam ou piorariam com o tempo, dependendo de como você está indo
 campaign.weekly_rebalance,Rebalanceamento semanal
 campaign.weekly_rebalance.tip,Uma vez por semana, os pilotos de IA podem obter XP e Cash extras. Adiciona dificuldade.
 campaign.custom_content,Faixas e carros personalizados
@@ -209,21 +209,21 @@ campaign.btn.start_new,Iniciar nova campanha
 
 custom_race.btn.continue_session,Continuar sessão
 custom_race.btn.new_session,Nova Sessão
-custom_race.btn.random_time_attack,Quick Time Attack
-custom_race.btn.random_race,Corrida rapida
+custom_race.btn.random_time_attack,Tempo de ataque rápido
+custom_race.btn.random_race,Corrida Rápida
 custom_race.btn.random_battle,Batalha Rápida
 
 # Main Menu => Editors & Mods
 
 editors_mods.btn.track_editor,Editor de Pistas
-editors_mods.btn.car_editor,Car Editor
-editors_mods.btn.mod_manager,Mod Manager
+editors_mods.btn.car_editor,Editor de Carro
+editors_mods.btn.mod_manager,Gerenciador de Mods
 
 # Main Menu => Mod Manager
 
 mods.section.tracks,Faixas inscritas
 mods.section.cars,Carros Inscritos
-mods.btn.open_workshop,Procurar oficina
+mods.btn.open_workshop,Procurar na oficina
 mods.btn.manage_tracks,Faixas
 mods.btn.manage_cars,Carros
 mods.btn.reload,Recarregar Mods
@@ -242,15 +242,15 @@ leaderboard.daily_challenge.time_out,Tempo esgotado!
 leaderboard.daily_challenge.lap_attempts,Tentativas de volta
 leaderboard.daily_challenge.ends_in,Termina em
 leaderboard.daily_challenge.grace_period,Período de carência
-leaderboard.daily_challenge.ended_minutes_ago,Terminou {0:0} minutos atrás
-leaderboard.daily_challenge.ended_hours_ago,Terminou {0:0} horas atrás
-leaderboard.daily_challenge.ended_days_ago,Terminou {0:0} dias atrás
+leaderboard.daily_challenge.ended_minutes_ago,Terminou em {0:0} minutos.
+leaderboard.daily_challenge.ended_hours_ago,Terminou em {0:0} horas.
+leaderboard.daily_challenge.ended_days_ago,Terminou em {0:0} dias. 
 leaderboard.day,Dia
 leaderboard.btn.race_now,Corrida Agora
 leaderboard.btn.race_now.tip,Corra para definir o tempo da sua volta com a pista e o carro selecionados
 leaderboard.no_score.race_now,Você ainda não definiu uma pontuação. Corra agora para acertar!
 leaderboard.no_steam_connection,A conexão do vapor não está disponível <br><br> Os placares não funcionarão
-leaderboard.btn.time_attack,Time Attack
+leaderboard.btn.time_attack,Contra o tempo
 leaderboard.time_attack.tip,Acompanhe os placares de tempo das voltas. Use &quot;Custom Race&quot; com o modo &quot;Time Attack&quot; para definir o seu.
 leaderboard.refresh.tip,Recarregar pontuações diretamente do Steam
 
@@ -274,7 +274,7 @@ leaderboard.seconds_drifted,Segundos à deriva
 # Settings
 
 # DO NOT TRANSLATE THIS ONE! JUST COPY IT BUT KEEP ENGLISH!
-settings.btn.language,Língua
+settings.btn.language,Language
 
 settings.btn.video,Vídeo
 settings.btn.visuals,Visuals
@@ -368,7 +368,7 @@ settings.gameplay.auto_lock_mouse_tip,Se você possui uma configuração para v�
 # Settings -> Audio
 
 settings.audio.master_volume,Volume principal
-settings.audio.menu_sounds,Menu Sounds
+settings.audio.menu_sounds,Menu Sons
 settings.audio.menu_music,Menu Música
 settings.audio.editor_music,Editor de música
 settings.audio.race_music,Race Music
@@ -918,7 +918,7 @@ tr.add_obj.old_hut,Cabana velha
 tr.add_obj.vault,Cofre
 tr.add_obj.house,casa
 tr.add_obj.building,Construção
-tr.add_obj.grass_square,Grass Square
+tr.add_obj.grass_square,Pedaço de grama
 tr.add_obj.grass_square.tip,Para plantar árvores e flores em cima do asfalto
 tr.add_obj.bush,arbusto
 tr.add_obj.bush.tip,Arbusto decorativo destrutível
@@ -964,7 +964,7 @@ tr.ed_obj.clear_ramps,Clear Ramps
 tr.ed_obj.clear_ramps.tip,Limpar todas as rampas
 
 tr.test_drive,Dirigir
-tr.test_drive_ai,AI Drive
+tr.test_drive_ai,Modo de direção da IA
 tr.help,Socorro
 
 # Car Editor
@@ -976,7 +976,7 @@ ced.new_car,Carro novo
 ced.open_car,Carro Aberto
 ced.download_cars,Download de carros
 ced.exit,Saída
-ced.save_car,Save Car
+ced.save_car,Salvar Carro
 ced.delete_car,Excluir
 ced.parameters,Parâmetros
 ced.edit_sprites,Editar Sprites
@@ -1008,9 +1008,9 @@ ced.label.handling,Tratamento
 ced.steering_sensitivity,Sensibilidade da direção
 ced.steering_sensitivity.tip,Quão afiada e sensível é a direção. Também depende da massa.
 ced.label.grip,Firmeza
-ced.drift_factor,Fator de tração com tração
+ced.drift_factor,Fator de tração
 ced.drift_factor.tip,Com que facilidade o carro entra em uma deriva quando tem tração. O valor recomendado está entre 0,8 e 0,9.
-ced.slip_factor,Fator de tração sem tração
+ced.slip_factor,Fator sem tração
 ced.slip_factor.tip,Com que facilidade o carro permanece à deriva quando não há tração. O valor recomendado está entre 0,95 e 0,9999
 ced.max_sticky_vel,Velocidade máxima de tração lateral
 ced.max_sticky_vel.tip,Quão rápido o carro pode entrar em uma curva sem entrar em uma deriva. O valor recomendado está entre 1 e 1,5.
@@ -1126,8 +1126,8 @@ cut.racer2gov.greet.7,Ei, {0}, você tem algum trabalho extra que eu poderia faz
 
 # {0} will be a name or a title
 cut.racer2racer.greet.1,Ei, {0}! Como vai você?
-cut.racer2racer.greet.2,{0}! Apenas a pessoa que eu estava procurando!
-cut.racer2racer.greet.3,Ei, companheiro Racer!
+cut.racer2racer.greet.2,{0}! Se não é a pessoa que eu estava procurando!
+cut.racer2racer.greet.3,Ei, Companheiro Corredor!
 cut.racer2racer.greet.4,Oh oi, {0}, eu não notei você.
 
 cut.racer2racer.resp.1,Ei {0}, como está seu turbo?
@@ -1141,9 +1141,9 @@ cut.racer2racer.resp.5,O que você quer {0}?
 cut.gov2racer.greet_resp.1,{0}, sim, por favor entre!
 cut.gov2racer.greet_resp.2,{0}, eu estava esperando você.
 cut.gov2racer.greet_resp.3,Por favor, sente-se e ouça com atenção.
-# {0} Curse adjective - friggin cash
+# {0} Curse adjective - merda de dinheiro
 cut.gov2racer.greet_resp.4,Você gostaria de ganhar {0} em dinheiro extra, não gostaria?
-# {0} Curse adjective - friggin cash
+# {0} Curse adjective - merda de dinheiro
 cut.gov2racer.greet_resp.5,Deixe-me adivinhar, você gostaria de ganhar {0} em dinheiro extra, não gostaria?
 
 # {0} - insult singular
@@ -1165,7 +1165,7 @@ cut.call.10,Você não está de novo, {0}, o que você quer? Mas desde que você
 
 cut.call.resp.1,O que você quer?
 cut.call.resp.2,...
-# {0} - curse adjective (friggin point)
+# {0} - curse adjective (merda de ponto)
 cut.call.resp.3,Sim, sim, vá direto ao ponto {0}.
 # {0} - name or title
 cut.call.resp.4,Oh, que prazer ver você, {0}.
@@ -1873,9 +1873,9 @@ cut.season.cheer.4,OMG, finalmente!
 cut.season.cheer.5,Melhor dia da minha vida!
 cut.season.cheer.6,Eu estou tão feliz!
 cut.season.cheer.7,Viva!
-cut.season.cheer.8,YEEEEEES!
+cut.season.cheer.8,SIMMMMM!
 cut.season.cheer.9,Yippee!
-# {0} clowns {1} - fools
+# {0} clowns {1} - idiotas
 cut.season.2,Casa? Casa! Você {0} não vai sair daqui vivo! A próxima temporada começa amanhã, espero que todos tenham seus baldes de ferrugem polidos e alinhados para a corrida. Casa ... Hahahah. {1} ...
 
 ### Campaign Fail
@@ -1885,7 +1885,7 @@ cut.fail.boo.2,Fracassado!
 cut.fail.boo.3,Quem é esse?
 cut.fail.boo.4,Que pena
 cut.fail.boo.5,Boooo!
-cut.fail.boo.6,Lame!
+cut.fail.boo.6,Lixo!
 cut.fail.boo.7,Quem poderia ser isso?
 
 cut.fail.cry.1,Nao!
@@ -2142,7 +2142,7 @@ msg.dmg_warning,Aviso de danos
 msg.over_50_pct,Acima de 50%
 msg.over_75_pct,Mais de 75%
 msg.jump_completed,Salto concluído
-msg.nitro_boost,Nitro Boost
+msg.nitro_boost,Impulso de Nitro
 msg.hit_combo,Hit Combo
 msg.final_lap,ÚLTIMA VOLTA!
 msg.lap_did_not_count,Volta não contou
