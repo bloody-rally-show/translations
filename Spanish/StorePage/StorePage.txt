@@ -1,0 +1,63 @@
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamRace.gif[/img]
+
+Una combinación única de carreras, batallas automovilísticas y roguelite te ofrece una variedad infinita de pistas de carreras y campañas generadas por procedimientos con historias distópicas y conversaciones, misiones y desafíos generados por IA.
+
+Conduce coches rápidos con controles satisfactorios en una variedad infinita de pistas generadas al azar y hechas a mano.
+Compite por la gloria contra otras personas en las tablas de clasificación de Steam.
+
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamFight1.gif[/img]
+
+Utiliza las armas y la inercia de tu coche para luchar contra otros corredores en el modo de batalla estilo libre.
+Agrega zonas de armas a las razas regulares para darle vida a las cosas.
+
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamDrift.gif[/img]
+
+Cuidadosamente ajustado, el manejo del automóvil basado en la física está en el punto óptimo entre arcade y simulación, fácil de manejar, difícil de dominar. Aprenda a manejar y derivar sus autos en diferentes superficies, sentir cuando su auto pierde agarre y recupera la tracción.
+
+El modo Daily Challenge y Time Attack te permitirá competir contra otros fantasmas de jugadores. La habilidad es lo único que te llevará a la cima de las tablas de clasificación.
+
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamCreate.gif[/img]
+
+Crea tus propias pistas de carreras y autos con editores avanzados en el juego que se usaron para crear todo el contenido del juego. Las herramientas completas para desarrolladores están al alcance de su mano, y están hechas lo más fácil de usar posible.
+
+Comparte tus creaciones con otros en Steam Workshop.
+
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamCustomize.gif[/img]
+
+Usa tus propias imágenes para avatares de corredores y trabajos de pintura de automóviles, cambia los nombres de tus oponentes en modo campaña o carrera personalizada.
+Personalice el trabajo de pintura de su automóvil agregando capas de detalles. Haz tuyo este juego.
+
+[img]{STEAM_APP_IMAGE}/extras/BRSConsole.gif[/img]
+
+Usa un sistema operativo incorporado (OK, OK, es solo una consola), donde puedes realizar experimentos que ajustan la física del juego, cambian la lógica del juego y hacen otras cosas geniales.
+
+
+Características clave:
+[lista]
+[*] Física de autos estilo arcade / sim satisfactoria (manejo, deriva, velocidad)
+[*] Cantidad infinita de circuitos de carreras generados aleatoriamente
+[*] Modo campaña con misiones, desafíos y narrador de IA
+[*] Modo de batalla de coches con área de reducción de estilo Battle Royal
+[*] ¡Modo peatonal, nunca antes visto en otros juegos de carreras!
+[*] Mecánico estratégico de impulso nitro
+[*] Carreras con armas y potenciadores
+[*] Juega campañas en modo individual, cooperativo local en sofá o Steam Remote Play Together
+[*] Posibilidad de compartir tus autos y pistas personalizados en Steam Workshop para que otros disfruten
+[*] Racer XP y subir de nivel
+[*] Tuning y actualizaciones de automóviles
+[*] Los oponentes de IA adaptativos que tienen los mismos controles basados ​​en la física que el jugador, tienen emociones y carácter, y hacen cosas estúpidas de vez en cuando
+[*] Casi 50 logros
+[*] Gran cantidad de diferentes tablas de clasificación
+[*] Los nombres de los mejores jugadores de tablas de clasificación aparecen en las campañas de jugadores como corredores de IA
+[*] Desafío diario con una combinación diferente de pista / automóvil para competir contra otros jugadores
+[*] Multijugador en línea asincrónico a través de Ghost Replays en tablas de clasificación de Steam: compite contra otras personas en el modo Daily Challenge y Time Attack
+[*] Trabajos de pintura personalizados y avatares de corredor
+[*] Pantalla dividida Multijugador local para hasta 4 jugadores
+[*] Configuración de configuración para apagar la sangre (para sesiones familiares de carreras de pantalla dividida)
+[*] ¡Carreras con 100 oponentes!
+[*] Rampas y saltos, charcos, derrames de petróleo, parches de hielo, barriles explosivos y otros peligros
+[*] Accesorios basados ​​en física destruibles y móviles
+[*] OST de alta calidad con docenas de canciones completas
+[*] Referencias al pan spelta sin gluten y otros chistes malos
+[*] ¡Sin DRM!
+[/lista]
