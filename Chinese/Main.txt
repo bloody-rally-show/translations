@@ -31,12 +31,12 @@
 # unchanged. Anonymous racer only appears in introduction cutscene.
 
 char.brace.name,Brace Stone
-char.brace.job,多样性副总裁
-char.brace.job_short,多样性副总裁
+char.brace.job,戴维斯蒂副总裁
+char.brace.job_short,石副总
 
 char.nic.name,Nicholas Merryland
 char.nic.job,节目导演
-char.nic.job_short,导向器
+char.nic.job_short,导演
 
 char.anon.name,匿名赛车手
 char.anon.job,赛车手
@@ -54,7 +54,7 @@ term.best,最好
 # Max 10 characters
 term.best_lap,最佳圈速
 # As in person name
-term.name,名称
+term.name,名字
 term.human,人的
 # Just keep "AI" if your language does not have a very popular abbreviation for Artificial Intelligence
 term.ai,仿制
@@ -67,10 +67,10 @@ term.points,点数
 term.drifts,漂流
 term.mode,模式
 term.battle,战斗
-term.car_battle,汽车战
+term.car_battle,赛车战
 term.time_attack,时间攻击
-term.race,种族
-term.time_limit,限期
+term.race,车赛
+term.time_limit,期限
 term.time_scale,时标
 term.distance,距离
 term.weapons,武器装备
@@ -78,8 +78,8 @@ term.time,时间
 term.mission,任务
 # If word "fee" is long in your language, just keep both entry_fee and retry_fee as "fee"
 term.entry_fee,参赛费
-term.retry_fee,重试
-term.generating,产生
+term.retry_fee,重试费
+term.generating,生成
 term.available,可用的
 term.locked,已锁定
 term.owned,拥有的
@@ -93,7 +93,7 @@ term.cash,现金
 # Short for Experience Points. If your language does not have a well know acronym for this, keep "XP"
 term.xp,经验
 # Short for position. Keep "Pos" if you can't find a good alternative
-term.pos,位置
+term.pos,名次
 # Noun - number of people killed (keep short, abbreviate if necessary)
 term.kills,杀人数
 # Noun - number of cars fragged (reference to Quake). Keep as "Frags" in your alphabet. Max 5 characters.
@@ -112,7 +112,7 @@ term.resurrect,复活
 term.progress,进展
 term.attempt,尝试
 term.tips,提示
-term.difficulty,困难
+term.difficulty,难度
 
 # Generic buttons (keep short)
 
@@ -124,7 +124,7 @@ btn.refresh,刷新
 btn.random,随机
 btn.randomize,随机化
 btn.main_menu,主菜单
-btn.save,救
+btn.save,保存
 btn.cancel,取消
 btn.delete,删除
 btn.edit,编辑
@@ -137,29 +137,29 @@ btn.paint,油漆
 btn.switch,交换
 btn.confirm,确认
 btn.change,更改
-btn.skip,跳跃
+btn.skip,跳过
 btn.next_page,下一页
 btn.prev_page,上一页
 btn.disable_tips,禁用提示
 
 # Keep these very short. On / off can be translated same as yes / no to keep them shorter
 
-btn.on,上
+btn.on,开
 btn.off,关
 btn.yes,是
-btn.no,没有
+btn.no,否
 btn.ok,好
 btn.all,所有
 
 # Main Menu 
 
 main_menu.btn.campaign,运动
-main_menu.btn.custom_race,定制种族
+main_menu.btn.custom_race,定制车赛
 main_menu.btn.editors_mods,编辑和修改
-main_menu.btn.daily_challenge,每日的挑战
+main_menu.btn.daily_challenge,今日挑战
 main_menu.btn.leaderboards,排行榜
 main_menu.btn.achievements,成就
-main_menu.btn.settings,设定
+main_menu.btn.settings,设置
 main_menu.btn.about,关于
 main_menu.btn.quit,退出
 main_menu.label.whats_new,新闻
@@ -170,15 +170,15 @@ campaign.btn.continue,继续
 campaign.btn.new,新
 campaign.btn.load,加载
 campaign.saves,节省
-campaign.no_saves,没有保存
+campaign.no_saves,无可加载的
 campaign.btn.tips,提示
 campaign.dialogue.cannot_continue,您无法继续此广告系列，它已经完成！
 
-campaign.difficulty,困难
-campaign.difficulty.easy,简单
-campaign.difficulty.normal,定期
-campaign.difficulty.hard,硬
-campaign.difficulty.hardcore,铁杆
+campaign.difficulty,难度
+campaign.difficulty.easy,容易
+campaign.difficulty.normal,一般
+campaign.difficulty.hard,困难
+campaign.difficulty.hardcore,硬核
 campaign.difficulty.locked.tip,要求赛车手等级: {0}
 campaign.difficulty.dialogue.locked,您选择的难度级别已锁定。 以更容易的难度将赛车手等级提高到{0}。
 
@@ -196,50 +196,50 @@ campaign.adaptive_ai,适应性对手
 campaign.adaptive_ai.tip,随着时间的流逝，对手会变得更好或更坏，这取决于您的表现如何
 campaign.weekly_rebalance,每周重新平衡
 campaign.weekly_rebalance.tip,每周一次，对手可能会获得额外的经验和金钱。 增加难度。
-campaign.custom_content,定制轨道和汽车
-campaign.custom_content.tip,将包括您创建的轨道和汽车
-campaign.workshop_content,车间轨道和汽车
-campaign.workshop_content.tip,包括您在Steam Workshop上订阅的曲目和汽车
+campaign.custom_content,定制赛道和赛车
+campaign.custom_content.tip,将包括您创建的轨道和赛车
+campaign.workshop_content,车间轨道和赛车
+campaign.workshop_content.tip,包括您在Steam Workshop上订阅的曲目和赛车
 campaign.allow_heavy_tracks,允许物体沉重的轨道
-campaign.allow_heavy_tracks.tip,包括具有高对象密度的Custom和Steam Workshop轨道，这可能会对性能产生负面影响
+campaign.allow_heavy_tracks.tip,包括具有高物体密度的Custom和Steam Workshop轨道，这可能会对性能产生负面影响
 
 campaign.btn.start_new,开始新的运动
 
 # Main Menu => Custom Race
 
-custom_race.btn.continue_session,继续会议
-custom_race.btn.new_session,新会议
-custom_race.btn.random_time_attack,快速时间攻击
-custom_race.btn.random_race,快速竞赛
-custom_race.btn.random_battle,快速战斗
+custom_race.btn.continue_session,继续
+custom_race.btn.new_session,新游戏
+custom_race.btn.random_time_attack,时间攻击
+custom_race.btn.random_race,车赛
+custom_race.btn.random_battle,战斗
 
 # Main Menu => Editors & Mods
 
 editors_mods.btn.track_editor,曲目编辑器
-editors_mods.btn.car_editor,汽车编辑
-editors_mods.btn.mod_manager,修改经理
+editors_mods.btn.car_editor,赛车编辑器
+editors_mods.btn.mod_manager,修改管理器
 
 # Main Menu => Mod Manager
 
-mods.section.tracks,订阅的曲目
-mods.section.cars,订阅汽车
+mods.section.tracks,订阅的赛道
+mods.section.cars,订阅的赛车
 mods.btn.open_workshop,浏览工作坊
 mods.btn.manage_tracks,赛道
-mods.btn.manage_cars,汽车
+mods.btn.manage_cars,赛车
 mods.btn.reload,重新加载修改
-mods.btn.unsubscribe.tip,去掉
+mods.btn.unsubscribe.tip,取关
 mods.btn.view_online.tip,在线查看
 
 # Leaderboards
 
 leaderboard.time_attack.title,时间攻击<br>排行榜
 leaderboard.type,排行榜类型
-leaderboard.type.friends,朋友们
+leaderboard.type.friends,好友
 leaderboard.type.global,全球
 leaderboard.top100,前100名
-leaderboard.daily_challenge,每日的挑战<br>排行榜
+leaderboard.daily_challenge,今日挑战<br>排行榜
 leaderboard.daily_challenge.time_out,超时！
-leaderboard.daily_challenge.lap_attempts,单圈尝试
+leaderboard.daily_challenge.lap_attempts,赛道尝试次数
 leaderboard.daily_challenge.ends_in,剩余时间
 leaderboard.daily_challenge.grace_period,宽限期
 leaderboard.daily_challenge.ended_minutes_ago,于{0:0}分钟前结束
@@ -247,11 +247,11 @@ leaderboard.daily_challenge.ended_hours_ago, 于{0:0}}小时前结束o
 leaderboard.daily_challenge.ended_days_ago, 于{0:0}天前结束
 leaderboard.day,天
 leaderboard.btn.race_now,现在比赛
-leaderboard.btn.race_now.tip,种族与选定的轨道和汽车来设置你的圈速
-leaderboard.no_score.race_now,您尚未设置分数。 现在就开始比赛吧！
+leaderboard.btn.race_now.tip,使用选定的赛车和赛道来记录您的圈速
+leaderboard.no_score.race_now,您尚未取得分数。 现在就开始比赛吧！
 leaderboard.no_steam_connection,Steam连接不可用<br><br>排行榜无法正常工作
 leaderboard.btn.time_attack,时间攻击
-leaderboard.time_attack.tip,跟踪单圈时间排行榜。 使用“自定义种族”和“时间攻击”模式进行设置。
+leaderboard.time_attack.tip,跟踪单圈时间排行榜。 使用“定制车赛”和“时间攻击”模式进行设置。
 leaderboard.refresh.tip,直接从Steam重新加载分数
 
 # Leaderboard Names
@@ -265,7 +265,7 @@ leaderboard.xp_gained,获得的经验
 leaderboard.podium_finishes,讲台饰面
 leaderboard.podium_gold,讲台金
 leaderboard.seasons_won,季节赢了
-leaderboard.cars_fragged,汽车毁了
+leaderboard.cars_fragged,赛车毁了
 leaderboard.tracks_created,创建的曲目
 leaderboard.longest_jump,最长跳
 leaderboard.meters_jumped,米跳
@@ -322,7 +322,7 @@ settings.visuals.show_car_smoke,秀车烟雾
 settings.visuals.show_controls,显示控件
 settings.visuals.show_in_race_rankings,显示比赛排名
 settings.visuals.dynamic_backgrounds,动态背景
-settings.visuals.dynamic_backgrounds.tip,对于竞选和自定义种族
+settings.visuals.dynamic_backgrounds.tip,对于竞选和自定义车赛
 settings.visuals.reduce_particles,减少可见性的粒子
 settings.visuals.post_processing,后期处理
 settings.visuals.minimap_size,小地图尺寸
@@ -372,7 +372,7 @@ settings.audio.menu_sounds,菜单声音
 settings.audio.menu_music,菜单音乐
 settings.audio.editor_music,编辑音乐
 settings.audio.race_music,比赛音乐
-settings.audio.car_engine,汽车引擎
+settings.audio.car_engine,赛车引擎
 settings.audio.tire_skid,轮胎打滑
 settings.audio.crowd_noise,人群噪音
 settings.audio.sound_fx,声音效果
@@ -384,7 +384,7 @@ settings.reset.btn.full_reset,完全重置
 settings.reset.btn.reset_tips,重置提示
 
 # FOR TRASLATORS: Be very careful to not change text inside brackets (<br>, <size=50%> and such). It is one long line
-settings.reset.about,完全重置将：<br> <indent=10%> <size=70%> <br>-删除所有战役<br>-锁定所有汽车<br>-立即退出游戏<br> <indent=0%> <size=100%> <br>完全重置不会删除：<br> <indent=10%> <size=70%> <br>-成就<br>-排行榜条目<br>-自定义赛车和赛道
+settings.reset.about,完全重置将：<br> <indent=10%> <size=70%> <br>-删除所有战役<br>-锁定所有赛车<br>-立即退出游戏<br> <indent=0%> <size=100%> <br>完全重置不会删除：<br> <indent=10%> <size=70%> <br>-成就<br>-排行榜条目<br>-自定义赛车和赛道
 
 # Main Menu button tooltips
 
@@ -392,8 +392,8 @@ main_menu.btn.tooltip.homepage,Kodo Linija主页
 main_menu.btn.tooltip.newsletter,开发人员通讯
 main_menu.btn.tooltip.dev_msg,开发者的信息
 main_menu.btn.tooltip.campaign,具有随机生成的曲目的故事模式。 玩解锁新车！
-main_menu.btn.tooltip.race,在“时间攻击”模式下进行快速的种族，汽车战或击败其他赛车圈速
-main_menu.btn.tooltip.editors,下载其他玩家制作的曲目和汽车，或制作并分享自己的曲目
+main_menu.btn.tooltip.race,在时间攻击、快速车赛、赛车战斗的模式下破其他赛车手的圈速纪录
+main_menu.btn.tooltip.editors,下载其他玩家制作的赛道和赛车，或制作并分享自己的赛道
 main_menu.btn.tooltip.daily_challenge,与其他选手竞争以获得最佳的每日单圈时间
 main_menu.btn.tooltip.leaderboards,荣耀等待着进入前100名的人们
 main_menu.btn.tooltip.achievements,得到所有
@@ -401,7 +401,7 @@ main_menu.btn.tooltip.quit.0,不！ 不要点击这个！ 由于某种原因，�
 main_menu.btn.tooltip.quit.1,请稍等，我们可以讨论一下！
 main_menu.btn.tooltip.quit.2,也许再参加一场比赛？
 main_menu.btn.tooltip.quit.3,你确定吗？ 其他事情可以等待...
-main_menu.btn.tooltip.quit.4,每次您单击此按钮时，地精都会在您的汽车上剪一条随机的电线。 我们不是在开玩笑！
+main_menu.btn.tooltip.quit.4,每次您单击此按钮时，地精都会在您的赛车上剪一条随机的电线。 我们不是在开玩笑！
 main_menu.btn.tooltip.quit.5,如果单击此按钮，SOFACT将原谅。 但是他们永远不会忘记。
 main_menu.btn.tooltip.quit.6,单击此按钮可在5秒钟内自毁您的计算机。
 main_menu.btn.tooltip.quit.7,为什么选择此按钮？ 还有很多其他的按钮！
@@ -483,7 +483,7 @@ dash.flip_track_card.tip,翻转轨迹卡
 dash.btn.walk_on_foot,步行
 dash.btn.walk_on_foot.tip,以行人身份参加比赛（危险！）
 dash.btn.save_track.tip,保存赛道以在“自定义竞赛”或“赛道编辑器”中使用
-dash.btn.regenerate.tip,如果您不喜欢当前曲目，将重新生成曲目
+dash.btn.regenerate.tip,如果您不喜欢当前赛道，将重新生成赛道
 # Verb
 dash.btn.do_race,赛跑
 dash.btn.do_retry,重试
@@ -525,7 +525,7 @@ dash.tip.reduce_5_laps,减少五圈
 dash.tip.workshop_item,工作坊物品
 dash.tip.rand_time_attack,随机时间攻击会话
 dash.tip.rand_race,在独特的程序生成位置进行随机快速竞赛
-dash.tip.rand_battle,在程序生成的位置与AI对手进行随机汽车战
+dash.tip.rand_battle,在程序生成的位置与AI对手进行随机赛车战
 dash.tip.mark_tips_unseen,将所有提示标记为看不见
 dash.tip.campaign_name_entry,请使用上方的键盘或随机按钮
 dash.tip.cloud_shadows_visible,云影仍然可见
@@ -537,11 +537,11 @@ dash.tip.voice_pitch_slider,调整过场对话语音音调
 dash.tip.file_on_computer,选择计算机上的文件
 dash.tip.player_num,玩家{0}
 dash.tip.ai_skill,AI技能：{0:0}％
-dash.tip.car_sprites_white,编辑精灵时，使车身保持白色。油漆工作与汽车无关。
+dash.tip.car_sprites_white,编辑精灵时，使车身保持白色。油漆工作与赛车无关。
 dash.tip.upload_car,上传到Steam Workshop。上传之前，请确保在参数中设置了正确的最大速度！
-dash.tip.reload_car,在游戏外改变汽车精灵后使用
+dash.tip.reload_car,在游戏外改变赛车精灵后使用
 dash.tip.speed_index,相对快速度的基准
-dash.tip.leaderboard_eligible,此曲目有资格获得排行榜
+dash.tip.leaderboard_eligible,此赛道有资格获得排行榜
 dash.tip.ghost_replay_available,幽灵重播可用
 dash.tip.add_racer_btn,添加新的赛车手（人类或AI）
 dash.tip.show_track_leaderboards,显示赛道排行榜
@@ -555,10 +555,10 @@ dash.tip.rnd_gen_btn,会产生随机的赛道
 # Custom Race Dash
 
 dash.set_for_everyone,为每个人准备
-dash.car,汽车
+dash.car,赛车
 dash.racers,赛车手
-dash.search_for_track,搜索曲目
-dash.randomize_prompt,点击“生成” <br>随机分配一些曲目
+dash.search_for_track,搜索赛道
+dash.randomize_prompt,点击“生成” <br>随机分配一些赛道
 dash.race_options,比赛选项
 dash.race_mode,比赛模式
 dash.demo_mode,演示模式
@@ -574,7 +574,7 @@ dash.tracks_full_screen.tip,切换全屏视图
 
 # Rewards
 
-rew.car_unlock,汽车解锁：{0}
+rew.car_unlock,赛车解锁：{0}
 rew.total_pts,总积分
 rew.dmg_taken,承受伤害
 rew.dmg_given,给定伤害
@@ -760,15 +760,15 @@ act.AdjustMotionSpeed,运动速度
 
 tr.file,文件
 tr.file.new,新
-tr.file.new.tip,开始编辑新曲目
+tr.file.new.tip,开始编辑新赛道
 tr.file.open,打开
-tr.file.open.tip,打开保存的曲目
+tr.file.open.tip,打开保存的赛道
 tr.file.save,救
-tr.file.save.tip,保存当前曲目
+tr.file.save.tip,保存当前赛道
 tr.file.undo,撤消
 tr.file.redo,准备
 tr.file.share,分享
-tr.file.share.tip,将当前曲目上传到Steam Workshop
+tr.file.share.tip,将此赛道上传到Steam Workshop
 tr.file.delete,删除
 tr.file.delete.tip,删除保存的大头钉（您将选择其中一个）
 tr.file.exit,出口
@@ -783,18 +783,18 @@ tr.grid.dark,暗
 tr.grid.dark.tip,使网格变暗（在明亮的轨道上有用）
 
 tr.gen,生成
-tr.gen.full_circuit,完整电路
-tr.gen.full_circuit.tip,生成完整的赛道曲率和对象。将替换当前曲目。
-tr.gen.full_open,完成开放之路
-tr.gen.full_open.tip,生成完整的开放道路曲率和对象。将替换当前曲目。
+tr.gen.full_circuit,生成环形赛道
+tr.gen.full_circuit.tip,生成完整的环形赛道形状以及赛道旁边的东西。将替换当前赛道。
+tr.gen.full_open,生成开放赛道
+tr.gen.full_open.tip,生成完整的头尾形的赛道以及赛道旁边的东西。将替换当前赛道。
 tr.gen.circuit,电路图
-tr.gen.circuit.tip,生成闭路曲率。将替换当前曲目并删除对象。
+tr.gen.circuit.tip,生成闭路曲率。将替换当前曲目并删除物体。
 tr.gen.open,开路
-tr.gen.open.tip,生成开放道路曲率。将替换当前曲目并删除对象。
+tr.gen.open.tip,生成开放道路曲率。将替换当前曲目并删除物体。
 tr.gen.all_objects,所有物件
-tr.gen.all_objects.tip,生成新对象。将替换所有现有对象。
-tr.gen.object_groups,对象组
-tr.gen.object_groups.tip,生成手工对象组。将替换所有现有的。
+tr.gen.all_objects.tip,生成新物体。将替换所有现有物体。
+tr.gen.object_groups,物体组
+tr.gen.object_groups.tip,生成手工物体组。将替换所有现有的。
 tr.gen.crowd,人群
 tr.gen.crowd.tip,产生人群。将替换所有现有的。
 tr.gen.forests,森林
@@ -865,13 +865,13 @@ tr.ed_track.shrink.tip,将减少轨道规模
 tr.ed_track.move_start,移动开始
 tr.ed_track.move_start.tip,将开始位置移动到下一个控制点（仅适用于闭合轨道）
 tr.ed_track.recenter,最新的
-tr.ed_track.recenter.tip,会更新并跟踪所有对象
+tr.ed_track.recenter.tip,会更新并跟踪所有物体
 tr.ed_track.rotate,旋转
-tr.ed_track.rotate.tip,将轨道和所有对象顺时针旋转45度
+tr.ed_track.rotate.tip,将轨道和所有物体顺时针旋转45度
 
-tr.add_obj,添加对象
-tr.add_obj.group,对象组
-tr.add_obj.group.tip,将添加一个对象组。再次单击以随机化。
+tr.add_obj,添加物体
+tr.add_obj.group,物体组
+tr.add_obj.group.tip,将添加一个物体组。再次单击以随机化。
 tr.add_obj.forest,森林
 tr.add_obj.forest.tip,将产生一堆随机树
 tr.add_obj.flowers,花卉
@@ -902,7 +902,7 @@ tr.add_obj.ice_patch.tip,相当滑
 tr.add_obj.oil_spill,漏油事件
 tr.add_obj.oil_spill.tip,很滑
 tr.add_obj.ramp,坡道
-tr.add_obj.ramp.tip,汽车可以越过的斜坡。给一点点推动。
+tr.add_obj.ramp.tip,赛车可以越过的斜坡。给一点点推动。
 tr.add_obj.power_ramp,动力斜坡
 tr.add_obj.power_ramp.tip,动力斜坡可在跳跃前提供额外的速度提升
 tr.add_obj.crop_field,作物田
@@ -913,12 +913,12 @@ tr.add_obj.pipe,管
 tr.add_obj.solar_panels,太阳能板
 tr.add_obj.silo,筒仓
 # Thing for retrieving water from the ground
-tr.add_obj.well,好
+tr.add_obj.well,井
 tr.add_obj.old_hut,老小屋
 tr.add_obj.vault,金库
 tr.add_obj.house,屋
 tr.add_obj.building,建造
-tr.add_obj.grass_square,草广场
+tr.add_obj.grass_square,草地
 tr.add_obj.grass_square.tip,用于在柏油碎石地面上种植树木和花朵
 tr.add_obj.bush,衬套
 tr.add_obj.bush.tip,可破坏的装饰衬套
@@ -927,17 +927,17 @@ tr.add_obj.branch_tree,树枝树
 tr.add_obj.snow_tree,雪树
 tr.add_obj.flowers_single,花卉
 
-tr.ed_obj,编辑物件
+tr.ed_obj,编辑物体
 tr.ed_obj.move,移动
-tr.ed_obj.move.tip,单击并拖动对象以将其移动
+tr.ed_obj.move.tip,单击并拖动物体以将其移动
 tr.ed_obj.rotate,旋转
-tr.ed_obj.rotate.tip,单击并拖动一个对象以旋转它。按住Shift键可提高精确度。
+tr.ed_obj.rotate.tip,单击并拖动一个物体以旋转它。按住Shift键可提高精确度。
 tr.ed_obj.delete,删除
-tr.ed_obj.delete.tip,单击一个对象将其删除
+tr.ed_obj.delete.tip,单击一个物体将其删除
 tr.ed_obj.clear_all,全部清除
-tr.ed_obj.clear_all.tip,删除轨道中的所有对象
+tr.ed_obj.clear_all.tip,删除轨道中的所有物体
 tr.ed_obj.clear_groups,清除组
-tr.ed_obj.clear_groups.tip,清除手工对象组
+tr.ed_obj.clear_groups.tip,清除手工物体组
 tr.ed_obj.clear_crowd,清除人群
 tr.ed_obj.clear_crowd.tip,清除所有人群
 tr.ed_obj.clear_forests,清除森林
@@ -972,9 +972,9 @@ tr.help,帮帮我
 ced.select_base_car,选择基础车
 ced.select_car,选择车
 
-ced.new_car,新汽车
+ced.new_car,新赛车
 ced.open_car,开敞车
-ced.download_cars,下载汽车
+ced.download_cars,下载赛车
 ced.exit,出口
 ced.save_car,救车
 ced.delete_car,删除
@@ -997,9 +997,9 @@ ced.req_level,要求等级
 ced.req_level.tip,所需级别是根据速度指数自动计算得出的
 ced.label.general,一般
 ced.max_speed_kmh,最高速度（kmh）
-ced.max_speed_kmh.tip,变速箱正常工作所需。试驾汽车直行找出最大速度。
+ced.max_speed_kmh.tip,变速箱正常工作所需。试驾赛车直行找出最大速度。
 ced.mass_kg,车重（kg）
-ced.mass_kg.tip,轻型汽车+高发动机功率=精神错乱。找到正确的平衡。
+ced.mass_kg.tip,轻型赛车+高发动机功率=精神错乱。找到正确的平衡。
 ced.max_health,最大健康
 ced.label.engine,发动机
 ced.engine_power,发动机功率
@@ -1009,11 +1009,11 @@ ced.steering_sensitivity,转向灵敏度
 ced.steering_sensitivity.tip,转向有多灵敏和灵敏。这也取决于质量。
 ced.label.grip,握
 ced.drift_factor,牵引力漂移因子
-ced.drift_factor.tip,有牵引力时，汽车进入坡道的难易程度。推荐值在0.8到0.9之间。
+ced.drift_factor.tip,有牵引力时，赛车进入坡道的难易程度。推荐值在0.8到0.9之间。
 ced.slip_factor,无牵引力的漂移因素
-ced.slip_factor.tip,没有牵引力时，汽车在漂移中的保持有多容易。推荐值在0.95至0.9999之间
+ced.slip_factor.tip,没有牵引力时，赛车在漂移中的保持有多容易。推荐值在0.95至0.9999之间
 ced.max_sticky_vel,侧向牵引最大速度
-ced.max_sticky_vel.tip,汽车在不出现漂移的情况下可以驶入弯道的速度。推荐值在1到1.5之间。
+ced.max_sticky_vel.tip,赛车在不出现漂移的情况下可以驶入弯道的速度。推荐值在1到1.5之间。
 ced.label.gearbox,变速箱
 ced.max_rpm,最高转速
 ced.max_rpm.tip,这不会直接影响引擎声音！选择适当的引擎声音。
@@ -1025,9 +1025,9 @@ ced.label.sounds,声音
 ced.sound.engine,发动机
 ced.sound.muffler,围巾
 ced.sound.turbo,涡轮
-ced.sound.turbo.tip,只有在升级的汽车上行驶时才能听到涡轮增压声音
+ced.sound.turbo.tip,只有在升级的赛车上行驶时才能听到涡轮增压声音
 ced.sound.charger,增压器
-ced.sound.charger.tip,仅当使用升级的汽车行驶时才会听到增压器
+ced.sound.charger.tip,仅当使用升级的赛车行驶时才会听到增压器
 
 ced.label.model,型号名称
 ced.model_name,车型名称
@@ -1068,278 +1068,278 @@ ced.exhaust_pos,排气位置
 ### Lore Cutscene ### <-- please get this one very well, it's something people usually see within first 2 minutes of the game
 
 # In here {0} is the number of years and {1} is a date
-cut.lore.1,嘿!您不是{0}年前发生重大事故的那位著名赛车手吗？我知道您从{1}开始就一直处于低温睡眠状态，所以让我让您快速入门。
+cut.lore.1,嘿!你不是{0}年前遭遇严重车祸的那位著名赛车手吗？我知道您从{1}开始就一直处于低温睡眠状态，所以让我让您快速入门。
 # {0} is a date
-cut.lore.2,有一家非常成功的技术公司，您应该知道，我现在不记得它的原始名称。它消除了竞争，并在{0}中重新控制了全球经济。
+cut.lore.2,有一家非常成功的技术公司，您应该知道，我现在想不起它本来叫什么名字。反正，它消除了所有竞争，并在{0}中控制了全球经济。
 # You should probably keep "Social Frontier of Activism" and SOFACT unchanged in your translation, for authenticity (company was not local after all)
-cut.lore.3,该公司没有寻求科学发现，而是一直努力解决日益复杂的内部政策。在某些时候，他们将其重命名为“激进社会前沿”或SOFACT。
-cut.lore.4,但是最终人性接管了。活动家在意想不到的敌意接管中被强行淘汰，因此SOFACT仍然是一个友好的组织，但现在属于老派弯头恶棍。
+cut.lore.3,该公司没有寻求科学发展，而是一直努力解决日益复杂的内部政策。后来，他们将其重命名为“行动主义社会前沿”，简称SOFACT。
+cut.lore.4,但是最终人性接管了。在意想不到的敌对接管中，活动家被强行消灭，因此SOFACT看上去像以往友好的样子，但实际上属于真正的一群地头蛇。
 # Please do not translate "Bloody Rally Show", or included it into parentheses next to translation. Example: "Kruvinojo Ralio Šou" (Bloody Rally Show)
-cut.lore.5,新领导人专注于利润。他们一直在娱乐方面进行投资，以最大程度地增加广告收入，“ Bloody Rally Show”正好成为当今大多数人的首选娱乐。
-cut.lore.6,在《血腥拉力赛表演》中，他们正试图通过使用1980年代臭名昭著的B组中的技术来重塑拉力赛的黄金时代。事故数量很高，但社交媒体影响者一直在努力获取这些热门动作的特写照片。
-cut.lore.7,我的朋友，不要丢车，否则您可能不得不加入人群。现在祝您好运！哦，对了，我没听清楚你的名字。
+cut.lore.5,新来的领导专注于利润。为了最大化广告收入，他们在娱乐方面一直进行投资。“Bloody Rally Show”已成为当今大多数人的首选娱乐。
+cut.lore.6,在《血腥拉力赛表演》中，他们正试图通过使用1980年代臭名昭著的B组中的技术来重塑拉力赛的黄金时代。虽然事故数量非常高，但是自媒体网红一直在路边拍那种车赛的特写照片。
+cut.lore.7,老铁啊，你别丢车，否则您可能不得不加入人群。祝您好运！哦，对了，你没告诉我你的名字。
 
 ### Season Intro ### <-- please get this one very well too, it's part 2 of the main introduction
 
-cut.intro.1,嘿，菜鸟，你迟到了！我是《血腥拉力赛》的导演。我想和其他人见面。
+cut.intro.1,嘿，菜鸟，你迟到了！我是《血腥拉力赛》的导演。我想带你去和某个人见面。
 # {0} will be a random insult word
-cut.intro.2,您在这里，{0}。我们把您带进来，因为他们说您知道如何很好地驾驶那些老式赛车。现在去做个好表演！
-cut.intro.2_2,哦，我们会不时请您帮我们一些忙。没什么大不了的，不用担心！
-cut.intro.3,等一会。为什么我必须为您做这件事？
+cut.intro.2,你来了，{0}。我们把您带进来，因为我们听说您驾驶那些老式赛车驾驶得好厉害。现在去做个好表演！
+cut.intro.2_2,哦，我们会偶尔请你帮我们一些忙。没什么大不了的，不用担心！
+cut.intro.3,等等。我为什么一定要为你做这些事？
 # {0} will be an insult, ${1} - sum of money, like $500000
-cut.intro.4,因为您欠我们低温睡眠，所以{0}！在任何季节结束时偿还$ {1}，您就可以自由地做任何想做的事情。在此之前，您的屁股属于SOFACT。
-cut.intro.5,看起来我没有太多选择...什么时候开始？
-cut.intro.6,跟我来，菜鸟，我带你看看。让我们首先见其他赛车手。
+cut.intro.4,你的低温睡眠是我们提供的，我们救了你的命，{0}！你欠我们低温睡眠费！在任何季节结束时偿还$ {1}，你就可以重获自由。在此之前，你属于SOFACT。
+cut.intro.5,感觉我没什么其他办法...什么时候开始？
+cut.intro.6,跟我来，菜鸟，我带你去看看。我们先去跟其他赛车手见面吧！
 # {0} will be a plural insult (addressing all racers)
-cut.intro.7,因此，{0}，您还回来了吗？给我留下深刻的印象！
-cut.intro.8,我仍然觉得我还有事要做，你知道
-cut.intro.9,很高兴您回来了！现在跟随我，您需要签署一些文件。
+cut.intro.7,{0}，你回来了？太惊喜了！
+cut.intro.8,我还有一件事情要做
+cut.intro.9,很高兴你回来了！现在跟我来，有一些文件你需要来签名。
 
 ### Racer died cutscene
 
 # {0} will be racer's name, {1} will be a "he" or "she"
-cut.died.1,{0}没有成功。但是{1}将始终保留在我们的排行榜中。
+cut.died.1,{0}已去世。但是我们排行榜上还会写着{1}的名字。
 cut.died.2,*按键盘上的F *
 # {0} will be a plural insult, like "clowns"
 cut.died.3,{0}，别再弄乱我的键盘了！
 
 ### Mission cutscene (shared) <-- important to get right too, will be shared across dozen of missions!
 
-cut.racer.mid_comment.1,圣母玛利亚！
+cut.racer.mid_comment.1,我的妈呀！
 # {0} will be a curse word
-cut.racer.mid_comment.2,{0}，不再是这个。
+cut.racer.mid_comment.2,{0}，我的天哪。
 # {0} will be a curse word
-cut.racer.mid_comment.3,我希望这个{0}能赚钱。
+cut.racer.mid_comment.3,我希望这个{0}可以的。
 # {0} will be a curse adjective (like "friggin")
-cut.racer.mid_comment.4,是的，我明白了。现在说{0}现金。
+cut.racer.mid_comment.4,我明白了，现在只跟讲{0}现金。
 # {0} will be a curse word (crap)
-cut.racer.mid_comment.5,{0}，再次开始。
+cut.racer.mid_comment.5,{0}，又来了。
 
 # {0} will be some name or title
 cut.racer2gov.greet.1,{0}，我听说您想见我。
 cut.racer2gov.greet.2,{0}，您有时间吗？
 cut.racer2gov.greet.3,嘿，{0}，您介意我向您问些什么吗？
-cut.racer2gov.greet.4,*敲敲*
+cut.racer2gov.greet.4,*咚咚咚*
 cut.racer2gov.greet.5,{0}，我一直想问你一些事情。
 cut.racer2gov.greet.6,我可以进来吗？
-cut.racer2gov.greet.7,{0}，您还有什么需要做的额外工作吗？我现金有点短缺。
+cut.racer2gov.greet.7,{0}，您还有什么我可以帮你做的额外工作吗？我现金有点短缺。
 
 # {0} will be a name or a title
-cut.racer2racer.greet.1,嘿{0}！你好吗？
-cut.racer2racer.greet.2,{0}！只是我一直在寻找的人！
+cut.racer2racer.greet.1,嘿{0}！你怎么样了？
+cut.racer2racer.greet.2,{0}！一直在找你呢！
 cut.racer2racer.greet.3,嘿，赛车手！
 cut.racer2racer.greet.4,哦，你好，{0}，我没注意到你。
 
 cut.racer2racer.resp.1,嘿{0}，您的涡轮增压如何悬挂？
-cut.racer2racer.resp.2,是的，让我猜，您想问我一些问题吗？
+cut.racer2racer.resp.2,嗯，我猜您想问我一些问题
 # {0} will be a curse adjective (friggin face)
-cut.racer2racer.resp.3,再也不是你了，我不喜欢你的{0}脸，赛车手。
+cut.racer2racer.resp.3,又是你了，我不喜欢你的{0}脸。
 cut.racer2racer.resp.4,哦，不，昨晚刺破轮胎的不是我！
 # {0} will be an insult (like clown)
 cut.racer2racer.resp.5,您想要什么，{0}？
 
 cut.gov2racer.greet_resp.1,{0}，是的，请进！
 cut.gov2racer.greet_resp.2,{0}，我一直在等你。
-cut.gov2racer.greet_resp.3,请坐下仔细听。
+cut.gov2racer.greet_resp.3,坐好并仔细听。
 # {0} Curse adjective - friggin cash
-cut.gov2racer.greet_resp.4,您想赚一些额外的{0}现金，不是吗？
+cut.gov2racer.greet_resp.4,您想赚一些额外{0}现金，不是吗？
 # {0} Curse adjective - friggin cash
-cut.gov2racer.greet_resp.5,让我猜测，您想赚取额外的{0}现金，不是吗？
+cut.gov2racer.greet_resp.5,我来猜猜，您想赚一点额外{0}现金，不是吗？
 
 # {0} - insult singular
-cut.call.1,嘿，你！ {0}！过来
+cut.call.1,嘿，你！ {0}！过来。
 # {0} - insult singular
 cut.call.2,嘿! {0}！
 # {0} - name or title
-cut.call.3,{0}。我一直在找你！
-cut.call.4,{0}，请稍等，您为什么这么急呢？
+cut.call.3,{0}。我一直在找你呢！
+cut.call.4,{0}，请等一等，您为什么这么急呢？
 cut.call.5,久别重逢。
 # {0} - insult singular
 cut.call.6,哦，只是我一直在寻找的{0}
 # {0} - racer name
 cut.call.7,已经有一段时间了，{0}。
-cut.call.8,问候语，{0}。
+cut.call.8,你好，{0}。
 cut.call.9,欢迎，{0}。
 # {0} - insult singular
-cut.call.10,{0}，不是您，您想要什么？但既然您在这里，我就会为您找到一些东西。
+cut.call.10,{0}，你又来了，您想要什么？但既然你在这里，我有一个东西要给你。
 
 cut.call.resp.1,你想要什么？
 cut.call.resp.2,...
 # {0} - curse adjective (friggin point)
-cut.call.resp.3,是的，是切到{0}点。
+cut.call.resp.3,嗯，快说{0}重点吧。
 # {0} - name or title
-cut.call.resp.4,噢，很高兴见到你，{0}。
-cut.call.resp.5,问候语，{0}。
-cut.call.resp.6,最近我一直需要更多现金，您有什么可以做的吗？
-cut.call.resp.7,一些司机给了我一个非常艰难的时光，认为您可以帮我吗？
-cut.call.resp.8,您是否可以参加任何特别活动，以提高节目的收视率？
+cut.call.resp.4,幸会，{0}。
+cut.call.resp.5,你好，{0}。
+cut.call.resp.6,最近我一直需要更多现金，您有什么需要我帮忙吗？
+cut.call.resp.7,有些赛车手在给我出难题，您可以帮我解决吗？
+cut.call.resp.8,有没有什么特别的活动可以让我来参加，提高节目的收视率？
 
 # {0} below is always government official name or title
 cut.end.player2gov.1,我会看看我能做什么。
-cut.end.player2gov.2,亲爱的{0}，适合您的一切。
+cut.end.player2gov.2,遵命，{0}。
 cut.end.player2gov.3,我有选择吗？
-cut.end.player2gov.4,再没有...
+cut.end.player2gov.4,不会吧...
 cut.end.player2gov.5,这会结束吗？
-cut.end.player2gov.6,好好好我知道了
-cut.end.player2gov.7,这可以。
-cut.end.player2gov.8,是的，当然可以。
+cut.end.player2gov.6,好好好，我知道了
+cut.end.player2gov.7,这个可以。
+cut.end.player2gov.8,好好好，随便。
 cut.end.player2gov.9,好吧，我会尽力的。
 cut.end.player2gov.10,我想回家。
 cut.end.player2gov.11,再见，{0}。
 cut.end.player2gov.12,非常感谢您提供的机会！
 
-cut.end.player2racer.1,当然，这会很有趣。
+cut.end.player2racer.1,当然了，一定会很好玩儿
 # {0} - name or title
-cut.end.player2racer.2,亲爱的{0}，适合您的一切。
+cut.end.player2racer.2,好的，{0}，我一定会做到。
 # {0} - insult singular (i.e. clown)
-cut.end.player2racer.3,开启，{0}！
-cut.end.player2racer.4,是的，终于值得。
-cut.end.player2racer.5,哦，很高兴！
+cut.end.player2racer.3,来吧，{0}！
+cut.end.player2racer.4,是的，终于来了一个值得的东西。
+cut.end.player2racer.5,哦，！
 cut.end.player2racer.6,我会考虑的。
 # {0} - racer name, {1} - curse word (i.e. crap)
-cut.end.player2racer.7,我不喜欢您{0}，但不喜欢您{1}，为什么不呢？
-cut.end.player2racer.8,当然可以
+cut.end.player2racer.7,我不喜欢你，{0}，不过。。。{1}，为什么不呢？
+cut.end.player2racer.8,好吧，随便。
 # {0} - singular insult
-cut.end.player2racer.9,无论如何，{0}。
+cut.end.player2racer.9,随便吧，{0}。
 
-cut.end.racer2player.1,和平了。
-cut.end.racer2player.2,好吧，很快再见。
-cut.end.racer2player.3,我会监督你的。
-cut.end.racer2player.4,看你的六个。
+cut.end.racer2player.1,再见了。
+cut.end.racer2player.2,好的，回头见。
+cut.end.racer2player.3,我会观察你的。
+cut.end.racer2player.4,注意你的背后。
 # {0} will be an noun insult (clown)
-cut.end.racer2player.5,走吧，您该吃我的灰尘了，{0}。
-cut.end.racer2player.6,现在，让我们上路。
-cut.end.racer2player.7,少说话，多做。
-cut.end.racer2player.8,再见
-cut.end.racer2player.9,随你。
+cut.end.racer2player.5,走吧，来吃吃我的灰尘，{0}。
+cut.end.racer2player.6,上路吧
+cut.end.racer2player.7,少吹牛，做给我看看。
+cut.end.racer2player.8,拜拜。
+cut.end.racer2player.9,随便你。
 # {0} will be an noun insult (clown)
-cut.end.racer2player.10,无论如何，{0}。
+cut.end.racer2player.10,随便，{0}。
 
 # {0} - curse adjective (goddamn security)
-cut.end.gov.1,现在走，不然我叫{0}安全。
+cut.end.gov.1,给我走开，不然我就叫{0}保安过来。
 # {0} - insult singular (clown)
-cut.end.gov.2,击败它，{0}。
+cut.end.gov.2,走开，{0}。
 
-cut.end.gov.3,请离开，直到做完再回来。
+cut.end.gov.3,请离开，完成之前不要回来。
 # {0} - insult singular (clown)
-cut.end.gov.4,再见，{0}。
+cut.end.gov.4,拜拜，{0}。
 cut.end.gov.5,再见。
 
-cut.req.drift.1,差点忘了。您必须横盘整理以使其计数！
-cut.req.drift.2,哦，请在漂流时去做，观众会非常喜欢它。
-cut.req.drift.3,最好在滑动时滑动一下。
-cut.req.drift.4,等一下，忘了告诉你。随波逐流，观众喜欢它。
-cut.req.drift.5,他们告诉我你有技能，所以证明一下，在漂移时做。
+cut.req.drift.1,差点忘了。您必须漂流着做才算哦！
+cut.req.drift.2,哦，你要在漂流的时候去做，观众会非常喜欢的。
+cut.req.drift.3,最好在漂流时做的。
+cut.req.drift.4,等一下，忘了跟你说。在漂流时去做，观众比较喜欢这样。
+cut.req.drift.5,他们告诉我你有技能，给我展示一下，在漂移时做。
 
-cut.resp.drift.1,再说一次，这样赢是不可能的！
+cut.resp.drift.1,又是这样的，不可能这样赢的！
 # {0} - curse word (crap)
 cut.resp.drift.2,哦，{0} ...
 # {0} - curse word (crap)
-cut.resp.drift.3,{0}，这将很困难。
-cut.resp.drift.4,好吧，我明白了。
+cut.resp.drift.3,{0}，这会挺难的。
+cut.resp.drift.4,好的，我能行的。
 cut.resp.drift.5,肯定。
 # {0} - name of character (i.e. Brace)
 cut.resp.drift.6,{0}很高兴。
-cut.resp.drift.7,是，长官！
-cut.resp.drift.8,然后横盘整理。
-cut.resp.drift.9,即使你不问我，我也会侧身做！
-cut.resp.drift.10,别说了！
+cut.resp.drift.7,遵命！
+cut.resp.drift.8,那就漂流着吧。
+cut.resp.drift.9,就算你不要求我，我也会在漂流的时候做呀。
+cut.resp.drift.10,不用说了，我知道了！
 # {0} - insult singular (clown)
-cut.resp.drift.11,开启，{0}！
+cut.resp.drift.11,来吧，{0}！
 
 # In block blow, {0} will be second part of the sentence, generated somewhere
 # (i.e. for your trouble, you will receive $1000)
 cut.reward.part.1,麻烦您了，{0}。
-cut.reward.part.2,如果成功，则为{0}。
-cut.reward.part.3_us,如果您不失望，请{0}。
-cut.reward.part.3_me,如果您没有让我失望，请{0}。
-cut.reward.part.4,如果发生这种情况，请{0}。
-cut.reward.part.5,如果您没有失败，请{0}。
-cut.reward.part.6,如果成功，则为{0}。
+cut.reward.part.2,你如果成功的话，{0}。
+cut.reward.part.3_us,你如果不让我们失望的话，{0}。
+cut.reward.part.3_me,如果你不让我失望的话，{0}。
+cut.reward.part.4,如果发生这种情况，{0}。
+cut.reward.part.5,如果你不失败，{0}。
+cut.reward.part.6,如果成功，{0}。
 
 # Same here, {0} will be second part of sentence generated somewhere
 # (i.e. if you fail me like you always do, I will think of some punishment)
 cut.punish.part.1,如果失败，{0}！
-cut.punish.part.2,如果不成功，则为{0}。
-cut.punish.part.3,如果您像往常一样失败了我，{0}！
-cut.punish.part.4,如果您搞砸了，{0}！
-cut.punish.part.4_1,如果您搞砸了，请{0}！
-cut.punish.part.4_2,如果您搞砸了，{0}！
-cut.punish.part.5,如果您设法解决问题，请{0}！
-cut.punish.part.6,如果您不这样做，请{0}。
+cut.punish.part.2,如果不成功，{0}。
+cut.punish.part.3,如果你像往常一样让我失望的话，{0}！
+cut.punish.part.4,如果你搞砸了，{0}！
+cut.punish.part.4_1,如果你把这个搞砸了，{0}！
+cut.punish.part.4_2,如果你把它搞砸了的话，{0}！
+cut.punish.part.5,如果你还是搞砸了，{0}！
+cut.punish.part.6,如果你做不到，{0}。
 
 # In block below {0} will be generated sentence with reward part, {1} with punishment
 # (i.e: If you succeed, you will get $1000, otherwise I will puncture your tires)
-cut.rew.pun.part.1,执行此操作，然后{0}，但是如果失败，请{1}！
-cut.rew.pun.part.2,作为奖励，{0}，但是如果您退缩，{1}！
-cut.rew.pun.part.3,如果发生这种情况，则为{0}，否则为{1}！
-cut.rew.pun.part.4,执行此操作，然后{0}，但也会因失败而受到惩罚。 {1}！
-cut.rew.pun.part.5,如果执行此操作，则为{0}。但是不要以为我会原谅失败，{1}！
+cut.rew.pun.part.1,你如果完成这个任务的话，{0}，但是如果失败的话，{1}！
+cut.rew.pun.part.2,为了奖励你，{0}，但是如果您退缩，{1}！
+cut.rew.pun.part.3,如果发生这种情况，则{0}，否则{1}！
+cut.rew.pun.part.4,做到了的话，{0}，但也会因失败而受到惩罚。 {1}！
+cut.rew.pun.part.5,如果完成，则为{0}。但是不要以为我会原谅失败，{1}！
 cut.rew.pun.part.6,{0}。但是，您不要让我失望，{1}！
-cut.rew.pun.part.7,麻烦您了，{0}。即使失败，{1}！
+cut.rew.pun.part.7,有劳您了，{0}。即使失败，{1}！
 cut.rew.pun.part.8,为此，{0}，但如果不是，则为{1}。
-cut.rew.pun.part.9,为了获得成功，请{0}，但像您一样总是让我失败，而{1}！
+cut.rew.pun.part.9,要是成功，{0}，但像往常一样总是让我失望，{1}！
 
 # Rewards told by government agent. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
 # {0} will be a number
-cut.rew.gov.cash.1,您将获得$ {0}
-cut.rew.gov.cash.2,您将收到$ {0}
-cut.rew.gov.cash.3,我们将给您$ {0}
-cut.rew.gov.cash.4,我们将向您支付$ {0}
+cut.rew.gov.cash.1,你将获得$ {0}
+cut.rew.gov.cash.2,你将收到$ {0}
+cut.rew.gov.cash.3,我们将给你$ {0}
+cut.rew.gov.cash.4,我们将向你支付$ {0}
 cut.rew.gov.cash.5,我给你$ {0}
-cut.rew.gov.car,我会亲自给你买一辆新车
-cut.rew.gov.pts,我将篡改统计信息，您将获得{0}的额外积分
-cut.rew.gov.rnd,会有惊喜的惊喜等着你
-cut.rew.gov.aero,我的技术人员将升级您的AERO
-cut.rew.gov.turbo,机械师将用更大的TURBO取代您的TURBO
-cut.rew.gov.engine,机械师将调整调速器以改善您的发动机
-cut.rew.gov.gears,您的齿轮将获得免费升级
+cut.rew.gov.car,我会亲自给你买一辆崭新的赛车
+cut.rew.gov.pts,我将篡改统计信息，我给你{0}外加的分数
+cut.rew.gov.rnd,会有一个惊喜等着你来领取
+cut.rew.gov.aero,我的技师将升级你的AERO
+cut.rew.gov.turbo,技师将用更大的TURBO取代你的当前TURBO
+cut.rew.gov.engine,技师将调整你的调速器以改善你的发动机
+cut.rew.gov.gears,你的变速齿轮将获得免费升级
 cut.rew.gov.grip,我们将为您提供全新的轮胎，以改善您的GRIP
-cut.rew.gov.none,您将一无所获！哈哈哈
+cut.rew.gov.none,你将一无所获！木啊哈哈哈
 
 # Rewards told by other racer. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
 # {0} will be a number
-cut.rew.racer.cash.1,我的$ {0}雨天基金将归您所有
-cut.rew.racer.cash.2,我将给您价值$ {0}的食品券
+cut.rew.racer.cash.1,我的${0}储蓄将归您所有
+cut.rew.racer.cash.2,我将给您价值${0}的食品券
 cut.rew.racer.cash.3,我会把口袋里的东西拿出来。应该是大约$ {0}
-cut.rew.racer.cash.4,我将从银行借$ {0}来付钱给您
+cut.rew.racer.cash.4,我将从银行贷${0}来付钱给您
 cut.rew.racer.cash.5,我会给$ {0}
-cut.rew.racer.car,我会让你有我的全新车
-cut.rew.racer.pts,我有一个朋友会篡改统计信息，您将为此赛事获得{0}的额外积分
-cut.rew.racer.rnd,我会值得的
-cut.rew.racer.aero,我有一个想法，如何用一些胶带和WD-40升级您的AERO
-cut.rew.racer.turbo,我会擦亮你的涡轮
-cut.rew.racer.engine,我将用更强大的引擎交换您的引擎
-cut.rew.racer.gears,我会为您的齿轮安装一个变速杆
+cut.rew.racer.car,我会把我崭新的赛车送给您
+cut.rew.racer.pts,我有一个朋友会帮忙篡改统计信息，您在这次车赛中将多获得{0}分
+cut.rew.racer.rnd,你一定会觉得很值得
+cut.rew.racer.aero,我有一个想法，把一些胶带和WD-40用来升级您的AERO
+cut.rew.racer.turbo,我会擦亮您的涡轮
+cut.rew.racer.engine,我将用更强大的发动机交换您的发动机
+cut.rew.racer.gears,我会为您装一个更短的变速杆
 cut.rew.racer.grip,我将与您交换全新的轮胎，以便您获得更好的GRIP
 cut.rew.racer.none,您将一无所获！哈哈哈
 
 # Punishments told by government agent. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
-cut.punish.gov.cash.1,您将损失$ {0}
-cut.punish.gov.cash.2,您将需要向我们支付$ {0}
-cut.punish.gov.cash.3,您的汽车保险费将增加$ {0}
-cut.punish.gov.cash.4,我将从您的银行帐户中提取$ {0}
-cut.punish.gov.cash.5,您必须在我刚刚下载的这款新手机游戏中为100颗钻石支付$ {0}
-cut.punish.gov.car,我将亲自用行人加农炮将您的汽车吹成碎片。没有机械师会设法将其放回原处
-cut.punish.gov.pts,我将运行此数据库查询，这将使您损失{0}分
-cut.punish.gov.rnd,我会做些令人讨厌的事情，以至于他们必须将其作为突发新闻报道，并相信我，您的照片会在那里
-cut.punish.gov.aero,我将要求机械师在烤架上贴上{0}，以降低AERO的等级
-cut.punish.gov.turbo,我将亲自在您的TURBO中贴上{0}
-cut.punish.gov.engine,我们将从您的引擎中删除几个随机的部分
-cut.punish.gov.gears,我们将用{0}代替您的变速箱油以降低您的齿轮
-cut.punish.gov.grip,我要请机械师在轮胎上擦{0}以使GRIP混乱
+cut.punish.gov.cash.1,你将损失${0}
+cut.punish.gov.cash.2,你将需要向我们支付${0}
+cut.punish.gov.cash.3,你的赛车保险费将增加${0}
+cut.punish.gov.cash.4,我将从你的银行帐户中提取${0}
+cut.punish.gov.cash.5,你必须在我刚刚下载的这款新手游中为我买价值${0}的100颗钻石
+cut.punish.gov.car,我将亲自用行人加农炮将你的赛车吹成碎片。没有技师能够将其修好
+cut.punish.gov.pts,我将运行此数据库程序，这将使你损失{0}分
+cut.punish.gov.rnd,我会做些令人讨厌的事情，以至于他们必须将其作为突发新闻报道，我会让他们认为是你搞的
+cut.punish.gov.aero,我将要求技师在你的赛车挡泥板上贴上{0}，以降低AERO的等级
+cut.punish.gov.turbo,我将亲自在你的TURBO中贴上{0}
+cut.punish.gov.engine,我们将从你的引擎中删除几个随机的部分
+cut.punish.gov.gears,我们将用{0}代替你的变速箱油以降低你的齿轮性能
+cut.punish.gov.grip,我要请技师在轮胎上擦{0}，以搞砸你的GRIP
 cut.punish.gov.none,不会有坏事发生
 
 # Punishments told by other racer. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
-cut.punish.racer.cash.1,您将必须购买价值$ {0}的高风险TSLA空头看跌期权
-cut.punish.racer.cash.2,您将需要付给我$ {0}
-cut.punish.racer.cash.3,您将不得不给我$ {0}或您戴的那只酷炫的卡西欧手表
-cut.punish.racer.cash.4,我将从您的车中抽出价值$ {0}的燃油
-cut.punish.racer.cash.5,您将需要在我刚刚下载的这款新手机游戏中购买500颗宝石。享受75％的折扣，您只需支付$ {0}
+cut.punish.racer.cash.1,您将必须购买价值${0}的高风险TSLA空头看跌期权
+cut.punish.racer.cash.2,您将需要付给我${0}
+cut.punish.racer.cash.3,您将不得不给我${0}或您戴的那只酷炫的卡西欧手表
+cut.punish.racer.cash.4,我将从您的车中抽出价值${0}的油
+cut.punish.racer.cash.5,您将需要在我刚刚下载的这款新手游中购买500颗宝石。打75折，您只需给我${0}
 # "Lionard 125" should not be translated, it's a model name of cheapest car in the game
-cut.punish.racer.car,我们将不得不交换汽车。我目前正在开车撞一辆Lionard 125，当地的垃圾场一直在问这个问题
-cut.punish.racer.pts,我有一个黑客朋友，他会抹掉您的分数{0}分
-cut.punish.racer.rnd,我将不幸的车轮打转，并随机选择对您或您的汽车进行处理
+cut.punish.racer.car,我们将不得不交换赛车。我目前正在开很破的一辆Lionard 125，当地的垃圾场一直在问我要不要给他们
+cut.punish.racer.pts,我有一个黑客朋友，他会编辑您的分数，将从你的分数减除{0}分
+cut.punish.racer.rnd,我将随机选择对您或您的赛车做点坏事
 cut.punish.racer.aero,我将{0}放入您的烤架中以降低您的AERO
 cut.punish.racer.turbo,我会在您的TURBO中贴上{0}
 cut.punish.racer.engine,我将用{0}填充您的引擎
@@ -1360,7 +1360,7 @@ cut.shield.tip,记住牛顿第三定律
 ### Make car come last
 
 # {0} - clown
-cut.finlast.req,我会给你一把武器，并在HUD上标记目标汽车。让{0}付钱！
+cut.finlast.req,我会给你一把武器，并在HUD上标记目标赛车。让{0}付钱！
 
 # {0} - player name, {1} - vegan burger
 cut.finlast.racer.intro.1,嘿，{0}！我有一个忙要问。昨晚，一个赛车手在我的排气管中塞了一个{1}，我想报仇！
@@ -1574,7 +1574,7 @@ cut.hitobj.o.pedestrians,行人
 cut.hitobj.o.snowmen,雪人
 
 cut.hitobj.tip.neg,避免不计后果地开车撞入有标记的物体
-cut.hitobj.tip.pos,查找标记的对象
+cut.hitobj.tip.pos,查找标记的物体
 
 # Reward short names
 # 12 PTS (short for points, use same as in terms)
@@ -1600,7 +1600,7 @@ cut.pun.short.grip,握把-1
 cut.while_drifting,在漂流时
 
 cut.short.full_throttle,挑战：全油门
-cut.short.tiny_car,挑战：小汽车
+cut.short.tiny_car,挑战：小赛车
 cut.short.huge_car,挑战：巨大的车
 cut.short.inv_steer,挑战：反向转向
 cut.short.shield,挑战：力场
@@ -1656,9 +1656,9 @@ cut.prank.player.react2.10_2,球鞋
 # {0} - curse word (crap)
 cut.prank.tiny_car.1,您将永远不会相信发生了什么！你的车！ {0}！他们开了个恶作剧，把它缩小了。您将需要使用操纵杆来控制它，因为您的屁股无法放入其中。搞笑！
 # {0} - random laughter from above
-cut.prank.tiny_car.2,实验室里有人测试了汽车上的收缩射线。别担心，这是一个遥控器，您仍然可以驱动它，但这将非常困难。 {0}。
+cut.prank.tiny_car.2,实验室里有人测试了赛车上的收缩射线。别担心，这是一个遥控器，您仍然可以驱动它，但这将非常困难。 {0}。
 cut.prank.tiny_car.3,您看过一部叫《蚂蚁》的老电影吗？好吧，你必须活下去！
-cut.prank.tiny_car.4,我知道这没有任何意义，但是车库发生了事故。收缩的射线向错误的方向发射，您的汽车被撞了。这是一个遥控器，可用于控制您的小型汽车。
+cut.prank.tiny_car.4,我知道这没有任何意义，但是车库发生了事故。收缩的射线向错误的方向发射，您的赛车被撞了。这是一个遥控器，可用于控制您的小型赛车。
 
 cut.prank.tiny_car.descr,用微型车完成比赛
 cut.prank.tiny_car.tip,您可以像平常一样缩小缝隙
@@ -1666,12 +1666,12 @@ cut.prank.tiny_car.tip,您可以像平常一样缩小缝隙
 # {0} - curse word (crap)
 cut.prank.huge_car.1,您将永远不会相信发生了什么！你的车！ {0}！他们扩大了它。好的{0}，现在轮到您了！啊，我们知道，在那些微小的车道上行驶将非常棘手。搞笑！
 # {0} - random laughter from above
-cut.prank.huge_car.2,实验室里有人在汽车上测试了物质密度调节射线。不用担心，您仍然可以远程控制它。 {0}
+cut.prank.huge_car.2,实验室里有人在赛车上测试了物质密度调节射线。不用担心，您仍然可以远程控制它。 {0}
 cut.prank.huge_car.3,你看过那些哥斯拉的老电影吗？当然应该有，你来自那些古老的时代。无论如何，你的车变大了。保重
-cut.prank.huge_car.4,我知道这没有任何意义，但是车库发生了事故。粒子密度调整射线向错误的方向发射，您的汽车被撞了。您很幸运，它不是您的脸。这是一个遥控器，可用来控制您的超大型汽车。
+cut.prank.huge_car.4,我知道这没有任何意义，但是车库发生了事故。粒子密度调整射线向错误的方向发射，您的赛车被撞了。您很幸运，它不是您的脸。这是一个遥控器，可用来控制您的超大型赛车。
 
-cut.prank.huge_car.descr,用扩大的汽车完成比赛
-cut.prank.huge_car.tip,更大的尺寸意味着对其他汽车的损害更大！
+cut.prank.huge_car.descr,用扩大的赛车完成比赛
+cut.prank.huge_car.tip,更大的尺寸意味着对其他赛车的损害更大！
 
 # {0} - crap, {1} - some item (bacon burger)
 cut.prank.full_throttle.1,您将永远不会相信发生了什么！你的车！ {0}！他们已将{1}放在您的节流阀内。看着你开那个东西，我会笑我的屁股！
@@ -1688,7 +1688,7 @@ cut.prank.full_throttle.tip,专注于转向并避免任何障碍
 
 # {0} - crap
 cut.prank.inv_steer.1,您将永远不会相信发生了什么！你的车！ {0}！他们已经扭转了方向盘。哈哈，我会亲自看着你开的东西！
-cut.prank.inv_steer.2,我们有一个实习机械师在您的汽车上工作，他可能已经换错了一些电线。控件可能会有些奇怪。 *试着笑*
+cut.prank.inv_steer.2,我们有一个实习机械师在您的赛车上工作，他可能已经换错了一些电线。控件可能会有些奇怪。 *试着笑*
 
 cut.prank.inv_steer.descr,倒转转向即可完成比赛
 cut.prank.inv_steer.tip,如果您可以颠倒使用控制器...
@@ -1715,7 +1715,7 @@ cut.fin_x.descr2,完成{0}或以下
 ### Take Damage
 
 # {0} - a number
-cut.dmg.req,对您的汽车造成至少{0}的伤害。
+cut.dmg.req,对您的赛车造成至少{0}的伤害。
 
 cut.dmg.racer.intro.1,我知道昨晚是我的轮胎刺破了你！如果您接受我的挑战，我将顺其自然。如果你不会失败的话，我什至会投入一些好东西。
 
@@ -1757,7 +1757,7 @@ cut.ped.req.2,哦，当您徒步漫步时，为我拍{0}张精美的特写车照
 cut.ped.racer.intro.1,猜猜{0}是什么。我终于弄清楚是谁把我的天窗倒了，现在该付款了。我已将{1}倒入您的油箱中，因此您可能需要冲洗系统。太糟糕了，您无法参加这场比赛，{2}！
 
 # {0} - vegan olive oil
-cut.ped.gov.intro.1,不要为此生我的气，但这是交易。我们正在拍摄一部成人娱乐电影，而您为此阶段准备的汽车刚好可以容纳5人和一名摄影师。他们还把{0}弄得一团糟，但是您不用担心，我们稍后会清理它！
+cut.ped.gov.intro.1,不要为此生我的气，但这是交易。我们正在拍摄一部成人娱乐电影，而您为此阶段准备的赛车刚好可以容纳5人和一名摄影师。他们还把{0}弄得一团糟，但是您不用担心，我们稍后会清理它！
 cut.ped.gov.intro.2,所以，你以为你可以放下大个子，对吧？再想一想。接下来的几天您将成为行人，我们也将带您上车。下次您最好记住这一点！
 # {0} - clown
 cut.ped.gov.intro.3,以为您可以摆脱自己的st头，小{0}？在接下来的几场比赛中，您的车将与我们同住。再做一次，你会后悔的！
@@ -1774,7 +1774,7 @@ cut.ped.descr1,拍摄一张特写车照
 cut.ped.descr2,拍摄{0}张特写车照
 cut.ped.progress1,拍摄的照片
 # {0} - a number
-cut.ped.progress2,{0}张汽车照片
+cut.ped.progress2,{0}张赛车照片
 
 ### Your car stolen
 
@@ -1824,9 +1824,9 @@ cut.spam.req,至少打印{0}批传单
 cut.spam.racer.intro.1,Psssst ...听着，我有一个问题要问，我们正在组织一次针对SOFACT的秘密地下运动。我们希望有尽可能多的人加入我们的运动。如果您能帮助传播这个词，对我们来说将意味着一个世界！
 
 # {0} - vegan olive oil
-cut.spam.gov.intro.1,我们希望传播有关{0}的健康益处的新宣传。我们继续前进，并在您的汽车顶部安装了打印机。现在去使用它。
+cut.spam.gov.intro.1,我们希望传播有关{0}的健康益处的新宣传。我们继续前进，并在您的赛车顶部安装了打印机。现在去使用它。
 # {0} - bacon burgers
-cut.spam.gov.intro.2,我们伪造了一些关于{0}的研究结果，我们希望每个人都阅读它。我们继续前进，并在您的汽车顶部焊接了一台打印机。在下一场比赛中继续使用它。
+cut.spam.gov.intro.2,我们伪造了一些关于{0}的研究结果，我们希望每个人都阅读它。我们继续前进，并在您的赛车顶部焊接了一台打印机。在下一场比赛中继续使用它。
 
 # Do not modify {Action.Fire}
 cut.spam.tip,继续按{Action.Fire}以打印这些传单
@@ -1842,7 +1842,7 @@ cut.weaponize.gov.intro.1,最近，《血腥拉力赛表演》的观众非常无
 # {0} - clowns
 cut.weaponize.gov.intro.2,我看到你们{0}中的大多数人得到了全新的油漆工作。希望他们在下一场比赛后保持这种状态。
 
-cut.weaponize.descr,用武器装备的汽车完成比赛
+cut.weaponize.descr,用武器装备的赛车完成比赛
 cut.weaponize.tip,值得庆幸的是你现在还不是行人
 
 ### Campaign Win (Freedom)
@@ -1906,7 +1906,7 @@ cut.fail.3,好，足够的戏剧！ {0}，安全将陪伴您进入冰箱！对�
 
 # Please check that you are using same terms as main_menu.btn.settings / settings.gameplay, etc
 dial.discord_post_permission,我们可以在“血腥拉力赛表演失调”中发布您的分数吗？ <br>将显示Steam昵称，跟踪时间和尝试次数。 <br>随时在“设置”>“游戏方式”>“发布到不和谐”中更改选择
-dial.time_attack_car_locked,所选汽车已锁定，请先在Campaign中升级您的赛车手以解锁它！
+dial.time_attack_car_locked,所选赛车已锁定，请先在Campaign中升级您的赛车手以解锁它！
 dial.camp.corrupted_save_files,发现损坏的广告系列保存文件：{0}
 dial.camp.load_fail,无法加载保存状态：{0} <br> {1}
 dial.camp.not_enough_cash,您没有足够的现金！
@@ -1961,7 +1961,7 @@ dial.camp.card.some_peds,有些赛车手付不起舞台费。他们将以行人�
 dial.paint.no_1k,您没有$ 1000！
 
 dial.upgrade.not_in_time_attack,在Time Attack模式下无法更改调音
-dial.upgrade.week_over,现在无法升级汽车，本周结束了！力学已经在发展中。
+dial.upgrade.week_over,现在无法升级赛车，本周结束了！力学已经在发展中。
 dial.upgrade.already_done,机械师仍在努力进行您以前的升级！完成下一阶段后再回来。
 dial.upgrade.no_cash,您负担不起这次升级！
 
@@ -1999,25 +1999,25 @@ dial.ed.no_cars,您还没有车！创建一个新车并先保存。
 dial.ed.name_the_car,命名新车
 dial.ed.car_name,车名
 
-dial.ed.car_sprites_missing,一些必需的精灵丢失了！请参考《汽车改装指南》并创建以下文件：{0}。
-dial.ed.car_sprites_deleted,您不能只删除汽车精灵文件！缺少的必需文件已替换为透明的1x1像素：{0}。
-dial.ed.remove_car_name_colon,请从汽车型号名称中删除“：”！
+dial.ed.car_sprites_missing,一些必需的精灵丢失了！请参考《赛车改装指南》并创建以下文件：{0}。
+dial.ed.car_sprites_deleted,您不能只删除赛车精灵文件！缺少的必需文件已替换为透明的1x1像素：{0}。
+dial.ed.remove_car_name_colon,请从赛车型号名称中删除“：”！
 dial.ed.car_name_taken,型号名称“ {0}”已被使用！
-dial.ed.car_too_fast,《 SOFACT规定》不允许汽车在调校之前超过速度指数{0}！这辆车的速度指数为{1}。首先减少“参数”中的内容！
+dial.ed.car_too_fast,《 SOFACT规定》不允许赛车在调校之前超过速度指数{0}！这辆车的速度指数为{1}。首先减少“参数”中的内容！
 dial.ed.car_close_confirm,您确定要关闭车子吗？任何未保存的更改将丢失
 dial.ed.car_delete_confirm,您确定要删除这辆车：{0}吗？
-dial.ed.delete_error_no_dir,无法删除汽车，找不到目录： <br> {0}
-dial.ed.delete_error_file_open,无法删除汽车目录。关闭所有打开的文件，然后尝试手动删除。 <br> {0}
-dial.ed.save_car_once,在编辑子画面之前，请至少保存汽车一次
-dial.ed.save_before_reload,保存后，您只能重新加载汽车！
+dial.ed.delete_error_no_dir,无法删除赛车，找不到目录： <br> {0}
+dial.ed.delete_error_file_open,无法删除赛车目录。关闭所有打开的文件，然后尝试手动删除。 <br> {0}
+dial.ed.save_car_once,在编辑子画面之前，请至少保存赛车一次
+dial.ed.save_before_reload,保存后，您只能重新加载赛车！
 dial.ed.no_steam_share_car_err,没有与Steam的连接。无法共享车！
 dial.ed.car_share_no_desc,在上传到Steam Workshop之前，请先填写说明！
-dial.ed.car_save_first,请先保存汽车！
-dial.ed.car_share_err_sprites_missing,无法共享汽车，缺少必需的精灵： <br> {0}
-dial.ed.car_share_err_sprites_recovered,您不能只删除汽车精灵文件！缺少的必需文件已替换为透明的1x1像素：{0}。您现在应该可以共享汽车了。
+dial.ed.car_save_first,请先保存赛车！
+dial.ed.car_share_err_sprites_missing,无法共享赛车，缺少必需的精灵： <br> {0}
+dial.ed.car_share_err_sprites_recovered,您不能只删除赛车精灵文件！缺少的必需文件已替换为透明的1x1像素：{0}。您现在应该可以共享赛车了。
 dial.ed.car_save_alien_files,请删除不属于mod目录的文件。仅允许* .png，*。txt和item.car！违规文件：{0}
-dial.ed.car_share_sprite_warning,警告：如果您尚未修改精灵，汽车将被拒绝！ <br>您确定要分享吗？
-dial.ed.car_name_not_available,汽车名称不可用：{0}。请更改它，然后尝试再次保存。
+dial.ed.car_share_sprite_warning,警告：如果您尚未修改精灵，赛车将被拒绝！ <br>您确定要分享吗？
+dial.ed.car_name_not_available,赛车名称不可用：{0}。请更改它，然后尝试再次保存。
 
 dial.ed.path_start_open,无法移动公开曲目的开始位置！
 
@@ -2031,7 +2031,7 @@ dial.settings_reset,游戏配置结构已由开发人员更改，您的设置已
 dial.stat_reset_dev,开发人员已触发完全状态重置。对造成的不便表示歉意。
 dial.are_you_sure,你确定吗？
 
-dial.race.racers_over_limit,在一场比赛中，您不能拥有超过{0}辆汽车！
+dial.race.racers_over_limit,在一场比赛中，您不能拥有超过{0}辆赛车！
 dial.race.player_remove_confirm,您确定要删除播放器{0}：{1}吗？
 dial.race.race_alone,除非您处于“时间攻击”模式，否则您不应该一个人开车。使用“添加玩家”，“ + 1”或“ +10”按钮添加一些对手！
 dial.race.no_track,请先选择一些曲目！
@@ -2072,15 +2072,15 @@ dial.reset_tutorials.confirm,您确定要标记所有提示为未显示吗？
 
 dial.confirm_exit_to_desktop,您确定要退出桌面吗？
 
-dial.car_model_unavailable,嘿，汽车模型“ {0}”不再可用！您要继续加载广告系列吗？无法使用的汽车将消失，不退款！
+dial.car_model_unavailable,嘿，赛车模型“ {0}”不再可用！您要继续加载广告系列吗？无法使用的赛车将消失，不退款！
 
-msg.track_high_obj_density,该轨道具有较高的对象密度（{0:0} / 100m）。\ n默认情况下，它不会包含在自定义Campaign中！
+msg.track_high_obj_density,该轨道具有较高的物体密度（{0:0} / 100m）。\ n默认情况下，它不会包含在自定义Campaign中！
 msg.track_high_crowd_density,此曲目的人群密度很高（{0:0} / 100m）。\ n默认情况下，该曲目不会包含在自定义Campaign中！
 msg.cheats_leaderboards,排行榜已禁用！您已使用游戏中的游戏作弊或物理实验。重新启动游戏以重新获得排行榜的访问权限。
 msg.track_load_failed,曲目无法正确加载，它已损坏或不可用！再试一次，或重新生成它。
 msg.race_input_restart_warning,警告：在比赛中更改输入映射需要比赛重新开始才能应用效果！
 msg.failed_deleting_folder,删除文件夹失败。确保关闭所有打开的文件<br> {0}
-msg.missing_car_model,缺少汽车模型。 ID：{0}。 <br>最有可能取消订阅的mod或已删除的自定义汽车。
+msg.missing_car_model,缺少赛车模型。 ID：{0}。 <br>最有可能取消订阅的mod或已删除的自定义赛车。
 msg.missing_controls,缺少键绑定
 msg.gen.analyzing_road,分析道路曲率
 msg.gen.calculating_lines,计算赛车线
@@ -2148,7 +2148,7 @@ msg.final_lap,最后一圈！
 msg.lap_did_not_count,圈数不算
 msg.wrong_way,错误的方法！
 msg.no_reset_start_line,无法重置，起始线尚未越过！
-msg.no_reset_too_often,您不能经常重置汽车！
+msg.no_reset_too_often,您不能经常重置赛车！
 msg.camera_mode,相机模式
 msg.camera_zoom,相机变焦
 msg.ped_cannon_tip,驶过行人或等到加农炮重新加载！
@@ -2156,12 +2156,12 @@ msg.corner_cut,切角罚款
 msg.get_on_track,重新回到轨道！
 msg.reset_in,重设{0:0.00}秒
 msg.offroad_pen,越野处罚
-msg.car_reset,汽车重置
+msg.car_reset,赛车重置
 msg.cheating_detected,检测到作弊
 msg.corner_cut_forgiven.1,偷工减料。不要再做一次！
 msg.corner_cut_forgiven.2,偷工减料。法官正在移开视线。
 msg.ped_sucked_in_cannon,您陷入了行人大炮！
-msg.x_invalid_obj,有{0}个无效的对象
+msg.x_invalid_obj,有{0}个无效的物体
 msg.wasted,浪费
 
 msg.hard_congrats,恭喜，您已解除困难难度
@@ -2187,7 +2187,7 @@ msg.upload_fail,无法更新页首横幅，将在{2}秒后重试（{0} / 10个AP
 
 load.downloading_score,下载最接近的排行榜得分
 load.downloading_ghost_car,下载Ghost Car数据
-load.launching_battle,展开汽车战
+load.launching_battle,展开赛车战
 load.launching_race,启动比赛
 load.starting_race,启动引擎
 load.checking_mods,检查订阅的Mod
@@ -2203,8 +2203,8 @@ load.insults,加载随机侮辱
 load.avatars,载入头像
 load.avatar_custom,加载自定义头像：{0}
 load.cars,装车
-load.workshop_car_tex,正在加载工作坊汽车贴图：{0} / {1}
-load.car_tex,正在加载汽车贴图：{0} / {1}
+load.workshop_car_tex,正在加载工作坊赛车贴图：{0} / {1}
+load.car_tex,正在加载赛车贴图：{0} / {1}
 load.paint_job,正在加载绘画作业：{0}
 load.track_campaign,正在加载广告系列跟踪：{0}
 load.custom_tracks,加载自定义跟踪文件
@@ -2220,7 +2220,7 @@ scene.race_setup,比赛设置
 scene.race,种族
 scene.main_menu,主菜单
 scene.track_editor,曲目编辑器
-scene.car_editor,汽车编辑
+scene.car_editor,赛车编辑
 scene.campaign,运动
 scene.kickstart,初始
 
@@ -2243,16 +2243,16 @@ weapon.grappling_hook,抓钩
 # TUTORIALS
 # Watch out for the <br>, these are new lines. They must not be removed!
 
-tut.basic_driving.head,驾驶汽车
+tut.basic_driving.head,驾驶赛车
 tut.basic_driving.1,-按住{Action.Accelerate}可以加速<br> -使用{Action.Steer}进行操纵<br> -如果您使用的是控制器，则可以选择要应用多少油门或转向<br> -使用控制器更容易操作！
 tut.basic_driving.2,-尽早发现弯角<br> -在急转弯之前开始制动<br> -使用{Action.Brake}刹车<br> -释放{Action.Accelerate}也会降低速度
 tut.basic_driving.3,-如果看到超调，请使用手刹<br> -按{Action.Handbrake}以应用手刹
 
 tut.camera.head,相机控制
-tut.camera.1,-有多种相机缩放和旋转模式可供选择<br> -点击{Action.Zoom}可以循环切换相机的缩放模式<br> -使用“远距变焦”时，您可以从高处看到汽车，但是云层可能会遮挡您的视线
-tut.camera.2,-近摄镜头变焦可让您近距离观看汽车<br> -开车可能并不容易，因为您看不到前方的路<br> -您可以使用小地图来预测拐角
+tut.camera.1,-有多种相机缩放和旋转模式可供选择<br> -点击{Action.Zoom}可以循环切换相机的缩放模式<br> -使用“远距变焦”时，您可以从高处看到赛车，但是云层可能会遮挡您的视线
+tut.camera.2,-近摄镜头变焦可让您近距离观看赛车<br> -开车可能并不容易，因为您看不到前方的路<br> -您可以使用小地图来预测拐角
 tut.camera.3,-点击{Action.Camera}可以循环选择相机旋转模式<br> -固定道路摄像头根本不会旋转
-tut.camera.4,-固定车载摄像头将保持与汽车相同的旋转<br> -浮动摄像头位于固定汽车和固定道路之间<br> -找到最喜欢的一个
+tut.camera.4,-固定车载摄像头将保持与赛车相同的旋转<br> -浮动摄像头位于固定赛车和固定道路之间<br> -找到最喜欢的一个
 tut.camera.5,-您可以转到“设置”>“游戏”来更改相机设置的默认设置<br> -如果您想减少屏幕抖动，请更改“相机抖动”
 
 tut.camp.add_racer.head,添加或编辑赛车手
@@ -2262,18 +2262,18 @@ tut.camp.advance.head,推进运动
 tut.camp.advance.1,-恭喜，您已经在第一周幸存了下来<br> -准备进行操作时，请点击“高级”按钮<br> -将产生新的一周
 
 tut.camp.car_unlock.head,新车上市
-tut.camp.car_unlock.1,-您已经开出了负担得起的更好的汽车！ <br> -去车库找到它
-tut.camp.car_unlock.2,-选择可以买到的最好的汽车<br> -点击购买按钮购买<br><br> -考虑在购买前先涂漆新车
+tut.camp.car_unlock.1,-您已经开出了负担得起的更好的赛车！ <br> -去车库找到它
+tut.camp.car_unlock.2,-选择可以买到的最好的赛车<br> -点击购买按钮购买<br><br> -考虑在购买前先涂漆新车
 
 tut.camp.first_car.head,你的第一辆车
-tut.camp.first_car.1,-你没有车，但是有一点钱<br> -点击“购买汽车”访问车库
+tut.camp.first_car.1,-你没有车，但是有一点钱<br> -点击“购买赛车”访问车库
 
 tut.camp.first_race.head,首场比赛
 tut.camp.first_race.1,-是时候参加第一场比赛了！ <br> -点击舞台卡开始<br> -如果您看到代通知，则一组训练有素的猴子正在努力准备您的赛道。在开始比赛之前，请等待该通知消失。
 
 tut.camp.garage.head,车库
-tut.camp.garage.1,-您现在唯一负担得起的汽车是莱昂纳德125 <br> -新车将在您升级时解锁
-tut.camp.garage.2,-您可以在购买前免费为汽车重新粉刷<br> -购买汽车后，补漆需要现金
+tut.camp.garage.1,-您现在唯一负担得起的赛车是莱昂纳德125 <br> -新车将在您升级时解锁
+tut.camp.garage.2,-您可以在购买前免费为赛车重新粉刷<br> -购买赛车后，补漆需要现金
 
 tut.camp.racer_setup.head,创建你的赛车
 tut.camp.racer_setup.1,-为您的赛车手选择头像。您可以从计算机上的图像使用自定义图像。 <br> -输入您的赛车手名称，或单击RANDOMIZE生成一个<br> -选择您的音调（会影响对话音） <br> -然后点击注册
@@ -2285,38 +2285,38 @@ tut.camp.stage_rewards.head,舞台奖励
 tut.camp.stage_rewards.1,-比赛结束后，您将获得动作奖励<br> -彩色奖励物品更有价值
 tut.camp.stage_rewards.2,-默认情况下，仅显示玩家奖励<br> -单击“所有赛车手”以查看所有赛车手的奖励方式
 
-tut.camp.car_upgrades.head,汽车升级
-tut.camp.car_upgrades.1,-您已解锁新的汽车升级<br> -单击零件图标以打开升级视图<br> -可升级部件的上方悬停着向上箭头图标
+tut.camp.car_upgrades.head,赛车升级
+tut.camp.car_upgrades.1,-您已解锁新的赛车升级<br> -单击零件图标以打开升级视图<br> -可升级部件的上方悬停着向上箭头图标
 tut.camp.car_upgrades.2,-点击价格按钮购买升级<br> -升级时会解锁更多升级
 
-tut.car_damage.head,汽车损坏
-tut.car_damage.1,-好像您的汽车受到了严重损坏<br> -注意右上方的健康栏<br> -您可以在带武器的比赛中或在汽车战中使用扳手通电来修复损坏
-tut.car_damage.2,-损坏的汽车失去一些最高速度<br> -损坏的汽车泄漏的滑油
+tut.car_damage.head,赛车损坏
+tut.car_damage.1,-好像您的赛车受到了严重损坏<br> -注意右上方的健康栏<br> -您可以在带武器的比赛中或在赛车战中使用扳手通电来修复损坏
+tut.car_damage.2,-损坏的赛车失去一些最高速度<br> -损坏的赛车泄漏的滑油
 
 tut.car_reset.head,重置你的车
-tut.car_reset.1,-陷入困境吗？我们已经覆盖了您！ <br> -按住{Action.Brake}将使您的汽车倒退<br> -按{Action.ResetCar}使您的汽车重回正轨
+tut.car_reset.1,-陷入困境吗？我们已经覆盖了您！ <br> -按住{Action.Brake}将使您的赛车倒退<br> -按{Action.ResetCar}使您的赛车重回正轨
 
 tut.corner_cut.head,切角处罚
-tut.corner_cut.1,-好像您刚刚走了个弯！ <br> -根据法官的心情，您可能会被宽恕或受到处罚<br> -轻罚是暂时的放缓<br> -重罚是重置汽车<br> -允许切角的数量取决于游戏模式和难度
+tut.corner_cut.1,-好像您刚刚走了个弯！ <br> -根据法官的心情，您可能会被宽恕或受到处罚<br> -轻罚是暂时的放缓<br> -重罚是重置赛车<br> -允许切角的数量取决于游戏模式和难度
 
 tut.custom_race_dash.head,自定义种族仪表板
 tut.custom_race_dash.1,-欢迎使用“自定义种族”仪表板。乍一看可能有些让人不知所措，所以这里有一些帮助<br> -如果您想和朋友一起玩，请使用“添加播放器”按钮<br> -您也可以通过这种方式添加AI赛车手
 tut.custom_race_dash.2,-要快速添加随机的AI对手，请使用“ +1”和“ +10”按钮<br> -您可以一次与众多AI对手比赛！ <br> -要删除所有其他赛车手，请点击“ 0”
 tut.custom_race_dash.3,-与“广告系列”模式不同，您可以在此处选择所需的升级<br> -单击零件图标可循环浏览升级级别<br> -您可以为每个赛车手配置单独的升级
-tut.custom_race_dash.4,-有一些游戏模式可以选择<br> -“种族”是与其他汽车的常规比赛<br> -“时间攻击”用于设置全球排行榜的最佳单圈时间<br> -在“汽车战”中，您有时间限制和武器。您不必在轨道上行驶。
+tut.custom_race_dash.4,-有一些游戏模式可以选择<br> -“种族”是与其他赛车的常规比赛<br> -“时间攻击”用于设置全球排行榜的最佳单圈时间<br> -在“赛车战”中，您有时间限制和武器。您不必在轨道上行驶。
 tut.custom_race_dash.5,-选择您想参加的赛道<br> -您还可以生成唯一的曲目<br> -从Steam Workshop下载更多曲目或在Track Editor中创建自己的曲目
 tut.custom_race_dash.6,-配置自定义比赛后，点击左下角的红色按钮开始比赛
 
 tut.time_attack.head,自定义种族：时间攻击
-tut.time_attack.1,-在“时间攻击”模式下，汽车升级锁定在1级
+tut.time_attack.1,-在“时间攻击”模式下，赛车升级锁定在1级
 tut.time_attack.2,-要查看排行榜，请点击顶部栏中的“排行榜”按钮<br> -AI赛车手在“时间攻击”模式下不可用<br> -您可以与人类玩家进行分屏会话
 
 tut.drift.head,漂流
 tut.drift.1,-您刚刚进行了一次干净的漂移<br> -漂移是横行的艺术<br> -使用Nitro提升和活动中的现金奖励可控制的漂流<br> -如果您偏离轨道，漂移不会计算在内
-tut.drift.2,-不同的汽车具有不同的漂移特性<br> -不同的表面类型和天气条件具有不同的漂移特性<br> -汽车调整会影响漂移
+tut.drift.2,-不同的赛车具有不同的漂移特性<br> -不同的表面类型和天气条件具有不同的漂移特性<br> -赛车调整会影响漂移
 
-tut.paint.head,涂漆汽车
-tut.paint.1,-使用MAIN COLOR更改汽车的底色<br> -最多有两个油漆层<br> -单击“油漆层”图像以选择其他图案<br> -您可以使用自定义绘画图层图像
+tut.paint.head,涂漆赛车
+tut.paint.1,-使用MAIN COLOR更改赛车的底色<br> -最多有两个油漆层<br> -单击“油漆层”图像以选择其他图案<br> -您可以使用自定义绘画图层图像
 
 tut.nitro.head,硝基助推器
 tut.nitro.1,-红色的硝基棒显示您的硝基含量<br> -按住{Action.Nitro}可以燃烧Nitro并加快速度<br> -燃烧时间越长，效率越高
@@ -2327,25 +2327,25 @@ tut.oil.1,-您刚刚因漏油而开车<br> -油使您的轮胎极滑<br> -别担
 
 tut.ped.head,行人模式
 tut.ped.1,-您很不幸以行人身份参加比赛<br> -使用{Action.Walk}走路<br> -通过{Action.Turn}打开
-tut.ped.2,-当您靠近汽车时，请使用{动作。拍照}拍照<br> -照片奖励现金<br> -奖励取决于射击中的汽车数量及其与您的距离
-tut.ped.3,-小心，否则会被汽车撞到<br> -医疗费用很高，所以如果您没有足够的现金，那就结束了
+tut.ped.2,-当您靠近赛车时，请使用{动作。拍照}拍照<br> -照片奖励现金<br> -奖励取决于射击中的赛车数量及其与您的距离
+tut.ped.3,-小心，否则会被赛车撞到<br> -医疗费用很高，所以如果您没有足够的现金，那就结束了
 
 tut.nitro_refill.head,通电：硝基笔芯
 tut.nitro_refill.1,-您刚刚收到了Nitro补充装！ <br> -开车时可以快速补充Nitro Bar的能量<br> -当您获得此能量时，明智的做法是握住{Action.Nitro}以继续充入Nitro
 
 tut.wrench.head,通电：扳手
-tut.wrench.1,-您刚刚收到了扳手！ <br> -扳手是一种动力装置，可在您开车时修理您的汽车<br> -您可以使用三种不同类型的扳手
+tut.wrench.1,-您刚刚收到了扳手！ <br> -扳手是一种动力装置，可在您开车时修理您的赛车<br> -您可以使用三种不同类型的扳手
 tut.wrench.2,-铜扳手可修复少量损坏<br> -银色扳手修复中等程度的损坏<br> -金扳手修复大量损坏
 
 tut.race_end.head,结束比赛
 tut.race_end.1,-做得好，看来您还不是最后一个！ <br> -现在让其他赛车手有30秒到达终点线<br> -多次单击“加速”以将比赛速度提高到5倍
 tut.race_end.2,-30秒过后，END RACE按钮将解锁<br> -由您决定是否要在所有其他赛车手完成比赛之前退出比赛
 
-tut.car_battle.head,汽车战
-tut.car_battle.1,-欢迎参加汽车战<br> -您的目标是打败对手<br> -拉姆其他汽车造成伤害<br> -使用武器造成更大的伤害
+tut.car_battle.head,赛车战
+tut.car_battle.1,-欢迎参加赛车战<br> -您的目标是打败对手<br> -拉姆其他赛车造成伤害<br> -使用武器造成更大的伤害
 tut.car_battle.2,-在这些武器区拾取武器和道具<br> -您可以在小地图中看到它们
 tut.car_battle.3,-拾取物品后，区域锁定并显示计时器<br> -倒计时结束后，区域会打开一个新项目
-tut.car_battle.4,-计时器用尽时，汽车战结束<br> -获胜者是大多数汽车不舒服，造成最大损失的人
+tut.car_battle.4,-计时器用尽时，赛车战结束<br> -获胜者是大多数赛车不舒服，造成最大损失的人
 
 tut.regular_race.head,常规比赛
 tut.regular_race.1,-在常规比赛中，您的目标是击败其他赛车达到终点<br> -如果需要增强，请按住{Action.Nitro}燃烧硝基<br> -击中行人或漂移以补充您的Nitro酒吧<br> -不要偷工减料，否则将受到处罚！
@@ -2360,17 +2360,17 @@ tut.race_weap.3,-沿着轨道放置了几个武器检查站<br> -这些检查点
 tut.race_weap.4,-绿色的检查站为您提供通电<br> -如果您在握住武器或通电时越过武器区，将不会发生任何事情<br> -按{Action.DropWeapon}放下您当前的武器或加电
 
 tut.ramps.head,斜坡和跳跃
-tut.ramps.1,-您刚刚向空中发射了汽车！ <br> -无动力的木制坡道让您跳
+tut.ramps.1,-您刚刚向空中发射了赛车！ <br> -无动力的木制坡道让您跳
 tut.ramps.2,-动力斜坡使您跳起来，助您一臂之力！ <br> -坡道不能保证干净着陆<br> -您可以推动坡道并旋转坡道为对手制造陷阱<br> -跳转记录在排行榜中，但仅在运动模式下！
 
-tut.track_ed.obj_place.head,轨迹编辑器：放置对象
-tut.track_ed.obj_place.1,-单击{Action.PlaceObject}一次以放置对象<br> -按住{Action.PlaceObject}并拖动以放置一行对象<br> -在放置对象之前，请使用{Action.RotateObject}旋转对象
+tut.track_ed.obj_place.head,轨迹编辑器：放置物体
+tut.track_ed.obj_place.1,-单击{Action.PlaceObject}一次以放置物体<br> -按住{Action.PlaceObject}并拖动以放置一行物体<br> -在放置物体之前，请使用{Action.RotateObject}旋转物体
 
 tut.m2.head,武器：M2
 tut.m2.1,-您刚收到M2！ <br> -M2是一款强大的基于弹丸的武器<br> -按住{Action.Fire}向对手开火<br> -如果您不喜欢武器，可以随时使用{Action.DropWeapon}放下武器
 
 tut.mad_fax.head,武器：疯狂传真
-tut.mad_fax.1,-您刚收到疯狂传真<br> -按{Action.Fire}在对手的脸上打印出一堆垃圾邮件<br> -传单会粘在挡风玻璃上，挡住视线<br> -挡风玻璃上有更多传单的汽车变得越来越难以操纵<br> -如果您不喜欢武器，可以随时使用{Action.DropWeapon}放下武器
+tut.mad_fax.1,-您刚收到疯狂传真<br> -按{Action.Fire}在对手的脸上打印出一堆垃圾邮件<br> -传单会粘在挡风玻璃上，挡住视线<br> -挡风玻璃上有更多传单的赛车变得越来越难以操纵<br> -如果您不喜欢武器，可以随时使用{Action.DropWeapon}放下武器
 
 tut.nailgun.head,武器：指甲枪
 tut.nailgun.1,-您刚收到钉枪！ <br> -Nailgun是具有良好踢力的普通动力射弹武器<br> -按{Action.Fire}，将对手射击<br> -如果您不喜欢武器，可以随时使用{Action.DropWeapon}放下武器
@@ -2390,11 +2390,11 @@ tut.shield.1,-您刚收到一个力场！ <br> -它推动你周围的一切<br> 
 
 tut.spikes.head,武器：归巢
 tut.spikes.1,-您刚刚收到了归巢树篱！ <br> -这是一种可以释放造成混乱的机器人刺猬<br> -按{Action.Fire}释放归巢
-tut.spikes.2,-释放后，Homing Hedge会选择您最近的对手作为目标<br> -它将追逐并撞击目标，直到能量耗尽<br> -归巢树篱会在碰到障碍物或汽车后触发爆炸
+tut.spikes.2,-释放后，Homing Hedge会选择您最近的对手作为目标<br> -它将追逐并撞击目标，直到能量耗尽<br> -归巢树篱会在碰到障碍物或赛车后触发爆炸
 
 tut.wreck_ball.head,武器：破坏球
-tut.wreck_ball.1,-您刚收到一个破坏球！ <br> -只是说这不是你能得到的最好的武器<br> -事实证明在汽车战中非常有用，但在常规比赛中却没什么用
-tut.wreck_ball.2,-将残骸球连接到汽车上会严重影响操作<br> -如果您不喜欢武器，可以随时使用{Action.DropWeapon}放下武器
+tut.wreck_ball.1,-您刚收到一个破坏球！ <br> -只是说这不是你能得到的最好的武器<br> -事实证明在赛车战中非常有用，但在常规比赛中却没什么用
+tut.wreck_ball.2,-将残骸球连接到赛车上会严重影响操作<br> -如果您不喜欢武器，可以随时使用{Action.DropWeapon}放下武器
 
 msg.director_warning.1,导演尼古拉斯-梅里兰也参加了...
 msg.director_warning.2,赛道上有一个神经病，他不是在赛车!
@@ -2436,7 +2436,7 @@ race.challenge_target.players,仅限玩家
 race.challenge_target.everyone,大家
 mission.type.none,没有
 mission.type.assassinate,暗杀
-mission.type.hit_obj,命中对象
+mission.type.hit_obj,命中物体
 mission.type.make_sure_car_x_comes_last,阻止某人获胜
 mission.type.stay_on_track,保持进度
 mission.type.locked_camera,锁定相机
@@ -2450,4 +2450,4 @@ mission.type.full_throttle,全油门
 mission.type.shield,力场
 mission.type.distribute_spam,散布垃圾邮件
 mission.type.weaponize,武器车
-mission.type.your_car_stolen,您的汽车被盗
+mission.type.your_car_stolen,您的赛车被盗
