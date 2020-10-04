@@ -2451,3 +2451,10 @@ mission.type.shield,Force Field
 mission.type.distribute_spam,Distribute Spam
 mission.type.weaponize,Weaponized Car
 mission.type.your_car_stolen,Your Car Was Stolen
+
+campaign.all_races_with_weapons,Every Race With Weapons
+campaign.all_races_with_weapons.tip,Weapons and powerups enabled in every single race! Extra crazy! Not recommended for novice players.
+
+btn.get_full_game,Get Full Game
+prologue.not_available,Not Available In Prologue
+prologue.full_features,Get the full version of Bloody Rally Show to unlock these features:<br>- Unlimited Campaign Mode<br>- Custom Race Mode to play with friends<br>- Steam Workshop with Car and Track sharing<br>- Tons of community content that can be used in Campaign and Custom Race<br>- Leaderboards and Achievements
