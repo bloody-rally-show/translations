@@ -57,3 +57,6 @@ You can use your own images for Avatars, Paint Jobs, and even whole Custom Car m
 This game is DRM free. Brace Stone was not too happy about this.
 Don't try to do any of this, anywhere, ever
 You can help translate this game into your language! Find the instructions in StreamingAssets/Translations under game installation folder.
+If you enjoy a game, please review it on Steam. It helps indie game developers more than you can imagine!
+You don't have to win every single race. Just have enough points to be in Top 3 at the end of the season.
+Campaign will be much less chaotic if you disable Director's Car and Helicopter Weapons

@@ -243,7 +243,7 @@ leaderboard.daily_challenge.lap_attempts,赛道尝试次数
 leaderboard.daily_challenge.ends_in,剩余时间
 leaderboard.daily_challenge.grace_period,宽限期
 leaderboard.daily_challenge.ended_minutes_ago,于{0:0}分钟前结束
-leaderboard.daily_challenge.ended_hours_ago, 于{0:0}}小时前结束o
+leaderboard.daily_challenge.ended_hours_ago, 于{0:0}小时前结束o
 leaderboard.daily_challenge.ended_days_ago, 于{0:0}天前结束
 leaderboard.day,天
 leaderboard.btn.race_now,现在比赛
@@ -2052,7 +2052,7 @@ dial.ed.fix_errors_first,请先保存验证错误，然后再保存曲目！
 dial.ed.share_track_no_steam,没有与Steam的连接。无法分享曲目！
 dial.ed.track_invalid_share,检查屏幕顶部的红色横幅。将鼠标悬停在其上以查看问题所在。
 dial.ed.lap_before_upload,稍安毋躁！您必须先设置圈速记录，然后再上传。
-dial.ed.track_remove_colon,请从曲目名称中删除“：”！
+dial.ed.track_remove_colon,请从曲目名称中删除 {0}
 dial.ed.track_name_clash_builtin,抱歉，选择其他名称，您不能覆盖内置曲目！
 dial.ed.track_overwrite_confirm,轨道“ {0}”已存在。您要覆盖它吗？
 dial.ed.track_alien_files,请从mod目录中删除多余的文件：{0}
@@ -2451,3 +2451,6 @@ mission.type.shield,力场
 mission.type.distribute_spam,散布垃圾邮件
 mission.type.weaponize,武器车
 mission.type.your_car_stolen,您的赛车被盗
+
+main_menu.label.review_steam,在Steam上回顾
+main_menu.label.review_steam.tip,您的评论可帮助游戏开发者生存！

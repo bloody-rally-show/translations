@@ -2001,7 +2001,7 @@ dial.ed.car_name,Car Name
 
 dial.ed.car_sprites_missing,Some required sprites are missing! Please refer to Car Modding Guide and create these files: {0}.
 dial.ed.car_sprites_deleted,You cannot just delete car sprite files! Missing required files were replaced by transparent 1x1 pixel: {0}.
-dial.ed.remove_car_name_colon,Please remove ":" from car model name!
+dial.ed.remove_car_name_colon,Please remove "{0}" from car model name!
 dial.ed.car_name_taken,Model name "{0}" is already taken!
 dial.ed.car_too_fast,SOFACT Regulations do not allow cars to exceed Speed Index of {0} prior to tuning! This car has Speed Index of {1}. Reduce something in Parameters first!
 dial.ed.car_close_confirm,Are you sure you want to close the car? Any unsaved changes will be lost
@@ -2039,7 +2039,7 @@ dial.race.no_track,Please select some track first!
 dial.race.restart_hardcore,It's Hardcore Mode, rememeber? No restarting for you!
 dial.race.restart_dead,Sorry, we cannot restart the race after someone dies. Please wait for the race to finish, and medics will try to do their job.
 dial.race.restart_ped,Sorry, pedestrians have no right to restart the race!
-dial.race.restart_confirm,Are you sure? Restart will cost you ${0}. You now have ${1}
+dial.race.restart_confirm,Are you sure? It's difficult to win all the races, restarts are expensive and discouraged. Restart will cost you ${0}. You now have ${1}.
 dial.race.restart_no_cash,Sorry, you can't affort to restart the race. Soldier it through.
 dial.race.restart_time_attack_confirm,Are you sure? Current lap times will be discarded!
 
@@ -2052,7 +2052,7 @@ dial.ed.fix_errors_first,Please fix validation errors before saving the track!
 dial.ed.share_track_no_steam,There is no connection to Steam. Cannot share the track!
 dial.ed.track_invalid_share,Check that red banner on top of the screen. Drag your mouse over it to see what's wrong.
 dial.ed.lap_before_upload,Hold your horses! You have to set a lap record before uploading it.
-dial.ed.track_remove_colon,Please remove ":" from track name!
+dial.ed.track_remove_colon,Please remove {0} from track name!
 dial.ed.track_name_clash_builtin,Sorry, pick another name, you cannot overwrite a built-in track!
 dial.ed.track_overwrite_confirm,Track "{0}" already exists. Do you want to overwrite it?
 dial.ed.track_alien_files,Please remove extra files from mod directory: {0}
@@ -2458,3 +2458,13 @@ campaign.all_races_with_weapons.tip,Weapons and powerups enabled in every single
 btn.get_full_game,Get Full Game
 prologue.not_available,Not Available In Prologue
 prologue.full_features,Get the full version of Bloody Rally Show to unlock these features:<br>- Unlimited Campaign Mode<br>- Custom Race Mode to play with friends<br>- Steam Workshop with Car and Track sharing<br>- Tons of community content that can be used in Campaign and Custom Race<br>- Leaderboards and Achievements
+
+campaign.nitro,Nitro Boost
+campaign.nitro.tip,Disabling Nitro will reduce chaos
+
+dial.invalid_name,Please remove these characters from the name: {0}
+dial.campaign_stage_file_missing,Cannot load stage, campaign stage file is missing (probably failed to write to disk, try to flip track card and regenerate): {0}
+
+track.seed,Enter Seed 
+track.seed.placeholder,Text or number
+btn.save_track,Save Track

@@ -391,8 +391,8 @@ settings.reset.about,Pilnas Trynimas:<br><indent=10%><size=70%><br> - Ištrins v
 main_menu.btn.tooltip.homepage,Kodo Linijos Svetainė
 main_menu.btn.tooltip.newsletter,Kūrėjo Naujienlaiškis
 main_menu.btn.tooltip.dev_msg,Žinutė nuo kūrėjo
-main_menu.btn.tooltip.campaign,Istorija su sugeneruotom trasom. Žaisk kad atrakinti mašinas!
-main_menu.btn.tooltip.race,Greitos lenktynės, mašinų kova, lenktynės dėl laiko ir kiti dalkykai
+main_menu.btn.tooltip.campaign,Istorija su sugeneruotom trasom. Žaisk kad atrakintum mašinas!
+main_menu.btn.tooltip.race,Greitos lenktynės, mašinų kova, lenktynės dėl laiko ir kiti dalykai
 main_menu.btn.tooltip.editors,Atsisiųsk žaidėjų sukurtas trasas ir mašinas, arba sukurk savo!
 main_menu.btn.tooltip.daily_challenge,Kovok su kitais žaidėjais dėl geriausio šios dienos laiko
 main_menu.btn.tooltip.leaderboards,Garbė laukia tų, kas paklius į Top 100
@@ -1068,7 +1068,7 @@ ced.exhaust_pos,Duslintuvų Padėtis
 ### Lore Cutscene ### <-- please get this one very well, it's something people usually see within first 2 minutes of the game
 
 # In here {0} is the number of years and {1} is a date
-cut.lore.1,Labas! Tu kartais ne tas garsus lenktyninkas, kurias pakliuvo į rimtą avariją prieš {0} metų? Žinau kad lyg buvai šaldytuve nuo {1}, tai leisk man tau papasakoti, kaip čia kas.
+cut.lore.1,Labas! Tu kartais ne tas garsus lenktyninkas, kuris pakliuvo į rimtą avariją prieš {0} metų? Žinau kad lyg buvai šaldytuve nuo {1}, tai leisk man tau papasakoti, kaip čia kas.
 # {0} is a date
 cut.lore.2,Buvo čia tokia labai sėkminga technologijų kompanija, tu ją turėtum žinoti, bet aš jau nebepamenu kaip ji tuomet vadinosi. Ji išnaikino savo konkurentus ir užkariavo visuotinę ekonimiką dar {0}.
 # SOFACT acronym should remain if possible, or has to be changed and used consistently
@@ -2052,7 +2052,7 @@ dial.ed.fix_errors_first,Prašau pataisyk rastas problemas prieš išsaugodamas 
 dial.ed.share_track_no_steam,Nėra ryšio su Steam. Negali pasidalinti šia trasa!
 dial.ed.track_invalid_share,Pažiūrėk raudoną lentelę ekrano viršuje. Užvesk pelę virš jos, kad pamatytum, kas negerai.
 dial.ed.lap_before_upload,Laikyk arklius! Prieš pasidalindamas trasa, turi pastatyti rekordą Bandomąjame Važiavime.
-dial.ed.track_remove_colon,Prašau, išimk ":" iš trasos pavadinimo!
+dial.ed.track_remove_colon,Prašau, išimk {0} iš trasos pavadinimo!
 dial.ed.track_name_clash_builtin,Deja, šis trasos pavadinimas rezervuotas, sugalvok kitą
 dial.ed.track_overwrite_confirm,Trasa "{0}" jau egzistuoja. Ar nori ją perrašyti?
 dial.ed.track_alien_files,Prašau, iškelk šiuos failus iš modo katalogo: {0}
@@ -2451,3 +2451,6 @@ mission.type.shield,Jėgos laukas
 mission.type.distribute_spam,Platinti šlamštą
 mission.type.weaponize,Ginkluotas automobilis
 mission.type.your_car_stolen,Jūsų automobilis buvo pavogtas
+
+main_menu.label.review_steam,Pareviewink Steam'e
+main_menu.label.review_steam.tip,Your reviews help game developers survive!

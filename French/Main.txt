@@ -2052,7 +2052,7 @@ dial.ed.fix_errors_first,Veuillez corriger les erreurs de validation avant d'enr
 dial.ed.share_track_no_steam,Il n'y a pas de connexion à Steam. Impossible de partager le circuit!
 dial.ed.track_invalid_share,Vérifiez cette bannière rouge en haut de l'écran. Faites glisser votre souris dessus pour voir ce qui ne va pas.
 dial.ed.lap_before_upload,Calmez-vous! Vous devez définir un record de tour avant de le télécharger.
-dial.ed.track_remove_colon,Veuillez supprimer ":" du nom du circuit!
+dial.ed.track_remove_colon,Veuillez supprimer {0} du nom du circuit!
 dial.ed.track_name_clash_builtin,Désolé, choisissez un autre nom, vous ne pouvez pas écraser un circuit intégré!
 dial.ed.track_overwrite_confirm,Le circuit "{0}" existe déjà. Voulez-vous l'écraser?
 dial.ed.track_alien_files,Veuillez supprimer les fichiers supplémentaires du répertoire mod: {0}
@@ -2074,8 +2074,8 @@ dial.confirm_exit_to_desktop,Voulez-vous vraiment quitter vers le bureau?
 
 dial.car_model_unavailable,Hé, le modèle de voiture "{0}" n'est plus disponible! Souhaitez-vous continuer à charger la campagne? Les voitures non disponibles seront perdues sans remboursement!
 
-msg.track_high_obj_density,Ce circuit a une densité d'objet élevée ({0: 0} / 100m). Il ne sera pas inclus dans la génération de campagne personnalisée par défaut!
-msg.track_high_crowd_density,Ce circuit a une densité de foule élevée ({0: 0} / 100m). Il ne sera pas inclus dans la génération de campagne personnalisée par défaut!
+msg.track_high_obj_density,Ce circuit a une densité d'objet élevée ({0:0} / 100m). Il ne sera pas inclus dans la génération de campagne personnalisée par défaut!
+msg.track_high_crowd_density,Ce circuit a une densité de foule élevée ({0:0} / 100m). Il ne sera pas inclus dans la génération de campagne personnalisée par défaut!
 msg.cheats_leaderboards,CLASSEMENTS DÉSACTIVÉS! Vous avez utilisé des astuces sur la console du jeu ou des expériences de physique. Redémarrez le jeu pour retrouver l'accès au classement.
 msg.track_load_failed,Le circuit n'a pas pu se charger correctement, il est corrompu ou indisponible! Réessayez ou régénérez-le.
 msg.race_input_restart_warning,AVERTISSEMENT: la modification des mappages d'entrée pendant la course nécessite un redémarrage de la course pour appliquer les effets!
@@ -2451,3 +2451,6 @@ mission.type.shield,Champ de force
 mission.type.distribute_spam,Distribuer le spam
 mission.type.weaponize,Voiture armée
 mission.type.your_car_stolen,Votre voiture a été volée
+
+main_menu.label.review_steam,Avis sur Steam
+main_menu.label.review_steam.tip,Vos avis aident les développeurs de jeux à survivre !

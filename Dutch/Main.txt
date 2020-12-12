@@ -2051,7 +2051,7 @@ dial.ed.fix_errors_first,Zorg ervoor dat het Circuit door de validatie komt voor
 dial.ed.share_track_no_steam,Er is geen verbinding met Steam. Kan het Circuit niet opslaan!
 dial.ed.track_invalid_share,Kijk naar die rode strook boven in je scherm, sleep met je muis op die balk om te zien wat er mis is.
 dial.ed.lap_before_upload,Even serieus! Je moet een rondetijd neerzetten om het Circuit te delen.
-dial.ed.track_remove_colon,Verwijder ":" uit de naam van het Circuit aub!
+dial.ed.track_remove_colon,Verwijder {0} uit de naam van het Circuit aub!
 dial.ed.track_name_clash_builtin,Sorry, kies een andere naam, je kan geen ingebouwd circuit overschrijven!
 dial.ed.track_overwrite_confirm,Circuit "{0}" bestaan al. Wil je deze overschrijven?
 dial.ed.track_alien_files,Verwijder extra bestanden uit de mod map aub: {0}
@@ -2450,3 +2450,6 @@ mission.type.shield,Krachtveld
 mission.type.distribute_spam,Verspreid spam
 mission.type.weaponize,Gewapende auto
 mission.type.your_car_stolen,Je auto is gestolen
+ 
+main_menu.label.review_steam,recensie op Steam
+main_menu.label.review_steam.tip,Uw beoordelingen helpen game-ontwikkelaars te overleven!

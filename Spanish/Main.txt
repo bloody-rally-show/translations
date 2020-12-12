@@ -251,7 +251,7 @@ leaderboard.btn.race_now.tip,Corre para establecer tu tiempo de vuelta con la pi
 leaderboard.no_score.race_now,Aún no has establecido una puntuación. ¡Corre ahora para configurarlo!
 leaderboard.no_steam_connection,La conexión de vapor no está disponible. <br><br> Las tablas de clasificación no funcionarán
 leaderboard.btn.time_attack,Tiempo de ataque
-leaderboard.time_attack.tip,Seguimiento de tablas de clasificación de tiempo de vuelta. Use &quot;Carrera personalizada&quot; con el modo &quot;Time Attack&quot; para configurar el suyo.
+leaderboard.time_attack.tip,Seguimiento de tablas de clasificación de tiempo de vuelta. Use "Carrera personalizada" con el modo "Time Attack" para configurar el suyo.
 leaderboard.refresh.tip,Recargar puntajes directamente desde Steam
 
 # Leaderboard Names
@@ -558,7 +558,7 @@ dash.set_for_everyone,Set para todos
 dash.car,Coche
 dash.racers,Corredores
 dash.search_for_track,Buscar pista
-dash.randomize_prompt,Haga clic en &quot;Generar&quot; <br> Para aleatorizar algunas pistas
+dash.randomize_prompt,Haga clic en "Generar" <br> Para aleatorizar algunas pistas
 dash.race_options,Opciones de carrera
 dash.race_mode,Modo de carrera
 dash.demo_mode,Modo de demostración
@@ -1072,10 +1072,10 @@ cut.lore.1,¡Oye! ¿No eres ese corredor famoso que tuvo un accidente importante
 # {0} is a date
 cut.lore.2,Hubo una corporación tecnológica altamente exitosa, una que debes conocer, simplemente no puedo recordar su nombre original en este momento. Eliminó su competencia y tomó el control de la economía global en {0}.
 # You should probably keep "Social Frontier of Activism" and SOFACT unchanged in your translation, for authenticity (company was not local after all)
-cut.lore.3,En lugar de buscar descubrimientos científicos, la corporación se había estado estrangulando con políticas internas cada vez más complejas. En algún momento lo cambiaron a &quot;Frontera social del activismo&quot;, o SOFACT.
+cut.lore.3,En lugar de buscar descubrimientos científicos, la corporación se había estado estrangulando con políticas internas cada vez más complejas. En algún momento lo cambiaron a "Frontera social del activismo", o SOFACT.
 cut.lore.4,Pero finalmente la naturaleza humana se hizo cargo. Los activistas fueron eliminados por la fuerza durante una toma de posesión hostil inesperada, y SOFACT, aunque sigue apareciendo como una organización amiga, ahora pertenece a matones de la vieja escuela.
 # Please do not translate "Bloody Rally Show", or included it into parentheses next to translation. Example: "Kruvinojo Ralio Šou" (Bloody Rally Show)
-cut.lore.5,Nuevos líderes centrados en las ganancias. Continuaron invirtiendo en entretenimiento para maximizar los ingresos por publicidad, y el &quot;Bloody Rally Show&quot; es el entretenimiento preferido para la mayoría de las personas en estos días.
+cut.lore.5,Nuevos líderes centrados en las ganancias. Continuaron invirtiendo en entretenimiento para maximizar los ingresos por publicidad, y el "Bloody Rally Show" es el entretenimiento preferido para la mayoría de las personas en estos días.
 cut.lore.6,En Bloody Rally Show, intentan recrear la era dorada de los rallyes utilizando tecnologías de la década de 1980, las del infame Grupo B. La cantidad de accidentes es altísima, pero los influenciadores de las redes sociales siguen tratando de obtener esas fotos de primeros planos de acción. .
 cut.lore.7,No pierdas tu auto, amigo, o quizás tengas que unirte a la multitud. ¡Ahora buena suerte y buena suerte! Ah, por cierto, no entendí tu nombre.
 
@@ -1520,7 +1520,7 @@ cut.ass.andwhat1.4,y ni siquiera se disculpó!
 cut.ass.andwhat1.5,y pensé que nadie se daría cuenta.
 cut.ass.andwhat1.6,como si no hubiera un mañana.
 # {0} - insult singular (clown)
-cut.ass.andwhat1.7,y luego dijo &quot;¿Qué te parece, {0}?&quot; ...
+cut.ass.andwhat1.7,y luego dijo "¿Qué te parece, {0}?" ...
 
 # Additional circumstance for plural target. Will be attached to the end of sentence.
 cut.ass.andwhat2.1,y pensé que podrían salirse con la suya.
@@ -1720,7 +1720,7 @@ cut.dmg.req,Tome al menos {0} daños en su automóvil.
 cut.dmg.racer.intro.1,¡Sé que fuiste tú quien pinchó mis neumáticos anoche! Voy a dejarlo pasar si aceptas mi desafío. Incluso podría arrojar algo bueno si no fallas.
 
 # {0} - friggin
-cut.dmg.gov.intro.1,¡Justo la persona que quería ver! ¡Tenemos que hacer un nuevo póster para Bloody Rally Show, y su auto parece ser perfecto para esto! Pero solo hay una trampa, tiene que verse como &quot;desde la acción {0}&quot;, si sabes a lo que me refiero.
+cut.dmg.gov.intro.1,¡Justo la persona que quería ver! ¡Tenemos que hacer un nuevo póster para Bloody Rally Show, y su auto parece ser perfecto para esto! Pero solo hay una trampa, tiene que verse como "desde la acción {0}", si sabes a lo que me refiero.
 cut.dmg.gov.intro.2,Veo que tienes un nuevo trabajo de pintura brillante. Bien bien. Ahora, tu próximo desafío ... * Risas *
 # {0} - player name or title
 cut.dmg.gov.intro.3,Nunca me gustaste, {0}. Por eso he pensado en este desagradable desafío.
@@ -1905,7 +1905,7 @@ cut.fail.3,OK, ¡suficiente drama! ¡{0}, la seguridad lo acompañará al congel
 ### Dialogs and in-game messages
 
 # Please check that you are using same terms as main_menu.btn.settings / settings.gameplay, etc
-dial.discord_post_permission,¿Podemos publicar sus puntuaciones en Bloody Rally Show Discord? <br> Se mostrará el apodo de Steam, el tiempo de seguimiento y el recuento de intentos. <br> Cambie su elección en cualquier momento en &quot;Configuración&quot;> &quot;Juego&quot;> &quot;Publicar en discord&quot;
+dial.discord_post_permission,¿Podemos publicar sus puntuaciones en Bloody Rally Show Discord? <br> Se mostrará el apodo de Steam, el tiempo de seguimiento y el recuento de intentos. <br> Cambie su elección en cualquier momento en "Configuración"> "Juego"> "Publicar en discord"
 dial.time_attack_car_locked,El auto seleccionado está bloqueado, ¡desbloquéalo subiendo de nivel a tu piloto en la Campaña primero!
 dial.camp.corrupted_save_files,Se encontraron archivos de guardado de campaña corruptos: {0}
 dial.camp.load_fail,Error al cargar el estado de guardado: {0} <br> {1}
@@ -1937,7 +1937,7 @@ dial.camp.lucky2.7,{0} ... No me gustas, pero oye, toma este $ {1}. A cambio, te
 
 # {0} - name, ${1} - cash amount
 dial.camp.resurrected,Racer {0} fue devuelto a la vida por médicos de campo por $ {1}
-dial.camp.resurrect_no_cash,Racer {0} no tenía suficiente efectivo para cubrir los gastos médicos. Q.E.P.D&quot;
+dial.camp.resurrect_no_cash,Racer {0} no tenía suficiente efectivo para cubrir los gastos médicos. Q.E.P.D"
 # {0} - clowns
 dial.camp.all_broke,¿Cómo lograste ir a la quiebra de una vez? El show debe continuar, SOFACT le dará a cada uno de ustedes perdedores $ 20000. Ve a comprar algo bonito.
 # {0} - name, {1} - clown
@@ -1948,8 +1948,8 @@ dial.camp.freedom_not_enough_cash,Lo siento, te falta dinero en efectivo! ¡Ve a
 dial.camp.exit_confirm,¿Seguro que quieres salir de esta campaña? El progreso se guardará.
 dial.camp.card.no_regen,¡No puedes regenerar una etapa que ya está completa!
 # {0} - some track name. keep the quotes
-dial.camp.card.saved_already,La pista &quot;{0}&quot; ya existe en su colección. ¿Quieres cambiarlo?
-dial.camp.card.saved,¡La pista &quot;{0}&quot; se agregó a tu colección!
+dial.camp.card.saved_already,La pista "{0}" ya existe en su colección. ¿Quieres cambiarlo?
+dial.camp.card.saved,¡La pista "{0}" se agregó a tu colección!
 dial.camp.card.no_walk_completed,¡No puedes caminar a pie en una etapa completa!
 dial.camp.card.no_walk_special,¡No se puede caminar a pie en la etapa especial!
 # {0} - name
@@ -2001,8 +2001,8 @@ dial.ed.car_name,Nombre del auto
 
 dial.ed.car_sprites_missing,¡Faltan algunos sprites requeridos! Consulte la Guía de modificación de automóviles y cree estos archivos: {0}.
 dial.ed.car_sprites_deleted,¡No puedes simplemente eliminar archivos de sprites de coche! Los archivos requeridos que faltaban fueron reemplazados por píxeles transparentes de 1x1: {0}.
-dial.ed.remove_car_name_colon,¡Elimine &quot;:&quot; del nombre del modelo del automóvil!
-dial.ed.car_name_taken,¡El nombre del modelo &quot;{0}&quot; ya está en uso!
+dial.ed.remove_car_name_colon,¡Elimine ":" del nombre del modelo del automóvil!
+dial.ed.car_name_taken,¡El nombre del modelo "{0}" ya está en uso!
 dial.ed.car_too_fast,¡Las regulaciones de SOFACT no permiten que los autos excedan el índice de velocidad de {0} antes de sintonizar! Este automóvil tiene un índice de velocidad de {1}. ¡Reduzca algo en los parámetros primero!
 dial.ed.car_close_confirm,¿Estás seguro de que quieres cerrar el auto? Cualquier cambio no guardado se perderá
 dial.ed.car_delete_confirm,¿Está seguro de que desea eliminar este automóvil: {0}?
@@ -2026,14 +2026,14 @@ dial.factory_reset.confirm,¿Está seguro que quiere reiniciar?
 dial.leaderboard.ghost_confirm,¿Te gustaría competir contra el fantasma de {0}?
 dial.leaderboard.ghost_confirm_daily_stale,No es la entrada de hoy, por lo que la tabla de clasificación del desafío diario no se actualizará, pero la tabla de clasificación de seguimiento sí.
 
-dial.input_reset,El desarrollador cambió la estructura de entrada del juego, y las asignaciones de entrada se restablecieron a los valores predeterminados. Puede cambiarlos en &quot;Configuración&quot;> &quot;Entrada&quot;. ¡Lo siento por los inconvenientes ocasionados!
+dial.input_reset,El desarrollador cambió la estructura de entrada del juego, y las asignaciones de entrada se restablecieron a los valores predeterminados. Puede cambiarlos en "Configuración"> "Entrada". ¡Lo siento por los inconvenientes ocasionados!
 dial.settings_reset,La estructura de configuración del juego fue modificada por el desarrollador, la configuración se restableció a los valores predeterminados. ¡Lo siento por los inconvenientes ocasionados!
 dial.stat_reset_dev,El desarrollador ha activado un restablecimiento completo de estadísticas. Disculpe las molestias.
 dial.are_you_sure,¿Estás seguro?
 
 dial.race.racers_over_limit,¡No puedes tener más de {0} autos en una sola carrera!
 dial.race.player_remove_confirm,¿Está seguro de que desea eliminar el reproductor {0}: {1}?
-dial.race.race_alone,No debe conducir solo, a menos que esté en modo &quot;Time Attack&quot;. ¡Agregue algunos oponentes usando los botones &quot;Agregar jugador&quot;, &quot;+1&quot; o &quot;+10&quot;!
+dial.race.race_alone,No debe conducir solo, a menos que esté en modo "Time Attack". ¡Agregue algunos oponentes usando los botones "Agregar jugador", "+1" o "+10"!
 dial.race.no_track,Por favor, seleccione alguna pista primero!
 
 dial.race.restart_hardcore,Es el modo Hardcore, ¿recuerdas? ¡No reiniciar para ti!
@@ -2052,14 +2052,14 @@ dial.ed.fix_errors_first,Por favor, corrija los errores de validación antes de 
 dial.ed.share_track_no_steam,No hay conexión con Steam. No se puede compartir la pista!
 dial.ed.track_invalid_share,Comprueba el banner rojo en la parte superior de la pantalla. Arrastre el mouse sobre él para ver qué sucede.
 dial.ed.lap_before_upload,¡Calma! Tienes que establecer un registro de vuelta antes de subirlo.
-dial.ed.track_remove_colon,¡Elimina &quot;:&quot; del nombre de la pista!
+dial.ed.track_remove_colon,¡Elimina {0} del nombre de la pista!
 dial.ed.track_name_clash_builtin,Lo sentimos, elige otro nombre, ¡no puedes sobrescribir una pista incorporada!
-dial.ed.track_overwrite_confirm,La pista &quot;{0}&quot; ya existe. ¿Quieres sobreescribirlo?
+dial.ed.track_overwrite_confirm,La pista "{0}" ya existe. ¿Quieres sobreescribirlo?
 dial.ed.track_alien_files,Elimine archivos adicionales del directorio de mods: {0}
 dial.ed.track_delete_no_undo,¿Estás seguro de que deseas eliminar esta pista? ¡No hay forma de deshacerlo!
 dial.ed.track_quit_confirm,¿Seguro que quieres salir del Track Editor? ¡Los cambios no guardados se perderán!
 dial.ed.track_last_2_points,¡No se pueden eliminar los últimos dos puntos de ruta!
-dial.ed.loop_autoclose,Parece que estás intentando cerrar el ciclo. Puede usar la herramienta &quot;Abrir / Cerrar&quot;, pero esta vez la cerré.
+dial.ed.loop_autoclose,Parece que estás intentando cerrar el ciclo. Puede usar la herramienta "Abrir / Cerrar", pero esta vez la cerré.
 
 dial.on_success,En caso de éxito: {0}
 dial.on_fail,En caso de falla: {0}
@@ -2072,7 +2072,7 @@ dial.reset_tutorials.confirm,¿Estás seguro de que deseas marcar todos los cons
 
 dial.confirm_exit_to_desktop,¿Seguro que quieres salir al escritorio?
 
-dial.car_model_unavailable,¡Hola, el modelo de automóvil &quot;{0}&quot; ya no está disponible! ¿Te gustaría seguir cargando la campaña? ¡Los autos no disponibles desaparecerán sin reembolso!
+dial.car_model_unavailable,¡Hola, el modelo de automóvil "{0}" ya no está disponible! ¿Te gustaría seguir cargando la campaña? ¡Los autos no disponibles desaparecerán sin reembolso!
 
 msg.track_high_obj_density,Esta pista tiene una alta densidad de objetos ({0:0} / 100m). \ N ¡No se incluirá en la generación de Campaña personalizada de forma predeterminada!
 msg.track_high_crowd_density,Esta pista tiene una alta densidad de multitudes ({0:0} / 100m). \ N ¡No se incluirá en la generación de Campaña personalizada por defecto!
@@ -2179,7 +2179,7 @@ msg.tip_available,Pulse {Action.ShowTutorial} para obtener una sugerencia.
 
 msg.uploading_ghost,Subiendo Ghost Replay
 msg.score_not_improved,Su puntaje actual en la tabla de clasificación no se mejoró
-msg.score_ghost_missing,Su puntaje actual en la tabla de clasificación no se mejoró, pero faltaban datos fantasmas. Subiendo el fantasma actual &quot;;
+msg.score_ghost_missing,Su puntaje actual en la tabla de clasificación no se mejoró, pero faltaban datos fantasmas. Subiendo el fantasma actual ";
 msg.score_rejected,Steam rechazó tu puntaje para esta clasificación
 msg.uploading_score,Actualización de la puntuación de la tabla de clasificación ({0} / 10 llamadas API / 10 min) <br> {1}
 msg.uploaded_score,Tabla de clasificación actualizada con éxito ({0} / 10 llamadas API / 10 min) <br> {1}
@@ -2253,7 +2253,7 @@ tut.camera.1,- Hay múltiples modos de zoom y rotación de la cámara para elegi
 tut.camera.2,- El zoom cercano a la cámara le dará una vista de primer plano de su automóvil <br> - Puede ser un desafío conducir, ya que no verá gran parte del camino por delante <br> - Puedes usar el minimapa para anticipar esquinas
 tut.camera.3,- Haga clic en {Action.Camera} para recorrer los modos de rotación de la cámara <br> - La cámara fija de carretera no girará en absoluto
 tut.camera.4,- La cámara fija del automóvil mantendrá la misma rotación que su automóvil <br> - La cámara flotante se encuentra entre Fixed Car y Fixed Road <br> - Encuentra el que más te guste
-tut.camera.5,- Puedes ir a &quot;Configuración&quot;> &quot;Juego&quot; para cambiar la configuración predeterminada de la cámara <br> - Cambie &quot;Camera Shake&quot; si desea reducir el movimiento de la pantalla
+tut.camera.5,- Puedes ir a "Configuración"> "Juego" para cambiar la configuración predeterminada de la cámara <br> - Cambie "Camera Shake" si desea reducir el movimiento de la pantalla
 
 tut.camp.add_racer.head,Agregar o editar un corredor
 tut.camp.add_racer.1,- Puedes elegir quién controlará este corredor, humano o IA <br> - Puedes tener hasta 4 personas jugando en pantalla dividida <br> - Puedes cambiar el avatar o configurar uno personalizado usando una imagen de tu computadora
@@ -2266,7 +2266,7 @@ tut.camp.car_unlock.1,- ¡Has desbloqueado un auto mejor que puedes pagar! <br> 
 tut.camp.car_unlock.2,- Elija el mejor auto disponible que pueda comprar <br> - Haga clic en el botón COMPRAR para comprarlo <br><br> - Considere PINTAR su auto nuevo antes de comprar
 
 tut.camp.first_car.head,Tu primer coche
-tut.camp.first_car.1,- No tienes auto, pero tienes un poco de efectivo <br> - Haga clic en &quot;COMPRAR UN COCHE&quot; para visitar el garaje
+tut.camp.first_car.1,- No tienes auto, pero tienes un poco de efectivo <br> - Haga clic en "COMPRAR UN COCHE" para visitar el garaje
 
 tut.camp.first_race.head,Primera carrera
 tut.camp.first_race.1,- ¡Es hora de tener tu primera carrera! <br> - Haga clic en la tarjeta de escenario para comenzar <br> - Si ve un aviso de generación, un grupo de monos altamente entrenados está trabajando para preparar sus pistas de carreras. Espere a que desaparezca ese aviso antes de intentar comenzar una carrera.
@@ -2301,15 +2301,15 @@ tut.corner_cut.1,- ¡Parece que acabas de cortar una esquina! <br> - Dependiendo
 
 tut.custom_race_dash.head,Panel de carrera personalizado
 tut.custom_race_dash.1,- Bienvenido al panel de Custom Race. Puede parecer abrumador al principio, así que aquí hay algo de ayuda <br> - Si quieres jugar con tus amigos, usa el botón AGREGAR JUGADOR <br> - También puedes agregar corredores de IA de esta manera
-tut.custom_race_dash.2,- Para agregar rápidamente oponentes aleatorios de IA, usa los botones &quot;+1&quot; y &quot;+10&quot; <br> - ¡Puedes competir contra un montón de oponentes de IA a la vez! <br> - Para eliminar a todos los otros corredores, haga clic en &quot;0&quot;
+tut.custom_race_dash.2,- Para agregar rápidamente oponentes aleatorios de IA, usa los botones "+1" y "+10" <br> - ¡Puedes competir contra un montón de oponentes de IA a la vez! <br> - Para eliminar a todos los otros corredores, haga clic en "0"
 tut.custom_race_dash.3,- A diferencia del modo Campaña, aquí puedes elegir las actualizaciones que quieras <br> - Haga clic en los íconos de las piezas para recorrer los niveles de actualización <br> - Puedes configurar actualizaciones individuales para cada corredor
-tut.custom_race_dash.4,- Hay algunos modos de juego entre los que puedes elegir <br> - &quot;Carrera&quot; es una carrera regular contra otros autos <br> - &quot;Time Attack&quot; es para establecer los mejores tiempos de vuelta en las tablas de clasificación mundiales <br> - En &quot;Car Battle&quot; tienes un límite de tiempo y armas. No tienes que conducir por el buen camino.
+tut.custom_race_dash.4,- Hay algunos modos de juego entre los que puedes elegir <br> - "Carrera" es una carrera regular contra otros autos <br> - "Time Attack" es para establecer los mejores tiempos de vuelta en las tablas de clasificación mundiales <br> - En "Car Battle" tienes un límite de tiempo y armas. No tienes que conducir por el buen camino.
 tut.custom_race_dash.5,- Selecciona una pista en la que quieras competir <br> - También puedes generar una pista única <br> - Descargue más pistas de Steam Workshop o cree sus propias pistas en Track Editor
 tut.custom_race_dash.6,- Después de configurar su carrera personalizada, haga clic en el botón rojo en la esquina inferior izquierda para comenzar la carrera
 
 tut.time_attack.head,Carrera personalizada: Time Attack
-tut.time_attack.1,- En el modo &quot;Time Attack&quot;, las actualizaciones de automóviles están bloqueadas en el nivel 1
-tut.time_attack.2,- Para ver las tablas de clasificación, haga clic en el botón &quot;TABLAS DE LÍDERES&quot; en la barra superior <br> - Los corredores de IA no están disponibles en el modo &quot;Time Attack&quot; <br> - Sin embargo, puedes tener sesiones de pantalla dividida con jugadores humanos
+tut.time_attack.1,- En el modo "Time Attack", las actualizaciones de automóviles están bloqueadas en el nivel 1
+tut.time_attack.2,- Para ver las tablas de clasificación, haga clic en el botón "TABLAS DE LÍDERES" en la barra superior <br> - Los corredores de IA no están disponibles en el modo "Time Attack" <br> - Sin embargo, puedes tener sesiones de pantalla dividida con jugadores humanos
 
 tut.drift.head,A la deriva
 tut.drift.1,- Acaba de realizar una deriva limpia <br> - La deriva es el arte de ir de lado <br> - La deriva controlada se recompensa con Nitro boost y Cash en campañas <br> - La deriva no cuenta si te desvías
@@ -2338,7 +2338,7 @@ tut.wrench.1,- ¡Acabas de recibir una llave inglesa! <br> - Wrench es un poweru
 tut.wrench.2,- La llave de cobre repara poca cantidad de daño <br> - Llave de plata repara una cantidad media de daño <br> - Golden Wrench repara gran cantidad de daño
 
 tut.race_end.head,Poner fin a la carrera
-tut.race_end.1,- Buen trabajo, ¡parece que no fuiste el último! <br> - Otros corredores ahora tienen 30 segundos para llegar a la línea de meta. <br> - Haz clic en &quot;Acelerar&quot; varias veces para aumentar la velocidad de carrera hasta 5 veces
+tut.race_end.1,- Buen trabajo, ¡parece que no fuiste el último! <br> - Otros corredores ahora tienen 30 segundos para llegar a la línea de meta. <br> - Haz clic en "Acelerar" varias veces para aumentar la velocidad de carrera hasta 5 veces
 tut.race_end.2,- Después de que hayan pasado 30 segundos, el botón FINALIZAR CARRERA se desbloqueará <br> - Depende de ti si quieres salir de la carrera antes de que todos los otros corredores hayan terminado
 
 tut.car_battle.head,Batalla de coches
@@ -2451,3 +2451,6 @@ mission.type.shield,Campo de fuerza
 mission.type.distribute_spam,Distribuir spam
 mission.type.weaponize,Coche armado
 mission.type.your_car_stolen,Su coche fue robado
+
+main_menu.label.review_steam,crítica en Steam
+main_menu.label.review_steam.tip,¡Tus comentarios ayudan a los desarrolladores de juegos a sobrevivir!
