@@ -1,0 +1,2467 @@
+######################################
+# Bloody Rally Show translations file 
+# Locale: English
+# Author: Tomas Varaneckas
+# Contact: tomas@kodolinija.com
+######################################
+
+######################################
+# What should not be modified:
+# 1. Anything inside < > brackets - these are special text formatting tags
+# 2. Anything inside { } brackets - these are variables that will be replaced
+#
+# Do not remove {0} and similar variables - it can cause in-game errors!
+#
+# There is one exception to the rule above. When {0} is a curse adjective or adverb (friggin, etc)
+# And it is stated so in the example, if your language cannot combine them well, you can try ommitting {0}
+# In this case, but if there is more than one variable ({0}, {1}), you cannot remove {0} and leave {1}!
+# You can remove the last variable ({1}) in this case, to keep the variable sequence running from {0}
+# (only if {1} is a curse adjective / adverb)
+#
+# <br> is a line break
+#
+# It is highly recommended to keep every single key in same exact line as English - copy all the comments and blank lines
+######################################
+
+# Characters
+
+# If you change any character names, you have to consistently keep using them
+# Across all the translations where they are mentioned. Also in Tips.txt
+# For this reason I suggest to keep names of Brace Stone and Nicholas Merryland 
+# unchanged. Anonymous racer only appears in introduction cutscene.
+
+char.brace.name,ブレイス・ストーン
+char.brace.job,多様性担当取締役副社長
+char.brace.job_short,副社長
+
+char.nic.name,ニコラス・メリーランド
+char.nic.job,ブラッディ・ラリー・ショー運営統括
+char.nic.job_short,運営統括
+
+char.anon.name,名も無きレーサー
+char.anon.job,レーサー
+char.anon.job_short,レーサー
+
+# Generic Terms (keep short)
+
+term.car,マシン
+term.track,コース
+term.lap,ラップ
+term.lap_percent,ラップ %
+term.laps,ラップ
+# Abbreviate to max 5 characters, or keep "Best"
+term.best,ベスト
+# Max 10 characters
+term.best_lap,ベストラップ
+# As in person name
+term.name,名前
+term.human,プレイヤー
+# Just keep "AI" if your language does not have a very popular abbreviation for Artificial Intelligence
+term.ai,AI
+term.week,週
+term.stage,ステージ
+term.season,シーズン
+term.special,スペシャル
+term.pending,保留
+term.points,ポイント
+term.drifts,ドリフト
+term.mode,モード
+term.battle,バトル
+term.car_battle,バトル
+term.time_attack,タイムアタック
+term.race,レース
+term.time_limit,タイムリミット
+term.time_scale,ゲーム速度
+term.distance,距離
+term.weapons,武器
+term.time,時間
+term.mission,ミッション
+# If word "fee" is long in your language, just keep both entry_fee and retry_fee as "fee"
+term.entry_fee,参加費用
+term.retry_fee,再挑戦費用
+term.generating,生成中
+term.available,使用可
+term.locked,未解放
+term.owned,所有済
+term.lost,消失
+# This has to be super short!
+term.lvl_to_go,要{0}Lvl
+term.required_level,必要Lvl
+# Short for Points (max 3 chars or keep "pts")
+term.pts,pts
+term.cash,Cash
+# Short for Experience Points. If your language does not have a well know acronym for this, keep "XP"
+term.xp,XP
+# Short for position. Keep "Pos" if you can't find a good alternative
+term.pos,Pos
+# Noun - number of people killed (keep short, abbreviate if necessary)
+term.kills,殺害数
+# Noun - number of cars fragged (reference to Quake). Keep as "Frags" in your alphabet. Max 5 characters.
+term.frags,Frags
+term.damage,ダメージ
+# Short from "damage", Keep "dmg" if you cannot get this to less than 6 characters.
+term.dmg,ダメージ
+term.racer,レーサー
+term.ped,歩行者
+term.he,彼
+term.she,彼女
+term.mr,Mr.
+# Ms is between Miss and Mrs 
+term.ms,Ms.
+term.resurrect,蘇生
+term.progress,進行中
+term.attempt,挑戦回数
+term.tips,ヒント
+term.difficulty,難易度
+
+# Generic buttons (keep short)
+
+btn.back,戻る
+btn.continue,続ける
+btn.apply,承諾
+btn.close,閉じる
+btn.refresh,更新
+btn.random,ランダム
+btn.randomize,ランダム生成
+btn.main_menu,メインメニュー
+btn.save,セーブ
+btn.cancel,キャンセル
+btn.delete,削除
+btn.edit,編集
+btn.garage,ガレージ
+btn.generate,生成
+btn.regenerate,再生成
+btn.buy,購入
+btn.select,選択
+btn.paint,塗装
+btn.switch,切り替え
+btn.confirm,承諾
+btn.change,変更
+btn.skip,スキップ
+btn.next_page,次のページ
+btn.prev_page,前のページ
+btn.disable_tips,ヒントを非表示
+
+# Keep these very short. On / off can be translated same as yes / no to keep them shorter
+
+btn.on,オン
+btn.off,オフ
+btn.yes,はい
+btn.no,いいえ
+btn.ok,OK
+btn.all,すべて
+
+# Main Menu 
+
+main_menu.btn.campaign,キャンペーン
+main_menu.btn.custom_race,カスタムレース
+main_menu.btn.editors_mods,エディタとMod
+main_menu.btn.daily_challenge,デイリーチャレンジ
+main_menu.btn.leaderboards,ランキング
+main_menu.btn.achievements,実績
+main_menu.btn.settings,設定
+main_menu.btn.about,概要
+main_menu.btn.quit,終了
+main_menu.label.whats_new,新着情報
+
+# Main Menu => Campaign
+
+campaign.btn.continue,コンティニュー
+campaign.btn.new,ニューゲーム
+campaign.btn.load,ロード
+campaign.saves,セーブ
+campaign.no_saves,セーブデータなし
+campaign.btn.tips,ヒント
+campaign.dialogue.cannot_continue,このセーブデータは続行できません。すでにクリア済みです！
+
+campaign.difficulty,難易度
+campaign.difficulty.easy,イージー
+campaign.difficulty.normal,ノーマル
+campaign.difficulty.hard,ハード
+campaign.difficulty.hardcore,ハードコア
+campaign.difficulty.locked.tip,要レーサーレベル: {0}
+campaign.difficulty.dialogue.locked,選択した難易度は未解放です。より低い難易度でレーサーレベル{0}に到達すると解放されます。
+
+campaign.name,シナリオ名
+
+campaign.missions_challenges,ミッション＆チャレンジ
+campaign.missions_challenges.tip,一部のステージでは、ランダムにミッションやチャレンジが発生します。
+campaign.races_with_weapons,武器使用レース
+campaign.races_with_weapons.tip,一部のレースには、武器やパワーアップを入手できるゾーンがあります。
+campaign.directors_car,運営統括のマシン
+campaign.directors_car.tip,運営統括のニコラスがリムジンで暴れ回ります。難易度が上昇します。
+campaign.helicopter_weapons,武装ヘリコプター
+campaign.helicopter_weapons.tip,ブレイス副社長のヘリが武器を搭載してレーサーを攻撃することがあります。難易度が上昇します。
+campaign.adaptive_ai,AIの自動調整
+campaign.adaptive_ai.tip,プレイヤーの成績に応じてAIレーサーの強弱を調整します。
+campaign.weekly_rebalance,週ごとにゲームバランスを調整
+campaign.weekly_rebalance.tip,毎週AIレーサーが追加のXPとCashを獲得します。難易度が上昇します。
+campaign.custom_content,カスタムコースとマシン
+campaign.custom_content.tip,あなたが作成したコースやマシンがゲームに登場します。
+campaign.workshop_content,ワークショップのコースとマシン
+campaign.workshop_content.tip,Steamワークショップでサブスクライブしたコースやマシンがゲームに登場します。
+campaign.allow_heavy_tracks,オブジェクトが多いコースを使用
+campaign.allow_heavy_tracks.tip,オブジェクト密度の高く、パフォーマンスを低下させる可能性があるカスタムやワークショップのコースをゲームに登場を許可します。
+
+campaign.btn.start_new,新しいキャンペーンを開始
+
+# Main Menu => Custom Race
+
+custom_race.btn.continue_session,コンティニュー
+custom_race.btn.new_session,ニューゲーム
+custom_race.btn.random_time_attack,クイックタイムアタック
+custom_race.btn.random_race,クイックレース
+custom_race.btn.random_battle,クイックバトル
+
+# Main Menu => Editors & Mods
+
+editors_mods.btn.track_editor,コースエディタ
+editors_mods.btn.car_editor,マシンエディタ
+editors_mods.btn.mod_manager,Mod管理
+
+# Main Menu => Mod Manager
+
+mods.section.tracks,サブスクライブ中のコース
+mods.section.cars,サブスクライブ中のマシン
+mods.btn.open_workshop,ワークショップを開く
+mods.btn.manage_tracks,コース
+mods.btn.manage_cars,マシン
+mods.btn.reload,Modを再読み込み
+mods.btn.unsubscribe.tip,除去
+mods.btn.view_online.tip,オンラインで確認
+
+# Leaderboards
+
+leaderboard.time_attack.title,タイムアタック<br>ランキング
+leaderboard.type,ランキング種別
+leaderboard.type.friends,フレンド
+leaderboard.type.global,グローバル
+leaderboard.top100,トップ100
+leaderboard.daily_challenge,デイリーチャレンジ<br>ランキング
+leaderboard.daily_challenge.time_out,タイムアウト！
+leaderboard.daily_challenge.lap_attempts,ラップ挑戦回数
+leaderboard.daily_challenge.ends_in,終了まで
+leaderboard.daily_challenge.grace_period,猶予期間
+leaderboard.daily_challenge.ended_minutes_ago, {0:0}分前に終了
+leaderboard.daily_challenge.ended_hours_ago, {0:0}時間前に終了
+leaderboard.daily_challenge.ended_days_ago, {0:0}日前に終了
+leaderboard.day,日
+leaderboard.btn.race_now,レース開始
+leaderboard.btn.race_now.tip,選択したコースとマシンで周回タイムを競おう
+leaderboard.no_score.race_now,スコアをまだ記録していません。今すぐレースで記録を残そう！
+leaderboard.no_steam_connection,team に接続できません<br><br>ランキングが利用できません
+leaderboard.btn.time_attack,タイムアタック
+leaderboard.time_attack.tip,コースごとの周回タイムのランキングです。「カスタムレース」で「タイムアタック」モードを使うと自分の記録を登録できます。
+leaderboard.refresh.tip,スコアをSteamから直接リロードします
+
+# Leaderboard Names
+
+leaderboard.max_season,最高シーズン
+leaderboard.max_racer_level,最高レーサーレベル
+leaderboard.people_hit,轢いた人数
+leaderboard.km_driven,走行距離(KM)
+leaderboard.cash_earned,累計入手Cash
+leaderboard.xp_gained,累計取得XP
+leaderboard.podium_finishes,入賞回数
+leaderboard.podium_gold,ゴールド回数
+leaderboard.seasons_won,シーズン勝利数
+leaderboard.cars_fragged,マシン破壊数
+leaderboard.tracks_created,コース作成数
+leaderboard.longest_jump,最長ジャンプ距離
+leaderboard.meters_jumped,累計ジャンプ距離
+leaderboard.seconds_drifted,累計ドリフト秒数
+
+# Settings 
+
+# DO NOT TRANSLATE THIS ONE! JUST COPY IT BUT KEEP ENGLISH!
+settings.btn.language,Language
+
+settings.btn.video,グラフィック
+settings.btn.visuals,表示
+settings.btn.gameplay,ゲーム内容
+settings.btn.audio,音声
+settings.btn.input,操作
+settings.btn.reset,リセット
+
+# Settings -> Video
+
+settings.video.quality_warning,画質設定がハードウェアに最適でない可能性があります！
+settings.video.resolution_warning,解像度設定がハードウェアに最適でない可能性があります！
+settings.video.vsync_tip,フレームがカクつく場合、VSyncを無効にしてFPS上限を高くすると改善することがあります
+settings.video.quality,画質設定
+settings.video.quality.performance,パフォーマンス重視
+settings.video.quality.quality,画質優先
+settings.video.resolution,解像度
+settings.video.window_mode,画面表示
+settings.video.window_mode.full_screen_exclusive,フルスクリーン（排他）
+settings.video.window_mode.full_screen_window,フルスクリーン（ウィンドウ）
+settings.video.window_mode.windowed,ウィンドウモード
+# Don't translate this one, just copy
+settings.video.vsync,VSync
+settings.video.vsync.off,オフ
+settings.video.vsync.on,オン（毎フレーム）
+settings.video.vsync.on_every_2,オン（2フレームごと）
+settings.video.fps_limit,FPS制限
+settings.video.particle_density,パーティクル密度
+settings.video.particle_density_tip,ドリフトの煙、路面のほこり、雪けむりの濃さに影響します
+settings.video.btn.set_optimal,最適設定
+settings.video.btn.set_optimal_tip,ハードウェア推奨の解像度と画質レベルに設定します
+
+# Settings -> Visuals
+
+settings.visuals.ui_scale,UI拡大率
+settings.visuals.ui_scale_tip,UIのサイズを調整します
+settings.visuals.speed_units,速度の単位表記
+settings.visuals.show_blood,血しぶき
+settings.visuals.show_racer_names,レーサー名
+settings.visuals.show_tire_trails,タイヤ跡
+settings.visuals.show_brake_lights,ブレーキランプ
+settings.visuals.show_clouds,雲
+settings.visuals.show_weather_effects,天候エフェクト
+settings.visuals.show_car_smoke,マシンの排気煙
+settings.visuals.show_controls,操作表示
+settings.visuals.show_in_race_rankings,レース中の順位
+settings.visuals.dynamic_backgrounds,背景の動的生成
+settings.visuals.dynamic_backgrounds.tip,キャンペーンおよびカスタムレースで有効です。
+settings.visuals.reduce_particles,パーティクル抑制による視認性向上
+settings.visuals.post_processing,ポストプロセッシング
+settings.visuals.minimap_size,ミニマップサイズ
+settings.visuals.minimap_size.off,非表示
+settings.visuals.minimap_size.regular,標準
+settings.visuals.minimap_size.large,大
+settings.visuals.minimap_size.enormous,特大
+settings.visuals.minimap_pos,ミニマップ位置
+settings.visuals.minimap_pos.top_left,左上
+settings.visuals.minimap_pos.bottom_right,右下
+settings.visuals.minimap_pos.top,上
+settings.visuals.minimap_pos.right,右
+
+# Settings -> Gameplay
+
+settings.gameplay.show_tips,ヒントを表示
+# FOR TRANSLATORS: Please translate as "Show Cutscenes (English Only)"
+settings.gameplay.show_cutscenes,カットシーンを表示
+settings.gameplay.show_speech_bubbles,吹き出しを表示
+settings.gameplay.enable_censorship,罵詈雑言を非表示
+settings.gameplay.peds_take_screenshots,歩行者によるスクリーンショット撮影
+settings.gameplay.post_to_discord,Discordに投稿
+settings.gameplay.camera_type,カメラ
+settings.gameplay.camera_type.fixed_road,コース位置に固定
+settings.gameplay.camera_type.fixed_car,マシンに固定
+settings.gameplay.camera_type.fixed_person,人の向きに固定
+settings.gameplay.camera_type.floating,自動
+settings.gameplay.camera_zoom,カメラのズーム
+settings.gameplay.camera_zoom.near,近距離
+settings.gameplay.camera_zoom.medium,中距離
+settings.gameplay.camera_zoom.far,遠距離
+settings.gameplay.speed_autozoom,自動ズーム速度
+settings.gameplay.speed_autozoom_tip,速度で自動ズーム
+settings.gameplay.camera_shake,カメラの振動
+settings.gameplay.camera_shake.full,最大
+settings.gameplay.camera_shake.light,軽度
+settings.gameplay.camera_shake.off,無効
+settings.gameplay.vibration,コントローラ振動
+settings.gameplay.run_in_background,バックグラウンド動作
+settings.gameplay.auto_lock_mouse,マウス自動ロック
+settings.gameplay.auto_lock_mouse_tip,マルチモニタで作業している場合はマウスロックを無効にするとプレイしやすくなります。この設定を反映するにはゲームの再起動が必要です。
+
+# Settings -> Audio
+
+settings.audio.master_volume,マスターボリューム
+settings.audio.menu_sounds,メニュー効果音
+settings.audio.menu_music,メニューBGM
+settings.audio.editor_music,編集画面BGM
+settings.audio.race_music,レースBGM
+settings.audio.car_engine,エンジン音
+settings.audio.tire_skid,タイヤのこすれる音
+settings.audio.crowd_noise,観客の声
+settings.audio.sound_fx,効果音
+settings.audio.btn.reset_to_defaults,デフォルトに戻す
+
+# Settings -> Reset
+
+settings.reset.btn.full_reset,すべて初期化
+settings.reset.btn.reset_tips,ヒントを初期化
+
+# FOR TRASLATORS: Be very careful to not change text inside brackets (<br>, <size=50%> and such). It is one long line
+settings.reset.about,すべて初期化を行うと：<indent=10%><size=70%> - キャンペーンのセーブデータがすべて削除されます - すべてのマシンが未解放に戻ります - ゲームが終了します <indent=0%><size=100%>削除されないもの： <indent=10%><size=70%> - 実績 - ランキングの記録 - カスタムマシンとコース
+
+# Main Menu button tooltips
+
+main_menu.btn.tooltip.homepage,Kodo Linijaホームページ
+main_menu.btn.tooltip.newsletter,開発者ニュースレター
+main_menu.btn.tooltip.dev_msg,開発者からのお知らせ
+main_menu.btn.tooltip.campaign,ランダム生成されたコースで遊ぶキャンペーン。プレイして新しいマシンをアンロックしよう！
+main_menu.btn.tooltip.race,クイックレース、カーバトル、またはタイムアタックで他のプレイヤーのラップタイムに挑戦
+main_menu.btn.tooltip.editors,他のプレイヤーが作成したコースやマシンをダウンロード、または自分で作って共有
+main_menu.btn.tooltip.daily_challenge,デイリーチャレンジで他プレイヤーとラップタイムを競おう
+main_menu.btn.tooltip.leaderboards,トップ100入りの栄光が待っている
+main_menu.btn.tooltip.achievements,すべてを手に入れろ！
+main_menu.btn.tooltip.quit.0,やめろおお！ 押さないでくれ！ 最後の項目にはワケがあるんだ！
+main_menu.btn.tooltip.quit.1,頼む！ 待て！ 話せばわかる！
+main_menu.btn.tooltip.quit.2,もう1レースだけどう？
+main_menu.btn.tooltip.quit.3,マジで？ 他のことは後まわしでも...
+main_menu.btn.tooltip.quit.4,押すたびに妖精さんがマシンの配線を1本ずつ切ります。脅しじゃないぞ！
+main_menu.btn.tooltip.quit.5,これを押したことをSOFACTは許そう。だが、やったことを忘れてくれるかな？
+main_menu.btn.tooltip.quit.6,押すと5秒後にコンピューターが自爆します。
+main_menu.btn.tooltip.quit.7,どうしてこのボタンなんだ？ 他にもたくさん押せるボタンがあるだろ！
+main_menu.btn.tooltip.quit.8,君の猫を人質にしているぞ。このボタンを押せば、ヤツにラザニアを食べさせる！
+main_menu.btn.tooltip.quit.9,本気か？ アンタの人生がかかっているんだぞ！
+
+# About
+
+about.btn.credits,クレジット
+about.btn.how_to_play,遊び方
+about.btn.newsletter,ニュースレター
+about.btn.version,バージョン
+about.btn.privacy,プライバシーポリシー
+
+# Version Check
+
+version.updates_available,アップデート可能
+version.loading_now,更新履歴をサーバーから読み込み中。URL:<br>{0}
+version.up_to_date,アップデート日
+version.latest,最新バージョン: {0}
+version.current,現在のバージョン: {0}
+version.check_failed,アップデートのチェックに失敗
+version.check_failed_details,バージョン情報または更新履歴を取得できませんでした。<br><br>ネットワーク未接続か、ファイアウォールで遮断されているか、またはサーバーが停止中の可能性があります。<br><br>URL:<br>{0}<br><br>エラー詳細:<br>{1}
+version.changelog_download_fail,新しいバージョンがあります。<br><br>しかし、更新履歴の取得は失敗しました。<br><br>URL:<br>{0}<br><br>エラー詳細:<br>{1}
+version.no_changes,変更箇所がないか更新履歴がありません:
+version.new_changes,変更箇所: {0}
+
+################################################################################
+
+# Campaign
+campaign.play_time,プレイ時間: {0}
+
+# Add Racer Menu
+
+new_racer.title,新たなレーサーを登録
+new_racer.edit_title,レーサー設定
+new_racer.racer_name,レーサー名
+new_racer.your_name,あなたの名前
+new_racer.voice_pitch,声の高さ
+new_racer.controlled_by,操作者
+new_racer.ai_skill,AIの強さ
+new_racer.choose_avatar,アバター選択
+new_racer.voice.low,低音域 {0:0}%
+new_racer.voice.high,高音域 {0:0}%
+new_racer.voice.mid,中程度
+new_racer.register,登録
+new_racer.dialogue.name_required,名前は必須です！
+new_racer.dialogue.name_taken,{0}という名前は既に他のレーサーで使われています！
+new_racer.dialogue.confirm_remove,本当に{0}を除名しますか？
+
+# Select Avatar Menu
+
+select_avatar.title,アバター選択
+
+# Racer List Menu
+
+season_lineup.title,シーズン一覧
+season_lineup.begin_season,シーズン開始
+
+# Generation Notice
+
+gen.generating,お待ちください...<br>生成中
+gen.loading,お待ちください...<br>読み込み中
+
+# Campaign Dashboard
+
+dash.garage,ガレージ
+dash.no_car_warning,マシンを所有していません！
+dash.btn.buy_car,マシン購入
+dash.end_campaign,キャンペーン終了
+dash.end_season,シーズン終了
+dash.end_season.tip,次のシーズンへ進みます
+dash.advance_week,進む
+dash.advance_week.tip,次の週へ進みます
+dash.view_season,シーズンを確認
+dash.view_season.tip,シーズンと週ごとの結果表示を切り替えます
+dash.press_x_to_select,{0}を押して選択
+dash.flip_track_card.tip,カードを裏返す
+dash.btn.walk_on_foot,徒歩
+dash.btn.walk_on_foot.tip,歩行者としてレースに参加（危険！）
+dash.btn.save_track.tip,カスタムレースかエディタで編集するためコースを保存します。
+dash.btn.regenerate.tip,現在のコースが気に入らなければ、コースを再生成します。
+# Verb
+dash.btn.do_race,レース
+dash.btn.do_retry,再挑戦
+dash.give_5k,$5000を渡す
+
+# Keep short - abbreviate if necessary
+dash.stage01,ステージ01
+dash.stage02,ステージ02
+dash.stage03,ステージ03
+dash.stage04,ステージ04
+dash.stage05,ステージ05
+
+# Keep short - abbreviate if necessary
+dash.week1,1週間目
+dash.week2,2週間目
+dash.week3,3週間目
+dash.week4,4週間目
+dash.week5,5週間目
+dash.week6,6週間目
+dash.week7,7週間目
+
+dash.stage_rewards,ステージ報酬
+dash.season_rewards,シーズン報酬
+dash.next_season,次のシーズン
+dash.game_over,ゲームオーバー
+dash.buy_freedom,自由の身になる<br><size=75%>${0}</size>
+dash.players,プレイヤー
+# It will be in a button, so could be just "All"
+dash.all_racers,全レーサー
+
+dash.maxed_out,最大強化済
+dash.req_lvl_short,Req lvl: {0}
+
+dash.tip.add_1_lap,1ラップを追加
+dash.tip.add_5_laps,5ラップを追加
+dash.tip.reduce_1_lap,1ラップを減少
+dash.tip.reduce_5_laps,5ラップを減少
+
+dash.tip.workshop_item,ワークショップの作品
+dash.tip.rand_time_attack,ランダムタイムアタックセッション
+dash.tip.rand_race,生成されたランダムなコースでクイックレース
+dash.tip.rand_battle,生成されたランダムなコースでAIとバトル
+dash.tip.mark_tips_unseen,すべてのヒントを未確認にする
+dash.tip.campaign_name_entry,キーボードで入力するか、上部のランダム生成ボタンを使用してください
+dash.tip.cloud_shadows_visible,雲の影はこのまま表示されます
+dash.tip.not_affect_split_minimap,この設定は画面分割時のミニマップには影響しません
+dash.tip.censorship,不快な表現らしき単語を #%$! に置き換えます
+dash.tip.discord_post,ランキングのスコアやアップロードしたMODをBRS公式Discordに投稿します
+dash.tip.upgrade_available,アップグレード可能！
+dash.tip.voice_pitch_slider,カットシーンにおけるセリフの声の高低を調整します
+dash.tip.file_on_computer,パソコン上のファイルを選択してください
+dash.tip.player_num,プレイヤー{0}
+dash.tip.ai_skill,AIの強さ:{0:0}%
+dash.tip.car_sprites_white,スプライト編集をする際は車体を白のままにしてください。塗装は車種に依存しません。
+dash.tip.upload_car,Steam ワークショップにアップロードします。アップロード前にパラメータで最高速度を正しく設定してください！
+dash.tip.reload_car,この項目は、ゲーム外でマシンのスプライトを変更した後で使用してください
+dash.tip.speed_index,相対的なマシンの速さの指標です。
+dash.tip.leaderboard_eligible,このコースはランキング対象です
+dash.tip.ghost_replay_available,ゴーストリプレイが利用可能です
+dash.tip.add_racer_btn,新しいレーサー（プレイヤーまたはAI）を追加します
+dash.tip.show_track_leaderboards,コースのランキングを表示します
+dash.tip.new_race_session,新しいレースを開始します
+dash.tip.race_weapons,コース上に武器ゾーンを配置します
+dash.tip.0_racers,プレイヤー以外のレーサーをすべて取り除きます
+dash.tip.add_1_rnd_racer,ランダムなレーサーを1人追加します
+dash.tip.add_10_rnd_racers,ランダムなレーサーを10人追加します
+dash.tip.rnd_gen_btn,レース用にランダムなコースを生成します
+
+# Custom Race Dash
+
+dash.set_for_everyone,全員に適用
+dash.car,マシン
+dash.racers,レーサー
+dash.search_for_track,コースを検索
+dash.randomize_prompt,「生成」をクリックして<br>コースをランダム生成
+dash.race_options,レース設定
+dash.race_mode,レースモード
+dash.demo_mode,デモモード
+dash.demo_mode.tip,プレイヤーの代わりにAIが運転します
+dash.opponent_skill,対戦相手のスキル
+dash.start_race,レース開始
+dash.race_in_x,{0}でレース開始
+dash.battle_in_x,{0}でバトル開始
+dash.time_attack_in_x,{0}でタイムアタック開始
+dash.x_to_select,{0}で選択
+dash.add_player,プレイヤー追加
+dash.tracks_full_screen.tip,フルスクリーン表示切替
+
+# Rewards
+
+rew.car_unlock,マシンをアンロック: {0}
+rew.total_pts,合計ポイント
+rew.dmg_taken,ダメージを受ける
+rew.dmg_given,ダメージを与える
+rew.unused_nitro,ニトロ残量
+rew.corner_cut,カーブをショートカット
+rew.good_photos,優れた写真の数
+rew.close_calls,ギリギリまで接近
+rew.survival_bonus,生存ボーナス
+rew.place,{0}位
+rew.dnf,リタイア
+rew.pts,{0}ポイント
+rew.ch.unknown,不明なチャレンジ
+rew.ch.success,達成: {0}
+rew.ch.fail,失敗: {0}
+rew.lethal,累計人身事故数
+rew.most_lethal,最大人身事故数
+rew.frags,マシン破壊
+rew.jumps,累計ジャンプ距離
+rew.longest_jump,最長ジャンプ距離
+rew.drifts,ドリフト時間
+# Personal
+rew.longest_drift,最長ドリフト時間
+rew.most_drifts,累計ドリフト回数
+# Among everyone
+rew.most_longest_drift,ドリフト時間トップ
+rew.level_up,レベルアップ
+rew.aero_up,Aero 空力特性アップグレード解放
+rew.engine_up,エンジンアップグレード解放
+rew.turbo_up,ターボアップグレード解放
+rew.gears_up,トランスミッションアップグレード解放
+rew.grip_up,グリップアップグレード解放
+rew.level_x,レベル{0}
+rew.paint_jobs,新しい塗装タイプ解放
+
+# Car Stats
+
+# Keep these very short! Max 10 characters!
+car.stat.speed_idx,性能指数
+car.stat.top_speed,最高速度
+car.stat.power,パワー
+car.stat.mass,重量
+car.stat.health,耐久
+car.stat.steering,ステアリング
+car.stat.grip,グリップ
+car.stat.shift_time,シフト切替
+
+# Car Upgrades
+
+# Short version
+car.upgrade.engine,エンジン
+car.upgrade.turbo,ターボ
+car.upgrade.gears,ギア
+car.upgrade.aero,空力性能
+car.upgrade.grip,タイヤ
+
+car.upgrade.engine.title,エンジン強化
+car.upgrade.turbo.title,ターボチャージャー強化
+car.upgrade.gears.title,トランスミッション強化
+car.upgrade.aero.title,空力特性改良
+car.upgrade.grip.title,グリップ＆操縦性改良
+
+car.upgrade.engine.tip,エンジン出力を増強
+car.upgrade.turbo.tip,スピードブーストの効果が上昇
+car.upgrade.gears.tip,ギアチェンジ時間を短縮
+car.upgrade.aero.tip,最高速とグリップを向上
+car.upgrade.grip.tip,グリップと操縦性を向上
+
+# Racer Profile
+
+racer.last_races,前回のレース
+racer.no_data,データなし
+racer.level,レーサーレベル
+racer.races_attempted,レース参加回数
+racer.races_won,レース勝利回数
+racer.peds_hit,轢いた歩行者数
+racer.times_drifted,ドリフトした時間
+
+racer.title.rookie,ルーキー
+racer.title.semi_pro,セミプロ
+racer.title.pro,プロ
+racer.title.veteran,ベテラン
+racer.title.master,マスター
+racer.title.grand_master,グランドマスター
+racer.title.legend,レジェンド
+racer.title.epic,エピック
+
+# Car Paint
+
+paint.main_color,メインカラー
+paint.layer1,レイヤ1
+paint.layer2,レイヤ2
+paint.select_pattern,塗装パターン選択
+paint.change_color,カラー変更
+paint.rotate_left,左回転
+paint.rotate_right,右回転
+paint.zoom_out,縮小
+paint.zoom_in,拡大
+paint.reduce_opacity,透明度減少
+paint.increase_opacity,透明度増加
+paint.move,移動
+paint.remove_paint_layer,レイヤ削除
+paint.open_custom_folder,カスタム画像の設置フォルダを開く
+
+# Pedestrian Mode
+
+ped.close_calls,事故寸前
+ped.photos,写真撮影
+ped.good_photos,すばらしい写真
+ped.earned_cash,獲得Cash
+
+# Race mode
+
+race.paused.by,{0}がゲームを一時停止
+race.you_have_a_challenge,チャレンジ実施中！
+race.btn.exit,レース終了
+race.btn.exit_desktop,デスクトップに戻る
+race.btn.restart,リスタート
+race.btn.photo_mode,撮影モード
+race.btn.speed_up,加速
+race.btn.end,レース終了
+race.finished,レース終了
+race.waiting,待機中({0:0}s)
+
+# Battle mode
+
+battle.finished,バトル終了
+
+# Input Actions
+
+act.UIHorizontal,横方向操作
+act.UIVertical,縦方向操作
+act.UISubmit,決定
+act.UICancel,キャンセル
+act.ShowTutorial,ヒント表示
+act.UICycleNext,次に切り替え
+act.UICyclePrev,前に切り替え
+act.UIPlayerNext,次のプレイヤー
+act.UIPlayerPrev,前のプレイヤー
+
+act.Steer,ステアリング
+act.Accelerate,アクセル
+act.Brake,ブレーキ
+act.Pause,ゲーム一時停止
+act.Camera,カメラ切り替え
+act.Handbrake,サイドブレーキ
+act.ResetCar,マシンの位置をリセット
+act.Zoom,カメラのズーム切り替え
+act.Nitro,ニトロ
+act.Fire,武器を発射
+act.DropWeapon,武器を投棄
+
+act.EditorZoom,拡大
+act.RotateObject,回転
+act.HorizontalPan,水平移動
+act.VerticalPan,垂直移動
+act.PlaceObject,設置
+act.CancelAction,キャンセル
+act.Undo,元に戻す
+act.Redo,やり直し
+act.CopyModifier,設定コピー
+act.DeleteModifier,設定削除
+
+act.Walk,歩く
+act.Turn,方向転換
+act.Take Photo,写真を撮影
+act.Wave,手を振る
+act.FastForward,ダッシュ
+act.PedZoom,拡大
+act.PedPause,一時停止
+
+act.MoveHorizontal,水平移動
+act.MoveVertical,垂直移動
+act.PhotoZoom,拡大
+act.Rotate,回転
+act.PhotoModePhoto,写真を撮影
+act.ToggleTime,時間切り替え
+act.ControlTimeScale,ゲーム進行速度
+act.ToggleUI,UI切り替え
+act.ExitPhotoMode,撮影モード終了
+act.AdjustMotionSpeed,動作速度
+
+# Track editor
+
+tr.file,ファイル
+tr.file.new,新規作成
+tr.file.new.tip,新たにコースの作成を開始します
+tr.file.open,開く
+tr.file.open.tip,保存済みのコースを開きます
+tr.file.save,保存
+tr.file.save.tip,現在のコースを保存します
+tr.file.undo,元に戻す
+tr.file.redo,やり直し
+tr.file.share,公開
+tr.file.share.tip,現在のコースをSteamワークショップに公開します
+tr.file.delete,削除
+tr.file.delete.tip,セーブされたコースを削除（削除対象を選択できます）
+tr.file.exit,終了
+tr.file.exit.tip,メインメニューに戻ります
+
+tr.grid,グリッド
+tr.grid.toggle,切替
+tr.grid.toggle.tip,グリッドの表示と非表示を切り替えます
+tr.grid.light,明るくする
+tr.grid.light.tip,グリッドを明るくします（暗いコースで便利です）
+tr.grid.dark,暗くする
+tr.grid.dark.tip,グリッドを暗くします（明るいコースで便利です）
+
+tr.gen,自動生成
+tr.gen.full_circuit,完成済サーキット
+tr.gen.full_circuit.tip,コース形状とオブジェクトを含めた完全なサーキットを生成します。現在のコースは置き換えられます。
+tr.gen.full_open,完成済オープンロード
+tr.gen.full_open.tip,コース形状とオブジェクトを含めた完全なオープンロードを生成します。現在のコースは置き換えられます。
+tr.gen.circuit,サーキット
+tr.gen.circuit.tip,閉じた（ループ形状）サーキットのコース形状を生成します。現在のコースは置き換えられ、オブジェクトも削除されます。
+tr.gen.open,オープンロード
+tr.gen.open.tip,開放型（スタートとゴール間を１度だけ走行する）コースの形状を生成します。現在のコースは置き換えられ、オブジェクトも削除されます。
+tr.gen.all_objects,すべてのオブジェクト
+tr.gen.all_objects.tip,新しいオブジェクトを生成します。既存のオブジェクトはすべて置き換えられます。
+tr.gen.object_groups,オブジェクトグループ
+tr.gen.object_groups.tip,オブジェクトグループを手動で生成します。既存のものはすべて置き換えられます。
+tr.gen.crowd,観客
+tr.gen.crowd.tip,観客を生成します。既存のものはすべて置き換えられます。
+tr.gen.forests,森林
+tr.gen.forests.tip,森林を生成します。既存のものはすべて置き換えられます。都市型コースで使用すると、緑のマスがすべて削除されます！
+tr.gen.flowers,花畑
+tr.gen.flowers.tip,花畑を生成します。既存のものはすべて置き換えられます。都市型コースでは無効です。
+tr.gen.bushes,茂み
+tr.gen.bushes.tip,茂みを生成します。既存のものはすべて置き換えられます。都市型コースでは無効です。
+tr.gen.rocks,岩
+tr.gen.rocks.tip,岩を生成します。既存のものはすべて置き換えられます。
+tr.gen.tires,タイヤ
+tr.gen.tires.tip,タイヤを生成します。既存のものはすべて置き換えられます。
+tr.gen.cones,コーン
+tr.gen.cones.tip,コーンを生成します。既存のものはすべて置き換えられます。
+tr.gen.walls,壁
+tr.gen.walls.tip,壁を生成します。既存のものはすべて置き換えられます。
+tr.gen.lamps,街灯
+tr.gen.lamps.tip,街灯を生成します。既存のものはすべて置き換えられます。
+tr.gen.buildings,建築物
+tr.gen.buildings.tip,建築物を生成します。既存のものはすべて置き換えられます。
+tr.gen.puddles,水たまり
+tr.gen.puddles.tip,水たまりを生成します。既存のものはすべて置き換えられます。
+tr.gen.ramps,ジャンプ台
+tr.gen.ramps.tip,ジャンプ台を生成します。既存のものはすべて置き換えられます。
+
+tr.ground_type,地面タイプ
+tr.ground_type.grass,草
+tr.ground_type.tarmac,ターマック舗装
+tr.ground_type.dirt,ダート（未舗装）
+tr.ground_type.sand,砂
+tr.ground_type.snow,雪
+
+tr.ground_detail,地面詳細
+tr.ground_detail.none,なし
+tr.ground_detail.none.tip,地面の詳細レイヤを削除します
+tr.ground_detail.shared_tip,地面の詳細を追加します。クリックするたびに異なるパターンが組み合わせとして適用されます
+
+tr.track_type,コースタイプ
+tr.track_type.asphalt,アスファルト
+tr.track_type.gravel,砂利
+tr.track_type.snow,雪
+
+tr.ed_track,コース編集
+tr.ed_track.add,追加
+tr.ed_track.add.tip,地面をクリックするとコースの末尾に新しいセグメントが追加されます。ループしている場合は、スタートとゴールが一時的に切断されます。
+tr.ed_track.split,分割
+tr.ed_track.split.tip,コース上の地面をクリックして、セグメントを分割します
+tr.ed_track.edit,編集
+tr.ed_track.edit.tip,ハンドルをクリック＆ドラッグして、コースのカーブの曲がり具合を調整します
+tr.ed_track.delete,削除
+tr.ed_track.delete.tip,ハンドルをクリックしてコースのノードを削除します
+tr.ed_track.open_close,オープン／クローズ
+tr.ed_track.open_close.tip,クリックすると、コースのループ状態が切り替わります
+tr.ed_track.auto_smooth,自動スムーズ
+tr.ed_track.auto_smooth.tip,コースのカーブを自動的に調整して滑らかにします
+tr.ed_track.randomize,ランダム生成
+tr.ed_track.randomize.tip,現在のコースにランダムなカーブを追加します
+tr.ed_track.sharpen,シャープ化
+tr.ed_track.sharpen.tip,カーブの一部を鋭くします（コースが大きいと数秒かかる場合があります）
+tr.ed_track.wider,幅を広げる
+tr.ed_track.wider.tip,コースの幅を広げます
+tr.ed_track.narrower,幅を狭める
+tr.ed_track.narrower.tip,トラックの幅を狭めます
+tr.ed_track.grow,拡大
+tr.ed_track.grow.tip,コース全体を拡大します
+tr.ed_track.shrink,縮小
+tr.ed_track.shrink.tip,コース全体を縮小します
+tr.ed_track.move_start,スタート位置移動
+tr.ed_track.move_start.tip,スタート位置を次の制御点へ移動します（ループするコースのみ）
+tr.ed_track.recenter,中央に再配置
+tr.ed_track.recenter.tip,コースとすべてのオブジェクトを中央になるように再配置します
+tr.ed_track.rotate,回転
+tr.ed_track.rotate.tip,コースとすべてのオブジェクトを時計回りに45度ずつ回転します
+
+tr.add_obj,オブジェクト追加
+tr.add_obj.group,オブジェクトグループ
+tr.add_obj.group.tip,オブジェクトの集団を追加します。もう一度クリックするとランダムに設置されます。
+tr.add_obj.forest,森林
+tr.add_obj.forest.tip,ランダムな樹木をまとめて生成します
+tr.add_obj.flowers,花畑
+tr.add_obj.flowers.tip,ランダムな花をまとめて生成します
+tr.add_obj.crowd,観客
+tr.add_obj.crowd.tip,観客エリアに歩行者が出現させます。仮設トイレや雪だるまが出現することもあります
+tr.add_obj.cone,コーン
+tr.add_obj.cone.tip,ボタンを押してドラッグすると一列に配置します
+tr.add_obj.tire,タイヤ
+tr.add_obj.tire.tip,ボタンを押してドラッグすると一列に配置します
+tr.add_obj.porta_potty,仮設トイレ
+tr.add_obj.porta_potty.tip,仮設トイレを弾き飛ばすとニトロが少し回復します
+tr.add_obj.barrel,ドラム缶
+tr.add_obj.barrel.tip,ドラム缶に高速で衝突すると爆発することがあります
+tr.add_obj.snowman,雪だるま
+tr.add_obj.snowman.tip,壊すとニトロが少し回復
+tr.add_obj.street_lamp,街灯
+tr.add_obj.junk_car,ボロ車
+tr.add_obj.hot_dog_truck,ホットドッグ販売トラック
+tr.add_obj.hot_dog_cart,ホットドッグ屋台
+tr.add_obj.bench,ベンチ
+tr.add_obj.water_puddle,水たまり
+tr.add_obj.water_puddle.tip,少し滑りやすいです
+tr.add_obj.water_pond,Water 池
+tr.add_obj.water_pond.tip,少し滑りやすいです
+tr.add_obj.ice_patch,路面凍結
+tr.add_obj.ice_patch.tip,かなり滑りやすいです
+tr.add_obj.oil_spill,オイル溜まり
+tr.add_obj.oil_spill.tip,非常に滑りやすいです
+tr.add_obj.ramp,ジャンプ台
+tr.add_obj.ramp.tip,マシンがジャンプできる傾斜台です。わずかに加速します
+tr.add_obj.power_ramp,パワージャンプ台
+tr.add_obj.power_ramp.tip,ジャンプ前に大きな加速が得られるジャンプ台の強化版です
+tr.add_obj.crop_field,畑
+tr.add_obj.rock,岩
+tr.add_obj.desert_rock,砂漠の岩
+tr.add_obj.wall,壁
+tr.add_obj.pipe,パイプ
+tr.add_obj.solar_panels,ソーラーパネル
+tr.add_obj.silo,サイロ
+# Thing for retrieving water from the ground
+tr.add_obj.well,井戸
+tr.add_obj.old_hut,古い小屋
+tr.add_obj.vault,倉庫
+tr.add_obj.house,家
+tr.add_obj.building,建築物
+tr.add_obj.grass_square,芝生タイル
+tr.add_obj.grass_square.tip,アスファルト上に樹木や花を配置するための土台になります
+tr.add_obj.bush,茂み
+tr.add_obj.bush.tip,破壊可能な装飾的な茂みです
+tr.add_obj.green_tree,緑の樹木
+tr.add_obj.branch_tree,枝だけの樹木
+tr.add_obj.snow_tree,雪が積もった樹木
+tr.add_obj.flowers_single,花（単品）
+
+tr.ed_obj,オブジェクト編集
+tr.ed_obj.move,移動
+tr.ed_obj.move.tip,オブジェクトをクリック＆ドラッグして移動します
+tr.ed_obj.rotate,回転
+tr.ed_obj.rotate.tip,オブジェクトをクリック＆ドラッグして回転します。Shiftを推しながら操作すると微調整できます
+tr.ed_obj.delete,削除
+tr.ed_obj.delete.tip,オブジェクトをクリックして削除します
+tr.ed_obj.clear_all,すべて削除
+tr.ed_obj.clear_all.tip,コース上のすべてのオブジェクトを削除します
+tr.ed_obj.clear_groups,グループ削除
+tr.ed_obj.clear_groups.tip,手動で作成したオブジェクトグループを削除します
+tr.ed_obj.clear_crowd,観客削除
+tr.ed_obj.clear_crowd.tip,すべての観客を削除します
+tr.ed_obj.clear_forests,森林削除
+tr.ed_obj.clear_forests.tip,すべての森林を削除します。都市型コースで使用すると緑のタイルもすべて削除されます！ 個別に配置した樹木は削除されません。
+tr.ed_obj.clear_flowers,花畑削除
+tr.ed_obj.clear_flowers.tip,すべての花畑を削除します。都市型コースでは無効です。個別に配置した花は削除されません。
+tr.ed_obj.clear_bushes,茂み削除
+tr.ed_obj.clear_bushes.tip,すべての茂みを削除します。都市型コースでは無効です。
+tr.ed_obj.clear_rocks,岩削除
+tr.ed_obj.clear_rocks.tip,すべての岩を削除します
+tr.ed_obj.clear_tires,タイヤ削除
+tr.ed_obj.clear_tires.tip,すべてのタイヤを削除します
+tr.ed_obj.clear_cones,コーン削除
+tr.ed_obj.clear_cones.tip,すべてのコーンを削除
+tr.ed_obj.clear_walls,壁削除
+tr.ed_obj.clear_walls.tip,すべての壁を削除
+tr.ed_obj.clear_lamps,街灯削除
+tr.ed_obj.clear_lamps.tip,すべての街灯を削除
+tr.ed_obj.clear_buildings,建築物削除
+tr.ed_obj.clear_buildings.tip,すべての家と建物を削除します
+tr.ed_obj.clear_puddles,パドル（水場関係）削除
+tr.ed_obj.clear_puddles.tip,すべての水たまり・氷・オイルを削除します
+tr.ed_obj.clear_ramps,ジャンプ台削除
+tr.ed_obj.clear_ramps.tip,すべてのジャンプ台を削除します
+
+tr.test_drive,テスト走行
+tr.test_drive_ai,AIでテスト走行
+tr.help,ヘルプ
+
+# Car Editor
+
+ced.select_base_car,ベースにするマシンを選択
+ced.select_car,マシンを選択
+
+ced.new_car,新しいマシン
+ced.open_car,マシンを開く
+ced.download_cars,ダウンロードしたマシン
+ced.exit,終了
+ced.save_car,マシンを保存
+ced.delete_car,削除
+ced.parameters,パラメータ
+ced.edit_sprites,スプライト編集
+ced.description,説明文
+ced.part_positions,パーツ位置
+ced.sounds,サウンド
+ced.modding_guide,Modガイド
+ced.share,公開
+ced.reload_sprites,スプライト再読み込み
+ced.close,閉じる
+ced.test_drive,テスト走行
+ced.end_test_drive,テスト走行を終了
+
+ced.speed_idx,性能指数
+ced.price,価格
+ced.price.tip,価格は性能指数で自動的に計算されます。
+ced.req_level,必要レベル
+ced.req_level.tip,必要レベルは性能指数で自動的に計算されます。
+ced.label.general,総合性能
+ced.max_speed_kmh,最高速度(kmh)
+ced.max_speed_kmh.tip,ギアボックスを正しく動作させるために必要です。長い直線で試走して最高速度を確認しましょう。
+ced.mass_kg,車体重量(kg)
+ced.mass_kg.tip,軽量な車体 + 大出力エンジン = じゃじゃ馬です。バランスを見極めましょう。
+ced.max_health,最大耐久値
+ced.label.engine,エンジン
+ced.engine_power,エンジン出力
+ced.engine_power.tip,まともに扱えるのは500BHPぐらいまでです。それ以上も出せますがオススメはできません。この値を変更した後は最高速度も調整しましょう！
+ced.label.handling,操縦性
+ced.steering_sensitivity,ステアリング感度
+ced.steering_sensitivity.tip,ステアリングの効き具合や反応の敏感さを調整します。車体重量にも影響されます。
+ced.label.grip,グリップ
+ced.drift_factor,ドリフト係数（グリップあり）
+ced.drift_factor.tip,グリップがある状態で、どれだけドリフトに入りやすいかを示しています。推奨値は0.8〜0.9です。
+ced.slip_factor,Drift ドリフト係数（グリップなし）
+ced.slip_factor.tip,グリップがない状態で、どれだけドリフトを維持しやすいかを表します。推奨値は0.95〜0.9999です。
+ced.max_sticky_vel,横グリップ最大速度
+ced.max_sticky_vel.tip,ドリフトに入らずにコーナーを曲がれる最大速度です。推奨値は1.0〜1.5です。
+ced.label.gearbox,ギアボックス
+ced.max_rpm,最大回転数(RPM)
+ced.max_rpm.tip,エンジン音には直接影響しません！ 適切なエンジン音を選択してください。
+ced.idle_rpm,アイドリング回転数(RPM)
+ced.shift_time,シフト切替時間
+ced.shift_time.tip,ギアのシフト切り替えにどれくらい時間がかかるかを指定します
+
+ced.label.sounds,効果音
+ced.sound.engine,エンジン
+ced.sound.muffler,マフラー
+ced.sound.turbo,ターボ
+ced.sound.turbo.tip,ターボ音は、アップグレード済みのマシンで走行しているときのみ再生されます
+ced.sound.charger,スーパーチャージャー
+ced.sound.charger.tip,スーパーチャージャー音は、アップグレード済みのマシンで走行しているときのみ再生されます
+
+ced.label.model,モデル名
+ced.model_name,車体モデル名
+ced.label.description,説明
+ced.car_description_placeholder,あなたの新作について、何か特筆すべき点があれば是非ひとこと
+
+ced.label.lights,ライト
+ced.front_lights_width,フロントライト幅
+ced.front_lights_pos,フロントライト位置
+ced.rear_lights_width,テールランプ幅
+ced.rear_lights_pos,テールランプ位置
+
+ced.label.wheels,ホイール
+ced.front_axle_width,前輪の間隔
+ced.front_axle_pos,前輪の位置
+ced.rear_axle_width,後輪の間隔
+ced.rear_axle_pos,後輪の位置
+
+ced.label.interior,内装
+ced.interior_off_x,内装オフセットX
+ced.interior_off_y,内装オフセットY
+
+ced.label.collider,衝突判定
+ced.collider_width,衝突判定 横幅
+ced.collider_height,衝突判定 長さ
+ced.center_of_mass,重心
+ced.center_of_mass.tip,カーブでの旋回性能やドリフト時の挙動に影響します
+
+ced.label.exhausts,排気
+ced.exhaust_count,排気管数
+ced.exhaust_width,排気管の幅
+ced.exhaust_pos,排気管の位置
+
+################################################################################
+
+# Cutscenes
+
+### Lore Cutscene ### <-- please get this one very well, it's something people usually see within first 2 minutes of the game
+
+# In here {0} is the number of years and {1} is a date
+cut.lore.1,よお！ アンタ{0}年前に大事故を起こした有名レーサーじゃないのか？ たしか{1}から冷凍睡眠装置に入っていたんだろ、そうなら最近のことをザックリ説明してやるよ。
+# {0} is a date
+cut.lore.2,昔、大儲けしたテック系企業あったよな。名前は思い出せないけどな。競合を排除して、{0}には世界経済を牛耳ってやがった。
+# You should probably keep "Social Frontier of Activism" and SOFACT unchanged in your translation, for authenticity (company was not local after all)
+cut.lore.3,その企業は科学的な探求をやる一方で、社内規則が複雑化しすぎて自分の首を絞めていたんだ。そして、ある時に"ソーシャル・フロンティア・オブ・アクティビズム"、略してSOFACTと名を変えた。
+cut.lore.4,だが、結局ところ人間の本性には勝てなかったってワケだ。予期せぬ敵対的買収があったときに活動家どもは抹殺されて...まあ今もSOFACTは外面は善良に見えるが。昔ながらのゴロツキどもに支配されている。
+# Please do not translate "Bloody Rally Show", or included it into parentheses next to translation. Example: "Kruvinojo Ralio Šou" (Bloody Rally Show)
+cut.lore.5,新しい支配者どもは金儲けに大忙しだ。広告での儲けを最大化するために大衆娯楽に投資を続け、今や"ブラッディ・ラリー・ショー"は、ほとんどの奴にとって一番のお楽しみになってる。
+cut.lore.6,ブラッディ・ラリー・ショーときたら、1980年代の悪名高いGroup Bの技術を使ってラリー黄金時代を再現しようとしてんだ。事故率はうなぎ上りだな。だがSNSのインフルエンサーどもは迫力あるバズりそうな写真を狙って群がる。
+cut.lore.7,マシンをぶっ壊すなよ、相棒。でないと群衆に混じらなきゃならなくなるぜ。それじゃ、幸運を祈る！ ああ、そういえば名前を聞いてなかったな。
+
+### Season Intro ### <-- please get this one very well too, it's part 2 of the main introduction
+
+cut.intro.1,おい、新入り！ 遅刻だぞ！ 俺はブラッディ・ラリー・ショーの責任者だ。紹介したい人物がいる。
+cut.intro.2,ごきげんよう、{0}。古いレーシングカーを上手く操れると聞いたから呼んだ。それでは、すばらしいショーを見せてもらおう！
+cut.intro.2_2,おお、それから簡単な頼みごとをお願いすることがあるかもしれんな。大したことではない、心配は要らん！
+cut.intro.3,ちょっと待って欲しい。なんで、これをやらなきゃならないんだ？
+cut.intro.4,我々から冷凍休眠につく費用を借りているだろう、{0}！ シーズンの終わりで${1}を返済すれば、あとは好きにしろ。それまでは、お前をどうしようとSOFACTの勝手だ。
+cut.intro.5,仕方がない…いつから始めればいい？
+cut.intro.6,ついてこい、新入り。まず他のレーサーたちを紹介してやる。
+cut.intro.7,おお、{0}！ また戻ってきたのか！？ 感心だな！
+cut.intro.8,まだやるべきことがあるんだ、わかるだろ？
+cut.intro.9,戻ってきてくれて嬉しい！ ついてこい、契約書にサインしてもらうぞ。
+
+### Racer died cutscene
+
+# {0} will be racer's name, {1} will be a "he" or "she"
+cut.died.1,{0}は生き残れなかった。だが、{1}の名はランキングにずっと残り続けるだろう。
+cut.died.2,*キーボードのFキーを押して敬意を示せ*
+# {0} will be a plural insult, like "clowns"
+cut.died.3,本当にキーを押す奴があるかよ、{0}！
+
+### Mission cutscene (shared) <-- important to get right too, will be shared across dozen of missions!
+
+cut.racer.mid_comment.1,なんてこった！
+# {0} will be a curse word
+cut.racer.mid_comment.2,{0}、またこれか。
+# {0} will be a curse word
+cut.racer.mid_comment.3,この{0}、給料いいといいな。
+# {0} will be a curse adjective (like "friggin")
+cut.racer.mid_comment.4,ああ、わかった。じゃあ{0}金の話をしろ。
+# {0} will be a curse word (crap)
+cut.racer.mid_comment.5,{0}、またかよ...
+
+# {0} will be some name or title
+cut.racer2gov.greet.1,{0}、お呼びだと聞いたが。
+cut.racer2gov.greet.2,{0}、少々お時間をいただいても？
+cut.racer2gov.greet.3,やあ、{0}。少々お願いがあるんだが。
+cut.racer2gov.greet.4,*コン コン*
+cut.racer2gov.greet.5,{0}、相談したいことがある。
+cut.racer2gov.greet.6,入ってもいいですか？
+cut.racer2gov.greet.7,やあ、{0}。手伝える仕事はないか？ 金欠なんだ。
+
+# {0} will be a name or a title
+cut.racer2racer.greet.1,よお、{0}！ 元気か？
+cut.racer2racer.greet.2,{0}！ いいところに来たな！
+cut.racer2racer.greet.3,よお、レース仲間！
+cut.racer2racer.greet.4,おっ？ よお、{0}。気づかなかった。
+
+cut.racer2racer.resp.1,よお、{0}。ターボの調子はどうだ？
+cut.racer2racer.resp.2,そうだな...当ててみようか、何か頼み事だろ？
+# {0} will be a curse adjective (friggin face)
+cut.racer2racer.resp.3,またお前か。その{0}面、気に入らねえんだよ。
+cut.racer2racer.resp.4,おいおい、昨日の夜にお前のタイヤに穴を開けたのは俺じゃねえぞ！
+# {0} will be an insult (like clown)
+cut.racer2racer.resp.5,何の用だ？ この{0}野郎。
+
+cut.gov2racer.greet_resp.1,{0}君、どうぞ入りたまえ。
+cut.gov2racer.greet_resp.2,{0}、お待ちしていたところだよ。
+cut.gov2racer.greet_resp.3,まずは掛けたまえ。よく聞いてほしい。
+# {0} Curse adjective - friggin cash
+cut.gov2racer.greet_resp.4,追加で{0}金を稼ぎたくはないか？ どうかね？
+# {0} Curse adjective - friggin cash
+cut.gov2racer.greet_resp.5,私が思うに{0}金をもっと稼ぎたいだろう？ どうだね？
+
+# {0} - insult singular
+cut.call.1,おい、オマエ！ {0}！ こっちに来い。
+# {0} - insult singular
+cut.call.2,おい！ {0}！
+# {0} - name or title
+cut.call.3,{0}、お前を探していたところだ。
+cut.call.4,{0}、ちょっといいか。何でそんなにせっかちな走り方をしているんだ？
+cut.call.5,さて、また会ったな。
+# {0} - insult singular
+cut.call.6,お、ちょうど探していた{0}じゃねえか。
+# {0} - racer name
+cut.call.7,しばらくぶりじゃないか、{0}。
+cut.call.8,ごきげんよう、{0}。
+cut.call.9,よく来たな、{0}。
+# {0} - insult singular
+cut.call.10,またお前か、{0}。何の用だ？ まあ、せっかく来たんだから、これをやろう。
+
+cut.call.resp.1,何の用だ？
+cut.call.resp.2,...
+# {0} - curse adjective (friggin point)
+cut.call.resp.3,あー、ああ。早いとこ{0}要点を言ってくれ。
+# {0} - name or title
+cut.call.resp.4,お、おう。お会いできて光栄です。{0}。
+cut.call.resp.5,ごきげんよう、{0}。
+cut.call.resp.6,最近ちょっとカネに困っていてな。何かやれることでもあるのか？
+cut.call.resp.7,一部のドライバーがマジで邪魔だ。手を貸してくれないか？
+cut.call.resp.8,特別イベントへの招待でもあるのかい？ 視聴率アップに繋がるやつさ。
+
+# {0} below is always government official name or title
+cut.end.player2gov.1,努力してみるよ。
+cut.end.player2gov.2,何でもいたしましょう、親愛なる{0}殿。
+cut.end.player2gov.3,俺に選ぶ余地はないんだろ？
+cut.end.player2gov.4,もう勘弁してくれ...
+cut.end.player2gov.5,これ、いつ終わるんだ？
+cut.end.player2gov.6,わかった、わかった、理解した。
+cut.end.player2gov.7,そうするとしよう。
+cut.end.player2gov.8,ああ、そりゃいいね。うん。
+cut.end.player2gov.9,わかった、やってみよう。
+cut.end.player2gov.10,おうちに帰りたい...
+cut.end.player2gov.11,それじゃ失礼、{0}。
+cut.end.player2gov.12,こんなチャンスをくれて、本当に感謝するよ！
+
+cut.end.player2racer.1,へえ。そいつぁ楽しそうだ。
+# {0} - name or title
+cut.end.player2racer.2,何でもいたしましょう、親愛なる{0}様。
+# {0} - insult singular (i.e. clown)
+cut.end.player2racer.3,かかってこい、{0}め！
+cut.end.player2racer.4,よし、やっとマシなことができる。
+cut.end.player2racer.5,おう、楽しくなってきたな！
+cut.end.player2racer.6,考えておくよ。
+# {0} - racer name, {1} - curse word (i.e. crap)
+cut.end.player2racer.7,{1}。{0}、アンタのことは気に入らんが。まあいい。
+cut.end.player2racer.8,ああ、それでいいぞ。
+# {0} - singular insult
+cut.end.player2racer.9,もういい、{0}.
+
+cut.end.racer2player.1,じゃな。
+cut.end.racer2player.2,よし、またあとで。
+cut.end.racer2player.3,お前のことは見ているからな。
+cut.end.racer2player.4,背後に気をつけるんだな。
+# {0} will be an noun insult (clown)
+cut.end.racer2player.5,さあ行くぞ。マシンの埃でもくらっとけ、{0}！
+cut.end.racer2player.6,それじゃ、行くか。
+cut.end.racer2player.7,おしゃべりはいいから行動で示せよ。
+cut.end.racer2player.8,じゃあな。
+cut.end.racer2player.9,まあ、どうでもいい。
+# {0} will be an noun insult (clown)
+cut.end.racer2player.10,勝手にしろ、{0}が。
+
+# {0} - curse adjective (goddamn security)
+cut.end.gov.1,さあ行け。それとも{0}警備を呼んで、つまみ出されたいか。
+# {0} - insult singular (clown)
+cut.end.gov.2,失せろ、{0}が。
+
+cut.end.gov.3,とっとと行きたまえ。終わるまでは戻るな。
+# {0} - insult singular (clown)
+cut.end.gov.4,じゃあな、{0}。
+cut.end.gov.5,それでは、失礼。
+
+cut.req.drift.1,言い忘れてたが。ドリフトでやらないとカウントはせん！
+cut.req.drift.2,ああ、あとドリフトしながらやれ。視聴者にはそういうのがウケる。
+cut.req.drift.3,やるならドリフトしながらやれ。
+cut.req.drift.4,ああ、待て。お前に言い忘れていたな。ドリフト中にやれよ、観客も喜ぶ。
+cut.req.drift.5,お前ならやれるだろう。見せてみろ、ドリフトしながらやれ。
+
+cut.resp.drift.1,またかよ、これじゃ勝てないだろ！
+# {0} - curse word (crap)
+cut.resp.drift.2,ああ、{0}...
+# {0} - curse word (crap)
+cut.resp.drift.3,{0}、これはキツいな。
+cut.resp.drift.4,いいだろう。理解した。
+cut.resp.drift.5,了解。
+# {0} - name of character (i.e. Brace)
+cut.resp.drift.6,はい喜んで、{0}。
+cut.resp.drift.7,サー！ イエッサー！
+cut.resp.drift.8,ならドリフトでやるしかないな。
+cut.resp.drift.9,言われなくたってドリフトでやるつもりだ！
+cut.resp.drift.10,野暮言うな！任せろ！
+# {0} - insult singular (clown)
+cut.resp.drift.11,受けて立つぞ！ この{0}！
+
+# In block blow, {0} will be second part of the sentence, generated somewhere 
+# (i.e. for your trouble, you will receive $1000)
+cut.reward.part.1,手間賃として{0}だ。
+cut.reward.part.2,上手くいけば、{0}だ。
+cut.reward.part.3_us,我々を失望させなければ、{0}だ。
+cut.reward.part.3_me,私を失望させなければ、{0}だ。
+cut.reward.part.4,結果を出せ。そうすれば、{0}だ。
+cut.reward.part.5,しくじらなければ、{0}だ。
+cut.reward.part.6,上手くやれ。そうすれば、{0}だ。
+
+# Same here, {0} will be second part of sentence generated somewhere
+# (i.e. if you fail me like you always do, I will think of some punishment)
+cut.punish.part.1,失敗したら{0}！
+cut.punish.part.2,上手くいかなかったら？ {0}。
+cut.punish.part.3,いつもみたいに俺を失望させれば、{0}！
+cut.punish.part.4,しくじってみろ？ {0}！
+cut.punish.part.4_1,これをしくじるようなら、{0}！
+cut.punish.part.4_2,それをしくじった場合は、{0}！
+cut.punish.part.5,万が一やらかせば、わかるな？ {0}！
+cut.punish.part.6,やる気がないなら{0}。
+
+# In block below {0} will be generated sentence with reward part, {1} with punishment
+# (i.e: If you succeed, you will get $1000, otherwise I will puncture your tires)
+cut.rew.pun.part.1,これをやってくれ。そうすれば{0}だ。しくじれば{1}！
+cut.rew.pun.part.2,報酬は{0}だ。だがビビって逃げてみろ、{1}！
+cut.rew.pun.part.3,できるなら、{0}だ。でなければ、{1}！
+cut.rew.pun.part.4,これをやってくれ。そうすれば{0}だ。だが失敗すれば当然容赦せんぞ。{1}！
+cut.rew.pun.part.5,これをやれば{0}だ。だが失敗していいと思うなよ。{1}！
+cut.rew.pun.part.6,{0}だ。これをくれてやる。だが、期待を裏切ったら{1}！
+cut.rew.pun.part.7,手間賃は{0}だ。だが、失敗すれば{1}！
+cut.rew.pun.part.8,この報酬は{0}だ。出来なければ{1}。
+cut.rew.pun.part.9,成功すれば{0}だ。だが、いつもみたいにしくじったら{1}！
+
+# Rewards told by government agent. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+# {0} will be a number
+cut.rew.gov.cash.1,${0}
+cut.rew.gov.cash.2,${0}の受け取り
+cut.rew.gov.cash.3,我々の用意した${0}
+cut.rew.gov.cash.4,我々が支払うよう手配した${0}
+cut.rew.gov.cash.5,ポケットマネーの${0}
+cut.rew.gov.car,直々に新品のマシンのプレゼント
+cut.rew.gov.pts,記録をいじって{0}ポイントの追加
+cut.rew.gov.rnd,楽しいサプライズ
+cut.rew.gov.aero,エンジニアによるマシンの空力性能の改善
+cut.rew.gov.turbo,整備士に言ってマシンのターボをデカい奴への交換
+cut.rew.gov.engine,マシンのリミッターを整備士がいじってエンジン性能アップ
+cut.rew.gov.gears,無償でギアのアップグレード
+cut.rew.gov.grip,新グリップがマシになる新品のタイヤ
+cut.rew.gov.none,何もくれてやらんぞ！ ハハハ！
+
+# Rewards told by other racer. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+# {0} will be a number
+cut.rew.racer.cash.1,俺のヘソクリの${0}
+cut.rew.racer.cash.2,${0}分の食券
+cut.rew.racer.cash.3,ポケットマネーを全部、約${0}
+cut.rew.racer.cash.4,銀行で借金して支払ってやるよ、${0}
+cut.rew.racer.cash.5,振り込みで${0}
+cut.rew.racer.car,俺が賭けるのは新しいマシン
+cut.rew.racer.pts,レースの成績を改ざんできる知り合いがいる。{0}ポイントを追加
+cut.rew.racer.rnd,用意したプレゼント
+cut.rew.racer.aero,ダクトテープとWD-40でお前のマシンの空力性能をマシにしてやるアイデア
+cut.rew.racer.turbo,ターボをピカピカに磨いてやろう
+cut.rew.racer.engine,もっといいエンジンに載せ替え
+cut.rew.racer.gears,ギアにショートシフターを取り付け
+cut.rew.racer.grip,交換すればグリップはバッチリ。俺が賭けるのは新品のタイヤ
+cut.rew.racer.none,何かもらえるわけないだろ！ハハハ！
+
+# Punishments told by government agent. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+cut.punish.gov.cash.1,${0}を失うことになる
+cut.punish.gov.cash.2,我々に${0}を払え
+cut.punish.gov.cash.3,貴様のマシンの保険料が${0}アップだ
+cut.punish.gov.cash.4,${0}を銀行口座から抜くぞ
+cut.punish.gov.cash.5,この新作ソシャゲで100ダイヤ買うのに${0}を出してもらう
+cut.punish.gov.car,直々に歩行者キャノンを撃ち込んでマシンをバラバラにしてやる。どんな整備士でも直せんぞ
+cut.punish.gov.pts,データベースを修正してお前のポイントを{0}減らしてやる
+cut.punish.gov.rnd,タダではすまさん。ニュース速報にも載せてやる。覚悟しろ、お前の顔も載るぞ
+cut.punish.gov.aero,整備士に言ってラジエータグリルに{0}をぶち込ませて空力性能を台無しにしてやる
+cut.punish.gov.turbo,俺がお前のマシンのターボに{0}をぶち込んでやる
+cut.punish.gov.engine,いくつか適当にエンジンの部品を外して捨ててやる
+cut.punish.gov.gears,ギアボックスのフルードを{0}に入れ替えてギアを駄目にしてやる
+cut.punish.gov.grip,整備士に依頼して、タイヤに{0}を塗ったくってグリップを狂わせてやる
+cut.punish.gov.none,悪いようにはしない
+
+# Punishments told by other racer. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+cut.punish.racer.cash.1,TSLA株で${0}分のヤバい空売りをしてもらうからな！ 覚悟しとけ！
+cut.punish.racer.cash.2,${0}を払え
+cut.punish.racer.cash.3,${0}か、そのイケてるカシオの腕時計をよこせ
+cut.punish.racer.cash.4,マシンから${0}分の燃料を抜いてやる
+cut.punish.racer.cash.5,新作のソシャゲで500ジェム買ってもらうぞ。75％オフでたった${0}だ
+# "Lionard 125" should not be translated, it's a model name of cheapest car in the game
+cut.punish.racer.car,マシンの買い替えに手を貸してもらうぞ。こちとらポンコツの Lionard 125 だ。地元のジャンク屋がやたら欲しがってる
+cut.punish.racer.pts,ハッカーのツレがいる。お前のスコアから{0}ポイントを消してやるぞ
+cut.punish.racer.rnd,お楽しみタイムだ。マシンかお前のどっちかを最悪な目に遭わせてやる
+cut.punish.racer.aero,ラジエータグリルに{0}突っ込んで、お前のマシンの空力性能を下げてやる
+cut.punish.racer.turbo,ターボに{0}ぶち込んでやる
+cut.punish.racer.engine,エンジンに{0}を詰め込んでやる
+cut.punish.racer.gears,ギアのフルードを{0}に入れ替えてギアボックスをダメにしてやる
+cut.punish.racer.grip,タイヤに{0}タップリ塗って、グリップをイカレさせてやる
+cut.punish.racer.none,今回は悪いことは何もねえぞ
+
+### Shield mission cutscene
+
+cut.shield.req,バリアだ。予備バッテリーもマケてやる。礼は今度でいいぞ。
+cut.shield.intro.1,今シーズンでの結果がイマイチのようだな。次のレースで少し手を貸してやろう。
+# {0} will be a plural insult
+cut.shield.intro.2,他の{0}にずっとボコボコにされてるようだな。これで少しはマシになるだろう。
+
+cut.shield.descr,バリアを装備した状態でレースを完走しろ
+cut.shield.tip,ニュートンの第3法則を思い出そう
+
+### Make car come last 
+
+# {0} - clown
+cut.finlast.req,武器を用意し、標的のマシンをHUDに表示してやる。その{0}にツケを払わせろ！
+
+# {0} - player name, {1} - vegan burger
+cut.finlast.racer.intro.1,なあ、{0}！ 頼みを聞いてくれよ！ 昨夜、どっかの誰かさんがマシンの排気管に{1}を突っ込みやがった。仕返ししてやりたいんだ！
+# {0} - player name, {1} - vegan olive oil
+cut.finlast.racer.intro.2,{0}、ちょっといいか。手を貸してくれよ。アイツ、俺のハンドルに{1}をベタベタ塗りやがったんだ。復讐したい！
+
+# {0} - vegan olive oil
+cut.finlast.gov.intro.1,信じられるか？ 貴様のお仲間のイカレ野郎が、昨晩オフィスに忍び込んでキーボードに{0}を塗りたくりやがった！ SOFACTにケンカ売ったらどうなるか思い知らせてやろう。
+# {0} - clown
+cut.finlast.gov.intro.2,おい、癇に障る{0}が1人いる。そいつに生き地獄を見せてやる。
+
+cut.finlast.tip,標的のマシンが表示されます
+
+# {0} - name, {1} - position number
+cut.finlast.descr,{0}を{1}位以下でゴールさせろ
+
+### Assassinate mission cutscene (the most complex one)
+
+# {0} is a singular noun defining a person
+# {1} is part of sentence telling what the person did
+# {2} is the second part telling what the person did
+# {3} is the third part with circumstances
+cut.ass.beg1.1,{0}が{2}{1}。{3}
+cut.ass.beg1.2,どう説明しろってんだ...{0}が{2}{1}。{3}
+cut.ass.beg1.3,ぶっちゃけると{0}が{2}{1}。{3}
+
+# Same as beg1, but for 2 people
+cut.ass.beg2.1,{0}が{2}{1}。{3}
+cut.ass.beg2.2,どう説明しろってんだ...{0}が{2}{1}。{3}
+
+# Same as beg1 & beg2, but for 3+ people
+cut.ass.beg3.1,{0}が{2}{1}。{3}
+cut.ass.beg3.2,どう説明しろってんだ...{0}が{2}{1}。{3}
+
+# Endings for singular target
+cut.ass.end1.1,レース開始後、車載コンピュータで奴の居場所の詳細を知らせる
+# {0} - singular insult (i.e. clown)
+cut.ass.end1.2,その{0}を始末してくれ、いいな？
+cut.ass.end1.3,そいつにお前のマシンの下回りを味わわせてやれ
+cut.ass.end1.4,奴を *ぐしゃっ* と、やれ。いいな？
+cut.ass.end1.5,空高く舞いあげろ
+# {0} - singular insult (i.e. clown)
+cut.ass.end1.6,その{0}を病院送りにしろ
+cut.ass.end1.7,ボンネットの無料ツアーに招待するんだ
+cut.ass.end1.8,言いたいことは分かったか？
+
+# Endings for two targets
+cut.ass.end2.1,レース開始後、車載コンピュータで奴らの居場所の詳細を知らせる
+# {0} - plural insult (i.e. clowns)
+cut.ass.end2.2,その2人の{0}を始末しろ。いいな？
+cut.ass.end2.3,そいつらにお前のマシンの下回りを味わわせてやれ
+cut.ass.end2.4,奴らを *ぐしゃっ* と、やれ。いいな？
+cut.ass.end2.5,奴らを空高く舞いあげろ
+# {0} - curse adjective (i.e. friggin stretcher)
+cut.ass.end2.6,{0}両方を病院送りにしろ
+cut.ass.end2.7,奴らをボンネットの無料ツアーに招待だ
+
+# Endings for three+ targets
+# end3.1 is used as end2.1
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.2,その{0}を全員をまとめて始末しろ。いいな？
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.3,奴らを探し出して、その{0}どもにお前の車の下回りを味わわせてやってくれ
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.4,その{0}、全員まとめて *ぐしゃっ* とやれ。いいな？
+# end3.5 is used as end2.5
+# {0} - plural insult (clowns) {1} - curse adjective (i.e. friggin stretcher)
+cut.ass.end3.6,その{0}全員を{1}病院送りにしろ
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.7,その{0}全員、ボンネットの無料ツアーに招待してやれ
+
+# Mid sentences for 1 target
+# {0} is some randomized person name
+cut.ass.mid1.1,{0}。奴の名だ。
+# {0} is some randomized person name (repeated twice in this sentence), {1} - curse adjective
+# Example: John Smith. Friggin John Smith.
+cut.ass.mid1.2,{0}だ。{1}{0}だ。
+cut.ass.mid1.3,{0}だ。
+# {1} will be insult singular, i.e. clown
+cut.ass.mid1.4,{1}野郎を特定した。{0}だ。
+# {1} will be insult singular, i.e. clown
+cut.ass.mid1.5,{0}だ。あの{1}はまったくけしからん。
+
+# Mid sentences for 2+ targets
+# {0} will be plural insult (clowns), {1} will be a curse adjective (friggin)
+cut.ass.mid2.1,あの{1}{0}が誰かは把握している。
+# {0} will be plural insult (clowns), {1} will be a curse adjective (friggin)
+cut.ass.mid2.2,あの{1}{0}め。
+cut.ass.mid2.3,{0}が！
+# {0} will be plural insult (clowns)
+cut.ass.mid2.4,{0}を始末しろ！
+# {1} will be insult plural, i.e. clowns
+cut.ass.mid2.5,{0}だ。あの{1}はまったくけしからん。
+
+# These cannot be deleted, if you can't come up with something unique, just repeat some 
+# Singular forms
+cut.ass.target1.1,意識高い系
+cut.ass.target1.2,マヌケ野郎
+cut.ass.target1.3,イカレ野郎
+cut.ass.target1.4,配信者
+cut.ass.target1.5,クリエイター
+cut.ass.target1.6,YouTuber
+cut.ass.target1.7,インフルエンサー
+cut.ass.target1.8,ブローカー
+cut.ass.target1.9,ウソつき野郎
+cut.ass.target1.10,反SOFACT
+cut.ass.target1.11,ジャーナリスト
+cut.ass.target1.12,反逆者
+cut.ass.target1.13,女性差別主義者
+
+# These cannot be deleted, if you can't come up with something unique, just repeat some 
+# Plural forms
+cut.ass.target2.1,意識高い系ども
+cut.ass.target2.2,マヌケ野郎ども
+cut.ass.target2.3,イカレ野郎ども
+cut.ass.target2.4,配信者ども
+cut.ass.target2.5,クリエイターども
+cut.ass.target2.6,YouTuberども
+cut.ass.target2.7,インフルエンサーども
+cut.ass.target2.8,ブローカーども
+cut.ass.target2.9,ウソつき野郎ども
+cut.ass.target2.10,反SOFACTども
+cut.ass.target2.11,ジャーナリストども
+cut.ass.target2.12,反逆者ども
+cut.ass.target2.13,女性差別主義者ども
+
+# Full sentence will look like: Somebody [messed with] somebody
+cut.ass.did.1,に手を出してきた
+cut.ass.did.2,にナメたマネをした
+cut.ass.did.3,をコケにしてきた
+cut.ass.did.4,を盗撮した
+# If in your language "messed with me" and "stole from me" have different ways of saying, 
+# just create something that will look like ones above instead!
+cut.ass.did.5,からブツを盗んだ
+
+# Full sentence will look like: Somebody did something with [me]
+# part from above will be used, try to make them compatible
+cut.ass.harmed.1,俺
+cut.ass.harmed.2,貴様は知る必要のない奴
+cut.ass.harmed.3,重要人物
+cut.ass.harmed.4,SOFACTの代表
+cut.ass.harmed.5,取締役
+cut.ass.harmed.6,SOFACT
+cut.ass.harmed.7,俺ちゃん
+cut.ass.harmed.8,俺のダチ
+cut.ass.harmed.9,親友
+cut.ass.harmed.10,知り合い
+cut.ass.harmed.11,マズい奴
+cut.ass.harmed.12,マズい奴ら
+cut.ass.harmed.13,我々が提携するSNSインフルエンサー
+
+# Additional circumstance for singular target. Will be attached to the end of sentence.
+cut.ass.andwhat1.1,そして、逃げ切れると思ってやがった。
+cut.ass.andwhat1.2,その上、奴が何をやらかしたか聞け、とんでもねえぞ！
+cut.ass.andwhat1.3,しかも情報漏洩もしていた...まあ、機密情報だ。
+cut.ass.andwhat1.4,しかも謝罪すらない！
+cut.ass.andwhat1.5,まだ気づかれていないと思っていたようだな。
+cut.ass.andwhat1.6,どうなるか考えていなかったようだ。
+# {0} - insult singular (clown)
+cut.ass.andwhat1.7,その上「ねえ、{0}？ どんな気持ち？」なんて抜かしやがる...。
+
+# Additional circumstance for plural target. Will be attached to the end of sentence.
+cut.ass.andwhat2.1,しかも奴ら逃げ切れると思ってやがった。
+cut.ass.andwhat2.2,その上、奴らが何をやらかしたか聞け、とんでもねえぞ！
+# the rest of andwhat2 is used directly from andwhat1
+
+cut.ass.tip,フォトモードを使えば、標的の位置確認や襲撃の計画が立てられます
+
+### Hit Objects Cutscene
+
+cut.hitobj.intro.racer.1,お前の走りって大したことねーな。だから、ちょっと賭けをしようぜ。
+cut.hitobj.intro.racer.2,あの多様性担当の副社長から依頼されてる。手伝ってくれるなら報酬は山分けだ。どうよ？
+cut.hitobj.intro.racer.3,アンタの走りにはちょっと感心してる。それで、やってみてほしいことがあるんだ。
+cut.hitobj.intro.racer.4,ただ走るだけには飽きただろ。賭けでもしようぜ。
+cut.hitobj.intro.racer.5,キツめのチャレンジ、やってみる気はないか？
+cut.hitobj.intro.racer.6,手を貸してくれ。1人じゃ無理なんだ。
+
+cut.hitobj.intro.gov.pos.1,我々の視聴者はぶっとんだこと大好きでな。だからお前にこれをやってもらう。
+cut.hitobj.intro.gov.pos.2,貴様では無理だと言う奴と賭けをしている。奴を見返してみろ。
+cut.hitobj.intro.gov.pos.3,ムシャクシャする。気晴らしには、何かが派手に吹っ飛ぶのを見るのが一番いい。
+cut.hitobj.intro.gov.pos.4,うちの清掃業者は仕事もしてないのにカネだけ持っていきやがる。そこで、連中に仕事をさせるいい方法を思いついた。
+cut.hitobj.intro.gov.pos.5,おい、貴様にピッタリの面白いチャレンジを用意してやったぞ。
+
+# {0} insult plural (clowns)
+cut.hitobj.intro.gov.neg.1,この野郎、いい加減にしろよ。貴様ら{0}どもは、いつもフザけた走りばかりしやがる。
+cut.hitobj.intro.gov.neg.2,貴様らに回せる資源は限られているんだ。だから、今回は丁寧にお願いしてやろう。
+# {0} insult plural (clowns)
+cut.hitobj.intro.gov.neg.3,今日の俺はキッチリ仕事をやりたい気分だ。何も壊すなよ、{0}ども。お前ら、丁寧に走れ。
+
+# {0} will be a noun (i.e: cone)
+cut.hitobj.req.negative.1,{0}に一切ぶつけるな。
+# {0} is a number and {1} is a plural noun (cones)
+cut.hitobj.req.negative.2,{1}にぶつけていいのは{0}回までだ。
+# {0} is a number and {1} is a plural noun (cones)
+cut.hitobj.req.positive,マシンを{1}に{0}回ぶつけるんだ
+# I.e. Porta Potties Hit, or John Smith hit
+cur.hitobj.req.progress,{0}との衝突回数
+
+# Will be used in "Hit 1 cone", or "Do not hit a single cone"
+cut.hitobj.o.traffic_cone,コーン
+cut.hitobj.o.porta_potty,仮設トイレ
+cut.hitobj.o.bush,茂み
+cut.hitobj.o.pedestrian,歩行者
+cut.hitobj.o.snowman,雪だるま
+
+# Will be used in "Hit 2 cones", or "Do not hit more than 2 cones"
+cut.hitobj.o.traffic_cones,コーン
+cut.hitobj.o.porta_potties,仮設トイレ
+cut.hitobj.o.bushes,茂み
+cut.hitobj.o.pedestrians,歩行者ども
+cut.hitobj.o.snowmen,雪だるま
+
+cut.hitobj.tip.neg,絶対にマークされた対象にぶつけないように
+cut.hitobj.tip.pos,マークされたオブジェクトをよく見ましょう
+
+# Reward short names
+# 12 PTS (short for points, use same as in terms)
+cut.rew.short.pts,{0}ポイント
+cut.rew.short.next_car,マシン入手
+cut.rew.short.aero,空力性能 +1
+cut.rew.short.engine,エンジン +1
+cut.rew.short.gears,ギア +1
+cut.rew.short.turbo,ターボ +1
+cut.rew.short.grip,グリップ +1
+
+# Punishment short names
+# -12 PTS (short for points, use same as in terms)
+cut.pun.short.pts,-{0}ポイント
+cut.pun.short.lose_car,マシン喪失
+cut.pun.short.aero,空力性能 -1
+cut.pun.short.engine,エンジン -1
+cut.pun.short.gears,ギア -1
+cut.pun.short.turbo,ターボ -1
+cut.pun.short.grip,グリップ -1
+
+# Will be used in mid sentence, like: "Hit 4 cones while drifting"
+cut.while_drifting,ドリフト中に
+
+cut.short.full_throttle,チャレンジ: フルスロットル
+cut.short.tiny_car,チャレンジ: マシン小型化
+cut.short.huge_car,チャレンジ: マシン巨大化
+cut.short.inv_steer,チャレンジ: ステアリング逆転
+cut.short.shield,チャレンジ: バリア
+cut.short.weaponize,チャレンジ: 武器を積んだマシン
+
+# Will be used in sentence like "Assassinate John Smith"
+cut.assassinate.1,{0}を暗殺
+# Will be used in sentence like "Assassinate 3 Hipsters"
+cut.assassinate.2,{0}と{1}を暗殺
+# Will be used in end of sentence like "Hipsters assassinated", or "John Smith assassinated"
+cut.assassinated,{0}の暗殺
+
+### Car Prank mission cutscene
+
+cut.prank.gov.laugh.1,*Laughing out loud*
+# {0} - curse word (crap)
+cut.prank.gov.laugh.2,あっはっは！ {0}！
+# {0} - curse word (crap)
+cut.prank.gov.laugh.3,{0}どもめ、マジで笑わせる！
+cut.prank.gov.laugh.4,*鼻で笑う*
+cut.prank.gov.laugh.5,*笑いをこらえる*
+cut.prank.gov.laugh.6,*くすくす笑う*
+
+cut.prank.player.react.1,そうか、そりゃウケるな。
+
+cut.prank.player.react.2,何がおもしろい...？
+# {0} will be a government agent name
+cut.prank.player.react.3,嫌な予感が...俺には笑えないオチなんだろ、{0}？
+# {0} will be a government agent name
+cut.prank.player.react.4,で、そのジョークを教えてくれないか、{0}。
+cut.prank.player.react.5,前回は、まったく笑えなかったんだが...
+cut.prank.player.react.6,これは...なんか嫌な予感がするんだが？
+
+
+cut.prank.player.react2.1,ふざけんなよ。
+cut.prank.player.react2.2,はあ？！
+# {0} - plural insult (clowns)
+cut.prank.player.react2.3,誰だよそれやったのは？ 名前を出せ！ {0}どもめ、覚悟しろ！
+# {0} - curse word (crap)
+cut.prank.player.react2.4,うわ、{0}...
+# {0} - curse word (crap)
+cut.prank.player.react2.5,{0}...
+cut.prank.player.react2.6,{0}！
+# {0} and {1} - curse word (crap)
+cut.prank.player.react2.7,{0}...
+cut.prank.player.react2.8,{0}{1}。
+cut.prank.player.react2.9,上等じゃねーか！
+# {0} - car model
+cut.prank.player.react2.10,{0}をキレイにしたばかりだぞ
+# When player has no car, he will say "And I just repainted my sneakers"
+cut.prank.player.react2.10_2,靴
+
+# {0} - curse word (crap)
+cut.prank.tiny_car.1,信じられんぞ、{0}！ 貴様のマシンが！ イタズラでちっさくされちまったんだ。もう乗れないからジョイスティックで操作しろ！ そのケツじゃ入らないしな。傑作だ！
+# {0} - random laughter from above
+cut.prank.tiny_car.2,研究所の連中が縮小ビームを貴様のマシンで試したらしい。安心しろ、{0}。ラジコン操作はできる。だが、かなり難しくなるな？
+cut.prank.tiny_car.3,アントって古い映画、観たことあるかね？ あれを体験することになった。
+cut.prank.tiny_car.4,意味がわからんだろうが、ガレージで事故が起きた。誤射した縮小ビームが貴様のマシンを直撃した。ほらリモコンだ、これでちっこいマシンを走らせたまえ。
+
+cut.prank.tiny_car.descr,小さくなった車でレースを完走しろ
+cut.prank.tiny_car.tip,普段なら通れない狭い隙間も通過できます
+
+# {0} - curse word (crap)
+cut.prank.huge_car.1,信じられんぞ、{0}！ 貴様のマシンが！ でかくされちまった。{0}、いってこい！ このコースじゃ狭すぎて大変だろうがな。傑作だ！
+# {0} - random laughter from above
+cut.prank.huge_car.2,研究所の連中が物質密度調整ビームを貴様のマシンで試したらしい。安心しろ、{0}。ラジコン操作はできるぞ。
+cut.prank.huge_car.3,昔あったゴジラの映画は観たことあるか？ あるよな、貴様はあの時代の人間だからな。とにかく、貴様のマシンは巨大化した。気をつけたまえ
+cut.prank.huge_car.4,意味わからんだろうが、ガレージで事故があってな。誤射した粒子密度調整ビームが貴様のマシンを直撃した。頭じゃなかっただけマシだ。ほらリモコンだ、これでバカでかくなったマシンを走らせたまえ。
+cut.prank.huge_car.descr,巨大化した車でレースを完走しろ
+cut.prank.huge_car.tip,大きいマシンほど、他のマシンに与えるダメージも大きい！
+
+# {0} - crap, {1} - some item (bacon burger)
+cut.prank.full_throttle.1,信じられんぞ、{0}！ 貴様のマシンが！ スロットルバルブに{1}を詰め込まれたらしい。貴様がそれでレースに出るとか、腹を抱えて笑うぞ！
+# {0} - crap, {1} - some item (bacon burger)
+cut.prank.full_throttle.2,{0}！ あのバカども、また貴様のマシンにメチャクチャしたらしいぞ！ 今度はスロットルバルブに{1}を突っ込んだってな。知っているか、ウサギとカメの話は？ ハハハ。
+{0}! Those idiots messed with your car again! This time they have put {1} inside your throttle valve. You've heard that story about the hare and the turtle, haven't you? Ha ha.
+# {0} - clowns, {1} - bacon burger
+cut.prank.full_throttle.3,なんてことだ！ あの{0}がスロットルバルブに{1}を詰めやがった。これはどう走りきるのか見ものだ。ツイてるといいな！
+# {0} - clowns, {1} - bacon burger
+cut.prank.full_throttle.4,こんなことがあるか！ {0}！ スロットルバルブに{1}を詰め込まれたな。そんな状態でレースに出るとか、笑いが止まらんぞ！
+cut.prank.full_throttle.5,見習い整備士に貴様のマシンを触らせたんだが、配線をいくつか間違えたかもしれん。ブレーキを確かめておくことだ。*笑いをこらえる*
+
+cut.prank.full_throttle.descr,スロットルが100%全開で固定の状態でレースを完走しろ
+cut.prank.full_throttle.tip,ハンドル操作だけに集中し、障害物を回避しよう
+
+# {0} - crap
+cut.prank.inv_steer.1,信じられんぞ、{0}！ 貴様のマシンが！ ハンドル操作を逆にされちまった。ハハハッ、そんなのでレースに出るとはな。俺も楽しませてもらうぞ！
+cut.prank.inv_steer.2,まあ、気をやむな。見習い整備士に貴様のマシンを触らせたんだが、配線をいくつか間違えたかもしれん。操作が少し変になっているかもな。*笑いをこらえる*
+
+cut.prank.inv_steer.descr,ハンドル操作が反転した状態でレースを完走しろ
+cut.prank.inv_steer.tip,いっそ、コントローラを逆さに持つといいかも
+
+### Finish Xth 
+
+cut.fin_x.req.top,トップ{0}位内でゴールしろ
+cut.fin_x.req.bottom,{0}位以下でゴールしろ
+
+# {0} - player name or title
+cut.fin_x.racer.intro.1,よう {0}！ ちょっとヤバい奴にコネがあってな、そいつが怪しい賭けをしてるんだ。で、要するにレースを八百長しろって脅されてる。
+# {0} - player name or title
+cut.fin_x.racer.intro.2,{0}、ちょっといいか。あの多様性担当の副社長サマが順位を操作しろって全員を脅してる。悪く思うな、ただ知らせておきたかっただけだ。
+
+cut.fin_x.gov.intro.1,次のレースに少し個人的な賭けをしていてな。協力してもらうからな。
+cut.fin_x.gov.intro.2,もう少し長生きしたいか？ ならヘマをするな。
+cut.fin_x.gov.intro.3,急で悪いが、次のレースは八百長だ。ワケは聞くな。やるべきことをやれ。
+
+cut.fin_x.tip,右上の順位マーカーをよく確認しましょう
+
+cut.fin_x.descr1,トップ{0}位内でゴール
+cut.fin_x.descr2,{0}位以下でゴール
+
+### Take Damage 
+
+# {0} - a number
+cut.dmg.req,マシンに{0}以上のダメージを受けろ
+
+cut.dmg.racer.intro.1,昨日の夜タイヤに穴開けたのはお前か！？ まあいい、このチャレンジをやったら見逃してやる。上手くやりゃ、ちょっとしたオマケもつけてやるかもな
+
+# {0} - friggin
+cut.dmg.gov.intro.1,ちょうどいいところに来たな！ ブラッディ・ラリー・ショーの新しいポスターが要る。お前の車がピッタリだ。だが、条件がある。"まさに{0}アクション直後"って感じでないとダメだ。分かるか？
+cut.dmg.gov.intro.2,そのピカピカの塗装、素晴らしい。実に素晴らしい。さて、次のチャレンジだが... *くっくっく*
+# {0} - player name or title
+cut.dmg.gov.intro.3,{0}。お前のことは、前から気に食わなかった。だからとっておきの嫌がらせを用意してやったぞ。
+
+cut.dmg.stay_alive.1,ついでで死ぬなよ
+# {0} - clown
+cut.dmg.stay_alive.2,ついでで死ぬなよ、{0}
+
+cut.dmg.tip,一番手っ取り早いのは、障害物や爆発物に突っ込むことです
+
+cut.dmg.descr,{0}ダメージを受けろ
+cut.dmg.progress,被ダメージ
+
+### Stay on track
+
+# {0} - brace stone character's name
+cut.on_track.racer.intro.1,{0}と賭けをしている。貴様ごときが一度もコースアウトせずに完走できるわけがないと言ってやがる。奴の言った通りなら結構なカネを失うかもな。慎重に走れよ！
+
+# {0} - some racer name
+cut.on_track.gov.intro.1,{0}と賭けをしているんだ。お前ってコース上に留まれないって言われてるぞ。まあ俺もそう思うんだけど...今日はツイてる気がしてお前に50万賭けたんだ。絶対にヘマしないでくれよ！
+# {0} - Clowns
+cut.on_track.gov.intro.2,我々の園芸師が１日かけて花を植えてるのに、貴様ら{0}ときたら台無しにしやがる！ 今回はちゃんとコース内を走れ！
+
+cut.on_track.descr,コースアウトした際、{0}秒以上コース外を走るな
+cut.on_track.tip,カーブで無理せず減速すれば大丈夫です！
+
+### Be a pedestrian 
+
+cut.ped.req.1,ああ、それと徒歩でぶらついてるときに至近距離でマシンの写真を1枚撮ってこい。いい感じで頼むぞ。
+# {0} - a number
+cut.ped.req.2,ああ、それと徒歩でぶらついてるときに至近距離でマシンの写真を{0}枚撮ってこい。いい感じで頼むぞ。
+
+# {0} - clown, {1} - vegan olive oil, {2} - fool
+cut.ped.racer.intro.1,おい、{0}、聞いて驚け。ついに俺のサンルーフに汚物をぶち込んだ犯人が分かったぞ。そろそろツケを払ってもらわないとな。テメェのガソリンタンクに{1}をぶち込んでおいてやったぜ。燃料系は洗浄が必要だろうよ。残念だがレースには間に合わねえよ、{2}！
+
+# {0} - vegan olive oil
+cut.ped.gov.intro.1,気を病まずに、まずは聞け。我々はオトナ向けの動画を撮影していた。ちょうど貴様がこのステージ用に用意したマシンは、5人とカメラマンが乗れるピッタリのサイズだったわけだ。さらに{0}で散らかしてしまったが、心配しなくていい、後でちゃんと片付けさせよう！
+cut.ped.gov.intro.2,ほう？ 権力者に喧嘩を売って勝てるとでも思っていたか？ バカが、数日間は歩行者としてレースに出てもらうぞ。マシンも没収だ。今回のことをよく覚えておけ！
+# {0} - clown
+cut.ped.gov.intro.3,そんな小細工で逃げ切れると思ったのか、このチンケな{0}が？ 貴様のマシンはしばらく預かる。次にやってみろ、後悔させてやる！
+# {0} - clown
+cut.ped.stay_alive.1,ああ、ついでで生き残れ、{0}。
+# {0} - clown
+cut.ped.stay_alive.2,あと、ついでにくたばるな、{0}。
+
+cut.ped.descr,歩行者としてレースに参加しろ
+cut.ped.tip,コースには近づきすぎないように！
+
+# {0} - a number
+cut.ped.descr1,至近距離でマシンの写真を1枚撮ろう
+cut.ped.descr2,至近距離でマシンの写真を{0}枚撮ろう
+cut.ped.progress1,写真を撮影した
+# {0} - a number
+cut.ped.progress2,写真を{0}枚撮影
+
+### Your car stolen 
+
+cut.stolen.racer.intro.1,悪い知らせだ、よく聞け。馬鹿な奴が貴様の愛車を盗んで走り去るのを目撃した。保険に入っていればいいが。で、次のレースは徒歩で参加するしかないぞ。
+
+cut.stolen.gov.intro.1,「グランド・セフト・オート」という100年前のゲームはご存知かね？ さて、誰かが文字通り君の愛車でそれをやった。というわけで、今回は自分の足で歩いてもらう。保険に入ってなかったらウケるよな。
+
+cut.stolen.stay_alive.1,命を大切にするんだな
+cut.stolen.stay_alive.2,死なないように気をつけることだ
+
+cut.stolen.descr,マシンが盗まれた
+cut.stolen.tip,新しいマシンのためにお金を貯めておきましょう
+
+### Locked camera
+
+# {0} - "do not change camera settings!"
+cut.cam.req.1,何があっても{0}
+cut.cam.req.2,どんな困難だろうと{0}
+cut.cam.req.3,何が起きても{0}
+cut.cam.req.4,度胸があるなら{0}
+cut.cam.req.5,ゲロ袋を用意してやったぞ。{0}
+cut.cam.req.6,吐きたいなら窓を開けてもいいが、{0}.
+cut.cam.req.end,カメラ設定は変更するな！
+
+cut.cam.racer.intro.1,新たな楽しいチャレンジだ。視点ドローンを気に入らないように再設定してやる。
+# {0} - clown
+cut.cam.racer.intro.2,昨晩はよく眠れなかったんでな。視点ドローンをいじってやった。なぜかだと？ 貴様が{0}だからだ！
+# {0} - clown
+cut.cam.racer.intro.3,勝負だ！ 視点ドローンの位置を不快な状態に調整してやった。先に諦めた方が{0}ってわけだ！
+
+# {0} - clown
+cut.cam.gov.intro.1,{0}が。ちょっと来い。視覚ドローンの設定について視聴者から苦情だ。視聴者の希望通りに調整してやったぞ、いいな？
+# {0} - damn, {1} - clowns
+cut.cam.gov.intro.2,{0}が！ 視覚ドローンの設定を貴様がいじり続けるせいでイライラする。他の{1}みたいに、設定を固定しておけないのか？
+cut.cam.gov.intro.3,紳士、淑女の皆様、ゲロ袋のご用意は出来ましたか。視覚ドローンが故障しました。さあ、技術者たちは修理されるまで設定をいじらないようにお望みだ。
+
+cut.cam.descr,カメラ設定を変更せずにレースを完走しろ
+cut.cam.tip,今のカメラ設定で走るよりペナルティをくらう方がマシに思えるなら、設定を変えてしまおう！
+
+cut.cam.shortdescr,カメラの設定を変更するな
+
+### Distribute Spam
+
+# {0} - a number
+cut.spam.req,少なくとも{0}セットのチラシをバラまいてくれ
+
+cut.spam.racer.intro.1,シーッ...これは内緒にしてくれ。お願いがある。我々はSOFACTに対抗する活動を秘密裏にやってるんだ。できるだけ多くの人にこの運動に参加してほしい。もし君が広める手伝いをしてくれたら、我々にとって本当に大きな成果となるだろう！
+
+# {0} - vegan olive oil
+cut.spam.gov.intro.1,我々は新しいプロパガンダで{0}が体にいいということを広めたい。そこで、君の愛車の上にプリンターを取り付けた。さあ、使いたまえ。
+# {0} - bacon burgers
+cut.spam.gov.intro.2,{0}に関する研究結果をでっちあげて、奴らに読ませたい。貴様の愛車の上にプリンターを溶接しておいた。次のレースで使うといい。
+
+# Do not modify {Action.Fire}
+cut.spam.tip,{Action.Fire}を押しまくってチラシをバラまけ
+
+cut.spam.descr,{0}セットのチラシを配布しろ
+cut.spam.prog,配布したチラシ
+
+### Weaponize
+
+cut.weaponize.req,全員に武器を渡した。これはメチャクチャになるぞ、最高だな！
+
+cut.weaponize.gov.intro.1,最近ブラッディ・ラリー・ショーの視聴者どもは退屈してるらしいな。少しばかり刺激を加えてやろう。
+# {0} - clowns
+cut.weaponize.gov.intro.2,ほう？塗装したてのマシンばかりじゃないか{0}ども。次のレースで無傷でいられると思うなよ。
+
+cut.weaponize.descr,武器を積んだマシンでレースを完走しろ
+cut.weaponize.tip,今回は歩行者じゃなくてよかった！
+
+### Campaign Win (Freedom)
+
+# {0} - racer name
+cut.freedom.1,よお {0}、自由の身だな！ もう行ってしまうのか？ 寂しくなる。もう１シーズンだけでも残らないか？
+# {0} - car model name
+cut.freedom.2,ありがとう。でも、もうクタクタだ。{0}の血を洗い落としたい...
+# {0} - he or she, depending on player gender (see term.he / term.she)
+cut.freedom.3,*夕日に向かって歩き去る...いつの日か、{0}は再びこの地獄に舞い戻ることになるだろうと知りながら...*
+# When player has no car, he will say he has to clean the blood off his shoes
+cut.freedom.shoes,靴
+
+### Campaign Season Finished
+
+# {0} - player name
+cut.season.alive1.1,なんてこった、どうやったんだ{0}？ 貴様のせいでシーズンを早く終わらせなきゃならん！
+# {0} - clowns
+cut.season.alive1.2,なんて言うか...あいつら、マジで{0}ばっかりだったな。
+cut.season.alive1.3,仕方がないようだな。貴様はずっと俺のお気に入りだった。SOFACTには貴様みたいな人材が必要だ。レーサー人生が終わったら仕事をオファーするかもな。
+cut.season.alive1.4,光栄だが、今はまたタイヤを焦がすほうに戻りたい。それじゃ、またな！ 次はもっと手強い相手を用意してくれ。
+
+cut.season.1,諸君、シーズンはこれで終わりだ！ 帰っていいぞ、お前ら。
+cut.season.cheer.1,やっとか！
+cut.season.cheer.2,うっひょー！
+cut.season.cheer.3,よっしゃ！
+cut.season.cheer.4,おお、ついに！
+cut.season.cheer.5,この日を待っていたんだ！
+cut.season.cheer.6,めっちゃ嬉しい！
+cut.season.cheer.7,バンザーイ！
+cut.season.cheer.8,イエェェェス！
+cut.season.cheer.9,やったああ！
+# {0} clowns {1} - fools
+cut.season.2,帰っていいぞ？ ああ、帰っていい！ お前らここから生きて出られると思っているのか、{0}ども！ 次のシーズンは明日からだ。錆びたバケツを磨いてレースに備えて並べておけ。帰るだってよ、ハハハ。{1}どもがよ...
+
+### Campaign Fail 
+
+cut.fail.boo.1,ブー！
+cut.fail.boo.2,負け犬が！
+cut.fail.boo.3,誰だよ、それ？
+cut.fail.boo.4,ざんねん〜
+cut.fail.boo.5,ブーーーー！
+cut.fail.boo.6,ダッセェ！
+cut.fail.boo.7,誰だよ、あれは？
+
+cut.fail.cry.1,やめろおお！
+cut.fail.cry.2,なんで！
+cut.fail.cry.3,つらい...
+cut.fail.cry.4,お前のこと気に入っていたのに...
+cut.fail.cry.5,ずっと忘れないからな！
+cut.fail.cry.6,そんな、残念な...
+cut.fail.cry.7,信じられないよ...
+
+cut.fail.1,さあ諸君、シーズン終了だ！ さて、ここに“有名人”がいる――トップ3にも入れなかったな。{0}め、またしても冷凍睡眠に逆戻りだ！
+cut.fail.2,自分のことだな。本当にすまん...
+# {0} - racer name, {1} - clowns, {2} - bacon burger {3} - vegan olive oil
+cut.fail.3,よぉーし、感動のシーンはそこまでだ！ {0}、警備がキサマを冷凍庫まで連れていってやる！ それから残りの{1}ども、とっとと散れ！ さもないとヘルメットに{2}を詰め込んで、バイザーに{3}を塗りたくってやるからな！
+
+#######################################
+### Dialogs and in-game messages
+
+# Please check that you are using same terms as main_menu.btn.settings / settings.gameplay, etc
+dial.discord_post_permission,あなたのスコアをブラッディ・ラリー・ショーのDiscordに投稿してもいいですか？<br>Steamのニックネームやコースごとのタイム、挑戦回数が表示されます。<br>設定はいつでも「設定」>「ゲームプレイ」>「Discordに投稿」で変更できます。
+dial.time_attack_car_locked,選択しようとしたマシンは未解放です。まずはキャンペーンでレーサーのレベルを上げてアンロックしましょう！
+dial.camp.corrupted_save_files,壊れたセーブファイル（キャンペーン）を発見しました：{0}
+dial.camp.load_fail,セーブデータの読み込みに失敗：{0}<br>{1}
+dial.camp.not_enough_cash,所持金不足です！
+
+# {0} - clowns
+dial.camp.lucky1.1,よお、{0}。今日は気前よくいくぞ！
+# {0} - clowns
+dial.camp.lucky1.2,貴様らの中に、命がけで写真撮ってるあの{0}どもみたいな金欠もいるな。
+# {0} - clowns
+dial.camp.lucky1.3,おい、そこの{0}ども、列に並べ！ だーれーにー、しよーかーなー？
+# {0} - friggin (adjective)
+dial.camp.lucky1.4,いい気分だな！ SOFACTについてデタラメ書いてた{0}ジャーナリストが貴様らのせいで担架で運ばれていったぞ！
+# {0} - clowns
+dial.camp.lucky1.5,くっそ、ポケットの中がカネでパンパンだぜ。置き場所もねぇから、貴様ら{0}どもに少し恵んでやるか...
+# {0} - beef bacon burger, {1} - clowns
+dial.camp.lucky1.6,貴様らの知ってる通り、俺は{0}ビジネスをやっている。貴様ら{1}どもの誰かが前のレースでライバル会社のCEOを始末してくれたようだな！
+# {0} - clowns, {1} - vegan olive oil
+dial.camp.lucky1.7,貴様ら{0}どもの1人にちょっとしたプレゼントをした。シートに{1}をまみれにしておいたのに、全然気づかねぇ！ ハハハ！ 最高だ！ まあ、埋め合わせはしてやろう。
+
+# in this block {0} is always racer name ${1} is cash amount
+dial.camp.lucky2.1,ツイてる当選者は......{0}だ！ おめでとう。${1}をやろう！
+dial.camp.lucky2.2,{0}、こっちに来い！ ${1}をくれてやる。だが、タダじゃない。後で少し働いてもらうぞ
+dial.camp.lucky2.3,{0}！ ほらよ、${1}だ！ 好きなものを買え
+dial.camp.lucky2.4,{0}！ ${1}だ！ とっとと、うせろ
+dial.camp.lucky2.5,{0}、${1}を受け取れ。ご苦労だったな！
+dial.camp.lucky2.6,この栄えある賞金${1}の当選者は、{0}だ。一気に使うなよ？
+dial.camp.lucky2.7,{0}...お前は正直気に入らんが、ほら${1}だ。その代わり、あとで少し依頼をする。ヤバいことではない、たぶんな
+
+# {0} - name, ${1} - cash amount
+dial.camp.resurrected,レーサーの{0}は救護班によって${1}でよみがえった
+dial.camp.resurrect_no_cash,レーサーの{0}は治療を受けるのに必要なお金がありませんでした。ご愁傷様です。
+# {0} - clowns
+dial.camp.all_broke,{0}ども、貴様らどうやって一気に破産したんだ？ 残念ながら、ショーは続くぞ。SOFACTがお前らクソどもに$20000ずつ恵んでやる。好きに使え。
+# {0} - name, {1} - clown
+dial.camp.early_win,おいおい、{0}。こいつ皆殺しにしやがった！ 今シーズンは早期終了だ。ざまあみろか、この{1}。貴様の勝ちだ！
+dial.camp.on_camp_fail,残念だが、続行するにはトップ3に入る必要がある。しかも${0}を返す金もないだろ...ゲームオーバーだ、この野郎。
+dial.camp.congrats_free_man,おめでとう！ 自由の身だ！
+dial.camp.freedom_not_enough_cash,残念ながら金が足りんぞ！ 次のシーズンでもっと稼げ。
+dial.camp.exit_confirm,キャンペーンを本当に終了するか？ 進行状況は保存しておいてやる。
+dial.camp.card.no_regen,既にレースが終了したステージは再生成できんぞ！
+# {0} - some track name. keep the quotes 
+dial.camp.card.saved_already,コース"{0}"はすでにコレクションにある。置き換えるか？
+dial.camp.card.saved,コース"{0}"をコレクションに追加したぞ！
+dial.camp.card.no_walk_completed,レースが終了したステージを歩き回ることはできんぞ！
+dial.camp.card.no_walk_special,特殊ステージは歩き回ることができんぞ！
+# {0} - name
+dial.camp.card.go_ped_confirm,ちょっと待て、{0}。マシンがないのか！ 歩いてレースに出るつもりか？
+# {0} - list of names (john, smith, peter)
+dial.camp.card.some_peds_confirm,何人かのレーサーは車を持ってないぞ！({0})。 こいつらは歩行者としてレースに出ることになるな。いいのか？
+dial.camp.card.some_peds,ステージ参加費を払えないレーサーどもがいるな。歩行者としてレースに参加することになるぞ: {0}
+
+dial.paint.no_1k,カネが$1000ないぞ！
+
+dial.upgrade.not_in_time_attack,タイムアタックではチューニングは変更できんぞ。
+dial.upgrade.week_over,整備士がすでに作業中だ。今週はもうアップグレードはできん！
+dial.upgrade.already_done,前回のアップグレードでまだ作業中だ！ 次のステージを終えてから来い。
+dial.upgrade.no_cash,アップグレードするにはカネが足りんぞ！
+
+dial.camp.load_finished,このキャンペーンは終わったぞ。本当に続けるのか？
+dial.camp.delete_confirm, このキャンペーンは削除していいか？
+dial.camp.name_required,キャンペーン名を入力しろ！
+dial.camp.name_taken,その名前のキャンペーンは、もうあるぞ！
+
+dial.camp.gratitudes.1,ありがとう！
+dial.camp.gratitudes.2,うおっ！最高かよ！
+dial.camp.gratitudes.3,マジで！？ありがとう！
+dial.camp.gratitudes.4,ありがと！！
+dial.camp.gratitudes.5,借りができたな！
+dial.camp.gratitudes.6,アンタ、マジで最高だ！
+dial.camp.gratitudes.7,この恩は忘れないぞ
+dial.camp.gratitudes.8,俺、何かしたっけ？
+dial.camp.gratitudes.9,一生の借りだ！
+dial.camp.gratitudes.10,いいね！ 助かる！
+dial.camp.gratitudes.11,ナイス！
+
+dial.camp.no_cash.1,クソガキが、財布カラッポじゃねーか！
+dial.camp.no_cash.2,なにやってんだ、そんなんじゃ誤魔化せねえぞ！
+dial.camp.no_cash.3,バカにしてんのか？ てめぇの財布の中を見てみろ！
+dial.camp.no_cash.4,おやおや、カネが足りてねえな。
+dial.camp.no_cash.5,お前、そんなに持ってねーだろ...
+dial.camp.no_cash.6,破産させたくはないんでな。悪いが。
+dial.camp.no_cash.7,カネが全然足りねえぞ！
+
+dial.race.missing_bindings,おい、プレイヤー{0}({1})のコントローラー設定が足りんぞ！ 設定 > 入力 からレース用コントロールを確認して直してこい！
+dial.race.missing_bindings_ped,おい、プレイヤー{0}({1})のキー設定が足りんぞ！ 設定 > 入力 から歩行者用コントロールを確認して直してこい！
+# {0} - clown
+dial.race.ped_death,救護班、こっちだ！ {0}がやられた！ 治療費を払えるだけのカネがあればいいが...
+
+dial.ed.no_cars,まだ保有しているマシンがありません！ まずは新しいマシンを作成して保存しましょう。
+dial.ed.name_the_car,新しいマシン名
+dial.ed.car_name,マシン名
+
+dial.ed.car_sprites_missing,必要なスプライトが足りん！ マシンのMod作成ガイドを参照し、次のファイルを作成しろ：{0}
+dial.ed.car_sprites_deleted,マシンのスプライトファイルを直接削除するんじゃない！ 不足ファイルは透明な1x1ピクセルの画像で置き換えたぞ：{0}
+dial.ed.remove_car_name_colon,車種名から"{0}"を削除しろ！
+dial.ed.car_name_taken,モデル名"{0}"は既に使われているぞ！
+dial.ed.car_too_fast,SOFACTレギュレーションでは、チューニング前に速度指数{0}を超える車は認められん！ このマシンの速度指数は{1}だ。パラメータを調整しなおせ！
+dial.ed.car_close_confirm,このマシンを閉じるが、本当にいいか？ 保存していない変更は消えるぞ。
+dial.ed.car_delete_confirm,本当にマシン"{0}"を削除していいか？
+dial.ed.delete_error_no_dir,マシンを削除できん。そんなディレクトリはないぞ：<br>{0}
+dial.ed.delete_error_file_open,マシンのディレクトリを削除できん。開いているファイルは、すべて閉じろ。手動でやりなおせ。<br>{0}
+dial.ed.save_car_once,スプライトを編集する前に、マシンを一度保存しろ
+dial.ed.save_before_reload,マシンを保存してリロードしろ！
+dial.ed.no_steam_share_car_err,Steamに接続されていないな。これではマシンを共有できんぞ！
+dial.ed.car_share_no_desc,Steamワークショップに公開する前に説明文を入力しておけ！
+dial.ed.car_save_first,まずはマシンを保存したまえ！
+dial.ed.car_share_err_sprites_missing,マシンは公開できんな。必要なスプライトがない：<br>{0}
+dial.ed.car_share_err_sprites_recovered,マシンのスプライトを勝手に削除するな！ 不足しているファイルは透明な1x1ピクセル画像で置き換えた：{0}。これでマシンを公開できるはずだ。
+dial.ed.car_save_alien_files,MODディレクトリに属さないファイルは削除したまえ。.png、.txt、item.car のみ許可してやる！ 問題があるファイルは、こいつらだ：{0}
+dial.ed.car_share_sprite_warning,警告しておく。スプライトを変更していない場合、マシンは拒否されるぞ！<br>本当に公開するのか？
+dial.ed.car_name_not_available,マシン名は使えんぞ: {0}。変更してやり直せ。
+
+dial.ed.path_start_open,オープンコースのスタート位置は移動できんぞ！
+
+dial.factory_reset.confirm,本当に初期化するんだな？
+
+dial.leaderboard.ghost_confirm,{0}のゴーストとレースをするか？
+dial.leaderboard.ghost_confirm_daily_stale,本日の記録ではないため、デイリーチャレンジのランキングは更新されん。だが、コースのランキングは更新しておく。
+
+dial.input_reset,開発者によって入力設定の仕様が変更されたようだ。入力設定は初期状態にリセットされる。「設定」>「入力」から変更できるぞ。すまんな。
+dial.settings_reset,開発者によってゲーム設定の仕様が変更された。このため、設定は初期状態にリセットされる。手間をかけてすまんな。
+dial.stat_reset_dev,開発者により全ステータスがリセットされる。すまんが、手間をかける。
+dial.are_you_sure,いいのか？
+
+dial.race.racers_over_limit,1レースに参加できるマシンは最大{0}台までだ！
+dial.race.player_remove_confirm,プレイヤー{0}: {1}を消すか？
+dial.race.race_alone,タイムアタック以外で単独でのレースは感心せんな。「プレイヤー追加」「+1」「+10」ボタンで対戦相手を追加しろ！
+dial.race.no_track,まずはコースを選択したまえ！
+
+dial.race.restart_hardcore,ハードコアモードだ。レースのリスタートはできねえから、肝に銘じておけ！
+dial.race.restart_dead,悪いが、誰か死ぬとレースはリスタートできんぞ。レース終了まで待て。救護班が対応する。
+dial.race.restart_ped,すまんが、歩行者にはレースをリスタートする権利はやっておらん！
+dial.race.restart_confirm,本気か？ 全レースで勝つのは難しい上、リスタートはコストもかかるので感心せん。リスタートには${0}が要るぞ。所持金は${1}だな。
+dial.race.restart_no_cash,カネが足りなくてリスタートはできねえな。レースをやり抜けろ。
+dial.race.restart_time_attack_confirm,いいのか？ レースで記録した周回タイムが破棄されるぞ！
+
+dial.ed.track_exit_confirm,本当に終了していいか？ 保存されていない変更は全部消えるぞ！
+dial.ed.track_new_confirm,本当にいいのか？ 保存されていない変更は全部消えるが。
+dial.ed.invalid_objects,道路に近すぎるオブジェクトが{0}個ある。移動か削除しろ。それと、もう一度保存する前にテストドライブをやれ。
+dial.ed.enter_track_name,コース名を入力しろ
+dial.ed.track_name,コース名
+dial.ed.fix_errors_first,コースを保存する前に、検証エラーを修正しておけ！
+dial.ed.share_track_no_steam,Steamを接続できていないな。コースは公開できんぞ！
+dial.ed.track_invalid_share,画面上部の赤いバナーを確認しろ。マウスを重ねると何が問題か分かるはずだ。
+dial.ed.lap_before_upload,おい待て！ アップロードする前にラップタイムを設定しろ。
+dial.ed.track_remove_colon,コース名から{0}を消せ！
+dial.ed.track_name_clash_builtin,悪いが、別の名前にしろ。組込コースは上書きできん！
+dial.ed.track_overwrite_confirm,コース"{0}"は既にあるぞ。上書きしていいか？
+dial.ed.track_alien_files,modディレクトリの要らんファイルを消せ：{0}
+dial.ed.track_delete_no_undo,本当にコースを消していいか？ 取り消しはできんぞ！
+dial.ed.track_quit_confirm,コースエディタを終了していいか？ 保存していない変更は消えるぞ！
+dial.ed.track_last_2_points,最後の2つのパス点は削せんぞ！
+dial.ed.loop_autoclose,ループを閉じようとしていたな？ 「開く / 閉じる」ツールでも出来るが、今回は我々の方で対応しておいた。
+
+dial.on_success, 達成: {0}
+dial.on_fail, 失敗: {0}
+dial.tip,ヒント: {0}
+dial.confirm,承諾
+dial.confirm_in,承諾 ({0:0})
+dial.must_do_in_drift,ドリフト走行中に実施する必要あり
+
+dial.reset_tutorials.confirm,全てのヒントを未確認にするか？
+
+dial.confirm_exit_to_desktop,本当に終了してデスクトップに戻るのか？
+
+dial.car_model_unavailable,おい、マシンの{0}はもう使えんぞ！ キャンペーンは続けるか？ 使えなくなったマシンは返金なしで処分されるぞ。
+
+msg.track_high_obj_density,このコースはオブジェクト密度が高いようです ({0:0} / 100m)。初期設定のままだとカスタムキャンペーンの生成時に含まれません！
+msg.track_high_crowd_density,このコースは歩行者の密度が高いようです ({0:0} / 100m)。初期設定のままだとカスタムキャンペーンの生成時に含まれません！
+msg.cheats_leaderboards,ランキング無効！ゲーム内コンソールチートや物理演算テストを使用しました。再起動で回復します。
+msg.track_load_failed,コース読込に失敗。破損しているか利用不可です。再試行するか再生成してください。
+msg.race_input_restart_warning,警告：レース中に入力設定を変更した場合、反映するにはレースの再スタートが必要です！
+msg.failed_deleting_folder,フォルダ削除に失敗。開いているファイルをすべて閉じてください<br>{0}
+msg.missing_car_model,車種が見つかりません。ID: {0}。<br>おそらくサブスクしていないMODか、削除されたカスタムマシンです。
+msg.missing_controls,キー設定が不足しています
+msg.gen.analyzing_road,道路の曲がり具合を分析中
+msg.gen.calculating_lines,レーシングラインを計算中
+msg.gen.checkpoints,チェックポイントにセンサーを設置しています
+msg.gen.paving_road,道路を舗装しています
+msg.gen.deunionizing_workers,道路作業員の労働組合を解散させています
+msg.gen.firing_workers,道路作業員をクビにしています
+msg.gen.bribing_inspectors,検査官にワイロで買収しています
+msg.gen.looking_location,場所を探索中
+msg.gen.evicting_residents,住民を立ち退かせています
+msg.gen.planting_forests,森林に植樹しています
+msg.gen.planting_bushes,茂みを植えています
+msg.gen.growing_parks,公園をつくっています
+msg.gen.placing_lamps,街灯を設置中
+msg.gen.planting_flowers,お花を育てています
+msg.gen.cloning_peds,歩行者のクローンを培養しています
+msg.gen.cloning_more_peds,さらに歩行者のクローンを培養しています
+msg.gen.building_walls,壁を建設しています
+msg.gen.building_more_walls,さらに壁を建設しています
+msg.gen.rocks,天然の岩石を配置しています
+msg.gen.ramps,ジャンプ台を設置しています
+msg.gen.barrels,爆発物入りのドラム缶を設置中
+msg.gen.puddles,水たまりをぶちまけています
+msg.gen.cones_tires,コーンとタイヤを発注しています
+msg.gen.buildings,建築物を建てています
+msg.gen.special_locs,秘密のロケーションを建設中
+msg.gen.road_marks,道路標示を描いています
+msg.gen.test_driving,コースでテスト走行しています
+msg.gen.screenshot,ドローンで写真を撮影中
+msg.gen.cones_left,左側のコーンを整列中
+msg.gen.cones_right,右側のコーンを整列中
+msg.gen.tires_left,左側のタイヤを配置中
+msg.gen.tires_right,右側のタイヤを配置中
+msg.gen.end.1,罠を設置しています
+msg.gen.end.2,イベントの宣伝をしています
+msg.gen.end.3,疲れた道路作業員をクビにしています
+msg.gen.end.4,観客を送迎しています
+msg.gen.end.5,職人が道路のほこりを散布中
+msg.gen.end.6,監視ドローンを充電しています
+msg.gen.end.7,ヘリコプターに弾薬を積んでいます
+msg.gen.end.8,運営統括のマシンを磨いています
+msg.gen.end.9,爆薬の信管を作動させています
+msg.gen.end.10,仮設トイレを設置しています
+msg.gen.end.11,コーンを磨いています
+msg.gen.end.12,オイルを撒いています
+msg.gen.end.13,ヘリコプターに燃料補給中
+msg.gen.end.14,さらに観客を送迎しています
+msg.gen.end.15,道路の穴を埋めています
+msg.gen.end.16,ホットドッグを配達中
+
+msg.longest_drift,最長ドリフト
+msg.cant_fire_flyers,フロントガラスにチラシが張り付いていると武器は撃てません！
+msg.cant_fire_no_gun,武器を装備していないので撃てません！
+msg.cant_drop_no_gun,武器を装備していないので解除できません！
+msg.close_call,危なーい！！
+msg.photo_reward,写真の報酬: ${0}
+msg.inflicted_dmg,与ダメージ
+msg.dmg_warning,ダメージ警告
+msg.over_50_pct,50%以上
+msg.over_75_pct,75%以上
+msg.jump_completed,ジャンプ成功！
+msg.nitro_boost,ニトロブースト
+msg.hit_combo,衝突コンボ
+msg.final_lap,最終ラップ！
+msg.lap_did_not_count,ラップはカウントされません
+msg.wrong_way,逆走！
+msg.no_reset_start_line,リセットできません、まだスタートラインを通過していません！
+msg.no_reset_too_often,マシンの位置をリセットするには少し待ってください！
+msg.camera_mode,カメラモード
+msg.camera_zoom,カメラズーム
+msg.ped_cannon_tip,歩行者と接触するか、キャノンのリロードをお待ちください！
+msg.corner_cut,カーブのショートカットペナルティ
+msg.get_on_track,コースに戻れ！！
+msg.reset_in,マシン位置のリセットまで{0:0.00}秒
+msg.offroad_pen,コース外ペナルティ
+msg.car_reset,マシン位置リセット
+msg.cheating_detected,チート検出！
+msg.corner_cut_forgiven.1,カーブのショートカットペナルティを免除。二度とするな！
+msg.corner_cut_forgiven.2,カーブのショートカットペナルティが免除。審判が見ていない
+msg.ped_sucked_in_cannon,歩行者キャノンに吸い込まれた！
+msg.x_invalid_obj,無効なオブジェクトが{0}個あります
+msg.wasted,死亡
+
+msg.hard_congrats,おめでとうございます。難易度ハードが解放されました
+msg.hardcore_congrats,おめでとうございます。難易度ハードコアが解放されました
+msg.no_steam_leaderboard_warn,Steamに接続不能！ ランキングへの記録は保存されません。この問題を修正するにはゲームかSteamクライアントを再起動してください。
+msg.motion_speed_adj,モーション速度調整: {0:0.00}x
+msg.time_scale_adj,時間倍率: {0:0.00}x
+msg.steam_client_photo,Steamクライアント経由でゲームを起動するとスクリーンショットを撮影できます。Steamを使わない場合はデスクトップのスクリーンショットソフトを使ってください
+msg.entering_photo_mode,フォトモードに入ります
+msg.exiting_photo_mode,フォトモードを終了します
+msg.just_upgraded,{0}が{1}に関する改造を実施！
+msg.just_bought,たった今{0}が{1}を購入!
+# Keep this as short as possible, it will be displayed for 5 seconds in a small speech bubble
+msg.tip_available,{Action.ShowTutorial}でヒントを表示
+
+msg.uploading_ghost,ゴーストリプレイをアップロード中
+msg.score_not_improved,既存のスコアランキングは更新されませんでした
+msg.score_ghost_missing,既存のスコアランキングは更新されませんでしたが、ゴーストデータがありませんでした。現在のゴーストをアップロード中
+msg.score_rejected,Steamにより、このランキングのスコア更新が拒否されました
+msg.uploading_score,ランキング更新中 ({0}/10 APIコール / 10分)<br>{1}
+msg.uploaded_score,ランキング更新に成功 ({0}/10 APIコール / 10分)<br>{1}
+msg.upload_fail,ランキング更新に失敗。{2}秒後に再試行します ({0}/10 APIコール / 10分)<br>{1}
+
+load.downloading_score,直近のスコアランキングをダウンロード中
+load.downloading_ghost_car,ゴーストカーのデータをダウンロード中
+load.launching_battle,バトルを開始中
+load.launching_race,レースを開始中
+load.starting_race,エンジンをかけています
+load.checking_mods,サブスクライブ中のMODをチェック中
+load.downloading_mod,MODをダウンロード中: {0} ({1}/{2}bytes)
+load.loaded_mod,MOD読み込み完了: {0}
+load.screenshotting,コースのスクリーンショットを作成中
+load.gen_rand,ランダムコースを生成中
+load.track,コースを読み込み中
+load.flushing_stats,統計データ更新中
+load.flushing_stats_progress,統計データ更新中 ({0} 残り)
+load.exiting,終了中
+load.insults,ランダムな罵詈雑言を読み込み中
+load.avatars,アバターを読み込み中
+load.avatar_custom,カスタムアバターを読み込み中: {0}
+load.cars,マシンのデータを読み込み中
+load.workshop_car_tex,ワークショップから取得したマシンのテクスチャを読み込み中: {0}/{1}
+load.car_tex,マシンのテクスチャを読み込み中: {0}/{1}
+load.paint_job,塗装データ読み込み中: {0}
+load.track_campaign,キャンペーン用コースを読み込み中: {0}
+load.custom_tracks,カスタムコースファイルを読み込み中
+load.workshop_track,ワークショップコースを読み込み中: {0}
+load.workshop_track_missing,ワークショップのコース {0} が見つかりません、登録解除します
+load.workshop_car,ワークショップのマシンを読み込み中: {0}
+load.custom_track,カスタムコース読み込み中: {0}
+load.track_x,コース読み込み中: {0}
+load.steam_avatar,Steamアバターを読み込み中: {0}
+load.scene,{0}読み込み中
+
+scene.race_setup,レース設定
+scene.race,レース
+scene.main_menu,メインメニュー
+scene.track_editor,コースエディタ
+scene.car_editor,マシンエディタ
+scene.campaign,キャンペーン
+scene.kickstart,初期状態
+
+weapon.ped_cannon,歩行者キャノン
+weapon.m2,M2重機関銃
+weapon.saw,回転ノコギリ
+weapon.nitro_refill,ニトロ補充
+weapon.shield,バリア
+# Tribute to Mad Max, maybe it's possible to keep the reference?
+weapon.mad_fax,マッド・ファックス
+# It is a robotic steel hedgehog that is rigged with explosives
+weapon.homing_hedgehog,追尾爆雷
+weapon.wrench,レンチ
+weapon.nailgun,ネイルガン
+# Tribute to Quake
+weapon.railgun,レールガン
+weapon.wrecking_ball,鉄球
+weapon.grappling_hook,引っ掛けフック
+
+# TUTORIALS 
+# Watch out for the <br>, these are new lines. They must not be removed!
+
+tut.basic_driving.head,マシンの操作
+tut.basic_driving.1,- {Action.Accelerate}を長押ししてアクセルで加速しましょう<br>- {Action.Steer}でハンドルを回してステアリング操作を行います<br>- コントローラー使用時は、アクセルやステアリングの感度を調節できます<br>- 操作はコントローラーの方がずっと簡単です！
+tut.basic_driving.2,- カーブの曲がり具合を早めに予測しましょう<br>- 急カーブの前では事前に減速しましょう<br>- {Action.Brake}でブレーキをかけましょう<br>- {Action.Accelerate}を押すのをやめて、アクセルをゆるめても速度が落ちます
+tut.basic_driving.3,- 曲がりきれずにコースアウトしそうでしたら、ハンドブレーキを使いましょう<br>- {Action.Handbrake}を押してハンドブレーキをかけましょう
+
+tut.camera.head,カメラ制御
+tut.camera.1,- カメラのズームや回転モードは複数から選べます<br>- {Action.Zoom}でズームモードを切り替えていきましょう<br>- カメラを望遠にズームアウトすると上空からマシンを見下ろせますが、雲で視界が遮られてしまうことがあります
+tut.camera.2,- 近距離までズームするとマシンを間近で確認できます<br>- 前方のコースが短距離しか見えないため、走るのが難しくなるかもしれません<br>- ミニマップを使用してカーブを確認しましょう
+tut.camera.3,- {Action.Camera}をクリックしてカメラの回転モードを切り替えましょう<br>- コース位置に固定に指定すると、カメラそのものは一切回転しません
+tut.camera.4,- マシンに固定は、マシンがの向きに合わせてカメラも回転します<br>- 自動はマシンとコース位置の中間的な挙動をします<br>- 自分に合ったものを見つけましょう
+tut.camera.5,- 設定 -> 操作 で、カメラの標準設定を変更できます<br>- カメラシェイクによる画面の揺れを減らしたい場合は、カメラの振動を調整しましょう
+
+tut.camp.add_racer.head,レーサーの追加と編集
+tut.camp.add_racer.1,- このレーサーを誰が操作するかを選択できます：プレイヤーまたはAI<br>- 画面分割では最大4人までプレイ可能です<br>- アバターを変更したり、パソコン内の画像を使用して独自アバターを設定することもできます
+
+tut.camp.advance.head,キャンペーンの進行
+tut.camp.advance.1,- おめでとうございます。最初の1週間を生き延びました！<br>- 次に進む準備ができたら、進むのボタンをクリックしましょう<br>- 新しい1週間が生成されます
+
+tut.camp.car_unlock.head,新しいマシンの入手
+tut.camp.car_unlock.1,- 購入可能な、もっといいマシンが解放されました！<br>- ガレージに行って確認しましょう
+tut.camp.car_unlock.2,- 購入できる中で、一番いいマシンを選びましょう<br>- 購入ボタンをクリックして購入しましょう<br><br>- 購入前なら新しいマシンを塗装できることもお忘れなく
+
+tut.camp.first_car.head,最初のマシン
+tut.camp.first_car.1,- あなたはまだマシンを所有していませんが、少しばかりのcashがあります<br>- "マシンを購入"をクリックしてガレージへ行きましょう
+
+tut.camp.first_race.head,最初のレース
+tut.camp.first_race.1,- さあ、最初のレースの開幕です！<br>- ステージカードをクリックして始めていきましょう<br>- 生成中の通知を見かけたら、高度に訓練されたサルどもがレースコースの準備をしている最中だと思ってください。その通知が消えるまで、レースを始めようとしないでください。
+
+tut.camp.garage.head,ガレージ
+tut.camp.garage.1,- 現在購入できるのは Lionard 125 のみです<br>- レーサーレベルが上がれば新しいマシンが解放されます
+tut.camp.garage.2,- 購入前であれば、無料でマシンのカラーを変更できます<br>- 購入後の塗装は有料です
+
+tut.camp.racer_setup.head,レーサーを作成しましょう
+tut.camp.racer_setup.1,- レーサーのアバターを選びましょう。パソコン内の画像からカスタムアバターも使用可能です<br>- レーサー名を入力してください。もしくはランダム生成をクリックしましょう。<br>- 声の高さを選択しましょう。ダイアログのセリフ表示音に影響します。<br>- そうしたら、登録をクリックしてください
+
+tut.camp.season_lineup.head,シーズン一覧
+tut.camp.season_lineup.1,- こちらでシーズンのラインナップをカスタマイズしたり、画面分割でプレイするマルチプレイヤーキャンペーンを設定できます<br>- レーサーの編集アイコンをクリックし、名前、アバター、スキルレベルを編集できます<br>- レーサーの ｘアイコン をクリックすると削除します。レーサー数は固定なので、削除すると新しいレーサーに置き換わります
+
+tut.camp.stage_rewards.head,ステージ報酬
+tut.camp.stage_rewards.1,- レースが終了すると、あなたの行動に応じた報酬がもらえます<br>- 報酬の項目で色がついているものは、より価値が高いことを意味します
+tut.camp.stage_rewards.2,- デフォルトではプレイヤーの報酬しか表示されません<br>- 全レーサー をクリックすると、全レーサーの報酬を見ることができます
+
+tut.camp.car_upgrades.head,マシン強化
+tut.camp.car_upgrades.1,- 新しいマシンのアップグレードが解放されました<br>- パーツアイコンをクリックするとアップグレード画面が開きます<br>- アップグレード可能なパーツには上矢印のアイコンが表示されます
+tut.camp.car_upgrades.2,- 価格ボタンをクリックし、アップグレードを購入しましょう<br>- レベルが上がれば、さらに多くのアップグレードが解放されます
+
+tut.car_damage.head,マシンのダメージ
+tut.car_damage.1,- マシンが、かなりのダメージを受けました<br>- 右上のHPバーをチェックしましょう<br>- 武器ありレースやバトルでは、レンチのパワーアップで修理ができます
+tut.car_damage.2,- ダメージの蓄積したマシンは、最高速度が多少低下します<br>- ダメージを受けたマシンは、スリップを引き起こすオイルを漏らします
+
+tut.car_reset.head,マシンをリセット
+tut.car_reset.1,- マズいことになりましたか？ なんとかするので、ご安心ください！<br>- {Action.Brake}を押し続けると、マシンはバックします<br>- {Action.ResetCar}を押すと、マシンの位置をコース上にリセットできます
+
+tut.corner_cut.head,カーブをショートカットした場合のペナルティ
+tut.corner_cut.1,- カーブでショートカットをしてしまいましたね！<br>- 審判の気分によりますが、見逃してもらえる場合もあればペナルティを受ける場合もあります<br>- 軽いペナルティは一時的な減速<br>- 重いペナルティはマシン位置のリセットです<br>- 許されるコーナーショートカットの量は、ゲームモードと難易度によって変化します
+
+tut.custom_race_dash.head,カスタムレース概要
+tut.custom_race_dash.1,- カスタムレースの概要へようこそ。最初は少し分かりづらいかもしれないので、ざっくりと説明しましょう<br>- フレンドと遊びたい場合は"プレイヤー追加"ボタンを使ってください<br>- 同じ操作でAIレーサーも追加できます
+tut.custom_race_dash.2,- ランダムなAI対戦相手をすばやく追加するには"+1"や"+10"ボタンを使いましょう<br>- 大量のAIと一斉にレースすることも可能です！<br>- 他のレーサーをすべて削除するには"0"をクリックしてください
+tut.custom_race_dash.3,- キャンペーンモードと違い、こちらでは各アップグレードを好みに設定できます<br>- パーツアイコンをクリックするとアップグレード段階を切り替えられます<br>- 各レーサーごとにアップグレードを設定しておくことも可能です
+tut.custom_race_dash.4,- 選択できるゲームモードがいくつかあります<br> - "レース"は通常のレースです<br>- "タイムアタック"はラップタイムを競い、世界ランキングに記録されます<br>- "バトル"は制限時間付きのバトルモードで、武器が使用可能です。コース上を走る必要はありません。
+tut.custom_race_dash.5,- レースするコースを選択しましょう<br>- ユニークなコースを自動生成することもできます<br>-  Steamワークショップからコースをダウンロードしたり、コースエディタで自作することもできます
+tut.custom_race_dash.6,- 設定が完了したら、画面左下の赤いボタンをクリックしてレースを開始しましょう
+
+tut.time_attack.head,カスタムレース: タイムアタック
+tut.time_attack.1,- "タイムアタック"モードでは、マシンの全アップグレードがレベル1に固定されます
+tut.time_attack.2,- ランキングを確認するには、上部バーの"ランキング"ボタンをクリックしましょう<br>- "タイムアタック"モードではAIレーサーは使用できません<br>- ただし、他プレイヤーとの画面分割でのプレイができます
+
+tut.drift.head,ドリフト走行
+tut.drift.1,- すばらしいドリフト走行をキメました<br>- ドリフト走行とは横滑りでカーブを曲がる芸術的なテクニックです<br>- 運転操作によってドリフト走行を発生させると、キャンペーンでニトロブーストや報奨金がもらえます<br>- コースアウトした場合はドリフト走行としてカウントされません
+tut.drift.2,- マシンによってドリフト特性が異なります。<br>- 路面の種類や天候によってもドリフト特性が異なってきます<br>- マシンのチューニングもドリフトには影響します
+
+tut.paint.head,マシンの塗装
+tut.paint.1,- メインカラーでマシンの基本色を変更できます<br>- レイヤは最大2枚まで使用可能です<br>- レイヤ画像をクリックすると別のパターンを選択できます<br>- 独自のレイヤ画像も使用できます
+
+tut.nitro.head,ニトロブースト
+tut.nitro.1,- 赤いニトロバーはマシンのニトロ残量を示します<br>- {Action.Nitro}を押し続けるとニトロを燃やしてマシンが加速します<br>- 燃焼時間が長いほど消費効率は良くなります
+tut.nitro.2,- ニトロバーは歩行者、仮設トイレ、雪だるまに衝突すると回復します<br>- ドリフトしてもニトロバーが回復します<br>- 使わなかったニトロ分は報奨金として払い戻されます
+
+tut.oil.head,オイル溜まり
+tut.oil.1,- オイルの上を走り抜けた場合です<br>- タイヤが猛烈にスリップしやすくなります<br>- 心配要りません、タイヤはすぐにきれいになります
+
+tut.ped.head,歩行者モード
+tut.ped.1,- 運悪く歩行者としてレースに参加してしまいました。<br>- {Action.Walk}で移動<br>- {Action.Turn}で方向転換
+tut.ped.2,- 車に近づいたら{Action.Take Photo}で写真を撮影しましょう<br>- 写真を撮るとcashがもらえます<br>- 報酬金額は、写真に写っているマシン数と距離次第です
+tut.ped.3,- 気を付けてください、でないとマシンと接触することになります<br>- 治療費は高額であり、cashで支払えない場合はゲームオーバーになります
+
+tut.nitro_refill.head,パワーアップ: ニトロ補充
+tut.nitro_refill.1,- ニトロ補充を入手！<br>- 走行中にニトロ残量を一気に回復してくれるパワーアップです<br>- このパワーアップを取ったら{Action.Nitro}を押しっぱなしにして、増加するニトロを使い続けるのが賢明です
+
+tut.wrench.head,パワーアップ: レンチ
+tut.wrench.1,- レンチを手に入れました！<br>- レンチは走行中にマシンを修理してくれるパワーアップです<br>- 入手可能なレンチには3種類あります
+tut.wrench.2,- 銅のレンチは少量のダメージを修理します<br>- 銀のレンチは中程度のダメージを修理します<br>- 金のレンチは大きなダメージを修理します
+
+tut.race_end.head,レースの終了
+tut.race_end.1,- よくできました。どうやら最下位ではないようです！<br>- 他のレーサーはゴール到達まで30秒が与えられます<br>- "加速"を何度かクリックして、時間経過を最大5倍まで上げましょう
+tut.race_end.2,- 30秒経過すると、レース終了ボタンが解除されます<br>- 他のレーサーが全員ゴールする前にレースを抜けるかは、ご自由になさってください
+
+tut.car_battle.head,マシンバトル
+tut.car_battle.1,- バトルへようこそ<br>- 相手を破壊することが目標です<br>- 体当たりで他のマシンにダメージを与えることができます<br>- 武器を使用すれば、さらに大ダメージを与えられます
+tut.car_battle.2,- 武器やパワーアップは、この武器ゾーンで手に入ります<br>- 場所はミニマップでも確認できます
+tut.car_battle.3,- アイテムを取るとゾーンは無効になって、カウントダウンが表示されます<br>- カウントが終われば、新しいアイテムとともに再有効化します
+tut.car_battle.4,- バトルは、タイマーが0になると終了します<br>- 最多のマシン破壊数と、最大ダメージを与えた者が勝利します
+
+tut.regular_race.head,通常のレース
+tut.regular_race.1,- 通常レースは、他のレーサーより先にゴールするのが目標です<br>- 加速が必要な時は{Action.Nitro}でニトロを使用しましょう<br>- 歩行者にぶつけたりドリフトすると、ニトロバーが回復します<br>- カーブでショートカットするとペナルティを受けることがあります！
+
+tut.time_attack2.head,タイムアタック
+tut.time_attack2.1,- タイムアタックでは、ベストラップを目指しましょう<br>- 他プレイヤーがそのコースでランキング記録を持っている場合、ゴーストとレースができます<br>- あなた自身のゴーストも記録されて、ランキングのスコアと一緒にアップロードされます
+
+tut.race_weap.head,武器ありのレース
+tut.race_weap.1,- これから武器とパワーアップありのレースに参加するところですね<br>- このレースは本当にメチャクチャになることがあります！<br>- 新しいキャンペーンを開始するとき、武器ありのレースを無効にすることも選択肢となります
+tut.race_weap.2,- 武器やパワーアップを手に入れると、武器バーが表示されます<br>- 今まで見たことのない武器を手に入れた場合、ヒントのポップアップが出ることがあります
+tut.race_weap.3,- コース上にはいくつかの武器チェックポイントが設置されています<br>- これらのチェックポイントは一定時間ごとに色が変化します<br>- 赤いチェックポイントでは武器が手に入ります
+tut.race_weap.4,- 緑のチェックポイントではパワーアップが手に入ります<br>- 武器やパワーアップを所有した状態でゾーンを通過しても、何も起こりません<br>- {Action.DropWeapon}を押すと、現在の武器やパワーアップを投棄します
+
+tut.ramps.head,ジャンプ台
+tut.ramps.1,- マシンが空高く跳ね上がりました！<br>- 木製ジャンプ台は加速なしで、ただジャンプさせるのみです
+tut.ramps.2,- パワージャンプ台は、ジャンプと同時にスピードブーストも加わります！<br>- ジャンプ台を使っても上手く着地できるとは限りません<br>- ジャンプ台は押して動かしたり、回転させたりでき、トラップとしても使用できます<br>- ランキングにジャンプの記録が残りますが、キャンペーンモード限定です！
+
+tut.track_ed.obj_place.head,コースエディタ: オブジェクト設置
+tut.track_ed.obj_place.1,- {Action.PlaceObject}を1回クリックしてオブジェクトを配置しましょう<br>- {Action.PlaceObject}を押してあと、ドラッグでオブジェクトを一列に配置できます<br>- 配置前に{Action.RotateObject}を使用すればオブジェクトを回転させることができます
+
+tut.m2.head,Weapon: M2重機関銃
+tut.m2.1,- M2重機関銃を入手！<br>- M2は強力な射撃武器です<br>- {Action.Fire}を長押しして、対戦相手に連射しよう<br>- 武器が気に入らなければ、{Action.DropWeapon}でいつでも投棄できます
+
+tut.mad_fax.head,Weapon: マッド・ファックス
+tut.mad_fax.1,- マッド・ファックスを入手！<br>- {Action.Fire}を押すと、対戦相手の前に大量の迷惑チラシをぶちまけます<br>- チラシはフロントガラスに貼り付いて視界を妨げます<br>- 貼りついたチラシが多いほどマシンの操縦が難しくなります<br>- 武器が気に入らなければ、{Action.DropWeapon}でいつでも投棄できます
+
+tut.nailgun.head,Weapon: ネイルガン
+tut.nailgun.1,- ネイルガンを入手！<br>- ネイルガンはそこそこの威力で、やや反動が強い射撃武器です<br>- {Action.Fire}を押して前方の対戦相手に撃ち込みましょう<br>- 武器が気に入らなければ、{Action.DropWeapon}でいつでも投棄できます
+
+tut.ped_cannon.head,Weapon: 歩行者キャノン
+tut.ped_cannon.1,- 歩行者キャノンを入手！<br>- 爆発する歩行者があらかじめ装填されています<br>- {Action.Fire}を押して、対戦相手を狙って発射しよう
+tut.ped_cannon.2,- 歩行者（生死問わず）を轢くと再装填されます<br>- あるいは10秒待つと歩行者のクローンが弾として用意され、自動で再装填されます<br>- 武器が気に入らなければ、{Action.DropWeapon}でいつでも投棄できます
+
+tut.railgun.head,Weapon: レールガン
+tut.railgun.1,- レールガンを入手！<br>- レールガンは発射は遅いものの強力な射撃武器となっています<br>- {Action.Fire} を押して前方の対戦相手に撃ち込みましょう<br>- 武器が気に入らなければ、{Action.DropWeapon}でいつでも投棄できます
+
+tut.saw.head,Weapon: 回転ノコギリ
+tut.saw.1,- 回転ノコギリを入手！<br>- 接近戦用の武器だ。敵に直接ぶつけて使いましょう<br>- 前後どちらにも装着できます<br>- 注意点として、重量増加により操縦性に影響があります<br>- 武器が気に入らなければ、{Action.DropWeapon}でいつでも投棄できます
+
+tut.shield.head,Weapon: バリア
+tut.shield.1,- バリアを入手！<br>- 周囲の物体を押しのけます<br>- 弾丸を弾き返します<br>- 気に入らなければ、{Action.DropWeapon}でいつでも投棄できます
+
+tut.spikes.head,Weapon: 追尾爆雷
+tut.spikes.1,- 追尾爆雷を入手！<br>- 混沌をまきちらす、ハリネズミ型ロボットです<br>- {Action.Fire} を押して射出しましょう
+tut.spikes.2,- 発射後は最も近い敵を標的とします<br>- エネルギーが尽きるまで追尾して体当たりします<br>- 障害物やマシンに接触すると爆発します
+
+tut.wreck_ball.head,Weapon: 鉄球
+tut.wreck_ball.1,- 鉄球を入手！<br>- 実のところ、そんなに強力な武器ではありません<br>- バトルでは便利ですが、通常のレースには適していません
+tut.wreck_ball.2,- マシンで鉄球を振り回していると、操縦性は猛烈に悪くなります<br>- 武器が気に入らなければ、{Action.DropWeapon}でいつでも投棄できます
+
+msg.director_warning.1,ニコラス・メリーランド運営統括も参戦している…
+msg.director_warning.2,コース上にサイコパス野郎が！レース参加ですらない！
+msg.director_warning.3,運営統括のマシンに注意、武器を搭載している！
+msg.director_warning.4,おっと...運営統括がまたマシンに乗ってる！
+msg.director_warning.5,このレースには、なんとニコラス・メリーランド運営統括ご本人が参戦だ！
+
+msg.chopper_warning.1,ブレイス・ストーンが、ご機嫌ななめらしい。ヘリには気を付けろ！
+msg.chopper_warning.2,人々が恐怖に満ちた目でヘリを見ているようだ...
+msg.chopper_warning.3,ヘリコプターに近づくな、武器を搭載している！
+msg.chopper_warning.4,今日のブレイス・ストーンは退屈しているときている。ヘリに注意しろ！
+msg.chopper_warning.5,ぜったいにフェアではないことだが、ブレイス・ストーンが武器を搭載して飛んでいる！
+msg.chopper_warning.6,気を付けろ、ブレイス・ストーンがヘリで暴れている！
+msg.chopper_warning.7,今日のブレイス・ストーンはトリガーハッピーみたいだ！
+msg.chopper_warning.8,空飛ぶサイコパス野郎に、ご用心！
+
+msg.tip.ped.ff,ヒント：{Action.FastForward} を押し続けるとゲームの進行速度を早送りできます
+msg.tip.ped.photo,ヒント：{Action.Take Photo}を押して写真を撮影しましょう
+msg.tips.disabled,ヒントの一覧は 概要 > 遊び方 で確認できます
+
+msg.tips.finished_campaign,クリア済みのキャンペーン
+msg.tips.free_man,自由の身
+msg.tips.incompatible_save,キャンペーンのバージョンがあっていません
+
+# {0} - date
+msg.achieved_on,Achieved on {0}
+# {0:0.0}% will become 15.3%
+msg.achieved_by,Achieved by {0:0.0}%
+msg.hidden_achievement,Hidden Achievement
+
+# New translations since v1.5.0
+term.none,なし
+btn.extra,エキストラ
+race.modifiers,レース設定
+race.select_challenge,チャレンジを選択
+race.challenges,チャレンジ
+race.challenge_target,チャレンジの目標
+race.challenge_target.players,プレイヤーのみ
+race.challenge_target.everyone,誰でも
+mission.type.none,なし
+mission.type.assassinate,殺害
+mission.type.hit_obj,オブジェクトにぶつけろ
+mission.type.make_sure_car_x_comes_last,特定人物の勝利を阻止
+mission.type.stay_on_track,コースアウトするな
+mission.type.locked_camera,カメラ固定
+mission.type.take_dmg,ダメージを受けろ
+mission.type.finish_xth,指定の順位内でゴール
+mission.type.be_a_ped,歩行者で参加
+mission.type.tiny_car,マシンが小さくなる
+mission.type.huge_car,マシンが巨大化
+mission.type.inverse_steering,ハンドル操作が左右逆に
+mission.type.full_throttle,常にアクセル全開
+mission.type.shield,バリア展開
+mission.type.distribute_spam,スパム広告をバラまけ
+mission.type.weaponize,マシンに武器が積まれた
+mission.type.your_car_stolen,マシンが盗まれた
+
+campaign.all_races_with_weapons,全レースで武器あり
+campaign.all_races_with_weapons.tip,全レースで武器とパワーアップが使用可能！大混乱！初心者はお断り。
+
+btn.get_full_game,ゲームのフルバージョンを購入
+prologue.not_available,プロローグ版ではできません。
+prologue.full_features,Bloody Rally Show のフルバージョンを入手すると、以下の機能がアンロックされます：<br>- キャンペーン無制限<br>- 友達と遊べるカスタムレースモード<br>- マシンやコースを公開 Steam ワークショップ<br>- キャンペーンやカスタムレースで使える大量のコミュニティコンテンツ<br>- ランキングと実績
+
+campaign.nitro,ニトロブースト
+campaign.nitro.tip,ニトロ禁止により平穏なレースになるかもしれません
+
+dial.invalid_name,名前から以下の文字を削除してください: {0}
+dial.campaign_stage_file_missing,ステージを読み込めません。キャンペーン用のステージファイルが見つかりません（おそらくディスクへの書き込みに失敗。コースのカードを更新して再生成してみてください）: {0}
+
+track.seed,シード値入力
+track.seed.placeholder,テキストか数値
+btn.save_track,コース保存
