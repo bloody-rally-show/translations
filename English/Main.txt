@@ -2468,3 +2468,6 @@ dial.campaign_stage_file_missing,Cannot load stage, campaign stage file is missi
 track.seed,Enter Seed 
 track.seed.placeholder,Text or number
 btn.save_track,Save Track
+
+campaign.nitro.ai.balance,AI Nitro Balance
+campaign.nitro.ai.balance.tip,If enabled, AI racers will receive slightly more or less nitro depending on their skill level. Warning, disabling this can make the game too easy!
