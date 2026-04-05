@@ -1,0 +1,2427 @@
+﻿######################################
+# Bloody Rally Show translations file 
+# Locale: English
+# Author: Tomas Varaneckas
+# Contact: tomas@kodolinija.com
+######################################
+
+######################################
+# What should not be modified:
+# 1. Anything inside < > brackets - these are special text formatting tags
+# 2. Anything inside { } brackets - these are variables that will be replaced
+#
+# Do not remove {0} and similar variables - it can cause in-game errors!
+#
+# There is one exception to the rule above. When {0} is a curse adjective or adverb (friggin, etc)
+# And it is stated so in the example, if your language cannot combine them well, you can try ommitting {0}
+# In this case, but if there is more than one variable ({0}, {1}), you cannot remove {0} and leave {1}!
+# You can remove the last variable ({1}) in this case, to keep the variable sequence running from {0}
+# (only if {1} is a curse adjective / adverb)
+#
+# <br> is a line break
+#
+# It is highly recommended to keep every single key in same exact line as English - copy all the comments and blank lines
+######################################
+
+# Characters
+
+# If you change any character names, you have to consistently keep using them
+# Across all the translations where they are mentioned. Also in Tips.txt
+# For this reason I suggest to keep names of Brace Stone and Nicholas Merryland 
+# unchanged. Anonymous racer only appears in introduction cutscene.
+
+char.brace.name,Брэйс Стоун
+char.brace.job,Вице-призедент Культурного Разнообразия
+char.brace.job_short,ВП разнообразия
+
+char.nic.name,Николас Меррилэнд
+char.nic.job,Директор Bloody Rally Show
+char.nic.job_short,Директор
+
+char.anon.name,Неизвестный гонщик
+char.anon.job,Гонщик
+char.anon.job_short,Гонщик
+
+# Generic Terms (keep short)
+
+term.car,Машина
+term.track,Трэк
+term.lap,Круг
+term.lap_percent,%круга
+term.laps,Круги
+# Abbreviate to max 5 characters, or keep "Best"
+term.best,Луч-й
+# Max 10 characters
+term.best_lap,Луч-й круг
+# As in person name
+term.name,Имя
+term.human,Человек
+# Just keep "AI" if your language does not have a very popular abbreviation for Artificial Intelligence
+term.ai,ИИ
+term.week,Неделя
+term.stage,Этап
+term.season,Сезон
+term.special,Специальный
+term.pending,Ожидается
+term.points,Очки
+term.drifts,Дрифты
+term.mode,Режим
+term.battle,Бой
+term.car_battle,Бой Машин
+term.time_attack,Гонка на Время
+term.race,Гонка
+term.time_limit,Лимит Времени
+term.time_scale,Шкала Времени
+term.distance,Дистанция
+term.weapons,Оружия
+term.time,Время
+term.mission,Задание
+# If word "fee" is long in your language, just keep both entry_fee and retry_fee as "fee"
+term.entry_fee,Цена Входа
+term.retry_fee,Цена Повтора
+term.generating,Идёт генерация
+term.available,Открыто
+term.locked,Заблокированно
+term.owned,Имеется
+term.lost,Потерянно
+# This has to be super short!
+term.lvl_to_go,Ёщё {0} ур-ней
+term.required_level,Нужный ур-ень
+# Short for Points (max 3 chars or keep "pts")
+term.pts,очк
+term.cash,Деньги
+# Short for Experience Points. If your language does not have a well know acronym for this, keep "XP"
+term.xp,XP
+# Short for position. Keep "Pos" if you can't find a good alternative
+term.pos,Место
+# Noun - number of people killed (keep short, abbreviate if necessary)
+term.kills,Убийств
+# Noun - number of cars fragged (reference to Quake). Keep as "Frags" in your alphabet. Max 5 characters.
+term.frags,Фраги
+term.damage,Урон
+# Short from "damage", Keep "dmg" if you cannot get this to less than 6 characters.
+term.dmg,Урон
+term.racer,Гонщик
+term.ped,Пешеход
+term.he,он
+term.she,она
+term.mr,Мр.
+# Ms is between Miss and Mrs 
+term.ms,Мс.
+term.resurrect,Возродиться
+term.progress,Прогресс
+term.attempt,Попытка
+term.tips,Подсказки
+term.difficulty,Сложность
+
+# Generic buttons (keep short)
+
+btn.back,Назад
+btn.continue,Продолжить
+btn.apply,Применить
+btn.close,Закрыть
+btn.refresh,Обновить
+btn.random,Случайно
+btn.randomize,Случайное
+btn.main_menu,Главное Меню
+btn.save,Сохранить
+btn.cancel,Отменить
+btn.delete,Удалить
+btn.edit,Изменить
+btn.garage,Гараж
+btn.generate,Сгенерировать
+btn.regenerate,Регенерировать
+btn.buy,Купить
+btn.select,Выбрать
+btn.paint,Покрасить
+btn.switch,Переключиться
+btn.confirm,Подтвердить
+btn.change,Изменить
+btn.skip,Пропустить
+btn.next_page,След. Страница
+btn.prev_page,Пред. Страница
+btn.disable_tips,Отключить 
+
+# Keep these very short. On / off can be translated same as yes / no to keep them shorter
+
+btn.on,Вкл
+btn.off,Выкл
+btn.yes,Да
+btn.no,Нет
+btn.ok,ОК
+btn.all,Все
+
+# Main Menu 
+
+main_menu.btn.campaign,Кампания
+main_menu.btn.custom_race,Своя Гонка
+main_menu.btn.editors_mods,Редакторы и Моды
+main_menu.btn.daily_challenge,Ежедневное Испытание
+main_menu.btn.leaderboards,Таблицы Лидеров
+main_menu.btn.achievements,Достижения
+main_menu.btn.settings,Настройки
+main_menu.btn.about,Об игре
+main_menu.btn.quit,Выйти
+main_menu.label.whats_new,Чего нового
+
+# Main Menu => Campaign
+
+campaign.btn.continue,Продолжить
+campaign.btn.new,Новая
+campaign.btn.load,Загрузить
+campaign.saves,Сохранения
+campaign.no_saves,Нет сохранений
+campaign.btn.tips,Подсказки
+campaign.dialogue.cannot_continue,Нелья продолжить кампанию, после того как её завершили!
+
+campaign.difficulty,Сложность
+campaign.difficulty.easy,Просто
+campaign.difficulty.normal,Средне
+campaign.difficulty.hard,Сложно
+campaign.difficulty.hardcore,Хардкор
+campaign.difficulty.locked.tip,Нужен уровень чтобы разблокировать: {0}
+campaign.difficulty.dialogue.locked,Уровень сложности который ты выбрал пока ещё закрыт. Достигни {0} уровня на более простых сложностях чтобы разблокировать.
+campaign.name,Campaign Name
+
+campaign.name,Campaign Name
+
+campaign.missions_challenges,Задания и Испытания
+campaign.missions_challenges.tip,У некоторых этапов есть случайные миссии или испытания
+campaign.races_with_weapons,Гонки с Оружием
+campaign.races_with_weapons.tip,У некоторых трэков будут зоны, выдающие оружие или улучшения
+campaign.directors_car,Машина Директора
+campaign.directors_car.tip,Директор Николай будет кататься на своём лимузине, создавая хаос. Делает игру сложнее.
+campaign.helicopter_weapons,Пушки у вертолёта
+campaign.helicopter_weapons.tip,У вертолёта Брэйса иногда будет оружие, и он будет стрелять им в гонщиков. Добавляет сложность.
+campaign.adaptive_ai,Адаптивный ИИ
+campaign.adaptive_ai.tip,Гонщики под контролем ИИ будут становиться лучше или хуже, в зависимости от того, насколько хорошо вы справляетесь.
+campaign.weekly_rebalance,Недельный Ребаланс
+campaign.weekly_rebalance.tip,Раз в неделю, гонщики под управлением ИИ будут получать XP или деньги. Добавляет сложность.
+campaign.custom_content,Пользовательские трэки
+campaign.custom_content.tip,Кампания будет включать треки которые вы построили
+campaign.workshop_content,Машины и Трэки из Мастерской
+campaign.workshop_content.tip,Кампания будет включать трэки из Мастерской Стима
+campaign.allow_heavy_tracks,Позволять Трэки с большим количеством объектов
+campaign.allow_heavy_tracks.tip,Кампания будет включать трэки из Мастерской и трэки пользователя, в которых имеется большое количество объектов. Негативно влияет на производительность
+
+campaign.btn.start_new,Начать новую кампанию
+
+# Main Menu => Custom Race
+
+ustom_race.btn.continue_session,Продолжить Игру
+custom_race.btn.new_session,Новая Игра
+custom_race.btn.random_time_attack,Случайная Гонка на Время
+custom_race.btn.random_race,Случайная Гонка
+custom_race.btn.random_battle,Быстрая Битва
+
+# Main Menu => Editors & Mods
+
+editors_mods.btn.track_editor,Редактор Треков
+editors_mods.btn.car_editor,Редактор Машин
+editors_mods.btn.mod_manager,Менеджер Модов
+
+# Main Menu => Mod Manager
+
+mods.section.tracks,Трэки из Мастерской
+mods.section.cars,Машины из Мастерской
+mods.btn.open_workshop,Открыть Мастерскую
+mods.btn.manage_tracks,Трэка
+mods.btn.manage_cars,Машины
+mods.btn.reload,Перезагрузить Моды
+mods.btn.unsubscribe.tip,Удалить
+mods.btn.view_online.tip,Посмотреть в Мастерской
+
+# Leaderboards
+
+leaderboard.time_attack.title,Гонка на Время<br>Таблица лидеров
+leaderboard.type,Вид Таблицы
+leaderboard.type.friends,Друзья
+leaderboard.type.global,Мировая
+leaderboard.top100,Топ 100
+leaderboard.daily_challenge,Ежедневное Испытание<br>Таблица лидеров
+leaderboard.daily_challenge.time_out,Время вышло!
+leaderboard.daily_challenge.lap_attempts,Попыток круга
+leaderboard.daily_challenge.ends_in,Кончается через
+leaderboard.daily_challenge.grace_period,Период Подготовки
+leaderboard.daily_challenge.ended_minutes_ago, Закончилось {0:0} Минут Назад
+leaderboard.daily_challenge.ended_hours_ago, Закончилось {0:0} Часов Назад
+leaderboard.daily_challenge.ended_days_ago, Закончилось {0:0} Дней Назад
+leaderboard.day,День
+leaderboard.btn.race_now,Начать Гонку
+leaderboard.btn.race_now.tip,Начни гонку чтобы установить твой рекорд времени с выбранныи трэком и машиной
+leaderboard.no_score.race_now,Ты пока не поставил рекорд. Начни сейчас чтобы исправить это!
+leaderboard.no_steam_connection,Соединение к сервисам Стима недоступно<br><br>Таблицы лидеров не работают
+leaderboard.btn.time_attack,Гонка на Время
+leaderboard.time_attack.tip,Таблицы лидеров этого трэка. Создай "Свою Гонку" с режимом "Гонка на Время" чтобы поставить свой собственный рекорд.
+leaderboard.refresh.tip,Обновить Таблицы напрямую из Стима
+
+# Leaderboard Names
+
+leaderboard.max_season,Длиннейший Сезон
+leaderboard.max_racer_level,Высочайший Уровень
+leaderboard.people_hit,Пешеходов Сбито
+leaderboard.km_driven,КМ проедено
+leaderboard.cash_earned,Денег Заработано
+leaderboard.xp_gained,XP Полученно
+leaderboard.podium_finishes,Побед на Подиуме
+leaderboard.podium_gold,Золотых Побед
+leaderboard.seasons_won,Сезонов Выйгранно
+leaderboard.cars_fragged,Машин Фрагнуто
+leaderboard.tracks_created,Трэков Созданно
+leaderboard.longest_jump,Длиннейший прыжок
+leaderboard.meters_jumped,Метров в Воздухе
+leaderboard.seconds_drifted,Секунд в Дрифте
+
+# Settings 
+
+# DO NOT TRANSLATE THIS ONE! JUST COPY IT BUT KEEP ENGLISH!
+settings.btn.language,Language
+
+settings.btn.video,Видео
+settings.btn.visuals,Графика
+settings.btn.gameplay,Геймплэй
+settings.btn.audio,Аудио
+settings.btn.input,Управление
+settings.btn.reset,Сбросы
+
+# Settings -> Video
+
+settings.video.quality_warning,Эти настройки качества могут быть неоптимальными для твоей системы!
+settings.video.resolution_warning,Это разрешение может быть неоптимальным для твоей системы!
+settings.video.vsync_tip,Если у тебя проблемы с зависанием кадров, отключение вертикальной синхронизации и установка высокого лимита ФПС может помочь
+settings.video.quality,Качество
+settings.video.quality.performance,Производительность
+settings.video.quality.quality,Качество
+settings.video.resolution,Разрешение
+settings.video.window_mode,Режим Окна
+settings.video.window_mode.full_screen_exclusive,Полный эран
+settings.video.window_mode.full_screen_window,Окно в полный экран
+settings.video.window_mode.windowed,Оконный
+# Don't translate this one, just copy
+settings.video.vsync,Вертикальная синхронизация
+settings.video.vsync.off,Выкл
+settings.video.vsync.on,Вкл (Каждый кадр)
+settings.video.vsync.on_every_2,Вкл (Каждый второй кадр)
+settings.video.fps_limit,Лимит ФПС
+settings.video.particle_density,Насыщенность частиц
+settings.video.particle_density_tip,Меняет толщину частиц и пыли, влияет на производительность
+settings.video.btn.set_optimal,Установить оптимальные настройки
+settings.video.btn.set_optimal_tip,Установит рекомендуемое качество и разрешение для твоей системы
+
+# Settings -> Visuals
+
+settings.visuals.ui_scale,Размер Интерфейса
+settings.visuals.ui_scale_tip,Изменит размер Интерфэйса
+settings.visuals.speed_units,Измерение Скорости
+settings.visuals.show_blood,Показывать кровь
+settings.visuals.show_racer_names,Показывать Имена Гонщиков
+settings.visuals.show_tire_trails,Показывать Отметки Покрышек
+settings.visuals.show_brake_lights,Показывать Задние Огни
+settings.visuals.show_clouds,Показывать Облака
+settings.visuals.show_weather_effects,Показывать эффекты погоды
+settings.visuals.show_car_smoke,Показывать Дым из Машин
+settings.visuals.show_controls,Показывать Управление
+settings.visuals.show_in_race_rankings,Показывать Места в Гонке
+settings.visuals.dynamic_backgrounds,Динамические Задники
+settings.visuals.dynamic_backgrounds.tip,Для Кампании и Своей Гонки
+settings.visuals.reduce_particles,Уменщить количество частиц
+settings.visuals.post_processing,Пост-Процессинг
+settings.visuals.minimap_size,Размер Миникарты
+settings.visuals.minimap_size.off,Вкл
+settings.visuals.minimap_size.regular,Обычная
+settings.visuals.minimap_size.large,Большая
+settings.visuals.minimap_size.enormous,Гигантская
+settings.visuals.minimap_pos,Положение Миникарты
+settings.visuals.minimap_pos.top_left,Слево Сверху
+settings.visuals.minimap_pos.bottom_right,Снизу Справа
+settings.visuals.minimap_pos.top,Сверху
+settings.visuals.minimap_pos.right,Снизу
+
+# Settings -> Gameplay
+
+settings.gameplay.show_tips,Показывать Подсказки
+# FOR TRANSLATORS: Please translate as "Show Cutscenes (English Only)"
+settings.gameplay.show_cutscenes,Показывать Катсцены
+settings.gameplay.show_speech_bubbles,Показывать Текстовые Пузыри
+settings.gameplay.enable_censorship,Скрывать Ругательства
+settings.gameplay.peds_take_screenshots,Пешеходы Делают Скриншоты
+settings.gameplay.post_to_discord,Загружать Рекорды
+settings.gameplay.camera_type,Камера
+settings.gameplay.camera_type.fixed_road,Прикрепленно к Дороге
+settings.gameplay.camera_type.fixed_car,Прикрепленно к Машине
+settings.gameplay.camera_type.fixed_person,Прикрепленно к Человеку
+settings.gameplay.camera_type.floating,Парящая
+settings.gameplay.camera_zoom,Отдаление Камеры
+settings.gameplay.camera_zoom.near,Близко
+settings.gameplay.camera_zoom.medium,Средне
+settings.gameplay.camera_zoom.far,Далеко
+settings.gameplay.speed_autozoom,Автодальность
+settings.gameplay.speed_autozoom_tip,Дальность автоматически подстраивается в зависимости от скорости
+settings.gameplay.camera_shake,Тряска камеры
+settings.gameplay.camera_shake.full,Полная
+settings.gameplay.camera_shake.light,Лёгкая
+settings.gameplay.camera_shake.off,Вкл
+settings.gameplay.vibration,Вибрация
+settings.gameplay.run_in_background,Работать в Фоновом Режиме
+settings.gameplay.auto_lock_mouse,Auto Lock Mouse
+settings.gameplay.auto_lock_mouse_tip,If you have multi-monitor setup and like to multitask, you may want to disable mouse locking. Chaing this requires restart.
+
+# Settings -> Audio
+
+settings.audio.master_volume,Общая Громкость
+settings.audio.menu_sounds,Меню
+settings.audio.menu_music,Музыка в Меню
+settings.audio.editor_music,Редакторы
+settings.audio.race_music,Гонка
+settings.audio.car_engine,Двигатели
+settings.audio.tire_skid,Скольжение Шин
+settings.audio.crowd_noise,Шум Толпы
+settings.audio.sound_fx,Звуковые Эффекты
+settings.audio.btn.reset_to_defaults,Сбросить Громкость
+
+# Settings -> Reset
+
+settings.reset.btn.full_reset,Полный Сброс
+settings.reset.btn.reset_tips,Сбросить Подсказки
+
+# FOR TRASLATORS: Be very careful to not change text inside brackets (<br>, <size=50%> and such). It is one long line
+settings.reset.about,Полный Сброс:<br><indent=10%><size=70%><br> - Удалит все кампании<br> - Заблокирует все машины<br> - Сразу выйдет из игры<br> <indent=0%><size=100%><br> Полный Сброс не сбросит:<br> <indent=10%><size=70%><br> - Достижения<br> - Записи в Таблицах Рекордов <br> - Пользовательские машины и трэки
+
+# Main Menu button tooltips
+
+main_menu.btn.tooltip.homepage,Сайт Kodo Linija
+main_menu.btn.tooltip.newsletter,Новости разработчика
+main_menu.btn.tooltip.dev_msg,Сообщение от разработчика
+main_menu.btn.tooltip.campaign,Режим истории со случайно сгенерированными трэками. Играй чтобы разблокировать новые машины!
+main_menu.btn.tooltip.race,Поучаствуй в быстрой гонке, Битве Автомобилей, или побей рекорды других игроков в Гонке на Время
+main_menu.btn.tooltip.editors,Загрузи трэки и машины сделанные другими игроками, или же создай свои собственные
+main_menu.btn.tooltip.daily_challenge,Соревнуйся с другими игроками, и установи лучший рекорд в Ежедневном Испытании
+main_menu.btn.tooltip.leaderboards,Слава ждёт всех тех, кто попадёт в Топ 100
+main_menu.btn.tooltip.achievements,Собери их всех
+main_menu.btn.tooltip.quit.0,Неее! Погоди, не нажимай! Это не просто так последняя кнопка в списке!
+main_menu.btn.tooltip.quit.1,Прошу, подожди, я могу тебе объяснить!
+main_menu.btn.tooltip.quit.2,Может ещё одну гоночку?
+main_menu.btn.tooltip.quit.3,Уверен? Другие вещи могут и подождать...
+main_menu.btn.tooltip.quit.4,Каждый раз когда ты нажмаешь на эту кнопку, гном перерезает один провод в твоей машине. Я не шучу!
+main_menu.btn.tooltip.quit.5,Если нажмёшь сюда, SOFACT простит. Но никогда не забудет.
+main_menu.btn.tooltip.quit.6,Нажми сюда чтобы запустить самоуничтожение компьютера.
+main_menu.btn.tooltip.quit.7,Почему ты выбрал эту кнопку? Тут много других кнопок!
+main_menu.btn.tooltip.quit.8,Мы держим твоего кота в заложниках. Нажми на эту кнопку, и мы скормим ему лазанью!
+main_menu.btn.tooltip.quit.9,Серьёзно? У тебя есть жизнь?
+
+# About
+
+about.btn.credits,Титры
+about.btn.how_to_play,Как играть
+about.btn.newsletter,Новости
+about.btn.version,Версия
+about.btn.privacy,Конфиденциальность
+
+# Version Check
+
+version.updates_available,Доступны обновления
+version.loading_now,Пытаемся загрузить новости обновлений с сайта:<br>{0}
+version.up_to_date,Последняя версия
+version.latest,Latest Version: {0}
+version.current,This Version: {0}
+version.check_failed,Невозможно проверить обновления
+version.check_failed_details,Невозможно проверить новости информацию об новых обновлениях.<br><br>У вас может отсутвовать интернет, брандмауэр может блокировать соединение, или же сервер недоступен.<br><br>URL:<br>{0}<br><br>Детали ошибки:<br>{1}
+version.changelog_download_fail,Найденна новая версия.<br><br>Однако загрузка не удалась.<br><br>URL:<br>{0}<br><br>Детали ошибки:<br>{1}
+version.no_changes,No new changes or changelog not updated:
+version.new_changes,New Changes: {0}
+
+################################################################################
+
+# Campaign
+campaign.play_time,Время игры: {0}
+
+# Add Racer Menu
+
+new_racer.title,Регистрация Нового Гонщика
+new_racer.edit_title,Изменить профиль гонщика
+new_racer.racer_name,Имя Гонщика
+new_racer.your_name,Твоё имя
+new_racer.voice_pitch,Уровень голоса
+new_racer.controlled_by,Контролируется:
+new_racer.ai_skill,Сложность ИИ
+new_racer.choose_avatar,Выбрать аватар
+new_racer.voice.low,{0:0}% Низкий
+new_racer.voice.high,{0:0}% Высокий
+new_racer.voice.mid,Средний
+new_racer.register,Зарегистрироваться
+new_racer.dialogue.name_required,Имя обязательно!
+new_racer.dialogue.name_taken,Имя {0} уже занято другим гонщиком!
+new_racer.dialogue.confirm_remove,Ты точно хочешь убрать {0}?
+
+# Select Avatar Menu
+
+select_avatar.title,Выбери Аватар
+
+# Racer List Menu
+
+season_lineup.title,Список Гонщиков
+season_lineup.begin_season,Начать Сезон
+
+# Generation Notice
+
+gen.generating,Подожди...<br>Идёт генерация
+gen.loading,Подожди...<br>Загрузка
+
+# Campaign Dashboard
+
+dash.garage,Гараж
+dash.no_car_warning,У тебя нет машины!
+dash.btn.buy_car,Купить машину
+dash.end_campaign,Закончить Кампанию
+dash.end_season,Закончить Сезон
+dash.end_season.tip,Продвинуться в Следующий сезон
+dash.advance_week,Продолжить
+dash.advance_week.tip,Продолжить в следующей неделе
+dash.view_season,Детали Сезона
+dash.view_season.tip,Включить или отключить результаты сезоны / недели
+dash.press_x_to_select,Нажми {0} чтобы выбрать
+dash.flip_track_card.tip,Перевернуть карточку трэка
+dash.btn.walk_on_foot,Участвовать Пешком
+dash.btn.walk_on_foot.tip,Начни гонку за пешехода (опасно!)
+dash.btn.save_track.tip,Сохранить трэк в Редакторе трэков или в Пользовательских Треках
+dash.btn.regenerate.tip,Пересоздаст текущий трэк, если он тебе не нравится
+# Verb
+dash.btn.do_race,Начать
+dash.btn.do_retry,Заного
+dash.give_5k,Дать $5000
+
+# Keep short - abbreviate if necessary
+dash.stage01,Этап 01
+dash.stage02,Этап 02
+dash.stage03,Этап 03
+dash.stage04,Этап 04
+dash.stage05,Этап 05
+
+# Keep short - abbreviate if necessary
+dash.week1,Неделя 1
+dash.week2,Неделя 2
+dash.week3,Неделя 3
+dash.week4,Неделя 4
+dash.week5,Неделя 5
+dash.week6,Неделя 6
+dash.week7,Неделя 7
+
+dash.stage_rewards,Награды за Этап
+dash.season_rewards,Награды за Сезон
+dash.next_season,Следующий сезон
+dash.game_over,Игра Оконченна
+dash.buy_freedom,Купить Свободу<br><size=75%>${0}</size>
+dash.players,Игроки
+# It will be in a button, so could be just "All"
+dash.all_racers,Все гонщики
+
+dash.maxed_out,Максимальный уровень
+dash.req_lvl_short,Нужн. ур-нь: {0}
+
+dash.tip.add_1_lap,Добавить 1 круг
+dash.tip.add_5_laps,Добавить 5 кругов
+dash.tip.reduce_1_lap,Обрать 1 круг
+dash.tip.reduce_5_laps,Убрать 5 кругов
+
+dash.tip.workshop_item,Предмет из Мастерской
+dash.tip.rand_time_attack,Random Time Attack session
+dash.tip.rand_race,Random quick race in unique procedurally generated location
+dash.tip.rand_battle,Random Car Battle with AI opponents in procedurally generated location
+dash.tip.mark_tips_unseen,Will mark all tips as unseen
+dash.tip.campaign_name_entry,Please use the keyboard or Randomize button above
+dash.tip.cloud_shadows_visible,Cloud shadows will still be visible
+dash.tip.not_affect_split_minimap,This setting does not affect split-screen minimap
+dash.tip.censorship,Will show #%$! instead of potentially offensive words
+dash.tip.discord_post,Post your leaderboard scores and uploaded mods to BRS Official Discord
+dash.tip.upgrade_available,Upgrade Available!
+dash.tip.voice_pitch_slider,Adjusts cutscene dialogue voice pitch
+dash.tip.file_on_computer,Choose a file on your computer
+dash.tip.player_num,Player {0}
+dash.tip.ai_skill,AI Skill: {0:0}%
+dash.tip.car_sprites_white,When editing sprites, keep car body white. Paint jobs are car independent.
+dash.tip.upload_car,Upload to Steam Workshop. Make sure you have set correct Max Speed in Parameters before uploading!
+dash.tip.reload_car,Use this after changing car sprites outside the game
+dash.tip.speed_index,Benchmark for relative quickness
+dash.tip.leaderboard_eligible,This track is eligible to have Leaderboards
+dash.tip.ghost_replay_available,Ghost Replay is available
+dash.tip.add_racer_btn,Add new racer (Human or AI)
+dash.tip.show_track_leaderboards,SHow Track Leaderboards
+dash.tip.new_race_session,Start a new race session
+dash.tip.race_weapons,Will add weapon zones along the track
+dash.tip.0_racers,Remove all recers except for the Player
+dash.tip.add_1_rnd_racer,Add 1 random racer
+dash.tip.add_10_rnd_racers,Add 10 random racers
+dash.tip.rnd_gen_btn,Will generate a random race track
+
+# Custom Race Dash
+
+dash.set_for_everyone,Set For Everyone
+dash.car,Car
+dash.racers,Racers
+dash.search_for_track,Search for Track
+dash.randomize_prompt,Click "Generate"<br>To randomize some tracks
+dash.race_options,Race Options
+dash.race_mode,Race Mode
+dash.demo_mode,Demo Mode
+dash.demo_mode.tip,AI will drive instead of player
+dash.opponent_skill,Opponent Skill
+dash.start_race,Start Race
+dash.race_in_x,Race in {0}
+dash.battle_in_x,Battle in {0}
+dash.time_attack_in_x,Time Attack in {0}
+dash.x_to_select,{0} to select
+dash.add_player,Add Player
+dash.tracks_full_screen.tip,Toggle Full Screen View
+
+# Rewards
+
+rew.car_unlock,Car Unlocked: {0}
+rew.total_pts,Total Points
+rew.dmg_taken,Damage Taken
+rew.dmg_given,Damage Given
+rew.unused_nitro,Unused Nitro
+rew.corner_cut,Corner Cutting
+rew.good_photos,Quality Photos Taken
+rew.close_calls,Close Calls
+rew.survival_bonus,Survival Bonus
+rew.place,{0} Place
+rew.dnf,DNF
+rew.pts,{0} pts
+rew.ch.unknown,Unknown Challenge
+rew.ch.success,SUCCESS: {0}
+rew.ch.fail,FAIL: {0}
+rew.lethal,Lethal Accidents
+rew.most_lethal,Most Lethal Accidents
+rew.frags,Frags
+rew.jumps,Ramp Jumps
+rew.longest_jump,Longest Jump
+rew.drifts,Drifts
+# Personal
+rew.longest_drift,Longest Drift
+rew.most_drifts,Most Drifts
+# Among everyone
+rew.most_longest_drift,Most Longest Drift
+rew.level_up,Level Up
+rew.aero_up,Aero Upgrade Unlocked
+rew.engine_up,Engine Upgrade Unlocked
+rew.turbo_up,Turbo Upgrade Unlocked
+rew.gears_up,Transmission Upgrade Unlocked
+rew.grip_up,Grip Upgrade Unlocked
+rew.level_x,Level {0}
+rew.paint_jobs,Unlocked New Paint Jobs
+
+# Car Stats
+
+# Keep these very short! Max 10 characters!
+car.stat.speed_idx,Speed Idx
+car.stat.top_speed,Top Speed
+car.stat.power,Power
+car.stat.mass,Mass
+car.stat.health,Health
+car.stat.steering,Steering
+car.stat.grip,Grip
+car.stat.shift_time,Shift Time
+
+# Car Upgrades
+
+# Short version
+car.upgrade.engine,Engine
+car.upgrade.turbo,Turbo
+car.upgrade.gears,Gears
+car.upgrade.aero,Aero
+car.upgrade.grip,Tires
+
+car.upgrade.engine.title,Engine Upgrade
+car.upgrade.turbo.title,Turbocharger Upgrade
+car.upgrade.gears.title,Transmission Upgrade
+car.upgrade.aero.title,Aerodynamics Upgrade
+car.upgrade.grip.title,Grip & Handling Upgrade
+
+car.upgrade.engine.tip,Adds raw power to your Engine
+car.upgrade.turbo.tip,Makes speed boosts more effective
+car.upgrade.gears.tip,Reduces gear shift time
+car.upgrade.aero.tip,Improves top speed and grip
+car.upgrade.grip.tip,Improves grip and handling
+
+# Racer Profile
+
+racer.last_races,Last Races
+racer.no_data,No Data
+racer.level,Racer Level
+racer.races_attempted,Races Attempted
+racer.races_won,Races Won
+racer.peds_hit,Pedestrians Hit
+racer.times_drifted,Times Drifted
+
+racer.title.rookie,Rookie
+racer.title.semi_pro,Semi Pro
+racer.title.pro,Professional
+racer.title.veteran,Veteran
+racer.title.master,Master
+racer.title.grand_master,Grand Master
+racer.title.legend,Legendary
+racer.title.epic,Epic
+
+# Car Paint
+
+paint.main_color,Main Color
+paint.layer1,Paint Layer 1
+paint.layer2,Paint Layer 2
+paint.select_pattern,Select Pattern
+paint.change_color,Change Color
+paint.rotate_left,Rotate Left
+paint.rotate_right,Rotate Right
+paint.zoom_out,Zoom Out
+paint.zoom_in,Zoom In
+paint.reduce_opacity,Reduce Opacity
+paint.increase_opacity,Increase Opacity
+paint.move,Move
+paint.remove_paint_layer,Remove Paint Layer
+paint.open_custom_folder,Open OS folder for custom paint jobs
+
+# Pedestrian Mode
+
+ped.close_calls,Close Calls
+ped.photos,Photos
+ped.good_photos,Good Photos
+ped.earned_cash,Earned Cash
+
+# Race mode
+
+race.paused.by,Paused by {0}
+race.you_have_a_challenge,You Have a Challenge
+race.btn.exit,Exit Race
+race.btn.exit_desktop,Exit To Desktop
+race.btn.restart,Restart
+race.btn.photo_mode,Photo Mode
+race.btn.speed_up,Speed Up
+race.btn.end,End Race
+race.finished,Race Finished
+race.waiting,Waiting ({0:0}s)
+
+# Battle mode
+
+battle.finished,Battle Complete
+
+# Input Actions
+
+act.UIHorizontal,Horizontal Navigation
+act.UIVertical,Vertical Navigation
+act.UISubmit,Submit
+act.UICancel,Cancel
+act.ShowTutorial,Show Tip
+act.UICycleNext,Cycle Next
+act.UICyclePrev,Cycle Previous
+act.UIPlayerNext,Next Player
+act.UIPlayerPrev,Previous Player
+
+act.Steer,Steer
+act.Accelerate,Accelerate
+act.Brake,Brake
+act.Pause,Pause
+act.Camera,Toggle Camera
+act.Handbrake,Handbrake
+act.ResetCar,Reset Car
+act.Zoom,Toggle Zoom
+act.Nitro,Nitro
+act.Fire,Fire Weapon
+act.DropWeapon,Drop Weapon
+
+act.EditorZoom,Zoom
+act.RotateObject,Rotate Object
+act.HorizontalPan,Horizontal Pan
+act.VerticalPan,Vertical Pan
+act.PlaceObject,Place Object
+act.CancelAction,Cancel Action
+act.Undo,Undo
+act.Redo,Redo
+act.CopyModifier,Copy Modifier
+act.DeleteModifier,Delete Modifier
+
+act.Walk,Walk
+act.Turn,Turn
+act.Take Photo,Take Photo
+act.Wave,Wave
+act.FastForward,Fast Forward
+act.PedZoom,Zoom
+act.PedPause,Pause
+
+act.MoveHorizontal,Move Horizontal
+act.MoveVertical,Move Vertical
+act.PhotoZoom,Zoom
+act.Rotate,Rotate
+act.PhotoModePhoto,Take Photo
+act.ToggleTime,Toggle Time
+act.ControlTimeScale,Time Scale
+act.ToggleUI,Toggle UI
+act.ExitPhotoMode,Exit Photo Mode
+act.AdjustMotionSpeed,Motion Speed
+
+# Track editor
+
+tr.file,File
+tr.file.new,New
+tr.file.new.tip,Start editing a new track
+tr.file.open,Open
+tr.file.open.tip,Open a saved track
+tr.file.save,Save
+tr.file.save.tip,Save current track
+tr.file.undo,Undo
+tr.file.redo,Redo
+tr.file.share,Share
+tr.file.share.tip,Upload current track to Steam Workshop
+tr.file.delete,Delete
+tr.file.delete.tip,Delete a saved tack (you will choose which one)
+tr.file.exit,Exit
+tr.file.exit.tip,Exit to Main Menu
+
+tr.grid,Grid
+tr.grid.toggle,Toggle
+tr.grid.toggle.tip,Show or hide the grid
+tr.grid.light,Light
+tr.grid.light.tip,Make the grid bright (useful on dark tracks)
+tr.grid.dark,Dark
+tr.grid.dark.tip,Make the grid dark (useful on bright tracks)
+
+tr.gen,Generate
+tr.gen.full_circuit,Complete Circuit
+tr.gen.full_circuit.tip,Generate a complete circuit race track curvature and objects. Will replace current track.
+tr.gen.full_open,Complete Open Road
+tr.gen.full_open.tip,Generate a complete open road curvature and objects. Will replace current track.
+tr.gen.circuit,Circuit
+tr.gen.circuit.tip,Generate closed circuit curvature. Will replace current track and will delete objects.
+tr.gen.open,Open Road
+tr.gen.open.tip,Generate open road curvature. Will replace current track and will delete objects.
+tr.gen.all_objects,All Objects
+tr.gen.all_objects.tip,Generate new objects. Will replace all existing objects.
+tr.gen.object_groups,Object Groups
+tr.gen.object_groups.tip,Generate handmade object groups. Will replace all existing ones.
+tr.gen.crowd,Crowd
+tr.gen.crowd.tip,Generate crowd. Will replace all existing ones.
+tr.gen.forests,Forests
+tr.gen.forests.tip,Generate forests. Will replace all existing ones. If used in City tracks, will remove all green squares!
+tr.gen.flowers,Flowers
+tr.gen.flowers.tip,Generate flowers. Will replace all existing ones. Will do nothing in City tracks.
+tr.gen.bushes,Bushes
+tr.gen.bushes.tip,Generate bushes. Will replace all existing ones. Will do nothing in City tracks.
+tr.gen.rocks,Rocks
+tr.gen.rocks.tip,Generate rocks. Will replace all existing ones.
+tr.gen.tires,Tires
+tr.gen.tires.tip,Generate tires. Will replace all existing ones.
+tr.gen.cones,Cones
+tr.gen.cones.tip,Generate cones. Will replace all existing ones.
+tr.gen.walls,Walls
+tr.gen.walls.tip,Generate walls. Will replace all existing ones.
+tr.gen.lamps,Street Lamps
+tr.gen.lamps.tip,Generate street lamps. Will replace all existing ones.
+tr.gen.buildings,Buildings
+tr.gen.buildings.tip,Generate buildings. Will replace all existing ones.
+tr.gen.puddles,Puddles
+tr.gen.puddles.tip,Generate puddles. Will replace all existing ones.
+tr.gen.ramps,Ramps
+tr.gen.ramps.tip,Generate ramps. Will replace all existing ones.
+
+tr.ground_type,Ground Type
+tr.ground_type.grass,Grass
+tr.ground_type.tarmac,Tarmac
+tr.ground_type.dirt,Dirt
+tr.ground_type.sand,Sand
+tr.ground_type.snow,Snow
+
+tr.ground_detail,Ground Detail
+tr.ground_detail.none,None
+tr.ground_detail.none.tip,Will remove ground detail layer
+tr.ground_detail.shared_tip,Will add ground detail. Click multiple times for different blending patterns.
+
+tr.track_type,Track Type
+tr.track_type.asphalt,Asphalt
+tr.track_type.gravel,Gravel
+tr.track_type.snow,Snow
+
+tr.ed_track,Edit Track
+tr.ed_track.add,Add
+tr.ed_track.add.tip,Click on the ground to add new track segment to the end of the track. If track is looped, start and finish will be temporarily disconnected.
+tr.ed_track.split,Split
+tr.ed_track.split.tip,Click on the ground near the track to split it into more segments
+tr.ed_track.edit,Edit
+tr.ed_track.edit.tip,Click and drag the handles to modify track path curve
+tr.ed_track.delete,Delete
+tr.ed_track.delete.tip,Click on the handle to delete a track path node
+tr.ed_track.open_close,Open / Close
+tr.ed_track.open_close.tip,Click to toggle track loop
+tr.ed_track.auto_smooth,Auto Smooth
+tr.ed_track.auto_smooth.tip,Will smooth out the track curve
+tr.ed_track.randomize,Randomize
+tr.ed_track.randomize.tip,Will add random curvature to current track path
+tr.ed_track.sharpen,Sharpen
+tr.ed_track.sharpen.tip,Will sharpen some angles (can take a few seconds for bigger tracks)
+tr.ed_track.wider,Wider
+tr.ed_track.wider.tip,Will make the track wider
+tr.ed_track.narrower,Narrower
+tr.ed_track.narrower.tip,Will make the track narrower
+tr.ed_track.grow,Grow
+tr.ed_track.grow.tip,Will increase track scale
+tr.ed_track.shrink,Shrink
+tr.ed_track.shrink.tip,Will decrease track scale
+tr.ed_track.move_start,Move Start
+tr.ed_track.move_start.tip,Will move start position to next control point (for closed tracks only)
+tr.ed_track.recenter,Recenter
+tr.ed_track.recenter.tip,Will recenter track and all objects
+tr.ed_track.rotate,Rotate
+tr.ed_track.rotate.tip,Will rotate track and all objects 45 degrees clockwise
+
+tr.add_obj,Add Objects
+tr.add_obj.group,Object Group
+tr.add_obj.group.tip,Will add an object group. Click again to randomize.
+tr.add_obj.forest,Forest
+tr.add_obj.forest.tip,Will spawn a bunch of random trees
+tr.add_obj.flowers,Flowers
+tr.add_obj.flowers.tip,Will spawn a bunch of random flowers
+tr.add_obj.crowd,Crowd
+tr.add_obj.crowd.tip,Crowd circle will spawn pedestrians, and may spawn a Porta Potty or Snowman
+tr.add_obj.cone,Cone
+tr.add_obj.cone.tip,Hold a button and drag to place a row
+tr.add_obj.tire,Tire
+tr.add_obj.tire.tip,Hold a button and drag to place a row
+tr.add_obj.porta_potty,Porta Potty
+tr.add_obj.porta_potty.tip,Tipping a Porta Potty over gives some Nitro
+td.add_obj.barrel,Barrel
+td.add_obj.barrel.tip,Barrels have a chance to explode when hit at higher speeds
+tr.add_obj.snowman,Snowman
+tr.add_obj.snowman.tip,Destroying a Snowman gives some Nitro
+tr.add_obj.street_lamp,Street Lamp
+tr.add_obj.junk_car,Junk Car
+tr.add_obj.hot_dog_truck,Hot Dog Truck
+tr.add_obj.hot_dog_cart,Hot Dog Cart
+tr.add_obj.bench,Bench
+tr.add_obj.water_puddle,Water Puddle
+tr.add_obj.water_puddle.tip,A little slippery
+tr.add_obj.water_pond,Water Pond
+tr.add_obj.water_pond.tip,A little slippery
+tr.add_obj.ice_patch,Ice Patch
+tr.add_obj.ice_patch.tip,Quite slippery
+tr.add_obj.oil_spill,Oil Spill
+tr.add_obj.oil_spill.tip,Very slippery
+tr.add_obj.ramp,Ramp
+tr.add_obj.ramp.tip,Ramp that cars can jump over. Gives a tiny bit of boost.
+tr.add_obj.power_ramp,Power Ramp
+tr.add_obj.power_ramp.tip,Powered ramp that gives extra speed boost before the jump
+tr.add_obj.crop_field,Crop Field
+tr.add_obj.rock,Rock
+tr.add_obj.desert_rock,Desert Rock
+tr.add_obj.wall,Wall
+tr.add_obj.pipe,Pipe
+tr.add_obj.solar_panels,Solar Panels
+tr.add_obj.silo,Silo
+# Thing for retrieving water from the ground
+tr.add_obj.well,Well
+tr.add_obj.old_hut,Old Hut
+tr.add_obj.vault,Vault
+tr.add_obj.house,House
+tr.add_obj.building,Building
+tr.add_obj.grass_square,Grass Square
+tr.add_obj.grass_square.tip,For planting trees and flowers on top of tarmac
+tr.add_obj.bush,Bush
+tr.add_obj.bush.tip,Destructable decorative bush
+tr.add_obj.green_tree,Green Tree
+tr.add_obj.branch_tree,Branch Tree
+tr.add_obj.snow_tree,Snow Tree
+tr.add_obj.flowers_single,Flowers
+
+tr.ed_obj,Edit Objects
+tr.ed_obj.move,Move
+tr.ed_obj.move.tip,Click and drag an object to move it
+tr.ed_obj.rotate,Rotate
+tr.ed_obj.rotate.tip,Click and drag an object to rotate it. Hold Shift for more precision.
+tr.ed_obj.delete,Delete
+tr.ed_obj.delete.tip,Click on an object to delete it
+tr.ed_obj.clear_all,Clear All
+tr.ed_obj.clear_all.tip,Delete all objects in the track
+tr.ed_obj.clear_groups,Clear Groups
+tr.ed_obj.clear_groups.tip,Clear handmade object groups
+tr.ed_obj.clear_crowd,Clear Crowd
+tr.ed_obj.clear_crowd.tip,Clear all crowds
+tr.ed_obj.clear_forests,Clear Forests
+tr.ed_obj.clear_forests.tip,Clear all forests. If used in City tracks, will remove all green squares! Will not remove individually placed trees.
+tr.ed_obj.clear_flowers,Clear Flowers
+tr.ed_obj.clear_flowers.tip,Clear all flowers. Will do nothing in City tracks. Will not clear individually placed flowers.
+tr.ed_obj.clear_bushes,Clear Bushes
+tr.ed_obj.clear_bushes.tip,Clear all bushes. Will do nothing in City tracks.
+tr.ed_obj.clear_rocks,Clear Rocks
+tr.ed_obj.clear_rocks.tip,Clear all rocks
+tr.ed_obj.clear_tires,Clear Tires
+tr.ed_obj.clear_tires.tip,Clear all tires
+tr.ed_obj.clear_cones,Clear Cones
+tr.ed_obj.clear_cones.tip,Clear all cones
+tr.ed_obj.clear_walls,Clear Walls
+tr.ed_obj.clear_walls.tip,Clear all walls
+tr.ed_obj.clear_lamps,Clear Lamps
+tr.ed_obj.clear_lamps.tip,Clear all street lamps
+tr.ed_obj.clear_buildings,Clear Buildings
+tr.ed_obj.clear_buildings.tip,Clear all houses and buildings
+tr.ed_obj.clear_puddles,Clear Puddles
+tr.ed_obj.clear_puddles.tip,Clear all puddles, ice patches and oil spills
+tr.ed_obj.clear_ramps,Clear Ramps
+tr.ed_obj.clear_ramps.tip,Clear all ramps
+
+tr.test_drive,Drive
+tr.test_drive_ai,AI Drive
+tr.help,Help
+
+# Car Editor
+
+ced.select_base_car,Select Base Car
+ced.select_car,Select Car
+
+ced.new_car,New Car
+ced.open_car,Open Car
+ced.download_cars,Download Cars
+ced.exit,Exit
+ced.save_car,Save Car
+ced.delete_car,Delete
+ced.parameters,Parameters
+ced.edit_sprites,Edit Sprites
+ced.description,Description
+ced.part_positions,Part Positions
+ced.sounds,Sounds
+ced.modding_guide,Modding Guide
+ced.share,Share
+ced.reload_sprites,Reload Sprites
+ced.close,Close
+ced.test_drive,Test Drive
+ced.end_test_drive,End Test Drive
+
+ced.speed_idx,Speed Index
+ced.price,Price
+ced.price.tip,Price is auto-calculated from Speed Index
+ced.req_level,Required Level
+ced.req_level.tip,Required Level is auto-calculated from Speed Index
+ced.label.general,General
+ced.max_speed_kmh,Max Speed (kmh)
+ced.max_speed_kmh.tip,Required for gearbox to work properly. Test drive the car in a long straight to find out the max speed.
+ced.mass_kg,Car Mass (kg)
+ced.mass_kg.tip,Light car + high engine power = insanity. Find the right balance.
+ced.max_health,Max Health
+ced.label.engine,Engine
+ced.engine_power,Engine Power
+ced.engine_power.tip,Sanity ends at around 500 BHP. If you can exceed it, it doesn't mean you should. Adjust Max Speed after editing this!
+ced.label.handling,Handling
+ced.steering_sensitivity,Steering Sensitivity
+ced.steering_sensitivity.tip,How sharp and sensitive the steering is. It also depends on mass.
+ced.label.grip,Grip
+ced.drift_factor,Drift Factor With Traction
+ced.drift_factor.tip,How easily car gets into a drift when it has traction. Recommended value is between 0.8 and 0.9.
+ced.slip_factor,Drift Factor Without Traction
+ced.slip_factor.tip,How easily car remains in drift when there is no traction. Recommended value is between 0.95 and 0.9999
+ced.max_sticky_vel,Sideways Traction Max Velocity
+ced.max_sticky_vel.tip,How fast car can go into a corner without getting into a drift. Recommended value is between 1 and 1.5.
+ced.label.gearbox,Gearbox
+ced.max_rpm,Max RPM
+ced.max_rpm.tip,This will not affect engine sound directly! Select appropriate engine sound.
+ced.idle_rpm,Idle RPM
+ced.shift_time,Shift Time
+ced.shift_time.tip,How long does it take for gears to shift
+
+ced.label.sounds,Sounds
+ced.sound.engine,Engine
+ced.sound.muffler,Muffler
+ced.sound.turbo,Turbo
+ced.sound.turbo.tip,Turbo sound will only be heard when driving with upgraded car
+ced.sound.charger,Supercharger
+ced.sound.charger.tip,Supercharger will only be heard when driving with upgraded car
+
+ced.label.model,Model Name
+ced.model_name,Car Model Name
+ced.label.description,Description
+ced.car_description_placeholder,Something special to say about your new creation
+
+ced.label.lights,Lights
+ced.front_lights_width,Front Lights Width
+ced.front_lights_pos,Front Lights Position
+ced.rear_lights_width,Rear Lights Width
+ced.rear_lights_pos,Rear Lights Position
+
+ced.label.wheels,Wheels
+ced.front_axle_width,Front Axle Width
+ced.front_axle_pos,Front Axle Position
+ced.rear_axle_width,Rear Axle Width
+ced.rear_axle_pos,Rear Axle Position
+
+ced.label.interior,Interior
+ced.interior_off_x,Interior Offset X
+ced.interior_off_y,Interior Offset Y
+
+ced.label.collider,Collider
+ced.collider_width,Collider Width
+ced.collider_height,Collider Height
+ced.center_of_mass,Center of Mass
+ced.center_of_mass.tip,Affects turning and behavior in corners / drift
+
+ced.label.exhausts,Exhausts
+ced.exhaust_count,Exhaust Count
+ced.exhaust_width,Exhaust Width
+ced.exhaust_pos,Exhaust Position
+
+################################################################################
+
+# Cutscenes
+
+### Lore Cutscene ### <-- please get this one very well, it's something people usually see within first 2 minutes of the game
+
+# In here {0} is the number of years and {1} is a date
+cut.lore.1,Hey! Aren't you that famous racer who got into a major accident {0} years ago? I know you've been in cryo-sleep since {1}, so let me bring you up to speed.
+# {0} is a date
+cut.lore.2,There was this highly successful technology corporation, one you should know about, I just can’t remember its original name right now. It eliminated its competition and took control of the global economy back in {0}.
+# You should probably keep "Social Frontier of Activism" and SOFACT unchanged in your translation, for authenticity (company was not local after all)
+cut.lore.3,Instead of seeking scientific discoveries, the corporation had been strangling itself with increasingly complex internal policies. At some point they renamed it to "Social Frontier of Activism", or SOFACT.
+cut.lore.4,But eventually human nature took over. Activists were eliminated by force during an unexpected hostile takeover, and SOFACT, while still appearing as a friendly organization, now belongs to old school knuckleheaded thugs.
+# Please do not translate "Bloody Rally Show", or included it into parentheses next to translation. Example: "Kruvinojo Ralio Sou" (Bloody Rally Show)
+cut.lore.5,New leaders focused on profits. They kept investing into entertainment to maximize ad revenue, and "Bloody Rally Show" happens to be the entertainment of choice for most people these days.
+cut.lore.6,In Bloody Rally Show they are trying to recreate the golden age of rallying by using technologies of 1980s, ones from the infamous Group B. The amount of accidents is sky high, but social media influencers keep trying to get those hot action close-up photos.
+cut.lore.7,Don't lose your car my friend, or you may have to join the crowd. Now good luck, and godspeed! Oh, by the way, I didn't catch your name.
+
+### Season Intro ### <-- please get this one very well too, it's part 2 of the main introduction
+
+cut.intro.1,Hey, rookie, you're late! I am the director of Bloody Rally Show. There is someone else I'd like you to meet.
+# {0} will be a random insult word
+cut.intro.2,There you are, {0}. We brought you in since they say you know how to drive those old school race cars well. Now go make a good show!
+cut.intro.2_2,Oh, and we will ask you to do us some favors from time to time. Nothing big, don't worry about it!
+cut.intro.3,Wait a moment. Why do I have to do this for you?
+# {0} will be an insult, ${1} - sum of money, like $500000
+cut.intro.4,Because you owe us for the cryo-sleep, {0}! Repay ${1} at the end of any season and you're free to do anything you want. Until then your ass belongs to SOFACT.
+cut.intro.5,Looks like I don't have much choice... When do I start?
+cut.intro.6,Follow me rookie, I'll show you around. Let's meet the other racers first.
+# {0} will be a plural insult (addressing all racers)
+cut.intro.7,So, {0}, you're back for more? I'm impressed!
+cut.intro.8,I still feel that there's something left for me to do, you know
+cut.intro.9,Happy you're back! Now follow me, there are some papers you need to sign.
+
+### Racer died cutscene
+
+# {0} will be racer's name, {1} will be a "he" or "she"
+cut.died.1,{0} didn't make it. But {1} will always remain in our leaderboards.
+cut.died.2,*Presses F on the keyboard*
+# {0} will be a plural insult, like "clowns"
+cut.died.3,Stop messing with my keyboard you {0}!
+
+### Mission cutscene (shared) <-- important to get right too, will be shared across dozen of missions!
+
+cut.racer.mid_comment.1,Mother of God!
+# {0} will be a curse word
+cut.racer.mid_comment.2,{0}, not this again.
+# {0} will be a curse word
+cut.racer.mid_comment.3,I hope this {0} pays well.
+# {0} will be a curse adjective (like "friggin")
+cut.racer.mid_comment.4,Yeah, I got it. Now talk {0} cash.
+# {0} will be a curse word (crap)
+cut.racer.mid_comment.5,{0}, here we go again.
+
+# {0} will be some name or title
+cut.racer2gov.greet.1,{0}, I've heard you wanted to see me.
+cut.racer2gov.greet.2,{0}, do you have a minute?
+cut.racer2gov.greet.3,Hey, {0}, do you mind if I ask something of you?
+cut.racer2gov.greet.4,*Knock knock*
+cut.racer2gov.greet.5,{0}, I've been meaning to ask you something.
+cut.racer2gov.greet.6,May I come in?
+cut.racer2gov.greet.7,Hey {0}, do you have any extra work I could do for you? I'm a little short on cash.
+
+# {0} will be a name or a title
+cut.racer2racer.greet.1,Hey {0}! How are you doing?
+cut.racer2racer.greet.2,{0}! Just the person I've been looking for!
+cut.racer2racer.greet.3,Hey, fellow Racer!
+cut.racer2racer.greet.4,Oh hi there {0}, I didn't notice you.
+
+cut.racer2racer.resp.1,Hey {0}, how's your turbo hanging?
+cut.racer2racer.resp.2,Right, let me guess, you want to ask me something?
+# {0} will be a curse adjective (friggin face)
+cut.racer2racer.resp.3,Not you again, I don't like your {0} face, racer.
+cut.racer2racer.resp.4,Oh no, it was not me who punctured your tires last night!
+# {0} will be an insult (like clown)
+cut.racer2racer.resp.5,What do you want, {0}?
+
+cut.gov2racer.greet_resp.1,{0}, yes, please come in!
+cut.gov2racer.greet_resp.2,{0}, I've been expecting you.
+cut.gov2racer.greet_resp.3,Please sit down and listen carefully.
+# {0} Curse adjective - friggin cash
+cut.gov2racer.greet_resp.4,You would like to earn some extra {0} cash, wouldn't you?
+# {0} Curse adjective - friggin cash
+cut.gov2racer.greet_resp.5,Let me guess, you would like to earn some extra {0} cash, wouldn't you?
+
+# {0} - insult singular
+cut.call.1,Hey, you! {0}! Come over here.
+# {0} - insult singular
+cut.call.2,Hey! {0}!
+# {0} - name or title
+cut.call.3,{0}. I've been looking for you!
+cut.call.4,{0}, wait a moment, why are you in such a hurry?
+cut.call.5,So, we meet again.
+# {0} - insult singular
+cut.call.6,Oh, just the {0} I've been looking for
+# {0} - racer name
+cut.call.7,It has been a while, {0}.
+cut.call.8,Greetings, {0}.
+cut.call.9,Welcome, {0}.
+# {0} - insult singular
+cut.call.10,Not you again, {0}, what do you want? But since you're here, I've got something for you.
+
+cut.call.resp.1,What do you want?
+cut.call.resp.2,...
+# {0} - curse adjective (friggin point)
+cut.call.resp.3,Yeah, yeah, cut to the {0} point.
+# {0} - name or title
+cut.call.resp.4,Oh, such a pleasure to see you, {0}.
+cut.call.resp.5,Greetings, {0}.
+cut.call.resp.6,I've been needing a bit more cash lately, do you have anything I could do?
+cut.call.resp.7,Some of the drivers have been giving me a really rough time, think you could help me out?
+cut.call.resp.8,Do you have any sort of special event I can enter, something to boost the show's ratings?
+
+# {0} below is always government official name or title
+cut.end.player2gov.1,I'll see what I can do.
+cut.end.player2gov.2,Anything for you, dear {0}.
+cut.end.player2gov.3,Do I have a choice?
+cut.end.player2gov.4,Not again...
+cut.end.player2gov.5,Will this ever end?
+cut.end.player2gov.6,OK, OK, I got it.
+cut.end.player2gov.7,This is fine.
+cut.end.player2gov.8,Yes, sure, whatever.
+cut.end.player2gov.9,Fine, I'll try.
+cut.end.player2gov.10,I want to go home.
+cut.end.player2gov.11,Bye, {0}.
+cut.end.player2gov.12,Thank you so much for the opportunity!
+
+cut.end.player2racer.1,Sure man, it will be fun.
+# {0} - name or title
+cut.end.player2racer.2,Anything for you, dear {0}.
+# {0} - insult singular (i.e. clown)
+cut.end.player2racer.3,It's on, {0}!
+cut.end.player2racer.4,Yes, finally something worthwhile.
+cut.end.player2racer.5,Oh, with pleasure!
+cut.end.player2racer.6,I'll think about it.
+# {0} - racer name, {1} - curse word (i.e. crap)
+cut.end.player2racer.7,I don't like you {0}, but {1}, why not.
+cut.end.player2racer.8,Sure, whatever.
+# {0} - singular insult
+cut.end.player2racer.9,Whatever, {0}.
+
+cut.end.racer2player.1,Peace out.
+cut.end.racer2player.2,Allright, see you soon.
+cut.end.racer2player.3,I'll be watching you.
+cut.end.racer2player.4,Watch your six.
+# {0} will be an noun insult (clown)
+cut.end.racer2player.5,Let's go, time for you to eat my dust, {0}.
+cut.end.racer2player.6,Now let's hit the road.
+cut.end.racer2player.7,Less talking, more doing.
+cut.end.racer2player.8,Bye.
+cut.end.racer2player.9,Whatever.
+# {0} will be an noun insult (clown)
+cut.end.racer2player.10,Whatever, {0}.
+
+# {0} - curse adjective (goddamn security)
+cut.end.gov.1,Now go, or I'll call {0} security.
+# {0} - insult singular (clown)
+cut.end.gov.2,Beat it, {0}.
+# {0} - curse adverb (friggin leave)
+cut.end.gov.3,Please, {0} leave, and don't come back until you do it.
+# {0} - insult singular (clown)
+cut.end.gov.4,Good bye, {0}.
+cut.end.gov.5,Good bye.
+
+cut.req.drift.1,Almost forgot. You have to do it sideways to make it count!
+cut.req.drift.2,Oh, and please do it while drifting, viewers enjoy it so much.
+cut.req.drift.3,And better be sliding while you do it.
+cut.req.drift.4,Wait, forgot to tell you. Do it in a drift, audience loves it.
+cut.req.drift.5,And they told me you've got skill, so prove it, do it while drifting.
+
+cut.resp.drift.1,Not again, it's impossible to win this way!
+# {0} - curse word (crap)
+cut.resp.drift.2,Oh, {0}...
+# {0} - curse word (crap)
+cut.resp.drift.3,{0}, this is going to be difficult.
+cut.resp.drift.4,All right, I got this.
+cut.resp.drift.5,Affirmative.
+# {0} - name of character (i.e. Brace)
+cut.resp.drift.6,With pleasure, {0}.
+cut.resp.drift.7,Sir yes sir!
+cut.resp.drift.8,Then sideways it will be.
+cut.resp.drift.9,I'd do it sideways even without you asking!
+cut.resp.drift.10,Say no more!
+# {0} - insult singular (clown)
+cut.resp.drift.11,It's on, {0}!
+
+# In block blow, {0} will be second part of the sentence, generated somewhere 
+# (i.e. for your trouble, you will receive $1000)
+cut.reward.part.1,For your trouble, {0}.
+cut.reward.part.2,If you are successful, {0}.
+cut.reward.part.3_us,If you don't disappoint us, {0}.
+cut.reward.part.3_me,If you don't disappoint me, {0}.
+cut.reward.part.4,If this happens, {0}.
+cut.reward.part.5,If you don't fail, {0}.
+cut.reward.part.6,If you succeed, {0}.
+
+# Same here, {0} will be second part of sentence generated somewhere
+# (i.e. if you fail me like you always do, I will think of some punishment)
+cut.punish.part.1,If you fail, {0}!
+cut.punish.part.2,If you are not successful, {0}.
+cut.punish.part.3,If you fail me like you always do, {0}!
+cut.punish.part.4,If you mess up, {0}!
+cut.punish.part.4_1,If you mess this up, {0}!
+cut.punish.part.4_2,If you mess it up, {0}!
+cut.punish.part.5,If you somehow manage to screw up, {0}!
+cut.punish.part.6,If you don't do it, {0}.
+
+# In block below {0} will be generated sentence with reward part, {1} with punishment
+# (i.e: If you succeed, you will get $1000, otherwise I will puncture your tires)
+cut.rew.pun.part.1,Do this, and {0}, but if you fail, {1}!
+cut.rew.pun.part.2,As a reward, {0}, but if you chicken out, {1}!
+cut.rew.pun.part.3,If this happens, {0}, otherwise {1}!
+cut.rew.pun.part.4,Do this, and {0}, but there's also a punishment for failure. {1}!
+cut.rew.pun.part.5,If you do this, {0}. But don't think I would forgive a failure, {1}!
+cut.rew.pun.part.6,{0}. But don't you let me down, {1}!
+cut.rew.pun.part.7,For your trouble, {0}. Though if you fail, {1}!
+cut.rew.pun.part.8,For this, {0}, but if you don't, {1}.
+cut.rew.pun.part.9,For success, {0}, but fail me like you always do, and {1}!
+
+# Rewards told by government agent. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+# {0} will be a number
+cut.rew.gov.cash.1,you will get ${0}
+cut.rew.gov.cash.2,you will receive ${0}
+cut.rew.gov.cash.3,we will give you ${0}
+cut.rew.gov.cash.4,we will pay you ${0}
+cut.rew.gov.cash.5,I'll give you ${0}
+cut.rew.gov.car,I will personally buy you a brand new car
+cut.rew.gov.pts,I will tamper the stats, you will get {0} extra points for this race
+cut.rew.gov.rnd,there will be a pleasant surprise waiting for you
+cut.rew.gov.aero,my technicians will upgrade your AERO
+cut.rew.gov.turbo,mechanics will replace your TURBO with a bigger one
+cut.rew.gov.engine,mechanics will adjust the governor to improve your ENGINE
+cut.rew.gov.gears,your GEARS will get a free upgrade
+cut.rew.gov.grip,we will give you brand new tires to improve your GRIP
+cut.rew.gov.none,you will get absolutely nothing! Ha ha ha
+
+# Rewards told by other racer. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+# {0} will be a number
+cut.rew.racer.cash.1,my rainy day fund of ${0} will be yours
+cut.rew.racer.cash.2,I will give you food stamps worth ${0}
+cut.rew.racer.cash.3,I will give the contents of my pockets. Should be about ${0}
+cut.rew.racer.cash.4,I will borrow ${0} from the bank to pay you
+cut.rew.racer.cash.5,I will give ${0}
+cut.rew.racer.car,I will let you have my brand new car
+cut.rew.racer.pts,I have a friend who will tamper the stats, you will get {0} extra points for this race
+cut.rew.racer.rnd,I will make it worthwhile
+cut.rew.racer.aero,I have an idea how to upgrade your AERO with some duct tape and WD-40
+cut.rew.racer.turbo,I will polish your TURBO
+cut.rew.racer.engine,I will swap your ENGINE with a more powerful one
+cut.rew.racer.gears,I will install a short shifter for your GEARS
+cut.rew.racer.grip,I will swap my brand new tires with you so you'll get better GRIP
+cut.rew.racer.none,you will get absolutely nothing! Ha ha ha
+
+# Punishments told by government agent. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+cut.punish.gov.cash.1,you will lose ${0}
+cut.punish.gov.cash.2,you will have to pay us ${0}
+cut.punish.gov.cash.3,your car insurance will go up by ${0}
+cut.punish.gov.cash.4,I will take ${0} from your bank account
+cut.punish.gov.cash.5,you will have to pay ${0} for 100 diamonds in this new mobile game I've just downloaded
+cut.punish.gov.car,I will personally blow your car to tiny pieces with a Pedestrian Cannon. No mechanic will manage to put it back together
+cut.punish.gov.pts,I will run this database query that will make you lose {0} points
+cut.punish.gov.rnd,I will do something so nasty, that they will have to cover it as breaking news, and belive me, your photo will be there
+cut.punish.gov.aero,I will ask mechanics to stick {0} in your grill to downgrade your AERO
+cut.punish.gov.turbo,I will personally stick {0} in your TURBO
+cut.punish.gov.engine,we will remove a couple of random parts from your ENGINE
+cut.punish.gov.gears,we will replace your gearbox fluid with {0} to downgrade your GEARS
+cut.punish.gov.grip,I will ask a mechanic to rub {0} on your tires to mess with your GRIP
+cut.punish.gov.none,nothing bad will happen
+
+# Punishments told by other racer. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+cut.punish.racer.cash.1,you will have to buy ${0} worth of risky TSLA short puts
+cut.punish.racer.cash.2,you will have to pay me ${0}
+cut.punish.racer.cash.3,you will have to give me either ${0}, or that cool Casio watch you're wearing
+cut.punish.racer.cash.4,I will drain ${0} worth of fuel from your car
+cut.punish.racer.cash.5,you will have to buy me 500 gems in this new mobile game I've just downloaded. With 75% discount that will cost you just ${0}
+# "Lionard 125" should not be translated, it's a model name of cheapest car in the game
+cut.punish.racer.car,we will have to exchange cars. I'm currently driving a beat up Lionard 125, local junk yard keeps asking about it
+cut.punish.racer.pts,I've got a hacker friend who will wipe {0} points off your score
+cut.punish.racer.rnd,I will spin a wheel of misfortune and pick a random nasty thing to do to either you or your car
+cut.punish.racer.aero,I will put {0} in your grill to downgrade your AERO
+cut.punish.racer.turbo,I will stick {0} in your TURBO
+cut.punish.racer.engine,I will fill your ENGINE with {0}
+cut.punish.racer.gears,I will replace your gearbox fluid with {0} to downgrade your GEARS
+cut.punish.racer.grip,I will rub {0} all over your tires to mess with your GRIP
+cut.punish.racer.none,nothing bad will happen
+
+### Shield mission cutscene
+
+cut.shield.req,Here's a Force Field, and some extra batteries for it. You can thank me later.
+cut.shield.intro.1,I see you're not doing well this season. We decided to help you out a little bit this next race.
+# {0} will be a plural insult
+cut.shield.intro.2,Looks like the other {0} are bullying you all the time. Here's something to even out the odds.
+
+cut.shield.descr,Complete the race equipped with a Force Field
+cut.shield.tip,Remember Newton's 3rd law
+
+### Make car come last 
+
+# {0} - clown
+cut.finlast.req,I'll give you a weapon and mark the target car on your HUD. Make that {0} pay!
+
+# {0} - player name, {1} - vegan burger
+cut.finlast.racer.intro.1,Hey, {0}! I've got a favor to ask. One of the racers stuck a {1} in my exhaust pipe last night, and I want revenge!
+# {0} - player name, {1} - vegan olive oil
+cut.finlast.racer.intro.2,{0}, wait. I need some help. One of the racers rubbed {1} all over my steering wheel, and I want revenge!
+
+# {0} - vegan olive oil
+cut.finlast.gov.intro.1,You wouldn't believe it. One of those clown buddies of yours sneaked into my office last night and rubbed some {0} all over my keyboard! I want you to show them what happens when you mess with SOFACT.
+# {0} - clown
+cut.finlast.gov.intro.2,Listen, there's one {0} I really don't like. Let's make his life a living hell together.
+
+cut.finlast.tip,Target car will be marked
+
+# {0} - name, {1} - position number
+cut.finlast.descr,Make sure {0} finishes {1} or below
+
+### Assassinate mission cutscene (the most complex one)
+
+# {0} is a singular noun defining a person
+# {1} is part of sentence telling what the person did
+# {2} is the second part telling what the person did
+# {3} is the third part with circumstances
+cut.ass.beg1.1,There is this {0} who {1} {2}, {3}
+cut.ass.beg1.2,How should I put this gently. A {0} {1} {2}, {3}
+cut.ass.beg1.3,Let me put this straight. {0} {1} {2}, {3}
+
+# Same as beg1, but for 2 people
+cut.ass.beg2.1,A couple of {0} {1} {2}, {3}
+cut.ass.beg2.2,How should I put this gently. Two {0} {1} {2}, {3}
+
+# Same as beg1 & beg2, but for 3+ people
+cut.ass.beg3.1,There is a bunch of {0} {1} {2}, {3}
+cut.ass.beg3.2,How should I put this gently. A bunch of {0} {1} {2}, {3}
+
+# Endings for singular target
+cut.ass.end1.1,You'll find details of his location in your on-board computer when you start the race.
+# {0} - singular insult (i.e. clown)
+cut.ass.end1.2,Get rid of that {0} for me, will ya?
+cut.ass.end1.3,Make him check your undercarriage.
+cut.ass.end1.4,Make him go *splat*, ok?
+cut.ass.end1.5,Send him flying.
+# {0} - singular insult (i.e. clown)
+cut.ass.end1.6,I want that {0} carried away on a stretcher.
+cut.ass.end1.7,Give him a free ride on your hood.
+cut.ass.end1.8,You understand what I want, right?
+
+# Endings for two targets
+cut.ass.end2.1,You'll find details of their location in your on-board computer when you start the race.
+# {0} - plural insult (i.e. clowns)
+cut.ass.end2.2,Get rid of those two {0} for me, will ya?
+cut.ass.end2.3,Make them check your undercarriage.
+cut.ass.end2.4,Make them go *splat*, ok?
+cut.ass.end2.5,Send them flying.
+# {0} - curse adjective (i.e. friggin strecher)
+cut.ass.end2.6,I want them both carried away on a {0} stretcher.
+cut.ass.end2.7,Give them a free ride on your hood.
+
+# Endings for three+ targets
+# end3.1 is used as end2.1
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.2,Get rid of all those {0} for me, will ya?
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.3,Find them all, and make those {0} check your undercarriage.
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.4,Make all those {0} go *splat*, ok?
+# end3.5 is used as end2.5
+# {0} - plural insult (clowns) {1} - curse adjective (i.e. friggin strecher)
+cut.ass.end3.6,I want all those {0} carried away on a {1} stretcher.
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.7,Give all those {0} a free ride on your hood.
+
+# Mid sentences for 1 target
+# {0} is some randomized person name
+cut.ass.mid1.1,His name is {0}.
+# {0} is some randomized person name (repeated twice in this sentence), {1} - curse adjective
+# Example: John Smith. Friggin John Smith.
+cut.ass.mid1.2,{0}.{1} {0}.
+cut.ass.mid1.3,He is {0}.
+# {1} will be insult singular, i.e. clown
+cut.ass.mid1.4,We found that {1}, he is {0}.
+# {1} will be insult singular, i.e. clown
+cut.ass.mid1.5,{0}. I hate that {1} so much.
+
+# Mid sentences for 2+ targets
+# {0} will be plural insult (clowns), {1} will be a curse adjective (friggin)
+cut.ass.mid2.1,I know who those {1} {0} are.
+# {0} will be plural insult (clowns), {1} will be a curse adjective (friggin)
+cut.ass.mid2.2,Those {1} {0}.
+cut.ass.mid2.3,{0}!
+# {0} will be plural insult (clowns)
+cut.ass.mid2.4,Deal with those {0} for me!
+# {1} will be insult plural, i.e. clowns
+cut.ass.mid2.5,{0}. I hate those {1} so much.
+
+# These cannot be deleted, if you can't come up with something unique, just repeat some 
+# Singular forms
+cut.ass.target1.1,Hipster
+cut.ass.target1.2,Dumbass
+cut.ass.target1.3,Clown
+cut.ass.target1.4,Streamer
+cut.ass.target1.5,Content Creator
+cut.ass.target1.6,YouTuber
+cut.ass.target1.7,Influencer
+cut.ass.target1.8,Broker
+cut.ass.target1.9,Liar
+cut.ass.target1.10,Enemy of SOFACT
+cut.ass.target1.11,Journalist
+cut.ass.target1.12,Rebel
+cut.ass.target1.13,Misogynist
+
+# These cannot be deleted, if you can't come up with something unique, just repeat some 
+# Plural forms
+cut.ass.target2.1,Hipsters
+cut.ass.target2.2,Dumbasses
+cut.ass.target2.3,Clowns
+cut.ass.target2.4,Streamers
+cut.ass.target2.5,Content Creators
+cut.ass.target2.6,YouTubers
+cut.ass.target2.7,Influencers
+cut.ass.target2.8,Brokers
+cut.ass.target2.9,Liars
+cut.ass.target2.10,Enemies of SOFACT
+cut.ass.target2.11,Journalists
+cut.ass.target2.12,Rebels
+cut.ass.target2.13,Misogynists
+
+# Full sentence will look like: Somebody [messed with] somebody
+cut.ass.did.1,messed with
+cut.ass.did.2,played with
+cut.ass.did.3,screwed with
+cut.ass.did.4,took selfies with
+# If in your language "messed with me" and "stole from me" have different ways of saying, 
+# just create something that will look like ones above instead!
+cut.ass.did.5,stole something from
+
+# Full sentence will look like: Somebody did something with [me]
+# part from above will be used, try to make them compatible
+cut.ass.harmed.1,me
+cut.ass.harmed.2,a guy you don't need to know about
+cut.ass.harmed.3,someone important
+cut.ass.harmed.4,President of SOFACT
+cut.ass.harmed.5,The Board of Directors
+cut.ass.harmed.6,SOFACT
+cut.ass.harmed.7,yours truly
+cut.ass.harmed.8,friend of mine
+cut.ass.harmed.9,a dear friend
+cut.ass.harmed.10,a relative
+cut.ass.harmed.11,the wrong guy
+cut.ass.harmed.12,the wrong fellas
+cut.ass.harmed.13,our affiliate social media influencer
+
+# Additional circumstance for singular target. Will be attached to the end of sentence.
+cut.ass.andwhat1.1,and thought he could get away with it.
+cut.ass.andwhat1.2,and you wouldn't believe what he did in the shower afterwards!
+cut.ass.andwhat1.3,and leaked some, ehm... Sensitive information.
+cut.ass.andwhat1.4,and never even appologized!
+cut.ass.andwhat1.5,and thought nobody would notice.
+cut.ass.andwhat1.6,like there's no tomorrow.
+# {0} - insult singular (clown)
+cut.ass.andwhat1.7,and then said "How do you like that, {0}?"...
+
+# Additional circumstance for plural target. Will be attached to the end of sentence.
+cut.ass.andwhat2.1,and thought they could get away with it.
+cut.ass.andwhat2.2,and you wouldn't believe what they did in the shower afterwards!
+# the rest of andwhat2 is used directly from andwhat1
+
+cut.ass.tip,You can use Photo Mode to find targets and plan your hits
+
+### Hit Objects Cutscene
+
+cut.hitobj.intro.racer.1,I know you can't drive well, so I'm going to make a little bet.
+cut.hitobj.intro.racer.2,VP of Diversity asked for a favor, and I'm going to split the reward cash if you help me, ok?
+cut.hitobj.intro.racer.3,I've been impressed with your driving, and want to offer you a challenge.
+cut.hitobj.intro.racer.4,It's boring to just race, so let's have a bet.
+cut.hitobj.intro.racer.5,Are you up for some extra challenge?
+cut.hitobj.intro.racer.6,Help me out, I can't do this alone.
+
+cut.hitobj.intro.gov.pos.1,Our viewers love it when stuff is knocked over, so this is what you have to do.
+cut.hitobj.intro.gov.pos.2,I made a bet with someone who said you couldn't do it. Prove him wrong.
+cut.hitobj.intro.gov.pos.3,I'm in a bad mood, and nothing would make me feel better than seeing some stuff flying around.
+cut.hitobj.intro.gov.pos.4,Our janitors became too lazy, so I have a plan how to make them work harder.
+cut.hitobj.intro.gov.pos.5,I've got a fun challenge for you, my friend.
+
+# {0} insult plural (clowns), {1} - curse adverb (friggin time)
+cut.hitobj.intro.gov.neg.1,Listen, I'm fed up with you {0} driving carelessly all the {1} time.
+cut.hitobj.intro.gov.neg.2,There has been a shortage of resources lately, so I want to ask you nicely.
+# {0} insult plural (clowns)
+cut.hitobj.intro.gov.neg.3,I'm in a mood for order today. Everything should remain in place. You {0} better drive carefully!
+
+# {0} will be a noun (i.e: cone)
+cut.hitobj.req.negative.1,Do not hit a single {0}
+# {0} is a number and {1} is a plural noun (cones)
+cut.hitobj.req.negative.2,Do not hit more than {0} {1}
+# {0} is a number and {1} is a plural noun (cones)
+cut.hitobj.req.positive,Hit {0} {1}
+# I.e. Porta Potties Hit, or John Smith hit
+cur.hitobj.req.progress,{0} Hit
+
+# Will be used in "Hit 1 cone", or "Do not hit a single cone"
+cut.hitobj.o.traffic_cone,Traffic Cone
+cut.hitobj.o.porta_potty,Porta Potty
+cut.hitobj.o.bush,Bush
+cut.hitobj.o.pedestrian,Pedestrian
+cut.hitobj.o.snowman,Snowman
+
+# Will be used in "Hit 2 cones", or "Do not hit more than 2 cones"
+cut.hitobj.o.traffic_cones,Traffic Cones
+cut.hitobj.o.porta_potties,Porta Potties
+cut.hitobj.o.bushes,Bushes
+cut.hitobj.o.pedestrians,Pedestrians
+cut.hitobj.o.snowmen,Snowmen
+
+cut.hitobj.tip.neg,Avoid driving into marked objects at any cost
+cut.hitobj.tip.pos,Look for marked objects
+
+# Reward short names
+# 12 PTS (short for points, use same as in terms)
+cut.rew.short.pts,{0} Pts
+cut.rew.short.next_car,Next Car
+cut.rew.short.aero,Aero +1
+cut.rew.short.engine,Engine +1
+cut.rew.short.gears,Gears +1
+cut.rew.short.turbo,Turbo +1
+cut.rew.short.grip,Grip +1
+
+# Punishment short names
+# -12 PTS (short for points, use same as in terms)
+cut.pun.short.pts,-{0} Pts
+cut.pun.short.lose_car,Lose Car
+cut.pun.short.aero,Aero -1
+cut.pun.short.engine,Engine -1
+cut.pun.short.gears,Gears -1
+cut.pun.short.turbo,Turbo -1
+cut.pun.short.grip,Grip -1
+
+# Will be used in mid sentence, like: "Hit 4 cones while driting"
+cut.while_drifting,while drifting
+
+cut.short.full_throttle,Challenge: Full Throttle
+cut.short.tiny_car,Challenge: Tiny Car
+cut.short.huge_car,Challenge: Huge Car
+cut.short.inv_steer,Challenge: Inverted Steering
+cut.short.shield,Challenge: Force Field
+cut.short.weaponize,Challenge: Weaponized Race
+
+# Will be used in sentence like "Assasinate John Smith"
+cut.assassinate.1,Assassinate {0} 
+# Will be used in sentence like "Assasinate 3 Hipsters"
+cut.assassinate.2,Assassinate {0} {1}
+# Will be used in end of sentence like "Hipsters assasinated", or "John Smith assasinated"
+cut.assassinated,{0} assassinated
+
+### Car Prank mission cutscene
+
+cut.prank.gov.laugh.1,*Laughing out loud*
+# {0} - curse word (crap)
+cut.prank.gov.laugh.2,Ha ha! {0}
+# {0} - curse word (crap)
+cut.prank.gov.laugh.3,{0}, they are killing me!
+cut.prank.gov.laugh.4,*Chuckles*
+cut.prank.gov.laugh.5,*Tries to hold laughter*
+cut.prank.gov.laugh.6,*Giggles*
+
+cut.prank.player.react.1,I have to admit, this laughter is contageous.
+# {0} - curse adverb (friggin)
+cut.prank.player.react.2,What's so {0} funny?
+# {0} will be a government agent name
+cut.prank.player.react.3,I have a feeling this is not going to be that funny for me, am I right, {0}?
+# {0} will be a government agent name
+cut.prank.player.react.4,Ok, now tell me the joke please, {0}.
+cut.prank.player.react.5,Last time I've heard this laughter it wasn't funny for me at all
+cut.prank.player.react.6,Why do I have a bad feeling about this?
+
+# {0} - curse adverb (friggin)
+cut.prank.player.react2.1,You got to be {0} kidding me.
+cut.prank.player.react2.2,WHAT?!
+# {0} - plural insult (clowns)
+cut.prank.player.react2.3,Who were they? I want names! {0} will pay!
+# {0} - curse word (crap)
+cut.prank.player.react2.4,Oh {0}...
+# {0} - curse word (crap)
+cut.prank.player.react2.5,{0}...
+cut.prank.player.react2.6,{0}!
+# {0} and {1} - curse word (crap)
+cut.prank.player.react2.7,{0}...
+cut.prank.player.react2.8,{0}, {1}.
+cut.prank.player.react2.9,Bring it on!
+# {0} - car model
+cut.prank.player.react2.10,And I just repainted my {0}...
+# When player has no car, he will say "And I just repainted my sneakers"
+cut.prank.player.react2.10_2,sneakers
+
+# {0} - curse word (crap)
+cut.prank.tiny_car.1,You'll never believe what happened! Your car! {0}! They pulled a prank and shrunk it down. You're going to need to control it with a joystick, because your ass won't fit in there. Hilarious!
+# {0} - random laughter from above
+cut.prank.tiny_car.2,Someone in the lab tested the shrink ray on your car. Don't worry, here's a remote, you can still drive it, but it's going to be tough. {0}.
+cut.prank.tiny_car.3,Have you seen an old movie called Ants? Well, you'll have to live it!
+cut.prank.tiny_car.4,I know it will not make any sense, but there was an accident in the garage. Shrink ray fired in the wrong direction and your car got hit. Here's a remote, use it to control your tiny car.
+
+cut.prank.tiny_car.descr,Complete the race with tiny car
+cut.prank.tiny_car.tip,You can fit through smaller gaps you normally would
+
+# {0} - curse word (crap)
+cut.prank.huge_car.1,You'll never believe what happened! Your car! {0}! They enlarged it. Let's hope you'll find an oversized android to control it.
+# {0} - random laughter from above
+cut.prank.huge_car.2,Someone in the lab tested the matter density adjustment ray on your car. Don't worry, you can still control it remotely. {0}
+cut.prank.huge_car.3,Have you seen those old Godzilla movies? Of course you should have, you're from those ancient times. Anyway, your car got enlarged. Take care now.
+cut.prank.huge_car.4,I know it will not make any sense, but there was an accident in the garage. Particle density adjustment ray fired in the wrong direction and your car got hit. You're lucky it was not your face instead. Here's a remote, use it to control your massively oversized car.
+
+cut.prank.huge_car.descr,Complete the race with enlarged car
+cut.prank.huge_car.tip,Bigger size means more damage to other cars!
+
+# {0} - crap, {1} - some item (bacon burger)
+cut.prank.full_throttle.1,You'll never believe what happened! Your car! {0}! They have put {1} inside your throttle valve. I'll be laughing my ass off watching you drive that thing!
+# {0} - crap, {1} - some item (bacon burger)
+cut.prank.full_throttle.2,{0}! Those idiots messed with your car again! This time they have put {1} inside your throttle valve. I'll be laughing my ass off watching you drive that thing!
+# {0} - clowns, {1} - bacon burger
+cut.prank.full_throttle.3,You'll never believe what happened! Those {0} have put {1} inside your throttle valve. I'll be laughing my ass off watching you drive that thing!
+# {0} - clowns, {1} - bacon burger
+cut.prank.full_throttle.4,This is unbelievable! {0}! They have put {1} inside your throttle valve. I'll be laughing my ass off watching you drive that thing!
+cut.prank.full_throttle.5,Don't get mad, but we had a trainee mechanic working on your car, and he might have switched some wrong wires. Test your brakes. *Tries to hold laughter*
+
+cut.prank.full_throttle.descr,Complete the race with your throttle stuck at 100%
+cut.prank.full_throttle.tip,Focus on steering and avoid any obstacles
+
+# {0} - crap
+cut.prank.inv_steer.1,You'll never believe what happened! Your car! {0}! They have inversed the steering. Hahah, I'll be personally watching you drive that thing!
+cut.prank.inv_steer.2,We had a trainee mechanic working on your car, and he might have switched some wrong wires. Controls could feel a little odd. *Tries to hold laughter*
+
+cut.prank.inv_steer.descr,Complete the race with your steering inverted
+cut.prank.inv_steer.tip,If you could just use the controller upside down...
+
+### Finish Xth 
+
+cut.fin_x.req.top,You must finish in top {0}.
+cut.fin_x.req.bottom,You must finish {0} or below.
+
+# {0} - player name or title
+cut.fin_x.racer.intro.1,Yo {0}! A powerful friend of mine has made some shady bets, and long story short, they are threatening us all to rig the race.
+# {0} - player name or title
+cut.fin_x.racer.intro.2,{0}, wait. VP of Diversity is threatening us all to finish in predetermined spots. Nothing personal, just wanted you to know.
+
+cut.fin_x.gov.intro.1,I made some personal bets on the next race, and I want you to help me out a little.
+cut.fin_x.gov.intro.2,Would you like to stay alive a little longer? Then don't mess this up.
+cut.fin_x.gov.intro.3,I don't have much time. Next race has to be rigged, don't ask why, just do what you have to.
+
+cut.fin_x.tip,Keep an eye on your position marker in top right corner
+
+cut.fin_x.descr1,Finish in top {0}
+cut.fin_x.descr2,Finish {0} or below
+
+### Take Damage 
+
+# {0} - a number
+cut.dmg.req,Take at least {0} damage to your car.
+
+cut.dmg.racer.intro.1,I know it was you who punctured my tires last night! I am going to let it slide if you accept my challenge. I might even throw in something nice if you won't fail.
+
+# {0} - friggin
+cut.dmg.gov.intro.1,Just the person I wanted to see! We've got to make a new poster for Bloody Rally Show, and your car seems to be perfect for this! But there is just one catch, it has to look like "right from the {0} action", if you know what I mean.
+cut.dmg.gov.intro.2,I see you have a brand new shiny paint job. Nice, nice. Now, your next challenge... *Chuckles*
+# {0} - player name or title
+cut.dmg.gov.intro.3,I never liked you, {0}. That's why I have thought of this nasty challenge.
+
+cut.dmg.stay_alive.1,And try to stay alive
+# {0} - clown
+cut.dmg.stay_alive.2,And try not to die, {0}
+
+cut.dmg.tip,Driving into obstacles or explosives is the fastest way to take damage
+
+cut.dmg.descr,Take {0} damage
+cut.dmg.progress,Damage taken
+
+### Stay on track
+
+# {0} - brace stone character's name
+cut.on_track.racer.intro.1,I made a bet with {0}, he said there's no way you can finish the race without ever going off-track. I'll lose a fair amount of cash if you do, so please drive very carefully!
+
+# {0} - some racer name
+cut.on_track.gov.intro.1,I made a bet with {0}, he says you can't stay on track, I tend to agree, but what the hell, I'm feeling lucky today, so I bet half a mil on your ass. Don't you dare let me down!
+# {0} - Clowns
+cut.on_track.gov.intro.2,Our gardeners work hard all day planting flowers, and you {0} keep ruining them! Stay on track this time!
+
+cut.on_track.descr,Don't go off-road for more than {0} seconds at a time
+cut.on_track.tip,Take it slow on the corners, and it will be fine!
+
+### Be a pedestrian 
+
+cut.ped.req.1,Oh, and while you're strolling on foot, take one nice close-up car photo for me.
+# {0} - a number
+cut.ped.req.2,Oh, and while you're strolling on foot, take {0} nice close-up car photos for me.
+
+# {0} - clown, {1} - vegan olive oil, {2} - fool
+cut.ped.racer.intro.1,Guess what {0}. I finally figured out who took a dump through my sunroof, and now it's time to pay. I've poured {1} into your gas tank, so you might need to flush your system. Too bad you won't make it to this race, {2}!
+
+# {0} - vegan olive oil
+cut.ped.gov.intro.1,Don't get mad at me for this, but here's the deal. We were filming an adult entertainment movie, and the car you've prepared for this stage had just enough room for 5 people and a camera man. They also made a mess with {0}, but don't you worry, we will clean it up afterwards!
+cut.ped.gov.intro.2,So, you thought you could take down the big guy, huh? Think again. You're going to be a pedestrian for the next few days, and we're taking your car as well. You better remember this next time!
+# {0} - clown
+cut.ped.gov.intro.3,Thought you could get away with that stunt of yours, little {0}? Your car is going to be staying with us for the next few races. Do it again and you're gonna regret it!
+# {0} - clown
+cut.ped.stay_alive.1,And try to stay alive, {0}.
+# {0} - clown
+cut.ped.stay_alive.2,And try not to die, {0}.
+
+cut.ped.descr,Participate in the race as a pedestrian
+cut.ped.tip,Don't stand too close to the track!
+
+# {0} - a number
+cut.ped.descr1,Take one close-up car photo
+cut.ped.descr2,Take {0} close-up car photos
+cut.ped.progress1,Photo taken
+# {0} - a number
+cut.ped.progress2,{0} car photos taken
+
+### Your car stolen 
+
+cut.stolen.racer.intro.1,Listen, man, I've got bad news for you. Some clown just stole your car, I saw him drive away. I hope you were insured. You'll also have to walk on foot in the next race.
+
+cut.stolen.gov.intro.1,Have you ever played a century old game called Grand Theft Auto? Well, someone just literally played it with your car, so looks like you'll have to go on foot. Sucks to be you if you had no insurance.
+
+cut.stolen.stay_alive.1,And try to stay alive
+cut.stolen.stay_alive.2,And try not to die
+
+cut.stolen.descr,Your car was stolen
+cut.stolen.tip,Better start saving money for a new car
+
+### Locked camera
+
+# {0} - "do not change camera settings!"
+cut.cam.req.1,Whatever you do, {0}.
+cut.cam.req.2,Come hell or high water, {0}.
+cut.cam.req.3,Whatever happens, {0}.
+cut.cam.req.4,If you have enough guts, {0}.
+cut.cam.req.5,Here's a vomit bag, {0}.
+cut.cam.req.6,Open your window if you want to barf, but {0}.
+cut.cam.req.end,do not change camera settings!
+
+cut.cam.racer.intro.1,Here's a new fun challenge for you. I'll reconfigure your vision drone the way you won't like it.
+# {0} - clown
+cut.cam.racer.intro.2,I couldn't sleep last night, so I messed with your vision drone. Why? Because your are {0}, that's why!
+# {0} - clown
+cut.cam.racer.intro.3,I want to challenge you to play a game with me! I tweaked our vision drones to be in an uncomfortable position. The first one to give up is a {0}!
+
+# {0} - clown
+cut.cam.gov.intro.1,Wait a moment, you {0}. Our viewers are complaining about your vision drone settings. I have adjusted them the way they want it, ok?
+# {0} - friggin (adverb), {2} - clowns
+cut.cam.gov.intro.2,I am {0} irritated because you keep changing that vision drone settings. Can't you just keep them steady, like all the other {1} do?
+cut.cam.gov.intro.3,Ladies and gentlemen, prepare your barf bags. Vision drone broke down, and until it's fixed, our technicians begged to stay away from changing any of it's settings.
+
+cut.cam.descr,Complete the race without changing camera settings
+cut.cam.tip,If penalty seems less painful than driving with current camera settings, just change it!
+
+cut.cam.shortdescr,Don't change camera settings
+
+### Distribute Spam
+
+# {0} - a number
+cut.spam.req,Print at least {0} batches of flyers
+
+cut.spam.racer.intro.1,Psssst... Listen, I have a favor to ask, we are organizing a secret underground movement against SOFACT. We want as many people as possible to join our movement. If you could help out spread the word, it would mean a world to us!
+
+# {0} - vegan olive oil
+cut.spam.gov.intro.1,We want to spread some new propoganda about health benefits of {0}. We went ahead and attached a printer on top of your car. Now go use it.
+# {0} - bacon burgers
+cut.spam.gov.intro.2,We faked the results of some research study about {0}, and we want everyone to read it. We went ahead and welded a printer on top of your car. Keep using it throughout your next race.
+
+# Do not modify {Action.Fire}
+cut.spam.tip,Keep pressing {Action.Fire} to print those flyers
+
+cut.spam.descr,Distribute {0} baches of flyers
+cut.spam.prog,Batches of flyers distributed
+
+### Weaponize
+
+cut.weaponize.req,We've given everyone a weapon. This is going to get crazy, I love it!
+
+cut.weaponize.gov.intro.1,Viewers of Bloody Rally Show are quite bored recently, so we are going to spice things up a bit.
+# {0} - clowns
+cut.weaponize.gov.intro.2,I see most of you {0} got brand new paint jobs. Let's hope they stay this way after next race.
+
+cut.weaponize.descr,Complete the race with weaponized cars
+cut.weaponize.tip,Be thankful you're not a pedestrian right now
+
+### Campaign Win (Freedom)
+
+# {0} - racer name
+cut.freedom.1,Hey {0}, congratulations on earning your freedom! I'm sad to see you go though. Are you sure you don't want to stay for one more season?
+# {0} - car model name
+cut.freedom.2,Thanks, but I'm tired as hell. Need to wash the blood off my {0}.
+# {0} - he or she, depending on player gender (see term.he / term.she)
+cut.freedom.3,*Walks away into the sunset, knowing that some day {0} will return to go through this hell again...*
+# When player has no car, he will say he has to clean the blood off his shoes
+cut.freedom.shoes,shoes
+
+### Campaign Season Finished
+
+# {0} - player name
+cut.season.alive1.1,{0}, how the hell did you pull this off? We have to finish the season early because of you!
+# {0} - clowns
+cut.season.alive1.2,What can I say, they were a bunch of {0}.
+cut.season.alive1.3,I have to admit I always liked you. We need people like you here in SOFACT. When you're done with your racing career, I might offer you a job.
+cut.season.alive1.4,I'm flattered, but I want to go back to burning rubber now. Till next time! And find me more worthy opponents next time, will ya?
+
+cut.season.1,Season is over, folks! Time for everyone to go home.
+cut.season.cheer.1,Finally!
+cut.season.cheer.2,Woo-hoo!
+cut.season.cheer.3,Yes!
+cut.season.cheer.4,OMG, at last!
+cut.season.cheer.5,Best day of my life!
+cut.season.cheer.6,I am so happy!
+cut.season.cheer.7,Hurray!
+cut.season.cheer.8,YEEEEEES!
+cut.season.cheer.9,Yippee!
+# {0} clowns {1} - fools
+cut.season.2,Home? Home! You {0} won't get out of here alive! Next season starts tomorrow, I expect you all have your rust buckets polished and lined up for the race. Home... Hahahah. {1}...
+
+### Campaign Fail 
+
+cut.fail.boo.1,Boo
+cut.fail.boo.2,Loser!
+cut.fail.boo.3,Who is it?
+cut.fail.boo.4,Too bad
+cut.fail.boo.5,Boooo!
+cut.fail.boo.6,Lame!
+cut.fail.boo.7,Who could that be?
+
+cut.fail.cry.1,Nooooo!
+cut.fail.cry.2,Why!
+cut.fail.cry.3,The pain...
+cut.fail.cry.4,I liked you so much...
+cut.fail.cry.5,We will miss you!
+cut.fail.cry.6,Such a shame.
+cut.fail.cry.7,I can't believe it...
+
+cut.fail.1,Season is over, folks! And we have a celebrity here, who didn't even make it into Top 3, so we will be freezing that {0} back to cryo-sleep!
+cut.fail.2,It's me. I'm so sorry...
+# {0} - racer name, {1} - clowns, {2} - bacon burger {3} - vegan olive oil
+cut.fail.3,OK, Enough drama! {0}, security will escort you to the freezer! And for the rest of you {1}, get the hell outta here, before I stuff your helmets with {2} and smear their visors with {3}!
+
+#######################################
+### Dialogs and in-game messages
+
+# Please check that you are using same terms as main_menu.btn.settings / settings.gameplay, etc
+dial.discord_post_permission,Can we post your scores in Bloody Rally Show Discord?<br>Steam nickname, track time and attempt count will be shown.<br>Change your choice any time in "Settings" > "Gameplay" > "Post to Discord"
+dial.time_attack_car_locked,The selected car is locked, please unlock it by leveling up your racer in Campaign first!
+dial.camp.corrupted_save_files,Found corrupted campaign save files: {0}
+dial.camp.load_fail,Failed to load save state: {0}<br>{1}
+dial.camp.not_enough_cash,You do not have enough cash!
+
+# {0} - clowns
+dial.camp.lucky1.1,Hey {0}, I'm feeling generous today!
+# {0} - clowns
+dial.camp.lucky1.2,I see some of you are as broke as those {0} who risk their lives trying to take the photos.
+# {0} - clowns
+dial.camp.lucky1.3,Hey you, {0}, stand in a line! Eenie meenie miney mo...
+# {0} - friggin (adjective)
+dial.camp.lucky1.4,What a nice day! Thanks to one of you, a {0} journalist that was writing nonsense about SOFACT was just carried away in a stretcher!
+# {0} - clowns
+dial.camp.lucky1.5,Damn pockets are full of cash, I have nowhere to put it. Might as well give some to you {0}...
+# {0} - beef bacon burger, {1} - clowns
+dial.camp.lucky1.6,You know, I own a {0} business, right? One of you {1} took out the CEO of my main competitor in the last race!
+# {0} - clowns, {1} - vegan olive oil
+dial.camp.lucky1.7,I played a prank on one of you {0}. I rubbed {1} all over your seat, and you didn't even notice! Haha, hilarious! I'll make up for it though.
+
+# in this block {0} is always racer name ${1} is cash amount
+dial.camp.lucky2.1,The lucky winner is... {0}! Congrats, you get ${1}!
+dial.camp.lucky2.2,{0}, come over here! I'll give you ${1}. Don't think it's free, it's in exchange for some future errands.
+dial.camp.lucky2.3,{0}! Here's ${1}! Go buy something nice.
+dial.camp.lucky2.4,{0}! Here's ${1}! Now beat it.
+dial.camp.lucky2.5,{0}, take ${1}. Thank you for your service!
+dial.camp.lucky2.6,I choose {0} to be the winner of this glorious ${1} cash prize. Don't spend it all in one place!
+dial.camp.lucky2.7,{0}... I don't like you, but hey, take this ${1}. In return I'll ask you to do some favors. Nothing shady, I wouldn't!
+
+# {0} - name, ${1} - cash amount
+dial.camp.resurrected,Racer {0} was brought back to life by field medics for ${1}
+dial.camp.resurrect_no_cash,Racer {0} didn't have enough cash to cover medical expenses. R.I.P."
+# {0} - clowns
+dial.camp.all_broke,How did you {0} manage to go broke all at once. Show must go on, SOFACT will give each of you losers $20000. Go buy something nice.
+# {0} - name, {1} - clown
+dial.camp.early_win,Wow, {0}, you eliminated everyone! We will have to end this season early. Congrats, you twisted {1}, you have won!
+dial.camp.on_camp_fail,I'm sorry to say this, but you have to be in Top 3 to continue the campaign. And since you don't seem to have ${0} to repay your debt, it's GAME OVER for you, my friend.
+dial.camp.congrats_free_man,Congratulations! You are now a free man!
+dial.camp.freedom_not_enough_cash,I'm sorry, you're short on cash! Go to next season and earn some more!
+dial.camp.exit_confirm,Are you sure you want to exit this Campaign? Progress will be saved.
+dial.camp.card.no_regen,You cannot regenerate a stage that is already completed!
+# {0} - some track name. keep the quotes 
+dial.camp.card.saved_already,Track "{0}" already exists in your collection. Do you want to replace it?
+dial.camp.card.saved,Track "{0}" was added to your collection!
+dial.camp.card.no_walk_completed,You cannot walk on foot in a completed stage!
+dial.camp.card.no_walk_special,You cannot walk on foot in the special stage!
+# {0} - name
+dial.camp.card.go_ped_confirm,Hold your horses, {0}, you don't have a car! Are you sure you want to enter the race as a Pedestrian?
+# {0} - list of names (john, smith, peter)
+dial.camp.card.some_peds_confirm,Some Racers don't have a car! ({0}). They will enter the race as Pedestrians. Is this ok?
+dial.camp.card.some_peds,Some racers cannot afford stage fee. They will enter race as pedestrians: {0}
+
+dial.paint.no_1k,You don't have $1000!
+
+dial.upgrade.not_in_time_attack,Tuning cannot be changed in Time Attack mode
+dial.upgrade.week_over,Cannot upgrade the car right now, this week is over! Mechanics are already on the move.
+dial.upgrade.already_done,Mechanics are still working on your previous upgrade! Come back after completing the next stage.
+dial.upgrade.no_cash,You can't afford this upgrade!
+
+dial.camp.load_finished,Are you sure you want to continue this campaign? It is already finished!
+dial.camp.delete_confirm, Are you sure you want to delete this campaign?
+dial.camp.name_required,You have to enter campaign name!
+dial.camp.name_taken,There is already a campaign with this name!
+
+dial.camp.gratitudes.1,Thank you!
+dial.camp.gratitudes.2,Whoa! You are the best!
+dial.camp.gratitudes.3,OMG! Thanks!
+dial.camp.gratitudes.4,Thanks!!
+dial.camp.gratitudes.5,I owe you!
+dial.camp.gratitudes.6,You are the greatest!
+dial.camp.gratitudes.7,I will not forget this
+dial.camp.gratitudes.8,What did I do to deserve this?
+dial.camp.gratitudes.9,I'm forever in your debt!
+dial.camp.gratitudes.10,Cool! I appreciate that!
+dial.camp.gratitudes.11,Nice!
+
+dial.camp.no_cash.1,Dude, your pockets are empty!
+dial.camp.no_cash.2,Nice try, you can't afford it!
+dial.camp.no_cash.3,Are you mocking me? Look at your wallet!
+dial.camp.no_cash.4,Duh. You're short on cash!
+dial.camp.no_cash.5,You don't have enough yourself...
+dial.camp.no_cash.6,I don't want to bankrupt you, sorry
+dial.camp.no_cash.7,You haven't got enough!
+
+dial.race.missing_bindings,Hey, looks like Player {0} ({1}) is missing some controller bindings! Go to Settings > Input and review Race controls to fix this!
+dial.race.missing_bindings_ped,Hey, looks like Player {0} ({1}) is missing some key bindings! Go to Settings > Input and review Pedestrian controls to fix this!
+# {0} - clown
+dial.race.ped_death,We need medics over here! Some {0} got wasted! Let's hope he has enough cash to pay the medical bills!
+
+dial.ed.no_cars,You don't have any cars yet! Create a new car and save it first.
+dial.ed.name_the_car,Name the new car
+dial.ed.car_name,Car Name
+
+dial.ed.car_sprites_missing,Some required sprites are missing! Please refer to Car Modding Guide and create these files: {0}.
+dial.ed.car_sprites_deleted,You cannot just delete car sprite files! Missing required files were replaced by transparent 1x1 pixel: {0}.
+dial.ed.remove_car_name_colon,Please remove ":" from car model name!
+dial.ed.car_name_taken,Model name "{0}" is already taken!
+dial.ed.car_too_fast,SOFACT Regulations do not allow cars to exceed Speed Index of {0} prior to tuning! This car has Speed Index of {1}. Reduce something in Parameters first!
+dial.ed.car_close_confirm,Are you sure you want to close the car? Any unsaved changes will be lost
+dial.ed.car_delete_confirm,Are you sure you want to delete this car: {0}?
+dial.ed.delete_error_no_dir,Could not delete car, directory not found:<br>{0}
+dial.ed.delete_error_file_open,Could not delete car directory. Close all open files and try deleting manually.<br>{0}
+dial.ed.save_car_once,Please save the car at least once before editing sprites
+dial.ed.save_before_reload,You can only reload the car after it was saved!
+dial.ed.no_steam_share_car_err,There is no connection to Steam. Cannot share the car!
+dial.ed.car_share_no_desc,Please fill in the Description before uploading to Steam Workshop!
+dial.ed.car_save_first,Please save the car first!
+dial.ed.car_share_err_sprites_missing,Car cannot be shared, required sprites are missing:<br>{0}
+dial.ed.car_share_err_sprites_recovered,You cannot just delete car sprite files! Missing required files were replaced by transparent 1x1 pixel: {0}. You should now be able to share the car.
+dial.ed.car_save_alien_files,Please remove files that do not belong in the mod directory. Only *.png, *.txt and item.car are allowed! Offending files: {0}
+dial.ed.car_share_sprite_warning,WARNING: If you haven't modified the sprites, car will be rejected!<br>Are you sure you want to share it?
+dial.ed.car_name_not_available,Car name is not available: {0}. Please change it and try to save again.
+
+dial.ed.path_start_open,Cannot move start position for an open track!
+
+dial.factory_reset.confirm,Are you sure you want to reset?
+
+dial.leaderboard.ghost_confirm,Would you like to race against the ghost of {0}?
+dial.leaderboard.ghost_confirm_daily_stale,It's not today's entry, so Daily Challenge Leaderboard will not be updated, but Track Leaderboard will.
+
+dial.input_reset,Game input structure was changed by developer, and your input mappings were reset to defaults. You can change them in "Settings" > "Input". Sorry for the inconvenience!
+dial.settings_reset,Game configuration structure was changed by developer, your settings were reset to defaults. Sorry for the inconvenience!
+dial.stat_reset_dev,Developer has triggered a full stat reset. Sorry for inconvenience.
+dial.are_you_sure,Are you sure?
+
+dial.race.racers_over_limit,You cannot have more than {0} cars in a single race!
+dial.race.player_remove_confirm,Are you sure you want to remove Player {0}: {1}?
+dial.race.race_alone,You shouldn't drive alone, unless you are in "Time Attack" mode. Add some opponents using "Add Player", "+1" or "+10" buttons!
+dial.race.no_track,Please select some track first!
+
+dial.race.restart_hardcore,It's Hardcore Mode, rememeber? No restarting for you!
+dial.race.restart_dead,Sorry, we cannot restart the race after someone dies. Please wait for the race to finish, and medics will try to do their job.
+dial.race.restart_ped,Sorry, pedestrians have no right to restart the race!
+dial.race.restart_confirm,Are you sure? Restart will cost you ${0}. You now have ${1}
+dial.race.restart_no_cash,Sorry, you can't affort to restart the race. Soldier it through.
+dial.race.restart_time_attack_confirm,Are you sure? Current lap times will be discarded!
+
+dial.ed.track_exit_confirm,Are you sure you want to exit? Any unsaved changes will be lost!
+dial.ed.track_new_confirm,Are you sure? Any unsaved changes will be lost.
+dial.ed.invalid_objects,There are {0} objects too close to the road. Please move or remove them and go for a Test Drive before trying to save again.
+dial.ed.enter_track_name,Enter track name
+dial.ed.track_name,Track Name
+dial.ed.fix_errors_first,Please fix validation errors before saving the track!
+dial.ed.share_track_no_steam,There is no connection to Steam. Cannot share the track!
+dial.ed.track_invalid_share,Check that red banner on top of the screen. Drag your mouse over it to see what's wrong.
+dial.ed.lap_before_upload,Hold your horses! You have to set a lap record before uploading it.
+dial.ed.track_remove_colon,Please remove ":" from track name!
+dial.ed.track_name_clash_builtin,Sorry, pick another name, you cannot overwrite a built-in track!
+dial.ed.track_overwrite_confirm,Track "{0}" already exists. Do you want to overwrite it?
+dial.ed.track_alien_files,Please remove extra files from mod directory: {0}
+dial.ed.track_delete_no_undo,Are you sure you want to delete this track? There is no way to undo it!
+dial.ed.track_quit_confirm,Are you sure you want to quit the Track Editor? Unsaved changes will be lost!
+dial.ed.track_last_2_points,Cannot delete last two path points!
+dial.ed.loop_autoclose,Looks like you are trying to close the loop. You can use "Open / Close" tool, but I closed it for you this time.
+
+dial.on_success, On Success: {0}
+dial.on_fail, On Failure: {0}
+dial.tip,Tip: {0}
+dial.confirm,Confirm
+dial.confirm_in,Confirm ({0:0})
+dial.must_do_in_drift,Must do it in a drift
+
+dial.reset_tutorials.confirm,Are you sure you want to mark all tips as unseen?
+
+dial.confirm_exit_to_desktop,Are you sure you want to exit to Desktop?
+
+dial.car_model_unavailable,Hey, the car model "{0}" is no longer available! Would you like to continue loading the campaign? Unavailable cars will be gone without refund!
+
+msg.track_high_obj_density,This track has high object density ({0:0} / 100m).\nIt will not get included in custom Campaign generation by default!
+msg.track_high_crowd_density,This track has high crowd density ({0:0} / 100m).\nIt will not get included in custom Campaign generation by default!
+msg.cheats_leaderboards,LEADERBOARDS DISABLED! You have used in-game console cheats or physics experiments. Restart the game to regain leadboard access.
+msg.track_load_failed,Track failed to load correctly, it is either corrupt or unavailable! Try again, or regenerate it.
+msg.race_input_restart_warning,WARNING: Changing input mappings during the race requires race restart to apply the effects!
+msg.failed_deleting_folder,Failed deleting the folder. Make sure to close all open files<br>{0}
+msg.missing_car_model,A car model is missing. ID: {0}.<br>Most likely unsubscribed mod or deleted custom car.
+msg.missing_controls,Missing Key Bindings
+msg.gen.analyzing_road,Analyzing Road Curvature
+msg.gen.calculating_lines,Calculating Racing Lines
+msg.gen.checkpoints,Arming Track Checkpoint Sensors
+msg.gen.paving_road,Paving The Road
+msg.gen.deunionizing_workers,Deunionizing Road Workers
+msg.gen.firing_workers,Firing Road Workers
+msg.gen.bribing_inspectors,Bribing Road Inspectors
+msg.gen.looking_location,Looking For Location
+msg.gen.evicting_residents,Evicting Previous Residents
+msg.gen.planting_forests,Planting Forests
+msg.gen.planting_bushes,Planting Bushes
+msg.gen.growing_parks,Growing Parks
+msg.gen.placing_lamps,Placing Street Lamps
+msg.gen.planting_flowers,Planting Flowers
+msg.gen.cloning_peds,Cloning Pedestrians
+msg.gen.cloning_more_peds,Cloning More Pedestrians
+msg.gen.building_walls,Building Walls
+msg.gen.building_more_walls,Building More Walls
+msg.gen.rocks,Sourcing Organic Rocks
+msg.gen.ramps,Placing Ramps
+msg.gen.barrels,Placing Explosive Barrels
+msg.gen.puddles,Spilling Puddles
+msg.gen.cones_tires,Ordering Cones And Tires
+msg.gen.buildings,Constructing Buildings
+msg.gen.special_locs,Building Secret Locations
+msg.gen.road_marks,Painting Road Markings
+msg.gen.test_driving,Test Driving The Track
+msg.gen.screenshot,Taking Drone Photos
+msg.gen.cones_left,Aligning Cones On The Left
+msg.gen.cones_right,Aligning Cones On The Right
+msg.gen.tires_left,Placing Tires On The Left
+msg.gen.tires_right,Placing Tires On The Right
+msg.gen.end.1,Placing Booby Traps
+msg.gen.end.2,Advertising Upcoming Event
+msg.gen.end.3,Firing Exhausted Road Workers
+msg.gen.end.4,Delivering Spectators
+msg.gen.end.5,Sprinkling Artisanal Road Dust
+msg.gen.end.6,Recharging Vision Drones
+msg.gen.end.7,Reloading Helicopter Ammo
+msg.gen.end.8,Polishing Director's Car
+msg.gen.end.9,Arming Explosive Barrels
+msg.gen.end.10,Placing Porta Potties
+msg.gen.end.11,Polishing The Cones
+msg.gen.end.12,Spilling Oil
+msg.gen.end.13,Refueling The Helicopter
+msg.gen.end.14,Delivering More Spectators
+msg.gen.end.15,Fixing Potholes
+msg.gen.end.16,Delivering Hot Dogs
+
+msg.longest_drift,Longest Drift
+msg.cant_fire_flyers,Cannot fire weapon when windshield is covered with flyers!
+msg.cant_fire_no_gun,Cannot fire weapon, not equipped!
+msg.cant_drop_no_gun,Cannot drop weapon, not equipped!
+msg.close_call,Close Call!
+msg.photo_reward,Reward for photo: ${0}
+msg.inflicted_dmg,Inflicted Damage
+msg.dmg_warning,Damage Warning
+msg.over_50_pct,Over 50%
+msg.over_75_pct,Over 75%
+msg.jump_completed,Jump Completed
+msg.nitro_boost,Nitro Boost
+msg.hit_combo,Hit Combo
+msg.final_lap,FINAL LAP!
+msg.lap_did_not_count,Lap did not count
+msg.wrong_way,Wrong way!
+msg.no_reset_start_line,Cannot reset, start line was not crossed yet!
+msg.no_reset_too_often,You cannot reset your car that often!
+msg.camera_mode,Camera Mode
+msg.camera_zoom,Camera Zoom
+msg.ped_cannon_tip,Drive over a pedestrian or wait until cannon reloads!
+msg.corner_cut,Corner Cutting Penalty
+msg.get_on_track,GET BACK ON TRACK!
+msg.reset_in,RESET IN {0:0.00}s
+msg.offroad_pen,OFF-ROAD PENALTY
+msg.car_reset,Car Reset
+msg.cheating_detected,Cheating Detected
+msg.corner_cut_forgiven.1,Corner cutting penalty forgiven. Don't do it again!
+msg.corner_cut_forgiven.2,Corner cutting penalty forgiven. The judge was looking away.
+msg.ped_sucked_in_cannon,YOU GOT SUCKED INTO PEDESTRIAN CANNON!
+msg.x_invalid_obj,There are {0} invalid objects
+msg.wasted,WASTED
+
+msg.hard_congrats,Congratulations, you have unlocked Hard difficulty
+msg.hardcore_congrats,Congratulations, you have unlocked Hardcore difficulty
+msg.no_steam_leaderboard_warn,NO CONNECTION TO STEAM! Leaderboard entry will not get saved. Restart the game or Steam client to fix this.
+msg.motion_speed_adj,Motion speed adjustment: {0:0.00}x
+msg.time_scale_adj,Time scale: {0:0.00}x
+msg.steam_client_photo,Run the game through Steam Client to take a photo. You can use desktop screenshot software if you don't use Steam.
+msg.entering_photo_mode,Entering Photo Mode
+msg.exiting_photo_mode,Exiting Photo Mode
+msg.just_upgraded,{0} just upgraded {1}!
+msg.just_bought,{0} just bought {1}!
+# Keep this as short as possible, it will be displayed for 5 seconds in a small speech bubble
+msg.tip_available,Press {Action.ShowTutorial} for a tip
+
+msg.uploading_ghost,Uploading Ghost Replay
+msg.score_not_improved,Your existing leaderboard score was not improved
+msg.score_ghost_missing,Your existing leaderboard score was not improved, but ghost data was missing. Uploading current ghost.";
+msg.score_rejected,Steam rejected your score for this leaderboard
+msg.uploading_score,Updating leaderboard score ({0}/10 API calls / 10 min)<br>{1}
+msg.uploaded_score,Successfully updated leaderboard ({0}/10 API calls / 10 min)<br>{1}
+msg.upload_fail,Could not update leaderboard, will retry in {2}s ({0}/10 API calls / 10 min)<br>{1}
+
+load.downloading_score,Downloading closest leaderboard score
+load.downloading_ghost_car,Downloading Ghost Car data
+load.launching_battle,Launching Car Battle
+load.launching_race,Launching Race
+load.starting_race,Starting Engines
+load.checking_mods,Checking Subscribed Mods
+load.downloading_mod,Downloading Mod: {0} ({1}/{2} bytes)
+load.loaded_mod,Loaded Mod: {0}
+load.screenshotting,Taking Track Screenshot
+load.gen_rand,Generating Random Track
+load.track,Loading Track
+load.flushing_stats,Flushing Stats
+load.flushing_stats_progress,Flushing Stats ({0} remaining)
+load.exiting,Exiting
+load.insults,Loading Random Insults
+load.avatars,Loading Avatars
+load.avatar_custom,Loading Custom Avatar: {0}
+load.cars,Loading Cars
+load.workshop_car_tex,Loading Workshop Car Texture: {0}/{1}
+load.car_tex,Loading Car Texture: {0}/{1}
+load.paint_job,Loading Paint Job: {0}
+load.track_campaign,Loading Campaign Track: {0}
+load.custom_tracks,Loading Custom Track Files
+load.workshop_track,Loading Workshop Track: {0}
+load.workshop_track_missing,Workshop Track {0} is missing, unsubscribing
+load.workshop_car,Loading Workshop Car: {0}
+load.custom_track,Loading Custom Track: {0}
+load.track_x,Loading Track: {0}
+load.steam_avatar,Loading Steam Avatar: {0}
+load.scene,Loading {0}
+
+scene.race_setup,Race Setup
+scene.race,Race
+scene.main_menu,Main Menu
+scene.track_editor,Track Editor
+scene.car_editor,Car Editor
+scene.campaign,Campaign
+scene.kickstart,Initial
+
+weapon.ped_cannon,Pedestrian Cannon
+weapon.m2,M2
+weapon.saw,Saw
+weapon.nitro_refill,Nitro Refill
+weapon.shield,Force Field
+# Tribute to Mad Max, maybe it's possible to keep the reference?
+weapon.mad_fax,Mad Fax
+# It is a robotic steel hedgehog that is rigged with explosives
+weapon.homing_hedgehog,Homing Hedge
+weapon.wrench,Wrench
+weapon.nailgun,Nailgun
+# Tribute to Quake
+weapon.railgun,Railgun
+weapon.wrecking_ball,Wrecking Ball
+weapon.grappling_hook,Grappling Hook
+
+# TUTORIALS 
+# Watch out for the <br>, these are new lines. They must not be removed!
+
+tut.basic_driving.head,Driving The Car
+tut.basic_driving.1,- Hold {Action.Accelerate} to accelerate<br>- Use {Action.Steer} to steer<br>- If you are using a controller, you can choose how much throttle or steering you want to apply<br>- Handling is much easier with a controller!
+tut.basic_driving.2,- Anticipate corners early<br>- Start braking before tight turns<br>- Use {Action.Brake} to brake<br>- Releasing {Action.Accelerate} will also reduce your speed
+tut.basic_driving.3,- If you see you will overshoot, use the handbrake<br>- Press {Action.Handbrake} to apply handbrake
+
+tut.camera.head,Camera Controls
+tut.camera.1,- There are multiple camera zoom and rotation modes to choose from<br>- Click {Action.Zoom} to cycle through camera zoom modes<br>- With Far zoom you will see your car from high above, but clouds may obstruct your view
+tut.camera.2,- Near camera zoom will give you a close-up view of your car<br>- It may be challenging to drive as you won't see much of the road ahead<br>- You can use minimap to anticipate corners
+tut.camera.3,- Click {Action.Camera} to cycle through camera rotation modes<br>- Fixed Road camera will not rotate at all
+tut.camera.4,- Fixed Car camera will keep the same rotation as your car<br>- Floating camera is in between Fixed Car and Fixed Road<br>- Find one you like the most
+tut.camera.5,- You can go to "Settings" > "Gameplay" to change the camera setting defaults<br>- Change "Camera Shake" if you want to reduce screen shaking
+
+tut.camp.add_racer.head,Add Or Edit A Racer
+tut.camp.add_racer.1,- You can choose who will control this racer, Human or AI<br>- You can have up to 4 people playing in split screen<br>- You can change the avatar, or set a custom one using an image from your computer
+
+tut.camp.advance.head,Advancing Campaign
+tut.camp.advance.1,- Congratulations, you have survived the first week<br>- When you are ready to proceed, click ADVANCE button<br>- New Week will be generated
+
+tut.camp.car_unlock.head,New Car Available
+tut.camp.car_unlock.1,- You have unlocked a better car that you can afford!<br>- Go to GARAGE to find it
+tut.camp.car_unlock.2,- Choose the best available car you can buy<br>- Click the BUY button to purchase it<br><br>- Consider to PAINT your new car before purchase
+
+tut.camp.first_car.head,Your First Car
+tut.camp.first_car.1,- You don't have a car, but you have a little bit of cash<br>- Click "BUY A CAR" to visit the Garage
+
+tut.camp.first_race.head,First Race
+tut.camp.first_race.1,- Time to have your first race!<br>- Click the stage card to begin<br>- If you see a generation notice, a group of highly trained monkeys are working to prepare your race tracks. Please wait for that notice to go away before attempting to start a race.
+
+tut.camp.garage.head,Garage
+tut.camp.garage.1,- The only car you can afford right now is Lionard 125<br>- New cars will unlock as you level up
+tut.camp.garage.2,- You can repaint your car for free before you buy it<br>- After you buy the car, repainting costs cash
+
+tut.camp.racer_setup.head,Create Your Racer
+tut.camp.racer_setup.1,- Pick an Avatar for your racer. You can use a custom one from an image on your computer.<br>- Enter your racer name, or click RANDOMIZE to generate one<br>- Choose your voice pitch (will affect dialogue sounds)<br>- Then click REGISTER
+
+tut.camp.season_lineup.head,Season Lineup
+tut.camp.season_lineup.1,- Here you can customize season lineup and setup a split screen multiplayer campaign<br>- Click EDIT icon on racers to edit names, avatars, skill levels<br>- Click X icon on a racer to delete. Racer count is fixed, so deleted racer will be replaced with a new one!
+
+tut.camp.stage_rewards.head,Stage Rewards
+tut.camp.stage_rewards.1,- After the race you are going to get rewards for you actions<br>- Colored reward items are more valuable
+tut.camp.stage_rewards.2,- By default only player rewards are displayed<br>- Click ALL RACERS to see how all the racers were rewarded
+
+tut.camp.car_upgrades.head,Car Upgrades
+tut.camp.car_upgrades.1,- You have unlocked a new Car Upgrade<br>- Click the part icon to open the upgrade view<br>- Upgradeable parts have up arrow icons hovering over them
+tut.camp.car_upgrades.2,- Click the price button to purchase the upgrade<br>- More upgrades will unlock as you level up
+
+tut.car_damage.head,Car Damage
+tut.car_damage.1,- Looks like your car took some serious damage<br>- Keep an eye on your health bar in top right<br>- You can repair the damage using Wrench powerup in races with weapons or in Car Battle
+tut.car_damage.2,- Damaged cars lose some top speed<br>- Damaged cars leak slippery oil
+
+tut.car_reset.head,Resetting Your Car
+tut.car_reset.1,- Got yourself into a bad situation? We've got you covered!<br>- Holding {Action.Brake} will make your car go in reverse<br>- Press {Action.ResetCar} to reset your car back on track
+
+tut.corner_cut.head,Corner Cutting Penalties
+tut.corner_cut.1,- Looks like you've just cut a corner!<br>- Depending on the mood of the Judge, you may be forgiven or penalized<br>- Light penalty is a temporary slowdown<br>- Heavy penalty is car reset<br>- Amount of allowed corner cutting depends on game mode and difficulty
+
+tut.custom_race_dash.head,Custom Race Dashboard
+tut.custom_race_dash.1,- Welcome to Custom Race dashboard. It may look overwhelming at first, so here is some help<br>- If you want to play with your friends, use ADD PLAYER button<br>- You can also add AI racers this way
+tut.custom_race_dash.2,- To add random AI opponents quickly, use the "+1" and "+10" buttons<br>- You can race against a ton of AI opponents at once!<br>- To remove all other racers click "0"
+tut.custom_race_dash.3,- Unlike in Campaign mode, here you can just choose the upgrades you want<br>- Click on part icons to cycle through the upgrade levels<br>- You can configure individual upgrades for each racer
+tut.custom_race_dash.4,- There are some game modes you can choose from<br> - "Race" is a regular race against other cars<br>- "Time Attack" is for setting best lap times in global leaderboards<br>- In "Car Battle" you have a time limit and weapons. You don't have to drive on track.
+tut.custom_race_dash.5,- Select a track you want to race in<br>- You can also generate a unique track<br>- Download more tracks from Steam Workshop or create your own tracks in Track Editor
+tut.custom_race_dash.6,- After you configured your Custom Race, click the red button in bottom left corner to begin the race
+
+tut.time_attack.head,Custom Race: Time Attack
+tut.time_attack.1,- In "Time Attack" mode car upgrades are locked at level 1
+tut.time_attack.2,- To view the leaderboards click "LEADERBOARDS" button in top bar<br>- AI racers are not available in "Time Attack" mode<br>- You can have split screen sessions with human players though
+
+tut.drift.head,Drifting
+tut.drift.1,- You have just performed a clean Drift<br>- Drifting is the art of going sideways<br>- Controlled drifting is rewarded with Nitro boost and Cash in campaigns<br>- Drift doesn't count if you go off-track
+tut.drift.2,- Different cars have different drifting properties<br>- Different surface types and weather conditions have different drifting properties<br>- Car tuning affects drifting
+
+tut.paint.head,Painting Cars
+tut.paint.1,- Change the base color of the car using MAIN COLOR<br>- Have up to two PAINT LAYERS<br>- Click on PAINT LAYER image to pick a different pattern<br>- You can use custom paint layer images
+
+tut.nitro.head,Nitro Boost
+tut.nitro.1,- The red Nitro Bar shows your Nitro level<br>- Press and hold {Action.Nitro} to burn Nitro and go faster<br>- The longer it burns, the more efficient it gets
+tut.nitro.2,- Nitro bar refills when you hit pedestrians, porta potties or snowmen<br>- Nitro bar also refills when you drift<br>- You will receive some cash for unburned Nitro 
+
+tut.oil.head,Oils Spills
+tut.oil.1,- You've just driven over an Oil Spill<br>- Oil makes your tires extremely slippery<br>- Don't worry, your tires will get clean soon
+
+tut.ped.head,Pedestrian Mode
+tut.ped.1,- You've been unlucky enough to enter a race as a Pedestrian<br>- Use {Action.Walk} to walk<br>- Turn with {Action.Turn}
+tut.ped.2,- When you are close to cars, use {Action.Take Photo} to take photos<br>- Photos are rewarded with cash<br>- Reward depends on number of cars in the shot, and their distance to you
+tut.ped.3,- Be careful, or you can get hit by a car<br>- Medical costs are high, so if you don't have enough cash, it's Game Over
+
+tut.nitro_refill.head,Powerup: Nitro Refill
+tut.nitro_refill.1,- You just received a Nitro Refill!<br>- It is a powerup that quickly refills your Nitro Bar while you drive<br>- When you get this powerup, it is wise to hold {Action.Nitro} to burn the Nitro while it keeps refilling
+
+tut.wrench.head,Powerup: Wrench
+tut.wrench.1,- You just received a Wrench!<br>- Wrench is a powerup that repairs your car while you drive<br>- There are three different types of wrenches you can get
+tut.wrench.2,- Copper Wrench repairs low amount of damage<br>- Silver Wrench repairs medium amount of damage<br>- Golden Wrench repairs big amount of damage
+
+tut.race_end.head,Ending The Race
+tut.race_end.1,- Good job, looks like you weren't the last one!<br>- Other racers are now given 30 seconds to reach the finish line<br>- Click "Speed Up" a few times to increase race speed to up to 5x
+tut.race_end.2,- After 30 seconds have passed, END RACE button will unlock<br>- It is up to you if you want to exit the race before all other racers have finished
+
+tut.car_battle.head,Car Battle
+tut.car_battle.1,- Welcome to the Car Battle<br>- Your goal is to frag your opponents<br>- Ram other cars to deal damage<br>- Use weapons to deal even more damage
+tut.car_battle.2,- Pick up Weapons ant Powerups at these weapon zones<br>- You can see them in your minimap
+tut.car_battle.3,- After item was picked up, zone locks down and shows a timer<br>- When countdown is finished, zone opens up with a new item
+tut.car_battle.4,- Car Battle ends when timer runs out<br>- The winner is the one that fragged most cars and inflicted most damage
+
+tut.regular_race.head,Regular Race
+tut.regular_race.1,- In regular race your goal is to beat other racers to the finish line<br>- Hold {Action.Nitro} to burn nitro if you need some boost<br>- Hit pedestrians or drift to refill your Nitro bar<br>- Don't cut corners or you will get penalized!
+
+tut.time_attack2.head,Time Attack
+tut.time_attack2.1,- In Time Attack race mode you will try to set the best lap time<br>- If other players have Leaderboard entries for this track, you will get to race against their Ghosts<br>- Your own Ghost will be recorded and uploaded along with your Leaderboard score
+
+tut.race_weap.head,Race With Weapons
+tut.race_weap.1,- You are about to have a race with weapons and powerups<br>- These races can get really crazy!<br>- When you start a new Campaign, you may chose to disable races with weapons
+tut.race_weap.2,- When you get a weapon or a powerup, a Weapon Bar will become visible<br>- When you receive a weapon you haven't seen before, a tip prompt may pop up
+tut.race_weap.3,- There are several weapon checkpoints placed along the track<br>- These checkpoints change color over time<br>- Red checkpoint gives you a Weapon
+tut.race_weap.4,- Green checkpoint gives you a Powerup<br>- If you drive over a weapon zone while holding a Weapon or Powerup, nothing will happen<br>- Press {Action.DropWeapon} to drop your current Weapon or Powerup
+
+tut.ramps.head,Ramps And Jumps
+tut.ramps.1,- You have just launched your car in the air!<br>- Unpowered wooden Ramp makes you jump
+tut.ramps.2,- Powered Ramp makes you jump and gives you a boost!<br>- Ramps do not guarantee clean landing<br>- You can push ramps around and rotate them to make traps for your opponents<br>- Jumps are recorded in the leaderboards, but only in Campaign mode!
+
+tut.track_ed.obj_place.head,Track Editor: Placing Objects
+tut.track_ed.obj_place.1,- Click {Action.PlaceObject} once to place the object<br>- Hold {Action.PlaceObject} and drag to place a row of objects<br>- Use {Action.RotateObject} to rotate the object before placing it
+
+tut.m2.head,Weapon: M2
+tut.m2.1,- You have just received M2!<br>- M2 is a powerful projectile based weapon<br>- Hold {Action.Fire} to fire at your opponents<br>- If you don't like a weapon, you can always drop it with {Action.DropWeapon}
+
+tut.mad_fax.head,Weapon: Mad Fax
+tut.mad_fax.1,- You've just received Mad Fax<br>- Press {Action.Fire} to print a bunch of spam in your opponent's face<br>- The flyers will stick to their windshields, obstructing their view<br>- Cars with more flyers on the windshield get increasingly difficult to handle<br>- If you don't like a weapon, you can always drop it with {Action.DropWeapon}
+
+tut.nailgun.head,Weapon: Nailgun
+tut.nailgun.1,- You just received a Nailgun!<br>- Nailgun is an average powered projectile weapon with a good kick<br>- Press {Action.Fire} to shoot the opponents in front of you<br>- If you don't like a weapon, you can always drop it with {Action.DropWeapon}
+
+tut.ped_cannon.head,Weapon: Pedestrian Cannon
+tut.ped_cannon.1,- You've just received a Pedestrian Cannon!<br>- It is preloaded with an exploding pedestrian<br>- Press {Action.Fire} to launch the pedestrian at your opponents
+tut.ped_cannon.2,- Drive over a pedestrian (dead or alive) to reload the cannon<br>- Or wait 10 seconds until a pedestrian-bullet gets cloned and cannon reloads itself<br>- If you don't like a weapon, you can always drop it with {Action.DropWeapon}
+
+tut.railgun.head,Weapon: Railgun
+tut.railgun.1,- You just received a Railgun!<br>- Railgun is a slow but powerful projectile weapon<br>- Press {Action.Fire} to shoot the opponents in front of you<br>- If you don't like a weapon, you can always drop it with {Action.DropWeapon}
+
+tut.saw.head,Weapon: Saw
+tut.saw.1,- You just received a Saw!<br>- It's a close contact weapon, try to touch your opponents with it<br>- Saw can go on either end of your car<br>- Watch out, additional weight affects handling <br>- If you don't like a weapon, you can always drop it with {Action.DropWeapon}
+
+tut.shield.head,Weapon: Force Field
+tut.shield.1,- You just received a Force Field!<br>- It pushes everything around you<br>- It will deflect bullets<br>- If you don't like a weapon, you can always drop it with {Action.DropWeapon}
+
+tut.spikes.head,Weapon: Homing Hedge
+tut.spikes.1,- You just received a Homing Hedge!<br>- It's a robotic hedgehog that can be released to cause mayhem<br>- Press {Action.Fire} to release the Homing Hedge
+tut.spikes.2,- When released, Homing Hedge will pick your closest opponent as a target<br>- It will chase and ram the target until it runs out of energy<br>- Homing Hedge will trigger an explosion after touching an obstacle or a car
+
+tut.wreck_ball.head,Weapon: Wrecking Ball
+tut.wreck_ball.1,- You just received a Wrecking Ball!<br>- Let's just say it's not the best weapon you can get<br>- Proves to be quite useful in Car Battle, but not so much in a regular Race 
+tut.wreck_ball.2,- Having a Wrecking Ball attached to your car affects handling drastically<br>- If you don't like a weapon, you can always drop it with {Action.DropWeapon}
+
+msg.director_warning.1,Director Nicolas Merryland is participating too...
+msg.director_warning.2,There is a psychopath in the track, and he is not racing!
+msg.director_warning.3,Watch out for the Director, he has a weapon!
+msg.director_warning.4,Uh oh, Director is in his car again!
+msg.director_warning.5,Director Nicolas himself is present in this race!
+
+msg.chopper_warning.1,Brace Stone is in bad mood. Watch out for the chopper!
+msg.chopper_warning.2,People are looking at the chopper with fear in their eyes...
+msg.chopper_warning.3,Avoid the helicopter, it seems to have a weapon!
+msg.chopper_warning.4,Brace Stone is bored today. Watch out for the chopper!
+msg.chopper_warning.5,It's totally unfair, but Brace Stone is flying with a weapon!
+msg.chopper_warning.6,Be careful, Brace Stone is raging in his chopper!
+msg.chopper_warning.7,Brace Stone seems to be trigger happy today!
+msg.chopper_warning.8,Watch out for the raging psychopath in the sky!
+
+msg.tip.ped.ff,TIP: Hold {Action.FastForward} to fast forward time
+msg.tip.ped.photo,TIP: Press {Action.Take Photo} to take a photo
+msg.tips.disabled,You can find tips in ABOUT > HOW TO PLAY
+
+msg.tips.finished_campaign,Finished Campaign
+msg.tips.free_man,Free Man
+msg.tips.incompatible_save,Incompatible Campaign Version
+
+# {0} - date
+msg.achieved_on,Achieved on {0}
+# {0:0.0}% will become 15.3%
+msg.achieved_by,Achieved by {0:0.0}%
+msg.hidden_achievement,Hidden Achievement
