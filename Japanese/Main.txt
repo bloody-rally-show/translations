@@ -1612,7 +1612,7 @@ cut.assassinated,{0}の暗殺
 
 ### Car Prank mission cutscene
 
-cut.prank.gov.laugh.1,*Laughing out loud*
+cut.prank.gov.laugh.1,*爆笑している*
 # {0} - curse word (crap)
 cut.prank.gov.laugh.2,あっはっは！ {0}！
 # {0} - curse word (crap)
