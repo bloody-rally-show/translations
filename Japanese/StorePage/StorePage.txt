@@ -1,63 +1,63 @@
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamRace.gif[/img]
 
-A unique mashup of racing, car battle and roguelite brings you an infinite variety of race tracks and procedurally generated campaigns with dystopian story and AI generated conversations, missions and challenges. 
+レース、バトル、ローグライトを独自に融合させた本作では、無限のバリエーションがあるレースコースと、プロシージャル生成されたキャンペーンが楽しめます。ディストピアな世界観のストーリーに加え、AIが生成する会話、ミッション、チャレンジも盛り込まれています。
 
-Race fast cars with satisfying controls across infinite variety of randomly generated and handcrafted tracks.
-Compete for glory against other people in Steam Leaderboards.
+操作感抜群の高速カーを駆り、手作りまたはランダム生成の無限のバリエーションがあるコースを疾走しましょう。
+Steamのランキングで、他のプレイヤーと栄光を懸けて競い合おう。
 
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamFight1.gif[/img]
 
-Use weapons and your car's inertia to fight other racers in free style Battle Mode.
-Add Weapon Zones to regular races to spice things up.
+フリースタイルのバトルモードでは、武器や車の慣性を駆使して他のレーサーと戦おう。
+通常のレースに「武器入手ゾーン」を追加すれば、レースが盛り上がります。
 
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamDrift.gif[/img]
 
-Carefully tuned, physics based car handling is in the sweet spot between arcade and sim, easy to handle, difficult to master. Learn to handle and drift your cars on different surfaces, feel when your car loses grip and regains traction.
+ていねいに作り込まれた物理エンジンに基づいたマシンの挙動は、アーケードとシミュレーションの絶妙なバランスを保っています。操作は簡単ですが、極めるのは難しいです。さまざまな路面で車の操作やドリフトを学び、マシンがグリップを失ったり、再びトラクションを取り戻したりする感覚を体感してください。
 
-Daily Challenge and Time Attack mode will let you race against other player ghosts. Skill is the only thing that will get you to the top of the Leaderboards.
+「デイリーチャレンジ」と「タイムアタック」モードでは、他のプレイヤーのゴーストと競い合うことができます。ランキングのトップに立つためには、実力だけが頼りです。
 
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamCreate.gif[/img]
 
-Create your own race tracks and cars with advanced in-game editors that were used to create all the content of the game itself. Full developer tooling is at your fingertips, and it's made as easy to use as possible.
+ゲーム本体のすべてのコンテンツ制作にも使われた高度なゲーム内エディタを使って、自分だけのレースコースや車を作成しましょう。開発者向けのツール一式がすぐに利用でき、操作もたいへん簡単です。
 
-Share your creations with others in Steam Workshop.
+みなさんの作品をSteamワークショップで他の人と共有してください。
 
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamCustomize.gif[/img]
 
-Use your own images for racer avatars and car paint jobs, change the names of your opponents in campaign or custom race mode. 
-Customize the paint job of your car by adding layers of details. Make this game your own.
+レーサーのアバターや車の塗装には、自分のお気に入りの画像を使用したり、キャンペーンモードやカスタムレースモードで対戦相手の名前を変更したりできます。
+細部を何層にも重ねて、車の塗装をカスタマイズしましょう。このゲームを自分色に染め上げましょう。
 
 [img]{STEAM_APP_IMAGE}/extras/BRSConsole.gif[/img]
 
-Use a built-in operating system (OK, OK, it's just a console), where you can run experiments that adjust in-game physics, change the game logic, and do other cool stuff!
+組み込みのオペレーティングシステム（あっ、実はただのコンソールなんですが！）を使って、ゲーム内の物理演算を調整したり、ゲームロジックを変更したり、その他にもいろんな面白いことを試すこともできます！
 
 
-Key features:
+主なゲーム内容:
 [list]
-[*] Satisfying arcade/sim style car physics (handling, drifting, speed)
-[*] Infinite amount of randomly generated Race Tracks 
-[*] Campaign mode with missions, challenges and AI storyteller
-[*] Car battle mode with Battle Royal style shrinking area
-[*] Pedestrian Mode, never seen before in other racing games!
-[*] Strategic nitro boost mechanic
-[*] Races with weapons and powerups
-[*] Play campaigns in single player, local couch co-op, or Steam Remote Play Together
-[*] Possibility to share your custom built cars and tracks on Steam Workshop for others to enjoy
-[*] Racer XP and level-up
-[*] Car tuning and upgrades
-[*] Adaptive AI opponents that have same physics based controls as the player, have emotions and character, and do stupid things from time to time 
-[*] Nearly 50 achievements
-[*] Plethora of different Leaderboards
-[*] Names of top players from Leaderboards appear in player campaigns as AI racers
-[*] Daily Challenge with different combination of track / car to compete against other players
-[*] Asynchronous online multiplayer via Ghost Replays in Steam Leaderboards - race against other people in Daily Challenge and Time Attack mode
-[*] Custom paint jobs and racer avatars
-[*] Split Screen Local multiplayer for up to 4 players
-[*] Configuration setting to turn off blood (for family friendly split screen racing sessions)
-[*] Races with 100 opponents!
-[*] Ramps and jumps, puddles, oil spills, ice patches, explosive barrels and other hazards
-[*] Destroyable and movable physics based props 
-[*] High quality OST with dozen of full-length tunes
-[*] References to gluten free spelta bread and other bad jokes
+[*] アーケード／シミュレーションスタイルの満足感のあるマシンの挙動（ハンドリング、ドリフト、スピード）
+[*] ランダム生成される無限のレースコース
+[*] ミッション、チャレンジ、AIストーリー展開を備えたキャンペーンモード
+[*] バトルロイヤル形式でエリアが縮小していくバトルモード
+[*] 他のレースゲームではあまりない「歩行者モード」！
+[*] 戦略的なニトロブーストシステム
+[*] 武器やパワーアップのあるレース
+[*] キャンペーンモードは、ストーリーモード、シングルプレイ、ローカル協力プレイ、またはSteamリモートプレイで遊べます
+[*] 自作の車やコースをSteamワークショップで共有し、他のプレイヤーにも遊んでもらえます
+[*] レーサーXPとレベルアップ
+[*] 車のチューニングとアップグレード
+[*] プレイヤーと同じ物理演算ベースの操作を持ち、感情や個性があり、時折おバカな行動をとる自動調整AIの対戦相手
+[*] 50近くの実績
+[*] 多種多様なランキング
+[*] ランキング上位プレイヤーの名前が、プレイヤーキャンペーンにAIレーサーとして登場
+[*] コースと車の組み合わせが毎日変わる「デイリーチャレンジ」で、他のプレイヤーと競い合える
+[*] Steamのランキングで「ゴーストリプレイ」を利用した非同期オンラインマルチプレイヤー — 「デイリーチャレンジ」や「タイムアタック」モードで他のプレイヤーと競い合える
+[*] マシンの塗装のカスタマイズとレーサーのアバター
+[*] 最大4人までの分割画面でローカルマルチプレイヤー
+[*] 血の表示をオフにする設定（家族向けの分割画面レースセッション用）
+[*] 100人の対戦相手とのレース！
+[*] ジャンプ台、水たまり、オイル、路面凍結、爆発するドラム缶など、様々なハザード
+[*] 物理演算に基づいた、破壊可能で移動可能なオブジェクト
+[*] フルレングスの楽曲が十数曲収録された高品質なオリジナルサウンドトラック
+[*] グルテンフリーのスペルト小麦への言及や、その他のダジャレ
 [*] DRM-free!
 [/list]
