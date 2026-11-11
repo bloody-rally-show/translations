@@ -384,7 +384,7 @@ settings.reset.btn.full_reset,すべて初期化
 settings.reset.btn.reset_tips,ヒントを初期化
 
 # FOR TRASLATORS: Be very careful to not change text inside brackets (<br>, <size=50%> and such). It is one long line
-settings.reset.about,すべて初期化を行うと：<indent=10%><size=70%> - キャンペーンのセーブデータがすべて削除されます - すべてのマシンが未解放に戻ります - ゲームが終了します <indent=0%><size=100%>削除されないもの： <indent=10%><size=70%> - 実績 - ランキングの記録 - カスタムマシンとコース
+settings.reset.about,すべて初期化を行うと：<br><indent=10%><size=70%><br> - キャンペーンのセーブデータがすべて削除されます<br> - すべてのマシンが未解放に戻ります<br> - ゲームが終了します<br> <indent=0%><size=100%><br>削除されないもの：<br> <indent=10%><size=70%><br> - 実績<br> - ランキングの記録<br> - カスタムマシンとコース
 
 # Main Menu button tooltips
 
@@ -2467,3 +2467,73 @@ btn.save_track,コース保存
 
 campaign.nitro.ai.balance,AIのニトロ量調整
 campaign.nitro.ai.balance.tip,有効にしていると、AIレーサーが入手するニトロの量が、その強さに応じてわずかに増減します。無効にした場合、ゲームが簡単になりすぎる可能性があるのでご注意ください！
+load.waiting_for_players,プレイヤーを待っています ({0}/{1})
+load.waiting_for_host,ホストを待っています
+dial.race.restart_online,オンラインレースをリスタートできるのはホストだけです
+msg.online_race_cancelled,オンラインレースは中止されました
+
+# v2.0.0 online - machine translation, please review
+main_menu.btn.online,オンライン
+main_menu.btn.tooltip.online,フレンドのためにレースを開催するか、フレンドのレースに参加します
+race.menu.online,メニュー - レースは続行中
+msg.photo_mode_online,オンラインではフォトモードを使用できません
+msg.race_ends_in,レース終了まで {0:0}秒
+msg.time_up,タイムアップ！
+dial.race.exit_online,全員のレースが終了します。よろしいですか？
+msg.racer_left,{0} がレースから離脱
+msg.online_host_left,ホストがゲームを退出しました
+msg.online_connection_lost,ホストとの接続が切れました
+msg.online_kicked,ホストによってゲームから除外されました
+msg.online_ready_cleared,ホストがレースを変更しました：もう一度「準備完了」を押してください
+dial.race.restart_online_host,全員がリマッチのためにセットアップに戻ります。よろしいですか？
+dash.online.ready,準備完了
+dash.online.cancel_ready,準備取消
+dash.online.ready_count,{0}/{1} 準備完了
+dash.online.starts_in,{0}秒
+dash.online.waiting_for_host,ホストを待っています
+dash.online.race_in_progress,レース中
+dash.online.host,ホスト
+dash.online.member_ready,準備完了
+dash.online.downloading_cars,ホストのマシンをダウンロード中 {0}/{1}
+dash.online.waiting_for_downloads,ダウンロードを待っています
+dash.online.players,プレイヤー {0}/{1}
+msg.online_cars_failed,ホストのマシン{0}台をダウンロードできませんでした：別のマシンとして表示されます
+dash.invite_friends,フレンドを招待
+dash.tip.invite_friends,フレンドをこのゲームに招待
+dash.leave,退出
+dial.online.leave,オンラインゲームから退出しますか？
+dial.online.leave_host,退出すると全員のゲームが終了します。よろしいですか？
+dial.online.kick,{0} をゲームから除外しますか？
+dial.online.invite_port,同じネットワークのフレンドは、このコンピューターのアドレスとこのポートで参加できます：
+dial.online.invite_unavailable,Steamオーバーレイを使用できません：Steamからフレンドを招待してください
+dial.race.race_alone_online,単独でのレースは感心せんな。フレンドを招待するか、「+1」「+10」ボタンで対戦相手を追加しろ！
+online.btn.host,ゲームを開催
+online.btn.host_lan,LANで開催
+online.btn.join_address,アドレスで参加
+online.join_address,このアドレスのゲームに参加：
+online.join_address.placeholder,アドレス:ポート
+online.hosting,ゲームを作成中...
+online.joining,{0} に参加中...
+online.joining_friend,フレンドのゲームに参加中...
+online.friend_game.asking,Steamに問い合わせ中
+online.friend_game.other_version,バージョン {0}
+online.friend_game.full,満員
+online.steam_not_running,Steamが起動していません
+online.no_friend_games,オンラインでプレイ中のフレンドはいません
+dial.online.bad_address,「{0}」に参加できません：ホストのアドレスとポートを入力してください（例：192.168.1.20:26860）
+msg.online_connect_failed,ゲームに接続できませんでした
+msg.online_full,ゲームは満員です
+msg.online_version,ホストのバージョンは {0}、あなたのバージョンは {1} です
+msg.online_other_version,ホストは別のバージョンのゲームを使用しています
+msg.online_host_failed,オンラインゲームを作成できませんでした
+dash.chat,チャット
+dash.chat.placeholder,メッセージを入力してEnterを押してください
+dash.chat.joined,{0} が参加しました
+dash.chat.left,{0} が退出しました
+dash.online.ping,{0} ms
+online.friend_game,{0} ({1}/{2})
+online.friend_game.not_joinable,{0}: {1}
+
+# v2.0.0 rubber banding setting - machine translation, please review
+settings.gameplay.rubber_banding,ラバーバンド
+settings.gameplay.rubber_banding_tip,弱い相手は大きくリードすると減速し、大きく遅れるとペースを上げます。オフにすると、すべての相手が本来のペースで走ります。

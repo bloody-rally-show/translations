@@ -1,63 +1,67 @@
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamRace.gif[/img]
 
-A unique mashup of racing, car battle and roguelite brings you an infinite variety of race tracks and procedurally generated campaigns with dystopian story and AI generated conversations, missions and challenges. 
+Bloody Rally Show is a top-down combat racer set on a dystopian reality TV show. Drift, boost, ram and shoot your way to the front, keep the viewers entertained, and try to still have a car at the end of it.
 
-Race fast cars with satisfying controls across infinite variety of randomly generated and handcrafted tracks.
-Compete for glory against other people in Steam Leaderboards.
-
-[img]{STEAM_APP_IMAGE}/extras/BRSSteamFight1.gif[/img]
-
-Use weapons and your car's inertia to fight other racers in free style Battle Mode.
-Add Weapon Zones to regular races to spice things up.
+[b]Race your friends online[/b]
+Host a Custom Race, invite your Steam friends and settle things on the track. Online is friends-only: there are no public lobbies or matchmaking, you play with your Steam friends.
+[list]
+[*] Race, or fight it out in Car Battle, with AI racers to fill the grid
+[*] Everyone picks their own car, paint job and upgrades
+[*] Add weapons, missions, the director's car and helicopter fire
+[*] Race on foot, which is exactly as bad an idea as it sounds
+[*] The host's custom tracks and Workshop cars come along automatically, so nobody has to subscribe to anything
+[*] Runs through Steam, with no ports to forward and no servers to rent
+[/list]
 
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamDrift.gif[/img]
 
-Carefully tuned, physics based car handling is in the sweet spot between arcade and sim, easy to handle, difficult to master. Learn to handle and drift your cars on different surfaces, feel when your car loses grip and regains traction.
+[b]Racing[/b]
+Physics-based handling in the sweet spot between arcade and sim: easy to pick up, difficult to master. Learn how your car behaves on different surfaces, feel when it loses grip, and catch it before the wall does.
+[list]
+[*] An endless supply of randomly generated tracks, plus handcrafted ones
+[*] Nitro boost that rewards picking your moment
+[*] Ramps, jumps, puddles, oil spills, ice patches and explosive barrels
+[*] Props that move, break and get in the way
+[*] Daily Challenge and Time Attack against other players' ghosts
+[*] A plethora of Leaderboards, where skill is the only way to the top
+[/list]
 
-Daily Challenge and Time Attack mode will let you race against other player ghosts. Skill is the only thing that will get you to the top of the Leaderboards.
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamFight1.gif[/img]
+
+[b]Car battles[/b]
+Use weapons and your car's inertia to frag everyone else while a battle royale-style shrinking area closes in. Or add Weapon Zones to a regular race, when a clean win feels too easy.
+
+[b]Campaign[/b]
+Procedurally generated campaigns with a dystopian story, missions and challenges. Earn XP, level up your racer, and tune and upgrade your car to keep your paymasters happy.
+[list]
+[*] Play solo, in local co-op, or over Steam Remote Play Together
+[*] Names of top Leaderboard players show up as AI racers
+[*] Enter a race on foot in Pedestrian Mode, take photos of passing cars for cash, and try to afford the medical bills
+[/list]
 
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamCreate.gif[/img]
 
-Create your own race tracks and cars with advanced in-game editors that were used to create all the content of the game itself. Full developer tooling is at your fingertips, and it's made as easy to use as possible.
-
-Share your creations with others in Steam Workshop.
+[b]Build your own[/b]
+Create tracks and cars with the same in-game editors that were used to make all the content in the game. Share your creations on Steam Workshop, and download what other people have built.
 
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamCustomize.gif[/img]
 
-Use your own images for racer avatars and car paint jobs, change the names of your opponents in campaign or custom race mode. 
-Customize the paint job of your car by adding layers of details. Make this game your own.
+[b]Make it yours[/b]
+Use your own images for racer avatars and car paint jobs, add layers of details to your paint job, and change the names of your opponents in campaign or Custom Race. Name them after people you have a problem with.
 
 [img]{STEAM_APP_IMAGE}/extras/BRSConsole.gif[/img]
 
-Use a built-in operating system (OK, OK, it's just a console), where you can run experiments that adjust in-game physics, change the game logic, and do other cool stuff!
+[b]A built-in operating system[/b]
+OK, OK, it's just a console. But you can run experiments that adjust the physics, change the game logic and do other cool stuff.
 
-
-Key features:
+[b]Also included[/b]
 [list]
-[*] Satisfying arcade/sim style car physics (handling, drifting, speed)
-[*] Infinite amount of randomly generated Race Tracks 
-[*] Campaign mode with missions, challenges and AI storyteller
-[*] Car battle mode with Battle Royal style shrinking area
-[*] Pedestrian Mode, never seen before in other racing games!
-[*] Strategic nitro boost mechanic
-[*] Races with weapons and powerups
-[*] Play campaigns in single player, local couch co-op, or Steam Remote Play Together
-[*] Possibility to share your custom built cars and tracks on Steam Workshop for others to enjoy
-[*] Racer XP and level-up
-[*] Car tuning and upgrades
-[*] Adaptive AI opponents that have same physics based controls as the player, have emotions and character, and do stupid things from time to time 
+[*] Split screen local multiplayer for up to 4 players
+[*] Offline races with up to 100 cars
+[*] AI racers of every skill level, who do stupid things from time to time
 [*] Nearly 50 achievements
-[*] Plethora of different Leaderboards
-[*] Names of top players from Leaderboards appear in player campaigns as AI racers
-[*] Daily Challenge with different combination of track / car to compete against other players
-[*] Asynchronous online multiplayer via Ghost Replays in Steam Leaderboards - race against other people in Daily Challenge and Time Attack mode
-[*] Custom paint jobs and racer avatars
-[*] Split Screen Local multiplayer for up to 4 players
-[*] Configuration setting to turn off blood (for family friendly split screen racing sessions)
-[*] Races with 100 opponents!
-[*] Ramps and jumps, puddles, oil spills, ice patches, explosive barrels and other hazards
-[*] Destroyable and movable physics based props 
-[*] High quality OST with dozen of full-length tunes
+[*] High quality OST with a dozen full-length tunes
+[*] A setting to turn off the blood, for family-friendly split screen sessions
 [*] References to gluten free spelta bread and other bad jokes
-[*] DRM-free!
+[*] DRM-free! (Online play, Leaderboards and Workshop do need Steam)
 [/list]

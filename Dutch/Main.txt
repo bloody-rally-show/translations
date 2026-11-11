@@ -66,7 +66,7 @@ term.pending,Wachtend
 term.points,Punten
 term.drifts,Drifts
 term.mode,Modus
-term.battle,Gevecjt
+term.battle,Gevecht
 term.car_battle,Auto Gevecht
 term.time_attack,Tijdsaanval
 term.race,Race
@@ -172,7 +172,7 @@ campaign.btn.load,Laden
 campaign.saves,Saves
 campaign.no_saves,Geen Saves
 campaign.btn.tips,Hints
-campaign.dialogue.cannot_continue,Je kan niet verder in deze Campagne, Deze is beeindigd.
+campaign.dialogue.cannot_continue,Je kan niet verder in deze Campagne, Deze is beëindigd.
 
 campaign.difficulty,Moeilijkheidsgraad
 campaign.difficulty.easy,Makkelijk
@@ -203,7 +203,7 @@ campaign.workshop_content.tip,Voegt geabboneerde Steam Workshop Autos en Circuit
 campaign.allow_heavy_tracks,Sta veeleisende circuits toe
 campaign.allow_heavy_tracks.tip,Voegt eigen en Workshop circuits toe met een hoge object dichthoud, Dit kan slechte invloed hebben op je prestaties.
 
-campaign.btn.start_new,Start Niewe Campagne
+campaign.btn.start_new,Start Nieuwe Campagne
 
 # Main Menu => Custom Race
 
@@ -376,7 +376,7 @@ settings.audio.car_engine,Motorgeluiden
 settings.audio.tire_skid,Piepende Banden
 settings.audio.crowd_noise,Publiek Geluiden
 settings.audio.sound_fx,Geluidseffecten
-settings.audio.btn.reset_to_defaults,Resetten naar staandaard
+settings.audio.btn.reset_to_defaults,Resetten naar standaard
 
 # Settings -> Reset
 
@@ -471,8 +471,8 @@ gen.loading,Geduld aub...<br>Laden
 dash.garage,Garage
 dash.no_car_warning,Je hebt nog geen auto!
 dash.btn.buy_car,Koop een auto
-dash.end_campaign,Beeindig Campagne 
-dash.end_season,Beeindig Seizoen
+dash.end_campaign,Beëindig Campagne 
+dash.end_season,Beëindig Seizoen
 dash.end_season.tip,Ga door naar het volgende seizoen
 dash.advance_week,Volgende
 dash.advance_week.tip,Ga verder naar de volgende week
@@ -580,7 +580,7 @@ rew.dmg_taken,Schade Geleden
 rew.dmg_given,Schade Gegeven
 rew.unused_nitro,Ongebruikte Lachgas
 rew.corner_cut,Bochten Afsnijden
-rew.good_photos,Kwaliteitsfotos Gemaak
+rew.good_photos,Kwaliteitsfotos Gemaakt
 rew.close_calls,Bijna Raak
 rew.survival_bonus,Overlevingsbonus
 rew.place,{0} Plaats
@@ -670,8 +670,8 @@ paint.select_pattern,Selecteer Patroon
 paint.change_color,Verander Kleur
 paint.rotate_left,Roteer Links
 paint.rotate_right,Roteer Rechts
-paint.zoom_out,Zoom Uit
-paint.zoom_in,Zoom In
+paint.zoom_out,Uitzoomen
+paint.zoom_in,Inzoomen
 paint.reduce_opacity,Verminder Transparantie
 paint.increase_opacity,Verhoog Transparantie
 paint.move,Verplaats
@@ -694,7 +694,7 @@ race.btn.exit_desktop,Sluit het Spel af
 race.btn.restart,Herstart
 race.btn.photo_mode,Foto Modus
 race.btn.speed_up,Versnel
-race.btn.end,Beeindig Race
+race.btn.end,Beëindig Race
 race.finished,Eindstreep Bereikt
 race.waiting,Wachten ({0:0}s)
 
@@ -723,7 +723,7 @@ act.Handbrake,Handrem
 act.ResetCar,Herplaats Auto
 act.Zoom,Wissel Camera Afstand
 act.Nitro,Lachgas
-act.Fire,Vuur Wapon Af
+act.Fire,Vuur Wapen Af
 act.DropWeapon,Laat Weapon Vallen
 
 act.EditorZoom,Zoom
@@ -786,7 +786,7 @@ tr.gen,Genereer
 tr.gen.full_circuit,Compleet Gesloten Circuit
 tr.gen.full_circuit.tip,Genereer een Gesloten Circuit met bochten en objecten, zal huidig circuit overschrijven.
 tr.gen.full_open,Compleet Open Circuit
-tr.gen.full_open.tip,Genereeer een Open Circuit met bochten en objecten, zal huidige weg overschijven.
+tr.gen.full_open.tip,Genereer een Open Circuit met bochten en objecten, zal huidige weg overschrijven.
 tr.gen.circuit,Gesloten Circuit
 tr.gen.circuit.tip,Genereer een Gesloten Circuit zonder objecten, Zal de huidige track en alle objecten overschrijven.
 tr.gen.open,Open Circuit
@@ -803,7 +803,7 @@ tr.gen.flowers,Bloemen
 tr.gen.flowers.tip,Genereert Bloemen, dit verwijdert alle huidige Bloemen en doet niks in Stad Circuits.
 tr.gen.bushes,Bosjes
 tr.gen.bushes.tip,Genereert Bosjes, dit verwijdert alle huidige Bosjes en doet niks in Stad Circuits.
-tr.gen.rocks,Rocks
+tr.gen.rocks,Rotsen
 tr.gen.rocks.tip,Genereert Stenen, dit verwijdert alle huidige Stenen.
 tr.gen.tires,Banden
 tr.gen.tires.tip,Genereert Banden, dit verwijdert alle huidige Banden.
@@ -881,7 +881,7 @@ tr.add_obj.crowd.tip,Publiek Cirkel die voetgangers zal plaatsen als je klikt, K
 tr.add_obj.cone,Pion
 tr.add_obj.cone.tip,Houd ingedrukt om rijen te plaatsen.
 tr.add_obj.tire,Band
-tr.add_obj.tire.tip,Houd ingeedrukt om rijen te plaatsen.
+tr.add_obj.tire.tip,Houd ingedrukt om rijen te plaatsen.
 tr.add_obj.porta_potty,Dixie
 tr.add_obj.porta_potty.tip,Dixies omrijden geeft je wat extra lachgas.
 tr.add_obj.barrel,Ton
@@ -1544,7 +1544,7 @@ cut.hitobj.intro.gov.pos.4,De schoonmaakploeg voert hun werk niet goed uit, dus 
 cut.hitobj.intro.gov.pos.5,Ik heb een leuke uitdaging voor jouw mijn vriend.
 
 # {0} insult plural (clowns), {1} - curse adverb (friggin time)
-cut.hitobj.intro.gov.neg.1,Luister, Ik ben klaar met jullie {0} en jullie {1} roekeloze rijgedrag.
+cut.hitobj.intro.gov.neg.1,Luister, Ik ben klaar met jullie {0} en jullie roekeloze rijgedrag.
 cut.hitobj.intro.gov.neg.2,Er is een tekort aan voorraad de laatste tijd, Dus ik wil het je vriendelijk vragen.
 # {0} insult plural (clowns)
 cut.hitobj.intro.gov.neg.3,Ik ben in de stemming voor orde vandaag, Alles moet op zijn plaats blijven staan. Dus je gaat maar eens fatsoenlijk rijden, {0}!
@@ -1625,7 +1625,7 @@ cut.prank.gov.laugh.6,*grijnst*
 
 cut.prank.player.react.1,Ik moet toegeven, dit gelach is aanstekelijk.
 # {0} - curse adverb (friggin)
-cut.prank.player.react.2,Wat is er zo {0} grappig?
+cut.prank.player.react.2,Wat is er zo verdomd grappig?
 # {0} will be a government agent name
 cut.prank.player.react.3,Ik heb een gevoel dat dit niet zo grappig zal wezen voor mij, heb ik gelijk, {0}?
 # {0} will be a government agent name
@@ -1858,7 +1858,7 @@ cut.freedom.shoes,schoenen
 ### Campaign Season Finished
 
 # {0} - player name
-cut.season.alive1.1,{0}, hoe heb je dit ooit gedaan? We moesten het seizoen zelfs vroeg beeindigen vanwege jouw!
+cut.season.alive1.1,{0}, hoe heb je dit ooit gedaan? We moesten het seizoen zelfs vroeg beëindigen vanwege jouw!
 # {0} - clowns
 cut.season.alive1.2,Wat kan ik zeggen, het waren een stelletje {0}.
 cut.season.alive1.3,Ik moet toegeven Ik mocht je altijd graag. We hebben mensen zoals jouw nodig hier bij SOFACT. Wanneer je klaar bent met je race carriere zou ik je nog wel eens een baan aan kunnen bieden.
@@ -1940,8 +1940,8 @@ dial.camp.resurrect_no_cash,{0} Had niet genoeg geld om de ziekenhuisrekening te
 # {0} - clowns
 dial.camp.all_broke,Hoe hebben jullie {0} het voor elkaar gekregen om allemaal tegelijkertijd geen geld meer te hebben. De voorstelling moet duur, SOFACT geeft jullie allemaal $20000. Koop er wat moois van.
 # {0} - name, {1} - clown
-dial.camp.early_win,Wauw, {0}, Je hebt iedereen uitgeschakeld! We moeten dit seizoen wel vroeg beeindigen. Gefeliciteerd, Jij {1}, Je hebt gewonnen!
-dial.camp.on_camp_fail,Het spijt me om mee te delen, Maar je moet in de top 3 eindigen om door te gaan. En omddat je geen ${0} hebt om je schuld af te betalen, Is het afgelopen voor jouw mijn vriend.
+dial.camp.early_win,Wauw, {0}, Je hebt iedereen uitgeschakeld! We moeten dit seizoen wel vroeg beëindigen. Gefeliciteerd, Jij {1}, Je hebt gewonnen!
+dial.camp.on_camp_fail,Het spijt me om mee te delen, Maar je moet in de top 3 eindigen om door te gaan. En omdat je geen ${0} hebt om je schuld af te betalen, Is het afgelopen voor jouw mijn vriend.
 dial.camp.congrats_free_man,Gefeliciteerd! Je bent nu een vrij man!
 dial.camp.freedom_not_enough_cash,Het spijt me, maar je hebt niet genoeg geld! Ga naar het volgende seizoen en verdien wat meer!
 dial.camp.exit_confirm,Weet je zeker dat je deze Campagne wil afsluiten? Alle vooruitgang wordt opgeslagen.
@@ -1964,7 +1964,7 @@ dial.upgrade.week_over,Je kan je auto nu niet opvoeren, de week is voorbij! Mont
 dial.upgrade.already_done,Je monteurs werken nog aan je vorige aanpassing! Kom terug na het volgende evenement.
 dial.upgrade.no_cash,Je kan je dit niet veroorloven!
 
-dial.camp.load_finished,Weet je zeker dat je verder wil met deze Campagne? Hij is al beeindigd!
+dial.camp.load_finished,Weet je zeker dat je verder wil met deze Campagne? Hij is al beëindigd!
 dial.camp.delete_confirm,Weet je zeker dat je deze Campagne wil verwijderen?
 dial.camp.name_required,Je moet een Campagne naam invoeren!
 dial.camp.name_taken,Er is al een Campagne met deze naam!
@@ -2000,7 +2000,7 @@ dial.ed.car_name,Auto naam
 
 dial.ed.car_sprites_missing,Sommige benodigde sprites zijn niet gevonden! Neem een kijkje in de gids en zorg dat deze bestanden bestaan: {0}.
 dial.ed.car_sprites_deleted,Je kunt niet gewoon auto sprite bestanden verwijderen! Missende benodigde bestanden zijn vervangen door een transparante pixel: {0}.
-dial.ed.remove_car_name_colon,Verwijder ":" Van je auto naam aub!
+dial.ed.remove_car_name_colon,Verwijder "{0}" uit je auto naam aub!
 dial.ed.car_name_taken,Model naam "{0}" is al in gebruik!
 dial.ed.car_too_fast,SOFACT Regulatie staat niet toe dat autos hun snelheidsindex niet boven de {0} zit voor het opvoeren! Deze auto heeft een snelheidsindex van {1}. Verminder wat parameters om dit op te lossen!
 dial.ed.car_close_confirm,Weet je zeker dat je de auto wil sluiten? Alle onopgeslagen data zal verloren gaan!
@@ -2026,7 +2026,7 @@ dial.leaderboard.ghost_confirm,Wil je tegen de spook van {0} racen?
 dial.leaderboard.ghost_confirm_daily_stale,Het is niet de uitdaging van vandaag, Dus de Ranglijst voor de dag uitdaging wordt niet bijgewerkt, Maar de Circuit Ranglijst wel.
 
 dial.input_reset,Spel invoer structuur is aangepast door de ontwikkelaar, Je invoer toewijzing is teruggezet naar de standaard. Je kunt ze opnieuw aanpassen in "Instellingen" > "Invoer". Excuses voor het ongemak!
-dial.settings_reset,Spel configuratie structuur is aangepast door de ontwikkelaar, Je installingen zijn teruggezet naar de standaard. Excuses voor het ongemak!
+dial.settings_reset,Spel configuratie structuur is aangepast door de ontwikkelaar, Je instellingen zijn teruggezet naar de standaard. Excuses voor het ongemak!
 dial.stat_reset_dev,Ontwikkelaar heeft een volledige statistieken reset uitgevoert. Excuses voor het ongemak.
 dial.are_you_sure,Weet je het zeker?
 
@@ -2036,7 +2036,7 @@ dial.race.race_alone,Je moet niet alleen willen racen, tenzij je in Tijdsaanval 
 dial.race.no_track,Selecteer eerst een circuit!
 
 dial.race.restart_hardcore,Je speelt Hardcore, weet je nog? Dat betekent dus geen herstart voor jouw!
-dial.race.restart_dead,Sorry, we kunnen de race niet herstarten nadat er iemand is dood gegaan. Wacht aub tot de race is beeindigd en de medische dienst zal hun best doen.
+dial.race.restart_dead,Sorry, we kunnen de race niet herstarten nadat er iemand is dood gegaan. Wacht aub tot de race is beëindigd en de medische dienst zal hun best doen.
 dial.race.restart_ped,Sorry, Voetgangers hebben niet het recht om de race te herstarten!
 dial.race.restart_confirm,Weet je het zeker? Een herstart zal je ${0} kosten. Je hebt nu nog ${1}
 dial.race.restart_no_cash,Sorry, Je hebt niet genoeg geld om de race te herstarten. Even doorbikkelen.
@@ -2060,7 +2060,7 @@ dial.ed.track_quit_confirm,Weet je zeker dat je de Circuiteditor wil verlaten? N
 dial.ed.track_last_2_points,Kan de laatste 2 circuit punten niet verwijderen!
 dial.ed.loop_autoclose,Ziet er naar uit dat het Circuit probeert te sluiten.. Je kunt het "Open/sluit" gereedschap gebruiken, Maar ik hem deze keer voor je gesloten.
 
-dial.on_success, Bij success: {0}
+dial.on_success, Bij succes: {0}
 dial.on_fail, Bij falen: {0}
 dial.tip,Hint: {0}
 dial.confirm,Bevestig
@@ -2075,11 +2075,11 @@ dial.car_model_unavailable,Hey, het auto model "{0}" is niet langer beschikbaar!
 
 msg.track_high_obj_density,Dit circuit een te hoge object dichtheid van ({0:0} / 100m).\nHij zal niet automatisch meegenomen worden in aangepaste campagnes!
 msg.track_high_crowd_density,Dit circuit heeft een te hoge publiek dichtheid van ({0:0} / 100m).\nHij zal niet automatisch meegenomen worden in aangepaste campagnes!
-msg.cheats_leaderboards,Ranglijsten niet beschikbaar! Je hebt met de console lopen prutsen en waardes in het spel aaangepast. Herstart de game om weer toegang te krijgen tot de Ranglijsten.
+msg.cheats_leaderboards,Ranglijsten niet beschikbaar! Je hebt met de console lopen prutsen en waardes in het spel aangepast. Herstart de game om weer toegang te krijgen tot de Ranglijsten.
 msg.track_load_failed,Circuit is niet correct geladen, hij is echter corrupt of onbeschikbaar! Probeer het opnieuw of hergenereer hem.
 msg.race_input_restart_warning,Waarschuwing: Het aanpassen van de invoer toewijzing vereist dat je het evenement opnieuw start!
 msg.failed_deleting_folder,Niet gelukt om de map te verwijderen. Wees zeker dat je geen open bestanden hebt<br>{0}
-msg.missing_car_model,Een Auto model is niet beschikbaar. ID: {0}.<br>Waarschijnlijk ben je niet meer geabboneerd of heb je een aangepaste auto verwijdert.
+msg.missing_car_model,Een Auto model is niet beschikbaar. ID: {0}.<br>Waarschijnlijk ben je niet meer geabonneerd of heb je een aangepaste auto verwijdert.
 msg.missing_controls,Invoer toewijzing niet correct
 msg.gen.analyzing_road,Analyseren van bochten in het circuit
 msg.gen.calculating_lines,Calculeren van race lijnen
@@ -2138,8 +2138,8 @@ msg.close_call,Bijna raak!
 msg.photo_reward,Beloning voor Foto: ${0}
 msg.inflicted_dmg,Schade Gemaakt
 msg.dmg_warning,Schade Kritiek
-msg.over_50_pct,Over 50%
-msg.over_75_pct,Over 75%
+msg.over_50_pct,Meer dan 50%
+msg.over_75_pct,Meer dan 75%
 msg.jump_completed,Sprong Voltooid
 msg.nitro_boost,Lachgas gebruik
 msg.hit_combo,Raak combi
@@ -2247,7 +2247,7 @@ tut.basic_driving.1,- Houd {Action.Accelerate} ingedrukt om te accelereren<br>- 
 tut.basic_driving.2,- Anticipeer de bochten zo vroeg mogelijk<br>- Start met remmen voor scherpe bochten<br>- Gebruik {Action.Brake} om te remmen<br>- Het loslaten van {Action.Accelerate} zal je snelheid ook verminderen
 tut.basic_driving.3,- Als je ziet dat je gaat overschieten, gebruik dan de handrem<br>- Druk op {Action.Handbrake} om de handrem te gebruiken
 
-tut.camera.head,Camera Controls
+tut.camera.head,Camerabediening
 tut.camera.1,- Er zijn verschillende camera afstanden en rotatie modussen beschikbaar om uit te kiezen<br>- Druk op {Action.Zoom} Om door de afstand niveaus te bladeren<br>- Met ver zie je je auto altij van heel hoog, maar wolken kunnen je zicht verminderen
 tut.camera.2,- Dichtbij geeft je een close up zicht van je auto<br>- Het kan heel uitdagend zijn om te rijden omdat je niet veel van de weg voor je ziet<br>- Je kan de mini kaart gebruiken om bochten te anticiperen
 tut.camera.3,- Druk op {Action.Camera} om de camera rotatie modi te wisselen<br>- Fixeer Weg camera zal helemaal niet roteren
@@ -2285,7 +2285,7 @@ tut.camp.stage_rewards.1,- Na de race ga je wat prijsgeld winnen voor je acties<
 tut.camp.stage_rewards.2,- Standaard worden alleen speler beloningen weergeven<br>- Druk op Alle Racers om te zien wat alle individuele racers hebben gekregen
 
 tut.camp.car_upgrades.head,Auto Opvoeren
-tut.camp.car_upgrades.1,- Je hebt een verbetering voor je auto vrijgespeelt<br>- Klik op het onderdeel icoon om het opvoer menu te openen<br>- Opvoerbare onderdelen hebben een klein pijltje omhoog naast het icoon
+tut.camp.car_upgrades.1,- Je hebt een verbetering voor je auto vrijgespeeld<br>- Klik op het onderdeel icoon om het opvoer menu te openen<br>- Opvoerbare onderdelen hebben een klein pijltje omhoog naast het icoon
 tut.camp.car_upgrades.2,- Klik op de prijs knop om de auto op te voeren<br>- Meer verbeteringen zullen vrijspelen naarmate je hogere niveaus behaalt
 
 tut.car_damage.head,Auto Schade
@@ -2302,7 +2302,7 @@ tut.custom_race_dash.head,Aangepaste Race Menu
 tut.custom_race_dash.1,- Welkom bij Aangepaste Race. Het lijkt misschien wat ontmoedigend, dus hier is wat hulp<br>- Als je met je vrienden wil spelen, druk op de speler toevoegen knop<br>- Je kan ook CPU racers toevoegen op deze manier
 tut.custom_race_dash.2,- Om snel willekeurige CPU tegenstanders toe te voegen, gebruik de "+1" en "+10" knoppen<br>- Je kan een race tegen een hele hoop mensen doen!<br>- Om alle racers behalve jezelf te verwijderen druk dan op "0"
 tut.custom_race_dash.3,- Anders dan Campagne modus, hier kan je gewoon kiezen welke verbeteringen je wil op je auto<br>- Druk op het onderdeel om door de verbetering niveaus te bladeren<br>- Je kan individuele verbeteringen aanpassen voor elke racer
-tut.custom_race_dash.4,- Er zijn sommige spel modi waar je tussen kunt kiezen<br> - "Race" is een normale race tegen andere spelers<br>- "Tijdsaanval" is om goede tijden neer te zetten in de Ranglijsten<br>- In "Auto Gevecht" heb je een tijdslimiet en wapens, je moeft niet op een circuit te rijden.
+tut.custom_race_dash.4,- Er zijn sommige spel modi waar je tussen kunt kiezen<br> - "Race" is een normale race tegen andere spelers<br>- "Tijdsaanval" is om goede tijden neer te zetten in de Ranglijsten<br>- In "Auto Gevecht" heb je een tijdslimiet en wapens, je hoeft niet op een circuit te rijden.
 tut.custom_race_dash.5,- Selecteer een circuit waar je op wil racen<br>- Je kan ook een uniek circuit genereren<br>- Verkrijg meer circuits in de Steam Workshop of maak je eigen in de Circuiteditor
 tut.custom_race_dash.6,- Nadat je de aangepaste race helemaal hebt ingesteld klik je op de rode knop in de linkeronderhoek om het evenement te beginnen
 
@@ -2365,7 +2365,7 @@ tut.ramps.2,- Superschansen laten je ook springen, maar deze geven je ook nog ee
 tut.track_ed.obj_place.head,Circuiteditor: Objecten Plaatsen
 tut.track_ed.obj_place.1,- Klik eenmal op {Action.PlaceObject} om een object te plaatsen<br>- Houd {Action.PlaceObject} ingedrukt en sleep om een rij met objecten te plaatsen<br>- Gebruik {Action.RotateObject} om objecten te roteren voor het plaatsen
 
-tut.m2.head,Weapon: M2
+tut.m2.head,Wapen: M2
 tut.m2.1,- Je hebt zojuist een M2 gekregen!<br>- De M2 is een krachtig projectiel gebaseert wapen<br>- Houd {Action.Fire} ingedrukt om te vuren naar je tegenstanders<br>- Als je het wapen niet leuk vind kan je hem altijd laten vallen met {Action.DropWeapon}
 
 tut.mad_fax.head,Weapon: Gekke Printer
@@ -2378,7 +2378,7 @@ tut.ped_cannon.head,Weapon: Voetganger Kannon
 tut.ped_cannon.1,- Je hebt zojuist een voetganger kannon gekregen!<br>- Het kannon is al voorgeladen met een exploderende voetganger<br>- Druk op {Action.Fire} om de voetganger naar je tegenstanders te schieten
 tut.ped_cannon.2,- Rijd over een voetganger (dood of levend) om het kannon te herladen<br>- Of wacht 10 secondedn tot een voetganger kogel wordt gekloont en het kannon zichzelf herlaad<br>- Als je een wapen niet prettig vind kan je deze altijd laten vallen met {Action.DropWeapon}
 
-tut.railgun.head,Weapon: Railgun
+tut.railgun.head,Wapen: Railgun
 tut.railgun.1,- Je hebt zojuist een Railgun gekregen!<br>- De Railgun is een langzaam maar extreem krachtig projectiel wapen<br>- Druk op {Action.Fire} om de tegenstanders voor je te raken<br>- Als je een wapen niet prettig vind kan je deze altijd laten vallen met {Action.DropWeapon}
 
 tut.saw.head,Weapon: Zaag
@@ -2391,7 +2391,7 @@ tut.spikes.head,Weapon: Robotegel
 tut.spikes.1,- Je hebt zojuist een Robotegel gekregen!<br>- Het is een Doelzoekende Exploderende Robotegel die chaos veroorzaakt<br>- Druk op {Action.Fire} Om de Robotegel los te laten
 tut.spikes.2,- Wanneer losgelaten zal de Doelzoekende Bom de dichtsbijzijnde tegenstander als een doelwit kiezen<br>- Het zal de tegenstander jagen en rammen tot de Robotegel geen energie meer heeft<br>- De Robotegel zal exploderen wanneer deze in contact komt met een object of tegenstander
 
-tut.wreck_ball.head,Wapon: Sloopkogel
+tut.wreck_ball.head,Wapen: Sloopkogel
 tut.wreck_ball.1,- Je hebt zojuist een Sloopkogel gekregen!<br>- Laten we zeggen dat het niet het beste wapen is dat je kunt krijgen<br>- Hij is erg handig in een Auto Gevecht, maar niet zo in een race 
 tut.wreck_ball.2,- Als je een Sloopkogel aan je auto vast hebt zitten heeft dat extreme effecten op het rijgedrag<br>- Als je niet zo van je wapen houd kan je hem altijd laten vallen met {Action.DropWeapon}
 
@@ -2450,6 +2450,90 @@ mission.type.shield,Krachtveld
 mission.type.distribute_spam,Verspreid spam
 mission.type.weaponize,Gewapende auto
 mission.type.your_car_stolen,Je auto is gestolen
+campaign.all_races_with_weapons,Elke Race Met Wapens
+campaign.all_races_with_weapons.tip,Wapens en powerups in elke race! Extra gek! Niet aanbevolen voor beginnende spelers.
+btn.get_full_game,Koop Het Volledige Spel
+prologue.not_available,Niet Beschikbaar In De Proloog
+prologue.full_features,Koop de volledige versie van Bloody Rally Show om deze functies vrij te spelen:<br>- Onbeperkte Campagne Modus<br>- Aangepaste Race Modus om met vrienden te spelen<br>- Steam Workshop om auto's en circuits te delen<br>- Heel veel community content voor Campagne en Aangepaste Race<br>- Ranglijsten en Prestaties
+campaign.nitro,Lachgas
+campaign.nitro.tip,Lachgas uitschakelen zorgt voor minder chaos
+dial.invalid_name,Verwijder deze tekens uit de naam aub: {0}
+dial.campaign_stage_file_missing,Kan het evenement niet laden, het campagne bestand ontbreekt (waarschijnlijk kon het niet naar de schijf worden geschreven, draai de circuitkaart om en genereer opnieuw): {0}
+track.seed,Voer Seed In 
+track.seed.placeholder,Tekst of getal
+btn.save_track,Circuit Opslaan
+campaign.nitro.ai.balance,AI Lachgas Balans
+campaign.nitro.ai.balance.tip,Indien ingeschakeld krijgen AI racers iets meer of minder lachgas, afhankelijk van hun niveau. Let op, uitschakelen kan het spel te makkelijk maken!
+load.waiting_for_players,Wachten op spelers ({0}/{1})
+load.waiting_for_host,Wachten op de host
+dial.race.restart_online,Alleen de host kan een online race herstarten
+msg.online_race_cancelled,De online race is geannuleerd
  
 main_menu.label.review_steam,recensie op Steam
 main_menu.label.review_steam.tip,Uw beoordelingen helpen game-ontwikkelaars te overleven!
+
+# v2.0.0 online - machine translation, please review
+main_menu.btn.online,Online
+main_menu.btn.tooltip.online,Organiseer een race voor je vrienden, of doe mee met die van hen
+race.menu.online,Menu - de race gaat door
+msg.photo_mode_online,Fotomodus is online niet beschikbaar
+msg.race_ends_in,RACE EINDIGT OVER {0:0}s
+msg.time_up,TIJD IS OM!
+dial.race.exit_online,Dit beëindigt de race voor iedereen. Weet je het zeker?
+msg.racer_left,{0} HEEFT DE RACE VERLATEN
+msg.online_host_left,De host heeft het spel verlaten
+msg.online_connection_lost,Verbinding met de host verbroken
+msg.online_kicked,De host heeft je uit het spel verwijderd
+msg.online_ready_cleared,De host heeft de race gewijzigd: druk opnieuw op Klaar
+dial.race.restart_online_host,Iedereen gaat terug naar de race-instellingen voor een revanche. Weet je het zeker?
+dash.online.ready,Klaar
+dash.online.cancel_ready,Klaar annuleren
+dash.online.ready_count,{0}/{1} klaar
+dash.online.starts_in,{0} s
+dash.online.waiting_for_host,Wachten op de host
+dash.online.race_in_progress,Race bezig
+dash.online.host,Host
+dash.online.member_ready,Klaar
+dash.online.downloading_cars,Auto's van de host downloaden {0}/{1}
+dash.online.waiting_for_downloads,Wachten op downloads
+dash.online.players,Spelers {0}/{1}
+msg.online_cars_failed,{0} auto's van de host konden niet worden gedownload: ze worden als andere auto's getoond
+dash.invite_friends,Vrienden uitnodigen
+dash.tip.invite_friends,Nodig vrienden uit voor dit spel
+dash.leave,Verlaten
+dial.online.leave,Het online spel verlaten?
+dial.online.leave_host,Als je vertrekt, eindigt het spel voor iedereen. Weet je het zeker?
+dial.online.kick,{0} uit het spel verwijderen?
+dial.online.invite_port,Vrienden op je netwerk kunnen meedoen via het adres van deze computer en deze poort:
+dial.online.invite_unavailable,De Steam-overlay is niet beschikbaar: nodig je vrienden uit via Steam
+dial.race.race_alone_online,Je kunt beter niet alleen rijden. Nodig een vriend uit, of voeg tegenstanders toe met de "+1" of "+10" knoppen!
+online.btn.host,Spel hosten
+online.btn.host_lan,Hosten op LAN
+online.btn.join_address,Meedoen via adres
+online.join_address,Doe mee met het spel op dit adres:
+online.join_address.placeholder,adres:poort
+online.hosting,Spel aanmaken...
+online.joining,Verbinden met {0}...
+online.joining_friend,Verbinden met het spel van je vriend...
+online.friend_game.asking,Steam raadplegen
+online.friend_game.other_version,versie {0}
+online.friend_game.full,vol
+online.steam_not_running,Steam is niet gestart
+online.no_friend_games,Er zijn nu geen vrienden online aan het spelen
+dial.online.bad_address,Kan niet meedoen met "{0}": typ het adres en de poort van de host, zoals 192.168.1.20:26860
+msg.online_connect_failed,Kon geen verbinding maken met het spel
+msg.online_full,Het spel is vol
+msg.online_version,De host heeft versie {0}, jij hebt {1}
+msg.online_other_version,De host heeft een andere versie van het spel
+msg.online_host_failed,Kon het online spel niet aanmaken
+dash.chat,Chat
+dash.chat.placeholder,Typ een bericht en druk op Enter
+dash.chat.joined,{0} doet mee
+dash.chat.left,{0} is vertrokken
+dash.online.ping,{0} ms
+online.friend_game,{0} ({1}/{2})
+online.friend_game.not_joinable,{0}: {1}
+
+# v2.0.0 rubber banding setting - machine translation, please review
+settings.gameplay.rubber_banding,Rubberbanding
+settings.gameplay.rubber_banding_tip,Zwakkere tegenstanders vertragen als ze ver voorliggen en geven extra gas als ze ver achterliggen. Schakel dit uit om tegen elke tegenstander op zijn echte tempo te racen.

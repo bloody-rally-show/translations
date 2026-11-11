@@ -50,7 +50,7 @@ term.lap,Tour
 term.lap_percent,Tour%
 term.laps,Tours
 # Abbreviate to max 5 characters, or keep "Best"
-term.best,Best
+term.best,Meilleur
 # Max 10 characters
 term.best_lap,Meil. Tour
 # As in person name
@@ -61,7 +61,7 @@ term.ai,IA
 term.week,Semaine
 term.stage,Etape
 term.season,Saison
-term.special,Special
+term.special,Spécial
 term.pending,En attente
 term.points,Points
 term.drifts,Drifts
@@ -117,7 +117,7 @@ term.difficulty,Difficulté
 # Generic buttons (keep short)
 
 btn.back,Retour
-btn.continue,Continue
+btn.continue,Continuer
 btn.apply,Valider
 btn.close,Fermer
 btn.refresh,Rafraichir
@@ -144,8 +144,8 @@ btn.disable_tips,Désactiver astuces
 
 # Keep these very short. On / off can be translated same as yes / no to keep them shorter
 
-btn.on,On
-btn.off,Off
+btn.on,Activé
+btn.off,Désactivé
 btn.yes,Oui
 btn.no,Non
 btn.ok,OK
@@ -184,7 +184,7 @@ campaign.difficulty.dialogue.locked,La difficulté sélectionnée est bloquée. 
 
 campaign.name,Nommer la campagne
 
-campaign.missions_challenges,Missions & Challenges
+campaign.missions_challenges,Missions et défis
 campaign.missions_challenges.tip,Certaines étapes auront des missions et challenges aléatoires.
 campaign.races_with_weapons,Courses avec armes
 campaign.races_with_weapons.tip,Certains circuits auront des armes et powerups déposés au sol le long du tracé.
@@ -200,7 +200,7 @@ campaign.custom_content,Circuits et Auto Custom
 campaign.custom_content.tip,Inclure vos créations de circuits et autos custom.
 campaign.workshop_content,Inclure les circuits et autos du Workshop
 campaign.workshop_content.tip,Inclure les circuits et autos abonnés sur Steam Workshop
-campaign.allow_heavy_tracks,Autoriser les circuits avec une importante densité d'object
+campaign.allow_heavy_tracks,Autoriser les circuits avec une importante densité d'objets
 campaign.allow_heavy_tracks.tip,Inclure les circuits du workshop steam qui ont une importante densité d'object qui pourrait négativement impacté les perfomance du jeu
 
 campaign.btn.start_new,Commencer une nouvelle Campagne
@@ -217,7 +217,7 @@ custom_race.btn.random_battle,Combat rapide
 
 editors_mods.btn.track_editor,Editeur de circuit
 editors_mods.btn.car_editor,Editeur auto
-editors_mods.btn.mod_manager,Mod Manager
+editors_mods.btn.mod_manager,Gestionnaire de mods
 
 # Main Menu => Mod Manager
 
@@ -226,7 +226,7 @@ mods.section.cars,Auto abonnés
 mods.btn.open_workshop,Parcourir Workshop
 mods.btn.manage_tracks,Circuits
 mods.btn.manage_cars,Autos
-mods.btn.reload,Reload Mods
+mods.btn.reload,Recharger les mods
 mods.btn.unsubscribe.tip,Retirer
 mods.btn.view_online.tip,Voir en ligne
 
@@ -276,31 +276,31 @@ leaderboard.seconds_drifted,Secondes Drifté
 # DO NOT TRANSLATE THIS ONE! JUST COPY IT BUT KEEP ENGLISH!
 settings.btn.language,Langage
 
-settings.btn.video,Video
-settings.btn.visuals,Visuals
+settings.btn.video,Vidéo
+settings.btn.visuals,Visuels
 settings.btn.gameplay,Gameplay
 settings.btn.audio,Audio
-settings.btn.input,Input
-settings.btn.reset,Reset
+settings.btn.input,Commandes
+settings.btn.reset,Réinitialiser
 
 # Settings -> Video
 
 settings.video.quality_warning,Cette qualité visuelle pourrait ne pas être optimale pour votre matériel!
 settings.video.resolution_warning,Cette résolution pourrait ne pas être optimale pour votre matériel!
-settings.video.vsync_tip,If you have frame sutter, disabling VSYNC and setting high FPS limit could help
+settings.video.vsync_tip,En cas de saccades, désactiver la VSync et définir une limite de FPS élevée peut aider
 settings.video.quality,Qualité
 settings.video.quality.performance,Performance
 settings.video.quality.quality,Qualité
-settings.video.resolution,Resolution
+settings.video.resolution,Résolution
 settings.video.window_mode,Mode fenétré
 settings.video.window_mode.full_screen_exclusive,Plein écran (Exclusif)
 settings.video.window_mode.full_screen_window,Plein écran (Fenétré)
 settings.video.window_mode.windowed,Fenétré
 # Don't translate this one, just copy
 settings.video.vsync,VSync
-settings.video.vsync.off,Off
-settings.video.vsync.on,On (Every Frame)
-settings.video.vsync.on_every_2,On (Every 2nd Frame)
+settings.video.vsync.off,Désactivé
+settings.video.vsync.on,Activé (chaque image)
+settings.video.vsync.on_every_2,Activé (1 image sur 2)
 settings.video.fps_limit,Limite FPS (images par seconde)
 settings.video.particle_density,Densité particule
 settings.video.particle_density_tip,Affecte l'épaisseur de la fumée des drifts, route, et poussières
@@ -311,7 +311,7 @@ settings.video.btn.set_optimal_tip,Appliquera la résolution et la qualité selo
 
 settings.visuals.ui_scale,Echelle interface
 settings.visuals.ui_scale_tip,Redimensionne l'interface
-settings.visuals.speed_units,Speed Units
+settings.visuals.speed_units,Unités de vitesse
 settings.visuals.show_blood,Afficher sang
 settings.visuals.show_racer_names,Afficher noms des pilotes
 settings.visuals.show_tire_trails,Afficher les traces de pneus
@@ -324,9 +324,9 @@ settings.visuals.show_in_race_rankings,Afficher le rang en course
 settings.visuals.dynamic_backgrounds,Arrière plan dynamique
 settings.visuals.dynamic_backgrounds.tip,Pour la campagne et circuit custom
 settings.visuals.reduce_particles,Reduit les particules pour la visibilité
-settings.visuals.post_processing,Post Processing
+settings.visuals.post_processing,Post-traitement
 settings.visuals.minimap_size,Taille minimap
-settings.visuals.minimap_size.off,Off
+settings.visuals.minimap_size.off,Désactivé
 settings.visuals.minimap_size.regular,Normal
 settings.visuals.minimap_size.large,Moyen
 settings.visuals.minimap_size.enormous,Grand
@@ -345,12 +345,12 @@ settings.gameplay.show_speech_bubbles,Afficher bulles dialogues
 settings.gameplay.enable_censorship,Censurer les insultes
 settings.gameplay.peds_take_screenshots,Les piétons prennent des photos
 settings.gameplay.post_to_discord,Poster sur Discord
-settings.gameplay.camera_type,Camera
+settings.gameplay.camera_type,Caméra
 settings.gameplay.camera_type.fixed_road,Fixe sur route
 settings.gameplay.camera_type.fixed_car,Fixe sur auto
 settings.gameplay.camera_type.fixed_person,Fixe sur individu
 settings.gameplay.camera_type.floating,Flottante
-settings.gameplay.camera_zoom,Camera Zoom
+settings.gameplay.camera_zoom,Zoom caméra
 settings.gameplay.camera_zoom.near,Proche
 settings.gameplay.camera_zoom.medium,Moyen
 settings.gameplay.camera_zoom.far,Eloignée
@@ -359,7 +359,7 @@ settings.gameplay.speed_autozoom_tip,Zoom automatique selon votre vitesse
 settings.gameplay.camera_shake,Vibration caméra
 settings.gameplay.camera_shake.full,Max
 settings.gameplay.camera_shake.light,Léger
-settings.gameplay.camera_shake.off,Off
+settings.gameplay.camera_shake.off,Désactivé
 settings.gameplay.vibration,Vibration
 settings.gameplay.run_in_background,Travail en arrière plan
 settings.gameplay.auto_lock_mouse,Bloquage auto de la souri
@@ -367,7 +367,7 @@ settings.gameplay.auto_lock_mouse_tip,Si vous avez un système multi-écran en m
 
 # Settings -> Audio
 
-settings.audio.master_volume,Master Volume
+settings.audio.master_volume,Volume général
 settings.audio.menu_sounds,Menu son
 settings.audio.menu_music,Menu Musique
 settings.audio.editor_music,Musique éditeur
@@ -410,7 +410,7 @@ main_menu.btn.tooltip.quit.9,Vous êtes sérieux? Vous avez une vie!?
 
 # About
 
-about.btn.credits,Credits
+about.btn.credits,Crédits
 about.btn.how_to_play,Comment jouer
 about.btn.newsletter,Newsletter
 about.btn.version,Version
@@ -534,7 +534,7 @@ dash.tip.censorship,Affichera #%$! au lieu de mots à caractère offensifs
 dash.tip.discord_post,Postez votre score de Classement et mods téléchargé sur BRS Discord officiel
 dash.tip.upgrade_available,Amélioration Disponible!
 dash.tip.voice_pitch_slider,Ajuster les cinématiques avec le ton de la voix
-dash.tip.file_on_computer,Choisissez un ficher sur votre oridinateur
+dash.tip.file_on_computer,Choisissez un ficher sur votre ordinateur
 dash.tip.player_num,Joueur {0}
 dash.tip.ai_skill,Compétence IA: {0:0}%
 dash.tip.car_sprites_white,Quand vous éditez des sprites, gardez la carrosserie blanche. Les peintures sont indépendantes de la voiture.
@@ -587,7 +587,7 @@ rew.place,{0} Place
 rew.dnf,DNF
 rew.pts,{0} pts
 rew.ch.unknown,Challenge inconnu
-rew.ch.success,SUCCESS: {0}
+rew.ch.success,SUCCÈS: {0}
 rew.ch.fail,ECHEC: {0}
 rew.lethal,Accidents mortels
 rew.most_lethal,Accidents les plus mortels
@@ -600,26 +600,26 @@ rew.longest_drift,Drift le plus long
 rew.most_drifts,Tous les Drifts
 # Among everyone
 rew.most_longest_drift,Le plus long Drift
-rew.level_up,Level Up
+rew.level_up,Niveau supérieur
 rew.aero_up,Aero - Amélioration débloquée
 rew.engine_up,Moteur - Amélioration débloquée
 rew.turbo_up,Turbo - Amélioration débloquée
 rew.gears_up,Transmission - Amélioration débloquée
 rew.grip_up,Adhérence - Amélioration débloquée
-rew.level_x,Level {0}
+rew.level_x,Niveau {0}
 rew.paint_jobs,Nouvelles peintures débloquées
 
 # Car Stats
 
 # Keep these very short! Max 10 characters!
-car.stat.speed_idx,Speed Idx
-car.stat.top_speed,Top Speed
+car.stat.speed_idx,Indice vitesse
+car.stat.top_speed,Vitesse max
 car.stat.power,Puissance
 car.stat.mass,Masse
 car.stat.health,Pts de vie
 car.stat.steering,Direction
 car.stat.grip,Adhérence
-car.stat.shift_time,Shift Time
+car.stat.shift_time,Temps de passage
 
 # Car Upgrades
 
@@ -653,7 +653,7 @@ racer.peds_hit,Piétons heurtés
 racer.times_drifted,Temps drifté
 
 racer.title.rookie,Débutant
-racer.title.semi_pro,Semi Pro
+racer.title.semi_pro,Semi-pro
 racer.title.pro,Professionnel
 racer.title.veteran,Vétéran
 racer.title.master,Maître
@@ -794,7 +794,7 @@ tr.gen.open.tip,Génère uniquement un circuit ouvert, sans objets alentours. (R
 tr.gen.all_objects,Tous objets
 tr.gen.all_objects.tip,Génère de nouveaux objets. (Remplace les objets existants)
 tr.gen.object_groups,Groupe d'objets
-tr.gen.object_groups.tip,Génère un group d'objet aléatoire prédéfini (Remplace les objets existants)
+tr.gen.object_groups.tip,Génère un groupe d'objets aléatoire prédéfini (Remplace les objets existants)
 tr.gen.crowd,Foule
 tr.gen.crowd.tip,Génère la foule autour du circuit (Remplace la foule existante)
 tr.gen.forests,Forêts
@@ -833,7 +833,7 @@ tr.ground_detail.none.tip,Retire l'effet
 tr.ground_detail.shared_tip,Applique une texture. Zoom + click plusieurs fois pour appliquer différents motifs possible.
 
 tr.track_type,Type de tracé
-tr.track_type.asphalt,Asphalt
+tr.track_type.asphalt,Asphalte
 tr.track_type.gravel,Terreux
 tr.track_type.snow,Neige
 
@@ -995,10 +995,10 @@ ced.price,Prix
 ced.price.tip,Le prix est automatiquement calculé selon les statistique de l'auto.
 ced.req_level,Level requis
 ced.req_level.tip,Le level est automatiquement calculé selon les statistique de l'auto.
-ced.label.general,General
+ced.label.general,Général
 ced.max_speed_kmh,Vitesse max (km/h)
 ced.max_speed_kmh.tip,Requis pour la boite à vitesse. testez l'auto sur une ligne droit pour constater la vitesse max. 
-ced.mass_kg,Car Masse (kg)
+ced.mass_kg,Masse (kg)
 ced.mass_kg.tip,Légèreté + puissance = Bolide! Trouvez le bon équilibre.
 ced.max_health,Pts vie max
 ced.label.engine,Moteur
@@ -1012,13 +1012,13 @@ ced.drift_factor,Balance entre drift avec traction Drift
 ced.drift_factor.tip,Avec quelle facilité l'auto entre en drift (glisse) lorsqu'elle est en traction. Valeur recommandée entre 0.8 et 0.9
 ced.slip_factor,Balance de Drift Factor sans Traction
 ced.slip_factor.tip,Avec quelle facilité l'auto reste en drift (glisse) lorsqu'elle n'est plus en traction. Valeur recommandée entre 0.95 et 0.999
-ced.max_sticky_vel,Chagement de direction selon vélocité max
+ced.max_sticky_vel,Changement de direction selon vélocité max
 ced.max_sticky_vel.tip,La vitesse à laquelle l'auto peut virer avant d'entrer en drift (glisse). Valeur recommandée entre 1 et 1.5
 ced.label.gearbox,Boîte à vitesse
 ced.max_rpm,Tr/min Max
-ced.max_rpm.tip,(Tour par minute Tr/min) Cette option n'affectera pas le son moteur. Choississez le son moteur à votre convenance. 
+ced.max_rpm.tip,(Tour par minute Tr/min) Cette option n'affectera pas le son moteur. Choisissez le son moteur à votre convenance. 
 ced.idle_rpm,Ralenti Tr/min
-ced.shift_time,Chagement de vitesse (boîte)
+ced.shift_time,Changement de vitesse (boîte)
 ced.shift_time.tip,Combien de temps il faut pour que les vitesses passent.
 
 ced.label.sounds,Sons
@@ -1029,7 +1029,7 @@ ced.sound.turbo.tip,Le son du turbo sera uniquement audible sur les autos avec m
 ced.sound.charger,Superchargeur
 ced.sound.charger.tip,Le Superchargeur sera uniquement audible sur les autos avec modification. 
 
-ced.label.model,Nom du modèée
+ced.label.model,Nom du modèle
 ced.model_name,Nom de l'auto
 ced.label.description,Description
 ced.car_description_placeholder,Quelque chose de spécial à dire à propos de votre création.
@@ -1171,7 +1171,7 @@ cut.call.resp.3,Ouais ouais, j'vais encore devoir faire quelque chose de {0} pou
 cut.call.resp.4,Oh, quel plaisir de te voir, {0}.
 cut.call.resp.5,Salut, {0}.
 cut.call.resp.6,J'ai vraiment besoin de plus de frics, t'aurais pas un job pour moi?
-cut.call.resp.7,Certains pilotes me donnent du fil à retordre, tu penses que tu pourais m'aider? 
+cut.call.resp.7,Certains pilotes me donnent du fil à retordre, tu penses que tu pourrais m'aider? 
 cut.call.resp.8,Est-ce qu'il y a un événement spécial auquel je pourrais participer? Un de ceux qui font grimper ton audience,...et moi mon compte bancaire?
 
 # {0} below is always government official name or title
@@ -1563,7 +1563,7 @@ cur.hitobj.req.progress,{0} tamponné(s)
 cut.hitobj.o.traffic_cone,Cône de route
 cut.hitobj.o.porta_potty,Porta Potty
 cut.hitobj.o.bush,Buisson
-cut.hitobj.o.pedestrian,Pièton
+cut.hitobj.o.pedestrian,Piéton
 cut.hitobj.o.snowman,Bonhomme de neige
 
 # Will be used in "Hit 2 cones", or "Do not hit more than 2 cones"
@@ -1626,7 +1626,7 @@ cut.prank.gov.laugh.6,*Rires*
 
 cut.prank.player.react.1,Je dois admettre que ce rire est contagieux.
 # {0} - curse adverb (friggin)
-cut.prank.player.react.2,Qu'est-ce qu'il y a de si drôle, {0}?
+cut.prank.player.react.2,Qu'est-ce qu'il y a de si drôle, bordel?
 # {0} will be a government agent name
 cut.prank.player.react.3,J'ai le sentiment que ça ne va pas être si drôle pour moi, j'ai pas raison, {0}?
 # {0} will be a government agent name
@@ -1721,7 +1721,7 @@ cut.dmg.racer.intro.1,Je sais que c'est toi qui a crevé mes pneus la nuit derni
 
 # {0} - friggin
 cut.dmg.gov.intro.1,Ah voilà la personne que je voulais voir!<br>On doit faire un nouveau poster de Bloody Rally Show, et ta bagnole semble parfaite pour ça!<br>Ceci dit, il nous en faut une "en pleine action", intense et surtout sanglante de préférence, si tu vois ce que je veux dire...
-cut.dmg.gov.intro.2,Je vois que tu as une nouvelle peinture toute clinquante. Joli, joli il faut admettre.<br>Bon, pour ton prochain chalenge... *gloussements*
+cut.dmg.gov.intro.2,Je vois que tu as une nouvelle peinture toute clinquante. Joli, joli il faut admettre.<br>Bon, pour ton prochain challenge... *gloussements*
 # {0} - player name or title
 cut.dmg.gov.intro.3,Tu sais, je ne t'ai jamais vraiment apprécié, {0}... Et c'est pourquoi j'ai pensé à ce nouveau défi tout droit sorti des méandres les plus fourbes de ma mémoire!<br>C'est du "moi" tout craché! Je m'adore... *rire sadique*
 
@@ -1956,7 +1956,7 @@ dial.camp.card.no_walk_special,Vous ne pouvez pas être piéton sur une étape s
 dial.camp.card.go_ped_confirm,Retiens tes chevaux, {0}, tu n'as pas de voiture!<br>Tu es sûr de vouloir participer comme piéton à cette course?
 # {0} - list of names (john, smith, peter)
 dial.camp.card.some_peds_confirm,Certains pilotes n'ont pas de voitures! ({0}). Ils seront piétons pour la prochaine course! Est-ce que c'est ok?
-dial.camp.card.some_peds,Cerains pilotes ne peuvent pas s'aquitter des frais de participation à la course. Piétons lors de la prochaine course: {0}
+dial.camp.card.some_peds,Certains pilotes ne peuvent pas s'aquitter des frais de participation à la course. Piétons lors de la prochaine course: {0}
 
 dial.paint.no_1k,Vous ne disposez pas de $1000!
 
@@ -1990,8 +1990,8 @@ dial.camp.no_cash.5,Tu n'as pas assez d'argent...
 dial.camp.no_cash.6,J'veux pas te ruiner, désolé...
 dial.camp.no_cash.7,Tu n'as pas assez!
 
-dial.race.missing_bindings,Hé, le joueur {0} ({1}) n'a pas certains paramètres de contrôleur affectés! Allez dans -> Paramètres -> input
-dial.race.missing_bindings_ped,Hé, le joueur {0} ({1}) n'a pas certains paramètres de clavier affectés! Allez dans -> Paramètres -> input 
+dial.race.missing_bindings,Hé, le joueur {0} ({1}) n'a pas certains paramètres de contrôleur affectés! Allez dans Paramètres > Commandes et vérifiez les commandes de course pour corriger cela!
+dial.race.missing_bindings_ped,Hé, le joueur {0} ({1}) n'a pas certains paramètres de clavier affectés! Allez dans Paramètres > Commandes et vérifiez les commandes de piéton pour corriger cela!
 # {0} - clown
 dial.race.ped_death,Nous avons besoin de médecins ici! Un {0} s'est ramassé en beauté!<br>...Espérons qu'il a assez de fric pour payer l'intervention! 
 
@@ -2001,7 +2001,7 @@ dial.ed.car_name,Nom de l'auto
 
 dial.ed.car_sprites_missing,Certains sprites requis sont manquants. SVP, veuillez vous référer au guide de modding d'auto afin de recréer ces fichiers: {0}.
 dial.ed.car_sprites_deleted,Vous ne pouvez pas simplement supprimer des fichiers sprite de voiture! Les fichiers requis manquants ont été remplacés par un pixel 1x1 transparent: {0}.
-dial.ed.remove_car_name_colon,Veuillez supprimer ":" du nom du modèle de voiture!
+dial.ed.remove_car_name_colon,Veuillez supprimer "{0}" du nom du modèle de voiture!
 dial.ed.car_name_taken,Le nom de modèle "{0}" est déjà pris!
 dial.ed.car_too_fast,Les réglementations SOFACT ne permettent pas aux voitures de dépasser l'indice de vitesse de {0} avant le réglage! Cette voiture a un indice de vitesse de {1}. Réduisez d'abord quelque chose dans les paramètres!
 dial.ed.car_close_confirm,Voulez-vous vraiment fermer la voiture? Toutes les modifications non enregistrées seront perdues
@@ -2063,7 +2063,7 @@ dial.ed.loop_autoclose,On dirait que vous essayez de fermer la boucle. Vous pouv
 
 dial.on_success, En cas de succès: {0}
 dial.on_fail, En cas d'échec: {0}
-dial.tip,Tip: {0}
+dial.tip,Astuce: {0}
 dial.confirm,Confirmer
 dial.confirm_in,Confirmer ({0:0})
 dial.must_do_in_drift,Doit le faire en drift
@@ -2149,8 +2149,8 @@ msg.lap_did_not_count,Le tour ne compte pas
 msg.wrong_way,Mauvais sens!
 msg.no_reset_start_line,Impossible de réinitialiser, la ligne de départ n'a pas encore été franchie!
 msg.no_reset_too_often,Vous ne pouvez pas réinitialiser votre voiture aussi souvent!
-msg.camera_mode,Camera Mode
-msg.camera_zoom,Camera Zoom
+msg.camera_mode,Mode caméra
+msg.camera_zoom,Zoom caméra
 msg.ped_cannon_tip,Conduisez sur un piéton ou attendez que le canon se recharge!
 msg.corner_cut,Pénalité de coupure de virage
 msg.get_on_track,RETOURNEZ SUR LA PISTE!
@@ -2250,7 +2250,7 @@ tut.basic_driving.3,- Si vous voyez que vous allez déborder, utilisez le frein 
 
 tut.camera.head,Contrôle de Camera
 tut.camera.1,- Vous pouvez choisir parmi plusieurs modes de zoom et de rotation de la caméra <br> - Cliquez sur {Action.Zoom} pour faire défiler les modes de zoom de la caméra <br> - Avec le zoom lointain, vous verrez votre voiture de plus haut, mais les nuages ​​peuvent obstruer votre vue
-tut.camera.2,- Le zoom proche vous donnera une vue rapprochée de votre voiture <br> - Il peut être difficile de conduire car vous ne verrez pas beaucoup de route devant vous - - Vous pouvez utiliser la mini-carte pour anticiper les virages
+tut.camera.2,- Le zoom proche vous donnera une vue rapprochée de votre voiture <br> - Il peut être difficile de conduire car vous ne verrez pas beaucoup de route devant vous <br> - Vous pouvez utiliser la mini-carte pour anticiper les virages
 tut.camera.3,- Cliquez sur {Action.Camera} pour faire défiler les modes de rotation de la caméra <br> - La caméra Fixe sur route ne tournera pas du tout
 tut.camera.4,- La caméra de voiture fixe gardera la même rotation que votre voiture <br> - La caméra flottante se situe entre la voiture fixe et la route fixe <br> - Trouvez celle que vous aimez le plus
 tut.camera.5,- Vous pouvez aller dans "Paramètres"> "Gameplay" pour changer les paramètres par défaut de la caméra <br> - Modifiez "Vibration Camera" si vous voulez réduire les tremblements d'écran
@@ -2276,7 +2276,7 @@ tut.camp.garage.1,- La seule voiture que vous pouvez vous permettre en ce moment
 tut.camp.garage.2,- Vous pouvez repeindre votre voiture gratuitement avant de l'acheter <br> - Après avoir acheté la voiture, la peinture coûte de l'argent
 
 tut.camp.racer_setup.head,Créez votre pilote
-tut.camp.racer_setup.1,- Choisissez un avatar pour votre pilote. Vous pouvez utiliser une image personnalisée à partir d'une image sur votre ordinateur. <br> - Entrez votre nom de pilote, ou cliquez sur ALEATOIRE pour en générer un <br> - Choisissez votre ton de voix (affectera les sons de dialogue) <br> - Ensuite, cliquez sur ENREGISTRER
+tut.camp.racer_setup.1,- Choisissez un avatar pour votre pilote. Vous pouvez utiliser une image personnalisée à partir d'une image sur votre ordinateur. <br> - Entrez votre nom de pilote, ou cliquez sur ALÉATOIRE pour en générer un <br> - Choisissez votre ton de voix (affectera les sons de dialogue) <br> - Ensuite, cliquez sur ENREGISTRER
 
 tut.camp.season_lineup.head,Composition (formation) de la saison
 tut.camp.season_lineup.1,- Ici, vous pouvez personnaliser la programmation de la saison et configurer une campagne multijoueurs en écran partagé <br> - Cliquez sur l'icône MODIFIER sur les pilotes pour modifier les noms, les avatars, les niveaux de compétence <br> - Cliquez sur l'icône X sur un pilote pour supprimer. Le nombre de pilotes est fixe, donc le pilote supprimé sera remplacé par un nouveau!
@@ -2344,7 +2344,7 @@ tut.race_end.2,- Après 30 secondes, le bouton TERMINER COURSE se déverrouiller
 tut.car_battle.head,Combat d'auto
 tut.car_battle.1,- Bienvenue dans la bataille de voitures <br> - Votre but est de détruire vos adversaires <br> - Heurtez d'autres voitures pour infliger des dégâts <br> - Utilisez des armes pour infliger encore plus de dégâts
 tut.car_battle.2,- Récupérez des armes et des bonus dans ces zones d'armes <br> - Vous pouvez les voir dans votre mini-carte
-tut.car_battle.3,- Une fois l'élément récupéré, la zone se verrouille et affiche un minuteur. - Lorsque le compte à rebours est terminé, la zone s'ouvre avec un nouvel élément
+tut.car_battle.3,- Une fois l'élément récupéré, la zone se verrouille et affiche un minuteur. <br> - Lorsque le compte à rebours est terminé, la zone s'ouvre avec un nouvel élément
 tut.car_battle.4,- La bataille se termine lorsque le chronomètre est épuisé <br> - Le gagnant est celui qui a cassé le plus de voitures et infligé le plus de dégâts
 
 tut.regular_race.head,Course standard
@@ -2366,7 +2366,7 @@ tut.ramps.2,- Une rampe motorisée vous fait sauter et vous donne un coup de pou
 tut.track_ed.obj_place.head,Editeur de circuit: Placer des objets
 tut.track_ed.obj_place.1,- Cliquez une fois sur {Action.PlaceObject} pour placer l'objet <br> - Maintenez {Action.PlaceObject} et faites glisser pour placer une rangée d'objets <br> - Utilisez {Action.RotateObject} pour faire pivoter l'objet avant de le placer
 
-tut.m2.head,Weapon: M2
+tut.m2.head,Arme: M2
 tut.m2.1,- Vous venez de recevoir le M2! <br> - Le M2 est une puissante arme à projectile <br> - Maintenez {Action.Fire} pour tirer sur vos adversaires <br> - Si vous n'aimez pas une arme, vous pouvez toujours la laisser tomber avec {Action.DropWeapon}
 
 tut.mad_fax.head,Arme: Mad Fax
@@ -2411,8 +2411,8 @@ msg.chopper_warning.6,Attention, Brace Stone a la rage dans son hachoir!
 msg.chopper_warning.7,Brace Stone semble être heureux aujourd'hui!
 msg.chopper_warning.8,Attention au psychopathe qui fait la loi dans le ciel!
 
-msg.tip.ped.ff,TIP: Maintenez {Action.FastForward} pour avancer rapidement
-msg.tip.ped.photo,TIP: Appuyez sur {Action.Prenez une photo} pour prendre une photo
+msg.tip.ped.ff,ASTUCE: Maintenez {Action.FastForward} pour avancer rapidement
+msg.tip.ped.photo,ASTUCE: Appuyez sur {Action.Take Photo} pour prendre une photo
 msg.tips.disabled,Vous pouvez trouver des conseils dans À PROPOS> COMMENT JOUER
 
 msg.tips.finished_campaign,Campagne terminée
@@ -2436,7 +2436,7 @@ race.challenge_target.players,Joueurs uniquement
 race.challenge_target.everyone,Toutes les joueurs
 mission.type.none,Aucun
 mission.type.assassinate,Assassiner
-mission.type.hit_obj,Hit Objects
+mission.type.hit_obj,Percuter des objets
 mission.type.make_sure_car_x_comes_last,Empêcher quelqu&#39;un de gagner
 mission.type.stay_on_track,Rester sur la bonne voie
 mission.type.locked_camera,Caméra verrouillée
@@ -2451,6 +2451,90 @@ mission.type.shield,Champ de force
 mission.type.distribute_spam,Distribuer le spam
 mission.type.weaponize,Voiture armée
 mission.type.your_car_stolen,Votre voiture a été volée
+campaign.all_races_with_weapons,Toutes les courses avec armes
+campaign.all_races_with_weapons.tip,Armes et bonus activés dans chaque course ! Encore plus fou ! Déconseillé aux joueurs débutants.
+btn.get_full_game,Obtenir le jeu complet
+prologue.not_available,Non disponible dans le Prologue
+prologue.full_features,Obtenez la version complète de Bloody Rally Show pour débloquer ces fonctionnalités :<br>- Mode Campagne illimité<br>- Mode Course custom pour jouer entre amis<br>- Steam Workshop avec partage de voitures et de circuits<br>- Des tonnes de contenu de la communauté utilisable en Campagne et en Course custom<br>- Classements et succès
+campaign.nitro,Nitro Boost
+campaign.nitro.tip,Désactiver la nitro réduira le chaos
+dial.invalid_name,Veuillez retirer ces caractères du nom : {0}
+dial.campaign_stage_file_missing,Impossible de charger l'étape, le fichier d'étape de campagne est manquant (échec probable de l'écriture sur le disque, essayez de retourner la carte du circuit et de le régénérer) : {0}
+track.seed,Entrer la seed 
+track.seed.placeholder,Texte ou nombre
+btn.save_track,Sauver le circuit
+campaign.nitro.ai.balance,Équilibrage nitro de l'IA
+campaign.nitro.ai.balance.tip,Si activé, les pilotes IA recevront un peu plus ou moins de nitro selon leur niveau. Attention, désactiver cette option peut rendre le jeu trop facile !
+load.waiting_for_players,En attente des joueurs ({0}/{1})
+load.waiting_for_host,En attente de l'hôte
+dial.race.restart_online,Seul l'hôte peut relancer une course en ligne
+msg.online_race_cancelled,La course en ligne a été annulée
 
 main_menu.label.review_steam,Avis sur Steam
 main_menu.label.review_steam.tip,Vos avis aident les développeurs de jeux à survivre !
+
+# v2.0.0 online - machine translation, please review
+main_menu.btn.online,En ligne
+main_menu.btn.tooltip.online,Organisez une course pour vos amis, ou rejoignez la leur
+race.menu.online,Menu - la course continue
+msg.photo_mode_online,Le mode photo n'est pas disponible en ligne
+msg.race_ends_in,FIN DE LA COURSE DANS {0:0} s
+msg.time_up,TEMPS ÉCOULÉ !
+dial.race.exit_online,La course se terminera pour tout le monde. Êtes-vous sûr ?
+msg.racer_left,{0} A QUITTÉ LA COURSE
+msg.online_host_left,L'hôte a quitté la partie
+msg.online_connection_lost,Connexion à l'hôte perdue
+msg.online_kicked,L'hôte vous a exclu de la partie
+msg.online_ready_cleared,L'hôte a modifié la course : appuyez à nouveau sur Prêt
+dial.race.restart_online_host,Tout le monde retourne à la configuration de la course pour une revanche. Êtes-vous sûr ?
+dash.online.ready,Prêt
+dash.online.cancel_ready,Annuler Prêt
+dash.online.ready_count,{0}/{1} prêts
+dash.online.starts_in,{0} s
+dash.online.waiting_for_host,En attente de l'hôte
+dash.online.race_in_progress,Course en cours
+dash.online.host,Hôte
+dash.online.member_ready,Prêt
+dash.online.downloading_cars,Téléchargement des voitures de l'hôte {0}/{1}
+dash.online.waiting_for_downloads,En attente des téléchargements
+dash.online.players,Joueurs {0}/{1}
+msg.online_cars_failed,{0} voitures de l'hôte n'ont pas pu être téléchargées : elles apparaissent comme d'autres voitures
+dash.invite_friends,Inviter des amis
+dash.tip.invite_friends,Inviter des amis à cette partie
+dash.leave,Quitter
+dial.online.leave,Quitter la partie en ligne ?
+dial.online.leave_host,Votre départ met fin à la partie pour tout le monde. Êtes-vous sûr ?
+dial.online.kick,Exclure {0} de la partie ?
+dial.online.invite_port,Les amis sur votre réseau peuvent rejoindre la partie avec l'adresse de cet ordinateur et ce port :
+dial.online.invite_unavailable,L'overlay Steam n'est pas disponible : invitez vos amis depuis Steam
+dial.race.race_alone_online,Vous ne devriez pas conduire seul. Invitez un ami, ou ajoutez des adversaires avec les boutons "+1" ou "+10" !
+online.btn.host,Héberger une partie
+online.btn.host_lan,Héberger en LAN
+online.btn.join_address,Rejoindre par adresse
+online.join_address,Rejoindre la partie à cette adresse :
+online.join_address.placeholder,adresse:port
+online.hosting,Création de la partie...
+online.joining,Connexion à {0}...
+online.joining_friend,Connexion à la partie de votre ami...
+online.friend_game.asking,demande à Steam
+online.friend_game.other_version,version {0}
+online.friend_game.full,complète
+online.steam_not_running,Steam n'est pas lancé
+online.no_friend_games,Aucun ami ne joue en ligne pour le moment
+dial.online.bad_address,Impossible de rejoindre "{0}" : saisissez l'adresse et le port de l'hôte, par exemple 192.168.1.20:26860
+msg.online_connect_failed,Impossible de se connecter à la partie
+msg.online_full,La partie est complète
+msg.online_version,L'hôte utilise la version {0}, vous la version {1}
+msg.online_other_version,L'hôte utilise une autre version du jeu
+msg.online_host_failed,Impossible de créer la partie en ligne
+dash.chat,Discussion
+dash.chat.placeholder,Tapez un message et appuyez sur Entrée
+dash.chat.joined,{0} a rejoint la partie
+dash.chat.left,{0} a quitté la partie
+dash.online.ping,{0} ms
+online.friend_game,{0} ({1}/{2})
+online.friend_game.not_joinable,{0}: {1}
+
+# v2.0.0 rubber banding setting - machine translation, please review
+settings.gameplay.rubber_banding,Effet élastique
+settings.gameplay.rubber_banding_tip,Les adversaires plus faibles ralentissent quand ils sont loin devant vous et accélèrent quand ils sont loin derrière. Désactivez cette option pour affronter chaque adversaire à son vrai rythme.

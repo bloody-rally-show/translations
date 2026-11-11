@@ -1,63 +1,67 @@
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamRace.gif[/img]
 
-Een unieke mix tussen racen, vechten en rogue elementen brengt jouw een oneindige variatie van circuits en proceduraal gegenereerde campagnes met een dystopisch verhaal en AI gegenereerde conversaties, missies en uitdagingen.
+Bloody Rally Show is een top-down combat racer die zich afspeelt in een dystopische realityshow op tv. Drift, boost, ram en schiet je naar voren, houd de kijkers vermaakt en probeer aan het einde ook nog een auto over te hebben.
 
-Race met snelle autos en vloeiende besturing op een oneindige variatie van proceduraal gegenereerde en zelfgemaakte circuits.
-Strijd voor de eer tegen aandere mensen in de Steam Ranglijsten.
-
-[img]{STEAM_APP_IMAGE}/extras/BRSSteamFight1.gif[/img]
-
-Gebruik wapens en de interie van je auto om tegen andere racers te vechten in Gevechtsmodus.
-Voeg Wapen Zones toe aan normale races om dingen wat spannender te maken.
+[b]Race online tegen je vrienden[/b]
+Host een Aangepaste Race, nodig je Steam-vrienden uit en regel het op het circuit. Online is alleen voor vrienden: er zijn geen openbare lobby's of matchmaking, je speelt met je Steam-vrienden.
+[list]
+[*] Race, of vecht het uit in Auto Gevecht, met AI-racers om het startveld te vullen
+[*] Iedereen kiest zijn eigen auto, lakwerk en upgrades
+[*] Voeg wapens, missies, de auto van de Directeur en helikoptervuur toe
+[*] Race te voet, en dat is precies zo'n slecht idee als het klinkt
+[*] De eigen circuits en Workshop-auto's van de host komen automatisch mee, dus niemand hoeft zich ergens op te abonneren
+[*] Loopt via Steam, zonder poorten om door te sturen en zonder servers om te huren
+[/list]
 
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamDrift.gif[/img]
 
-De aandachtig geperfectioneerde, natuurkundig gebaseerde auto besturing heeft precies de juiste mix tussen arcade en simulatie, Makkelijk te besturen, Moeilijk om te meesteren. Leer rijden en drift met je autos op verschillende oppervlaktes, voel wanneer je auto grip verliest en de tractie weer oppakt.
+[b]Racen[/b]
+Natuurkundig onderbouwde besturing op de perfecte plek tussen arcade en simulatie: makkelijk te leren, moeilijk te beheersen. Leer hoe je auto zich gedraagt op verschillende ondergronden, voel wanneer hij grip verliest en vang hem op voordat de muur dat doet.
+[list]
+[*] Een eindeloze voorraad willekeurig gegenereerde circuits, plus handgemaakte
+[*] Nitro-boost die beloont wie het juiste moment kiest
+[*] Schansen, sprongen, plassen, olievlekken, ijsplekken en explosieve vaten
+[*] Objecten die bewegen, breken en in de weg staan
+[*] Dag Uitdaging en Tijdsaanval tegen de spoken van andere spelers
+[*] Een overvloed aan klassementen, waar alleen skill je naar de top brengt
+[/list]
 
-Tijdsaanval en Dag Uitdaging laat je racen tegen andere spelers hun beste tijd in de vorm van een spook, Kunde is het enige wat je naar de top van de Ranglijsten kan krijgen.
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamFight1.gif[/img]
+
+[b]Auto Gevechten[/b]
+Gebruik wapens en de vaart van je auto om iedereen uit te schakelen terwijl een krimpend gebied in battle royale-stijl op je afkomt. Of voeg Wapenzones toe aan een gewone race, als een nette overwinning te makkelijk voelt.
+
+[b]Campagne[/b]
+Procedureel gegenereerde campagnes met een dystopisch verhaal, missies en uitdagingen. Verdien XP, level je racer, tune en upgrade je auto en houd je geldschieters tevreden.
+[list]
+[*] Speel solo, lokaal in co-op of via Steam Remote Play Together
+[*] Namen van de beste spelers uit de klassementen duiken op als AI-racers
+[*] Doe in Voetganger Modus te voet mee aan een race, maak foto's van passerende auto's voor geld en probeer je ziekenhuisrekening te betalen
+[/list]
 
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamCreate.gif[/img]
 
-Creeer je eigen circuits en autos met geavanceerde ingebouwde editors die zijn gebruikt om alle inhoud van het spel zelf te maken. Volledige Ontwikkelaar tools in een handomdraai, en het is allemaal zo makkelijk mogelijk gemaakt.
-
-Deel je creaties met andere spelers in de Steam Workshop.
+[b]Bouw je eigen[/b]
+Maak circuits en auto's met dezelfde ingebouwde editors waarmee alle content in de game is gemaakt. Deel je creaties op de Steam Workshop en download wat anderen hebben gebouwd.
 
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamCustomize.gif[/img]
 
-Gebruik je eigen afbeeldingen als racer profiel foto of als design voor de autolak, verander de namen van je tegenstanders in de Campagne en Aangepaste Race modi.
-Pas de lak van je auto aan door lagen met details toe te voegen. Maak dit spel je eigen.
+[b]Maak het van jou[/b]
+Gebruik je eigen afbeeldingen voor racer-avatars en lakwerk, voeg lagen met details toe aan je lakwerk en verander de namen van je tegenstanders in de campagne of in een Aangepaste Race. Noem ze naar mensen met wie je een probleem hebt.
 
 [img]{STEAM_APP_IMAGE}/extras/BRSConsole.gif[/img]
 
-Gebruik een ingebouwd Besturingssysteem (Oke, oke, Het is gewoon een console), waar je experimenten kunt draaien die de natuurkundige wetten in de game aanpast, Verander de logica van het spel en doe andere gekke dingen.
+[b]Een ingebouwd besturingssysteem[/b]
+Oké, oké, het is gewoon een console. Maar je kunt er experimenten mee doen die de natuurkunde aanpassen, de spellogica veranderen en andere leuke dingen doen.
 
-
-Uitgelichte Kenmerken:
+[b]Ook inbegrepen[/b]
 [list]
-[*] Bevredigende arcade/simulatie stijl besturing (wegligging, driften, snelheid)
-[*] Oneindig aantal proceduraal gegenereerde circuits!
-[*] Campagne modus met missies, uitdagingen en een AI verhaalmaker
-[*] Auto Gevechtsmodus met Battle Royal stijl krimpende gebieden
-[*] Voetganger modus, nooit eerder gezien in andere race spellen!
-[*] Stragisch lachgas gebruik
-[*] Races met wapons en powerups!
-[*] Speel campagnes alleen, lokaal tot 4 spelers, of online met Steam Remote Play Together
-[*] Mogelijkheid om je zelf gemaakte autos en circuits openbaar te delen in de Steam Workshop
-[*] Levels en vaardigheidspunten.
-[*] Auto tuning en upgrades
-[*] Adaptieve AI tegenstanders met exact dezelfde logica en natuurkundige wetten als de speler, hebben emoties, karakter en doen ook domme dingen op zijn tijd.
+[*] Lokale multiplayer op gesplitst scherm voor maximaal 4 spelers
+[*] Offline races met maximaal 100 auto's
+[*] AI-racers van elk niveau, die van tijd tot tijd domme dingen doen
 [*] Bijna 50 prestaties
-[*] Een spectrum van verschillende ranglijsten
-[*] Namen van de beste spelers uit de ranglijsten zullen voorkomen in de campagne als computer gestuurde racers
-[*] Dagelijkse uitdagingen met verschillende combinaties van autos en circuits om tegen andere spelers te racen
-[*] Asynchrone online races met spook replays in de Steam Ranglijsten via Ghost Replays in Steam Leaderboards - race tegen andere mensen in de Dagelijkse Uitdagingen en Tijdsaanval modus
-[*] Eigen lak en profiel fotos
-[*] Speel lokaal tot en met 4 spelers in split scherm races
-[*] Instellingen om dingen zoals bloed en scheldwoorden uit te schakelen, zo is het spel leuk voor het hele gezin
-[*] Races met 100 tegenstanders!
-[*] Schansen en sprongen, waterplassen, olievlekken, ijsvlakken, explosieve tonnen en andere gevaren
-[*] Breekbare en beweegbare natuurkundig gebaseerde voorwerpen 
-[*] Hoge kwaliteit muziek met een dozijn aan nummers van volledige lengte
-[*] Referenties naar gluten vrije spelt brood en andere slechte grappen
-[*] Digitale Rechten Beheer (DRM) vrij!
+[*] Hoogwaardige soundtrack met een dozijn volledige nummers
+[*] Een instelling om het bloed uit te zetten, voor gezinsvriendelijke sessies op gesplitst scherm
+[*] Verwijzingen naar glutenvrij speltbrood en andere slechte grappen
+[*] DRM-vrij! (Online spelen, klassementen en Workshop hebben wel Steam nodig)
 [/list]

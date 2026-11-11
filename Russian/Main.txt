@@ -1,0 +1,2543 @@
+######################################
+# Bloody Rally Show translations file 
+# Locale: Russian
+# Author: YelloLight
+# Contact: Find me. :)
+######################################
+
+######################################
+# What should not be modified:
+# 1. Anything inside < > brackets - these are special text formatting tags
+# 2. Anything inside { } brackets - these are variables that will be replaced
+#
+# Do not remove {0} and similar variables - it can cause in-game errors!
+#
+# There is one exception to the rule above. When {0} is a curse adjective or adverb (friggin, etc)
+# And it is stated so in the example, if your language cannot combine them well, you can try ommitting {0}
+# In this case, but if there is more than one variable ({0}, {1}), you cannot remove {0} and leave {1}!
+# You can remove the last variable ({1}) in this case, to keep the variable sequence running from {0}
+# (only if {1} is a curse adjective / adverb)
+#
+# <br> is a line break
+#
+# It is highly recommended to keep every single key in same exact line as English - copy all the comments and blank lines
+######################################
+
+# Characters
+
+# If you change any character names, you have to consistently keep using them
+# Across all the translations where they are mentioned. Also in Tips.txt
+# For this reason I suggest to keep names of Brace Stone and Nicholas Merryland 
+# unchanged. Anonymous racer only appears in introduction cutscene.
+
+char.brace.name,Брэйс Стоун
+char.brace.job,Вице-Президент Диверсий
+char.brace.job_short,ВП Диверсий
+
+char.nic.name,Николас Мэррилэнд
+char.nic.job,Режиссёр Bloody Rally Show
+char.nic.job_short,Режиссёр
+
+char.anon.name,Незнакомец
+char.anon.job,Неизвестный Гонщик
+char.anon.job_short,Гонщик
+
+# Generic Terms (keep short)
+
+term.car,Машина
+term.track,Трасса
+term.lap,Круг
+term.lap_percent,Прог%
+term.laps,Круги
+# Abbreviate to max 5 characters, or keep "Best"
+term.best,Лучш.
+# Max 10 characters
+term.best_lap,Лучш. круг
+# As in person name
+term.name,Имя
+term.human,Человек
+# Just keep "AI" if your language does not have a very popular abbreviation for Artificial Intelligence
+term.ai,ИИ
+term.week,Неделя
+term.stage,Этап
+term.season,Сезон
+term.special,Особый
+term.pending,В процессе
+term.points,Очки
+term.drifts,Заносов
+term.mode,Режим
+term.battle,Битва
+term.car_battle,Бойня
+term.time_attack,Гонка на время
+term.race,Гонка
+term.time_limit,Лимит времени
+term.time_scale,Временная шкала
+term.distance,Расстояние
+term.weapons,Оружия
+term.time,Время
+term.mission,Миссия
+# If word "fee" is long in your language, just keep both entry_fee and retry_fee as "fee"
+term.entry_fee,Стоимость входа
+term.retry_fee,Стоимость повтора
+term.generating,Генерируется
+term.available,Доступен
+term.locked,Закрыт
+term.owned,В наличий
+term.lost,Потерян
+# This has to be super short!
+term.lvl_to_go,Ещё ур. {0}
+term.required_level,Треб. ур.
+# Short for Points (max 3 chars or keep "pts")
+term.pts,очк
+term.cash,Деньги
+# Short for Experience Points. If your language does not have a well know acronym for this, keep "XP"
+term.xp,Опыт
+# Short for position. Keep "Pos" if you can't find a good alternative
+term.pos,Поз
+# Noun - number of people killed (keep short, abbreviate if necessary)
+term.kills,Убито
+# Noun - number of cars fragged (reference to Quake). Keep as "Frags" in your alphabet. Max 5 characters.
+term.frags,Фраг
+term.damage,Урон
+# Short from "damage", Keep "dmg" if you cannot get this to less than 6 characters.
+term.dmg,Урон
+term.racer,Гонщик
+term.ped,Пешеход
+term.he,он
+term.she,она
+term.mr,Г-н
+# Ms is between Miss and Mrs 
+term.ms,Г-жа
+term.resurrect,Воскресить
+term.progress,Прогресс
+term.attempt,Попытка
+term.tips,Советы
+term.difficulty,Сложность
+
+# Generic buttons (keep short)
+
+btn.back,Назад
+btn.continue,Продолжить
+btn.apply,Применить
+btn.close,Закрыть
+btn.refresh,Обновить
+btn.random,Случайно
+btn.randomize,Генерировать
+btn.main_menu,Главное меню
+btn.save,Сохранить
+btn.cancel,Отмена
+btn.delete,Удалить
+btn.edit,Изменить
+btn.garage,Гараж
+btn.generate,Генерировать
+btn.regenerate,Регенерировать
+btn.buy,Купить
+btn.select,Выбрать
+btn.paint,Покрасить
+btn.switch,Сменить
+btn.confirm,Принять
+btn.change,Cменить
+btn.skip,Пропустить
+btn.next_page,След. стр.
+btn.prev_page,Пред. стр.
+btn.disable_tips,Убрать советы
+
+# Keep these very short. On / off can be translated same as yes / no to keep them shorter
+
+btn.on,Вкл
+btn.off,Выкл
+btn.yes,Да
+btn.no,Нет
+btn.ok,ОК
+btn.all,Все
+
+# Main Menu 
+
+main_menu.btn.campaign,Кампания
+main_menu.btn.custom_race,Индивидуальная гонка
+main_menu.btn.editors_mods,Редактор
+main_menu.btn.daily_challenge,Ежедневный заезд
+main_menu.btn.leaderboards,Доска лидеров
+main_menu.btn.achievements,Достижения
+main_menu.btn.settings,Настройки
+main_menu.btn.about,Об игре
+main_menu.btn.quit,Сдаться
+main_menu.label.whats_new,Что нового?
+
+# Main Menu => Campaign
+
+campaign.btn.continue,Продолжить
+campaign.btn.new,Новый
+campaign.btn.load,Загрузить
+campaign.saves,Сохранения
+campaign.no_saves,Нет сохранении
+campaign.btn.tips,Советы
+campaign.dialogue.cannot_continue,Вы не можете продолжить эту кампанию, она уже завершена!
+
+campaign.difficulty,Сложность
+campaign.difficulty.easy,Легко
+campaign.difficulty.normal,Средне
+campaign.difficulty.hard,Тяжело..
+campaign.difficulty.hardcore,Тебе конец!
+campaign.difficulty.locked.tip,Требуется уровень: {0}
+campaign.difficulty.dialogue.locked,Эта сложность, которую вы выбрали закрыт. Достигни до уровня {0} в более легкой сложности, чтобы открыть его.
+
+campaign.name,Имя кампании
+
+campaign.missions_challenges,Задания и вызовы
+campaign.missions_challenges.tip,У некоторых этапов будут случайные задания или вызовы
+campaign.races_with_weapons,Гонки с оружиями
+campaign.races_with_weapons.tip,У некоторых трасс будут точки, которые дадут оружия или бонусы
+campaign.directors_car,Машина директора
+campaign.directors_car.tip,Директор Николас будет ездить на своём лимузине, устраивая беспредел. Усложняет игру.
+campaign.helicopter_weapons,Оружия на вертолёте
+campaign.helicopter_weapons.tip,В вертолёте Брэйса иногда будет оружие, стреляя в гонщиков. Усложняет игру.
+campaign.adaptive_ai,Адаптивный ИИ
+campaign.adaptive_ai.tip,ИИ гонщики будут вести себя лучше или хуже в зависимости от вашего вождения
+campaign.weekly_rebalance,Еженедельный ребаланс
+campaign.weekly_rebalance.tip,Раз в неделю, у гонщиков будут дополнительные опыты и деньги. Усложняет игру.
+campaign.custom_content,Польз. трассы и машины
+campaign.custom_content.tip,Будут включать в себе трассы и машины, которые вы и сделали
+campaign.workshop_content,Трассы и машины из Мастерской
+campaign.workshop_content.tip,Включают в себе трассы и машины, на которые вы подписались в Мастерской Steam
+campaign.allow_heavy_tracks,Разрешить плотные трассы
+campaign.allow_heavy_tracks.tip,Включают в себе Польз./Мастерс. трассы с высокой плотностью, которые негативно повлияет на игру
+
+campaign.btn.start_new,Начать новую кампанию
+
+# Main Menu => Custom Race
+
+custom_race.btn.continue_session,Продолжить сессию
+custom_race.btn.new_session,Новая сессия
+custom_race.btn.random_time_attack,Быстрая гонка на время
+custom_race.btn.random_race,Быстрая гонка
+custom_race.btn.random_battle,Быстрая бойня
+
+# Main Menu => Editors & Mods
+
+editors_mods.btn.track_editor,Редактор трасс
+editors_mods.btn.car_editor,Редактор машин
+editors_mods.btn.mod_manager,Менеджер модов
+
+# Main Menu => Mod Manager
+
+mods.section.tracks,Подписанные трассы
+mods.section.cars,Подписанные машины
+mods.btn.open_workshop,Найти в Мастерской
+mods.btn.manage_tracks,Трассы
+mods.btn.manage_cars,Машины
+mods.btn.reload,Перезагрузить моды
+mods.btn.unsubscribe.tip,Убрать
+mods.btn.view_online.tip,Посмотреть онлайн
+
+# Leaderboards
+
+leaderboard.time_attack.title,Гонка на время<br>Доска лидеров
+leaderboard.type,Тип доски лидеров
+leaderboard.type.friends,Друзья
+leaderboard.type.global,Глобально
+leaderboard.top100,Топ 100
+leaderboard.daily_challenge,Ежедневный заезд<br>Доска лидеров
+leaderboard.daily_challenge.time_out,Время вышло!
+leaderboard.daily_challenge.lap_attempts,Попыток
+leaderboard.daily_challenge.ends_in,Завершится через
+leaderboard.daily_challenge.grace_period,Период
+leaderboard.daily_challenge.ended_minutes_ago, Закончился {0:0} минут назад
+leaderboard.daily_challenge.ended_hours_ago, Закончился {0:0} часов назад
+leaderboard.daily_challenge.ended_days_ago, Закончился {0:0} дней назад
+leaderboard.day,День
+leaderboard.btn.race_now,Погнали!
+leaderboard.btn.race_now.tip,Установи время круга выбранной трассы и машины
+leaderboard.no_score.race_now,Вы ещё не установили результат. Гони, чтобы бить рекорды!
+leaderboard.no_steam_connection,Соединение со Steam недоступна<br><br>Доска лидеров не будут работать
+leaderboard.btn.time_attack,Гонка на время
+leaderboard.time_attack.tip,Отслеживай рекорд трассы в доске лидеров. Используй "Польз. гонки" с режимом "Гонками на время", чтобы установить свои рекорды.
+leaderboard.refresh.tip,Обновить очки напрямую со Steam
+
+# Leaderboard Names
+
+leaderboard.max_season,Макс. сезон
+leaderboard.max_racer_level,Макс. уровень гонщика
+leaderboard.people_hit,Людей сбит
+leaderboard.km_driven,Км пройден
+leaderboard.cash_earned,Денег заработано
+leaderboard.xp_gained,Собран опытов
+leaderboard.podium_finishes,Подиумы
+leaderboard.podium_gold,Побед
+leaderboard.seasons_won,Побед в сезонах
+leaderboard.cars_fragged,Машин уничтожен
+leaderboard.tracks_created,Создан трасс
+leaderboard.longest_jump,Длинный прыжок
+leaderboard.meters_jumped,Метр в воздухе
+leaderboard.seconds_drifted,Секунд в заносе
+
+# Settings 
+
+# DO NOT TRANSLATE THIS ONE! JUST COPY IT BUT KEEP ENGLISH!
+settings.btn.language,Language/Язык
+
+settings.btn.video,Видео
+settings.btn.visuals,Визуал
+settings.btn.gameplay,Геймплей
+settings.btn.audio,Аудио
+settings.btn.input,Управление
+settings.btn.reset,Сбросить
+
+# Settings -> Video
+
+settings.video.quality_warning,Уровень качества не оптимален для твоего устроиства!
+settings.video.resolution_warning,Разрешение не оптимален для твоего устроиства!
+settings.video.vsync_tip,Если у вас страдание с кадрами, отключи вертикальную синхронизацию и установи лимит скорости кадров
+settings.video.quality,Качество
+settings.video.quality.performance,Производительность
+settings.video.quality.quality,Красота
+settings.video.resolution,Разрешение
+settings.video.window_mode,Режим экрана
+settings.video.window_mode.full_screen_exclusive,Полноэкранный (Эксклюзивный)
+settings.video.window_mode.full_screen_window,Полноэкранный (Оконный)
+settings.video.window_mode.windowed,Оконный
+# Don't translate this one, just copy
+settings.video.vsync,VSync
+settings.video.vsync.off,Выкл
+settings.video.vsync.on,Вкл (Каждый кадр)
+settings.video.vsync.on_every_2,Вкл (Каждый 2й кадр)
+settings.video.fps_limit,Лимит FPS
+settings.video.particle_density,Частицы
+settings.video.particle_density_tip,Могут повлиять на толщину дыма из колёс, дорог и снежной пыли
+settings.video.btn.set_optimal,Поставить оптимальную
+settings.video.btn.set_optimal_tip,Настроит рекоммендованные разрешения и уровень качества для твоего устройства
+
+# Settings -> Visuals
+
+settings.visuals.ui_scale,Размер интерфейса
+settings.visuals.ui_scale_tip,Будет менять размер интерфейса
+settings.visuals.speed_units,Индикатор скорости
+settings.visuals.show_blood,Кровь
+settings.visuals.show_racer_names,Имена гонщиков
+settings.visuals.show_tire_trails,Следы покрышек
+settings.visuals.show_brake_lights,Стоп-сигнальные огни
+settings.visuals.show_clouds,Облака
+settings.visuals.show_weather_effects,Погоду
+settings.visuals.show_car_smoke,Дым
+settings.visuals.show_controls,Управления
+settings.visuals.show_in_race_rankings,Ранк
+settings.visuals.dynamic_backgrounds,Динамичный фон
+settings.visuals.dynamic_backgrounds.tip,Для кампании и польз. гонок
+settings.visuals.reduce_particles,Уменьшить частицы для видимости
+settings.visuals.post_processing,Постобработка
+settings.visuals.minimap_size,Размер карты
+settings.visuals.minimap_size.off,Выкл
+settings.visuals.minimap_size.regular,Обычный
+settings.visuals.minimap_size.large,Большой
+settings.visuals.minimap_size.enormous,Гигантский
+settings.visuals.minimap_pos,Положение карты
+settings.visuals.minimap_pos.top_left,Лево-верхний
+settings.visuals.minimap_pos.bottom_right,Право-нижний
+settings.visuals.minimap_pos.top,Верх
+settings.visuals.minimap_pos.right,Вправо
+
+# Settings -> Gameplay
+
+settings.gameplay.show_tips,Показать советы
+# FOR TRANSLATORS: Please translate as "Show Cutscenes (English Only)"
+settings.gameplay.show_cutscenes,Показать катсцены
+settings.gameplay.show_speech_bubbles,Показать речевые пузыри
+settings.gameplay.enable_censorship,Зацензурить маты
+settings.gameplay.peds_take_screenshots,Пешеходы делают скриншоты
+settings.gameplay.post_to_discord,Отправлять в Discord
+settings.gameplay.camera_type,Камера
+settings.gameplay.camera_type.fixed_road,К дороге
+settings.gameplay.camera_type.fixed_car,К машине
+settings.gameplay.camera_type.fixed_person,Человек
+settings.gameplay.camera_type.floating,Качающий
+settings.gameplay.camera_zoom,Масштаб камеры
+settings.gameplay.camera_zoom.near,Близко
+settings.gameplay.camera_zoom.medium,Средне
+settings.gameplay.camera_zoom.far,Далеко
+settings.gameplay.speed_autozoom,Автомасштаб под скорость
+settings.gameplay.speed_autozoom_tip,Масштабирует в зависимости от скорости вашей машины
+settings.gameplay.camera_shake,Тряска камеры
+settings.gameplay.camera_shake.full,Полный
+settings.gameplay.camera_shake.light,Лёгкий
+settings.gameplay.camera_shake.off,Выкл.
+settings.gameplay.vibration,Вибрация
+settings.gameplay.run_in_background,Фоновый режим
+settings.gameplay.auto_lock_mouse,Автоблок. мыши
+settings.gameplay.auto_lock_mouse_tip,If you have multi-monitor setup and like to multitask, you may want to disable mouse locking. After changing this, game requires restart.
+
+# Settings -> Audio
+
+settings.audio.master_volume,Вся громкость
+settings.audio.menu_sounds,Меню
+settings.audio.menu_music,Музыка
+settings.audio.editor_music,Музыка в редакторе
+settings.audio.race_music,Музыка в гонках
+settings.audio.car_engine,Двигатели
+settings.audio.tire_skid,Скрежет колёт
+settings.audio.crowd_noise,Толпы
+settings.audio.sound_fx,Эффекты
+settings.audio.btn.reset_to_defaults,Вернуть по умолчанию
+
+# Settings -> Reset
+
+settings.reset.btn.full_reset,Сброс прогресса
+settings.reset.btn.reset_tips,Сброс советов
+
+# FOR TRASLATORS: Be very careful to not change text inside brackets (<br>, <size=50%> and such). It is one long line
+settings.reset.about,Полная перезагрузка через:<br><indent=10%><size=70%><br> - Удалить все кампании<br> - Закрыть все машины<br> - Выйти из игры сразу же<br> <indent=0%><size=100%><br> Полная перезагрузка не будет удалены:<br> <indent=10%><size=70%><br> - Достижения<br> - Почёты в доске лидеров <br> - Польз. машины и трассы
+
+# Main Menu button tooltips
+
+main_menu.btn.tooltip.homepage,Главная страница Kodo Linija
+main_menu.btn.tooltip.newsletter,Газета разработчика
+main_menu.btn.tooltip.dev_msg,Сообщение от разработчика
+main_menu.btn.tooltip.campaign,Режим сюжета со случайными трассами. Проходи кампанию, чтобы открывать новые машины!
+main_menu.btn.tooltip.race,Быстрая гонка, бойня или гонка на время. Веселись!
+main_menu.btn.tooltip.editors,Загружайте трассы и машины, сделанные другими игроками из Мастерской, или делитесь своими же работами
+main_menu.btn.tooltip.daily_challenge,Соревнуйтесь с другими игроками за лучшее время круга ежедневно
+main_menu.btn.tooltip.leaderboards,Слава ожидает тех, кто добирался до топ-100
+main_menu.btn.tooltip.achievements,Соберих из всех!
+main_menu.btn.tooltip.quit.0,Нееет! Не нажимай на него! Это последняя опция в списке по бесмысленной причине!
+main_menu.btn.tooltip.quit.1,Пожалуйста, подожди, мы можем с тобой обсудить!
+main_menu.btn.tooltip.quit.2,Может ещё одну гонку?
+main_menu.btn.tooltip.quit.3,Уверены? Твой телевизор ещё подождёт...
+main_menu.btn.tooltip.quit.4,Каждый раз, когда ты выходишь, гном перерезывает провод твоей тачки. Мы не шутим!
+main_menu.btn.tooltip.quit.5,Если ты на него нажмёшь, SOFACT простит тебя. Но не забудут.
+main_menu.btn.tooltip.quit.6,Нажать, чтобы ваш компьютер самоуничтожился через 5 секунд.
+main_menu.btn.tooltip.quit.7,Почему ты тянешься к этой кнопке? Она чем-то привлекает тебя, помимо взрывов за окном?
+main_menu.btn.tooltip.quit.8,Мы держим вашего кота в заложниках. Если ты нажмёшь на него, мы покормим его твоим лазаньем!
+main_menu.btn.tooltip.quit.9,Вы серьёзно? Нету там жизни на улице.
+
+# About
+
+about.btn.credits,Титры
+about.btn.how_to_play,Как играть
+about.btn.newsletter,Газета
+about.btn.version,Версия
+about.btn.privacy,Безопасность
+
+# Version Check
+
+version.updates_available,Обновление доступно
+version.loading_now,Загружаем ссылку:<br>{0}
+version.up_to_date,Обновлено
+version.latest,Последняя версия: {0}
+version.current,Данная версия: {0}
+version.check_failed,Не можем проверить обновление
+version.check_failed_details,Не можем найти информацию обновления.<br><br>Нет соединения с интернетом (верните ска), не доступен, или упали сервера.<br><br>URL:<br>{0}<br><br>Ошибка:<br>{1}
+version.changelog_download_fail,Нет новых версии.<br><br>Загрузка списка изменении не работает.<br><br>URL:<br>{0}<br><br>Ошибка:<br>{1}
+version.no_changes,Нет изменении в данном обновлении:
+version.new_changes,Новые изменения: {0}
+
+################################################################################
+
+# Campaign
+campaign.play_time,Время в игре: {0}
+
+# Add Racer Menu
+
+new_racer.title,Создать гонщика
+new_racer.edit_title,Редактировать гонщика
+new_racer.racer_name,Имя гонщика
+new_racer.your_name,Ваше имя
+new_racer.voice_pitch,Тон голоса
+new_racer.controlled_by,Управляет
+new_racer.ai_skill,Уровень ИИ
+new_racer.choose_avatar,Выбрать профиль
+new_racer.voice.low,{0:0}% Низ.
+new_racer.voice.high,{0:0}% Выс.
+new_racer.voice.mid,Сред.
+new_racer.register,Создать
+new_racer.dialogue.name_required,Требуется имя!
+new_racer.dialogue.name_taken,Имя {0} уже используется другим гонщиком!
+new_racer.dialogue.confirm_remove,Вы уверены, что вы уберёте {0}?
+
+# Select Avatar Menu
+
+select_avatar.title,Выбор профиля
+
+# Racer List Menu
+
+season_lineup.title,Строй сезона
+season_lineup.begin_season,Начать сезон
+
+# Generation Notice
+
+gen.generating,Подожди...<br>Создаётся
+gen.loading,Подожди...<br>Загрузка
+
+# Campaign Dashboard
+
+dash.garage,Гараж
+dash.no_car_warning,У вас нет машины!
+dash.btn.buy_car,Купить машину
+dash.end_campaign,Завершить кампанию
+dash.end_season,Закончить сезон
+dash.end_season.tip,Перейти к следующему сезону
+dash.advance_week,Перейти
+dash.advance_week.tip,Перейти к следующей неделе
+dash.view_season,Посм. сезон
+dash.view_season.tip,Перекл. сезон / результат недели
+dash.press_x_to_select,Нажми {0}, чтобы выбрать
+dash.flip_track_card.tip,Сменить трассу
+dash.btn.walk_on_foot,На смерть!
+dash.btn.walk_on_foot.tip,Участвовать в гонках пешком (Это опасно!)
+dash.btn.save_track.tip,Сохранить трассу для инд. гонках или редактирования
+dash.btn.regenerate.tip,Будет переделана трасса, если вам это не нравится.
+# Verb
+dash.btn.do_race,Погнали
+dash.btn.do_retry,Заново
+dash.give_5k,Дать $5000
+
+# Keep short - abbreviate if necessary
+dash.stage01,Этап 01
+dash.stage02,Этап 02
+dash.stage03,Этап 03
+dash.stage04,Этап 04
+dash.stage05,Этап 05
+
+# Keep short - abbreviate if necessary
+dash.week1,Неделя 1
+dash.week2,Неделя 2
+dash.week3,Неделя 3
+dash.week4,Неделя 4
+dash.week5,Неделя 5
+dash.week6,Неделя 6
+dash.week7,Неделя 7
+
+dash.stage_rewards,Награды за этап
+dash.season_rewards,Награды за сезон
+dash.next_season,След. сезон
+dash.game_over,Игра окончена
+dash.buy_freedom,Купить свободу<br><size=75%>${0}</size>
+dash.players,Игроки
+# It will be in a button, so could be just "All"
+dash.all_racers,Все гонщики
+
+dash.maxed_out,Макс.
+dash.req_lvl_short,Треб. ур.: {0}
+
+dash.tip.add_1_lap,Доб. 1 круг
+dash.tip.add_5_laps,Доб. 5 кругов
+dash.tip.reduce_1_lap,Убрать 1 круг
+dash.tip.reduce_5_laps,Убрать 5 кругов
+
+dash.tip.workshop_item,Работы Мастерской
+dash.tip.rand_time_attack,Случайная сессия гонки на время
+dash.tip.rand_race,Случайно сгенерированные трассы для обычной гонки
+dash.tip.rand_battle,Быстрая бойня с ИИ оппонентами в случайно сгенерированных локациях
+dash.tip.mark_tips_unseen,Будут отмечены советы как непросмотренные
+dash.tip.campaign_name_entry,Пожалуйста, используй клавиатуру или нажми на любую кнопку выше
+dash.tip.cloud_shadows_visible,Тени от облаков всё ещё будут видимыми
+dash.tip.not_affect_split_minimap,Эта настройка не влияет на мини-карты на раздельном экране
+dash.tip.censorship,Будут показывать #%$! вместо оскорбительных слов
+dash.tip.discord_post,Будет показывать доску лидеров и опубликованные моды на оффициальном сервере Stardeus (Ранее BRS) в Discord
+dash.tip.upgrade_available,Улучшение доступно!
+dash.tip.voice_pitch_slider,Меняет тональность голоса в диалогах
+dash.tip.file_on_computer,Выбирайте фаил со своего компьютера
+dash.tip.player_num,Игрок {0}
+dash.tip.ai_skill,Навык ИИ: {0:0}%
+dash.tip.car_sprites_white,Когда редактируйте спрайты, оставь цвет кузова белым. Покраска она независимая.
+dash.tip.upload_car,Опубликовать в Мастерскую Steasm. Убедись, что у вас правильная максимальная скорость в параметрах перед тем, как выложить!
+dash.tip.reload_car,Испульзуй эти спрайты для изменения внешности с помощью программ вне игры
+dash.tip.speed_index,Показатель шустрости автомобиля
+dash.tip.leaderboard_eligible,Эта трасса доступна для доски лидеров
+dash.tip.ghost_replay_available,Призраки повторов доступны
+dash.tip.add_racer_btn,Добавить нового гонщика (игрок или ИИ)
+dash.tip.show_track_leaderboards,Показать доску лидеров данной трассы
+dash.tip.new_race_session,Начать новую сессию
+dash.tip.race_weapons,Добавят зону оружия по трассе
+dash.tip.0_racers,Убрать всех гонщиков, кроме игрока
+dash.tip.add_1_rnd_racer,Добавить ещё одного гонщика
+dash.tip.add_10_rnd_racers,Добавить ещё 10 гонщиков
+dash.tip.rnd_gen_btn,Будет генерировать случайную трассу
+
+# Custom Race Dash
+
+dash.set_for_everyone,Установить всем
+dash.car,Машина
+dash.racers,Гонщики
+dash.search_for_track,Поиск трассы
+dash.randomize_prompt,Нажми "Генерировать"<br>Чтобы создать трассу
+dash.race_options,Настройка гонки
+dash.race_mode,Режим гонки
+dash.demo_mode,Демонстрация
+dash.demo_mode.tip,ИИ будет управлять за вас
+dash.opponent_skill,Сложность соперников
+dash.start_race,Начать гонку
+dash.race_in_x,Начать гонку в {0}
+dash.battle_in_x,Начать бойню в {0}
+dash.time_attack_in_x,Начать гонку на время в {0}
+dash.x_to_select,{0} чтобы выбрать
+dash.add_player,Добавить игрока
+dash.tracks_full_screen.tip,Переключить в полноэкранный режим
+
+# Rewards
+
+rew.car_unlock,Открыта машина: {0}
+rew.total_pts,Всего очков
+rew.dmg_taken,Получено уронов
+rew.dmg_given,Уронов нанёс
+rew.unused_nitro,Неиспользовано нитро
+rew.corner_cut,Срезок
+rew.good_photos,Качественных фото сделан
+rew.close_calls,Близких столкновении
+rew.survival_bonus,Бонус за смельчака
+rew.place,{0} Место
+rew.dnf,DNF
+rew.pts,{0} очк
+rew.ch.unknown,Неизвестное задание
+rew.ch.success,УСПЕХ: {0}
+rew.ch.fail,ПРОВАЛ: {0}
+rew.lethal,Убийств
+rew.most_lethal,Самые жесткие убийства
+rew.frags,Уничтожении
+rew.jumps,Кол-во прыжков
+rew.longest_jump,Длинный прыжок
+rew.drifts,Заносов
+# Personal
+rew.longest_drift,Длинный занос
+rew.most_drifts,Количество заносов
+# Among everyone
+rew.most_longest_drift,Самый длинный занос
+rew.level_up,Новый уровень
+rew.aero_up,Улучшение аэродинамики открыто
+rew.engine_up,Улучшение двигателя открыто
+rew.turbo_up,Улучшение турбины открыто
+rew.gears_up,Улучшение трансмиссий открыто
+rew.grip_up,Улучшение сцепление открыто
+rew.level_x,Уровень {0}
+rew.paint_jobs,Покраска открыта
+
+# Car Stats
+
+# Keep these very short! Max 10 characters!
+car.stat.speed_idx,Показатель
+car.stat.top_speed,Макс. скор.
+car.stat.power,Мощность
+car.stat.mass,Масса
+car.stat.health,Здоровье
+car.stat.steering,Управление
+car.stat.grip,Сцепление
+car.stat.shift_time,Коробка
+
+# Car Upgrades
+
+# Short version
+car.upgrade.engine,Двиг.
+car.upgrade.turbo,Турбо
+car.upgrade.gears,Трансм.
+car.upgrade.aero,Аэро
+car.upgrade.grip,Шины
+
+car.upgrade.engine.title,Улучшение двигателя
+car.upgrade.turbo.title,Улучшение турбо
+car.upgrade.gears.title,Улучшение трансмиссий
+car.upgrade.aero.title,Улучшение аэродинамики
+car.upgrade.grip.title,Улучшение сцепления и управления
+
+car.upgrade.engine.tip,Даёт мощности вашего двигателя
+car.upgrade.turbo.tip,Делает ускорение более эффективным
+car.upgrade.gears.tip,Сокращает время переключения
+car.upgrade.aero.tip,Улучшает скорость и сцепление
+car.upgrade.grip.tip,Улучшает сцепление и управление
+
+# Racer Profile
+
+racer.last_races,График гонки
+racer.no_data,Нет данных
+racer.level,Ур. гонщика
+racer.races_attempted,Гонок пройден
+racer.races_won,Побед
+racer.peds_hit,Сбит пешеходов
+racer.times_drifted,Время в заносе
+
+racer.title.rookie,Новичок
+racer.title.semi_pro,Полу-про
+racer.title.pro,Профессионал
+racer.title.veteran,Ветеран
+racer.title.master,Мастер
+racer.title.grand_master,Старший мастер
+racer.title.legend,Легенда
+racer.title.epic,Эпичный
+
+# Car Paint
+
+paint.main_color,Цвет кузова
+paint.layer1,Слой цвета 1
+paint.layer2,Слой цвета 2
+paint.select_pattern,Выбрать шаблон
+paint.change_color,Сменить цвет
+paint.rotate_left,Вращать лево
+paint.rotate_right,Вращать право
+paint.zoom_out,Отдалить
+paint.zoom_in,Приблизить
+paint.reduce_opacity,Уменьшить непрозрачность
+paint.increase_opacity,Увеличить непрозрачность
+paint.move,Передвинуть
+paint.remove_paint_layer,Убрать слой
+paint.open_custom_folder,Открыть файл в компьютере, чтобы установить польз. винил
+
+# Pedestrian Mode
+
+ped.close_calls,Еле уцелел
+ped.photos,Фото
+ped.good_photos,Классные фото
+ped.earned_cash,Деньги
+
+# Race mode
+
+race.paused.by,На паузу нажал {0}
+race.you_have_a_challenge,К вам вызов
+race.btn.exit,Выйти
+race.btn.exit_desktop,Рэйджкуит
+race.btn.restart,Заново
+race.btn.photo_mode,Фото
+race.btn.speed_up,Ускорить
+race.btn.end,Завершить
+race.finished,Гонка завершена!
+race.waiting,Ожидание ({0:0}с)
+
+# Battle mode
+
+battle.finished,Бойня завершена!
+
+# Input Actions
+
+act.UIHorizontal,Гориз. направление
+act.UIVertical,Верт. направление
+act.UISubmit,Отправить
+act.UICancel,Отмена
+act.ShowTutorial,Обучение
+act.UICycleNext,След. цикл
+act.UICyclePrev,Пред. цикл
+act.UIPlayerNext,След. игрок
+act.UIPlayerPrev,Пред. игрок
+
+act.Steer,Рулить
+act.Accelerate,Ускорить
+act.Brake,Тормозить
+act.Pause,Пауза
+act.Camera,Режим камеры
+act.Handbrake,Ручник
+act.ResetCar,Восстановить
+act.Zoom,Масштаб камеры
+act.Nitro,Нитро
+act.Fire,Огонь!
+act.DropWeapon,Выбросить
+
+act.EditorZoom,Масштаб
+act.RotateObject,Rotate Object
+act.HorizontalPan,Перем. по гориз.
+act.VerticalPan,Перем. по верт.
+act.PlaceObject,Поместить объект
+act.CancelAction,Отменить действие
+act.Undo,Отменить
+act.Redo,Вернуть
+act.CopyModifier,Копировать изменение
+act.DeleteModifier,Удалить изменение
+
+act.Walk,Идти
+act.Turn,Повернуть
+act.Take Photo,Сделать фото
+act.Wave,Вилять
+act.FastForward,Ускорить время
+act.PedZoom,Приблизить
+act.PedPause,Пауза
+
+act.MoveHorizontal,Влево/Вправо
+act.MoveVertical,Вверх/Вниз
+act.PhotoZoom,Масштаб
+act.Rotate,Вращать
+act.PhotoModePhoto,Сделать фото
+act.ToggleTime,Перекл. время
+act.ControlTimeScale,Время
+act.ToggleUI,Перекл. интерфейс
+act.ExitPhotoMode,Выйти из фото режима
+act.AdjustMotionSpeed,Скорость движ.
+
+# Track editor
+
+tr.file,Файл
+tr.file.new,Новый
+tr.file.new.tip,Начать создание трассы
+tr.file.open,Открыть
+tr.file.open.tip,Открыть сохранённые трассы
+tr.file.save,Сохранить
+tr.file.save.tip,Сохранить текущую трассу
+tr.file.undo,Отменить
+tr.file.redo,Вернуть
+tr.file.share,Поделиться
+tr.file.share.tip,Опубликовать трассу в Мастерскую Steam
+tr.file.delete,Удалить
+tr.file.delete.tip,Удалить сохранённую трассу (выбирай какой из них)
+tr.file.exit,Выход
+tr.file.exit.tip,Выход в главное меню
+
+tr.grid,Клетка
+tr.grid.toggle,Переключить
+tr.grid.toggle.tip,Показать или убрать клетку
+tr.grid.light,Светлее
+tr.grid.light.tip,Делает клетку ярче (полезно для тёмных трасс)
+tr.grid.dark,Темнее
+tr.grid.dark.tip,Делает клетку темнее (полезно для светлых трасс)
+
+tr.gen,Сгенерировать
+tr.gen.full_circuit,Полностью кольцевая
+tr.gen.full_circuit.tip,Генерирует кольцевую трассу с объектами. Будет переделывать текущую трассу.
+tr.gen.full_open,Полностью открытую
+tr.gen.full_open.tip,Генерирует открытую с объектами. Будет переделывать текущую трассу.
+tr.gen.circuit,Кольцевая основа
+tr.gen.circuit.tip,Генерирует кольцевую трассу без объектов. Переделывает текущую трасс и удалят все объекты.
+tr.gen.open,Открытая основа
+tr.gen.open.tip,Генерирует открытую трассу без объектов. Переделывает текущую трасс и удалят все объекты.
+tr.gen.all_objects,Все объекты
+tr.gen.all_objects.tip,Генерирует новые объекты. Заменя все существующие на трассе.
+tr.gen.object_groups,Группа объектов
+tr.gen.object_groups.tip,Генерирует группы объектов. Заменя всех существующих.
+tr.gen.crowd,Толпа
+tr.gen.crowd.tip,Генерирует толпу пешеходов. Заменят текущие.
+tr.gen.forests,Леса
+tr.gen.forests.tip,Генерирует леса. Заменят текущие. Если на городских трассах, то удалят все зелёные участки!
+tr.gen.flowers,Цветы
+tr.gen.flowers.tip,Генерирует цветы. Заменят текущие. Ничего не будет происходить на городских трассах.
+tr.gen.bushes,Кусты
+tr.gen.bushes.tip,Генерирует кусты. Заменят текущие. Ничего не будет происходить на городских трассах.
+tr.gen.rocks,Камни
+tr.gen.rocks.tip,Генерирует камни. Заменят текущие.
+tr.gen.tires,Шины
+tr.gen.tires.tip,Генерирует шины. Заменят текущие.
+tr.gen.cones,Конусы
+tr.gen.cones.tip,Генерирует конусы. Заменят текущие.
+tr.gen.walls,Стены
+tr.gen.walls.tip,Генерирует стены. Заменят текущие.
+tr.gen.lamps,Фонарные столбы
+tr.gen.lamps.tip,Генерирует фонарные столбы. Заменят текущие.
+tr.gen.buildings,Здания
+tr.gen.buildings.tip,Генерирует здания. Заменят текущие.
+tr.gen.puddles,Лужи
+tr.gen.puddles.tip,Генерирует лужи. Заменят текущие.
+tr.gen.ramps,Трамплины
+tr.gen.ramps.tip,Генерирует трамплины. Заменят текущие.
+
+tr.ground_type,Тип поверхности
+tr.ground_type.grass,Трава
+tr.ground_type.tarmac,Асфальт
+tr.ground_type.dirt,Грязь
+tr.ground_type.sand,Песок
+tr.ground_type.snow,Снег
+
+tr.ground_detail,Детализизация поверхности
+tr.ground_detail.none,Нет
+tr.ground_detail.none.tip,Убирает слой детализаций поверхности
+tr.ground_detail.shared_tip,Добавляет детализаций поверхности. Нажимай несколько раз, чтобы подобрать подходящий.
+
+tr.track_type,Тип дороги
+tr.track_type.asphalt,Асфальт
+tr.track_type.gravel,Гравии
+tr.track_type.snow,Снег
+
+tr.ed_track,Редактировать дорогу
+tr.ed_track.add,Добавить
+tr.ed_track.add.tip,Нажми на поверхность, чтобы добавить новый сегмент трассы до конца трассы. Если трасса кольцевая, то старт и финиш будут временно отсоединены.
+tr.ed_track.split,Разделить
+tr.ed_track.split.tip,Нажми на поверхность рядом с дорогой, чтобы разделить на новый сегмент.
+tr.ed_track.edit,Редактировать
+tr.ed_track.edit.tip,Нажимай и тяни ручки, чтобы изменить форму линии дороги.
+tr.ed_track.delete,Удалить
+tr.ed_track.delete.tip,Нажми на точку на дороге, чтобы удалить часть линий дороги.
+tr.ed_track.open_close,Открыть/Закрыть
+tr.ed_track.open_close.tip,Нажми, чтобы переключить на открытый или кольцевую.
+tr.ed_track.auto_smooth,Авто сглаживание
+tr.ed_track.auto_smooth.tip,Сглаживает углы дороги
+tr.ed_track.randomize,Рандомизировать
+tr.ed_track.randomize.tip,Будет случайно подбирать углы поворотов дороги
+tr.ed_track.sharpen,Заострить
+tr.ed_track.sharpen.tip,Будет заострять углы поворотов (может занять несколько секунд на больших трассах)
+tr.ed_track.wider,Шире
+tr.ed_track.wider.tip,Делает дорогу шире
+tr.ed_track.narrower,Уже
+tr.ed_track.narrower.tip,Делает дорогу уже
+tr.ed_track.grow,Увеличить
+tr.ed_track.grow.tip,Увеличивает размер трассы
+tr.ed_track.shrink,Уменьшить
+tr.ed_track.shrink.tip,Уменьшает размер трассы
+tr.ed_track.move_start,Переместить старт
+tr.ed_track.move_start.tip,Перемещает точку старта на следующую точку дороги (только для кольцевых трассах)
+tr.ed_track.recenter,На центр
+tr.ed_track.recenter.tip,Перемещает трассу и объекты на центр
+tr.ed_track.rotate,Вращать
+tr.ed_track.rotate.tip,Вращает трассу и все объекты на 45 градусов по часовой стрелке
+
+tr.add_obj,Добавить объекты
+tr.add_obj.group,Группа объектов
+tr.add_obj.group.tip,Добавляет группу объектов. Нажми ещё раз, чтобы выбрать другие.
+tr.add_obj.forest,Лес
+tr.add_obj.forest.tip,Спавнят кучку различных деревьев
+tr.add_obj.flowers,Цветы
+tr.add_obj.flowers.tip,Спавнят кучку различных цветов
+tr.add_obj.crowd,Толпа
+tr.add_obj.crowd.tip,Круг толпы спавнят пешеходов, иногда и горшок или снеговика
+tr.add_obj.cone,Конус
+tr.add_obj.cone.tip,Держи на ЛКМ и тяни, чтобы сделать линию из них
+tr.add_obj.tire,Шины
+tr.add_obj.tire.tip,Держи на ЛКМ и тяни, чтобы сделать линию из них
+tr.add_obj.porta_potty,Горшок
+tr.add_obj.porta_potty.tip,Сбивая горшок даст немного нитро
+tr.add_obj.barrel,Бочка
+tr.add_obj.barrel.tip,Бочки могут взрываться, когда ты их сбиваешь
+tr.add_obj.snowman,Снеговик
+tr.add_obj.snowman.tip,Уничтожая снеговика может дать немного нитро
+tr.add_obj.street_lamp,Фонарный столб
+tr.add_obj.junk_car,Развалюха
+tr.add_obj.hot_dog_truck,Грузовик с хот-догом
+tr.add_obj.hot_dog_cart,Тележка с хот-догом
+tr.add_obj.bench,Скамья
+tr.add_obj.water_puddle,Водянная лужа
+tr.add_obj.water_puddle.tip,Скользковато
+tr.add_obj.water_pond,Водоём
+tr.add_obj.water_pond.tip,Скользковато
+tr.add_obj.ice_patch,Лёд
+tr.add_obj.ice_patch.tip,Довольно скользко
+tr.add_obj.oil_spill,Лужа масла
+tr.add_obj.oil_spill.tip,БЕРЕГИСЬ, МАСЛО!!!
+tr.add_obj.ramp,Трамплин
+tr.add_obj.ramp.tip,Трамплик может взымать машину. Даёт чуть-чуть ускорения.
+tr.add_obj.power_ramp,Ускоритель
+tr.add_obj.power_ramp.tip,Усокритель даёт большое ускорение перед тем как взымать машину
+tr.add_obj.crop_field,Поле
+tr.add_obj.rock,Камень
+tr.add_obj.desert_rock,Пустынный камень
+tr.add_obj.wall,Стена
+tr.add_obj.pipe,Труба
+tr.add_obj.solar_panels,Солнечные панели
+tr.add_obj.silo,Блиндаж
+# Thing for retrieving water from the ground
+tr.add_obj.well,Резервуар
+tr.add_obj.old_hut,Старый сарай
+tr.add_obj.vault,Убежище
+tr.add_obj.house,Дом
+tr.add_obj.building,Здание
+tr.add_obj.grass_square,Луга
+tr.add_obj.grass_square.tip,Для установки деревьев и растении на асфальт
+tr.add_obj.bush,Куст
+tr.add_obj.bush.tip,Уничтожаемая декорация
+tr.add_obj.green_tree,Зелёное дерево
+tr.add_obj.branch_tree,Сезонное дерево
+tr.add_obj.snow_tree,Зимнее дерево
+tr.add_obj.flowers_single,Цветы
+
+tr.ed_obj,Редактировать объекты
+tr.ed_obj.move,Переместить
+tr.ed_obj.move.tip,Нажми и тяни объект, чтобы передвинуть
+tr.ed_obj.rotate,Вращать
+tr.ed_obj.rotate.tip,Нажми и тяни объект, чтобы вращать. Держи Shift, чтобы замедлить вращение.
+tr.ed_obj.delete,Удалить
+tr.ed_obj.delete.tip,Нажми на объект, чтобы удалить
+tr.ed_obj.clear_all,Очистить
+tr.ed_obj.clear_all.tip,Удалят все объекты на трассе
+tr.ed_obj.clear_groups,Очистить группы
+tr.ed_obj.clear_groups.tip,Убирают группы объектов
+tr.ed_obj.clear_crowd,Убрать толпу
+tr.ed_obj.clear_crowd.tip,Убирает всех толп
+tr.ed_obj.clear_forests,Убрать деревья
+tr.ed_obj.clear_forests.tip,Убирает все деревья. Если это использовано в городе, уберут все луги! Не уберут индивидуально установленные деревья.
+tr.ed_obj.clear_flowers,Убрать цветы
+tr.ed_obj.clear_flowers.tip,Убирает все цветы. Если это использовано в городе, уберут все луги! Не уберут индивидуально установленные цветы.
+tr.ed_obj.clear_bushes,Убрать кусты
+tr.ed_obj.clear_bushes.tip,Убирает все кусты. Ничего не произойдёт в городских трасса.
+tr.ed_obj.clear_rocks,Убрать камни
+tr.ed_obj.clear_rocks.tip,Убирает все камни
+tr.ed_obj.clear_tires,Убрать шины
+tr.ed_obj.clear_tires.tip,Убирает все шины
+tr.ed_obj.clear_cones,Убрать конусы
+tr.ed_obj.clear_cones.tip,Убирает все конусы
+tr.ed_obj.clear_walls,Убрать стены
+tr.ed_obj.clear_walls.tip,Убирает все стены
+tr.ed_obj.clear_lamps,Убрать фонарные столбы
+tr.ed_obj.clear_lamps.tip,Убирает все фонарные столбы
+tr.ed_obj.clear_buildings,Убрать здания
+tr.ed_obj.clear_buildings.tip,Убирает все дома и здания
+tr.ed_obj.clear_puddles,Убрать лужи
+tr.ed_obj.clear_puddles.tip,Убирает все лужи, лёд и масло
+tr.ed_obj.clear_ramps,Убрать трамплины
+tr.ed_obj.clear_ramps.tip,Убирает все трамплины
+
+tr.test_drive,Тест драйв
+tr.test_drive_ai,Тест драйв ИИ
+tr.help,Помощь
+
+# Car Editor
+
+ced.select_base_car,Выбирите основу
+ced.select_car,Выбрать машину
+
+ced.new_car,Новая
+ced.open_car,Открыть
+ced.download_cars,Загрузить
+ced.exit,Выход
+ced.save_car,Сохранить
+ced.delete_car,Удалить
+ced.parameters,Характеристики
+ced.edit_sprites,Редактировать спрайты
+ced.description,Описание
+ced.part_positions,Положения деталей
+ced.sounds,Звук
+ced.modding_guide,Помощь
+ced.share,Выложить
+ced.reload_sprites,Обновить спрайты
+ced.close,Закрыть
+ced.test_drive,Проверить
+ced.end_test_drive,К редактору
+
+ced.speed_idx,Показатель
+ced.price,Цена
+ced.price.tip,Цена автоматически высчитывает из показателя 
+ced.req_level,Требуемый уровень
+ced.req_level.tip,Требуемый уровень автоматически высчитывает из показателя.
+ced.label.general,Основа
+ced.max_speed_kmh,Макс. скорость (км/ч)
+ced.max_speed_kmh.tip,Коробка должна работать плавно. Проверь машину на длинной прямой, чтобы подобрать максимальную скорость.
+ced.mass_kg,Масса (кг)
+ced.mass_kg.tip,Легкость + мощность = безумие. Найди в нём баланс.
+ced.max_health,Здоровье
+ced.label.engine,Двигатель
+ced.engine_power,Мощность
+ced.engine_power.tip,Контроль заканчивается примерно на 500 ЛС. Если вы можете больше, это не значит, что ты должен. Выставляй максимальную скорость после того, как это сделал.
+ced.label.handling,Управление
+ced.steering_sensitivity,Чувствительность руля
+ced.steering_sensitivity.tip,Насколько чувствительный руль. Зависит также и от веса.
+ced.label.grip,Сцепление
+ced.drift_factor,Фактор заноса с тягой
+ced.drift_factor.tip,Как легко машина будет входить в занос, когда есть сцепление с дорогой. Рекомендуется поставить значение между 0.8 и 0.9.
+ced.slip_factor,Фактор заноса без тяги
+ced.slip_factor.tip,Как легко машина будет держать в заносе когда нет сцепления. Рекомендуется поставить значение между 0.95 и 0.9999.
+ced.max_sticky_vel,Макс. сила тяги при заносе
+ced.max_sticky_vel.tip,Как быстро машина будет поворачивать без входа в занос. Рекомендуется поставить значение между 1 и 1.5.
+ced.label.gearbox,Коробка передач
+ced.max_rpm,Максимальные обороты (RPM)
+ced.max_rpm.tip,Это не повлияет на звук двигателя! Выбери его подходящий звук.
+ced.idle_rpm,Холостые обороты (RPM)
+ced.shift_time,Время переключения
+ced.shift_time.tip,Как долго будет КПП будет переключаться
+
+ced.label.sounds,Звук
+ced.sound.engine,Двигатель
+ced.sound.muffler,Глушитель
+ced.sound.turbo,Наддув
+ced.sound.turbo.tip,Звук наддува будет работать только тогда, когда будет улучшение (турбо)
+ced.sound.charger,Нагнетатель
+ced.sound.charger.tip,Звук нагнетателя будет работать только тогда, когда будет улучшение (турбо)
+
+ced.label.model,Название
+ced.model_name,Название машины
+ced.label.description,Описание
+ced.car_description_placeholder,Есть о чём сказать о вашей произведений исскуства
+
+ced.label.lights,Свет
+ced.front_lights_width,Ширина передних фар
+ced.front_lights_pos,Позиция передних фар
+ced.rear_lights_width,Фирина задних фонарей
+ced.rear_lights_pos,Позиция задних фонарей
+
+ced.label.wheels,Колёса
+ced.front_axle_width,Ширина передней оси
+ced.front_axle_pos,Позиция передней оси
+ced.rear_axle_width,Ширина задней оси
+ced.rear_axle_pos,Позиция задней оси
+
+ced.label.interior,Салон
+ced.interior_off_x,Положение по горизонтали
+ced.interior_off_y,Положение по вертикали
+
+ced.label.collider,Коллизия
+ced.collider_width,Ширина коллизий
+ced.collider_height,Длина коллизий
+ced.center_of_mass,Центр массы
+ced.center_of_mass.tip,Влияет на управление и поведение в поворотах/заносах
+
+ced.label.exhausts,Выхлоп
+ced.exhaust_count,Количество выхлопов
+ced.exhaust_width,Ширина выхлопов
+ced.exhaust_pos,Позиция выхлопов
+
+################################################################################
+
+# Cutscenes
+
+### Lore Cutscene ### <-- please get this one very well, it's something people usually see within first 2 minutes of the game
+
+# In here {0} is the number of years and {1} is a date
+cut.lore.1,Эй! Не ты тот самый знаменитый гонщик, который попал в аварию {0} лет назад? Я знаю, что ты был в крио-сне с {1} года, так что я дам тебе разгон.
+# {0} is a date
+cut.lore.2,В то время была самая успешная технологическая корпорация, из которых ты уже знаешь, я просто не помню изначальное название. Она опередила всех конкурентов и взял на себя контроль над экономикой мирового масштаба в {0}-м году.
+# You should probably keep "Social Frontier of Activism" and SOFACT unchanged in your translation, for authenticity (company was not local after all)
+cut.lore.3,Вместо того, чтобы изучать технологии, корпорация стагнировала себя в накаляющей обстановки внутренней политики. И чтобы не было конфликтов, они переименовали себя в "Social Frontier of Activism", или же "SOFACT".
+cut.lore.4,Но людская натура взяла на себя. Активисты были устранены силой во время неожиданного вражеского штурма, и SOFACT, пока она ещё была дружелюбной организацией, теперь принадлежит старомодным бандитским головорезам.
+# Please do not translate "Bloody Rally Show", or included it into parentheses next to translation. Example: "Kruvinojo Ralio Šou" (Bloody Rally Show)
+cut.lore.5,Новые лидеры теперь ориентируются на прибыли. Они продолжают инвестировать в развлечения, чтобы вложиться в маркетинг, и "Bloody Rally Show" стала тем самым, выбранное большинством людей в наши дни.
+cut.lore.6,В Bloody Rally Show, они попытались возродить золотую эпоху ралли, с технологиями 1980-х, один из безызвестных Группы-Б. Инциденты были на высоте, но инфлюенсеры в соцсетях продолжают делать крутые снимки на близких расстояниях.
+cut.lore.7,Не потеряй тачку мой друг, или в худшем окажешься среди толпы. Удачи в гонках! Кстати, напомни мне как тебя зовут.
+
+### Season Intro ### <-- please get this one very well too, it's part 2 of the main introduction
+
+cut.intro.1,Эй, новичок, ты опоздал! Я - Николас Мэррилэнд, режиссёр "Bloody Rally Show". Есть ещё кое-кто, с кем бы я тебя познакомил. Вот он, сидит в чёрном лимузине, подойди к окну.
+# {0} will be a random insult word
+cut.intro.2,Вот ты где, {0}. Мы притащили тебя сюда, так как люди говорят, что ты очень хорошо водишь старомодные тачки. А теперь иди дуй устраивать отличное шоу!
+cut.intro.2_2,А, и ещё, мы будем просить у тебя кое-какие услуги время от времени. Не шугайся, там ничего особенного!
+cut.intro.3,Погоди. А зачем я должен делать это ради вас?
+# {0} will be an insult, ${1} - sum of money, like $500000
+cut.intro.4,Потому, что ты наш должник за крио-сон, {0}! Заплати ${1} в конце определённого сезона, и мы тебя освободим, и веселись как тебе вздумается. А пока, твоя жопа принадлежит SOFACT.
+cut.intro.5,Походу вы мне не оставляете никакого выбора... Уж мне некуда бежать... Когда начнётся гонка?
+cut.intro.6,Следуй за мной новичок, я покажу тебе всё. Давай познакомим тебя с твоими гонщиками в первую очередь.
+# {0} will be a plural insult (addressing all racers)
+cut.intro.7,Так, {0}, вернулся для большего удовольствия? Я впечатлён!
+cut.intro.8,Я чувствую, что-то во мне осталось, ну ты знаешь.
+cut.intro.9,Рад, что ты вернулся! Следуй за мной, подпишешь кое-какие бумаги.
+
+### Racer died cutscene
+
+# {0} will be racer's name, {1} will be a "he" or "she"
+cut.died.1,{0} не справился. Но наш гонщик будет оставаться в нашем доске почётов.
+cut.died.2,*Нажимает F*
+# {0} will be a plural insult, like "clowns"
+cut.died.3,Отставить трогать мою клавиатуру, вы {0}! Дуйте устраивать дальше шоу!
+
+### Mission cutscene (shared) <-- important to get right too, will be shared across dozen of missions!
+
+cut.racer.mid_comment.1,Боже правый!
+# {0} will be a curse word
+cut.racer.mid_comment.2,{0}, опять ты.
+# {0} will be a curse word
+cut.racer.mid_comment.3,Надеюсь этот чел заплатил тебе.
+# {0} will be a curse adjective (like "friggin")
+cut.racer.mid_comment.4,Да, я понял. А теперь говори о деньгах.
+# {0} will be a curse word (crap)
+cut.racer.mid_comment.5,{0}, ну вот опять.
+
+# {0} will be some name or title
+cut.racer2gov.greet.1,{0}, слышал, что ты хотел меня видеть.
+cut.racer2gov.greet.2,{0}, есть минутка?
+cut.racer2gov.greet.3,"Эй, {0}, не против, если я вас что-то спрошу?
+cut.racer2gov.greet.4,*Тук-тук*
+cut.racer2gov.greet.5,{0}, Я здесь, чтобы вам о чём-то спросить.
+cut.racer2gov.greet.6,Разрешите войти?
+cut.racer2gov.greet.7,Эй {0}, у вас есть какие-нибудь услуги для меня? Денег у меня мало.
+
+# {0} will be a name or a title
+cut.racer2racer.greet.1,Эй {0}! Как дела?
+cut.racer2racer.greet.2,{0}! Тот самый, который я искал!
+cut.racer2racer.greet.3,Эй, Соперник!
+cut.racer2racer.greet.4,О, дарова {0}, не заметил тебя.
+
+cut.racer2racer.resp.1,Эй {0}, как твоя турбина свистит?
+cut.racer2racer.resp.2,Ага, дай отгадаю, ты хотел мне что-то спросить?
+# {0} will be a curse adjective (friggin face)
+cut.racer2racer.resp.3,Только не ты, мне не нравится твоё лицо, гонщик.
+cut.racer2racer.resp.4,О нет, я не тот кто проколол твои шины прошлой ночью!
+# {0} will be an insult (like clown)
+cut.racer2racer.resp.5,Чего ты хочешь, {0}?
+
+cut.gov2racer.greet_resp.1,{0}, да, заходи!
+cut.gov2racer.greet_resp.2,{0}, а я тебя ждал.
+cut.gov2racer.greet_resp.3,Присаживайся и слушай внимательно.
+# {0} Curse adjective - friggin cash
+cut.gov2racer.greet_resp.4,Ты хочешь заработать ещё денег, не так ли? 
+# {0} Curse adjective - friggin cash
+cut.gov2racer.greet_resp.5,Дай угадаю, ты хочешь заработать деньги, не так ли?
+
+# {0} - insult singular
+cut.call.1,Эй ты! {0}! Сюда иди.
+# {0} - insult singular
+cut.call.2,Эй! {0}!
+# {0} - name or title
+cut.call.3,{0}. Я искал тебя!
+cut.call.4,{0}, подожди, чего ты торопишься?
+cut.call.5,Вот мы и снова встретились.
+# {0} - insult singular
+cut.call.6,О, тот самый {0}, который я искал.
+# {0} - racer name
+cut.call.7,Давно не виделись, {0}.
+cut.call.8,Приветствую, {0}.
+cut.call.9,Доброго вам, {0}.
+# {0} - insult singular
+cut.call.10,Не ты опять, {0}, чего ты хочешь? Хотя, так как ты здесь, у меня есть кое-что для тебя.
+
+cut.call.resp.1,Чего ты хочешь?
+cut.call.resp.2,...
+# {0} - curse adjective (friggin point)
+cut.call.resp.3,Да-да, ближе к теме.
+# {0} - name or title
+cut.call.resp.4,А, рад тебя видеть, {0}.
+cut.call.resp.5,Приветствую, {0}.
+cut.call.resp.6,Мне нужно подзаработать, есть у тебя дельце?
+cut.call.resp.7,Гонщики меня уже заколебали, полагаю что есть от тебя помощь?
+cut.call.resp.8,Есть что-то, что можно взорвать рейтинг вверх?
+
+# {0} below is always government official name or title
+cut.end.player2gov.1,Посмотрим как я справлюсь.
+cut.end.player2gov.2,Всё для вас, {0}.
+cut.end.player2gov.3,А у меня есть выбор?
+cut.end.player2gov.4,Только не опять...
+cut.end.player2gov.5,Когда это всё кончится?
+cut.end.player2gov.6,Ладно-ладно, я понял.
+cut.end.player2gov.7,Всё нормально.
+cut.end.player2gov.8,Да, конечно, по крайней мере.
+cut.end.player2gov.9,Ладно, попытаюсь.
+cut.end.player2gov.10,Хочу домой.
+cut.end.player2gov.11,До свидания, {0}.
+cut.end.player2gov.12,Спасибо большое за такую возможность!
+
+cut.end.player2racer.1,Конечно, это будет весело.
+# {0} - name or title
+cut.end.player2racer.2,Всё для тебя, {0}.
+# {0} - insult singular (i.e. clown)
+cut.end.player2racer.3,Приступаю, {0}!
+cut.end.player2racer.4,Наконец-то хоть что-то стоящее.
+cut.end.player2racer.5,А, с удовольствием!
+cut.end.player2racer.6,Подумаю.
+# {0} - racer name, {1} - curse word (i.e. crap)
+cut.end.player2racer.7,Не нравлюсь я тебя {0}, но {1}, почему нет.
+cut.end.player2racer.8,Конечно, по крайней мере.
+# {0} - singular insult
+cut.end.player2racer.9,Ага, {0}.
+
+cut.end.racer2player.1,Пока.
+cut.end.racer2player.2,Отлично, увидимся.
+cut.end.racer2player.3,Я наблюдаю за тобой.
+cut.end.racer2player.4,Будь начеку.
+# {0} will be an noun insult (clown)
+cut.end.racer2player.5,Погнали, пришло тебе время глотать мой пыль, {0}.
+cut.end.racer2player.6,А теперь погнали.
+cut.end.racer2player.7,Меньше слов, больше дел.
+cut.end.racer2player.8,До свидания.
+cut.end.racer2player.9,Ну-ну.
+# {0} will be an noun insult (clown)
+cut.end.racer2player.10,Ну-ну, {0}.
+
+# {0} - curse adjective (goddamn security)
+cut.end.gov.1,Теперь ступай, или я вызову охрану.
+# {0} - insult singular (clown)
+cut.end.gov.2,Давай, {0}.
+
+cut.end.gov.3,А теперь уходи, и не возвращайся сюда, пока ты не сделаешь.
+# {0} - insult singular (clown)
+cut.end.gov.4,Прощай, {0}.
+cut.end.gov.5,Прощай.
+
+cut.req.drift.1,Чуть не забыл. Сделать это в заносе, чтобы засчиталось!
+cut.req.drift.2,О, и сделай его в заносе, зрителям это понравится.
+cut.req.drift.3,Тебе нужно поскользить, чтобы это всё засчиталось.
+cut.req.drift.4,Подожди, забыл сказать. Сделай это в заносе, зрители обожают это.
+cut.req.drift.5,И они сказали мне что у тебя есть навык, так что докажи им и сделай это всё в заносе.
+
+cut.resp.drift.1,Только не опять, это невозможно!
+# {0} - curse word (crap)
+cut.resp.drift.2,Ох, {0}...
+# {0} - curse word (crap)
+cut.resp.drift.3,{0}, это будет трудно.
+cut.resp.drift.4,Ладно, я понял.
+cut.resp.drift.5,Принимаю.
+# {0} - name of character (i.e. Brace)
+cut.resp.drift.6,С удовольствием, {0}.
+cut.resp.drift.7,Так точно, сэр!
+cut.resp.drift.8,Заносом, так заносом.
+cut.resp.drift.9,Я бы это сделал без вашего напоминания!
+cut.resp.drift.10,Больше не болтай!
+# {0} - insult singular (clown)
+cut.resp.drift.11,На готове, {0}!
+
+# In block blow, {0} will be second part of the sentence, generated somewhere 
+# (i.e. for your trouble, you will receive $1000)
+cut.reward.part.1,Как получится, {0}.
+cut.reward.part.2,Если справишься, {0}.
+cut.reward.part.3_us,Не разочаруешь нас, {0}.
+cut.reward.part.3_me,Не разочаруешь меня, {0}.
+cut.reward.part.4,Если у тебя получится, {0}.
+cut.reward.part.5,Если не провалишь, {0}.
+cut.reward.part.6,Если сделаешь грамотно, {0}.
+
+# Same here, {0} will be second part of sentence generated somewhere
+# (i.e. if you fail me like you always do, I will think of some punishment)
+cut.punish.part.1,Если провалишь, {0}!
+cut.punish.part.2,Если не справишься, {0}.
+cut.punish.part.3,Если провалишь как всегда, {0}!
+cut.punish.part.4,Если затупишь, {0}!
+cut.punish.part.4_1,Если это пойдёт наперекосяк, {0}!
+cut.punish.part.4_2,Если ты сделаешь какую-то глупость, {0}!
+cut.punish.part.5,Если сделаешь это всё по-тупому, {0}!
+cut.punish.part.6,Если ты не сделаешь, {0}.
+
+# In block below {0} will be generated sentence with reward part, {1} with punishment
+# (i.e: If you succeed, you will get $1000, otherwise I will puncture your tires)
+cut.rew.pun.part.1,Сделаешь его, {0}, но если провалишь, {1}!
+cut.rew.pun.part.2,В награду за задание, {0}, но если скукарекаешь, {1}!
+cut.rew.pun.part.3,Если у тебя получится, {0}, или же {1}!
+cut.rew.pun.part.4,Проделай, {0}, Но там есть наказание за провал. {1}!
+cut.rew.pun.part.5,Если сделаешь это, {0}. Но не думай, что я буду простить за провал, {1}!
+cut.rew.pun.part.6,{0}. Но почему бы мне это не сделать, {1}!
+cut.rew.pun.part.7,Справишься, {0}. Думаешь, что ты провалил, {1}!
+cut.rew.pun.part.8,За это, {0}, но если не сделаешь, {1}.
+cut.rew.pun.part.9,За успех, {0}, но если ты облажаешься как всегда, то {1}!
+
+# Rewards told by government agent. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+# {0} will be a number
+cut.rew.gov.cash.1,получишь ${0}
+cut.rew.gov.cash.2,возьмешь ${0}
+cut.rew.gov.cash.3,отдам ${0}
+cut.rew.gov.cash.4,заплатим тебе ${0}
+cut.rew.gov.cash.5,дам тебе ${0}
+cut.rew.gov.car,куплю тебе новую тачку
+cut.rew.gov.pts,подкручу тебе статистику, ты получишь {0} очков за гонку
+cut.rew.gov.rnd,будет что-то интересное для тебя
+cut.rew.gov.aero,мои механики улучшат твой кузов
+cut.rew.gov.turbo,механики заменят твоё турбо на что-то, да побольше
+cut.rew.gov.engine,механики настроят регулятор, чтобы двигатель орал как зверь
+cut.rew.gov.gears,твоя коробка будет работать быстрее
+cut.rew.gov.grip,дадим тебе новый комплект шин для твоей тачки
+cut.rew.gov.none,ты ничего не получишь! Ха-ха-ха!
+
+# Rewards told by other racer. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+# {0} will be a number
+cut.rew.racer.cash.1,мой фонд в стоимости ${0} будет твоим
+cut.rew.racer.cash.2,дам тебе купон на хавку за ${0}
+cut.rew.racer.cash.3,дам тебе что-то из кармана. Должно быть у меня ${0}
+cut.rew.racer.cash.4,возьму в кредит ${0} из банка, чтобы оплатить тебе
+cut.rew.racer.cash.5,дам ${0}
+cut.rew.racer.car,подарю тебе свою новую тачку
+cut.rew.racer.pts,у меня есть друг, кто повысит твою статистику, получишь {0} дополнительных очков за эту гонку
+cut.rew.racer.rnd,сделаю кое-что стоящее
+cut.rew.racer.aero,у меня есть идея как улучшить твой кузов с помощью клейкой лентой и WD-40
+cut.rew.racer.turbo,отполирую твою турбину
+cut.rew.racer.engine,заменю твой двигатель на более мощный
+cut.rew.racer.gears,укорочу время переключнеия в твоей коробке
+cut.rew.racer.grip,сниму со своей тачки свои крутые шины и дам их тебе
+cut.rew.racer.none,нихрена не получишь!
+
+# Punishments told by government agent. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+cut.punish.gov.cash.1,потеряешь ${0}
+cut.punish.gov.cash.2,заплатишь нам ${0}
+cut.punish.gov.cash.3,твоя страховка будет стоить ${0}
+cut.punish.gov.cash.4,возьму ${0} из твоего банковского счёта
+cut.punish.gov.cash.5,заплатишь ${0} за 10 алмазов в новой мобильной игре, который я только скачал
+cut.punish.gov.car,лично взорву твою тачку на мелкие куски с помощью мясной пушки. Ни один механик не сможет собрать их обратно
+cut.punish.gov.pts,запущу данные, чтобы ты потерял {0} очков
+cut.punish.gov.rnd,сделаю что-то гадкое, что они повесят на облошку в новостях, поверь мне, твоё фото будет там
+cut.punish.gov.aero,попрошу механиков засунуть {0} в твою решетку радиатора
+cut.punish.gov.turbo,лично засуну {0} в твою турбину
+cut.punish.gov.engine,снимем пару деталей из твоего двигателя
+cut.punish.gov.gears,заменим жидкость в коробке на {0} чтобы ты ехал медленнее
+cut.punish.gov.grip,попрошу механика натереть {0} на твои шины
+cut.punish.gov.none,можешь не переживать, дел у меня полно
+
+# Punishments told by other racer. Not they start from lowercase letter, and no full stop in the end, as it's in mid sentence
+cut.punish.racer.cash.1,купишь рискованную акцию TSLA за ${0}
+cut.punish.racer.cash.2,заплатишь мне ${0}
+cut.punish.racer.cash.3,дашь мне или ${0}, или крутые Casio которые у тебя на руке
+cut.punish.racer.cash.4,солью ${0} стоимости топлива с твоей тачки
+cut.punish.racer.cash.5,купишь мне 500 гемов в новой игре который я скачал. Там как раз скидка на 75% что будет стоить тебе ${0}
+# "Lionard 125" should not be translated, it's a model name of cheapest car in the game
+cut.punish.racer.car,отберём у тебя тачку. А то я всё ещё катаюсь на Lionard 125, едет как детская коляска Плохого Копа
+cut.punish.racer.pts,меня есть хакер который сотрёт {0} очков с твоего счёта
+cut.punish.racer.rnd,прокручу колесо неудачи и подберу гадкое с тобой или с твоей тачкой
+cut.punish.racer.aero,засуну {0} твою решётку радиатора
+cut.punish.racer.turbo,засуну {0} в твою турбину
+cut.punish.racer.engine,заполню в твой двигатель {0}
+cut.punish.racer.gears,заменю трансмиссионную жидкость на {0} 
+cut.punish.racer.grip,натру всякой дрянью по всей твоей покрышке
+cut.punish.racer.none,ничего не будет, я не в настроении
+
+### Shield mission cutscene
+
+cut.shield.req,Держи силовое поле и батарейку к нему. Скажешь спасибо мне.
+cut.shield.intro.1,Вижу, что у тебя плохо складывается в этом сезоне. Решили помочь тебе немного в предстоящей гонке.
+# {0} will be a plural insult
+cut.shield.intro.2,Похоже, что эти {0} задолбали тебя всё это время. Вот что-то, что поможет тебя.
+
+cut.shield.descr,Проиди гонку с силовым полем
+cut.shield.tip,Вспомни 3-й закон Ньютона
+
+### Make car come last 
+
+# {0} - clown
+cut.finlast.req,Дам тебе пушку и отмечу цель на твоём интерфейсе. Заставь этого {0} платить!
+
+# {0} - player name, {1} - vegan burger
+cut.finlast.racer.intro.1,Эй, {0}! У меня есть просьба. Один из гонщиков засунул {1} в мой выхлоп прошлой ночью, и мне нужна месть!
+# {0} - player name, {1} - vegan olive oil
+cut.finlast.racer.intro.2,{0}, подожди. нужна твоя помощь. Один из гонщиков натёр {1} на весь мой руль, и я хочу отомстить!
+
+# {0} - vegan olive oil
+cut.finlast.gov.intro.1,Ты не поверишь. Какой-то клоун из вас пробрался в мой офис и протёр всякой дрянью на всю мою клавиатуру! Я требую, чтобы ты всем показал, каково им связаться с SOFACT.
+# {0} - clown
+cut.finlast.gov.intro.2,Слушай, этот {0}, мне не нравится. Заставь его пожить в аду.
+
+cut.finlast.tip,Цель машины будет отмечена.
+
+# {0} - name, {1} - position number
+cut.finlast.descr,Убедись, что {0} финиширует на {1} или ниже
+
+### Assassinate mission cutscene (the most complex one)
+
+# {0} is a singular noun defining a person
+# {1} is part of sentence telling what the person did
+# {2} is the second part telling what the person did
+# {3} is the third part with circumstances
+cut.ass.beg1.1,Вот и {0}, кто {1} {2}, {3}
+cut.ass.beg1.2,Как я должен сказать это вежливо. {0} {1} {2}, {3}
+cut.ass.beg1.3,Дай мне перейти к теме. {0} {1} {2}, {3}
+
+# Same as beg1, but for 2 people
+cut.ass.beg2.1,Парочка {0} {1} {2}, {3}
+cut.ass.beg2.2,Как буду вежлив. Двое {0} {1} {2}, {3}
+
+# Same as beg1 & beg2, but for 3+ people
+cut.ass.beg3.1,Там кучка {0} {1} {2}, {3}
+cut.ass.beg3.2,Вежливо говоря. Отряд {0} {1} {2}, {3}
+
+# Endings for singular target
+cut.ass.end1.1,Ты найдёшь цель на твоём интерфейсе когда начнёшь гонку.
+# {0} - singular insult (i.e. clown)
+cut.ass.end1.2,Избавь его для меня, сделаешь?
+cut.ass.end1.3,Дай отметку с него на своем списке.
+cut.ass.end1.4,Прихлопни его, хорошо?
+cut.ass.end1.5,Отправь его на орбиту.
+# {0} - singular insult (i.e. clown)
+cut.ass.end1.6,Я хочу, чтобы этот {0} улетел на орбиту.
+cut.ass.end1.7,Дай ему бесплатный проезд на твоём капоте.
+cut.ass.end1.8,Ты знаешь что делать, верно?
+
+# Endings for two targets
+cut.ass.end2.1,Ты найдёшь эти цели на твоём интерфейсе когда начнёшь гонку.
+# {0} - plural insult (i.e. clowns)
+cut.ass.end2.2,Избавь двух для меня, сделаешь?
+cut.ass.end2.3,Дай отметку с них на своем списке.
+cut.ass.end2.4,Прихлопни их, хорошо?
+cut.ass.end2.5,Отправь им на орбиту.
+# {0} - curse adjective (i.e. friggin stretcher)
+cut.ass.end2.6,Я хочу, чтобы ты отправил на орбиту этих показух.
+cut.ass.end2.7,Дай им бесплатный проезд на капоте.
+
+# Endings for three+ targets
+# end3.1 is used as end2.1
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.2,Избавь всех этих неугодников для меня, сделаешь?
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.3,Найди их всех, и уделай этих мразей.
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.4,Сделай этих чертяг *хлоп*, хорошо?
+# end3.5 is used as end2.5
+# {0} - plural insult (clowns) {1} - curse adjective (i.e. friggin stretcher)
+cut.ass.end3.6,Хочу, чтобы ты этих преступников отправил на орбиту.
+# {0} - plural insult (i.e. clowns)
+cut.ass.end3.7,Дай этих баранов бесплатный проезд на капоте.
+
+# Mid sentences for 1 target
+# {0} is some randomized person name
+cut.ass.mid1.1,Его зовут {0}.
+# {0} is some randomized person name (repeated twice in this sentence), {1} - curse adjective
+# Example: John Smith. Friggin John Smith.
+cut.ass.mid1.2,{0}.Чёртов {0}.
+cut.ass.mid1.3,Вот он {0}.
+# {1} will be insult singular, i.e. clown
+cut.ass.mid1.4,Мы нашли его, того самого {1}, он же {0}.
+# {1} will be insult singular, i.e. clown
+cut.ass.mid1.5,{0}. Ненавижу этого {1}а.
+
+# Mid sentences for 2+ targets
+# {0} will be plural insult (clowns), {1} will be a curse adjective (friggin)
+cut.ass.mid2.1,Я знаю кто эти {0}.
+# {0} will be plural insult (clowns), {1} will be a curse adjective (friggin)
+cut.ass.mid2.2,Эта группа, которые я называю {0}.
+cut.ass.mid2.3,Так хочу их прикончить, вот же {0}!
+# {0} will be plural insult (clowns)
+cut.ass.mid2.4,Разберись с ними, это {0}, ради меня!
+# {1} will be insult plural, i.e. clowns
+cut.ass.mid2.5,{0}. Ненавижу их, эти {1} меня задолбали.
+
+# These cannot be deleted, if you can't come up with something unique, just repeat some 
+# Singular forms
+cut.ass.target1.1,Хипстер
+cut.ass.target1.2,Залупник
+cut.ass.target1.3,Клоун
+cut.ass.target1.4,Стример
+cut.ass.target1.5,Контент мейкер
+cut.ass.target1.6,Максер
+cut.ass.target1.7,Инфлюенсер
+cut.ass.target1.8,Брокер
+cut.ass.target1.9,Лжец
+cut.ass.target1.10,Враг
+cut.ass.target1.11,Журналист
+cut.ass.target1.12,Активист
+cut.ass.target1.13,Мизогинист
+
+# These cannot be deleted, if you can't come up with something unique, just repeat some 
+# Plural forms
+cut.ass.target2.1,Хипстеры
+cut.ass.target2.2,Залупники
+cut.ass.target2.3,Клоуны
+cut.ass.target2.4,Стримеры
+cut.ass.target2.5,Контент мейкеры
+cut.ass.target2.6,Максеры
+cut.ass.target2.7,Инфлюенсеры
+cut.ass.target2.8,Брокеры
+cut.ass.target2.9,Лжецы
+cut.ass.target2.10,Противники
+cut.ass.target2.11,Журналисты
+cut.ass.target2.12,Активисты
+cut.ass.target2.13,Мизогинисты
+
+# Full sentence will look like: Somebody [messed with] somebody
+cut.ass.did.1,ввязался
+cut.ass.did.2,доигрался
+cut.ass.did.3,домогался
+cut.ass.did.4,сделал селфи
+# If in your language "messed with me" and "stole from me" have different ways of saying, 
+# just create something that will look like ones above instead!
+cut.ass.did.5,украл что-то, вербуя кого-то рядом
+
+# Full sentence will look like: Somebody did something with [me]
+# part from above will be used, try to make them compatible
+cut.ass.harmed.1,со мной
+cut.ass.harmed.2,с челом, которого тебе не нужно знать
+cut.ass.harmed.3,с кем-то важным
+cut.ass.harmed.4,с президентом SOFACT
+cut.ass.harmed.5,с советом директоров
+cut.ass.harmed.6,с минестерством дел SOFACT
+cut.ass.harmed.7,с вашим знакомым
+cut.ass.harmed.8,с моим другом
+cut.ass.harmed.9,с дорогим другом
+cut.ass.harmed.10,с родственником
+cut.ass.harmed.11,с не тем человеком
+cut.ass.harmed.12,с не теми ребятами
+cut.ass.harmed.13,с нашим партнёрским инфлюенсером в соцсетях
+
+# Additional circumstance for singular target. Will be attached to the end of sentence.
+cut.ass.andwhat1.1,и он думает, что может так просто уйти.
+cut.ass.andwhat1.2,и ты не поверишь, что он сделал в душе после этого!
+cut.ass.andwhat1.3,и слил этих самых, эээ... Задевающую информацию.
+cut.ass.andwhat1.4,и за это не извинился!
+cut.ass.andwhat1.5,и думает, что никто не заметит.
+cut.ass.andwhat1.6,как будто там не будет особенного.
+# {0} - insult singular (clown)
+cut.ass.andwhat1.7,и тогда сказал: "Как тебе, нравится, {0}?"...
+
+# Additional circumstance for plural target. Will be attached to the end of sentence.
+cut.ass.andwhat2.1,и думают, что они могут просто так уйти.
+cut.ass.andwhat2.2,и ты не поверишь, что они делали в душе после этого!
+# the rest of andwhat2 is used directly from andwhat1
+
+cut.ass.tip,Вы можете использовать фото режим, чтобы найти целей и планировать ваш наезд
+
+### Hit Objects Cutscene
+
+cut.hitobj.intro.racer.1,Знаю, что ты не может водить так хорошо, так что я собираюсь сделать небольшую ставку.
+cut.hitobj.intro.racer.2,Вице-президент Диверсий просит от вас услугу, и я собираюсь разделить долю, если поможешь мне, хорошо?
+cut.hitobj.intro.racer.3,Впечатлён от вашего вождения, и хочу предложить тебе вызов.
+cut.hitobj.intro.racer.4,Скучно просто кататься, так что сделаем ставку.
+cut.hitobj.intro.racer.5,Готов к дополнительному вызову?
+cut.hitobj.intro.racer.6,Помоги мне, я не могу сделать это один.
+
+cut.hitobj.intro.gov.pos.1,Зрителям нравятся, когда предметы разбрасываются из стороны в сторону, так что это задание для тебя.
+cut.hitobj.intro.gov.pos.2,Сделал ставку с кем-то, сказав мне, что ты не справишься. Докажи им обратное.
+cut.hitobj.intro.gov.pos.3,Я в плохом настроении, и ничего не сделает мне лучше, чем смотреть на красоту, как они разлетаются вокруг.
+cut.hitobj.intro.gov.pos.4,Наши уборщики и дворники требует от нас оплату за ничто, так что я придумал как заставить их работать усерднее.
+cut.hitobj.intro.gov.pos.5,У меня есть кое-что весёлое для тебя, мой друг.
+
+# {0} insult plural (clowns)
+cut.hitobj.intro.gov.neg.1,Слушай, мне надоело это с тобой возиться, {0}, едешь просто неаккуратно всё это дурацкое время.
+cut.hitobj.intro.gov.neg.2,Произошло избыток ресурсов за последнее время, так что я вежливо попрошу тебя.
+# {0} insult plural (clowns)
+cut.hitobj.intro.gov.neg.3,Я сейчас в настроении приказать на сегодня. Всё должно стоять на местах. Ты, {0}, лучше едь аккуратно!
+
+# {0} will be a noun (i.e: cone)
+cut.hitobj.req.negative.1,Не сбей ни одного {0}
+# {0} is a number and {1} is a plural noun (cones)
+cut.hitobj.req.negative.2,Не сбей больше {0} {1}
+# {0} is a number and {1} is a plural noun (cones)
+cut.hitobj.req.positive,Сбей {0} {1}
+# I.e. Porta Potties Hit, or John Smith hit
+cur.hitobj.req.progress,{0} Сбито
+
+# Will be used in "Hit 1 cone", or "Do not hit a single cone"
+cut.hitobj.o.traffic_cone,Конуса
+cut.hitobj.o.porta_potty,Горшка
+cut.hitobj.o.bush,Куст
+cut.hitobj.o.pedestrian,Пешехода
+cut.hitobj.o.snowman,Снеговика
+
+# Will be used in "Hit 2 cones", or "Do not hit more than 2 cones"
+cut.hitobj.o.traffic_cones,Конусов
+cut.hitobj.o.porta_potties,Горшков
+cut.hitobj.o.bushes,Кустов
+cut.hitobj.o.pedestrians,Пешеходов
+cut.hitobj.o.snowmen,Снеговиков
+
+cut.hitobj.tip.neg,Избегай отмеченных объектов любой ценой
+cut.hitobj.tip.pos,Смотри на отмеченных объектов
+
+# Reward short names
+# 12 PTS (short for points, use same as in terms)
+cut.rew.short.pts,{0} Очк
+cut.rew.short.next_car,Машина
+cut.rew.short.aero,Аэро +1
+cut.rew.short.engine,Двиг +1
+cut.rew.short.gears,Транс +1
+cut.rew.short.turbo,Турбо +1
+cut.rew.short.grip,Сцеп +1
+
+# Punishment short names
+# -12 PTS (short for points, use same as in terms)
+cut.pun.short.pts,-{0} Очк
+cut.pun.short.lose_car,- Машина
+cut.pun.short.aero,Аэро -1
+cut.pun.short.engine,Двиг -1
+cut.pun.short.gears,Транс -1
+cut.pun.short.turbo,Турбо -1
+cut.pun.short.grip,Сцеп -1
+
+# Will be used in mid sentence, like: "Hit 4 cones while drifting"
+cut.while_drifting,пока в заносе
+
+cut.short.full_throttle,Задание: Тапок в пол
+cut.short.tiny_car,Задание: Игрушка
+cut.short.huge_car,Задание: Большой Чангус
+cut.short.inv_steer,Задание: Головокружение
+cut.short.shield,Задание: Силовое поле
+cut.short.weaponize,Задание: Рэмбо
+
+# Will be used in sentence like "Assassinate John Smith"
+cut.assassinate.1,Устранить {0} 
+# Will be used in sentence like "Assassinate 3 Hipsters"
+cut.assassinate.2,Устранить {0} {1}
+# Will be used in end of sentence like "Hipsters assassinated", or "John Smith assassinated"
+cut.assassinated,{0} устранено
+
+### Car Prank mission cutscene
+
+cut.prank.gov.laugh.1,*Ржёт громко*
+# {0} - curse word (crap)
+cut.prank.gov.laugh.2,Ха-ха! {0}
+# {0} - curse word (crap)
+cut.prank.gov.laugh.3,{0}, вот умора!
+cut.prank.gov.laugh.4,Хе-хе-хе
+cut.prank.gov.laugh.5,*Еле сдерживает смех*
+cut.prank.gov.laugh.6,Гы-гы-гы
+
+cut.prank.player.react.1,Должен быть признателен, этот смех заразителен.
+
+cut.prank.player.react.2,От чего так чёрт возьми смешного?
+# {0} will be a government agent name
+cut.prank.player.react.3,Полагаю, что для не будет весёлого, верно, {0}?
+# {0} will be a government agent name
+cut.prank.player.react.4,Ладно, расскажи мне шутку, {0}.
+cut.prank.player.react.5,В последнее время я слушал этот смех, и меня этого не радовало
+cut.prank.player.react.6,Почему мне от этого становится плохо?
+
+
+cut.prank.player.react2.1,Ты должно быть шутишь, придурок?
+cut.prank.player.react2.2,ЧЕГО?!
+# {0} - plural insult (clowns)
+cut.prank.player.react2.3,Кто они? Мне нужны имена! {0} заплатят за это!
+# {0} - curse word (crap)
+cut.prank.player.react2.4,Ох {0}...
+# {0} - curse word (crap)
+cut.prank.player.react2.5,{0}...
+cut.prank.player.react2.6,{0}!
+# {0} and {1} - curse word (crap)
+cut.prank.player.react2.7,{0}...
+cut.prank.player.react2.8,{0}, {1}.
+cut.prank.player.react2.9,Валяй!
+# {0} - car model
+cut.prank.player.react2.10,А я только что перекрасил себе {0}...
+# When player has no car, he will say "And I just repainted my sneakers"
+cut.prank.player.react2.10_2,кросовки
+
+# {0} - curse word (crap)
+cut.prank.tiny_car.1,Ты не представляешь! Твою тачку! {0}! Они его уменьшили. Я даже представить не могу, как ты справишься. Но так вот, тебе нужно управлять его пультом, так как твоя жирная жопа не поместиться. Вот умора!
+# {0} - random laughter from above
+cut.prank.tiny_car.2,Минионы в лабораторий проверили уменьшающий луч на твою тачку. Не волнуйся, держи пульт, ты всё же можешь ездить, но это будет тяжко. {0}.
+cut.prank.tiny_car.3,Ты смотрел старый фильм под названием Человек Муравей? Так вот, тебе придётся жить с этим! Хорошо, что она не скукожилась так, как с белым шведским седаном с человеком внутри.
+cut.prank.tiny_car.4,Я знаю, что это не имеет значения, но в гараже произошел ма-а-аленький инцидент. Уменьшающий луч стрельнула в твою машину... случайно. Но всё таки вот, держи пульт и управляй свою мальенькую машинку.
+
+cut.prank.tiny_car.descr,Пройди гонку на маленькой машинке
+cut.prank.tiny_car.tip,Ты можешь проехать между двух сосисок как хлебушек. Что?
+
+# {0} - curse word (crap)
+cut.prank.huge_car.1,Ты не поверишь что произошло! Твою тачку! {0}! Они увеличили его. Ладно {0}, теперь твоя очередь! Ах да, мы знаем, что ты умеешь ездить по узким дорогам. Вот умора!
+# {0} - random laughter from above
+cut.prank.huge_car.2,Кто-то в лабораторий протестировали увеличитель на твою тачку. Не волнуйся, ты всё ещё можешь управлять его удалённо. {0}
+cut.prank.huge_car.3,Смотрел старый фильм Годзилла? Конечно, ты смотрел, ты же из древности, ха-ха. Короче, твою тачку увеличили. Поосторожнее сейчас.
+cut.prank.huge_car.4,Я знаю, что это не имеет значения, но в гараже произошёл маленький инцидент. Механики играли в рулетку дробовиком и случайно попали в увеличивающий луч и попал в твою тачку. Повезло, что не в твоё рыло. Так что вот, держи пульт и управляй огромную тачку.
+
+cut.prank.huge_car.descr,Пройди гонку на большой тачке
+cut.prank.huge_car.tip,Больше размер - больше урона на соперников!
+
+# {0} - crap, {1} - some item (bacon burger)
+cut.prank.full_throttle.1,У тебя челюсть отвалится! С твоей тачкой! {0}! Они засунули какую-то дичь внутрь механизма педали газа. Охренеть как ржать как ты будешь на нём ездить!
+# {0} - crap, {1} - some item (bacon burger)
+cut.prank.full_throttle.2,{0}! Эти  идиоты намудрили с твоей тачкой! В этот раз они поставили какую-то слизь внутрь механизма педали газа. Ты слыхал сказку про заяца и черепаху, не так ли? Ха-ха.
+# {0} - clowns, {1} - bacon burger
+cut.prank.full_throttle.3,Ты будешь в шоке! Эти {0} засунули какую-то еду внутрь механизма педали газа. Понятия не имею как ты будешь его вытаскивать. Удачи!
+# {0} - clowns, {1} - bacon burger
+cut.prank.full_throttle.4,Это ошеломляюще! {0}! Они засунули дрянь химозную внутрь механизма педали газа. Буду ржать как конь как ты будешь ездить!
+cut.prank.full_throttle.5,Ты только не злись, но наши стажёры намудрили с твоей тачкой, и он перепутал провода педали газа. Проверь тормоза. *Пытается не ржать*
+
+cut.prank.full_throttle.descr,Пройди гонку с застрявшим газом на 100%
+cut.prank.full_throttle.tip,Фокусируйся на руль и избегай препятствии
+
+# {0} - crap
+cut.prank.inv_steer.1,Ты просто.. Ха-ха! С твоей тачкой! {0}! Они развернули руль. Ха-ха, я лично буду смотреть на тебя как ты будешь ездить на нём!
+cut.prank.inv_steer.2,Наш стажёр работал с твоей тачкой, и он перепутал провода усилителя руля. Такой он джандурик. *Пытается не ржать*
+
+cut.prank.inv_steer.descr,Пройти гонку с развёрнутым рулём
+cut.prank.inv_steer.tip,Если сможешь, то переверни контроллер вверх дном...
+
+### Finish Xth 
+
+cut.fin_x.req.top,Финишируй в топ {0}.
+cut.fin_x.req.bottom,Финишируй на {0} или ниже.
+
+# {0} - player name or title
+cut.fin_x.racer.intro.1,Йоу {0}! Мой сильный друг сделал ставку, долгая история, они угражают нам, что мы все подтасуем результаты выборов.
+# {0} - player name or title
+cut.fin_x.racer.intro.2,{0}, подожди. Вице-президент Диверсий угражает нам всем финишировать в определённой позиций. Ничего личного, просто чтобы ты знал.
+
+cut.fin_x.gov.intro.1,Я сделал ставку на предстоящей гонке, и я хочу чтобы ты помог мне немного.
+cut.fin_x.gov.intro.2,Хотел бы остаться в живых ещё дольше? Тогда не вляпайся.
+cut.fin_x.gov.intro.3,Времени у меня нет, понимаешь. Предстоящая гонка будет жёсткой, не спрашивай почему, просто делай как тебе сказано.
+
+cut.fin_x.tip,Приглядывай на табло с позициями на правом верхнем углу
+
+cut.fin_x.descr1,Финишируй в топ {0}
+cut.fin_x.descr2,Финишируй на {0} или ниже
+
+### Take Damage 
+
+# {0} - a number
+cut.dmg.req,Сделай себе не менее {0} здоровья на своей тачке.
+
+cut.dmg.racer.intro.1,Я знаю что это ты проколол мои шины прошлой ночью! Я собираюсь дать тебе безотказный вызов. Я дам тебе подгона, если ты всё это не облажаешь.
+
+# {0} - friggin
+cut.dmg.gov.intro.1,Тот самый чел, который я хотел видеть! Мы сделали новый постер к Bloody Rally Show, и твоя тачка выглядит слишком идеальна для этого! Но вот в чём суть, она должна выглядеть "прям как из боевика", если ты знаешь о чём я имел ввиду.
+cut.dmg.gov.intro.2,Вижу что у тебя новая покраска, она блестящая. Теперь, твоя следующая задача... *гогочет*
+# {0} - player name or title
+cut.dmg.gov.intro.3,Не нравлюсь я тебя, {0}. Так что я думаю о том, какое гадкое задание я тебе дам.
+
+cut.dmg.stay_alive.1,И оставайся в живых
+# {0} - clown
+cut.dmg.stay_alive.2,И попробуй не попасть под дингробезе, {0}
+
+cut.dmg.tip,Врезайся в объекты или бочки, чтобы ускорить самоурон
+
+cut.dmg.descr,Получить себе {0} урона
+cut.dmg.progress,Урона получено
+
+### Stay on track
+
+# {0} - brace stone character's name
+cut.on_track.racer.intro.1,Я сделал ставку с {0}, он сказал что тебе нельзя выезжать из трассы, даже если умудрился поехать на парковку в котором там точно не ловит интернет. Я потеряю деньги, если ты это посмеешь, так что едь аккуратнее!
+
+# {0} - some racer name
+cut.on_track.gov.intro.1,Cтавил с {0}, и он сказал, что ты не вылетишь с трассы, я согласовал ставку, и чёрт возьми, мне повезло, я поставил пол-лимона на твою жопу. Так что, только посмей затромблить это!
+# {0} - Clowns
+cut.on_track.gov.intro.2,Наши огородники усердно работали над усадкой цветов из Голландий, что ты постоянно рушишь их! В этот раз оставайся на трассе! Это тебе не в батминтон играть!
+
+cut.on_track.descr,Не уходи на бездорожье больше, чем за {0} секунд
+cut.on_track.tip,Замедляйся на поворотах, и всё будет чики-пуки!
+
+### Be a pedestrian 
+
+cut.ped.req.1,О, пока ты шагаешь ярко, сделай фотку на близком расстояний.
+# {0} - a number
+cut.ped.req.2,А, пока ты топаешь ножками, сделай {0} фотографии на близком расстояний.
+
+# {0} - clown, {1} - vegan olive oil, {2} - fool
+cut.ped.racer.intro.1,Угадай что, {0}. Я наконец осознал кто обгадил через люк на моей тачке, и настало время платить по счетам. Я залил кукурузное масло в твой бензобак, так что тебе придётся это всё сливать. Жаль, что ты не успеешь до начало своей гонки, {2}!
+
+# {0} - vegan olive oil
+cut.ped.gov.intro.1,Ты только не злись, но ближе к сути. Мы записывали развлекательный ролик, и тачку которую ты подготовил к предстоящей гонке, там всего было 5 человек и оператор вокруг него. Они устроили месиво с помощью различных пятикратно переваренных ингридиентов, но не волнуйся, мы смоем с твоей тачки после гонки!
+cut.ped.gov.intro.2,Что-ж, ты думаешь что ты можешь проучить нашего качка, а? Задумайся. Ты в этот день идёшь пешком, и заберём у тебя тачку разумеется. Тебе лучше осознать это в следующий раз!
+# {0} - clown
+cut.ped.gov.intro.3,Думаешь, что ты так просто оставишь этот цыганский фокус, {0}? Твоя тачка останется у нас на этот день. Сделаешь это снова, ты об этом сожалеешь!
+# {0} - clown
+cut.ped.stay_alive.1,Оставайся в живых, {0}.
+# {0} - clown
+cut.ped.stay_alive.2,И попробуй не сдохнуть, {0}.
+
+cut.ped.descr,Участвовать в гонках пешком
+cut.ped.tip,Не стой слишком близко к трассе! Техника безопасности!
+
+# {0} - a number
+cut.ped.descr1,Сделай фото на близком расстояний
+cut.ped.descr2,Сделай {0} фотографии на близком расстояний
+cut.ped.progress1,Фотографии сделано
+# {0} - a number
+cut.ped.progress2,{0} фото с тачками сделано
+
+### Your car stolen 
+
+cut.stolen.racer.intro.1,Слушай, чувак, есть плохие новости для тебя. Какой-то утырок угнал твою тачку, я видел как он уехал отсюда. Надеюсь, что ты восстановишься. Тебе придётся идти пешком на сегодня. Жаль, что у тебя в машине остался сэндвич.
+
+cut.stolen.gov.intro.1,Ты когда-нибудь играл в свой век в старую игру под названием Grand Theft Auto? Так вот, кто-то реально спёр твою тачку, походу тебе придётся идти пешком. Будет отстойно, если у тебя нет таких сбережении.
+
+cut.stolen.stay_alive.1,Оставайся в живых
+cut.stolen.stay_alive.2,И самое главное... Главное... Не ешь свинец
+
+cut.stolen.descr,Твоя тачка угнана
+cut.stolen.tip,Сохрани деньги, чтобы купить себе новую машину
+
+### Locked camera
+
+# {0} - "do not change camera settings!"
+cut.cam.req.1,Всё что тебе надо, {0}.
+cut.cam.req.2,Громче ада и выше небоскрёба, {0}.
+cut.cam.req.3,Как-бы не происходило, {0}.
+cut.cam.req.4,Если у тебя кишка тонка, {0}.
+cut.cam.req.5,Держи пакет для блевотины, {0}.
+cut.cam.req.6,Открывай окно если тебе душно, но {0}.
+cut.cam.req.end,не меняй настройки камеры!
+
+cut.cam.racer.intro.1,Вот тебе весёлое задание для тебя. Я настрою тебе вид из дрона таким образом, что тебе не понравится.
+# {0} - clown
+cut.cam.racer.intro.2,Я не спал всю ночь, что испаганил твой дрон разведчик. Почему? Так потому что ты {0}, вот почему!
+# {0} - clown
+cut.cam.racer.intro.3,Я хочу сыграть с тобой в игру! Я настроил наблюдательный дрон в такой неудобной позиций. Первым, кому я дам - это {0}!
+
+# {0} - clown
+cut.cam.gov.intro.1,Притормози, {0}. Наши зрители возмущаются с настройкой камеры твоего дрона. Я поставил его так, как им это положено, ладно?
+# {0} - damn, {1} - clowns
+cut.cam.gov.intro.2,{0}! Я очень бзбешён, потому что ты постоянно меняешь настройки камеры своего дрона. Ты не можешь просто оставить его в покое как у других {1} так положено?
+cut.cam.gov.intro.3,Дамы и господа, запаситесь блевательными пакетами. Наблюдательный дрон сломался, пока она не будет исправной, наши техники умоляют, чтобы никто не трогал настройки камеры.
+
+cut.cam.descr,Пройди гонку без изменения настройки камеры
+cut.cam.tip,Если наказние не будет такой душной, чем само вождение, просто поменяй!
+
+cut.cam.shortdescr,Не меняй настройки камеры
+
+### Distribute Spam
+
+# {0} - a number
+cut.spam.req,Распечатать не более {0} стопок листовок
+
+cut.spam.racer.intro.1,Пссс... Слушай, у меня к тебе услуга, мы собираем оппозиционное движение против SOFACT. Мы хотим собрать как можно больше людей, чтобы присоединились к нам.Если ты сможешь распространить его, это значит что мир будет наш!
+
+# {0} - vegan olive oil
+cut.spam.gov.intro.1,Мы хотим распространить пропаганду о полезности новых продуктов, сделанные за счёт государства. Мы решили присобачить на твою тачку бабломёт. А теперь вперёд, раскидай их.
+# {0} - bacon burgers
+cut.spam.gov.intro.2,Мы подделали результаты изучения о государственном продукции, и мы хотим чтобы все прочитали его. Мы сварили бабломёт на крышу твоей тачки. И раскидай их по полной программе, чтобы они аж до посинения, до фиолетовой задницы, пока они не стали.. д-д-дедами! Все его прочитали!
+
+# Do not modify {Action.Fire}
+cut.spam.tip,Продолжай нажимать {Action.Fire} много раз, чтобы выпустить стопки листовок
+
+cut.spam.descr,Выпустить {0} стопок листовок
+cut.spam.prog,Стопок листовок разбросанно
+
+### Weaponize
+
+cut.weaponize.req,Мы раздали всем оружия. Это будет безумно, мне это так нравится!
+
+cut.weaponize.gov.intro.1,Зрители Bloody Rally Show довольно заскучали недавно, так что мы добавим немного специй на блюдо.
+# {0} - clowns
+cut.weaponize.gov.intro.2,Вижу что твои {0} сделали себе новые покраски. Давай надеемся, что они оставят это все в предстоящей гонке.
+
+cut.weaponize.descr,Пройди гонку с оружием
+cut.weaponize.tip,Скажи спасибо, что ты не стал пешеходом
+
+### Campaign Win (Freedom)
+
+# {0} - racer name
+cut.freedom.1,Эй, {0}, поздравляю, что вы заработали на свободу! Грустно, что я больше не увижу тебя. Уверены, что не хотите остаться на ещё один сезон?
+# {0} - car model name
+cut.freedom.2,Спасибо, но я капец как устал. Нужно смыть кровь с {0}.
+# {0} - he or she, depending on player gender (see term.he / term.she)
+cut.freedom.3,*Уходит в закат, зная что какое-то время вернётся, чтобы пройти через ад снова...*
+# When player has no car, he will say he has to clean the blood off his shoes
+cut.freedom.shoes,кросовок
+
+### Campaign Season Finished
+
+# {0} - player name
+cut.season.alive1.1,{0}, какого чёрта ты всё тянул? Нам нужно было финишировать раньше, и всё это из-за тебя!
+# {0} - clowns
+cut.season.alive1.2,Как бы я не сказал, они - {0}.
+cut.season.alive1.3,Должен быть признателен, я нравился тебе. Нам нужен ты в SOFACT. Когда ты закончишь со своей гоночной карьерой, я могу предложить тебе работу.
+cut.season.alive1.4,Я польщён, но я хочу пойти сжечь себе резину. До следующего раза! И найди более достойных соперников, верно?
+
+cut.season.1,Сезон завершился, народ! Время всем идти домой!
+cut.season.cheer.1,Наконец-то!
+cut.season.cheer.2,Юхууу!
+cut.season.cheer.3,Да!
+cut.season.cheer.4,БОЖЕ, как в последний раз!
+cut.season.cheer.5,Лучший день в моей жизни!
+cut.season.cheer.6,Я так счастлив!
+cut.season.cheer.7,Урааа!
+cut.season.cheer.8,ДААААА!
+cut.season.cheer.9,Юпиии!
+# {0} clowns {1} - fools
+cut.season.2,Домой? Да, домой! Вы, {0}, не выбиретесь отсюда живым! Следующий сезон начнётся завтра, Я ожидаю от вас всех, чтобы ваши ржавые вёдра были чистыми и встали перед чертой к гонкам. Домой... Ахахаха! {1}...
+
+### Campaign Fail 
+
+cut.fail.boo.1,Буу
+cut.fail.boo.2,Неудачник!
+cut.fail.boo.3,Кто это вообще?
+cut.fail.boo.4,Ужасен
+cut.fail.boo.5,5-0!
+cut.fail.boo.6,Никчёмный!
+cut.fail.boo.7,Кто это может быть?
+
+cut.fail.cry.1,Неееет!
+cut.fail.cry.2,За что!
+cut.fail.cry.3,Какая бо-о-оль...
+cut.fail.cry.4,Я вас так нравился...
+cut.fail.cry.5,Мы будем скучать по тебе!
+cut.fail.cry.6,Какой позор.
+cut.fail.cry.7,Поверить не могу...
+
+cut.fail.1,Сезон завершён, народ! И у нас есть знаменитость, кто не смог дойти до топ-3, так что мы замораживаем этого неудачника в крио-сон!
+cut.fail.2,И это я. Мне так жаль...
+# {0} - racer name, {1} - clowns, {2} - bacon burger {3} - vegan olive oil
+cut.fail.3,Ладно, хватит драмы! {0}, охрана сопроводит тебя в морозильник! А всем остальным, {1}, убирайтесь отсюда, пока я не засунул {2} в ваши шлема и не воняли перед своими зрителями как {3}!
+
+#######################################
+### Dialogs and in-game messages
+
+# Please check that you are using same terms as main_menu.btn.settings / settings.gameplay, etc
+dial.discord_post_permission,Можем мы опубликовать ваши очки счёта в Discord сервер "Stardeus"?<br>Ник в Steam, время круга и попытки будут отображены.<br>Вы можете включить или выключить в "Настройки" > "Геймплей" > "Отправлять в Discord"
+dial.time_attack_car_locked,Выбранная машина заблокирована, пожалуйста разблокируй его улучшая уровень в кампаний ддля начала!
+dial.camp.corrupted_save_files,Обнаружена поломка в кампаний: {0}
+dial.camp.load_fail,Не удалось загрузить: {0}<br>{1}
+dial.camp.not_enough_cash,У вас недостаточно средств!
+
+# {0} - clowns
+dial.camp.lucky1.1,Эй, {0}, я такой щедры-ы-ый!
+# {0} - clowns
+dial.camp.lucky1.2,Вижу что вы сейчас сломлены как эти {0}, кто рискует своей жизню ради снимков крупным планом.
+# {0} - clowns
+dial.camp.lucky1.3,Эй вы, {0}, становитесь! Эники бэники ели варе...
+# {0} - friggin (adjective)
+dial.camp.lucky1.4,Какой прекрасный день! Спасибо одному из вас, какой-то журналист, который написал брехню про SOFACT, улетел на орбиту!
+# {0} - clowns
+dial.camp.lucky1.5,Чёрт, денег у меня жопой жуй, некуза засунуть. Может быть я отдам его одного из отморозков...
+# {0} - beef bacon burger, {1} - clowns
+dial.camp.lucky1.6,Знаете, я владею {0}, верно? Один из вас, {1}, прокатил гендиректора конкурента на капоте!
+# {0} - clowns, {1} - vegan olive oil
+dial.camp.lucky1.7,Решил розыграть одного из вас, {0}. Я натёр {1} на всю ковшу, и вы даже не заметили! Ха-ха, улёт! За это я компенсирую.
+
+# in this block {0} is always racer name ${1} is cash amount
+dial.camp.lucky2.1,И наш победитель - это... {0}! Поздравляю, вы получили ${1}!
+dial.camp.lucky2.2,{0}, подойди! Я дам тебе ${1}. Не думай что это бесплатно, в обмен на то, что сделаешь для меня услугу.
+dial.camp.lucky2.3,{0}! Вот ${1}! Иди купи что-нибудь.
+dial.camp.lucky2.4,{0}! Держи ${1}! Развлекайся.
+dial.camp.lucky2.5,{0}, возьми ${1}. Спасибо за вашу услугу!
+dial.camp.lucky2.6,Я выбираю тебя, {0}! Победитель лотереи в стоимости ${1}. Только не трать всё это впустую!
+dial.camp.lucky2.7,{0}... Я тебя не нравлюсь, но хэй, держи ${1}. В обмен ты окажешь мне услугу. Ничего особенного, я не такой!
+
+# {0} - name, ${1} - cash amount
+dial.camp.resurrected,Гонщик {0} вернулся к жизни с помощью медиков за ${1}
+dial.camp.resurrect_no_cash,У гонщика {0} не хватило денег для покрытия мед учёта. Царствие небесное."
+# {0} - clowns
+dial.camp.all_broke,Как, вы, {0}, смогли сломать это всё разом. Шоу продолжается, SOFACT даст каждый из вас по $20000. Идите покупайте что-нибудь.
+# {0} - name, {1} - clown
+dial.camp.early_win,Вау, {0}, ты всех уничтожил разом! Нам нужно закончить сезон так рано. Поздравляю, ты разгромил Congrats, вы выйграли сезон!
+dial.camp.on_camp_fail,Мне вас жаль, но вам нужно оказаться в топ-3, чтобы продолжить кампанию. И так как у вас не будет ${0} для покрытия счёта, то вы проиграли, мой друг.
+dial.camp.congrats_free_man,Поздравляю! Вы - легенда!
+dial.camp.freedom_not_enough_cash,Извините, у вас недостаточно денег! Перейди в следующий сезон, чтобы заработаьь ещё!
+dial.camp.exit_confirm,Вы уверены, что вы хотите выйти из этой кампании? Прогресс игры будет сохранён.
+dial.camp.card.no_regen,Вы не можете переделывать этап, который уже пройден!
+# {0} - some track name. keep the quotes 
+dial.camp.card.saved_already,Трасса "{0}" уже существует в вашей коллекции. Вы хотите его заменить?
+dial.camp.card.saved,Трасса "{0}" добавлена в вашу коллекцию!
+dial.camp.card.no_walk_completed,Вы не можете прогуливаться по тем трассам, в котором вы уже прошли!
+dial.camp.card.no_walk_special,Вы не можете прогуливаться в особом этапе!
+# {0} - name
+dial.camp.card.go_ped_confirm,Придержи коней, {0}, у вас нет машины! Вы уверены, что хотите войти в гонку пешком?
+# {0} - list of names (john, smith, peter)
+dial.camp.card.some_peds_confirm,У некоторых гонщиков нет машины! ({0}). Они отправятся на гонку пешком. Не возражаете?
+dial.camp.card.some_peds,У некоторых гонщиков не могут позволить себе плату на вход. Они отправятся на гонку пешком: {0}
+
+dial.paint.no_1k,У вас нет $1000!
+
+dial.upgrade.not_in_time_attack,Улучшение не может быть изменён в гонках на время
+dial.upgrade.week_over,Нельзя улучшить машину сейчас, эта неделя завершена! Механики уже в пути.
+dial.upgrade.already_done,Механики всё ещё работают над предыдущем улучшении! Вернитесь после того, как прошли следующий этап.
+dial.upgrade.no_cash,Вы не можете позволить себе это улучшение!
+
+dial.camp.load_finished,Уверены, что хотите продолжить кампанию? Она уже пройдена!
+dial.camp.delete_confirm, Вы уверены, чо хотите удалить эту кампанию?
+dial.camp.name_required,Для начала, назови название кампаний!
+dial.camp.name_taken,Уже есть кампания с тем же названием!
+
+dial.camp.gratitudes.1,Спасибо!
+dial.camp.gratitudes.2,Воу! Ты лучший!
+dial.camp.gratitudes.3,БОЖЕ! Спасибо!
+dial.camp.gratitudes.4,Спасибки!!
+dial.camp.gratitudes.5,Я должен тебе!
+dial.camp.gratitudes.6,Ты великолепный!
+dial.camp.gratitudes.7,Я не забуду
+dial.camp.gratitudes.8,Я чем я тебе заслужил?
+dial.camp.gratitudes.9,Я в долгу!
+dial.camp.gratitudes.10,Круто! Я благодарен за это!
+dial.camp.gratitudes.11,Отлично!
+
+dial.camp.no_cash.1,Чувак, у вас карманы пустые!
+dial.camp.no_cash.2,Хорошая попытка, вы не можете это позволить!
+dial.camp.no_cash.3,Ты должно быть шутишь, придурок? На кошелёк свой посмотри!
+dial.camp.no_cash.4,Дёх. У вас недостаточно средств!
+dial.camp.no_cash.5,У вас не хватает денег...
+dial.camp.no_cash.6,Не хочу банкротить тебя, прости
+dial.camp.no_cash.7,У вас не хватает денег!
+
+dial.race.missing_bindings,Эй, походу у игрока {0} ({1}) потерялся контроллер! Иди в настройки и исправь его!
+dial.race.missing_bindings_ped,Эй, походу у игрока {0} ({1}) потерял комбинацию! Иди в настройки и исправь его!
+# {0} - clown
+dial.race.ped_death,Врача, врача, позовите врача! Какой-то {0} сдох! Надеемся, что у него есть баблишко, чтобы покрыть медицинский счёт!
+
+dial.ed.no_cars,У вас пока нет машины! Вам нужно сделать новый и сохранить его.
+dial.ed.name_the_car,Назови новую машину
+dial.ed.car_name,Название машины
+
+dial.ed.car_sprites_missing,Отсутвует какой-то спрайт! Пожалуйста, оставь название файлов как по гайду редактирования и создай эти файлы: {0}.
+dial.ed.car_sprites_deleted,Вы не можете удалить файлы спрайтов! Отсутствующий требуемый файл будет прозрачным с 1x1 пикселем: {0}.
+dial.ed.remove_car_name_colon,Пожайлуста, уберите "{0}" из названия машины!
+dial.ed.car_name_taken,Название "{0}" уже используется!
+dial.ed.car_too_fast,Регламент SOFACT не разрешает индекса скорости {0} в пользу тюнинга! У этой машины индекс скорости {1}. Уменьшите что-то в параметрах!
+dial.ed.car_close_confirm,Вы уверены, что хотите закрыть автомобиль? Любые несохранённые изменеия будут утеряны.
+dial.ed.car_delete_confirm,Вы уверены, что хотите удалить эту машину: {0}?
+dial.ed.delete_error_no_dir,Не можем удалить машину, каталог не найден:<br>{0}
+dial.ed.delete_error_file_open,Не можем удалить каталог машины. Закройте все открытые файлы и попытайся удалить его вручную.<br>{0}
+dial.ed.save_car_once,Пожалуйста, сохраните автомобиль перед тем, как редактировать файлы.
+dial.ed.save_before_reload,Тебе нужно обновить машину после того как сохранил его!
+dial.ed.no_steam_share_car_err,Нет соединения к Steam. Не можем опубликовать автомобиль!
+dial.ed.car_share_no_desc,Пожалуйста, напишите в описании перед тем как опубликовать в Мастерскую Steam!
+dial.ed.car_save_first,Сохрани машину в первую очередь!
+dial.ed.car_share_err_sprites_missing,Не можем опубликовать машину, отсутствует требуемый спрайт:<br>{0}
+dial.ed.car_share_err_sprites_recovered,Вы не можете удалить файлы спрайтов! Отсутствуещие файлы будут прозрачным с 1x1 пикселем: {0}. Теперь вам доступно опубликаций автомобиля.
+dial.ed.car_save_alien_files,Пожалуйста, уберите файлы, которые не подлежат в каталоге мода. Только *.png, *.txt и item.car разрешены! Помешающие файлы: {0}
+dial.ed.car_share_sprite_warning,ВНИМАНИЕ: Если вы не поменяли спрайты, ваша машина будет убрана из мастерской!<br>Вы уверены, что хотите его опубликовать?
+dial.ed.car_name_not_available,Название машины недоступно: {0}. Пожалуйста, поменяйте и попытайтесь снова.
+
+dial.ed.path_start_open,Нельзя переместить линию старта в открытой трассе!
+
+dial.factory_reset.confirm,Вы уверены, что хотите всё сбросить?
+
+dial.leaderboard.ghost_confirm,Вы бы хотели погоняться с призраком {0}?
+dial.leaderboard.ghost_confirm_daily_stale,Это не сегодняшний вход, что доска лидера ежедневного заезда не будет обновлён, но для время трассы будут.
+
+dial.input_reset,Структура управления изменён разработчиком, и ваши настройки управления будут восстановлены по умолчанию. Вы можете поменять его в настройках. Простите за неудобства!
+dial.settings_reset,Настройки изменён разработчиком, ваши настройки восстановлены по умолчанию. Простите за неудобства!
+dial.stat_reset_dev,Разработчик взвёл полный возврат статистики. Простите за неудобства!
+dial.are_you_sure,Вы уверены?
+
+dial.race.racers_over_limit,Вы не можете иметь себе больше, чем {0} машин в одной гонке!
+dial.race.player_remove_confirm,Вы уверены, что хотите убрать игрока {0}: {1}?
+dial.race.race_alone,Вам нельзя устраивать гонку один, кроме гонки на время. Добавь соперников или игрока!
+dial.race.no_track,Выбирайте трассу в первую очередь!
+
+dial.race.restart_hardcore,Это хардкор, детка, забыл? Никакого рестарта!
+dial.race.restart_dead,Прости, мы не можем начать гонку заново после того, как кто-то умер. Дождитесь окончания гонки, и медики сделает для вас работу.
+dial.race.restart_ped,Прости, пешеходам запрещено делать рестарт!
+dial.race.restart_confirm,Вы уверены? Трудно выйграть все гонки, заново устраивать гонки дорого и неинтересно. Стоимость рестарта ${0}. У вас ${1}.
+dial.race.restart_no_cash,Прости, вы не можете позволить себе рестарт. Смирись с этим.
+dial.race.restart_time_attack_confirm,Вы уверены? Текущее время круга будет сброшен!
+
+dial.ed.track_exit_confirm,Вы уверены, что хотите выйти? Любые несохранённые изменение будут утеряны!
+dial.ed.track_new_confirm,Вы уверены? Любые несохранённые изменение будут утеряны.
+dial.ed.invalid_objects,Там {0} Объектов близко к дороге. Пожалуйста, передвиньте или уберите их, чтобы протестировать, и сохранить его снова.
+dial.ed.enter_track_name,Назови трассу
+dial.ed.track_name,Название трассы
+dial.ed.fix_errors_first,Пожалуйста, исправьте ошибки перед тем, как сохранить трассу!
+dial.ed.share_track_no_steam,Нет соединения к Steam. Не можем опубликовать трассу!
+dial.ed.track_invalid_share,Нажми на красный баннер сверху экрана. Перемести мышь туда, чтобы посмотреть что не так.
+dial.ed.lap_before_upload,Придержи коней! Тебе нужно установить время круга, перед тем как опубликовать его.
+dial.ed.track_remove_colon,Пожалуйста, уберите {0} из названия трассы!
+dial.ed.track_name_clash_builtin,Прости, подбери другое название, вы не можете перезаписать построенную трассу!
+dial.ed.track_overwrite_confirm,Трасса "{0}" уже существует. Вы хотите его перезаписать?
+dial.ed.track_alien_files,Пожалуйста, уберите дополнительные файлы с модов: {0}
+dial.ed.track_delete_no_undo,Вы хотите удалить эту трассу? Нельзя отменить это действие!
+dial.ed.track_quit_confirm,Вы хотите выйти из редактора трассы? Несохранённые трассы будут утеряны!
+dial.ed.track_last_2_points,Вы не можете удалить последние две точки!
+dial.ed.loop_autoclose,Походу вы хотели закрыть круг. Вы можете использовать "Открыть/Закрыть", но я уже сделал его закрытым за вас в этот раз.
+
+dial.on_success, Успех: {0}
+dial.on_fail, Провал: {0}
+dial.tip,Совет: {0}
+dial.confirm,Принять
+dial.confirm_in,Принять ({0:0})
+dial.must_do_in_drift,Должен сделать это в заносе
+
+dial.reset_tutorials.confirm,Вы уверены, что хотите отметить все советы как на просмотренные?
+
+dial.confirm_exit_to_desktop,Вы уверены, что хотите стать слабаком по жизни?
+
+dial.car_model_unavailable,Эй, модель "{0}" больше недоступен! Вы бы продолжили загрузить кампанию? Недоступные машины исчезнут безвозратно!
+
+msg.track_high_obj_density,У этой трассы высокая плотность объектов ({0:0} / 100м).\nОна не будет включать в себе в кампаниях по умолчанию!
+msg.track_high_crowd_density,У этой трассы большая плотность толпы ({0:0} / 100м).\nОна не будет включать в себе в кампаниях по умолчанию!
+msg.cheats_leaderboards,ДОСКА ЛИДЕРОВ ОТКЛЮЧЁН! Вы использовали внутриигровые читы или физические эксперименты. Перезагрузите игру, чтобы вернуть доступ к доске лидеров.
+msg.track_load_failed,Не удалось нормально загрузить трассу, или она сломана, или она недоступна! Попытайтесь ещё раз, или регенерируйте.
+msg.race_input_restart_warning,ВНИМАНИЕ: Изменение управления во время гонки требует его перезагрузки чтобы применить управление!
+msg.failed_deleting_folder,Не удалось удалить папку. Убедись, что все файлы закрыты<br>{0}
+msg.missing_car_model,Отсутствует автомобиль. ID: {0}.<br>Походу вы от него отписались или удалили пользовательскую машину.
+msg.missing_controls,Отсутствует настрой клавиатуры
+msg.gen.analyzing_road,Замеряем углы дороги
+msg.gen.calculating_lines,Расчитываем линий трассы
+msg.gen.checkpoints,Устанавливаем сенсоры точек
+msg.gen.paving_road,Прокладываем дорогу
+msg.gen.deunionizing_workers,Снимаем с должности работников
+msg.gen.firing_workers,Увольняем работников
+msg.gen.bribing_inspectors,Подкупаем гаицов
+msg.gen.looking_location,Находим локацию
+msg.gen.evicting_residents,Выселяем жителей
+msg.gen.planting_forests,Сажаем леса
+msg.gen.planting_bushes,Сажаем кусты
+msg.gen.growing_parks,Делаем парк
+msg.gen.placing_lamps,Устанавливаем фонарные столбы
+msg.gen.planting_flowers,Сажаем цветы
+msg.gen.cloning_peds,Клонируем пешеходов
+msg.gen.cloning_more_peds,Клонируем ещё больше пешеходов
+msg.gen.building_walls,Строим стены
+msg.gen.building_more_walls,Больше стен!!!
+msg.gen.rocks,Бросаем камни на землю
+msg.gen.ramps,Устанавливаем трамплины
+msg.gen.barrels,Ставим взрывоопасные бочки
+msg.gen.puddles,Разливаем лужи
+msg.gen.cones_tires,Заказываем конуса и шины
+msg.gen.buildings,Строим здания
+msg.gen.special_locs,Строим секретные локации
+msg.gen.road_marks,Отмечаем линии дорог
+msg.gen.test_driving,Проверяем дорогу
+msg.gen.screenshot,Делаем снимок с дрона
+msg.gen.cones_left,Наклоняем конусы влево
+msg.gen.cones_right,Наклоняем конусы вправо
+msg.gen.tires_left,Ставим шины слево
+msg.gen.tires_right,Ставим шины вправо
+msg.gen.end.1,Устанавливаем сисястые ловушки
+msg.gen.end.2,Рекламируем предстоящее событие
+msg.gen.end.3,Увольняем уставших работников
+msg.gen.end.4,Привозим зрителей
+msg.gen.end.5,Посыпаем дорогу пылью
+msg.gen.end.6,Заряжаем наблюдательные дроны
+msg.gen.end.7,Заряжаем патроны на вертолёте
+msg.gen.end.8,Полируем машину режиссёра
+msg.gen.end.9,Подготавливаем взрывные бочки
+msg.gen.end.10,Ставим горшки
+msg.gen.end.11,Полируем конуса
+msg.gen.end.12,Разливаем масла
+msg.gen.end.13,Заправляем вертолёт
+msg.gen.end.14,Привозим ещё зрителей
+msg.gen.end.15,Чиним ямы
+msg.gen.end.16,Доставляем хот-доги
+
+msg.longest_drift,Длинный занос
+msg.cant_fire_flyers,Нельзя стрелять, вы ничего не видите!
+msg.cant_fire_no_gun,Нельзя стрелять, у вас его нет!
+msg.cant_drop_no_gun,Нельзя выбросить, у вас его нет!
+msg.close_call,Еле уцелел!
+msg.photo_reward,Награда за фото: ${0}
+msg.inflicted_dmg,Нанесено уронов
+msg.dmg_warning,Состояние повреждения
+msg.over_50_pct,Серьёзное
+msg.over_75_pct,Критичное
+msg.jump_completed,Прыжок совершён
+msg.nitro_boost,Нитро
+msg.hit_combo,Наезд
+msg.final_lap,ПОСЛЕДНИЙ КРУГ!
+msg.lap_did_not_count,Круг не засчитан
+msg.wrong_way,Не туда!
+msg.no_reset_start_line,Нельзя телепортироваться обратно, стартовая черта не пройдена!
+msg.no_reset_too_often,Вы не можете телепортировать обратно машину так часто!
+msg.camera_mode,Режим камеры
+msg.camera_zoom,Масштаб камеры
+msg.ped_cannon_tip,Наедь на пешехода или подожди, пока пушка перезарядится!
+msg.corner_cut,Штраф за срезку
+msg.get_on_track,ВЕРНИСЬ НА ТРАССУ!
+msg.reset_in,ТЕЛЕПОРТАЦИЯ ЧЕРЕЗ {0:0.00}сек
+msg.offroad_pen,ШТРАФ ЗА БЕЗДОРОЖЬЕ
+msg.car_reset,Вернуть на трассу
+msg.cheating_detected,Обнаружены читы
+msg.corner_cut_forgiven.1,Штраф за срезку прощён. Не делай так больше!
+msg.corner_cut_forgiven.2,Штраф за срезку прощён. Судья закрыл на это глаза.
+msg.ped_sucked_in_cannon,ВАС ЗАСОСАЛО В МЯСНУЮ ПУШКУ!!!
+msg.x_invalid_obj,Здесь {0} несоответствующих объектов
+msg.wasted,ПОТРАЧЕНО
+
+msg.hard_congrats,Поздравляю, вы открыли уровень сложности "Сложный"!
+msg.hardcore_congrats,Поздравляю, вы открыли новый уровень сложности. Тебе конец!
+msg.no_steam_leaderboard_warn,НЕТ СОЕДИНЕНИЯ СО STEAM! Рекорд на таблице лидеров не будет сохранён. Перезапусти игру или клиент Steam, чтобы исправить.
+msg.motion_speed_adj,Скорость движения: {0:0.00}x
+msg.time_scale_adj,Время: {0:0.00}x
+msg.steam_client_photo,Запусти игру через клиента Steam, чтобы сделать скриншот. Так же разрешается использовать стороний софт, если вы не используете Steam.
+msg.entering_photo_mode,Вход в режим фото
+msg.exiting_photo_mode,Выход из фото режима
+msg.just_upgraded,{0} только что улучшил {1}!
+msg.just_bought,{0} только что купил себе {1}!
+# Keep this as short as possible, it will be displayed for 5 seconds in a small speech bubble
+msg.tip_available,Нажми на {Action.ShowTutorial} для совета
+
+msg.uploading_ghost,Публикуем ваш повтор
+msg.score_not_improved,Ваш существующий рекорд не побит
+msg.score_ghost_missing,Ваш существующий рекорд не побит, но ваш повтор не отображается. Публикуем ваш повтор.";
+msg.score_rejected,Steam отклонил ваш рекорд для данной доски лидера
+msg.uploading_score,Обновляем рекорд доски лидера ({0}/10 API входа / 10 мин)<br>{1}
+msg.uploaded_score,Обновление рекорда доски лидера завершён ({0}/10 API входа / 10 мин)<br>{1}
+msg.upload_fail,Не можем обновить доску лидера, перезапись через {2}с ({0}/10 API входа / 10 мин)<br>{1}
+
+load.downloading_score,Загрузка приблизительных очков доски лидера
+load.downloading_ghost_car,Загрузка данных призрака
+load.launching_battle,Запускаем Бойню
+load.launching_race,Запускаем гонку
+load.starting_race,Зажигаем!
+load.checking_mods,Проверка модов
+load.downloading_mod,Загрузка модов: {0} ({1}/{2} байтов)
+load.loaded_mod,Загруженно модов: {0}
+load.screenshotting,Делаем скриншот трассы
+load.gen_rand,Генерируем трассу
+load.track,Загрузка трассы
+load.flushing_stats,Смываем статистику
+load.flushing_stats_progress,Смываем статистику ({0} осталось)
+load.exiting,Ливаем
+load.insults,Загружаем случайные оскорбления
+load.avatars,Загружаем профили
+load.avatar_custom,Загружаем пользовательские профили: {0}
+load.cars,Загружаем тачки
+load.workshop_car_tex,Загрузка текстуров тачек из Мастерской: {0}/{1}
+load.car_tex,Загрузка текстуров тачек: {0}/{1}
+load.paint_job,Загрузка покрасок: {0}
+load.track_campaign,Загружаем трассы кампании: {0}
+load.custom_tracks,Загрузка пользовательских трасс
+load.workshop_track,Загрузка трасс из Мастерской: {0}
+load.workshop_track_missing,Трасса из Мастерской {0} отсутствует, удаляем
+load.workshop_car,Загрузка тачек из Мастерской: {0}
+load.custom_track,Загрузка пользовательских трасс: {0}
+load.track_x,Загрузка трасс: {0}
+load.steam_avatar,Загрузка профиля Steam: {0}
+load.scene,Загрузка {0}
+
+scene.race_setup,индивидуальной гонки
+scene.race,гонки
+scene.main_menu,главного меню
+scene.track_editor,редактор трасс
+scene.car_editor,редактор машин
+scene.campaign,кампании
+scene.kickstart,начала
+
+weapon.ped_cannon,Мясная пушка
+weapon.m2,Пулемёт
+weapon.saw,Пила
+weapon.nitro_refill,Заправка нитро
+weapon.shield,Сил. поле
+# Tribute to Mad Max, maybe it's possible to keep the reference?
+weapon.mad_fax,Бабломёт
+# It is a robotic steel hedgehog that is rigged with explosives
+weapon.homing_hedgehog,Взрывной ёж
+weapon.wrench,Гаечный ключ
+weapon.nailgun,Гвоздомёт
+# Tribute to Quake
+weapon.railgun,Рельсотрон
+weapon.wrecking_ball,Висячее яйцо
+weapon.grappling_hook,К-н Крюк
+
+# TUTORIALS 
+# Watch out for the <br>, these are new lines. They must not be removed!
+
+tut.basic_driving.head,Вождение
+tut.basic_driving.1,- Нажми на {Action.Accelerate} чтобы ускориться<br>- Используй {Action.Steer} чтобы рулить<br>- А если у вас есть контроллер, вы можете подобрать уровень газа или руля как вам удобно.<br>- Управление автомобиля становится легче играя с помощью контроллера!
+tut.basic_driving.2,- Бери углы раньше поворота<br>- Тормози перед острыми углами<br>- Нажми {Action.Brake} чтобы тормозить<br>- Отпуская {Action.Accelerate} также снизит скорость
+tut.basic_driving.3,- Если поворот всё ещё резкий, то используй ручник<br>- Нажми на {Action.Handbrake} чтобы применить ручник
+
+tut.camera.head,Управление камерой
+tut.camera.1,- Есть несколько масштабов и режим вращения камеры<br>- Нажми на {Action.Zoom} чтобы переключить дальность камеры<br>- С дальним масштабом, вы можете видеть машину издалека, но перекрывать вас будет облака. А чего вы думали?
+tut.camera.2,- Близкое расстояние покажет ваш автомобиль лучше<br>- Может быть затруднительным, так как вы не видите впереди дорогу<br>- Посмотри на карту, чтобы узнать какой поворот тебе ожидает
+tut.camera.3,- Нажми на {Action.Camera} чтобы изменить вращение камеры<br>- "К дороге" - камера не будет вращать вообще
+tut.camera.4,- "К машине" - камера будет прикреплена над вашим автомобилем<br>- Качающая камера - это что-то между режима "К машине" и "К дороге"<br>- Выбирайте подходящий для вас режим
+tut.camera.5,- Вы можете менять в настройках. Настройки > геймплей, чтобы менять режим камеры<br>- Вы можете поменять тряску камеры, если не хотите его
+
+tut.camp.add_racer.head,Добавить или редактировать гонщика
+tut.camp.add_racer.1,- Выбирайте кем будет управлять этим гонщиком, игроком или ИИ<br>- Играть можно вплоть до 4х игроков на раздельной экране<br>- Вы можете поменять профиль гонщика, или установить собственную картинку из своего файла
+
+tut.camp.advance.head,Перейти к следующей неделе
+tut.camp.advance.1,- Поздравляю, вы только пережили первую неделю! Но этого ещё мало.<br>- Когда вы готовы продолжить к дальнейшему выживанию, нажми на "Перейти"<br>- На следующей неделе будет генерировать новые трассы
+
+tut.camp.car_unlock.head,Доступна новая машина
+tut.camp.car_unlock.1,- Вы открыли машину получше, что можете себе это позволить!<br>- Идите в гараж, чтобы его найти
+tut.camp.car_unlock.2,- Выбирайте доступный вам автомобиль<br>- Нажми на "Купить", чтобы заполучить его себе<br><br>- Также не забудь покрасить его перед тем, как купить его
+
+tut.camp.first_car.head,Твоя первая тачка
+tut.camp.first_car.1,- У вас нет машины, но вы можете купить себе хоть что-то, если у тебя есть деньги<br>- Нажми на "Купить машину", чтобы войти в гараж
+
+tut.camp.first_race.head,Первая гонка
+tut.camp.first_race.1,- Время вашей первой гонки!<br>- Нажми на этап, чтобы начать своё приключение<br>- Если вы видите генерацию, это означает, что группа профессиональных мартышек работают над вашей трассой. Пожалуйста, подождите, пока они не закончат и затем вы приступайте к гонке.
+
+tut.camp.garage.head,Гараж
+tut.camp.garage.1,- Всё что вы себе можете позволить, это Lionard 125<br>- Новые автомобили будут разблокированы как повысите себе уровни
+tut.camp.garage.2,- Перекрасить машину можно сделать за бесплатно перед покупкой<br>- После того как вы его купили, перекраска может стоить денег
+
+tut.camp.racer_setup.head,Создать гонщика
+tut.camp.racer_setup.1,- Подбери профиль для своего гонщика. Вы также можете загрузить свои изображения со своего компьютера.<br>- Введи имя своего гонщика, или нажми на "Генерировать", чтобы выбрать подходящий<br>- Подбери тон голоса (будет влиять на голос в диалогах)<br>- Затем нажми на "Создать"
+
+tut.camp.season_lineup.head,Строй сезона
+tut.camp.season_lineup.1,- Вот вы можете редактировать строй сезона и настроить для игры на раздельном экране для нескольких игроков в кампаний<br>- Нажми "Редактировать" на иконку гонщика, чтобы поменять имена, профиль и навык<br>- Нажми на крестик (Х) у гонщика, чтобы удалить. Счёт гонщиков зафиксирован, так что удаление их будет заменены на новых гонщиков!
+
+tut.camp.stage_rewards.head,Награды за этап
+tut.camp.stage_rewards.1,- После гонки, вы получайте награды за ваши действия<br>- Цветные награды более ценные (как бы странно и не звучало)
+tut.camp.stage_rewards.2,- По умолчанию, только игроки могут видеть свои награды<br>- Нажми на "Все гонщики", чтобы посмотреть на то, кто какие гонщики получили награды
+
+tut.camp.car_upgrades.head,Улучшение
+tut.camp.car_upgrades.1,- Вы только что открыли новое улучшение для машин<br>- Нажми на иконки запчасти, чтобы посмотреть на данное улучшение<br>- Улучшаемые запчасти могут отображать стрелкой вверх паря над кнопкой
+tut.camp.car_upgrades.2,- Нажми на кнопку цены, чтобы купить улучшение<br>- Будет больше улучшении как повысите уровни
+
+tut.car_damage.head,Повреждение
+tut.car_damage.1,- Походу у вашей тачки серьёзное повреждение<br>- Смотри в оба над шкалой здоровья на правом верхнем углу<br>- Починка машины поможет вам бонус гаечных ключей в гонках с оружиями или в режиме бойни
+tut.car_damage.2,- Повреждённые тачки теряют максимальную скорость<br>- Из повреждённых тачек может течь масло
+
+tut.car_reset.head,Возродить на трассу
+tut.car_reset.1,- Вы попали в ужасную обстановку? Мы прикроем тебя!<br>- Нажимая на {Action.Brake} заставляет вашу машину ехать назад<br>- Нажми на {Action.ResetCar} чтобы телепортировать свою машину обратно на трассу
+
+tut.corner_cut.head,Штраф за срезку
+tut.corner_cut.1,- Похоже вы срезали поворот!<br>- В зависимости от настроения судьи, вас будут прощать или наказать<br>- Лёгкий штраф - временное замедление<br>- Тяжёлый штраф - телепортация<br>- Количество разрешённых срезок будет зависить от режима игры и сложности
+
+tut.custom_race_dash.head,Меню индивидуальной гонки
+tut.custom_race_dash.1,- Добро пожаловать на меню индивидуальной гонки. Выглядит довольно изнурительно для начала, но я вам помогу<br>- Если вы хотите играть с друзьями, нажми на "Добавить игрока"<br>- Так же вы можете добавить ИИ гонщика таким же образом
+tut.custom_race_dash.2,- Чтобы добавить случайного ИИ гонщика быстро, нажми на кнопки "+1" и "+10"<br>- Можно устраивать гонки против тонны ИИ соперников за раз!<br>- Чтобы убрать всех гонщиков, нажми на "0"
+tut.custom_race_dash.3,- Не сравнивая с кампанией, улучшение даётся как вам вздумается<br>- Нажми на запчасть, чтобы повысить уровень или сбросить<br>- А так же улучшение можно менять и у соперников индивидуально
+tut.custom_race_dash.4,- Есть несколько режимов игры, из которых вы можете выбрать<br> - "Гонка" - обычная гонка с другими машинами<br>- "Гонка на время" - побей рекорд времени круга для глобальной доски лидеров<br>- В "Бойне" у вас ограниченное время и оружия. Вам не обязательно ездить по трассе.
+tut.custom_race_dash.5,- Выбирайте трассу, которую вы хотите<br>- Вы также можете генерировать себе уникальную трассу<br>- Загружайте больше трасс из Мастерской Steam или создавайте свой собственный в редакторе трасс
+tut.custom_race_dash.6,- После того как вы настроили себе гонку, нажмите на красную кнопку на лево нижнем углу, чтобы начать гонку
+
+tut.time_attack.head,Индивидуальная гонка: Гонка на время
+tut.time_attack.1,- В режиме "Гонка на время" все улучшения машины закреплены на уровне 1
+tut.time_attack.2,- Чтобы посмотреть на доску лидеров, нажмите на его кнопку на верхнем панели управления<br>- ИИ гонщикам недоступны в режиме "Гонки на время"<br>- Вы также можете разделить экран, чтобы поиграть с другими игроками
+
+tut.drift.head,Управление в заносе
+tut.drift.1,- Вам нужно произвести чистый дрифт<br>- Дрифт - это искусство управляя машину боком<br>- Управляемый занос даёт нитро и деньги в кампании<br>- Занос не будет засчитан, если вы выходите из трассы
+tut.drift.2,- У каждой машины свои склонности к заносу, а иногда и в помине не будут<br>- Различные поверхности и условия погоды так же влияют на склонность к заносу<br>- Улучшения также влияет на занос
+
+tut.paint.head,Покраска автомобиля
+tut.paint.1,- Поменяй цвет кузова используя основной цвет<br>- Нанести на автомобиль можно в два слоя узоров<br>- Нажми на изображение узора, чтобы подобрать другой<br>- Вы также можете использовать собственные изображения с компьютера
+
+tut.nitro.head,Нитро
+tut.nitro.1,- Красная шкала нитро показывает его уровень<br>- Нажми и держи {Action.Nitro}, чтобы жечь нитро и ускориться<br>- Чем больше ты их сжигаешь, тем больше эффективности оно и будет
+tut.nitro.2,- Шкала нитро заполняется когда ты сбиваешь пешеходов, горшков или снеговиков<br>- Нитро также заполняется при заносе<br>- Вы будете ещё получать деньги за неиспользованное нитро 
+
+tut.oil.head,Лужа масла
+tut.oil.1,- Вы только что наехали на лужу масла<br>- Масло заставляет ваши шины скользить очень легко<br>- Но не волнуйся, ваши шины будут очищены быстро
+
+tut.ped.head,Пешеход
+tut.ped.1,- Вам не повезло, чтобы попасть на гонку пешком<br>- Используй {Action.Walk} чтобы передвигаться<br>- Повернуть на {Action.Turn}
+tut.ped.2,- Когда вы близко к машинам, нажми на {Action.Take Photo}, чтобы сделать фотографии<br>- За фото они вознаграждают деньгами<br>- Награда зависит от количества машин за кадр и дистанций до вас
+tut.ped.3,- Будь осторожным, или вас задавят машиной<br>- Медицинские счета очень дорогие, так что если у вас их нет, то вы проиграли кампанию
+
+tut.nitro_refill.head,Бонус: Заправка нитро
+tut.nitro_refill.1,- Вы получили заправку нитро!<br>- Это бонус быстро заполняет шкалу вашего нитро пока вы едете<br>- Когда вы получайте этот бонус, нажми и держи на {Action.Nitro}, чтобы сжечь нитро пока она ещё заполняется
+
+tut.wrench.head,Бонус: Гаечный ключ
+tut.wrench.1,- Вы получили гаечный ключ!<br>- Гаечный ключ - это бонус починки вашей машины пока вы ездите<br>- Есть три варианта гаечных ключей, которые вы можете получить
+tut.wrench.2,- Медный ключ чинит ваш автомобиль слабо<br>- Серебрянный ключ чинит довольно хорошо<br>- Золотой ключ чинит большое количество здоровья
+
+tut.race_end.head,Завершение гонки
+tut.race_end.1,- Отлично, надеюсь, что ты не был последним! Бывает же такое.<br>- У остальных гонщиков остаётся 30 секунд, чтобы добраться до финишной чертой<br>- Нажми на "Ускорить" несколько раз, чтобы проматать гонку в 5 раз
+tut.race_end.2,- После того как прошло 30 секунд, кнопка "Завершить" будет открыт<br>- Всё от вас, если вы хотите выйти из гонки перед тем как все гонщики тоже завершили
+
+tut.car_battle.head,Бойня
+tut.car_battle.1,- Добро пожаловать на Бойню!<br>- Ваша цель - уничтожить как можно больше соперников<br>- Тарань их<br>- Стреляй в них
+tut.car_battle.2,- Подбери оружие и бонусы в эти круги<br>- Ты можешь увидить их на карте
+tut.car_battle.3,- После тоо как вы подобрали, круг закроется на некоторое время, таймер об этом скажет<br>- Когда таймер закончится, круг откроется, и вы можете снова их подобрать
+tut.car_battle.4,- Бойня завершится когда таймер в табло на правом верхнем углу дойдёт до нуля<br>- Победит тот, кто уничтожил и нанёс уронов других соперников больше всех
+
+tut.regular_race.head,Обычная гонка
+tut.regular_race.1,- В обычной гонке ваша цель - обогнать всех гонщиков и прийти первым<br>- Жми {Action.Nitro} чтобы сжечь нитро для большего ускорения<br>- Сбивай пешеходов или дрифти, чтобы заправить больше нирто<br>- Не резай углы или вы будете оштрафованы!
+
+tut.time_attack2.head,Гонка на время
+tut.time_attack2.1,- В гонках на время вы попытайтесь побить время на трассе<br>- Если другие гонщики тоже заходили на эту трассу, ты можешь побить их время с их призраками повторами<br>-Ваш призрак повтор будет показаны в доске лидеров
+
+tut.race_weap.head,Смертельная гонка
+tut.race_weap.1,- Пора устраивать отличное шоу, которые многие скучали! Это Смертельная гонка с пушами, да бонусами<br>- Эти гонщики могут быть такими безумцами!<br>- Перед тем как начать кампанию, вы можете отключить этот режим
+tut.race_weap.2,- Когда вы подбираете оружие или бонус, его шкала будет видным<br>- Когда вы получайте оружие, которое вы не видели, совет может появится на экран
+tut.race_weap.3,- Есть несколько точек с оружиями на протяжений трассы<br>- Эти точки может менять цвет раз за разом<br>- Красный - даёт вам оружие
+tut.race_weap.4,- Зелёный - даёт вам бонус<br>- Если вы проезжаете через точку пока у вас в наличий оружие или бонус, ничего не произойдёт<br>- Нажми на {Action.DropWeapon}, чтобы выбросить текущие оружие или бонус
+
+tut.ramps.head,Трамплины и прыжки
+tut.ramps.1,- Где мой бинокль? Вы куда-то пропали! А, вы только что запустили машину в полёт!<br>- Деревянные трамплины заставляет вашу машину прыгнуть
+tut.ramps.2,- Усиленный трамплин заставляет вашу машину не только взлететь, но и дать вам пинка!<br>- Трамплины не гарантирует вам идеальную посадку<br>- Вы можете толкнуть или вращать его, чтобы сделать ловушку для своих соперников<br>- Прыжки засчитывают в доски лидеров, но только работает они в кампаниях!
+
+tut.track_ed.obj_place.head,Редактор трасс: Установка объектов
+tut.track_ed.obj_place.1,- Нажми на {Action.PlaceObject} один раз, чтобы поместить объект<br>- Зажми на {Action.PlaceObject} и тяни, чтобы сделать линию из объектов подряд<br>- Используй {Action.RotateObject}, чтобы вращать объект перед тем как установить
+
+tut.m2.head,Оружие: Пулемёт
+tut.m2.1,- Перезарядка. Огонь! Вы заполучили себе Пулемёт!<br>- Пулемёт довольно сильное оружие<br>- Зажми {Action.Fire}, чтобы стрелять в соперников<br>- Если вам это оружие не нравится, то можно его выбросить нажав на {Action.DropWeapon}
+
+tut.mad_fax.head,Оружие: Бабломёт
+tut.mad_fax.1,- Денег много? А девать некуда? Вы получили себе Бабломёт<br>- Нажми на {Action.Fire}, чтобы раскидать листовки в лицо соперников<br>- Листовки будут прилипать к лобовой стекле, мешая их обзор<br>- Машины с большим количеством листовок на стекле, повлияет на контроль автомобиля, что может вилять из стороны в сторону<br>- Если вам не нравится это оружие, то можете его выкинуть нажав на {Action.DropWeapon}
+
+tut.nailgun.head,Оружие: Гвоздомёт
+tut.nailgun.1,- Сквозь голову и руку! Вы получили Гвоздомёт!<br>- Гвоздомёт даёт приличный урон, но может сбить соперников с толку и траекторий<br>- Нажми на {Action.Fire}, чтобы стрелять в соперников перед вами<br>- Если вам не нравится это оружие, вы можете выкинуть его нажав на {Action.DropWeapon}
+
+tut.ped_cannon.head,Оружие: Мясная пушка
+tut.ped_cannon.1,- Пора отправить пешеходов туда, откуда они пришли! Вы заполучили себе Мясную пушку!<br>- Она заряжена взрывоопасными пешеходами<br>- Нажми на {Action.Fire}, чтобы запустить пешехода на своих соперников. Как говориться: "Полетели!"
+tut.ped_cannon.2,- Наезжай на пешехода (не важно в какой состояний они), чтобы зарядить пушку<br>- Или дождись 10 секунд, пока мясо будет клонирован и зарядится пушка самостоятельно<br>- Если вам не нравится это оружие, то можете его выкинуть нажав на {Action.DropWeapon}
+
+tut.railgun.head,Оружие: Рельсотрон
+tut.railgun.1,- Вы слыхали об одном старом мультике про роботов? То тогда вы получили Рельсотрон!<br>- Рельсотрон медлительное, но очень мощное и точное оружие<br>- Нажми на {Action.Fire}, чтобы снайпнуть в соперников впереди вас<br>- Если вам это оружие не нравится, то можете его выкинуть нажав на {Action.DropWeapon}
+
+tut.saw.head,Оружие: Пила
+tut.saw.1,- Вы хотите сыграть в игру? То вот вам и пила!<br>- Это оружие ближнего боя, попытайся дотронутся до ваших соперников<br>- Пила может быть прикреплён то на перед, то на зад вашего автомобиля<br>- Осторожнее, дополнительный вес повлияет на управление <br>- Если вам это оружие не нравится, то можете выкинуть его нажав на {Action.DropWeapon}
+
+tut.shield.head,Оружие: Силовое поле
+tut.shield.1,- Ой, как страшно... Но пора вам выдохнуть от того, что в вас стреляют. Это - Силовое поле!<br>- Толкает всё вокруг вас<br>- Отражает пули<br>- Если вам не нравится это, то можете выкинуть нажав на {Action.DropWeapon}
+
+tut.spikes.head,Оружие: Взрывной ёж
+tut.spikes.1,- Пора выпустить Взрывного ежа, чтобы уничтожить!<br>- Этот роботизированный ёж можно выпустить для отличной вакханалий<br>- Нажми на {Action.Fire}, чтобы выпустить ежа
+tut.spikes.2,- Когда вы его выпустили, ёж будет перемещаться в сторону ближайшнего соперника как цель<br>- Он будет преследовать их пока у него не закончится энергия<br>- Ёж будет взрываться после того, как коснётся объекта или машины
+
+tut.wreck_ball.head,Оружие: Висячее яйцо
+tut.wreck_ball.1,- А что за тяжесть то такая? Ага, вы только что получили Висячее яйцо!<br>- Скажем честно, это не самое лучшее оружие, что вы получите<br>- Оно довольно полезное для бойни, но не как для обычной гонки. Ну уж извините, стандарт оружии на всех двух режимах :) 
+tut.wreck_ball.2,- Владея Висячим яйцом на своей машине, повлияет на него очень резко<br>- Ну а если вам это не нравится, то можете выкинуть его нажав на  {Action.DropWeapon}
+
+msg.director_warning.1,Режиссёр Николас Мэррилэнд тоже.. участвует..
+msg.director_warning.2,Психопат на трассе, и он не будет шутить!
+msg.director_warning.3,Берегись Режиссёра, у него пушка!
+msg.director_warning.4,Мама, Режиссёр снова на своей машине!
+msg.director_warning.5,Режиссёр Николас участвует в гонке!
+
+msg.chopper_warning.1,Брэйс Стоун сейчас не в настроении. Берегись вертолёта!
+msg.chopper_warning.2,Люди смотрят на вертолёт со страхом на глазах...
+msg.chopper_warning.3,Остерегайся вертолёта, у него оружие!
+msg.chopper_warning.4,Брэйс Стоуну скучно на сегодня. Берегись вертолёта!
+msg.chopper_warning.5,Это просто нечестно, но Брэйс Стоун летит с пуколкой!
+msg.chopper_warning.6,Осторожно, Брэйс Стоун бесится на своём вертолёте!
+msg.chopper_warning.7,У Брэйс Стоуна походу стукнуло счастье на сегодня!
+msg.chopper_warning.8,Остерегайся от бешенного психопата на небе!
+
+msg.tip.ped.ff,СОВЕТ: Зажми {Action.FastForward}, чтобы ускорить время
+msg.tip.ped.photo,СОВЕТ: Нажми {Action.Take Photo}, чтобы сделать фото
+msg.tips.disabled,Вы можете найти советы в "Об игре" > "Как играть"
+
+msg.tips.finished_campaign,Завершенные кампании
+msg.tips.free_man,Свободный
+msg.tips.incompatible_save,Несовместимая версия кампаний
+
+# {0} - date
+msg.achieved_on,Достигнуто {0}
+# {0:0.0}% will become 15.3%
+msg.achieved_by,Достигнули {0:0.0}%
+msg.hidden_achievement,Скрытое достижение
+
+# New translations since v1.5.0
+term.none,Нет
+btn.extra,Дополнительно
+race.modifiers,Модификатор гонки
+race.select_challenge,Выбрать задачу
+race.challenges,Задачи
+race.challenge_target,Цель задачи
+race.challenge_target.players,Только игрокам
+race.challenge_target.everyone,Всех
+mission.type.none,Нет
+mission.type.assassinate,Устранить
+mission.type.hit_obj,Сбить объекты
+mission.type.make_sure_car_x_comes_last,Не допустить гонщика выйграть
+mission.type.stay_on_track,Оставаться на трассе
+mission.type.locked_camera,Закрытая камера
+mission.type.take_dmg,Принять урон
+mission.type.finish_xth,Финишировать
+mission.type.be_a_ped,Стать пешеходом
+mission.type.tiny_car,Хлебушек
+mission.type.huge_car,Большой Чангус
+mission.type.inverse_steering,Развёрнут руль
+mission.type.full_throttle,Тапок в пол
+mission.type.shield,Сил. поле
+mission.type.distribute_spam,Всякое прочее
+mission.type.weaponize,Рэмбо
+mission.type.your_car_stolen,Ваша машина угнана
+
+campaign.all_races_with_weapons,Оружия в каждой гонке
+campaign.all_races_with_weapons.tip,Оружия и бонусы будут открыты в каждой гонке! Я же говорил что такое безумие?
+
+btn.get_full_game,Получить полную версию
+prologue.not_available,Недоступно в Prologue версии
+prologue.full_features,Получайте полную версию Bloody Rally Show, чтобы открыть больше возможностей:<br>- Бесконечная кампания<br>- Индивидуальные гонки с друзьями<br>- Мастерская Steam опубликованных машин и трасс<br>- Тонна контента, которые будлут использованы в кампании и индивидуальной гонке<br>- Доска лидеров и достижения
+
+campaign.nitro,Нитро
+campaign.nitro.tip,Отключая нитро снижает хаос.
+
+dial.invalid_name,Пожалуйста, уберите эти символы с имени: {0}
+dial.campaign_stage_file_missing,Не можем загрузить этап, файл этапа в кампаний отсутствует (попробуйте регенерировать трассу): {0}
+
+track.seed,Введите код
+track.seed.placeholder,Буквы или цифры
+btn.save_track,Сохранить трассу
+
+campaign.nitro.ai.balance,Баланс нитро у ИИ
+campaign.nitro.ai.balance.tip,Если включён, ИИ гонщики будут получать немного больше или меньше нитро в зависимости от их навыков. Внимание, отключая его игра сделает игру слишком легкой!
+load.waiting_for_players,Ожидание игроков ({0}/{1})
+load.waiting_for_host,Ожидание хоста
+dial.race.restart_online,Перезапустить онлайн-гонку может только хост
+msg.online_race_cancelled,Онлайн-гонка отменена
+
+# v2.0.0 online - machine translation, please review
+main_menu.btn.online,Онлайн
+main_menu.btn.tooltip.online,Создайте гонку для друзей или присоединитесь к их игре
+race.menu.online,Меню - гонка продолжается
+msg.photo_mode_online,Фоторежим недоступен в онлайн-игре
+msg.race_ends_in,ГОНКА ЗАКОНЧИТСЯ ЧЕРЕЗ {0:0} с
+msg.time_up,ВРЕМЯ ВЫШЛО!
+dial.race.exit_online,Гонка закончится для всех. Вы уверены?
+msg.racer_left,{0} ПОКИДАЕТ ГОНКУ
+msg.online_host_left,Хост вышел из игры
+msg.online_connection_lost,Соединение с хостом потеряно
+msg.online_kicked,Хост удалил вас из игры
+msg.online_ready_cleared,Хост изменил гонку: нажмите «Готов» ещё раз
+dial.race.restart_online_host,Все вернутся к настройке гонки для реванша. Вы уверены?
+dash.online.ready,Готов
+dash.online.cancel_ready,Отменить готовность
+dash.online.ready_count,{0}/{1} готовы
+dash.online.starts_in,{0} с
+dash.online.waiting_for_host,Ожидание хоста
+dash.online.race_in_progress,Идёт гонка
+dash.online.host,Хост
+dash.online.member_ready,Готов
+dash.online.downloading_cars,Загрузка машин хоста {0}/{1}
+dash.online.waiting_for_downloads,Ожидание загрузок
+dash.online.players,Игроки {0}/{1}
+msg.online_cars_failed,Не удалось загрузить машины хоста ({0}): вместо них показаны другие
+dash.invite_friends,Пригласить друзей
+dash.tip.invite_friends,Пригласить друзей в эту игру
+dash.leave,Выйти
+dial.online.leave,Выйти из онлайн-игры?
+dial.online.leave_host,Ваш выход завершит игру для всех. Вы уверены?
+dial.online.kick,Удалить {0} из игры?
+dial.online.invite_port,Друзья в вашей сети могут подключиться по адресу этого компьютера и этому порту:
+dial.online.invite_unavailable,Оверлей Steam недоступен: пригласите друзей через Steam
+dial.race.race_alone_online,Не стоит ездить в одиночку. Пригласите друга или добавьте соперников кнопками «+1» или «+10»!
+online.btn.host,Создать игру
+online.btn.host_lan,Создать игру в LAN
+online.btn.join_address,Подключиться по адресу
+online.join_address,Подключиться к игре по адресу:
+online.join_address.placeholder,адрес:порт
+online.hosting,Создание игры...
+online.joining,Подключение к {0}...
+online.joining_friend,Подключение к игре друга...
+online.friend_game.asking,запрос к Steam
+online.friend_game.other_version,версия {0}
+online.friend_game.full,мест нет
+online.steam_not_running,Steam не запущен
+online.no_friend_games,Сейчас никто из друзей не играет онлайн
+dial.online.bad_address,Не удаётся подключиться к «{0}»: введите адрес и порт хоста, например 192.168.1.20:26860
+msg.online_connect_failed,Не удалось подключиться к игре
+msg.online_full,В игре нет свободных мест
+msg.online_version,У хоста версия {0}, у вас {1}
+msg.online_other_version,У хоста другая версия игры
+msg.online_host_failed,Не удалось создать онлайн-игру
+dash.chat,Чат
+dash.chat.placeholder,Введите сообщение и нажмите Enter
+dash.chat.joined,{0} теперь в игре
+dash.chat.left,{0} больше не в игре
+dash.online.ping,{0} мс
+online.friend_game,{0} ({1}/{2})
+online.friend_game.not_joinable,{0}: {1}
+
+# v2.0.0 rubber banding setting - machine translation, please review
+settings.gameplay.rubber_banding,Эффект резинки
+settings.gameplay.rubber_banding_tip,Более слабые соперники сбавляют темп, когда сильно опережают вас, и поднажимают, когда сильно отстают. Отключите, чтобы гоняться с каждым соперником в его настоящем темпе.

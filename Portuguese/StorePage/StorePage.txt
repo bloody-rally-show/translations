@@ -1,63 +1,67 @@
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamRace.gif[/img]
 
-Uma mistura única de corridas, combates de carros e roguelite e ainda uma variedade infinita de pistas de corrida e campanhas geradas processualmente com histórias distópicas e conversas, missões e desafios gerados pela IA. 
+Bloody Rally Show é um jogo de corrida com combate, visto de cima, ambientado em um reality show distópico. Derrape, acelere, bata e atire até a frente do pelotão, mantenha o público entretido e tente ainda ter um carro no final.
 
-Corridas de carros rápidos com controles fáceis através de uma infinita variedade de pistas geradas aleatoriamente à mão.
-Dispute pela glória contra outros jogadores no Steam Leaderboards.
-
-[img]{STEAM_APP_IMAGE}/extras/BRSSteamFight1.gif[/img]
-
-Use as armas e a inércia do seu carro para combater outros corredores no modo de Batalhas em estilo livre.
-Adicione Zonas de Armas às corridas regulares para apimentar as coisas.
+[b]Corra contra seus amigos online[/b]
+Crie uma Corrida Personalizada, convide seus amigos da Steam e resolva as coisas na pista. O online é só para amigos: não há salas públicas nem matchmaking, você joga com seus amigos da Steam.
+[list]
+[*] Corrida ou Batalha de carros, com corredores de IA para completar o grid
+[*] Cada um escolhe seu carro, pintura e upgrades
+[*] Adicione armas, missões, o carro do diretor e tiros de helicóptero
+[*] Corra a pé, o que é uma ideia tão ruim quanto parece
+[*] As pistas personalizadas do anfitrião e os carros da Oficina vêm junto automaticamente, ninguém precisa assinar nada
+[*] Funciona pela Steam, sem portas para abrir e sem servidores para alugar
+[/list]
 
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamDrift.gif[/img]
 
-Cuidadosamente desenvolvido, o controle do automóvel com base na física está no ponto doce entre arcade e a simulação, fácil de manusear, difícil de dominar. Aprenda a manusear e a desviar os seus carros em diferentes superfícies, sinta quando o seu carro perde aderência e recupera a tração.
+[b]Corridas[/b]
+Física no ponto certo entre arcade e simulador: fácil de pegar, difícil de dominar. Aprenda como o carro se comporta em cada superfície, sinta quando ele perde aderência e segure-o antes que o muro faça isso.
+[list]
+[*] Um estoque infinito de pistas geradas aleatoriamente, além das feitas à mão
+[*] Nitro que recompensa quem escolhe o momento certo
+[*] Rampas, saltos, poças, manchas de óleo, placas de gelo e barris explosivos
+[*] Objetos que se movem, quebram e atrapalham
+[*] Desafio diário e Time Attack contra os fantasmas de outros jogadores
+[*] Uma infinidade de Classificações, onde a habilidade é o único caminho para o topo
+[/list]
 
-O modo Desafio Diário e Ataque ao Tempo permite você a correr contra fantasmas de outros jogadores. A habilidade é a única coisa que o levará ao topo das Leaderboards.
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamFight1.gif[/img]
+
+[b]Batalhas de carros[/b]
+Use as armas e a inércia do seu carro para eliminar todo mundo enquanto uma área no estilo battle royale vai se fechando. Ou adicione Zonas de armas a uma corrida normal, quando uma vitória limpa parecer fácil demais.
+
+[b]Campanha[/b]
+Campanhas geradas proceduralmente com história distópica, missões e desafios. Ganhe XP, suba o nível do seu corredor, ajuste e melhore seu carro para manter seus chefes contentes.
+[list]
+[*] Jogue sozinho, em cooperativo local ou pelo Steam Remote Play Together
+[*] Nomes dos melhores jogadores das Classificações aparecem como corredores de IA
+[*] Entre na corrida a pé no Modo Pedestre, tire fotos de carros passando por dinheiro e tente pagar as contas do hospital
+[/list]
 
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamCreate.gif[/img]
 
-Crie suas próprias pistas de corrida e carros com editores avançados no jogo que foram usados para criar todo o conteúdo do próprio jogo. O desenvolvimento completo de ferramentas está na ponta de seus dedos, e é o mais fácil de usar possível.
-
-Compartilhe as suas criações no Steam Workshop.
+[b]Crie o seu[/b]
+Crie pistas e carros com os mesmos editores do jogo usados para fazer todo o conteúdo dele. Compartilhe suas criações na Oficina Steam e baixe o que outras pessoas construíram.
 
 [img]{STEAM_APP_IMAGE}/extras/BRSSteamCustomize.gif[/img]
 
-Use as suas próprias imagens para avatares de corrida e trabalhos de pintura de carros, mude os nomes dos seus adversários no modo de campanha ou de corrida personalizada. 
-Personalize a pintura do seu carro, adicionando camadas de detalhes. Faça deste jogo o seu próprio jogo.
+[b]Deixe do seu jeito[/b]
+Use suas próprias imagens para avatares de corredores e pinturas, adicione camadas de detalhes à pintura e troque os nomes dos adversários na campanha ou na Corrida Personalizada. Dê a eles os nomes de pessoas com quem você tem algum problema.
 
 [img]{STEAM_APP_IMAGE}/extras/BRSConsole.gif[/img]
 
-Use um sistema operacional incorporado (OK, OK, é apenas um console), que pode fazer experiências que se ajustam a física do jogo, mudar a lógica do jogo, e fazer demais coisas interessantes!
+[b]Um sistema operacional embutido[/b]
+Tá, tá, é só um console. Mas você pode fazer experimentos que ajustam a física, mudam a lógica do jogo e fazem outras coisas legais.
 
-
-Características principais:
-[lista]
-[*] Satisfazer a física do automóvel em estilo arcade/sim (controle, direção, velocidade)
-[*] Quantidade infinita de Race Tracks gerados aleatoriamente 
-[*] Modo de campanha com missões, desafios e de histórias por conta da IA
-[*] Modo de batalha com zona ao estilo Battle Royal
-[*] Modo Pedestre, nunca antes visto em outros jogos de corridas!
-[*] Mecanismo de impulso nitro-estratégico
-[*] Corridas com armas e powerups
-[*] Jogar campanhas num único jogador, numa cooperativa local de sofás ou no Steam Remote Play Together
-[*] Possibilidade de compartilhar os seus carros personalizados na oficina da steam para que outros possam usar suas criações
-[*] Corridas com XP e progressão de níveis
-[*] Melhoramentes de carros
-[*] Adversários da IA adaptativos que têm os mesmos controles de direção que o jogador, com emoções e atitudes, e fazem coisas estúpidas de vez em quando. 
+[b]Também inclui[/b]
+[list]
+[*] Multiplayer local em tela dividida para até 4 jogadores
+[*] Corridas offline com até 100 carros
+[*] Corredores de IA de todos os níveis, que fazem besteira de vez em quando
 [*] Quase 50 conquistas
-[*] Categorias diferentes nas Leaderboards
-[*] Os nomes dos melhores jogadores do Leaderboards aparecem nas campanhas dos jogadores como pilotos de IA
-[*] Daily Challenge com diferentes combinações de pista/carro para competir contra outros jogadores
-[*] Multijogador online via Ghost Replays em Steam Leaderboards - corrida contra outras pessoas no modo Daily Challenge e Corrida contra o tempo
-[*] Trabalhos de pintura personalizados e avatares de corredor
-[*] Split Screen Multiplayer local para até 4 jogadores
-[*] Configuração para desligar o sangue (para sessões de corrida com a família)
-[*] Corridas com 100 adversários!
-[*] Rampas e saltos, poças, trechos com petróleo, poças de gelo, barris explosivos e outros perigos
-[*] Adereços de base física destrutíveis e móveis 
-[*] OST de alta qualidade com dezenas de melodias a todo o comprimento
-[*] Referências a pão sem glúten e outras piadas de mau gosto
-[*] Sem DRM!
+[*] Trilha sonora de alta qualidade com uma dúzia de músicas completas
+[*] Uma opção para desligar o sangue, para sessões em família em tela dividida
+[*] Referências a pão de espelta sem glúten e outras piadas ruins
+[*] Sem DRM! (Jogo online, Classificações e Oficina precisam da Steam)
 [/list]

@@ -45,10 +45,10 @@ char.anon.job_short,Corredor
 # Generic Terms (keep short)
 
 term.car,Carro
-term.track,Track
-term.lap,Colo
-term.lap_percent,Colo%
-term.laps,Criança
+term.track,Pista
+term.lap,Volta
+term.lap_percent,Volta%
+term.laps,Voltas
 # Abbreviate to max 5 characters, or keep "Best"
 term.best,Melhor
 # Max 10 characters
@@ -60,11 +60,11 @@ term.human,Humano
 term.ai,AI
 term.week,Semana
 term.stage,Etapa
-term.season,Estação
+term.season,Temporada
 term.special,Especial
 term.pending,Pendente
 term.points,Pontos
-term.drifts,Desvios
+term.drifts,Drifts
 term.mode,Modo
 term.battle,Batalha
 term.car_battle,Batalha de carros
@@ -80,9 +80,9 @@ term.mission,Missão
 term.entry_fee,Taxa de Entrada
 term.retry_fee,Taxa de Repetição
 term.generating,Gerando
-term.available,acessível
+term.available,Disponível
 term.locked,Bloqueado
-term.owned,Possuído
+term.owned,Adquirido
 term.lost,Perdido
 # This has to be super short!
 term.lvl_to_go,{0}
@@ -93,21 +93,21 @@ term.cash,Dinheiro
 # Short for Experience Points. If your language does not have a well know acronym for this, keep "XP"
 term.xp,XP
 # Short for position. Keep "Pos" if you can't find a good alternative
-term.pos,Postar
+term.pos,Pos
 # Noun - number of people killed (keep short, abbreviate if necessary)
-term.kills,Mortes
+term.kills,Abates
 # Noun - number of cars fragged (reference to Quake). Keep as "Frags" in your alphabet. Max 5 characters.
 term.frags,Frags
 term.damage,Dano
 # Short from "damage", Keep "dmg" if you cannot get this to less than 6 characters.
-term.dmg,Dmg
+term.dmg,Dano
 term.racer,Corredor
 term.ped,Pedestre
 term.he,ele
 term.she,ela
-term.mr,senhor.
+term.mr,Sr.
 # Ms is between Miss and Mrs
-term.ms,senhora.
+term.ms,Sra.
 term.resurrect,Ressuscitar
 term.progress,Progresso
 term.attempt,Tentativa
@@ -116,27 +116,27 @@ term.difficulty,Dificuldade
 
 # Generic buttons (keep short)
 
-btn.back,De volta
+btn.back,Voltar
 btn.continue,Continuar
 btn.apply,Aplicar
 btn.close,Fechar
 btn.refresh,Atualizar
-btn.random,Aleatória
-btn.randomize,Aleatória
+btn.random,Aleatório
+btn.randomize,Aleatorizar
 btn.main_menu,Menu principal
-btn.save,Salve 
+btn.save,Salvar
 btn.cancel,Cancelar
 btn.delete,Excluir
 btn.edit,Editar
 btn.garage,Garagem
 btn.generate,Gerar
-btn.regenerate,Regenerado
+btn.regenerate,Regenerar
 btn.buy,Comprar
-btn.select,Selecione
+btn.select,Selecionar
 btn.paint,Pintura
-btn.switch,Interruptor
-btn.confirm,confirme
-btn.change,mudança
+btn.switch,Trocar
+btn.confirm,Confirmar
+btn.change,Mudar
 btn.skip,Pular
 btn.next_page,Próxima página
 btn.prev_page,Página anterior
@@ -144,11 +144,11 @@ btn.disable_tips,Desativar dicas
 
 # Keep these very short. On / off can be translated same as yes / no to keep them shorter
 
-btn.on,Em
-btn.off,Fora
-btn.yes,sim
+btn.on,Ligado
+btn.off,Desligado
+btn.yes,Sim
 btn.no,Não
-btn.ok,Está bem
+btn.ok,OK
 btn.all,Todos
 
 # Main Menu
@@ -159,7 +159,7 @@ main_menu.btn.editors_mods,Editores e Mods
 main_menu.btn.daily_challenge,Desafio diário
 main_menu.btn.leaderboards,Classificação
 main_menu.btn.achievements,Conquistas
-main_menu.btn.settings,Definições
+main_menu.btn.settings,Configurações
 main_menu.btn.about,Sobre
 main_menu.btn.quit,Sair
 main_menu.label.whats_new,O que há de novo
@@ -168,9 +168,9 @@ main_menu.label.whats_new,O que há de novo
 
 campaign.btn.continue,Continuar
 campaign.btn.new,Novo
-campaign.btn.load,Carga
-campaign.saves,Economizar
-campaign.no_saves,Não salva
+campaign.btn.load,Carregar
+campaign.saves,Jogos salvos
+campaign.no_saves,Nenhum jogo salvo
 campaign.btn.tips,Dicas
 campaign.dialogue.cannot_continue,Você não pode continuar esta campanha, ela já está concluída!
 
@@ -196,12 +196,12 @@ campaign.adaptive_ai,IA adaptativa
 campaign.adaptive_ai.tip,Os Corredores da IA melhorariam ou piorariam com o tempo, dependendo de como você está indo
 campaign.weekly_rebalance,Rebalanceamento semanal
 campaign.weekly_rebalance.tip,Uma vez por semana, os pilotos de IA podem obter XP e Cash extras. Adiciona dificuldade.
-campaign.custom_content,Faixas e carros personalizados
-campaign.custom_content.tip,Incluirá faixas e carros construídos por você
-campaign.workshop_content,Faixas de oficina e carros
-campaign.workshop_content.tip,Inclua faixas e carros que você assinou no Steam Workshop
-campaign.allow_heavy_tracks,Permitir trilhas com objetos pesados
-campaign.allow_heavy_tracks.tip,Inclua faixas personalizadas / de oficina com alta densidade de objetos que possam afetar negativamente o desempenho
+campaign.custom_content,Pistas e carros personalizados
+campaign.custom_content.tip,Incluirá pistas e carros construídos por você
+campaign.workshop_content,Pistas de oficina e carros
+campaign.workshop_content.tip,Inclua pistas e carros que você assinou no Steam Workshop
+campaign.allow_heavy_tracks,Permitir pistas com objetos pesados
+campaign.allow_heavy_tracks.tip,Inclua pistas personalizadas / de oficina com alta densidade de objetos que possam afetar negativamente o desempenho
 
 campaign.btn.start_new,Iniciar nova campanha
 
@@ -209,7 +209,7 @@ campaign.btn.start_new,Iniciar nova campanha
 
 custom_race.btn.continue_session,Continuar sessão
 custom_race.btn.new_session,Nova Sessão
-custom_race.btn.random_time_attack,Tempo de ataque rápido
+custom_race.btn.random_time_attack,Time Attack rápido
 custom_race.btn.random_race,Corrida Rápida
 custom_race.btn.random_battle,Batalha Rápida
 
@@ -221,10 +221,10 @@ editors_mods.btn.mod_manager,Gerenciador de Mods
 
 # Main Menu => Mod Manager
 
-mods.section.tracks,Faixas inscritas
+mods.section.tracks,Pistas inscritas
 mods.section.cars,Carros Inscritos
 mods.btn.open_workshop,Procurar na oficina
-mods.btn.manage_tracks,Faixas
+mods.btn.manage_tracks,Pistas
 mods.btn.manage_cars,Carros
 mods.btn.reload,Recarregar Mods
 mods.btn.unsubscribe.tip,Retirar
@@ -232,44 +232,44 @@ mods.btn.view_online.tip,Ver online
 
 # Leaderboards
 
-leaderboard.time_attack.title,Time Attack <br> Entre os melhores
-leaderboard.type,Tipo de Cabeçalho
+leaderboard.time_attack.title,Time Attack<br>Classificação
+leaderboard.type,Tipo de classificação
 leaderboard.type.friends,Amigos
 leaderboard.type.global,Global
-leaderboard.top100,Os 100 melhores
-leaderboard.daily_challenge,Desafio diário <br> Entre os melhores
+leaderboard.top100,Top 100
+leaderboard.daily_challenge,Desafio diário<br>Classificação
 leaderboard.daily_challenge.time_out,Tempo esgotado!
 leaderboard.daily_challenge.lap_attempts,Tentativas de volta
 leaderboard.daily_challenge.ends_in,Termina em
 leaderboard.daily_challenge.grace_period,Período de carência
-leaderboard.daily_challenge.ended_minutes_ago,Terminou em {0:0} minutos.
-leaderboard.daily_challenge.ended_hours_ago,Terminou em {0:0} horas.
-leaderboard.daily_challenge.ended_days_ago,Terminou em {0:0} dias. 
+leaderboard.daily_challenge.ended_minutes_ago, Terminou há {0:0} minutos
+leaderboard.daily_challenge.ended_hours_ago, Terminou há {0:0} horas
+leaderboard.daily_challenge.ended_days_ago, Terminou há {0:0} dias
 leaderboard.day,Dia
-leaderboard.btn.race_now,Corrida Agora
+leaderboard.btn.race_now,Correr agora
 leaderboard.btn.race_now.tip,Corra para definir o tempo da sua volta com a pista e o carro selecionados
 leaderboard.no_score.race_now,Você ainda não definiu uma pontuação. Corra agora para acertar!
-leaderboard.no_steam_connection,A conexão do vapor não está disponível <br><br> Os placares não funcionarão
+leaderboard.no_steam_connection,A conexão com a Steam não está disponível <br><br> Os placares não funcionarão
 leaderboard.btn.time_attack,Contra o tempo
 leaderboard.time_attack.tip,Acompanhe os placares de tempo das voltas. Use "Custom Race" com o modo "Time Attack" para definir o seu.
 leaderboard.refresh.tip,Recarregar pontuações diretamente do Steam
 
 # Leaderboard Names
 
-leaderboard.max_season,Época Máxima
-leaderboard.max_racer_level,Nível Max Racer
+leaderboard.max_season,Temporada máxima
+leaderboard.max_racer_level,Nível máximo do piloto
 leaderboard.people_hit,Pessoas atingidas
-leaderboard.km_driven,KM Driven
+leaderboard.km_driven,KM rodados
 leaderboard.cash_earned,Dinheiro ganho
 leaderboard.xp_gained,XP ganho
-leaderboard.podium_finishes,Acabamentos de pódio
-leaderboard.podium_gold,Podium Gold
-leaderboard.seasons_won,Estações vencidas
-leaderboard.cars_fragged,Carros Fragged
-leaderboard.tracks_created,Faixas criadas
+leaderboard.podium_finishes,Chegadas ao pódio
+leaderboard.podium_gold,Ouro no pódio
+leaderboard.seasons_won,Temporadas vencidas
+leaderboard.cars_fragged,Carros destruídos
+leaderboard.tracks_created,Pistas criadas
 leaderboard.longest_jump,Salto mais longo
 leaderboard.meters_jumped,Metros saltados
-leaderboard.seconds_drifted,Segundos à deriva
+leaderboard.seconds_drifted,Segundos de drift
 
 # Settings
 
@@ -277,7 +277,7 @@ leaderboard.seconds_drifted,Segundos à deriva
 settings.btn.language,Language
 
 settings.btn.video,Vídeo
-settings.btn.visuals,Visuals
+settings.btn.visuals,Visuais
 settings.btn.gameplay,Jogabilidade
 settings.btn.audio,Áudio
 settings.btn.input,Entrada
@@ -289,28 +289,28 @@ settings.video.quality_warning,Esse nível de qualidade pode não ser o ideal pa
 settings.video.resolution_warning,Esta resolução pode não ser ideal para o seu hardware!
 settings.video.vsync_tip,Se você tiver uma interrupção do quadro, desabilitar o VSYNC e definir um limite alto de FPS pode ajudar
 settings.video.quality,Qualidade
-settings.video.quality.performance,atuação
+settings.video.quality.performance,Desempenho
 settings.video.quality.quality,Qualidade
 settings.video.resolution,Resolução
 settings.video.window_mode,Modo janela
 settings.video.window_mode.full_screen_exclusive,Tela inteira (exclusivo)
 settings.video.window_mode.full_screen_window,Tela inteira (janela)
-settings.video.window_mode.windowed,Windowed
+settings.video.window_mode.windowed,Em janela
 # Don't translate this one, just copy
 settings.video.vsync,VSync
-settings.video.vsync.off,Fora
+settings.video.vsync.off,Desligado
 settings.video.vsync.on,Ativado (todos os quadros)
 settings.video.vsync.on_every_2,Ativado (a cada 2 quadros)
 settings.video.fps_limit,Limite de FPS
 settings.video.particle_density,Densidade de partículas
-settings.video.particle_density_tip,Afetará a espessura da fumaça de deriva, poeira de estradas e neve
+settings.video.particle_density_tip,Afetará a espessura da fumaça de drift, poeira de estradas e neve
 settings.video.btn.set_optimal,Definir ótimo
 settings.video.btn.set_optimal_tip,Definirá o nível de resolução e qualidade recomendado para o seu hardware
 
 # Settings -> Visuals
 
-settings.visuals.ui_scale,Escala da interface do usuário
-settings.visuals.ui_scale_tip,Revalorizará a interface do usuário
+settings.visuals.ui_scale,Escala da interface
+settings.visuals.ui_scale_tip,Redimensionará a interface
 settings.visuals.speed_units,Unidades de velocidade
 settings.visuals.show_blood,Mostrar sangue
 settings.visuals.show_racer_names,Mostrar nomes de corredores
@@ -326,9 +326,9 @@ settings.visuals.dynamic_backgrounds.tip,Para campanha e corrida personalizada
 settings.visuals.reduce_particles,Reduzir partículas para visibilidade
 settings.visuals.post_processing,Pós-processamento
 settings.visuals.minimap_size,Tamanho do Minimapa
-settings.visuals.minimap_size.off,Fora
-settings.visuals.minimap_size.regular,Regular
-settings.visuals.minimap_size.large,ampla
+settings.visuals.minimap_size.off,Desligado
+settings.visuals.minimap_size.regular,Normal
+settings.visuals.minimap_size.large,Grande
 settings.visuals.minimap_size.enormous,Enorme
 settings.visuals.minimap_pos,Posição do Minimapa
 settings.visuals.minimap_pos.top_left,Superior esquerdo
@@ -338,13 +338,13 @@ settings.visuals.minimap_pos.right,Direita
 
 # Settings -> Gameplay
 
-settings.gameplay.show_tips,Mostre as dicas
+settings.gameplay.show_tips,Mostrar dicas
 # FOR TRANSLATORS: Please translate as "Show Cutscenes (English Only)"
 settings.gameplay.show_cutscenes,Mostrar cenas
 settings.gameplay.show_speech_bubbles,Mostrar balões de fala
-settings.gameplay.enable_censorship,Palavras de insulto do censor
-settings.gameplay.peds_take_screenshots,Pedestres tirar screenshots
-settings.gameplay.post_to_discord,Publicar na discórdia
+settings.gameplay.enable_censorship,Censurar palavras ofensivas
+settings.gameplay.peds_take_screenshots,Pedestres tiram capturas de tela
+settings.gameplay.post_to_discord,Publicar no Discord
 settings.gameplay.camera_type,Câmera
 settings.gameplay.camera_type.fixed_road,Estrada fixa
 settings.gameplay.camera_type.fixed_car,Carro Fixo
@@ -354,28 +354,28 @@ settings.gameplay.camera_zoom,Zoom da câmera
 settings.gameplay.camera_zoom.near,Perto
 settings.gameplay.camera_zoom.medium,Médio
 settings.gameplay.camera_zoom.far,Longe
-settings.gameplay.speed_autozoom,Speed Autozoom
+settings.gameplay.speed_autozoom,Zoom automático por velocidade
 settings.gameplay.speed_autozoom_tip,Zoom automaticamente dependendo da velocidade do seu carro
 settings.gameplay.camera_shake,Vibração da câmera
 settings.gameplay.camera_shake.full,Cheio
 settings.gameplay.camera_shake.light,Leve
-settings.gameplay.camera_shake.off,Fora
+settings.gameplay.camera_shake.off,Desligado
 settings.gameplay.vibration,Vibração
-settings.gameplay.run_in_background,Executado em segundo plano
-settings.gameplay.auto_lock_mouse,Auto Lock Mouse
+settings.gameplay.run_in_background,Executar em segundo plano
+settings.gameplay.auto_lock_mouse,Travar mouse automaticamente
 settings.gameplay.auto_lock_mouse_tip,Se você possui uma configuração para vários monitores e gosta de realizar várias tarefas, desabilite o bloqueio do mouse. Depois de mudar isso, o jogo requer reinicialização.
 
 # Settings -> Audio
 
 settings.audio.master_volume,Volume principal
-settings.audio.menu_sounds,Menu Sons
-settings.audio.menu_music,Menu Música
-settings.audio.editor_music,Editor de música
-settings.audio.race_music,Race Music
+settings.audio.menu_sounds,Sons do menu
+settings.audio.menu_music,Música do menu
+settings.audio.editor_music,Música do editor
+settings.audio.race_music,Música da corrida
 settings.audio.car_engine,Motor do carro
-settings.audio.tire_skid,Patim do pneu
+settings.audio.tire_skid,Derrapagem dos pneus
 settings.audio.crowd_noise,Ruído da multidão
-settings.audio.sound_fx,Sound FX
+settings.audio.sound_fx,Efeitos sonoros
 settings.audio.btn.reset_to_defaults,Redefinir para padrões
 
 # Settings -> Reset
@@ -384,16 +384,16 @@ settings.reset.btn.full_reset,Redefinição completa
 settings.reset.btn.reset_tips,Redefinir dicas
 
 # FOR TRASLATORS: Be very careful to not change text inside brackets (<br>, <size=50%> and such). It is one long line
-settings.reset.about,A redefinição completa: <br><indent=10%><size=70%><br> - Excluir todas as campanhas <br> - Bloquear todos os carros <br> - Saia do jogo imediatamente <br><indent=0%><size=100%><br> A redefinição completa não excluirá: <br><indent=10%><size=70%><br> - Realizações <br> - Entradas da tabela de classificação <br> - Carros e trilhas personalizados
+settings.reset.about,A redefinição completa: <br><indent=10%><size=70%><br> - Excluir todas as campanhas <br> - Bloquear todos os carros <br> - Saia do jogo imediatamente <br><indent=0%><size=100%><br> A redefinição completa não excluirá: <br><indent=10%><size=70%><br> - Realizações <br> - Entradas da tabela de classificação <br> - Carros e pistas personalizados
 
 # Main Menu button tooltips
 
 main_menu.btn.tooltip.homepage,Página inicial de Kodo Linija
 main_menu.btn.tooltip.newsletter,Boletim do desenvolvedor
 main_menu.btn.tooltip.dev_msg,Uma mensagem do desenvolvedor
-main_menu.btn.tooltip.campaign,Modo de história com faixas geradas aleatoriamente. Jogue para desbloquear carros novos!
+main_menu.btn.tooltip.campaign,Modo de história com pistas geradas aleatoriamente. Jogue para desbloquear carros novos!
 main_menu.btn.tooltip.race,Faça uma corrida rápida, batalha de carros ou vença os tempos de volta de outros pilotos no modo Time Attack
-main_menu.btn.tooltip.editors,Faça o download de faixas e carros fabricados por outros jogadores ou crie e compartilhe
+main_menu.btn.tooltip.editors,Faça o download de pistas e carros fabricados por outros jogadores ou crie e compartilhe
 main_menu.btn.tooltip.daily_challenge,Competir com outros jogadores para obter os melhores tempos diários
 main_menu.btn.tooltip.leaderboards,Glória espera por quem chega ao Top 100
 main_menu.btn.tooltip.achievements,Tenho que pegar todos eles
@@ -432,11 +432,11 @@ version.new_changes,Novas alterações: {0}
 ################################################################################
 
 # Campaign
-campaign.play_time,Tempo de reprodução: {0}
+campaign.play_time,Tempo de jogo: {0}
 
 # Add Racer Menu
 
-new_racer.title,Registrar novo Racer
+new_racer.title,Registrar novo piloto
 new_racer.edit_title,Editar perfil do piloto
 new_racer.racer_name,Nome do corredor
 new_racer.your_name,Seu nome
@@ -446,8 +446,8 @@ new_racer.ai_skill,Habilidade AI
 new_racer.choose_avatar,Escolha Avatar
 new_racer.voice.low,{0:0}% baixo
 new_racer.voice.high,{0:0}% alto
-new_racer.voice.mid,Meados
-new_racer.register,Registro
+new_racer.voice.mid,Médio
+new_racer.register,Registrar
 new_racer.dialogue.name_required,Nome é obrigatório!
 new_racer.dialogue.name_taken,O nome {0} já está sendo usado por outro piloto!
 new_racer.dialogue.confirm_remove,Tem certeza de que deseja remover {0}?
@@ -472,18 +472,18 @@ dash.garage,Garagem
 dash.no_car_warning,Você não tem carro!
 dash.btn.buy_car,Compre um carro
 dash.end_campaign,Finalizar campanha
-dash.end_season,Temporada Final
+dash.end_season,Encerrar temporada
 dash.end_season.tip,Avançar para a próxima temporada
 dash.advance_week,Avançar
 dash.advance_week.tip,Avançar para a próxima semana
 dash.view_season,Ver Temporada
 dash.view_season.tip,Alternar resultados da temporada / semana
 dash.press_x_to_select,Pressione {0} para selecionar
-dash.flip_track_card.tip,Virar o cartão da trilha
+dash.flip_track_card.tip,Virar o cartão da pista
 dash.btn.walk_on_foot,Andar a pé
 dash.btn.walk_on_foot.tip,Participe da corrida como pedestre (perigoso!)
-dash.btn.save_track.tip,Salve a trilha para uso em Custom Races ou Track Editor
-dash.btn.regenerate.tip,Regenera a faixa, se você não gostar da atual
+dash.btn.save_track.tip,Salve a pista para uso em Custom Races ou Track Editor
+dash.btn.regenerate.tip,Regenera a pista, se você não gostar da atual
 # Verb
 dash.btn.do_race,Corrida
 dash.btn.do_retry,Repetir
@@ -505,17 +505,17 @@ dash.week5,Semana 5
 dash.week6,Semana 6
 dash.week7,Semana 7
 
-dash.stage_rewards,Recompensas de palco
+dash.stage_rewards,Recompensas da etapa
 dash.season_rewards,Recompensas da Temporada
 dash.next_season,Próxima temporada
 dash.game_over,Fim de jogo
 dash.buy_freedom,Compre Freedom <br><size=75%> $ {0} </size>
-dash.players,Jogadoras
+dash.players,Jogadores
 # It will be in a button, so could be just "All"
-dash.all_racers,All Racers
+dash.all_racers,Todos os pilotos
 
-dash.maxed_out,Maxed Out
-dash.req_lvl_short,Req lvl: {0}
+dash.maxed_out,No máximo
+dash.req_lvl_short,Nível req.: {0}
 
 dash.tip.add_1_lap,Adicione 1 volta
 dash.tip.add_5_laps,Adicione 5 voltas
@@ -523,7 +523,7 @@ dash.tip.reduce_1_lap,Reduzir em 1 volta
 dash.tip.reduce_5_laps,Reduza em 5 voltas
 
 dash.tip.workshop_item,Item da oficina
-dash.tip.rand_time_attack,Sessão Random Time Attack
+dash.tip.rand_time_attack,Sessão de Time Attack aleatória
 dash.tip.rand_race,Corrida rápida aleatória em local único processualmente gerado
 dash.tip.rand_battle,Batalha aleatória de carros com oponentes de IA em local processualmente gerado
 dash.tip.mark_tips_unseen,Marcará todas as dicas como invisíveis
@@ -541,10 +541,10 @@ dash.tip.car_sprites_white,Ao editar sprites, mantenha o corpo do carro branco. 
 dash.tip.upload_car,Carregar no Steam Workshop. Certifique-se de ter definido a velocidade máxima correta nos parâmetros antes de fazer o upload!
 dash.tip.reload_car,Use isso depois de alterar sprites de carros fora do jogo
 dash.tip.speed_index,Referência para rapidez relativa
-dash.tip.leaderboard_eligible,Esta faixa é elegível para ter classificações
+dash.tip.leaderboard_eligible,Esta pista é elegível para ter classificações
 dash.tip.ghost_replay_available,Ghost Replay está disponível
 dash.tip.add_racer_btn,Adicionar novo piloto (humano ou AI)
-dash.tip.show_track_leaderboards,Mostrar classificações de faixas
+dash.tip.show_track_leaderboards,Mostrar classificações de pistas
 dash.tip.new_race_session,Iniciar uma nova sessão de corrida
 dash.tip.race_weapons,Adicionará zonas de armas ao longo da pista
 dash.tip.0_racers,Remova todos os pilotos, exceto o Player
@@ -556,9 +556,9 @@ dash.tip.rnd_gen_btn,Gerará uma pista de corrida aleatória
 
 dash.set_for_everyone,Definido para todos
 dash.car,Carro
-dash.racers,Racers
-dash.search_for_track,Pesquisar faixa
-dash.randomize_prompt,Clique em "Gerar" <br> Para randomizar algumas faixas
+dash.racers,Pilotos
+dash.search_for_track,Pesquisar pista
+dash.randomize_prompt,Clique em "Gerar" <br> Para randomizar algumas pistas
 dash.race_options,Opções de corrida
 dash.race_mode,Modo Corrida
 dash.demo_mode,Modo de demonstração
@@ -579,30 +579,30 @@ rew.total_pts,Total de pontos
 rew.dmg_taken,Dano recebido
 rew.dmg_given,Dano causado
 rew.unused_nitro,Nitro não utilizado
-rew.corner_cut,Corte de canto
+rew.corner_cut,Corte de curva
 rew.good_photos,Fotos de qualidade tiradas
-rew.close_calls,Fechar chamadas
+rew.close_calls,Por um triz
 rew.survival_bonus,Bônus de Sobrevivência
-rew.place,{0} Local
+rew.place,{0} lugar
 rew.dnf,DNF
 rew.pts,{0} pts
 rew.ch.unknown,Desafio desconhecido
 rew.ch.success,SUCESSO: {0}
 rew.ch.fail,FALHA: {0}
 rew.lethal,Acidentes letais
-rew.most_lethal,A maioria dos acidentes letais
+rew.most_lethal,Mais acidentes letais
 rew.frags,Frags
-rew.jumps,Ramp Jumps
+rew.jumps,Saltos em rampa
 rew.longest_jump,Salto mais longo
-rew.drifts,Desvios
+rew.drifts,Drifts
 # Personal
-rew.longest_drift,Tração mais longa
-rew.most_drifts,A maioria dos desvios
+rew.longest_drift,Drift mais longo
+rew.most_drifts,Mais drifts
 # Among everyone
-rew.most_longest_drift,Desvio mais longo
+rew.most_longest_drift,Drift mais longo de todos
 rew.level_up,Subir de nível
 rew.aero_up,Atualização do Aero desbloqueada
-rew.engine_up,Atualização do mecanismo desbloqueada
+rew.engine_up,Melhoria do motor desbloqueada
 rew.turbo_up,Atualização do Turbo desbloqueada
 rew.gears_up,Atualização de transmissão desbloqueada
 rew.grip_up,Atualização de aderência desbloqueada
@@ -612,13 +612,13 @@ rew.paint_jobs,Novos trabalhos de pintura desbloqueados
 # Car Stats
 
 # Keep these very short! Max 10 characters!
-car.stat.speed_idx,Speed Idx
+car.stat.speed_idx,Índice vel.
 car.stat.top_speed,Velocidade máxima
-car.stat.power,Poder
+car.stat.power,Potência
 car.stat.mass,Massa
 car.stat.health,Saúde
 car.stat.steering,Direção
-car.stat.grip,Firmeza
+car.stat.grip,Aderência
 car.stat.shift_time,Tempo de mudança
 
 # Car Upgrades
@@ -626,11 +626,11 @@ car.stat.shift_time,Tempo de mudança
 # Short version
 car.upgrade.engine,Motor
 car.upgrade.turbo,Turbo
-car.upgrade.gears,Engrenagens
+car.upgrade.gears,Câmbio
 car.upgrade.aero,Aero
 car.upgrade.grip,Pneus
 
-car.upgrade.engine.title,Atualização do mecanismo
+car.upgrade.engine.title,Melhoria do motor
 car.upgrade.turbo.title,Atualização do turbocompressor
 car.upgrade.gears.title,Atualização de transmissão
 car.upgrade.aero.title,Atualização em aerodinâmica
@@ -650,13 +650,13 @@ racer.level,Nível do corredor
 racer.races_attempted,Corridas Tentadas
 racer.races_won,Corridas vencidas
 racer.peds_hit,Pedestres atingidos
-racer.times_drifted,Times Drifted
+racer.times_drifted,Vezes em drift
 
 racer.title.rookie,Novato
 racer.title.semi_pro,Semi-profissional
 racer.title.pro,Profissional
 racer.title.veteran,Veterano
-racer.title.master,mestre
+racer.title.master,Mestre
 racer.title.grand_master,Grão-mestre
 racer.title.legend,Lendário
 racer.title.epic,Épico
@@ -668,8 +668,8 @@ paint.layer1,Camada de tinta 1
 paint.layer2,Camada de tinta 2
 paint.select_pattern,Selecionar Padrão
 paint.change_color,Mudar cor
-paint.rotate_left,Vire à esquerda
-paint.rotate_right,Vire à direita
+paint.rotate_left,Girar à esquerda
+paint.rotate_right,Girar à direita
 paint.zoom_out,Reduzir o zoom
 paint.zoom_in,Mais Zoom
 paint.reduce_opacity,Reduza a opacidade
@@ -680,7 +680,7 @@ paint.open_custom_folder,Pasta Open OS para trabalhos de pintura personalizados
 
 # Pedestrian Mode
 
-ped.close_calls,Fechar chamadas
+ped.close_calls,Por um triz
 ped.photos,Fotos
 ped.good_photos,Boas fotos
 ped.earned_cash,Dinheiro ganho
@@ -689,12 +689,12 @@ ped.earned_cash,Dinheiro ganho
 
 race.paused.by,Pausado por {0}
 race.you_have_a_challenge,Você tem um desafio
-race.btn.exit,Corrida de saída
+race.btn.exit,Sair da corrida
 race.btn.exit_desktop,Sair para a área de trabalho
 race.btn.restart,Reiniciar
 race.btn.photo_mode,Modo Foto
 race.btn.speed_up,Acelerar
-race.btn.end,Corrida Final
+race.btn.end,Encerrar corrida
 race.finished,Corrida terminada
 race.waiting,Aguardando ({0:0} s)
 
@@ -719,37 +719,37 @@ act.Accelerate,Acelerar
 act.Brake,Freio
 act.Pause,Pausa
 act.Camera,Alternar câmera
-act.Handbrake,Travão de mão
+act.Handbrake,Freio de mão
 act.ResetCar,Redefinir carro
 act.Zoom,Alternar zoom
 act.Nitro,Nitro
-act.Fire,Arma de fogo
+act.Fire,Disparar arma
 act.DropWeapon,Soltar Arma
 
-act.EditorZoom,Ampliação
+act.EditorZoom,Zoom
 act.RotateObject,Rodar Objeto
-act.HorizontalPan,Pan Horizontal
-act.VerticalPan,Panela Vertical
+act.HorizontalPan,Deslocamento horizontal
+act.VerticalPan,Deslocamento vertical
 act.PlaceObject,Colocar Objeto
 act.CancelAction,Cancelar ação
 act.Undo,Desfazer
-act.Redo,pronto
-act.CopyModifier,Copiar Editar
-act.DeleteModifier,Excluir edição
+act.Redo,Refazer
+act.CopyModifier,Modificador de cópia
+act.DeleteModifier,Modificador de exclusão
 
 act.Walk,Andar
 act.Turn,Virar
-act.Take Photo,Tirar fotos
-act.Wave,Onda
+act.Take Photo,Tirar foto
+act.Wave,Acenar
 act.FastForward,Avanço rápido
-act.PedZoom,Ampliação
+act.PedZoom,Zoom
 act.PedPause,Pausa
 
 act.MoveHorizontal,Mover na horizontal
 act.MoveVertical,Mover vertical
-act.PhotoZoom,Ampliação
+act.PhotoZoom,Zoom
 act.Rotate,Rodar
-act.PhotoModePhoto,Tirar fotos
+act.PhotoModePhoto,Tirar foto
 act.ToggleTime,Alternar Tempo
 act.ControlTimeScale,Escala de tempo
 act.ToggleUI,Alternar interface do usuário
@@ -760,37 +760,37 @@ act.AdjustMotionSpeed,Velocidade de movimento
 
 tr.file,Arquivo
 tr.file.new,Novo
-tr.file.new.tip,Comece a editar uma nova faixa
-tr.file.open,Aberto
-tr.file.open.tip,Abrir uma faixa salva
-tr.file.save,Salve 
-tr.file.save.tip,Salvar faixa atual
+tr.file.new.tip,Comece a editar uma nova pista
+tr.file.open,Abrir
+tr.file.open.tip,Abrir uma pista salva
+tr.file.save,Salvar
+tr.file.save.tip,Salvar pista atual
 tr.file.undo,Desfazer
-tr.file.redo,pronto
+tr.file.redo,Refazer
 tr.file.share,Compartilhar
-tr.file.share.tip,Carregar a faixa atual no Steam Workshop
+tr.file.share.tip,Carregar a pista atual no Steam Workshop
 tr.file.delete,Excluir
 tr.file.delete.tip,Excluir uma tacha salva (você escolherá qual)
-tr.file.exit,Saída
+tr.file.exit,Sair
 tr.file.exit.tip,Sair para o menu principal
 
-tr.grid,Rede
-tr.grid.toggle,Alternancia
+tr.grid,Grade
+tr.grid.toggle,Alternar
 tr.grid.toggle.tip,Mostrar ou ocultar a grade
 tr.grid.light,Leve
-tr.grid.light.tip,Tornar a grade brilhante (útil em trilhas escuras)
-tr.grid.dark,Sombrio
-tr.grid.dark.tip,Tornar a grade escura (útil em faixas brilhantes)
+tr.grid.light.tip,Tornar a grade brilhante (útil em pistas escuras)
+tr.grid.dark,Escuro
+tr.grid.dark.tip,Tornar a grade escura (útil em pistas brilhantes)
 
 tr.gen,Gerar
 tr.gen.full_circuit,Circuito Completo
-tr.gen.full_circuit.tip,Gere uma curvatura e objetos completos da pista de corrida do circuito. Substituirá a faixa atual.
+tr.gen.full_circuit.tip,Gere uma curvatura e objetos completos da pista de corrida do circuito. Substituirá a pista atual.
 tr.gen.full_open,Estrada aberta completa
-tr.gen.full_open.tip,Gere uma curvatura completa da estrada e objetos. Substituirá a faixa atual.
-tr.gen.circuit,O circuito
-tr.gen.circuit.tip,Gere a curvatura do circuito fechado. Substituirá a faixa atual e excluirá objetos.
+tr.gen.full_open.tip,Gere uma curvatura completa da estrada e objetos. Substituirá a pista atual.
+tr.gen.circuit,Circuito
+tr.gen.circuit.tip,Gere a curvatura do circuito fechado. Substituirá a pista atual e excluirá objetos.
 tr.gen.open,Estrada aberta
-tr.gen.open.tip,Gere a curvatura da estrada aberta. Substituirá a faixa atual e excluirá objetos.
+tr.gen.open.tip,Gere a curvatura da estrada aberta. Substituirá a pista atual e excluirá objetos.
 tr.gen.all_objects,Todos os Objetos
 tr.gen.all_objects.tip,Gere novos objetos. Substituirá todos os objetos existentes.
 tr.gen.object_groups,Grupos de Objetos
@@ -798,11 +798,11 @@ tr.gen.object_groups.tip,Gere grupos de objetos artesanais. Substituirá todos o
 tr.gen.crowd,Multidão
 tr.gen.crowd.tip,Gere multidão. Substituirá todos os existentes.
 tr.gen.forests,Florestas
-tr.gen.forests.tip,Gere florestas. Substituirá todos os existentes. Se usado nas faixas da cidade, removerá todos os quadrados verdes!
+tr.gen.forests.tip,Gere florestas. Substituirá todos os existentes. Se usado nas pistas da cidade, removerá todos os quadrados verdes!
 tr.gen.flowers,Flores
-tr.gen.flowers.tip,Gere flores. Substituirá todos os existentes. Não fará nada nas trilhas da cidade.
+tr.gen.flowers.tip,Gere flores. Substituirá todos os existentes. Não fará nada nas pistas da cidade.
 tr.gen.bushes,Arbustos
-tr.gen.bushes.tip,Gere arbustos. Substituirá todos os existentes. Não fará nada nas trilhas da cidade.
+tr.gen.bushes.tip,Gere arbustos. Substituirá todos os existentes. Não fará nada nas pistas da cidade.
 tr.gen.rocks,Rochas
 tr.gen.rocks.tip,Gere pedras. Substituirá todos os existentes.
 tr.gen.tires,Pneus
@@ -821,9 +821,9 @@ tr.gen.ramps,Rampas
 tr.gen.ramps.tip,Gere rampas. Substituirá todos os existentes.
 
 tr.ground_type,Tipo de solo
-tr.ground_type.grass,Relva
-tr.ground_type.tarmac,Alcatrão
-tr.ground_type.dirt,Sujeira
+tr.ground_type.grass,Grama
+tr.ground_type.tarmac,Asfalto
+tr.ground_type.dirt,Terra
 tr.ground_type.sand,Areia
 tr.ground_type.snow,Neve
 
@@ -832,42 +832,42 @@ tr.ground_detail.none,Nenhum
 tr.ground_detail.none.tip,Remove a camada de detalhes do solo
 tr.ground_detail.shared_tip,Adicionará detalhes do solo. Clique várias vezes para diferentes padrões de mesclagem.
 
-tr.track_type,Tipo de faixa
+tr.track_type,Tipo de pista
 tr.track_type.asphalt,Asfalto
 tr.track_type.gravel,Cascalho
 tr.track_type.snow,Neve
 
-tr.ed_track,Editar faixa
+tr.ed_track,Editar pista
 tr.ed_track.add,Adicionar
-tr.ed_track.add.tip,Clique no chão para adicionar um novo segmento de faixa ao final da faixa. Se a faixa estiver em loop, o início e o fim serão desconectados temporariamente.
-tr.ed_track.split,Dividido
+tr.ed_track.add.tip,Clique no chão para adicionar um novo segmento de pista ao final da pista. Se a pista estiver em loop, o início e o fim serão desconectados temporariamente.
+tr.ed_track.split,Dividir
 tr.ed_track.split.tip,Clique no chão perto da pista para dividi-la em mais segmentos
 tr.ed_track.edit,Editar
-tr.ed_track.edit.tip,Clique e arraste as alças para modificar a curva do caminho da trilha
+tr.ed_track.edit.tip,Clique e arraste as alças para modificar a curva do caminho da pista
 tr.ed_track.delete,Excluir
-tr.ed_track.delete.tip,Clique no identificador para excluir um nó do caminho da trilha
-tr.ed_track.open_close,Abrir fechar
-tr.ed_track.open_close.tip,Clique para alternar o loop da faixa
-tr.ed_track.auto_smooth,Auto Smooth
+tr.ed_track.delete.tip,Clique no identificador para excluir um nó do caminho da pista
+tr.ed_track.open_close,Abrir / Fechar
+tr.ed_track.open_close.tip,Clique para alternar o loop da pista
+tr.ed_track.auto_smooth,Suavização automática
 tr.ed_track.auto_smooth.tip,Suavizará a curva da pista
-tr.ed_track.randomize,Aleatória
-tr.ed_track.randomize.tip,Adicionará curvatura aleatória ao caminho da trilha atual
+tr.ed_track.randomize,Aleatorizar
+tr.ed_track.randomize.tip,Adicionará curvatura aleatória ao caminho da pista atual
 tr.ed_track.sharpen,Afiar
-tr.ed_track.sharpen.tip,Afia alguns ângulos (pode demorar alguns segundos para faixas maiores)
+tr.ed_track.sharpen.tip,Afia alguns ângulos (pode demorar alguns segundos para pistas maiores)
 tr.ed_track.wider,Mais largo
 tr.ed_track.wider.tip,Tornará a pista mais larga
 tr.ed_track.narrower,Mais estreito
-tr.ed_track.narrower.tip,Tornará a faixa mais estreita
+tr.ed_track.narrower.tip,Tornará a pista mais estreita
 tr.ed_track.grow,Crescer
-tr.ed_track.grow.tip,Aumentará a escala da trilha
+tr.ed_track.grow.tip,Aumentará a escala da pista
 tr.ed_track.shrink,Encolher
-tr.ed_track.shrink.tip,Diminuirá a escala da trilha
+tr.ed_track.shrink.tip,Diminuirá a escala da pista
 tr.ed_track.move_start,Mover Início
-tr.ed_track.move_start.tip,Move a posição inicial para o próximo ponto de controle (somente para faixas fechadas)
-tr.ed_track.recenter,Recentes
+tr.ed_track.move_start.tip,Move a posição inicial para o próximo ponto de controle (somente para pistas fechadas)
+tr.ed_track.recenter,Recentralizar
 tr.ed_track.recenter.tip,O rastreamento mais recente e todos os objetos
 tr.ed_track.rotate,Rodar
-tr.ed_track.rotate.tip,Girará a faixa e todos os objetos 45 graus no sentido horário
+tr.ed_track.rotate.tip,Girará a pista e todos os objetos 45 graus no sentido horário
 
 tr.add_obj,Adicionar objetos
 tr.add_obj.group,Grupo de Objetos
@@ -882,14 +882,14 @@ tr.add_obj.cone,Cone
 tr.add_obj.cone.tip,Mantenha pressionado um botão e arraste para colocar uma linha
 tr.add_obj.tire,Pneu
 tr.add_obj.tire.tip,Mantenha pressionado um botão e arraste para colocar uma linha
-tr.add_obj.porta_potty,Bring Potty
+tr.add_obj.porta_potty,Banheiro químico
 tr.add_obj.porta_potty.tip,Derrubar um Porta Potty dá um pouco de Nitro
 tr.add_obj.barrel,Barril
 tr.add_obj.barrel.tip,Os barris têm a chance de explodir quando atingidos em velocidades mais altas
 tr.add_obj.snowman,Boneco de neve
 tr.add_obj.snowman.tip,Destruir um boneco de neve dá um pouco de nitro
 tr.add_obj.street_lamp,Lâmpada de rua
-tr.add_obj.junk_car,Carro de Lixo
+tr.add_obj.junk_car,Carro sucata
 tr.add_obj.hot_dog_truck,Caminhão de cachorro-quente
 tr.add_obj.hot_dog_cart,Carrinho de cachorro-quente
 tr.add_obj.bench,Banco
@@ -897,23 +897,23 @@ tr.add_obj.water_puddle,Poça de água
 tr.add_obj.water_puddle.tip,Um pouco escorregadio
 tr.add_obj.water_pond,Lagoa de água
 tr.add_obj.water_pond.tip,Um pouco escorregadio
-tr.add_obj.ice_patch,Patch de gelo
+tr.add_obj.ice_patch,Placa de gelo
 tr.add_obj.ice_patch.tip,Muito escorregadio
 tr.add_obj.oil_spill,Derramamento de óleo
 tr.add_obj.oil_spill.tip,Muito escorregadio
 tr.add_obj.ramp,Rampa
 tr.add_obj.ramp.tip,Rampa que os carros podem pular. Dá um pequeno impulso.
-tr.add_obj.power_ramp,Power Ramp
+tr.add_obj.power_ramp,Rampa turbo
 tr.add_obj.power_ramp.tip,Rampa elétrica que aumenta a velocidade antes do salto
-tr.add_obj.crop_field,Campo de corte
+tr.add_obj.crop_field,Campo de cultivo
 tr.add_obj.rock,Rocha
-tr.add_obj.desert_rock,Desert Rock
+tr.add_obj.desert_rock,Rocha do deserto
 tr.add_obj.wall,parede
 tr.add_obj.pipe,Tubo
 tr.add_obj.solar_panels,Painéis solares
 tr.add_obj.silo,Silo
 # Thing for retrieving water from the ground
-tr.add_obj.well,Bem
+tr.add_obj.well,Poço
 tr.add_obj.old_hut,Cabana velha
 tr.add_obj.vault,Cofre
 tr.add_obj.house,casa
@@ -923,7 +923,7 @@ tr.add_obj.grass_square.tip,Para plantar árvores e flores em cima do asfalto
 tr.add_obj.bush,arbusto
 tr.add_obj.bush.tip,Arbusto decorativo destrutível
 tr.add_obj.green_tree,Árvore verde
-tr.add_obj.branch_tree,Árvore do ramo
+tr.add_obj.branch_tree,Árvore de galhos
 tr.add_obj.snow_tree,Árvore de neve
 tr.add_obj.flowers_single,Flores
 
@@ -935,37 +935,37 @@ tr.ed_obj.rotate.tip,Clique e arraste um objeto para girá-lo. Mantenha a tecla 
 tr.ed_obj.delete,Excluir
 tr.ed_obj.delete.tip,Clique em um objeto para excluí-lo
 tr.ed_obj.clear_all,Limpar tudo
-tr.ed_obj.clear_all.tip,Excluir todos os objetos na faixa
+tr.ed_obj.clear_all.tip,Excluir todos os objetos na pista
 tr.ed_obj.clear_groups,Limpar grupos
 tr.ed_obj.clear_groups.tip,Limpar grupos de objetos artesanais
-tr.ed_obj.clear_crowd,Multidão clara
+tr.ed_obj.clear_crowd,Limpar multidão
 tr.ed_obj.clear_crowd.tip,Limpar todas as multidões
 tr.ed_obj.clear_forests,Limpar florestas
-tr.ed_obj.clear_forests.tip,Limpe todas as florestas. Se usado nas faixas da cidade, removerá todos os quadrados verdes! Não removerá árvores colocadas individualmente.
-tr.ed_obj.clear_flowers,Clear Flowers
-tr.ed_obj.clear_flowers.tip,Limpar todas as flores. Não fará nada nas trilhas da cidade. Não limpará as flores colocadas individualmente.
+tr.ed_obj.clear_forests.tip,Limpe todas as florestas. Se usado nas pistas da cidade, removerá todos os quadrados verdes! Não removerá árvores colocadas individualmente.
+tr.ed_obj.clear_flowers,Limpar flores
+tr.ed_obj.clear_flowers.tip,Limpar todas as flores. Não fará nada nas pistas da cidade. Não limpará as flores colocadas individualmente.
 tr.ed_obj.clear_bushes,Limpar arbustos
-tr.ed_obj.clear_bushes.tip,Limpe todos os arbustos. Não fará nada nas trilhas da cidade.
-tr.ed_obj.clear_rocks,Clear Rocks
+tr.ed_obj.clear_bushes.tip,Limpe todos os arbustos. Não fará nada nas pistas da cidade.
+tr.ed_obj.clear_rocks,Limpar rochas
 tr.ed_obj.clear_rocks.tip,Limpar todas as rochas
 tr.ed_obj.clear_tires,Limpar pneus
 tr.ed_obj.clear_tires.tip,Limpar todos os pneus
-tr.ed_obj.clear_cones,Cones transparentes
+tr.ed_obj.clear_cones,Limpar cones
 tr.ed_obj.clear_cones.tip,Limpar todos os cones
-tr.ed_obj.clear_walls,Clear Walls
+tr.ed_obj.clear_walls,Limpar muros
 tr.ed_obj.clear_walls.tip,Limpar todas as paredes
-tr.ed_obj.clear_lamps,Clear Lamps
+tr.ed_obj.clear_lamps,Limpar postes
 tr.ed_obj.clear_lamps.tip,Limpar todos os candeeiros de rua
 tr.ed_obj.clear_buildings,Limpar edifícios
 tr.ed_obj.clear_buildings.tip,Limpar todas as casas e edifícios
 tr.ed_obj.clear_puddles,Limpar poças
 tr.ed_obj.clear_puddles.tip,Limpar todas as poças, manchas de gelo e derramamentos de óleo
-tr.ed_obj.clear_ramps,Clear Ramps
+tr.ed_obj.clear_ramps,Limpar rampas
 tr.ed_obj.clear_ramps.tip,Limpar todas as rampas
 
 tr.test_drive,Dirigir
 tr.test_drive_ai,Modo de direção da IA
-tr.help,Socorro
+tr.help,Ajuda
 
 # Car Editor
 
@@ -973,15 +973,15 @@ ced.select_base_car,Selecionar carro base
 ced.select_car,Selecionar carro
 
 ced.new_car,Carro novo
-ced.open_car,Carro Aberto
+ced.open_car,Abrir carro
 ced.download_cars,Download de carros
-ced.exit,Saída
+ced.exit,Sair
 ced.save_car,Salvar Carro
 ced.delete_car,Excluir
 ced.parameters,Parâmetros
 ced.edit_sprites,Editar Sprites
 ced.description,Descrição
-ced.part_positions,Posições da peça
+ced.part_positions,Posições das peças
 ced.sounds,Sons
 ced.modding_guide,Guia de modificação
 ced.share,Compartilhar
@@ -1002,22 +1002,22 @@ ced.mass_kg,Massa do carro (kg)
 ced.mass_kg.tip,Carro leve + alta potência do motor = insanidade. Encontre o equilíbrio certo.
 ced.max_health,Saúde máxima
 ced.label.engine,Motor
-ced.engine_power,Poder do motor
+ced.engine_power,Potência do motor
 ced.engine_power.tip,A sanidade termina em cerca de 500 BHP. Se você pode exceder, isso não significa que você deveria. Ajuste a velocidade máxima depois de editar isso!
-ced.label.handling,Tratamento
+ced.label.handling,Dirigibilidade
 ced.steering_sensitivity,Sensibilidade da direção
 ced.steering_sensitivity.tip,Quão afiada e sensível é a direção. Também depende da massa.
-ced.label.grip,Firmeza
+ced.label.grip,Aderência
 ced.drift_factor,Fator de tração
-ced.drift_factor.tip,Com que facilidade o carro entra em uma deriva quando tem tração. O valor recomendado está entre 0,8 e 0,9.
+ced.drift_factor.tip,Com que facilidade o carro entra em um drift quando tem tração. O valor recomendado está entre 0,8 e 0,9.
 ced.slip_factor,Fator sem tração
-ced.slip_factor.tip,Com que facilidade o carro permanece à deriva quando não há tração. O valor recomendado está entre 0,95 e 0,9999
+ced.slip_factor.tip,Com que facilidade o carro permanece em drift quando não há tração. O valor recomendado está entre 0,95 e 0,9999
 ced.max_sticky_vel,Velocidade máxima de tração lateral
-ced.max_sticky_vel.tip,Quão rápido o carro pode entrar em uma curva sem entrar em uma deriva. O valor recomendado está entre 1 e 1,5.
+ced.max_sticky_vel.tip,Quão rápido o carro pode entrar em uma curva sem entrar em um drift. O valor recomendado está entre 1 e 1,5.
 ced.label.gearbox,Caixa de velocidade
 ced.max_rpm,RPM máximo
 ced.max_rpm.tip,Isso não afetará diretamente o som do motor! Selecione o som apropriado do motor.
-ced.idle_rpm,RPM ocioso
+ced.idle_rpm,RPM em marcha lenta
 ced.shift_time,Tempo de mudança
 ced.shift_time.tip,Quanto tempo leva para as mudanças mudarem
 
@@ -1026,7 +1026,7 @@ ced.sound.engine,Motor
 ced.sound.muffler,Silencioso
 ced.sound.turbo,Turbo
 ced.sound.turbo.tip,O som turbo será ouvido apenas ao dirigir com um carro atualizado
-ced.sound.charger,Supercharger
+ced.sound.charger,Compressor
 ced.sound.charger.tip,O compressor só será ouvido ao dirigir com carro atualizado
 
 ced.label.model,Nome do modelo
@@ -1050,16 +1050,16 @@ ced.label.interior,Interior
 ced.interior_off_x,Deslocamento interior X
 ced.interior_off_y,Deslocamento interior Y
 
-ced.label.collider,Collider
+ced.label.collider,Colisor
 ced.collider_width,Largura do colisor
 ced.collider_height,Altura do colisor
 ced.center_of_mass,Centro de massa
-ced.center_of_mass.tip,Afeta curvas e comportamento nas curvas / deriva
+ced.center_of_mass.tip,Afeta curvas e comportamento nas curvas / drift
 
-ced.label.exhausts,Exaustões
-ced.exhaust_count,Contagem de escape
-ced.exhaust_width,Largura do escape
-ced.exhaust_pos,Posição de escape
+ced.label.exhausts,Escapamentos
+ced.exhaust_count,Quantidade de escapamentos
+ced.exhaust_width,Largura do escapamento
+ced.exhaust_pos,Posição do escapamento
 
 ################################################################################
 
@@ -1226,10 +1226,10 @@ cut.end.gov.4,Adeus, {0}.
 cut.end.gov.5,Adeus.
 
 cut.req.drift.1,Quase esqueci. Você tem que fazer isso de lado para fazer valer a pena!
-cut.req.drift.2,Ah, e por favor, faça isso à deriva, os espectadores gostam tanto.
+cut.req.drift.2,Ah, e por favor, faça isso em drift, os espectadores gostam tanto.
 cut.req.drift.3,E é melhor deslizar enquanto faz isso.
-cut.req.drift.4,Espere, esqueci de lhe contar. Faça isso à deriva, o público adora.
-cut.req.drift.5,E eles me disseram que você tem habilidade, então prove, faça enquanto estiver à deriva.
+cut.req.drift.4,Espere, esqueci de lhe contar. Faça isso em drift, o público adora.
+cut.req.drift.5,E eles me disseram que você tem habilidade, então prove, faça enquanto estiver em drift.
 
 cut.resp.drift.1,Novamente, é impossível vencer dessa maneira!
 # {0} - curse word (crap)
@@ -1474,7 +1474,7 @@ cut.ass.target1.13,Misógino
 # These cannot be deleted, if you can't come up with something unique, just repeat some
 # Plural forms
 cut.ass.target2.1,Hipsters
-cut.ass.target2.2,Dumbasses
+cut.ass.target2.2,Idiotas
 cut.ass.target2.3,Palhaços
 cut.ass.target2.4,Flâmulas
 cut.ass.target2.5,Criadores de conteúdo
@@ -1555,20 +1555,20 @@ cut.hitobj.req.negative.1,Não pressione um único {0}
 # {0} is a number and {1} is a plural noun (cones)
 cut.hitobj.req.negative.2,Não acerte mais que {0} {1}
 # {0} is a number and {1} is a plural noun (cones)
-cut.hitobj.req.positive,Clique em {0} {1}
+cut.hitobj.req.positive,Bata em {0} {1}
 # I.e. Porta Potties Hit, or John Smith hit
 cur.hitobj.req.progress,{0} hit
 
 # Will be used in "Hit 1 cone", or "Do not hit a single cone"
 cut.hitobj.o.traffic_cone,Cone de tráfego
-cut.hitobj.o.porta_potty,Bring Potty
+cut.hitobj.o.porta_potty,Banheiro químico
 cut.hitobj.o.bush,arbusto
 cut.hitobj.o.pedestrian,Pedestre
 cut.hitobj.o.snowman,Boneco de neve
 
 # Will be used in "Hit 2 cones", or "Do not hit more than 2 cones"
 cut.hitobj.o.traffic_cones,Cones de tráfego
-cut.hitobj.o.porta_potties,Porta Potties
+cut.hitobj.o.porta_potties,Banheiros químicos
 cut.hitobj.o.bushes,Arbustos
 cut.hitobj.o.pedestrians,Pedestres
 cut.hitobj.o.snowmen,Bonecos de neve
@@ -1581,7 +1581,7 @@ cut.hitobj.tip.pos,Procure objetos marcados
 cut.rew.short.pts,{0} Pts
 cut.rew.short.next_car,Carro seguinte
 cut.rew.short.aero,Aero +1
-cut.rew.short.engine,Engine +1
+cut.rew.short.engine,Motor +1
 cut.rew.short.gears,Engrenagens +1
 cut.rew.short.turbo,Turbo +1
 cut.rew.short.grip,Aderir +1
@@ -1597,7 +1597,7 @@ cut.pun.short.turbo,Turbo -1
 cut.pun.short.grip,Aderência -1
 
 # Will be used in mid sentence, like: "Hit 4 cones while drifting"
-cut.while_drifting,enquanto à deriva
+cut.while_drifting,enquanto em drift
 
 cut.short.full_throttle,Desafio: aceleração total
 cut.short.tiny_car,Desafio: Carro Minúsculo
@@ -1905,7 +1905,7 @@ cut.fail.3,OK, chega de drama! {0}, a segurança o acompanhará até o freezer! 
 ### Dialogs and in-game messages
 
 # Please check that you are using same terms as main_menu.btn.settings / settings.gameplay, etc
-dial.discord_post_permission,Podemos postar sua pontuação no Bloody Rally Show Discord? <br> O apelido do vapor, o tempo da faixa e a contagem de tentativas serão mostrados. <br> Mude sua escolha a qualquer momento em "Configurações"> "Jogabilidade"> "Publicar na discórdia"
+dial.discord_post_permission,Podemos postar sua pontuação no Bloody Rally Show Discord? <br> O apelido da Steam, o tempo da pista e a contagem de tentativas serão mostrados. <br> Mude sua escolha a qualquer momento em "Configurações"> "Jogabilidade"> "Publicar no Discord"
 dial.time_attack_car_locked,O carro selecionado está trancado. Desbloqueie-o nivelando seu piloto na Campanha primeiro!
 dial.camp.corrupted_save_files,Arquivos de salvamento de campanha corrompidos encontrados: {0}
 dial.camp.load_fail,Falha ao carregar o estado de salvamento: {0} <br> {1}
@@ -1930,7 +1930,7 @@ dial.camp.lucky1.7,Eu fiz uma brincadeira em um de vocês {0}. Esfreguei {1} por
 dial.camp.lucky2.1,O sortudo vencedor é ... {0}! Parabéns, você recebe $ {1}!
 dial.camp.lucky2.2,{0}, venha aqui! Eu lhe darei $ {1}. Não pense que é grátis, é em troca de algumas tarefas futuras.
 dial.camp.lucky2.3,{0}! Aqui está $ {1}! Vá comprar algo legal.
-dial.camp.lucky2.4,{0}! Aqui está $ {1}! Agora bata.
+dial.camp.lucky2.4,{0}! Aqui está ${1}! Agora suma.
 dial.camp.lucky2.5,{0}, pegue $ {1}. Obrigado pelo seu serviço!
 dial.camp.lucky2.6,Eu escolhi {0} para ser o vencedor deste glorioso prêmio em dinheiro de $ {1}. Não gaste tudo em um só lugar!
 dial.camp.lucky2.7,{0} ... Eu não gosto de você, mas ei, pegue este $ {1}. Em troca, pedirei que faça alguns favores. Nada obscuro, eu não!
@@ -1948,8 +1948,8 @@ dial.camp.freedom_not_enough_cash,Sinto muito, você está com pouco dinheiro! V
 dial.camp.exit_confirm,Tem certeza de que deseja sair desta campanha? O progresso será salvo.
 dial.camp.card.no_regen,Você não pode regenerar uma etapa que já está concluída!
 # {0} - some track name. keep the quotes
-dial.camp.card.saved_already,A faixa "{0}" já existe em sua coleção. Quer substituir?
-dial.camp.card.saved,A faixa "{0}" foi adicionada à sua coleção!
+dial.camp.card.saved_already,A pista "{0}" já existe em sua coleção. Quer substituir?
+dial.camp.card.saved,A pista "{0}" foi adicionada à sua coleção!
 dial.camp.card.no_walk_completed,Você não pode andar a pé em uma etapa concluída!
 dial.camp.card.no_walk_special,Você não pode andar a pé na etapa especial!
 # {0} - name
@@ -1958,7 +1958,7 @@ dial.camp.card.go_ped_confirm,Segure seus cavalos, {0}, você não tem carro! Te
 dial.camp.card.some_peds_confirm,Alguns pilotos não têm carro! ({0}). Eles vão entrar na corrida como pedestres. Tudo bem?
 dial.camp.card.some_peds,Alguns pilotos não podem pagar a taxa do palco. Eles entrarão na corrida como pedestres: {0}
 
-dial.paint.no_1k,Você não tem US $ 1000!
+dial.paint.no_1k,Você não tem $1000!
 
 dial.upgrade.not_in_time_attack,O ajuste não pode ser alterado no modo Time Attack
 dial.upgrade.week_over,Não é possível atualizar o carro agora, esta semana acabou! A mecânica já está em movimento.
@@ -2001,7 +2001,7 @@ dial.ed.car_name,Nome do carro
 
 dial.ed.car_sprites_missing,Alguns sprites necessários estão faltando! Por favor, consulte o Guia de modificação do carro e crie esses arquivos: {0}.
 dial.ed.car_sprites_deleted,Você não pode simplesmente excluir arquivos de sprites de carros! Os arquivos obrigatórios ausentes foram substituídos por 1 x 1 pixel transparente: {0}.
-dial.ed.remove_car_name_colon,Remova ":" do nome do modelo do carro!
+dial.ed.remove_car_name_colon,Remova "{0}" do nome do modelo do carro!
 dial.ed.car_name_taken,O nome do modelo "{0}" já está em uso!
 dial.ed.car_too_fast,Os regulamentos de SOFATO não permitem que os carros excedam o Índice de velocidade de {0} antes do ajuste! Este carro tem um índice de velocidade de {1}. Reduza algo nos parâmetros primeiro!
 dial.ed.car_close_confirm,Tem certeza de que deseja fechar o carro? Quaisquer alterações não salvas serão perdidas
@@ -2019,7 +2019,7 @@ dial.ed.car_save_alien_files,Por favor, remova os arquivos que não pertencem ao
 dial.ed.car_share_sprite_warning,AVISO: Se você não modificou os sprites, o carro será rejeitado! <br> Tem certeza de que deseja compartilhá-lo?
 dial.ed.car_name_not_available,O nome do carro não está disponível: {0}. Altere-o e tente salvar novamente.
 
-dial.ed.path_start_open,Não é possível mover a posição inicial para uma faixa aberta!
+dial.ed.path_start_open,Não é possível mover a posição inicial para uma pista aberta!
 
 dial.factory_reset.confirm,Tem certeza de que deseja redefinir?
 
@@ -2034,39 +2034,39 @@ dial.are_you_sure,Você tem certeza?
 dial.race.racers_over_limit,Você não pode ter mais de {0} carros em uma única corrida!
 dial.race.player_remove_confirm,Tem certeza de que deseja remover o Player {0}: {1}?
 dial.race.race_alone,Você não deve dirigir sozinho, a menos que esteja no modo "Time Attack". Adicione alguns oponentes usando os botões "Adicionar jogador", "+1" ou "+10"!
-dial.race.no_track,Selecione primeiro uma faixa!
+dial.race.no_track,Selecione primeiro uma pista!
 
-dial.race.restart_hardcore,É o Modo Hardcore, lembra? Não é necessário reiniciar para você!
+dial.race.restart_hardcore,É o Modo Hardcore, lembra? Nada de reiniciar para você!
 dial.race.restart_dead,Desculpe, não podemos reiniciar a corrida depois que alguém morre. Por favor, aguarde a corrida terminar, e os médicos tentarão fazer o seu trabalho.
 dial.race.restart_ped,Desculpe, os pedestres não têm o direito de reiniciar a corrida!
-dial.race.restart_confirm,Você tem certeza? Reiniciar custará US $ {0}. Agora você tem $ {1}
-dial.race.restart_no_cash,Desculpe, você não pode se inscrever para reiniciar a corrida. Soldado através.
+dial.race.restart_confirm,Você tem certeza? Reiniciar custará ${0}. Agora você tem ${1}
+dial.race.restart_no_cash,Desculpe, você não tem dinheiro para reiniciar a corrida. Aguente firme.
 dial.race.restart_time_attack_confirm,Você tem certeza? Os tempos atuais das voltas serão descartados!
 
 dial.ed.track_exit_confirm,Você tem certeza que quer sair? Quaisquer alterações não salvas serão perdidas!
 dial.ed.track_new_confirm,Você tem certeza? Quaisquer alterações não salvas serão perdidas.
 dial.ed.invalid_objects,Existem {0} objetos muito perto da estrada. Mova ou remova-os e faça um Test Drive antes de tentar salvar novamente.
-dial.ed.enter_track_name,Digite o nome da faixa
-dial.ed.track_name,Nome da faixa
-dial.ed.fix_errors_first,Corrija os erros de validação antes de salvar a faixa!
-dial.ed.share_track_no_steam,Não há conexão com o Steam. Não é possível compartilhar a faixa!
+dial.ed.enter_track_name,Digite o nome da pista
+dial.ed.track_name,Nome da pista
+dial.ed.fix_errors_first,Corrija os erros de validação antes de salvar a pista!
+dial.ed.share_track_no_steam,Não há conexão com o Steam. Não é possível compartilhar a pista!
 dial.ed.track_invalid_share,Verifique essa faixa vermelha na parte superior da tela. Arraste o mouse sobre ele para ver o que está errado.
 dial.ed.lap_before_upload,Tenha calma! Você precisa definir um registro de volta antes de enviá-lo.
-dial.ed.track_remove_colon,Remova {0} do nome da faixa!
-dial.ed.track_name_clash_builtin,Desculpe, escolha outro nome, você não pode sobrescrever uma faixa interna!
-dial.ed.track_overwrite_confirm,A faixa "{0}" já existe. Você deseja sobrescrever isso?
+dial.ed.track_remove_colon,Remova {0} do nome da pista!
+dial.ed.track_name_clash_builtin,Desculpe, escolha outro nome, você não pode sobrescrever uma pista interna!
+dial.ed.track_overwrite_confirm,A pista "{0}" já existe. Você deseja sobrescrever isso?
 dial.ed.track_alien_files,Por favor, remova arquivos extras do diretório mod: {0}
-dial.ed.track_delete_no_undo,Tem certeza de que deseja excluir esta faixa? Não há como desfazer isso!
-dial.ed.track_quit_confirm,Tem certeza de que deseja sair do Editor de trilhas? Alterações não salvas serão perdidas!
+dial.ed.track_delete_no_undo,Tem certeza de que deseja excluir esta pista? Não há como desfazer isso!
+dial.ed.track_quit_confirm,Tem certeza de que deseja sair do Editor de pistas? Alterações não salvas serão perdidas!
 dial.ed.track_last_2_points,Não é possível excluir os dois últimos pontos do caminho!
 dial.ed.loop_autoclose,Parece que você está tentando fechar o loop. Você pode usar a ferramenta "Abrir / Fechar", mas eu a fechei para você desta vez.
 
 dial.on_success,Em caso de sucesso: {0}
 dial.on_fail,Em falha: {0}
 dial.tip,Dica: {0}
-dial.confirm,confirme
+dial.confirm,Confirmar
 dial.confirm_in,Confirmar ({0:0})
-dial.must_do_in_drift,Deve fazê-lo à deriva
+dial.must_do_in_drift,Deve fazê-lo em drift
 
 dial.reset_tutorials.confirm,Tem certeza de que deseja marcar todas as dicas como invisíveis?
 
@@ -2074,14 +2074,14 @@ dial.confirm_exit_to_desktop,Tem certeza de que deseja sair para o Desktop?
 
 dial.car_model_unavailable,Ei, o modelo do carro "{0}" não está mais disponível! Deseja continuar carregando a campanha? Os carros indisponíveis desaparecerão sem reembolso!
 
-msg.track_high_obj_density,Essa faixa possui alta densidade de objetos ({0:0} / 100m). \ NNão será incluída na geração personalizada da campanha por padrão!
-msg.track_high_crowd_density,Essa faixa possui alta densidade de multidões ({0:0} / 100m). \ NNão será incluída na geração personalizada da campanha por padrão!
+msg.track_high_obj_density,Essa pista possui alta densidade de objetos ({0:0} / 100m). \nNão será incluída na geração personalizada da campanha por padrão!
+msg.track_high_crowd_density,Essa pista possui alta densidade de multidões ({0:0} / 100m). \nNão será incluída na geração personalizada da campanha por padrão!
 msg.cheats_leaderboards,LÍDERES DESACTIVADOS! Você usou truques no console do jogo ou experimentos de física. Reinicie o jogo para recuperar o acesso ao placar.
-msg.track_load_failed,A faixa não foi carregada corretamente, está corrompida ou indisponível! Tente novamente ou gere novamente.
+msg.track_load_failed,A pista não foi carregada corretamente, está corrompida ou indisponível! Tente novamente ou gere novamente.
 msg.race_input_restart_warning,AVISO: Alterar os mapeamentos de entrada durante a corrida requer o reinício da corrida para aplicar os efeitos!
 msg.failed_deleting_folder,Falha ao excluir a pasta. Certifique-se de fechar todos os arquivos abertos <br> {0}
 msg.missing_car_model,Está faltando um modelo de carro. ID: {0}. <br> Mod provavelmente não assinado ou carro personalizado excluído.
-msg.missing_controls,Ligações de teclas ausentes
+msg.missing_controls,Teclas não configuradas
 msg.gen.analyzing_road,Analisando a curvatura da estrada
 msg.gen.calculating_lines,Cálculo de linhas de corrida
 msg.gen.checkpoints,Sensores de ponto de verificação da pista de armamento
@@ -2131,7 +2131,7 @@ msg.gen.end.14,Entregando mais espectadores
 msg.gen.end.15,Caldeiras de fixação
 msg.gen.end.16,Entrega de cachorros-quentes
 
-msg.longest_drift,Tração mais longa
+msg.longest_drift,Drift mais longo
 msg.cant_fire_flyers,Não é possível disparar a arma quando o pára-brisa estiver coberto de panfletos!
 msg.cant_fire_no_gun,Não pode disparar arma, não equipado!
 msg.cant_drop_no_gun,Não pode deixar cair a arma, não equipado!
@@ -2143,7 +2143,7 @@ msg.over_50_pct,Acima de 50%
 msg.over_75_pct,Mais de 75%
 msg.jump_completed,Salto concluído
 msg.nitro_boost,Impulso de Nitro
-msg.hit_combo,Hit Combo
+msg.hit_combo,Combo de batidas
 msg.final_lap,ÚLTIMA VOLTA!
 msg.lap_did_not_count,Volta não contou
 msg.wrong_way,Caminho errado!
@@ -2152,7 +2152,7 @@ msg.no_reset_too_often,Você não pode reiniciar seu carro com tanta frequência
 msg.camera_mode,Modo de câmera
 msg.camera_zoom,Zoom da câmera
 msg.ped_cannon_tip,Dirija sobre um pedestre ou aguarde até que o canhão seja recarregado!
-msg.corner_cut,Penalidade de corte de canto
+msg.corner_cut,Penalidade por corte de curva
 msg.get_on_track,VOLTE NA PISTA!
 msg.reset_in,REINICIAR EM {0:0.00} s
 msg.offroad_pen,PENALIDADE FORA DA ESTRADA
@@ -2162,18 +2162,18 @@ msg.corner_cut_forgiven.1,Pena de corte de canto perdoada. Não faça isso de no
 msg.corner_cut_forgiven.2,Pena de corte de canto perdoada. O juiz estava olhando para o outro lado.
 msg.ped_sucked_in_cannon,VOCÊ CHEGOU AO CANHÃO PEDESTRE!
 msg.x_invalid_obj,Existem {0} objetos inválidos
-msg.wasted,DESPERDIÇADO
+msg.wasted,DESTRUÍDO
 
 msg.hard_congrats,Parabéns, você desbloqueou a dificuldade Difícil
 msg.hardcore_congrats,Parabéns, você desbloqueou a dificuldade Hardcore
-msg.no_steam_leaderboard_warn,NENHUMA CONEXÃO AO VAPOR! A entrada no cabeçalho não será salva. Reinicie o jogo ou o cliente Steam para corrigir isso.
+msg.no_steam_leaderboard_warn,NENHUMA CONEXÃO COM A STEAM! A entrada no cabeçalho não será salva. Reinicie o jogo ou o cliente Steam para corrigir isso.
 msg.motion_speed_adj,Ajuste de velocidade de movimento: {0:0.00} x
-msg.time_scale_adj,Escala de tempo: {0:0,00} x
+msg.time_scale_adj,Escala de tempo: {0:0.00} x
 msg.steam_client_photo,Execute o jogo através do Steam Client para tirar uma foto. Você pode usar o software de captura de tela da área de trabalho se não usar o Steam.
 msg.entering_photo_mode,Entrando no modo Foto
 msg.exiting_photo_mode,Saindo do modo Foto
 msg.just_upgraded,{0} acabou de atualizar {1}!
-msg.just_bought,{0} acabei de comprar {1}!
+msg.just_bought,{0} acabou de comprar {1}!
 # Keep this as short as possible, it will be displayed for 5 seconds in a small speech bubble
 msg.tip_available,Pressione {Action.ShowTutorial} para obter uma dica
 
@@ -2187,17 +2187,17 @@ msg.upload_fail,Não foi possível atualizar o placar de líderes. Tentará nova
 
 load.downloading_score,Baixando a pontuação mais próxima da classificação
 load.downloading_ghost_car,Baixando dados do Ghost Car
-load.launching_battle,Lançando Batalha de Carros
-load.launching_race,Corrida de Lançamento
-load.starting_race,Motores de partida
+load.launching_battle,Iniciando Batalha de Carros
+load.launching_race,Iniciando corrida
+load.starting_race,Ligando os motores
 load.checking_mods,Verificando Mods Inscritos
 load.downloading_mod,Fazendo download do Mod: {0} ({1} / {2} bytes)
 load.loaded_mod,Mod carregado: {0}
 load.screenshotting,Captura de tela
-load.gen_rand,Gerando faixa aleatória
-load.track,Carregando faixa
-load.flushing_stats,Estatísticas de descarga
-load.flushing_stats_progress,Estatísticas de liberação ({0} restante)
+load.gen_rand,Gerando pista aleatória
+load.track,Carregando pista
+load.flushing_stats,Salvando estatísticas
+load.flushing_stats_progress,Salvando estatísticas ({0} restantes)
 load.exiting,Saindo
 load.insults,Carregando insultos aleatórios
 load.avatars,Carregando Avatares
@@ -2206,13 +2206,13 @@ load.cars,Carregando carros
 load.workshop_car_tex,Carregando a textura do carro da oficina: {0} / {1}
 load.car_tex,Carregando textura do carro: {0} / {1}
 load.paint_job,Carregando trabalho de pintura: {0}
-load.track_campaign,Carregando a faixa da campanha: {0}
-load.custom_tracks,Carregando arquivos de faixa personalizados
-load.workshop_track,Carregando a trilha da oficina: {0}
-load.workshop_track_missing,A faixa do workshop {0} está ausente, cancelando a inscrição
+load.track_campaign,Carregando a pista da campanha: {0}
+load.custom_tracks,Carregando arquivos de pista personalizados
+load.workshop_track,Carregando a pista da oficina: {0}
+load.workshop_track_missing,A pista do workshop {0} está ausente, cancelando a inscrição
 load.workshop_car,Carregando carro de oficina: {0}
-load.custom_track,Carregando faixa personalizada: {0}
-load.track_x,Carregando faixa: {0}
+load.custom_track,Carregando pista personalizada: {0}
+load.track_x,Carregando pista: {0}
 load.steam_avatar,Carregando o Avatar no Steam: {0}
 load.scene,Carregando {0}
 
@@ -2220,7 +2220,7 @@ scene.race_setup,Configuração da corrida
 scene.race,Corrida
 scene.main_menu,Menu principal
 scene.track_editor,Editor de Pistas
-scene.car_editor,Car Editor
+scene.car_editor,Editor de Carros
 scene.campaign,Campanha
 scene.kickstart,Inicial
 
@@ -2230,7 +2230,7 @@ weapon.saw,Serra
 weapon.nitro_refill,Recarga Nitro
 weapon.shield,Campo de força
 # Tribute to Mad Max, maybe it's possible to keep the reference?
-weapon.mad_fax,Fax Mad
+weapon.mad_fax,Mad Fax
 # It is a robotic steel hedgehog that is rigged with explosives
 weapon.homing_hedgehog,Homing Hedge
 weapon.wrench,Chave inglesa
@@ -2238,7 +2238,7 @@ weapon.nailgun,Pistola de pregos
 # Tribute to Quake
 weapon.railgun,Railgun
 weapon.wrecking_ball,Bola de Demolição
-weapon.grappling_hook,Gancho de agarrar
+weapon.grappling_hook,Gancho
 
 # TUTORIALS
 # Watch out for the <br>, these are new lines. They must not be removed!
@@ -2296,31 +2296,31 @@ tut.car_damage.2,- Carros danificados perdem velocidade máxima <br> - Carros da
 tut.car_reset.head,Redefinindo seu carro
 tut.car_reset.1,- Você se meteu em uma situação ruim? Estamos protegendo você! <br> - Segurar {Action.Brake} fará seu carro dar marcha à ré <br> - Pressione {Action.ResetCar} para reiniciar seu carro na pista
 
-tut.corner_cut.head,Penalidades no Corte de Canto
+tut.corner_cut.head,Penalidades por corte de curva
 tut.corner_cut.1,- Parece que você acabou de cortar uma esquina! <br> - Dependendo do humor do juiz, você pode ser perdoado ou penalizado <br> - Pena leve é uma desaceleração temporária <br> - Pena pesada é reset do carro <br> - A quantidade de cantos permitidos depende do modo de jogo e da dificuldade
 
 tut.custom_race_dash.head,Painel de corrida personalizado
-tut.custom_race_dash.1,- Bem-vindo ao painel Custom Race. Pode parecer esmagador no começo, então aqui está uma ajuda <br> - Se você quiser jogar com seus amigos, use o botão ADD PLAYER <br> - Você também pode adicionar pilotos de IA dessa maneira
+tut.custom_race_dash.1,- Bem-vindo ao painel de Corrida Personalizada. Pode parecer esmagador no começo, então aqui está uma ajuda <br> - Se você quiser jogar com seus amigos, use o botão ADICIONAR JOGADOR <br> - Você também pode adicionar pilotos de IA dessa maneira
 tut.custom_race_dash.2,- Para adicionar oponentes aleatórios de IA rapidamente, use os botões "+1" e "+10" <br> - Você pode correr contra uma tonelada de oponentes de IA ao mesmo tempo! <br> - Para remover todos os outros corredores, clique em "0"
 tut.custom_race_dash.3,- Diferentemente do modo Campanha, aqui você pode escolher as atualizações que deseja <br> - Clique nos ícones das peças para percorrer os níveis de atualização <br> - Você pode configurar atualizações individuais para cada piloto
 tut.custom_race_dash.4,- Existem alguns modos de jogo que você pode escolher <br> - "Corrida" é uma corrida regular contra outros carros <br> - "Time Attack" é para definir os melhores tempos de volta nas tabelas de classificação globais <br> - Em "Car Battle" você tem um limite de tempo e armas. Você não precisa dirigir na pista.
-tut.custom_race_dash.5,- Selecione uma pista na qual deseja correr <br> - Você também pode gerar uma faixa única <br> - Baixe mais faixas do Steam Workshop ou crie suas próprias faixas no Track Editor
+tut.custom_race_dash.5,- Selecione uma pista na qual deseja correr <br> - Você também pode gerar uma pista única <br> - Baixe mais pistas do Steam Workshop ou crie suas próprias pistas no Track Editor
 tut.custom_race_dash.6,- Depois de configurar sua corrida personalizada, clique no botão vermelho no canto inferior esquerdo para iniciar a corrida
 
 tut.time_attack.head,Corrida Personalizada: Time Attack
 tut.time_attack.1,- No modo "Time Attack", as atualizações do carro estão bloqueadas no nível 1
 tut.time_attack.2,- Para visualizar as tabelas de classificação, clique no botão "LÍDERES" na barra superior <br> - Os pilotos de IA não estão disponíveis no modo "Time Attack" <br> - Você pode ter sessões de tela dividida com jogadores humanos
 
-tut.drift.head,À deriva
-tut.drift.1,- Você acabou de executar uma deriva limpa <br> - À deriva é a arte de ir para o lado <br> - A deriva controlada é recompensada com as campanhas Nitro boost e Cash in <br> - O desvio não conta se você sair da pista
-tut.drift.2,- Carros diferentes têm propriedades de deriva diferentes <br> - Diferentes tipos de superfície e condições climáticas têm diferentes propriedades de deriva <br> - O ajuste do carro afeta a deriva
+tut.drift.head,Drift
+tut.drift.1,- Você acabou de fazer um drift limpo <br> - Drift é a arte de andar de lado <br> - O drift controlado é recompensado com Nitro e dinheiro nas campanhas <br> - O drift não conta se você sair da pista
+tut.drift.2,- Carros diferentes têm propriedades de drift diferentes <br> - Diferentes tipos de superfície e condições climáticas têm diferentes propriedades de drift <br> - O ajuste do carro afeta o drift
 
 tut.paint.head,Pintura de carros
 tut.paint.1,- Mude a cor base do carro usando MAIN COLOR <br> - Tenha até duas CAMADAS DE TINTA <br> - Clique na imagem PAINT LAYER para escolher um padrão diferente <br> - Você pode usar imagens personalizadas da camada de tinta
 
-tut.nitro.head,Nitro Boost
+tut.nitro.head,Impulso de Nitro
 tut.nitro.1,- A barra Nitro vermelha mostra seu nível Nitro <br> - Pressione e segure {Action.Nitro} para gravar o Nitro e ir mais rápido <br> - Quanto mais queima, mais eficiente fica
-tut.nitro.2,- A barra Nitro reabastece quando você bate em pedestres, porta potties ou bonecos de neve <br> - A barra Nitro também é recarregada quando você deriva <br> - Você receberá algum dinheiro pelo Nitro não queimado
+tut.nitro.2,- A barra Nitro reabastece quando você bate em pedestres, porta potties ou bonecos de neve <br> - A barra Nitro também é recarregada quando você drift <br> - Você receberá algum dinheiro pelo Nitro não queimado
 
 tut.oil.head,Derramamentos de óleos
 tut.oil.1,- Você acabou de passar por um derramamento de óleo <br> - O óleo deixa seus pneus extremamente escorregadios <br> - Não se preocupe, seus pneus ficarão limpos em breve
@@ -2333,7 +2333,7 @@ tut.ped.3,- Tenha cuidado, ou você pode ser atropelado por um carro <br> - Os c
 tut.nitro_refill.head,Powerup: Recarga Nitro
 tut.nitro_refill.1,- Você acabou de receber um refil Nitro! <br> - É um power-up que reabastece rapidamente sua barra Nitro enquanto você dirige <br> - Quando você recebe essa energização, é aconselhável pressionar {Action.Nitro} para gravar o Nitro enquanto ele continua recarregando
 
-tut.wrench.head,Powerup: Wrench
+tut.wrench.head,Powerup: Chave inglesa
 tut.wrench.1,- Você acabou de receber uma chave inglesa! <br> - A chave inglesa é uma energização que repara seu carro enquanto você dirige <br> - Existem três tipos diferentes de chaves que você pode obter
 tut.wrench.2,- Chave de cobre repara baixa quantidade de danos <br> - Silver Wrench repara danos médios <br> - Golden Wrench repara grande quantidade de dano
 
@@ -2363,7 +2363,7 @@ tut.ramps.head,Rampas e saltos
 tut.ramps.1,- Você acabou de lançar seu carro no ar! <br> - Rampa de madeira sem energia faz você pular
 tut.ramps.2,- A Rampa elétrica faz você pular e dá um impulso! <br> - Rampas não garantem pouso limpo <br> - Você pode empurrar rampas e girá-las para fazer armadilhas para seus oponentes <br> - Os saltos são registrados nas tabelas de classificação, mas apenas no modo Campanha!
 
-tut.track_ed.obj_place.head,Editor de Trilhas: Colocando Objetos
+tut.track_ed.obj_place.head,Editor de Pistas: Colocando Objetos
 tut.track_ed.obj_place.1,- Clique em {Action.PlaceObject} uma vez para colocar o objeto <br> - Mantenha pressionado {Action.PlaceObject} e arraste para colocar uma linha de objetos <br> - Use {Action.RotateObject} para girar o objeto antes de colocá-lo
 
 tut.m2.head,Arma: M2
@@ -2372,14 +2372,14 @@ tut.m2.1,- Você acabou de receber o M2! <br> - M2 é uma poderosa arma baseada 
 tut.mad_fax.head,Arma: Mad Fax
 tut.mad_fax.1,- Você acabou de receber o Mad Fax <br> - Pressione {Action.Fire} para imprimir um monte de spam na cara do seu oponente <br> - Os panfletos grudam nos pára-brisas, obstruindo a visão <br> - Carros com mais panfletos no pára-brisa ficam cada vez mais difíceis de manusear <br> - Se você não gosta de uma arma, sempre pode soltá-la com {Action.DropWeapon}
 
-tut.nailgun.head,Arma: Prego
+tut.nailgun.head,Arma: Pistola de pregos
 tut.nailgun.1,- Você acabou de receber uma Nailgun! <br> - Nailgun é uma arma média de projétil com um bom chute <br> - Pressione {Action.Fire} para atirar nos oponentes à sua frente <br> - Se você não gosta de uma arma, sempre pode soltá-la com {Action.DropWeapon}
 
 tut.ped_cannon.head,Arma: Canhão de Pedestres
 tut.ped_cannon.1,- Você acabou de receber um canhão de pedestres! <br> - É pré-carregado com um pedestre em explosão <br> - Pressione {Action.Fire} para lançar o pedestre em seus oponentes
 tut.ped_cannon.2,- Dirija sobre um pedestre (morto ou vivo) para recarregar o canhão <br> - Ou aguarde 10 segundos até que uma bala de pedestre seja clonada e o canhão se recarregue <br> - Se você não gosta de uma arma, sempre pode soltá-la com {Action.DropWeapon}
 
-tut.railgun.head,Arma: Metralhadora
+tut.railgun.head,Arma: Railgun
 tut.railgun.1,- Você acabou de receber uma Railgun! <br> - Railgun é uma arma lenta, mas poderosa, de projéteis <br> - Pressione {Action.Fire} para atirar nos oponentes à sua frente <br> - Se você não gosta de uma arma, sempre pode soltá-la com {Action.DropWeapon}
 
 tut.saw.head,Arma: Serra
@@ -2388,7 +2388,7 @@ tut.saw.1,- Você acabou de receber uma serra! <br> - É uma arma de contato pr�
 tut.shield.head,Arma: Campo de Força
 tut.shield.1,- Você acabou de receber um campo de força! <br> - Empurra tudo ao seu redor <br> - Ele desviará balas <br> - Se você não gosta de uma arma, sempre pode soltá-la com {Action.DropWeapon}
 
-tut.spikes.head,Arma: Hedge Homing
+tut.spikes.head,Arma: Homing Hedge
 tut.spikes.1,- Você acabou de receber um Homing Hedge! <br> - É um ouriço robótico que pode ser liberado para causar caos <br> - Pressione {Action.Fire} para liberar o Homing Hedge
 tut.spikes.2,- Quando lançado, o Homing Hedge escolherá o seu oponente mais próximo como alvo <br> - Ele vai perseguir e atingir o alvo até ficar sem energia <br> - O Homing Hedge desencadeia uma explosão depois de tocar em um obstáculo ou em um carro
 
@@ -2436,9 +2436,9 @@ race.challenge_target.players,Apenas Jogadores
 race.challenge_target.everyone,Todos
 mission.type.none,Nenhum
 mission.type.assassinate,Assassinar
-mission.type.hit_obj,Objetos atingidos
+mission.type.hit_obj,Atingir objetos
 mission.type.make_sure_car_x_comes_last,Impedir que alguém ganhe
-mission.type.stay_on_track,Permaneça na faixa
+mission.type.stay_on_track,Permaneça na pista
 mission.type.locked_camera,Câmera Bloqueada
 mission.type.take_dmg,Tome dano
 mission.type.finish_xth,Concluir na faixa de posição
@@ -2451,6 +2451,90 @@ mission.type.shield,Campo de força
 mission.type.distribute_spam,Distribuir spam
 mission.type.weaponize,Carro armado
 mission.type.your_car_stolen,Seu carro foi roubado
+campaign.all_races_with_weapons,Todas as corridas com armas
+campaign.all_races_with_weapons.tip,Armas e power-ups em todas as corridas! Extra maluco! Não recomendado para jogadores iniciantes.
+btn.get_full_game,Obter o jogo completo
+prologue.not_available,Não disponível no Prólogo
+prologue.full_features,Obtenha a versão completa de Bloody Rally Show para desbloquear estes recursos:<br>- Modo Campanha ilimitado<br>- Modo Corrida Personalizada para jogar com amigos<br>- Oficina Steam com compartilhamento de carros e pistas<br>- Toneladas de conteúdo da comunidade para usar na Campanha e na Corrida Personalizada<br>- Classificações e Conquistas
+campaign.nitro,Impulso de Nitro
+campaign.nitro.tip,Desativar o Nitro reduzirá o caos
+dial.invalid_name,Remova estes caracteres do nome: {0}
+dial.campaign_stage_file_missing,Não foi possível carregar a etapa, o arquivo da etapa da campanha está faltando (provavelmente houve falha ao gravar no disco, tente virar o cartão da pista e gerar novamente): {0}
+track.seed,Digite a seed 
+track.seed.placeholder,Texto ou número
+btn.save_track,Salvar pista
+campaign.nitro.ai.balance,Equilíbrio de Nitro da IA
+campaign.nitro.ai.balance.tip,Se ativado, os pilotos da IA receberão um pouco mais ou menos nitro dependendo do nível de habilidade. Atenção: desativar isso pode deixar o jogo fácil demais!
+load.waiting_for_players,Aguardando jogadores ({0}/{1})
+load.waiting_for_host,Aguardando o anfitrião
+dial.race.restart_online,Somente o anfitrião pode reiniciar uma corrida online
+msg.online_race_cancelled,A corrida online foi cancelada
 
 main_menu.label.review_steam,review no Steam
 main_menu.label.review_steam.tip,Suas críticas ajudam os desenvolvedores de jogos a sobreviver!
+
+# v2.0.0 online - machine translation, please review
+main_menu.btn.online,Online
+main_menu.btn.tooltip.online,Crie uma corrida para seus amigos, ou entre na deles
+race.menu.online,Menu - a corrida continua
+msg.photo_mode_online,O modo foto não está disponível online
+msg.race_ends_in,A CORRIDA TERMINA EM {0:0}s
+msg.time_up,TEMPO ESGOTADO!
+dial.race.exit_online,Isso encerra a corrida para todos. Tem certeza?
+msg.racer_left,{0} SAIU DA CORRIDA
+msg.online_host_left,O anfitrião saiu do jogo
+msg.online_connection_lost,A conexão com o anfitrião foi perdida
+msg.online_kicked,O anfitrião removeu você do jogo
+msg.online_ready_cleared,O anfitrião mudou a corrida: pressione Pronto de novo
+dial.race.restart_online_host,Isso leva todos de volta à configuração para uma revanche. Tem certeza?
+dash.online.ready,Pronto
+dash.online.cancel_ready,Cancelar Pronto
+dash.online.ready_count,{0}/{1} prontos
+dash.online.starts_in,{0} s
+dash.online.waiting_for_host,Aguardando o anfitrião
+dash.online.race_in_progress,Corrida em andamento
+dash.online.host,Anfitrião
+dash.online.member_ready,Pronto
+dash.online.downloading_cars,Baixando os carros do anfitrião {0}/{1}
+dash.online.waiting_for_downloads,Aguardando downloads
+dash.online.players,Jogadores {0}/{1}
+msg.online_cars_failed,{0} carros do anfitrião não puderam ser baixados: aparecem como outros carros
+dash.invite_friends,Convidar amigos
+dash.tip.invite_friends,Convidar amigos para este jogo
+dash.leave,Sair
+dial.online.leave,Sair do jogo online?
+dial.online.leave_host,Se você sair, o jogo acaba para todos. Tem certeza?
+dial.online.kick,Remover {0} do jogo?
+dial.online.invite_port,Amigos na sua rede podem entrar usando o endereço deste computador e esta porta:
+dial.online.invite_unavailable,O Painel Steam não está disponível: convide seus amigos pela Steam
+dial.race.race_alone_online,Você não deve dirigir sozinho. Convide um amigo, ou adicione oponentes com os botões "+1" ou "+10"!
+online.btn.host,Criar um jogo
+online.btn.host_lan,Criar na rede local
+online.btn.join_address,Entrar por endereço
+online.join_address,Entrar no jogo neste endereço:
+online.join_address.placeholder,endereço:porta
+online.hosting,Criando o jogo...
+online.joining,Entrando em {0}...
+online.joining_friend,Entrando no jogo do seu amigo...
+online.friend_game.asking,consultando a Steam
+online.friend_game.other_version,versão {0}
+online.friend_game.full,cheio
+online.steam_not_running,A Steam não está aberta
+online.no_friend_games,Nenhum amigo está jogando online agora
+dial.online.bad_address,Não é possível entrar em "{0}": digite o endereço e a porta do anfitrião, como 192.168.1.20:26860
+msg.online_connect_failed,Não foi possível conectar ao jogo
+msg.online_full,O jogo está cheio
+msg.online_version,O anfitrião usa a versão {0}, você usa a {1}
+msg.online_other_version,O anfitrião usa outra versão do jogo
+msg.online_host_failed,Não foi possível criar o jogo online
+dash.chat,Chat
+dash.chat.placeholder,Digite uma mensagem e pressione Enter
+dash.chat.joined,{0} entrou
+dash.chat.left,{0} saiu
+dash.online.ping,{0} ms
+online.friend_game,{0} ({1}/{2})
+online.friend_game.not_joinable,{0}: {1}
+
+# v2.0.0 rubber banding setting - machine translation, please review
+settings.gameplay.rubber_banding,Efeito elástico
+settings.gameplay.rubber_banding_tip,Adversários mais fracos diminuem a velocidade quando estão muito à sua frente e aceleram quando estão muito atrás. Desative para enfrentar cada adversário no seu ritmo real.

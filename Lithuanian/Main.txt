@@ -180,7 +180,7 @@ campaign.difficulty.normal,Vidutiniškas
 campaign.difficulty.hard,Sunkus
 campaign.difficulty.hardcore,Neįmanomas
 campaign.difficulty.locked.tip,Reikalingas lenktynininko lygis: {0}
-campaign.difficulty.dialogue.locked,The level of difficulty you have selected is locked. Reach racer level {0} in easier difficulty to unlock it.
+campaign.difficulty.dialogue.locked,Pasirinktas sunkumo lygis užrakintas. Pasiek {0} lenktynininko lygį lengvesniame sunkume, kad jį atrakintum.
 
 campaign.name,Kampanijos Pavadinimas
 
@@ -732,8 +732,8 @@ act.HorizontalPan,Horizontalus Stūmimas
 act.VerticalPan,Vertikalus Stūmimas
 act.PlaceObject,Dėti Objektą
 act.CancelAction,Nutraukti Veiksmą
-act.Undo,Undo
-act.Redo,Redo
+act.Undo,Atšaukti
+act.Redo,Pakartoti
 act.CopyModifier,Kopijavimo Modifajeris
 act.DeleteModifier,Trynimo Modifajeris
 
@@ -765,8 +765,8 @@ tr.file.open,Atidaryti
 tr.file.open.tip,Atidaryti išsaugotą trasą
 tr.file.save,Išsaugoti
 tr.file.save.tip,Išsaugoti trasą
-tr.file.undo,Undo
-tr.file.redo,Redo
+tr.file.undo,Atšaukti
+tr.file.redo,Pakartoti
 tr.file.share,Dalintis
 tr.file.share.tip,Įkelti šią trasą į Steam Workshop
 tr.file.delete,Trinti
@@ -796,7 +796,7 @@ tr.gen.all_objects.tip,Generuoti objektus. Perrašys visus esamus.
 tr.gen.object_groups,Objektų Grupės
 tr.gen.object_groups.tip,Generuoti rankom sukurtas objektų grupes. Perrašys visas esamas.
 tr.gen.crowd,Minia
-tr.gen.crowd.tip,Generiuoti minią. Perrašys esamas.
+tr.gen.crowd.tip,Generuoti minią. Perrašys esamas.
 tr.gen.forests,Miškai
 tr.gen.forests.tip,Generuoti miškus. Perrašys visus esamus. Miesto trasose panaikins visus skverus.
 tr.gen.flowers,Gėlės
@@ -1396,7 +1396,7 @@ cut.ass.beg3.1,Yra keletas {0} {1} {2}, {3}
 cut.ass.beg3.2,Kaip čia švelniau išsireikšti. Keletas {0} {1} {2}, {3}
 
 # Endings for singular target
-cut.ass.end1.1,Jo radimosi vieta bus pažymėta tavo borto kompiuteryje lenkynių pradžioje.
+cut.ass.end1.1,Jo radimosi vieta bus pažymėta tavo borto kompiuteryje lenktynių pradžioje.
 # {0} - singular insult (i.e. clown)
 cut.ass.end1.2,Padaryk kad tas {0} dingtų, gerai?
 cut.ass.end1.3,Tegul jis patikrina tavo mašinos dugną.
@@ -1408,7 +1408,7 @@ cut.ass.end1.7,Pravežk jį ant savo kapoto.
 cut.ass.end1.8,Tu juk supranti ko aš norėčiau?
 
 # Endings for two targets
-cut.ass.end2.1,Jų koordinatės bus pažymėtos tavo borto kompiuteryje lenkynių pradžioje.
+cut.ass.end2.1,Jų koordinatės bus pažymėtos tavo borto kompiuteryje lenktynių pradžioje.
 # {0} - plural insult (i.e. clowns)
 cut.ass.end2.2,Padaryk, kad tie du {0} dingtų, gerai?
 cut.ass.end2.3,Tegul jie patikrina tavo mašinos dugną.
@@ -1603,7 +1603,7 @@ cut.short.full_throttle,Iššūkis: Gazas Dugnas
 cut.short.tiny_car,Iššūkis: Maža Mašina
 cut.short.huge_car,Iššūkis: Didelė Mašina
 cut.short.inv_steer,Iššūkis: Atvirkščias Vairas
-cut.short.shield,Iššūkios: Galios Laukas
+cut.short.shield,Iššūkis: Galios Laukas
 cut.short.weaponize,Iššūkis: Visi Ginkluoti
 
 # Will be used in sentence like "Assasinate John Smith"
@@ -2001,7 +2001,7 @@ dial.ed.car_name,Automobilio Pavadinimas
 
 dial.ed.car_sprites_missing,Kai kurie reikalingi spraitai nerasti! Peržiūrėk Auto Modinimo Gidą ir sukurk šiuos failus: {0}.
 dial.ed.car_sprites_deleted,Negali tiesiog ištrinti auto spraitų! Trūkstami reikalingi failai buvo pakeisti į 1x1 permatomą pikselį: {0}.
-dial.ed.remove_car_name_colon,Prašau išimk ":" iš mašinos pavadinimo!
+dial.ed.remove_car_name_colon,Prašau išimk "{0}" iš mašinos pavadinimo!
 dial.ed.car_name_taken,Mašinos pavadinimas "{0}" jau užimtas!
 dial.ed.car_too_fast,SOFACT reikalavimai draudžia viršyti {0} Greičio Indeksą prieš tiuningą! Šios mašinos Greičio Indeksas yra {1}. Sumažink ką nors Parametruose!
 dial.ed.car_close_confirm,Ar tikrai nori uždaryti mašiną? Neišsaugoti pakeitimai pradings
@@ -2037,7 +2037,7 @@ dial.race.race_alone,Neturėtum lenktyniauti vienas, nebent esi "Laiko Ataka" re
 dial.race.no_track,Prašau, pasirink kokią nors trasą!
 
 dial.race.restart_hardcore,Čia juk Neįmanomas Sudėtingumas. Negali perkrauti!
-dial.race.restart_dead,Deja, mes negalime perkrauti lenktynių, to to kai kažkas mirė. Palauk, kol lenktynės pasibaigs, ir medikai atliks savo darbą.
+dial.race.restart_dead,Deja, mes negalime perkrauti lenktynių po to, kai kažkas mirė. Palauk, kol lenktynės pasibaigs, ir medikai atliks savo darbą.
 dial.race.restart_ped,Deja, pėstieji neturi teisės perkrauti lenktynių!
 dial.race.restart_confirm,Ar tikrai? Tai tau kainuos ${0}. Šiuo metu turi ${1}
 dial.race.restart_no_cash,Deja, neturi pakankamai pinigų. Tiesiog atkentėk.
@@ -2056,7 +2056,7 @@ dial.ed.track_remove_colon,Prašau, išimk {0} iš trasos pavadinimo!
 dial.ed.track_name_clash_builtin,Deja, šis trasos pavadinimas rezervuotas, sugalvok kitą
 dial.ed.track_overwrite_confirm,Trasa "{0}" jau egzistuoja. Ar nori ją perrašyti?
 dial.ed.track_alien_files,Prašau, iškelk šiuos failus iš modo katalogo: {0}
-dial.ed.track_delete_no_undo,Ar tikrai nori ištrinti trasą? Atsatyti nebegalėsi!
+dial.ed.track_delete_no_undo,Ar tikrai nori ištrinti trasą? Atstatyti nebegalėsi!
 dial.ed.track_quit_confirm,Ar tikrai nori išeiti iš Trasų Redaktoriaus? Neišsaugoti pakeitimai pradings!
 dial.ed.track_last_2_points,Negaliu ištrinti paskutinių dviejų taškų!
 dial.ed.loop_autoclose,Panašu, kad nori uždaryti ratą. Gali naudoti "Atviras / Uždaras" įrankį, bet šį kartą aš tau ją uždariau.
@@ -2263,7 +2263,7 @@ tut.camp.advance.1,- Sveikinu, Išgyvenai pirmą savaitę<br>- Kai būsi pasiruo
 
 tut.camp.car_unlock.head,Naujas Automobilis
 tut.camp.car_unlock.1,- Tau atsirakino geresnis automobilis, kuriam užtenka pinigų!<br>- Eik į GARAŽĄ, kad jį susirasti
-tut.camp.car_unlock.2,- Choose the best available car you can buy<br>- Click the BUY button to purchase it<br><br>- Consider to PAINT your new car before purchase
+tut.camp.car_unlock.2,- Išsirink geriausią automobilį, kurį gali nupirkti<br>- Spausk PIRKTI mygtuką, kad jį įsigytum<br><br>- Prieš pirkdamas pagalvok apie naujo automobilio DAŽYMĄ
 
 tut.camp.first_car.head,Pirmas Automobilis
 tut.camp.first_car.1,- Dar neturi mašinos, bet turi šiek tiek pinigų<br>- Spausk PIRKTI MAŠINĄ kad patektum į GARAŽĄ
@@ -2300,7 +2300,7 @@ tut.corner_cut.head,Kampų Kirtimo Baudos
 tut.corner_cut.1,- Panašu, kad nukirtai kampą!<br>- Priklausomai nuo to, kokia Teisėjo nuotaika, gali gauti (arba negauti) baudą<br>- Lengva bauda yra laikinas sulėtinimas<br>- Sunki bauda yra mašinos atsatymas<br>- Baudos dydis priklauso nuo sudėtingumo lygio ir žaidimo režimo
 
 tut.custom_race_dash.head,Lenktynių Nustatymai
-tut.custom_race_dash.1,- Sveiki atvykę į Lenktynių Nustatymus. Čia gali pasirodyti visko per daug, tai mes truputį padėsime<br>- Jei nori žaisti su draugais, spausk PRIDĖTI ŽAIDĖJĄ<br>- Tokiu būdu gali priėti ir AI lenktynininkus
+tut.custom_race_dash.1,- Sveiki atvykę į Lenktynių Nustatymus. Čia gali pasirodyti visko per daug, tai mes truputį padėsime<br>- Jei nori žaisti su draugais, spausk PRIDĖTI ŽAIDĖJĄ<br>- Tokiu būdu gali pridėti ir AI lenktynininkus
 tut.custom_race_dash.2,- Kad greitai pridėti AI priešininkų, spausk "+1" arba "+10"<br>- Gali lenktyniauti prieš daubybę AI lenktyninikų vienu metu!<br>- Kad išmesti visus priešininkus, spausk "0"
 tut.custom_race_dash.3,- Skirtingai nei Kampanijoje, čia gali susidėlioti kokius nori patobulinimus<br>- Spausk ant dalies paveikslėlio kad keistum patobulinimo lygį<br>- Įmanoma sukonfigūruoti individualius patobulinimus kiekvienam lenktynininkui
 tut.custom_race_dash.4,- Yra keli žaidimo režimai, iš kurių gali pasirinkti<br> - "Lenktynės" yra praprstos lenktynės prieš kitus automobilius<br>- "Laiko Ataka" naudojama trasos rekordų siekimu pasauliniuose topuose<br>- "Mašinų Kova" tau duos ginklų ir laiko limitą. Važiuoti trasa nereikės.
@@ -2316,7 +2316,7 @@ tut.drift.1,- Tau pavyko atlikti švarų driftą!<br>- Driftas yra menas važiuo
 tut.drift.2,- Skriting automobiliai turi skirtingas drifto savybes<br>- Skirtingi paviršiai ir oro sąlygos įtakoja sukibimą<br>- Tiuningas įtakoja driftą
 
 tut.paint.head,Automobilio Dažymas
-tut.paint.1,- Pasirink bazinę spalvę per PAGRINDINĖ SPALVA<br>- Gali turėti iki dviejų DAŽŲ SLUOKSNIŲ<br>- Spausk ant DAŽŲ SLUOKSNIO paveiksliuko, kad pasirinktum raštą<br>- Gali naudoti raštus iš nuotraukų savo kompiuteryje
+tut.paint.1,- Pasirink bazinę spalvą per PAGRINDINĖ SPALVA<br>- Gali turėti iki dviejų DAŽŲ SLUOKSNIŲ<br>- Spausk ant DAŽŲ SLUOKSNIO paveiksliuko, kad pasirinktum raštą<br>- Gali naudoti raštus iš nuotraukų savo kompiuteryje
 
 tut.nitro.head,Nitro Pagreitinimas
 tut.nitro.1,- Raudona Nitro juosta rodo tavo Nitro lygį<br>- Nuspausk ir laikyk {Action.Nitro} kad deginti Nitro ir gauti pagreitį<br>- Kuo ilgiau dega, tuo efektyviau greitėja
@@ -2376,7 +2376,7 @@ tut.nailgun.head,Ginklas: Vinšaudys
 tut.nailgun.1,- Ką tik gavai Vinšaudį!<br>- Vinšaudys yra vidutinio galingumo ginklas, turintis gerą postūmį<br>- Spausk {Action.Fire} kad apšaudytum priešus<br>- Jei ginklas nepatinka, visada gali išmesti, paspaudęs {Action.DropWeapon}
 
 tut.ped_cannon.head,Ginklas: Pėsčiųjų Patranka
-tut.ped_cannon.1,- Ką tik gavai Pėsčijųjų Patranką<br>- Ji užtaisyta sprogstančiu pėsčiuoju<br>- Spausk {Action.Fire} kad iššauti pėstįjį į priešus
+tut.ped_cannon.1,- Ką tik gavai Pėsčiųjų Patranką<br>- Ji užtaisyta sprogstančiu pėsčiuoju<br>- Spausk {Action.Fire} kad iššauti pėstįjį į priešus
 tut.ped_cannon.2,- Pervažiuok pėstįjį (gyvą arba ne), kad užtaisytum patranką<br>- Arba palauk 10 sekundžių, ir patranka užsitaisys pati<br>- Jei ginklas nepatinka, visada gali išmesti, paspaudęs {Action.DropWeapon}
 
 tut.railgun.head,Ginklas: Reilganas
@@ -2404,7 +2404,7 @@ msg.director_warning.5,Pats Direktorius Nicholas dalyvauja šiose lenktynėse!
 
 msg.chopper_warning.1,Brace Stone blogos nuotaikos. Saugokis sraigtasparnio!
 msg.chopper_warning.2,Žmonės žiūri į sraigtasprainį su baime akyse...
-msg.chopper_warning.3,Saugoskis sraigtasparnio, jis turi ginklą!
+msg.chopper_warning.3,Saugokis sraigtasparnio, jis turi ginklą!
 msg.chopper_warning.4,Brace Stone šiandien nuobodžiauja. Saugoksi sraigtasparnio!
 msg.chopper_warning.5,Tai visiškai nesąžininga, tačiau sraigtasparnis turi ginklą!
 msg.chopper_warning.6,Saugokis, Brace Stone siautėja savo sraigtasparnyje!
@@ -2451,6 +2451,90 @@ mission.type.shield,Jėgos laukas
 mission.type.distribute_spam,Platinti šlamštą
 mission.type.weaponize,Ginkluotas automobilis
 mission.type.your_car_stolen,Jūsų automobilis buvo pavogtas
+campaign.all_races_with_weapons,Visos Lenktynės Su Ginklais
+campaign.all_races_with_weapons.tip,Ginklai ir powerupai visose lenktynėse! Ekstra beprotybė! Nerekomenduojama pradedantiesiems.
+btn.get_full_game,Įsigyti Pilną Žaidimą
+prologue.not_available,Nėra Prologe
+prologue.full_features,Įsigyk pilną Bloody Rally Show versiją ir atrakink šias galimybes:<br>- Neribota Kampanija<br>- Lenktynės su draugais<br>- Steam Workshop su automobilių ir trasų dalinimusi<br>- Gausybė bendruomenės sukurto turinio Kampanijai ir Lenktynėms<br>- Topai ir Pasiekimai
+campaign.nitro,Nitro Pagreitis
+campaign.nitro.tip,Išjungus Nitro bus mažiau chaoso
+dial.invalid_name,Prašau pašalink šiuos simbolius iš pavadinimo: {0}
+dial.campaign_stage_file_missing,Nepavyko įkelti etapo, nerastas kampanijos etapo failas (tikriausiai nepavyko įrašyti į diską, pabandyk apversti trasos kortelę ir sugeneruoti iš naujo): {0}
+track.seed,Įvesk Sėklą 
+track.seed.placeholder,Tekstas arba skaičius
+btn.save_track,Išsaugoti Trasą
+campaign.nitro.ai.balance,AI Nitro Balansas
+campaign.nitro.ai.balance.tip,Įjungus, AI lenktynininkai gaus šiek tiek daugiau arba mažiau nitro, priklausomai nuo jų lygio. Įspėjimas: išjungus žaidimas gali tapti per lengvas!
+load.waiting_for_players,Laukiama žaidėjų ({0}/{1})
+load.waiting_for_host,Laukiama šeimininko
+dial.race.restart_online,Tik šeimininkas gali perkrauti internetines lenktynes
+msg.online_race_cancelled,Internetinės lenktynės atšauktos
 
 main_menu.label.review_steam,Pareviewink Steam'e
 main_menu.label.review_steam.tip,Your reviews help game developers survive!
+
+# v2.0.0 online - machine translation, please review
+main_menu.btn.online,Internetu
+main_menu.btn.tooltip.online,Surenk lenktynes draugams arba prisijunk prie jų
+race.menu.online,Meniu - lenktynės tęsiasi
+msg.photo_mode_online,Žaidžiant internetu foto režimas negalimas
+msg.race_ends_in,LENKTYNĖS BAIGSIS PO {0:0} s
+msg.time_up,LAIKAS BAIGĖSI!
+dial.race.exit_online,Lenktynės baigsis visiems. Ar tikrai?
+msg.racer_left,{0} PALIKO LENKTYNES
+msg.online_host_left,Šeimininkas paliko žaidimą
+msg.online_connection_lost,Ryšys su šeimininku nutrūko
+msg.online_kicked,Šeimininkas pašalino tave iš žaidimo
+msg.online_ready_cleared,Šeimininkas pakeitė lenktynes: paspausk "Pasiruošęs" dar kartą
+dial.race.restart_online_host,Visi grįš į nustatymus revanšui. Ar tikrai?
+dash.online.ready,Pasiruošęs
+dash.online.cancel_ready,Atšaukti pasiruošimą
+dash.online.ready_count,{0}/{1} pasiruošę
+dash.online.starts_in,{0} s
+dash.online.waiting_for_host,Laukiama šeimininko
+dash.online.race_in_progress,Vyksta lenktynės
+dash.online.host,Šeimininkas
+dash.online.member_ready,Pasiruošęs
+dash.online.downloading_cars,Siunčiami šeimininko automobiliai {0}/{1}
+dash.online.waiting_for_downloads,Laukiama atsisiuntimų
+dash.online.players,Žaidėjai {0}/{1}
+msg.online_cars_failed,Nepavyko atsisiųsti šeimininko automobilių: {0}. Jie rodomi kaip kiti automobiliai
+dash.invite_friends,Pakviesti draugus
+dash.tip.invite_friends,Pakviesk draugus į šį žaidimą
+dash.leave,Išeiti
+dial.online.leave,Išeiti iš internetinio žaidimo?
+dial.online.leave_host,Jei išeisi, žaidimas baigsis visiems. Ar tikrai?
+dial.online.kick,Pašalinti {0} iš žaidimo?
+dial.online.invite_port,Draugai tavo tinkle gali prisijungti šio kompiuterio adresu su šiuo prievadu:
+dial.online.invite_unavailable,Steam perdanga nepasiekiama: pakviesk draugus per Steam
+dial.race.race_alone_online,Neturėtum važiuoti vienas. Pakviesk draugą arba pridėk varžovų "+1" ar "+10" mygtukais!
+online.btn.host,Surengti žaidimą
+online.btn.host_lan,Surengti vietiniame tinkle
+online.btn.join_address,Prisijungti pagal adresą
+online.join_address,Prisijungti prie žaidimo šiuo adresu:
+online.join_address.placeholder,adresas:prievadas
+online.hosting,Kuriamas žaidimas...
+online.joining,Jungiamasi prie {0}...
+online.joining_friend,Jungiamasi prie draugo žaidimo...
+online.friend_game.asking,klausiama Steam
+online.friend_game.other_version,versija {0}
+online.friend_game.full,pilnas
+online.steam_not_running,Steam nepaleistas
+online.no_friend_games,Šiuo metu nė vienas draugas nežaidžia internetu
+dial.online.bad_address,Nepavyko prisijungti prie "{0}": įvesk šeimininko adresą ir prievadą, pvz. 192.168.1.20:26860
+msg.online_connect_failed,Nepavyko prisijungti prie žaidimo
+msg.online_full,Žaidimas pilnas
+msg.online_version,Šeimininko versija {0}, tavo {1}
+msg.online_other_version,Šeimininkas žaidžia kita žaidimo versija
+msg.online_host_failed,Nepavyko sukurti internetinio žaidimo
+dash.chat,Pokalbis
+dash.chat.placeholder,Rašyk žinutę ir spausk Enter
+dash.chat.joined,{0} prisijungė
+dash.chat.left,{0} išėjo
+dash.online.ping,{0} ms
+online.friend_game,{0} ({1}/{2})
+online.friend_game.not_joinable,{0}: {1}
+
+# v2.0.0 rubber banding setting - machine translation, please review
+settings.gameplay.rubber_banding,Varžovų tempo derinimas
+settings.gameplay.rubber_banding_tip,Silpnesni varžovai sulėtina, kai yra toli priekyje, ir paspaudžia, kai yra toli gale. Išjunkite, jei norite lenktyniauti su kiekvienu varžovu jo tikruoju tempu.

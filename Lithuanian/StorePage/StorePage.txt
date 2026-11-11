@@ -1,0 +1,67 @@
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamRace.gif[/img]
+
+Bloody Rally Show - tai kovinės lenktynės vaizdu iš viršaus, vykstančios distopiniame realybės šou. Dreifuok, spausk nitro, taranuok ir šaudyk, kad prasiskintum kelią į priekį, linksmink žiūrovus ir pasistenk finiše dar turėti mašiną.
+
+[b]Lenktyniauk su draugais internetu[/b]
+Surenk Lenktynes, pakviesk Steam draugus ir išsiaiškinkit viską trasoje. Žaidimas internetu skirtas tik draugams: nėra viešų kambarių ir žaidėjų parinkimo, žaidi su savo Steam draugais.
+[list]
+[*] Lenktynės arba Mašinų Kova, o tuščias vietas starte užims AI lenktynininkai
+[*] Kiekvienas renkasi savo mašiną, dažus ir patobulinimus
+[*] Pridėk ginklų, misijų, Direktoriaus automobilį ir ugnį iš sraigtasparnio
+[*] Lenktynės pėsčiomis, kurios yra būtent tokia bloga idėja, kaip skamba
+[*] Šeimininko trasos ir Workshop mašinos atkeliauja automatiškai, niekam nieko prenumeruoti nereikia
+[*] Veikia per Steam, nereikia atidarinėti portų ar nuomotis serverių
+[/list]
+
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamDrift.gif[/img]
+
+[b]Lenktynės[/b]
+Fizika pagrįstas valdymas, atsidūręs tarp arkados ir simuliatoriaus: lengva pradėti, sunku išmokti iki galo. Išmok, kaip mašina elgiasi skirtingose dangose, pajausk, kada ji praranda sukibimą, ir sugauk ją anksčiau nei siena.
+[list]
+[*] Begalinis atsitiktinai sugeneruotų trasų kiekis, taip pat rankomis kurtos trasos
+[*] Nitro greitinimas, kuris apdovanoja už tinkamą momentą
+[*] Rampos, šuoliai, balos, tepalo dėmės, ledo plotai ir sprogstančios statinės
+[*] Daiktai, kurie juda, lūžta ir trukdo
+[*] Dienos Lenktynės ir Laiko Ataka prieš kitų žaidėjų vaiduoklius
+[*] Daugybė Topų, kuriuose į viršų veda tik meistriškumas
+[/list]
+
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamFight1.gif[/img]
+
+[b]Mašinų Kovos[/b]
+Naudok ginklus ir mašinos inerciją, kad sunaikintum visus kitus, kol battle royale stiliaus zona vis traukiasi. Arba pridėk Ginklų Zonas į paprastas lenktynes, kai švari pergalė atrodo per lengva.
+
+[b]Kampanija[/b]
+Procedūriškai generuojamos kampanijos su distopine istorija, misijomis ir iššūkiais. Rink XP, kelk lenktynininko lygį, derink ir tobulink mašiną, kad tavo darbdaviai liktų patenkinti.
+[list]
+[*] Žaisk vienas, kooperatyve prie vieno ekrano arba per Steam Remote Play Together
+[*] Geriausių Topų žaidėjų vardai pasirodo kaip AI lenktynininkai
+[*] Pėsčiojo Režime dalyvauk lenktynėse pėsčiomis, fotografuok pravažiuojančias mašinas už pinigus ir pabandyk susimokėti už gydymą
+[/list]
+
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamCreate.gif[/img]
+
+[b]Susikurk pats[/b]
+Kurk trasas ir mašinas tais pačiais žaidimo redaktoriais, kuriais padarytas visas žaidimo turinys. Dalinkis savo kūriniais Steam Workshop ir parsisiųsk tai, ką sukūrė kiti.
+
+[img]{STEAM_APP_IMAGE}/extras/BRSSteamCustomize.gif[/img]
+
+[b]Pritaikyk sau[/b]
+Naudok savo paveikslėlius lenktynininkų avatarams ir mašinų dažams, pridėk detalių sluoksnių ir keisk varžovų vardus kampanijoje arba Lenktynėse. Pavadink juos vardais žmonių, su kuriais turi problemų.
+
+[img]{STEAM_APP_IMAGE}/extras/BRSConsole.gif[/img]
+
+[b]Integruota operacinė sistema[/b]
+Gerai, gerai, tai tik konsolė. Bet gali vykdyti eksperimentus, kurie keičia fiziką, žaidimo logiką ir daro kitus smagius dalykus.
+
+[b]Taip pat yra[/b]
+[list]
+[*] Žaidimas padalintame ekrane iki 4 žaidėjų
+[*] Lenktynės be interneto su iki 100 mašinų
+[*] Įvairaus lygio AI lenktynininkai, kurie kartais iškrečia kvailysčių
+[*] Beveik 50 pasiekimų
+[*] Aukštos kokybės garso takelis su tuzinu pilno ilgio kūrinių
+[*] Nustatymas išjungti kraują, šeimyniškoms sesijoms padalintame ekrane
+[*] Užuominos apie be gliuteno speltos duoną ir kiti blogi juokeliai
+[*] Be DRM! (Žaidimui internetu, Topams ir Workshop reikia Steam)
+[/list]

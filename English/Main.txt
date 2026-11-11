@@ -163,6 +163,7 @@ main_menu.btn.settings,Settings
 main_menu.btn.about,About
 main_menu.btn.quit,Quit
 main_menu.label.whats_new,What's New
+main_menu.btn.online,Online
 
 # Main Menu => Campaign
 
@@ -364,6 +365,8 @@ settings.gameplay.vibration,Vibration
 settings.gameplay.run_in_background,Run In Background
 settings.gameplay.auto_lock_mouse,Auto Lock Mouse
 settings.gameplay.auto_lock_mouse_tip,If you have multi-monitor setup and like to multitask, you may want to disable mouse locking. After changing this, game requires restart.
+settings.gameplay.rubber_banding,Rubber Banding
+settings.gameplay.rubber_banding_tip,Weaker opponents slow down when far ahead of you and press on when far behind. Turn it off to race every opponent at their true pace.
 
 # Settings -> Audio
 
@@ -407,6 +410,7 @@ main_menu.btn.tooltip.quit.6,Click this to self-destruct your computer in 5 seco
 main_menu.btn.tooltip.quit.7,Why do you have this button selected? There are so many other buttons!
 main_menu.btn.tooltip.quit.8,We are holding your cat hostage. If you click this button, we will feed him your lasagna!
 main_menu.btn.tooltip.quit.9,Are you serious? You have a life?
+main_menu.btn.tooltip.online,Host a race for your friends, or join theirs
 
 # About
 
@@ -2471,3 +2475,65 @@ btn.save_track,Save Track
 
 campaign.nitro.ai.balance,AI Nitro Balance
 campaign.nitro.ai.balance.tip,If enabled, AI racers will receive slightly more or less nitro depending on their skill level. Warning, disabling this can make the game too easy!
+load.waiting_for_players,Waiting for players ({0}/{1})
+load.waiting_for_host,Waiting for the host
+dial.race.restart_online,Only the host can restart an online race
+msg.online_race_cancelled,The online race was cancelled
+race.menu.online,Menu - the race goes on
+msg.photo_mode_online,Photo mode is not available online
+msg.race_ends_in,RACE ENDS IN {0:0}s
+msg.time_up,TIME'S UP!
+dial.race.exit_online,This ends the race for everyone. Are you sure?
+msg.racer_left,{0} LEFT THE RACE
+msg.online_host_left,The host left the game
+msg.online_connection_lost,Lost the connection to the host
+msg.online_kicked,The host removed you from the game
+msg.online_ready_cleared,The host changed the race: press Ready again
+dial.race.restart_online_host,This takes everyone back to the setup for a rematch. Are you sure?
+dash.online.ready,Ready
+dash.online.cancel_ready,Cancel Ready
+dash.online.ready_count,{0}/{1} ready
+dash.online.starts_in,{0} s
+dash.online.waiting_for_host,Waiting for the host
+dash.online.race_in_progress,Race in progress
+dash.online.host,Host
+dash.online.ping,{0} ms
+dash.online.member_ready,Ready
+dash.online.downloading_cars,Downloading the host's cars {0}/{1}
+dash.online.waiting_for_downloads,Waiting for downloads
+dash.online.players,Players {0}/{1}
+msg.online_cars_failed,{0} of the host's cars could not be downloaded: they show as other cars
+dash.invite_friends,Invite Friends
+dash.tip.invite_friends,Invite friends to this game
+dash.leave,Leave
+dial.online.leave,Leave the online game?
+dial.online.leave_host,Leaving ends the game for everyone. Are you sure?
+dial.online.kick,Remove {0} from the game?
+dial.online.invite_port,Friends on your network join this computer's address with this port:
+dial.online.invite_unavailable,The Steam overlay is not available: invite your friends from Steam instead
+dial.race.race_alone_online,You shouldn't drive alone. Invite a friend, or add opponents with the "+1" or "+10" buttons!
+online.btn.host,Host a Game
+online.btn.host_lan,Host on LAN
+online.btn.join_address,Join by Address
+online.join_address,Join the game at this address:
+online.join_address.placeholder,address:port
+online.hosting,Creating the game...
+online.joining,Joining {0}...
+online.joining_friend,Joining your friend's game...
+online.friend_game,{0} ({1}/{2})
+online.friend_game.not_joinable,{0}: {1}
+online.friend_game.asking,asking Steam
+online.friend_game.other_version,version {0}
+online.friend_game.full,full
+online.steam_not_running,Steam is not running
+online.no_friend_games,No friend is playing online right now
+dial.online.bad_address,Cannot join "{0}": type the host's address and port, like 192.168.1.20:26860
+msg.online_connect_failed,Could not connect to the game
+msg.online_full,The game is full
+msg.online_version,The host runs version {0}, you run {1}
+msg.online_other_version,The host runs another version of the game
+msg.online_host_failed,Could not create the online game
+dash.chat,Chat
+dash.chat.placeholder,Type a message and press Enter
+dash.chat.joined,{0} joined
+dash.chat.left,{0} left
